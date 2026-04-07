@@ -1,0 +1,46 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "img"
+public_folder: "/img"
+
+locale: "de"
+
+collections:
+  - name: "articles"
+    label: "Artikel"
+    folder: "posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "Kategorie", name: "category", widget: "select", options: ["tactics", "reaction", "transfer"], default: "tactics" }
+      - { label: "Badge", name: "badge", widget: "select", options: [
+          { label: "Taktik-Analyse", value: "Taktik-Analyse" },
+          { label: "Reaktion", value: "Reaktion" },
+          { label: "Gerüchteküche", value: "Gerüchteküche" },
+          { label: "Vorschau", value: "Vorschau" },
+          { label: "Breaking", value: "Breaking" }
+        ]}
+      - { label: "Badge Farbe", name: "badgeColor", widget: "select", options: [
+          { label: "Rot (Taktik)", value: "bt" },
+          { label: "Gold (Reaktion)", value: "brc" },
+          { label: "Grau (Gerüchte)", value: "bx" },
+          { label: "Gold-Rahmen (Vorschau)", value: "bv" }
+        ], default: "bt" }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+      - { label: "Lesezeit", name: "readtime", widget: "string", default: "5 Min." }
+      - { label: "Featured (großer Artikel)", name: "featured", widget: "boolean", default: false }
+      - { label: "Inhalt", name: "body", widget: "markdown" }
+      - { label: "Kurzfassung", name: "excerpt", widget: "text" }
+
+  - name: "ticker"
+    label: "Ticker-Meldungen"
+    folder: "ticker"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Meldung", name: "title", widget: "string" }
+      - { label: "Aktiv", name: "active", widget: "boolean", default: true }
