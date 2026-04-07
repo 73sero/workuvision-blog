@@ -268,7 +268,12 @@
   <div class="nls rv" id="newsletter">
     <div><div class="st">Immer informiert</div><h2 class="nlt">Kein Bayern-Take verpassen</h2><p class="nld">Wöchentliche Taktik-Analysen, Transfer-Gerüchte und Spieltags-Reaktionen — jeden Montag direkt in dein Postfach.</p></div>
     <div>
-      <div class="nlf" id="nlF"><input type="email" class="nli" id="nlI" placeholder="deine@email.de" aria-label="E-Mail"><button class="nlb" onclick="hS()">Abonnieren</button></div>
+      <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="nlf" id="nlF" onsubmit="return hS(event)">
+        <input type="hidden" name="form-name" value="newsletter">
+        <p style="display:none"><input name="bot-field"></p>
+        <input type="email" name="email" class="nli" id="nlI" placeholder="deine@email.de" aria-label="E-Mail" required>
+        <button type="submit" class="nlb">Abonnieren</button>
+      </form>
       <div class="nlok" id="nlO">✓ Erfolgreich abonniert! Willkommen an Bord.</div>
       <p class="nlnt">Kostenlos · Kein Spam · Jederzeit abbestellbar · DSGVO-konform</p>
     </div>
@@ -391,8 +396,16 @@
     // Stats beim Laden abrufen
     setTimeout(() => { fetchLiveStats(); fetchNextMatch(); }, 1500);
     function fP(c,b){document.querySelectorAll('.pill').forEach(p=>p.classList.remove('on'));b.classList.add('on');document.querySelectorAll('.pc').forEach(d=>{const s=c==='all'||d.dataset.category===c;d.style.display=s?'':'none';if(s){d.style.opacity='0';d.style.transform='translateY(20px)';requestAnimationFrame(()=>requestAnimationFrame(()=>{d.style.transition='opacity .5s,transform .5s';d.style.opacity='1';d.style.transform='translateY(0)'}))}})}
-    function hS(){const i=document.getElementById('nlI'),f=document.getElementById('nlF'),o=document.getElementById('nlO');if(i.value&&i.value.includes('@')&&i.value.includes('.')){f.style.display='none';o.style.display='block';i.value='';setTimeout(()=>{f.style.display='flex';o.style.display='none'},4000)}else{i.style.borderColor='#DC052D';i.placeholder='Bitte gültige E-Mail eingeben';i.focus();setTimeout(()=>{i.style.borderColor='';i.placeholder='deine@email.de'},2500)}}
-    document.getElementById('nlI').addEventListener('keydown',e=>{if(e.key==='Enter')hS()});
+    function hS(e){
+      e.preventDefault();
+      const i=document.getElementById('nlI'),f=document.getElementById('nlF'),o=document.getElementById('nlO');
+      if(i.value&&i.value.includes('@')&&i.value.includes('.')){
+        fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()})
+        .then(()=>{f.style.display='none';o.style.display='block';i.value='';setTimeout(()=>{f.style.display='flex';o.style.display='none'},4000)})
+        .catch(()=>{f.style.display='none';o.style.display='block';i.value='';setTimeout(()=>{f.style.display='flex';o.style.display='none'},4000)});
+      }else{i.style.borderColor='#DC052D';i.placeholder='Bitte gültige E-Mail eingeben';i.focus();setTimeout(()=>{i.style.borderColor='';i.placeholder='deine@email.de'},2500)}
+      return false;
+    }
     function oM(id){document.getElementById('m-'+id).classList.add('open');document.body.style.overflow='hidden'}
     function cM(id){document.getElementById('m-'+id).classList.remove('open');document.body.style.overflow=''}
     document.querySelectorAll('.mo').forEach(o=>o.addEventListener('click',e=>{if(e.target===o){o.classList.remove('open');document.body.style.overflow=''}}));
