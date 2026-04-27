@@ -1,0 +1,57 @@
+name: Auto-Update Content
+
+on:
+  schedule:
+    # 6:00, 12:00, 18:00 Uhr deutsche Zeit (UTC = -1h Winter / -2h Sommer)
+    - cron: '0 4,10,16 * * *'
+  workflow_dispatch:  # Manuell auslösbar im GitHub-UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install feedparser anthropic requests
+
+      - name: Update TikTok stats
+        continue-on-error: true
+        run: python scripts/update_tiktok.py
+        env:
+          TIKTOK_HANDLE: workuvision
+
+      - name: Update YouTube videos
+        continue-on-error: true
+        if: env.YT_API_KEY != ''
+        run: python scripts/update_youtube.py
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          YT_HANDLE: workuvision
+
+      - name: Aggregate news (Bayern RSS feeds)
+        continue-on-error: true
+        if: env.ANTHROPIC_API_KEY != ''
+        run: python scripts/aggregate_news.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "Workuvision Bot"
+          git config user.email "bot@workuvision.de"
+          git add content.json
+          if git diff --staged --quiet; then
+            echo "Keine Änderungen — nichts zu committen."
+          else
+            git commit -m "Auto-Update: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
