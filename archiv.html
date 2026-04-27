@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alle Artikel im Workuvision-Blog — FC Bayern München Taktik, Reaktionen und Transfer-News.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://workuvision.de/archiv.html">
+  <title>Artikel-Archiv — Workuvision</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <meta name="theme-color" content="#DC052D">
+  <link rel="preload" href="fonts/Oswald-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Outfit-400.woff2" as="font" type="font/woff2" crossorigin>
+  <style>
+    @font-face{font-family:'Oswald';src:url('fonts/Oswald-400.woff2') format('woff2');font-weight:400;font-display:swap}
+    @font-face{font-family:'Oswald';src:url('fonts/Oswald-600.woff2') format('woff2');font-weight:600;font-display:swap}
+    @font-face{font-family:'Oswald';src:url('fonts/Oswald-700.woff2') format('woff2');font-weight:700;font-display:swap}
+    @font-face{font-family:'Outfit';src:url('fonts/Outfit-300.woff2') format('woff2');font-weight:300;font-display:swap}
+    @font-face{font-family:'Outfit';src:url('fonts/Outfit-400.woff2') format('woff2');font-weight:400;font-display:swap}
+    @font-face{font-family:'Outfit';src:url('fonts/Outfit-600.woff2') format('woff2');font-weight:600;font-display:swap}
+    @font-face{font-family:'Outfit';src:url('fonts/Outfit-700.woff2') format('woff2');font-weight:700;font-display:swap}
+    @font-face{font-family:'JetBrains Mono';src:url('fonts/JetBrainsMono-500.woff2') format('woff2');font-weight:500;font-display:swap}
+    @font-face{font-family:'JetBrains Mono';src:url('fonts/JetBrainsMono-700.woff2') format('woff2');font-weight:700;font-display:swap}
+
+    :root{--red:#DC052D;--red-glow:rgba(220,5,45,0.35);--dark:#060A10;--navy:#0B1622;--white:#F2F2F2;--gray:#9BAEC1;--gold:#D4A843;--glass:rgba(14,25,42,0.55);--gb:rgba(255,255,255,0.06);--fh:'Oswald',Impact,sans-serif;--fm:'JetBrains Mono','SF Mono',monospace;--fb:'Outfit','Inter',system-ui,sans-serif;--mw:1200px}
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{font-family:var(--fb);background:var(--dark);color:var(--white);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}
+
+    .topbar{position:fixed;top:0;left:0;right:0;background:rgba(6,10,16,.92);backdrop-filter:blur(20px);border-bottom:1px solid var(--gb);z-index:100;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center}
+    .topbar a.brand{font-family:var(--fh);font-size:1.2rem;font-weight:700;letter-spacing:4px;text-transform:uppercase;display:flex;align-items:center;gap:.6rem}
+    .topbar img{width:32px;height:32px;border-radius:50%;border:2px solid rgba(220,5,45,.4)}
+    .topbar nav{display:flex;gap:1.8rem}
+    .topbar nav a{font-family:var(--fm);font-size:.6rem;font-weight:500;letter-spacing:2.5px;color:var(--gray);transition:color .3s}
+    .topbar nav a:hover{color:var(--white)}
+
+    main{max-width:var(--mw);margin:0 auto;padding:7rem 2rem 5rem}
+
+    .head-block{margin-bottom:3rem}
+    .head-block .label{font-family:var(--fm);font-size:.55rem;font-weight:700;letter-spacing:5px;text-transform:uppercase;color:var(--red);margin-bottom:.5rem}
+    .head-block h1{font-family:var(--fh);font-size:clamp(2.2rem,5vw,3.5rem);font-weight:700;letter-spacing:1px;text-transform:uppercase}
+    .head-block p{color:var(--gray);font-size:1rem;margin-top:.8rem;max-width:600px}
+
+    .controls{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:2rem;align-items:center}
+    .search-input{flex:1;min-width:240px;padding:.8rem 1.2rem;background:var(--glass);border:1px solid var(--gb);border-radius:4px;color:var(--white);font-family:var(--fb);font-size:.9rem;outline:none;transition:border-color .3s}
+    .search-input::placeholder{color:var(--gray)}
+    .search-input:focus{border-color:var(--red)}
+
+    .pills{display:flex;gap:.5rem;flex-wrap:wrap}
+    .pill{font-family:var(--fm);font-size:.52rem;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:.55rem 1.2rem;border:1px solid rgba(255,255,255,.08);background:transparent;color:var(--gray);cursor:pointer;transition:all .3s;border-radius:3px}
+    .pill:hover,.pill.on{border-color:var(--red);color:var(--white);background:rgba(220,5,45,.08)}
+
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+    @media(max-width:1024px){.grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:600px){.grid{grid-template-columns:1fr}}
+
+    .pc{background:var(--glass);border:1px solid var(--gb);border-radius:6px;overflow:hidden;transition:all .35s;display:block}
+    .pc:hover{transform:translateY(-4px);border-color:rgba(220,5,45,.2);box-shadow:0 18px 40px rgba(0,0,0,.4)}
+    .pt{width:100%;aspect-ratio:16/10;position:relative;overflow:hidden}
+    .pti{width:100%;height:100%;object-fit:cover;filter:brightness(.7) saturate(1.1);transition:transform .6s}
+    .pc:hover .pti{transform:scale(1.04);filter:brightness(.85)}
+    .pcb{position:absolute;top:1rem;left:1rem;font-family:var(--fm);font-size:.44rem;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:.3rem .8rem;border-radius:3px}
+    .bt{background:var(--red);color:white}
+    .brc{background:var(--gold);color:var(--dark)}
+    .bx{background:rgba(255,255,255,.12);color:white;backdrop-filter:blur(8px)}
+    .bv{background:rgba(6,10,16,.75);color:var(--gold);border:1px solid rgba(212,168,67,.25);backdrop-filter:blur(8px)}
+
+    .pb{padding:1.4rem}
+    .pd{font-family:var(--fm);font-size:.48rem;font-weight:500;letter-spacing:2px;color:var(--gray);text-transform:uppercase;margin-bottom:.5rem}
+    .ptt{font-family:var(--fh);font-size:1.1rem;font-weight:600;line-height:1.25;text-transform:uppercase;letter-spacing:.5px;margin-bottom:.6rem;transition:color .3s}
+    .pc:hover .ptt{color:var(--red)}
+    .pe{font-size:.82rem;line-height:1.6;color:var(--gray);font-weight:300}
+
+    .empty{text-align:center;padding:4rem 1rem;color:var(--gray)}
+    .empty h2{font-family:var(--fh);font-size:1.5rem;text-transform:uppercase;letter-spacing:2px;color:var(--white);margin-bottom:1rem}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><img src="img/logo.jpg" alt=""><span>Workuvision</span></a>
+    <nav>
+      <a href="index.html">Start</a>
+      <a href="archiv.html" style="color:var(--white)">Archiv</a>
+      <a href="https://www.tiktok.com/@workuvision" target="_blank" rel="noopener" style="color:var(--red)">TikTok</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="head-block">
+      <div class="label">Alle Beiträge</div>
+      <h1>Artikel-Archiv</h1>
+      <p>Jeder Workuvision-Artikel an einem Ort. Filter, suchen, lesen.</p>
+    </div>
+
+    <div class="controls">
+      <input type="search" class="search-input" id="search" placeholder="Suchen (Spieler, Gegner, Thema…)" aria-label="Artikel suchen">
+      <div class="pills" id="pills">
+        <button class="pill on" data-cat="all">Alle</button>
+        <button class="pill" data-cat="tactics">Taktik</button>
+        <button class="pill" data-cat="reaction">Reaktionen</button>
+        <button class="pill" data-cat="transfer">Transfer</button>
+      </div>
+    </div>
+
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <script>
+    function escHtml(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+    function fmtDate(iso){
+      try {
+        const d = new Date(iso);
+        const m = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
+        return d.getDate() + '. ' + m[d.getMonth()] + ' ' + d.getFullYear();
+      } catch(e) { return iso; }
+    }
+
+    let ALL = [];
+    let activeCat = 'all';
+    let activeQuery = '';
+
+    function render() {
+      const grid = document.getElementById('grid');
+      let list = ALL.slice();
+      if (activeCat !== 'all') list = list.filter(a => a.category === activeCat);
+      if (activeQuery) {
+        const q = activeQuery.toLowerCase();
+        list = list.filter(a =>
+          (a.title || '').toLowerCase().includes(q) ||
+          (a.excerpt || '').toLowerCase().includes(q) ||
+          (a.body || '').toLowerCase().includes(q)
+        );
+      }
+      list.sort((a,b) => (b.date||'').localeCompare(a.date||''));
+      if (!list.length) {
+        grid.innerHTML = '<div class="empty" style="grid-column:1/-1"><h2>Keine Treffer</h2><p>Anderer Suchbegriff oder andere Kategorie?</p></div>';
+        return;
+      }
+      grid.innerHTML = list.map(a => `
+        <a class="pc" href="artikel.html?slug=${encodeURIComponent(a.slug)}">
+          <div class="pt"><img class="pti" src="${escHtml(a.thumbnail)}" alt="${escHtml(a.thumbnailAlt||'')}" loading="lazy"><div class="pcb ${escHtml(a.badgeColor)}">${escHtml(a.badge)}</div></div>
+          <div class="pb"><div class="pd">${fmtDate(a.date)}</div><h3 class="ptt">${escHtml(a.title)}</h3><p class="pe">${escHtml(a.excerpt)}</p></div>
+        </a>`).join('');
+    }
+
+    document.getElementById('pills').addEventListener('click', e => {
+      const btn = e.target.closest('.pill');
+      if (!btn) return;
+      document.querySelectorAll('.pill').forEach(p => p.classList.remove('on'));
+      btn.classList.add('on');
+      activeCat = btn.dataset.cat;
+      render();
+    });
+
+    document.getElementById('search').addEventListener('input', e => {
+      activeQuery = e.target.value.trim();
+      render();
+    });
+
+    fetch('content.json?v=' + Date.now(), {cache: 'no-cache'})
+      .then(r => r.json())
+      .then(data => { ALL = data.articles || []; render(); })
+      .catch(e => {
+        document.getElementById('grid').innerHTML = '<div class="empty" style="grid-column:1/-1"><h2>Fehler beim Laden</h2></div>';
+        console.error(e);
+      });
+  </script>
+</body>
+</html>

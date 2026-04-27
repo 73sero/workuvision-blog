@@ -1,0 +1,119 @@
+{
+  "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
+  "lastUpdated": "2026-04-28T00:00:00Z",
+  "tiktokStats": {
+    "followers": 1153,
+    "likes": "23.4K",
+    "videos": 44
+  },
+  "ticker": [
+    "CL Halbfinale: PSG vs Bayern — Hinspiel in Paris",
+    "4:3 in Mainz — Bayern dreht 0:3 in der zweiten Halbzeit",
+    "35. Meistertitel — Bayern ist Deutscher Meister 2025/26",
+    "Goretzka: Grünes Licht für Wechsel zur AC Milan",
+    "Bayern-Interesse an Anthony Gordon (Newcastle) bestätigt",
+    "Jackson kehrt zu Chelsea zurück — Kaufoption greift nicht",
+    "Olise mit Traumtor gegen Mainz — Kompany lobt Musiala",
+    "Mia san Mia · Workuvision — Bayern-Content ohne Filter"
+  ],
+  "tiktokVideos": [
+    {"thumbnail": "img/thumb1.jpg", "title": "Bayern vs Real Madrid — Meine Einschätzung 🔴⚪", "views": "812", "url": "https://www.tiktok.com/@workuvision"},
+    {"thumbnail": "img/thumb2.jpg", "title": "Verletzungssorgen vor Real Spiel? — News 08", "views": "962", "url": "https://www.tiktok.com/@workuvision"},
+    {"thumbnail": "img/thumb3.jpg", "title": "Wie gut sind sie wirklich? — Entscheidet!", "views": "1.156", "url": "https://www.tiktok.com/@workuvision"},
+    {"thumbnail": "img/thumb4.jpg", "title": "Länderspielpause vorbei — Kane verletzt?", "views": "990", "url": "https://www.tiktok.com/@workuvision"},
+    {"thumbnail": "img/thumb5.jpg", "title": "Verletzungen durch Länderspielpause 🚑🩹", "views": "977", "url": "https://www.tiktok.com/@workuvision"},
+    {"thumbnail": "img/thumb6.jpg", "title": "Kompany zu City? — FC Bayern News 07", "views": "1.620", "url": "https://www.tiktok.com/@workuvision"}
+  ],
+  "articles": [
+    {
+      "slug": "2026-04-28-psg-bayern-cl-halbfinale",
+      "date": "2026-04-28",
+      "category": "tactics",
+      "badge": "Vorschau",
+      "badgeColor": "bv",
+      "thumbnail": "img/stadium1.jpg",
+      "thumbnailAlt": "Stadion",
+      "readtime": "11 Min. Lesezeit",
+      "featured": true,
+      "title": "PSG vs Bayern — Das CL-Halbfinale, das alle wollen",
+      "excerpt": "Nach dem dramatischen 4:3 in Mainz wartet nun der Wahnsinn von Paris. PSG ist laut Luis Enrique „in der besten Form aller Zeiten\".",
+      "body": "Nach dem dramatischen 4:3 in Mainz (von 0:3 zurückgekommen!) wartet nun der Wahnsinn von Paris. PSG ist laut Luis Enrique „in der besten Form aller Zeiten\" — Bayern unter Kompany hat aber gezeigt, dass sie auch dann zurückkommen, wenn alles verloren scheint.\n\nSchiedsrichter Sandro Schärer leitet das Hinspiel. Schlüsselduelle: Olise, der gegen Mainz schon ein Traumtor erzielte, gegen die Pariser Defensive. Musiala ist nach Verletzung wieder in Topform — Kompany lobte ausdrücklich seine wiedergefundene Leichtigkeit. Kane will den ersten CL-Titel seines Lebens.\n\nDas Rückspiel steigt eine Woche später in der Allianz Arena.",
+      "source": "workuvision"
+    },
+    {
+      "slug": "2026-04-28-goretzka-milan-gordon",
+      "date": "2026-04-28",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/transfer.jpg",
+      "thumbnailAlt": "Transfer",
+      "readtime": "8 Min.",
+      "featured": false,
+      "title": "Goretzka-Milan fix? Und Bayern jagt Anthony Gordon",
+      "excerpt": "Laut Gazzetta dello Sport hat Leon Goretzka „grünes Licht\" für einen Wechsel zur AC Milan gegeben.",
+      "body": "Laut Gazzetta dello Sport hat Leon Goretzka „grünes Licht\" für einen Wechsel zur AC Milan gegeben. Dreijahresvertrag mit Option liegt bereit, Allegri hat sich persönlich um den Mittelfeldspieler bemüht.\n\nParallel dazu hat Bayern laut dem belgischen Journalisten Sacha Tavolieri Kontakt zu Newcastles Anthony Gordon (25) aufgenommen — 10 CL-Tore und 6 Premier-League-Treffer in dieser Saison. Auch Liverpool soll im Rennen sein.\n\nEberl bestätigt zudem im ZDF-Sportstudio: Nicolas Jackson kehrt nach der Saison zu Chelsea zurück, die Kaufoption greift nicht.",
+      "source": "workuvision"
+    },
+    {
+      "slug": "2026-04-26-mainz-comeback",
+      "date": "2026-04-26",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/fans.jpg",
+      "thumbnailAlt": "Fans",
+      "readtime": "7 Min.",
+      "featured": false,
+      "title": "0:3 zurück und 4:3 gewonnen — Bayerns Wahnsinn in Mainz",
+      "excerpt": "Was zur Halbzeit nach einer Demütigung aussah, wurde zum vielleicht verrücktesten Bundesliga-Comeback der Saison.",
+      "body": "Was zur Halbzeit nach einer Demütigung aussah, wurde zum vielleicht verrücktesten Bundesliga-Comeback der Saison. 0:3 lag Bayern in Mainz hinten.\n\nDann kam Kompanys Wutrede in der Kabine — Goretzka berichtete später: „Der Trainer war wütend und das zurecht.\" 45 Minuten später stand es 4:3.\n\nErst der zweite 0:3-Comeback-Sieg der Bundesliga-Geschichte für Bayern. Olise mit Traumtor (1,3% xG!), Musiala wieder in Topform. Auswärtsserie weiter ungebrochen.",
+      "source": "workuvision"
+    },
+    {
+      "slug": "2026-04-05-kane-zukunft",
+      "date": "2026-04-05",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/football.jpg",
+      "thumbnailAlt": "Fußball",
+      "readtime": "7 Min.",
+      "featured": false,
+      "title": "Kane-Zukunft: „Spielt nie wieder in der Premier League\"",
+      "excerpt": "Ein englischer Pundit ist sich sicher: Kane bleibt in München.",
+      "body": "Ein englischer Pundit ist sich sicher: Kane bleibt in München. Eberl plant offizielle Vertragsgespräche im Sommer. Aber Hoeneß warnt: „Man weiß nie, ob ein Saudi kommt und viel Geld auf den Tisch legt.\"\n\nKane selbst schweigt — fokussiert auf die 31 Tore und den Golden Boot. Dazu: Intermediäre haben Bayern wegen Vinícius Júnior kontaktiert, falls der Real verlassen will. Unrealistisch, aber das Gerücht kursiert.",
+      "source": "workuvision"
+    },
+    {
+      "slug": "2026-04-04-kompany-maschine",
+      "date": "2026-04-04",
+      "category": "tactics",
+      "badge": "Taktik-Analyse",
+      "badgeColor": "bt",
+      "thumbnail": "img/tactics.jpg",
+      "thumbnailAlt": "Taktik",
+      "readtime": "8 Min.",
+      "featured": false,
+      "title": "100+ Tore in 28 Spielen — Historische Kompany-Maschine",
+      "excerpt": "Erstes Team in der Bundesliga-Geschichte mit 100+ Toren nach 28 Spieltagen.",
+      "body": "Erstes Team in der Bundesliga-Geschichte mit 100+ Toren nach 28 Spieltagen. Die Zahlen: Kane 31 Tore, Díaz 15, Olise 11 + 18 Assists.\n\nKompany vergleicht Olise öffentlich mit De Bruyne: „Er ist bereits so gut wie der beste Spieler, den City je hatte.\" 77% Siegquote unter Kompany in 62 Spielen.\n\nDie taktische DNA: hohes Pressing, schnelle Flügelwechsel, Kane als Gravitationszentrum.",
+      "source": "workuvision"
+    },
+    {
+      "slug": "2026-04-03-torwart-chaos",
+      "date": "2026-04-03",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/night.jpg",
+      "thumbnailAlt": "Stadion Nacht",
+      "readtime": "10 Min.",
+      "featured": false,
+      "title": "Das Torwart-Chaos: Neuer, Nübel, Urbig, Baumann",
+      "excerpt": "Manuel Neuer wird in 4 Wochen 40 — dann entscheidet sein Körper über die Zukunft.",
+      "body": "Manuel Neuer wird in 4 Wochen 40 — dann entscheidet sein Körper über die Zukunft. Klar ist: Er beendet seine Karriere in München, kein Auslandswechsel.\n\nUlreich (37) könnte einen neuen Einjahresvertrag bekommen. Jonas Urbig ist als Nummer 1 der Zukunft geplant, fällt aber aktuell verletzt aus.\n\nAlexander Nübel will zurück, aber sein Gehalt (unterer zweistelliger Millionenbereich) macht es kompliziert — Stuttgart zahlt nur 30%. Und dann ist da noch Baumann als günstige Backup-Option, plus Gerüchte um Daniel Heuer Fernandes vom HSV.\n\nSaid El Mala, der heiße Flügelspieler, wurde intensiv beobachtet, ist aber wohl vom Markt.",
+      "source": "workuvision"
+    }
+  ]
+}

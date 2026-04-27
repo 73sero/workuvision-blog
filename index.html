@@ -139,23 +139,10 @@
 <body>
   <div class="pre" id="pre"><div class="pre-t"><span style="animation-delay:.1s">W</span><span style="animation-delay:.15s">O</span><span style="animation-delay:.2s">R</span><span style="animation-delay:.25s">K</span><span style="animation-delay:.3s">U</span><span style="animation-delay:.4s;color:var(--red)">V</span><span style="animation-delay:.45s">I</span><span style="animation-delay:.5s">S</span><span style="animation-delay:.55s">I</span><span style="animation-delay:.6s">O</span><span style="animation-delay:.65s">N</span></div></div>
 
-  <div class="tick"><div class="tick-t">
-    <span class="tick-i">CL Halbfinale: PSG vs Bayern — Hinspiel in Paris</span>
-    <span class="tick-i">4:3 in Mainz — Bayern dreht 0:3 in der zweiten Halbzeit</span>
-    <span class="tick-i">35. Meistertitel — Bayern ist Deutscher Meister 2025/26</span>
-    <span class="tick-i">Goretzka: Grünes Licht für Wechsel zur AC Milan</span>
-    <span class="tick-i">Bayern-Interesse an Anthony Gordon (Newcastle) bestätigt</span>
-    <span class="tick-i">Jackson kehrt zu Chelsea zurück — Kaufoption greift nicht</span>
-    <span class="tick-i">Olise mit Traumtor gegen Mainz — Kompany lobt Musiala</span>
-    <span class="tick-i">Mia san Mia · Workuvision — Bayern-Content ohne Filter</span>
-    <span class="tick-i">CL Halbfinale: PSG vs Bayern — Hinspiel in Paris</span>
-    <span class="tick-i">4:3 in Mainz — Bayern dreht 0:3 in der zweiten Halbzeit</span>
-    <span class="tick-i">35. Meistertitel — Bayern ist Deutscher Meister 2025/26</span>
-    <span class="tick-i">Goretzka: Grünes Licht für Wechsel zur AC Milan</span>
-    <span class="tick-i">Bayern-Interesse an Anthony Gordon (Newcastle) bestätigt</span>
-    <span class="tick-i">Jackson kehrt zu Chelsea zurück — Kaufoption greift nicht</span>
-    <span class="tick-i">Olise mit Traumtor gegen Mainz — Kompany lobt Musiala</span>
-    <span class="tick-i">Mia san Mia · Workuvision — Bayern-Content ohne Filter</span>
+  <div class="tick"><div class="tick-t" id="ticker-track">
+    <!-- Wird dynamisch aus content.json befüllt; Fallback unten falls JS aus -->
+    <span class="tick-i">Workuvision — FC Bayern Insider · Mia san Mia</span>
+    <span class="tick-i">Workuvision — FC Bayern Insider · Mia san Mia</span>
   </div></div>
 
   <nav class="nav" id="nav">
@@ -221,32 +208,9 @@
   </div></div>
 
   <section class="sec" id="articles">
-    <div class="sh rv"><div><div class="st">Neuester Content</div><h2 class="stl">Aktuelle Artikel</h2></div><a href="#" class="slk">Alle Artikel →</a></div>
-    <div class="pg">
-      <article class="pc ft rv" data-category="tactics">
-        <div class="pt"><img class="pti" src="img/stadium1.jpg" alt="Stadion" loading="lazy"><div class="pto"></div><div class="pcb bv">Vorschau</div></div>
-        <div class="pb"><div class="pd">28. April 2026</div><h3 class="ptt">PSG vs Bayern — Das CL-Halbfinale, das alle wollen</h3><p class="pe">Nach dem dramatischen 4:3 in Mainz (von 0:3 zurückgekommen!) wartet nun der Wahnsinn von Paris. PSG ist laut Luis Enrique „in der besten Form aller Zeiten" — Bayern unter Kompany hat aber gezeigt, dass sie auch dann zurückkommen, wenn alles verloren scheint. Schiedsrichter Sandro Schärer leitet das Hinspiel. Schlüsselduelle: Olise, der gegen Mainz schon ein Traumtor erzielte, gegen die Pariser Defensive. Musiala ist nach Verletzung wieder in Topform — Kompany lobte ausdrücklich seine wiedergefundene Leichtigkeit. Kane will den ersten CL-Titel seines Lebens. Das Rückspiel steigt eine Woche später in der Allianz Arena.</p><div class="pm"><span class="prt">11 Min. Lesezeit</span><div class="pa">→</div></div></div>
-      </article>
-      <article class="pc rv rd1" data-category="transfer">
-        <div class="pt"><img class="pti" src="img/transfer.jpg" alt="Transfer" loading="lazy"><div class="pto"></div><div class="pcb bx">Gerüchteküche</div></div>
-        <div class="pb"><div class="pd">28. April 2026</div><h3 class="ptt">Goretzka-Milan fix? Und Bayern jagt Anthony Gordon</h3><p class="pe">Laut Gazzetta dello Sport hat Leon Goretzka „grünes Licht" für einen Wechsel zur AC Milan gegeben. Dreijahresvertrag mit Option liegt bereit, Allegri hat sich persönlich um den Mittelfeldspieler bemüht. Parallel dazu hat Bayern laut dem belgischen Journalisten Sacha Tavolieri Kontakt zu Newcastles Anthony Gordon (25) aufgenommen — 10 CL-Tore und 6 Premier-League-Treffer in dieser Saison. Auch Liverpool soll im Rennen sein. Eberl bestätigt zudem im ZDF-Sportstudio: Nicolas Jackson kehrt nach der Saison zu Chelsea zurück, die Kaufoption greift nicht.</p><div class="pm"><span class="prt">8 Min.</span><div class="pa">→</div></div></div>
-      </article>
-      <article class="pc rv rd2" data-category="reaction">
-        <div class="pt"><img class="pti" src="img/fans.jpg" alt="Fans" loading="lazy"><div class="pto"></div><div class="pcb brc">Reaktion</div></div>
-        <div class="pb"><div class="pd">26. April 2026</div><h3 class="ptt">0:3 zurück und 4:3 gewonnen — Bayerns Wahnsinn in Mainz</h3><p class="pe">Was zur Halbzeit nach einer Demütigung aussah, wurde zum vielleicht verrücktesten Bundesliga-Comeback der Saison. 0:3 lag Bayern in Mainz hinten. Dann kam Kompanys Wutrede in der Kabine — Goretzka berichtete später: „Der Trainer war wütend und das zurecht." 45 Minuten später stand es 4:3. Erst der zweite 0:3-Comeback-Sieg der Bundesliga-Geschichte für Bayern. Olise mit Traumtor (1,3% xG!), Musiala wieder in Topform. Auswärtsserie weiter ungebrochen.</p><div class="pm"><span class="prt">7 Min.</span><div class="pa">→</div></div></div>
-      </article>
-      <article class="pc rv" data-category="transfer">
-        <div class="pt"><img class="pti" src="img/football.jpg" alt="Fußball" loading="lazy"><div class="pto"></div><div class="pcb bx">Gerüchteküche</div></div>
-        <div class="pb"><div class="pd">5. April 2026</div><h3 class="ptt">Kane-Zukunft: „Spielt nie wieder in der Premier League"</h3><p class="pe">Ein englischer Pundit ist sich sicher: Kane bleibt in München. Eberl plant offizielle Vertragsgespräche im Sommer. Aber Hoeneß warnt: „Man weiß nie, ob ein Saudi kommt und viel Geld auf den Tisch legt." Kane selbst schweigt — fokussiert auf die 31 Tore und den Golden Boot. Dazu: Intermediäre haben Bayern wegen Vinícius Júnior kontaktiert, falls der Real verlassen will. Unrealistisch, aber das Gerücht kursiert.</p><div class="pm"><span class="prt">7 Min.</span><div class="pa">→</div></div></div>
-      </article>
-      <article class="pc rv" data-category="tactics">
-        <div class="pt"><img class="pti" src="img/tactics.jpg" alt="Taktik" loading="lazy"><div class="pto"></div><div class="pcb bt">Taktik-Analyse</div></div>
-        <div class="pb"><div class="pd">4. April 2026</div><h3 class="ptt">100+ Tore in 28 Spielen — Historische Kompany-Maschine</h3><p class="pe">Erstes Team in der Bundesliga-Geschichte mit 100+ Toren nach 28 Spieltagen. Die Zahlen: Kane 31 Tore, Díaz 15, Olise 11 + 18 Assists. Kompany vergleicht Olise öffentlich mit De Bruyne: „Er ist bereits so gut wie der beste Spieler, den City je hatte." 77% Siegquote unter Kompany in 62 Spielen. Die taktische DNA: hohes Pressing, schnelle Flügelwechsel, Kane als Gravitationszentrum.</p><div class="pm"><span class="prt">8 Min.</span><div class="pa">→</div></div></div>
-      </article>
-      <article class="pc rv" data-category="transfer">
-        <div class="pt"><img class="pti" src="img/night.jpg" alt="Stadion Nacht" loading="lazy"><div class="pto"></div><div class="pcb bx">Gerüchteküche</div></div>
-        <div class="pb"><div class="pd">3. April 2026</div><h3 class="ptt">Das Torwart-Chaos: Neuer, Nübel, Urbig, Baumann</h3><p class="pe">Manuel Neuer wird in 4 Wochen 40 — dann entscheidet sein Körper über die Zukunft. Klar ist: Er beendet seine Karriere in München, kein Auslandswechsel. Ulreich (37) könnte einen neuen Einjahresvertrag bekommen. Jonas Urbig ist als Nummer 1 der Zukunft geplant, fällt aber aktuell verletzt aus. Alexander Nübel will zurück, aber sein Gehalt (unterer zweistelliger Millionenbereich) macht es kompliziert — Stuttgart zahlt nur 30%. Und dann ist da noch Baumann als günstige Backup-Option, plus Gerüchte um Daniel Heuer Fernandes vom HSV. Said El Mala, der heiße Flügelspieler, wurde intensiv beobachtet, ist aber wohl vom Markt.</p><div class="pm"><span class="prt">10 Min.</span><div class="pa">→</div></div></div>
-      </article>
+    <div class="sh rv"><div><div class="st">Neuester Content</div><h2 class="stl">Aktuelle Artikel</h2></div><a href="archiv.html" class="slk">Alle Artikel →</a></div>
+    <div class="pg" id="article-grid">
+      <!-- Wird dynamisch aus content.json befüllt -->
     </div>
   </section>
 
@@ -255,13 +219,8 @@
   <section class="tts" id="tiktok">
     <div class="sec" style="padding-bottom:3rem">
       <div class="sh rv"><div><div class="st">Von TikTok · @workuvision</div><h2 class="stl">Neueste Videos</h2></div><a href="https://www.tiktok.com/@workuvision" target="_blank" rel="noopener" class="slk">Auf TikTok folgen →</a></div>
-      <div class="ttsc rv">
-        <div class="ttc"><img class="ttc-img" src="img/thumb1.jpg" alt="Bayern vs Real Madrid" loading="lazy"><div class="ttc-p"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div><div class="ttc-in"><div class="ttc-t">Bayern vs Real Madrid — Meine Einschätzung 🔴⚪</div><div class="ttc-v">812 Aufrufe</div></div></div>
-        <div class="ttc"><img class="ttc-img" src="img/thumb2.jpg" alt="Verletzungssorgen" loading="lazy"><div class="ttc-p"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div><div class="ttc-in"><div class="ttc-t">Verletzungssorgen vor Real Spiel? — News 08</div><div class="ttc-v">962 Aufrufe</div></div></div>
-        <div class="ttc"><img class="ttc-img" src="img/thumb3.jpg" alt="Wie gut sind sie wirklich" loading="lazy"><div class="ttc-p"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div><div class="ttc-in"><div class="ttc-t">Wie gut sind sie wirklich? — Entscheidet!</div><div class="ttc-v">1.156 Aufrufe</div></div></div>
-        <div class="ttc"><img class="ttc-img" src="img/thumb4.jpg" alt="Kane verletzt" loading="lazy"><div class="ttc-p"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div><div class="ttc-in"><div class="ttc-t">Länderspielpause vorbei — Kane verletzt?</div><div class="ttc-v">990 Aufrufe</div></div></div>
-        <div class="ttc"><img class="ttc-img" src="img/thumb5.jpg" alt="Verletzungen Länderspielpause" loading="lazy"><div class="ttc-p"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div><div class="ttc-in"><div class="ttc-t">Verletzungen durch Länderspielpause 🚑🩹</div><div class="ttc-v">977 Aufrufe</div></div></div>
-        <div class="ttc"><img class="ttc-img" src="img/thumb6.jpg" alt="Kompany zu City" loading="lazy"><div class="ttc-p"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div><div class="ttc-in"><div class="ttc-t">Kompany zu City? — FC Bayern News 07</div><div class="ttc-v">1.620 Aufrufe</div></div></div>
+      <div class="ttsc rv" id="tiktok-grid">
+        <!-- Wird dynamisch aus content.json befüllt -->
       </div>
     </div>
   </section>
@@ -275,9 +234,9 @@
           <div class="abtn">Abdel Worku</div>
           <p class="abtd">Bayern-Fan seit dem ersten Atemzug. Auf TikTok und Instagram teile ich meine ehrlichen Reaktionen, taktische Einschätzungen und Transfer-Analysen — ohne Filter, ohne Clickbait. Dieser Blog ist die Erweiterung: längere Texte, tiefere Analysen, und ein Ort für alle, die Bayern genauso leben wie ich. <strong>Mia san Mia.</strong> ❤️</p>
           <div class="abtr">
-            <div><div class="arn">1.153</div><div class="arl">TikTok Follower</div></div>
-            <div><div class="arn">23.4K</div><div class="arl">Likes</div></div>
-            <div><div class="arn">44</div><div class="arl">Videos</div></div>
+            <div><div class="arn" id="tt-followers">—</div><div class="arl">TikTok Follower</div></div>
+            <div><div class="arn" id="tt-likes">—</div><div class="arl">Likes</div></div>
+            <div><div class="arn" id="tt-videos">—</div><div class="arl">Videos</div></div>
             <div><div class="arn">2026</div><div class="arl">Blog gestartet</div></div>
           </div>
         </div>
@@ -374,78 +333,146 @@
     window.addEventListener('scroll',()=>{const y=window.scrollY;nav.classList.toggle('sc',y>50);btt.classList.toggle('v',y>600)});
     function tN(){document.getElementById('ham').classList.toggle('x');document.getElementById('mm').classList.toggle('open');document.body.style.overflow=document.getElementById('mm').classList.contains('open')?'hidden':''}
     function cN(){document.getElementById('ham').classList.remove('x');document.getElementById('mm').classList.remove('open');document.body.style.overflow=''}
-    /* ===== LIVE STATS: OpenLigaDB API (kostenlos, kein Key nötig) ===== */
-    const BAYERN_ID = 40; // FC Bayern München Team-ID bei OpenLigaDB
+
+    /* ===== Helper ===== */
+    function escHtml(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+    function fmtDate(iso){
+      try {
+        const d = new Date(iso);
+        const months = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
+        return d.getDate() + '. ' + months[d.getMonth()] + ' ' + d.getFullYear();
+      } catch(e) { return iso; }
+    }
+
+    /* ===== CONTENT-LOADER: Artikel, TikTok, Ticker aus content.json ===== */
+    let CONTENT = null;
+    async function loadContent() {
+      try {
+        const res = await fetch('content.json?v=' + Date.now(), {cache: 'no-cache'});
+        if (!res.ok) throw new Error('content.json nicht ladbar');
+        CONTENT = await res.json();
+        renderTicker(CONTENT.ticker || []);
+        renderArticles(CONTENT.articles || []);
+        renderTiktokVideos(CONTENT.tiktokVideos || []);
+        renderTiktokStats(CONTENT.tiktokStats || {});
+      } catch(e) {
+        console.warn('content.json konnte nicht geladen werden:', e);
+      }
+    }
+
+    function renderTicker(items) {
+      if (!items.length) return;
+      const track = document.getElementById('ticker-track');
+      // Doppelt rendern für Endlos-Loop
+      const html = [...items, ...items].map(t => `<span class="tick-i">${escHtml(t)}</span>`).join('');
+      track.innerHTML = html;
+    }
+
+    function renderArticles(articles) {
+      const grid = document.getElementById('article-grid');
+      if (!grid) return;
+      // Sortiere nach Datum, neueste zuerst, max. 6 auf Startseite
+      const sorted = [...articles].sort((a,b) => (b.date||'').localeCompare(a.date||'')).slice(0, 6);
+      grid.innerHTML = sorted.map((a, i) => {
+        const featCls = a.featured ? ' ft' : '';
+        const delay = i === 1 ? ' rd1' : i === 2 ? ' rd2' : '';
+        return `
+        <a class="pc rv${featCls}${delay}" data-category="${escHtml(a.category)}" href="artikel.html?slug=${encodeURIComponent(a.slug)}">
+          <div class="pt"><img class="pti" src="${escHtml(a.thumbnail)}" alt="${escHtml(a.thumbnailAlt || '')}" loading="lazy"><div class="pto"></div><div class="pcb ${escHtml(a.badgeColor)}">${escHtml(a.badge)}</div></div>
+          <div class="pb"><div class="pd">${fmtDate(a.date)}</div><h3 class="ptt">${escHtml(a.title)}</h3><p class="pe">${escHtml(a.excerpt)}</p><div class="pm"><span class="prt">${escHtml(a.readtime)}</span><div class="pa">→</div></div></div>
+        </a>`;
+      }).join('');
+      // Reveal-Observer für die neuen Karten
+      grid.querySelectorAll('.rv').forEach(el => obs.observe(el));
+    }
+
+    function renderTiktokVideos(videos) {
+      const grid = document.getElementById('tiktok-grid');
+      if (!grid) return;
+      grid.innerHTML = videos.map(v => `
+        <a class="ttc" href="${escHtml(v.url || 'https://www.tiktok.com/@workuvision')}" target="_blank" rel="noopener">
+          <img class="ttc-img" src="${escHtml(v.thumbnail)}" alt="${escHtml(v.title)}" loading="lazy">
+          <div class="ttc-p"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          <div class="ttc-in"><div class="ttc-t">${escHtml(v.title)}</div><div class="ttc-v">${escHtml(v.views)} Aufrufe</div></div>
+        </a>`).join('');
+    }
+
+    function renderTiktokStats(stats) {
+      const fmt = (n) => {
+        if (typeof n === 'string') return n;
+        if (n >= 1000) return (n/1000).toFixed(n>=10000?0:1).replace('.0','') + (n>=1000?'K':'');
+        return String(n);
+      };
+      const f = document.getElementById('tt-followers');
+      const l = document.getElementById('tt-likes');
+      const v = document.getElementById('tt-videos');
+      if (f && stats.followers != null) f.textContent = typeof stats.followers === 'string' ? stats.followers : stats.followers.toLocaleString('de-DE');
+      if (l && stats.likes != null) l.textContent = stats.likes;
+      if (v && stats.videos != null) v.textContent = stats.videos;
+    }
+
+    /* ===== LIVE STATS: OpenLigaDB API ===== */
+    const BAYERN_ID = 40;
     const SEASON = 2025;
     const LEAGUE = 'bl1';
 
+    function setText(id, val) { const el = document.getElementById(id); if (el) el.textContent = val; }
+
     async function fetchLiveStats() {
+      // Sofort sinnvolle Defaults setzen, falls API langsam ist
+      setText('st-pos', '1.');
+      setText('st-pts', '82');
+      setText('st-goals', '105+');
+      setText('st-md', '31');
       try {
-        // Bundesliga-Tabelle laden
         const tableRes = await fetch(`https://api.openligadb.de/getbltable/${LEAGUE}/${SEASON}`);
+        if (!tableRes.ok) throw new Error('HTTP ' + tableRes.status);
         const table = await tableRes.json();
-        const bayern = table.find(t => t.teamInfoId === BAYERN_ID);
+        // Bayern findet sich entweder via teamInfoId oder via Namens-Match
+        const bayern = table.find(t => t.teamInfoId === BAYERN_ID || (t.teamName && t.teamName.toLowerCase().includes('bayern')));
         if (bayern) {
           const pos = table.indexOf(bayern) + 1;
-          animateNumber('st-pos', pos, pos + '.');
-          animateNumber('st-pts', bayern.points);
-          animateNumber('st-goals', bayern.goals, bayern.goals + '+');
+          setText('st-pos', pos + '.');
+          setText('st-pts', bayern.points);
+          setText('st-goals', (bayern.goals || 0) + '+');
         }
-
-        // Aktueller Spieltag
         const mdRes = await fetch(`https://api.openligadb.de/getcurrentgroup/${LEAGUE}`);
-        const mdData = await mdRes.json();
-        if (mdData && mdData.groupOrderID) {
-          animateNumber('st-md', mdData.groupOrderID);
+        if (mdRes.ok) {
+          const md = await mdRes.json();
+          if (md && md.groupOrderID) setText('st-md', md.groupOrderID);
         }
       } catch(e) {
-        console.log('Stats-Fallback:', e);
-        document.getElementById('st-pos').textContent = '1.';
-        document.getElementById('st-pts').textContent = '73';
-        document.getElementById('st-goals').textContent = '100+';
-        document.getElementById('st-md').textContent = '28';
+        console.warn('OpenLigaDB-Stats nicht erreichbar — Defaults bleiben:', e.message);
       }
     }
 
     async function fetchNextMatch() {
+      // Defaults
+      setText('next-match-opponent', 'vs PSG');
+      setText('next-match-date', 'CL Halbfinale');
       try {
         const res = await fetch(`https://api.openligadb.de/getnextmatchbyleagueteam/${BAYERN_ID}/${LEAGUE}`);
+        if (!res.ok) return;
         const match = await res.json();
         if (match && match.matchDateTime) {
-          const isBayernHome = match.team1 && match.team1.teamId === BAYERN_ID;
-          const opponent = isBayernHome ? match.team2 : match.team1;
-          const prefix = isBayernHome ? 'vs' : 'bei';
-          const opName = opponent.shortName || opponent.teamName || 'TBD';
-          document.getElementById('next-match-opponent').textContent = `${prefix} ${opName}`;
-
+          const isHome = match.team1 && (match.team1.teamId === BAYERN_ID || (match.team1.teamName||'').toLowerCase().includes('bayern'));
+          const opp = isHome ? match.team2 : match.team1;
+          const prefix = isHome ? 'vs' : 'bei';
+          const opName = opp.shortName || opp.teamName || 'TBD';
+          setText('next-match-opponent', `${prefix} ${opName}`);
           const matchDate = new Date(match.matchDateTime);
-          const options = { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' };
-          document.getElementById('next-match-date').textContent = matchDate.toLocaleDateString('de-DE', options) + ' Uhr';
-
-          // Countdown starten
+          const opt = { weekday:'short', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit' };
+          setText('next-match-date', matchDate.toLocaleDateString('de-DE', opt) + ' Uhr');
           startCountdown(matchDate);
         }
       } catch(e) {
-        console.log('NextMatch-Fallback:', e);
-        document.getElementById('next-match-opponent').textContent = 'vs PSG';
-        document.getElementById('next-match-date').textContent = 'CL Halbfinale';
+        console.warn('OpenLigaDB-NextMatch nicht erreichbar — Defaults bleiben:', e.message);
       }
-    }
-
-    function animateNumber(elId, target, displayVal) {
-      const el = document.getElementById(elId);
-      if (!el || target <= 1) { el.textContent = displayVal || target; return; }
-      let current = 0;
-      const step = Math.ceil(target / 40);
-      const iv = setInterval(() => {
-        current += step;
-        if (current >= target) { current = target; clearInterval(iv); el.textContent = displayVal || target; return; }
-        el.textContent = current;
-      }, 30);
     }
 
     function startCountdown(matchDate) {
       const wrap = document.getElementById('countdown-wrap');
+      if (!wrap) return;
       function update() {
         const now = new Date();
         const diff = matchDate - now;
@@ -455,18 +482,28 @@
         const h = Math.floor((diff % 86400000) / 3600000);
         const m = Math.floor((diff % 3600000) / 60000);
         const s = Math.floor((diff % 60000) / 1000);
-        document.getElementById('cd-d').textContent = d;
-        document.getElementById('cd-h').textContent = String(h).padStart(2, '0');
-        document.getElementById('cd-m').textContent = String(m).padStart(2, '0');
-        document.getElementById('cd-s').textContent = String(s).padStart(2, '0');
+        setText('cd-d', d);
+        setText('cd-h', String(h).padStart(2,'0'));
+        setText('cd-m', String(m).padStart(2,'0'));
+        setText('cd-s', String(s).padStart(2,'0'));
       }
       update();
       setInterval(update, 1000);
     }
 
-    // Stats beim Laden abrufen
-    setTimeout(() => { fetchLiveStats(); fetchNextMatch(); }, 1500);
+    /* ===== Reveal-Observer (vor renderArticles definieren!) ===== */
+    const obs = new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('v')}),{threshold:.06,rootMargin:'0px 0px -30px 0px'});
+    document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
+
+    /* ===== Boot ===== */
+    loadContent();
+    fetchLiveStats();
+    fetchNextMatch();
+
+    /* ===== Filter-Pills ===== */
     function fP(c,b){document.querySelectorAll('.pill').forEach(p=>p.classList.remove('on'));b.classList.add('on');document.querySelectorAll('.pc').forEach(d=>{const s=c==='all'||d.dataset.category===c;d.style.display=s?'':'none';if(s){d.style.opacity='0';d.style.transform='translateY(20px)';requestAnimationFrame(()=>requestAnimationFrame(()=>{d.style.transition='opacity .5s,transform .5s';d.style.opacity='1';d.style.transform='translateY(0)'}))}})}
+
+    /* ===== Newsletter ===== */
     function hS(e){
       e.preventDefault();
       const i=document.getElementById('nlI'),f=document.getElementById('nlF'),o=document.getElementById('nlO'),c=document.getElementById('nlC');
@@ -478,12 +515,12 @@
       }else{i.style.borderColor='#DC052D';i.placeholder='Bitte gültige E-Mail eingeben';i.focus();setTimeout(()=>{i.style.borderColor='';i.placeholder='deine@email.de'},2500)}
       return false;
     }
+
+    /* ===== Modals & Smooth-Scroll ===== */
     function oM(id){document.getElementById('m-'+id).classList.add('open');document.body.style.overflow='hidden'}
     function cM(id){document.getElementById('m-'+id).classList.remove('open');document.body.style.overflow=''}
     document.querySelectorAll('.mo').forEach(o=>o.addEventListener('click',e=>{if(e.target===o){o.classList.remove('open');document.body.style.overflow=''}}));
     document.addEventListener('keydown',e=>{if(e.key==='Escape'){document.querySelectorAll('.mo.open').forEach(m=>m.classList.remove('open'));document.body.style.overflow=''}});
-    const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('v')}),{threshold:.06,rootMargin:'0px 0px -30px 0px'});
-    document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
     document.querySelectorAll('a[href^="#"]').forEach(l=>l.addEventListener('click',e=>{const h=l.getAttribute('href');if(h==='#')return;e.preventDefault();const t=document.querySelector(h);if(t)window.scrollTo({top:t.getBoundingClientRect().top+window.pageYOffset-80,behavior:'smooth'})}));
   </script>
 </body>
