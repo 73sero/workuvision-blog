@@ -41,11 +41,33 @@ if not API_KEY:
 
 # ============================================================================
 # QUELLEN
+# Drei Kategorien:
+#   - "bayern_only":  100% Bayern-Inhalte, kein Filter
+#   - "general":      allgemeine Sport-Feeds, gefiltert auf Bayern + Fußball
+#   - "social":       Bluesky-Posts (kürzer, ohne klassischen Titel)
 # ============================================================================
 FEEDS = [
-    ("kicker FC Bayern", "https://newsfeed.kicker.de/team/fcbayernmuenchen"),
-    ("Bavarian Football Works", "https://www.bavarianfootballworks.com/rss/index.xml"),
-    ("Sport1 Topnews", "https://www.sport1.de/news.rss"),
+    # ── Bayern-Spezialisten (immer relevant) ──
+    ("Bavarian Football Works", "https://www.bavarianfootballworks.com/rss/index.xml", "bayern_only"),
+    ("Miasanrot (Fanblog)",     "https://miasanrot.de/feed/",                          "bayern_only"),
+
+    # ── Bluesky: Insider und Journalisten ──
+    # Christian Falk = DER deutsche Bayern-Insider (BILD), 100% Bayern-Posts
+    ("Christian Falk (Bluesky)", "https://bsky.app/profile/cfbayern.bsky.social/rss",  "social_bayern"),
+    # Fabrizio Romano = Welt-Transfers, gelegentlich Bayern, mit Filter
+    ("Fabrizio Romano (Bluesky)", "https://bsky.app/profile/fabrizio-romano.bsky.social/rss", "social_general"),
+    # kicker und Sport1 auf Bluesky — kommen schneller als auf Webseite
+    ("kicker (Bluesky)",        "https://bsky.app/profile/kicker.de/rss",              "social_general"),
+    ("Sport1 (Bluesky)",        "https://bsky.app/profile/sport1.de/rss",              "social_general"),
+
+    # ── Großer deutscher Sport-Journalismus (klassische RSS, mit Bayern-Filter) ──
+    ("kicker News",             "https://newsfeed.kicker.de/news/aktuell",             "general"),
+    ("Tagesschau Sport",        "https://www.tagesschau.de/sport/index~rss2.xml",      "general"),
+    ("Spiegel Sport",           "https://www.spiegel.de/sport/index.rss",              "general"),
+    ("FAZ Sport",               "https://www.faz.net/rss/aktuell/sport/",              "general"),
+    ("ZEIT Sport",              "https://newsfeed.zeit.de/sport/index",                "general"),
+    ("NTV Sport",               "https://www.n-tv.de/sport/rss",                       "general"),
+    ("Süddeutsche Sport",       "https://rss.sueddeutsche.de/rss/Sport",               "general"),
 ]
 
 IMAGE_POOL = {
@@ -74,10 +96,10 @@ BAYERN_KADER = {
     ],
     "mittelfeld": [
         "Joshua Kimmich", "Aleksandar Pavlović", "Leon Goretzka",
-        "Joao Palhinha", "Tom Bischof",
+        "Joao Palhinha", "Tom Bischof", "Serge Gnabry",
     ],
     "angriff": [
-        "Harry Kane", "Michael Olise", "Jamal Musiala", "Serge Gnabry",
+        "Harry Kane", "Michael Olise", "Jamal Musiala", "Kingsley Coman",
         "Luis Díaz", "Nicolas Jackson", "Lennart Karl",
     ],
 }
@@ -143,27 +165,92 @@ def save_content(data):
 
 
 def fetch_feed_items():
+    """Sammelt Items aus allen Feeds.
+    - 'bayern_only':    alles wird übernommen
+    - 'social_bayern':  Bluesky von Bayern-Insidern, alles wird übernommen
+    - 'general':        klassische Sport-Feeds, mit Bayern+Fußball-Filter
+    - 'social_general': Bluesky-Posts mit Bayern+Fußball-Filter
+    """
     items = []
-    for name, url in FEEDS:
+
+    # Eindeutige Bayern-FC-Indikatoren
+    bayern_strong = [
+        "fc bayern", "fcb ", "fcb,", "fcb.", "bayern münchen", "bayern muenchen",
+        "bayern munich", "rekordmeister", "an der säbener", "die münchner",
+        "kompany", "harry kane", "musiala", "olise", "kimmich", "neuer",
+        "upamecano", "pavlovi", "alphonso davies", "luis díaz", "luis diaz",
+        "bayern-trainer", "bayern-coach", "bayern-stürmer", "bayern-keeper",
+        "münchner trainer", "münchner star", "münchner abwehr",
+        # Bluesky/Romano-spezifisch (englisch)
+        "fc bayern's", "bayern's", "@fcbayern",
+    ]
+    bayern_weak = ["bayern"]
+    football_terms = [
+        "spiel", "sieg", "niederlage", "tor", "mannschaft", "bundesliga",
+        "champions league", "halbfinale", "finale", "training", "transfer",
+        "trainer", "stürmer", "keeper", "abwehr", "mittelfeld", "fußball",
+        "fussball", "klub", "verein", "spieler", "kader",
+        "match", "win", "loss", "goal", "team", "deal", "contract", "loan",
+    ]
+
+    for feed_def in FEEDS:
+        if len(feed_def) == 2:
+            name, url = feed_def
+            ftype = "general"
+        else:
+            name, url, ftype = feed_def
+
         try:
             feed = feedparser.parse(url)
         except Exception as e:
             print(f"⚠️  Feed {name} ({url}) nicht ladbar: {e}")
             continue
-        for entry in feed.entries[:8]:
-            title = entry.get("title", "").strip()
-            if not title:
-                continue
-            if "Sport1" in name or "Topnews" in name:
-                if "bayern" not in (title + " " + entry.get("summary", "")).lower():
+
+        items_added = 0
+        # Bluesky liefert oft viele kurze Posts, klassische Feeds wenige längere
+        max_items = 30 if "social" in ftype else 12
+
+        for entry in feed.entries[:max_items]:
+            # Klassische Feeds: title + summary
+            # Bluesky: title leer/automatisch, content im description/summary
+            title = (entry.get("title") or "").strip()
+            summary_raw = (entry.get("summary") or entry.get("description") or "").strip()
+            summary_clean = re.sub(r"<[^>]+>", "", summary_raw)
+            summary_clean = re.sub(r"\s+", " ", summary_clean).strip()[:800]
+
+            # Für Bluesky: title ist oft leer oder generisch — verwende den Anfang des Posts
+            if "social" in ftype:
+                if not summary_clean:
                     continue
+                # Wenn title fehlt oder generisch ist, nimm Anfang des Posts als "title"
+                if not title or len(title) < 10:
+                    title = summary_clean[:140].rstrip(".,!? ") + ("…" if len(summary_clean) > 140 else "")
+
+            if not title and not summary_clean:
+                continue
+
+            # Filter
+            if ftype in ("general", "social_general"):
+                haystack = (title + " " + summary_clean).lower()
+                strong_match = any(kw in haystack for kw in bayern_strong)
+                weak_match = (any(kw in haystack for kw in bayern_weak) and
+                              any(t in haystack for t in football_terms))
+                if not (strong_match or weak_match):
+                    continue
+
             items.append({
                 "source": name,
                 "url": entry.get("link", ""),
                 "title": title,
-                "summary": re.sub(r"<[^>]+>", "", entry.get("summary", ""))[:800].strip(),
+                "summary": summary_clean,
                 "published": entry.get("published", ""),
+                "is_social": "social" in ftype,
             })
+            items_added += 1
+
+        if items_added:
+            print(f"  + {items_added:>2d} aus {name}")
+
     return items
 
 
@@ -264,7 +351,7 @@ def build_kader_string():
 
 
 SYSTEM_PROMPT = f"""Du bist ein deutschsprachiger Sport-Redakteur für den FC-Bayern-Blog Workuvision.de.
-Deine Aufgabe: aus einer RSS-Quelle einen sauberen, knappen, journalistisch fundierten Bayern-Artikel verfassen.
+Deine Aufgabe: aus einer oder mehreren RSS-Quellen einen sauberen, knappen, journalistisch fundierten Bayern-Artikel verfassen.
 
 —— STIL ——
 - Seriöser Journalismus mit Fan-Perspektive (vergleichbar mit kicker.de oder Süddeutscher Sportteil), KEIN Boulevard.
@@ -290,12 +377,28 @@ KORREKTE SCHREIBWEISEN (häufige Fallen):
 
 —— REGELN ——
 1. Schreibe AUSSCHLIESSLICH, was direkt aus der Quelle hervorgeht. Erfinde keine Zahlen, keine Spielernamen, keine Zitate. Wenn die Quelle „at least four players" sagt, schreib „mindestens vier Spieler" — nicht „vier bis fünf".
-2. Nenne die Quelle namentlich („laut Bavarian Football Works", „der kicker berichtet").
-3. Du bist Redakteur, nicht Fan: Schreib in der dritten Person über Bayern (NICHT „wir", NICHT „unsere"). Bayern ist „der FCB", „die Münchner", „der Rekordmeister", „die Bayern".
-4. KEIN Slang. KEINE Floskeln. Verboten sind unter anderem:
+2. Nenne die Quelle namentlich („laut Bavarian Football Works", „der kicker berichtet", „Christian Falk berichtet auf Bluesky").
+3. Du kannst auch ZWEI Quellen kombinieren, wenn sie unabhängig dasselbe Thema behandeln. Aber wähle nur EIN Thema!
+4. Du bist Redakteur, nicht Fan: Schreib in der dritten Person über Bayern (NICHT „wir", NICHT „unsere"). Bayern ist „der FCB", „die Münchner", „der Rekordmeister", „die Bayern".
+5. KEIN Slang. KEINE Floskeln. Verboten sind unter anderem:
    {', '.join(repr(p) for p in FORBIDDEN_PHRASES[:8])} — und ähnliche.
-5. KEIN englischer Ausruf am Satzanfang („Honestly", „Look" usw.).
-6. Wenn du dir bei einem Spielernamen unsicher bist, lass den Namen weg statt zu raten.
+6. KEIN englischer Ausruf am Satzanfang („Honestly", „Look" usw.).
+7. Wenn du dir bei einem Spielernamen unsicher bist, lass den Namen weg statt zu raten.
+
+—— SOCIAL-MEDIA-QUELLEN ——
+Manche Quellen kommen von Bluesky (Christian Falk, Fabrizio Romano, kicker, Sport1).
+Diese sind kürzer und oft englisch. Behandle sie so:
+- Christian Falk ist DER Bayern-Insider der BILD. Seine Posts sind verlässlich, oft mit „TRUE✅" / „NOT TRUE❌" markiert. Übernimm das als „bestätigt" oder „dementiert".
+- Fabrizio Romano ist Welt-Transfer-Insider. Seine Aussagen kannst du als „laut Transfer-Experte Fabrizio Romano" einordnen, aber wenn er „here we go!" schreibt, ist das so gut wie offiziell.
+- Bei Posts in englischer Sprache: übersetze sachlich, lass die englischen Zitate raus.
+- Achte auf das Datum: Social-Posts sind oft taggleich; sehr aktuelle Themen.
+
+—— AUSWAHL DES THEMAS ——
+Bevorzuge in dieser Reihenfolge:
+A. Transfer-Gerüchte und Wechsel (besonders spannend für Bayern-Fans, oft auf Bluesky)
+B. Taktik-Analysen / Spielanalysen (Miasanrot ist hier oft eine gute Quelle)
+C. Spieltagsberichte / Reaktionen (wenn etwas Bemerkenswertes passierte)
+Vermeide: Allgemeine Fußball-News ohne starken Bayern-Bezug.
 
 —— OUTPUT-FORMAT ——
 Ausschließlich gültiges JSON (kein Markdown drumrum, keine Erklärung). Schema:
@@ -304,8 +407,8 @@ Ausschließlich gültiges JSON (kein Markdown drumrum, keine Erklärung). Schema
   "category": "tactics" | "transfer" | "reaction",
   "excerpt": "ein bis zwei Sätze, max. 200 Zeichen, sachlich",
   "body": "drei Absätze, getrennt durch \\n\\n",
-  "sourceUrl": "URL aus den Vorschlägen",
-  "sourceName": "z.B. 'kicker' oder 'Bavarian Football Works'"
+  "sourceUrl": "URL der Hauptquelle",
+  "sourceName": "Name der Hauptquelle, z.B. 'Christian Falk (Bluesky)' oder 'Bavarian Football Works'"
 }}"""
 
 
@@ -313,8 +416,8 @@ def write_with_claude(items, recent_articles, problems_from_previous=None):
     client = Anthropic(api_key=API_KEY)
 
     items_str = "\n\n".join([
-        f"### {it['title']}\nQuelle: {it['source']} ({it['url']})\nVeröffentlicht: {it.get('published','')}\nZusammenfassung der Quelle:\n{it['summary']}"
-        for it in items[:6]
+        f"### {it['title']}\nQuelle: {it['source']} ({it['url']})\nVeröffentlicht: {it.get('published','')}\nInhalt:\n{it['summary']}"
+        for it in items[:15]
     ])
 
     recent_titles = "\n".join(f"- {a['title']}" for a in recent_articles[-10:]) if recent_articles else "(keine)"
