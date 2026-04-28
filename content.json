@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-04-28T00:28:34+00:00",
+  "lastUpdated": "2026-04-28T06:24:27+00:00",
   "tiktokStats": {
-    "followers": 1355,
+    "followers": 1354,
     "likes": "27K",
     "videos": 52
   },
   "ticker": [
     "Heim gegen Heidenheim in 4 Tagen — alle Augen auf den FCB",
+    "Palhinha-Zukunft: Tottenham will niedrigere Ablöse",
     "Verletzungssorgen vor PSG: Bayern fehlen mindestens vier Spieler",
     "PSG vs Bayern — Das CL-Halbfinale, das alle wollen",
     "Goretzka-Milan fix? Und Bayern jagt Anthony Gordon",
     "0:3 zurück und 4:3 gewonnen — Bayerns Wahnsinn in Mainz",
-    "Kane-Zukunft: „Spielt nie wieder in der Premier League\"",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-04-28-palhinha-zukunft-tottenham-will-niedrigere-abloese",
+      "date": "2026-04-28",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/night.jpg",
+      "thumbnailAlt": "Palhinha-Zukunft: Tottenham will niedrigere Ablöse",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Palhinha-Zukunft: Tottenham will niedrigere Ablöse",
+      "excerpt": "Joao Palhinhas Leihe zu Tottenham Hotspur entwickelte sich zum Misserfolg. Nun berichtet Bavarian Football Works über einen möglichen Verkauf — jedoch zu reduzierten Konditionen.",
+      "body": "Joao Palhinhas Leihe zu Tottenham Hotspur verlief alles andere als geplant. Wie Bavarian Football Works berichtet, begann der Wechsel des portugiesischen Nationalspielers vielversprechend, geriet jedoch nach einem Trainerwechsel bei den Spurs ins Stocken. Inzwischen befindet sich Tottenham mitten im Abstiegskampf der Premier League.\n\nLaut dem Bericht ist Tottenham dem Vernehmen nach grundsätzlich an einem festen Transfer Palhinhas interessiert. Allerdings pochen die Londoner auf eine deutlich niedrigere Ablösesumme als von Bayern München gefordert. Beim FCB hat der defensive Mittelfeldspieler nach Einschätzung des Portals keine Zukunft mehr.\n\nFür die Münchner stellt sich damit die Frage, zu welchem Preis ein dauerhafter Abgang realisierbar ist. Angesichts Palhinhas schwieriger Leihe dürfte die Verhandlungsposition des Rekordmeisters geschwächt sein. Wie der Transferpoker letztlich ausgeht, bleibt offen.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/193658/tottenham-hotspur-joao-palhinha-reduced-fee-transfer-bayern-munich-epl",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-04-28-verletzungssorgen-vor-psg-bayern-fehlen-mindestens",
       "date": "2026-04-28",
