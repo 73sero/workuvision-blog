@@ -44,6 +44,10 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
+      - name: Update ticker (last articles + next match)
+        continue-on-error: true
+        run: python scripts/update_ticker.py
+
       - name: Commit & push if changed
         run: |
           git config user.name "Workuvision Bot"
