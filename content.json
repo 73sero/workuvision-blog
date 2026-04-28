@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-04-28T23:10:11+00:00",
+  "lastUpdated": "2026-04-28T23:37:52+00:00",
   "tiktokStats": {
     "followers": 1354,
     "likes": "27K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Heim gegen Heidenheim in 3 Tagen — alle Augen auf den FCB",
+    "4:5 in Paris: Bayern trotzt Rückstand und hält Halbfinale offen",
     "Kompany gesperrt: Bayern-Coach analysiert PSG vom Tribünenplatz",
     "Eberl bestätigt: Olise bleibt beim FC Bayern",
     "Palhinha-Zukunft: Tottenham will niedrigere Ablöse",
     "Verletzungssorgen vor PSG: Bayern fehlen mindestens vier Spieler",
-    "PSG vs Bayern — Das CL-Halbfinale, das alle wollen",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-04-28-4-5-in-paris-bayern-trotzt-rueckstand-und-haelt-ha",
+      "date": "2026-04-28",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/stadium1.jpg",
+      "thumbnailAlt": "4:5 in Paris: Bayern trotzt Rückstand und hält Halbfinale offen",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "4:5 in Paris: Bayern trotzt Rückstand und hält Halbfinale offen",
+      "excerpt": "Der FC Bayern lag beim PSG-Halbfinale zwischenzeitlich mit 2:5 zurück, kämpfte sich aber noch auf 4:5 heran und wahrt damit die Chance auf den Finaleinzug.",
+      "body": "Der FC Bayern München hat das Hinspiel des Champions-League-Halbfinales bei Paris Saint-Germain mit 4:5 verloren, sich dabei jedoch eine passable Ausgangslage für das Rückspiel gesichert. Laut Miasanrot lag der Rekordmeister im Parc des Princes zeitweise mit 2:5 im Rückstand, ehe die Münchner das Ergebnis noch einmal auf ein Tor verkürzten.\n\nDas Spiel verlief damit dramatischer als erwartet. Bayern bewies Moral und Comeback-Qualitäten, auch wenn die defensive Anfälligkeit in dieser Partie unübersehbar war. Die vier Auswärtstore sind angesichts des Rückstands ein wichtiges Kapital für das Rückspiel an der Säbener Straße.\n\nFür das Rückspiel brauchen die Bayern einen Sieg, um ins Finale einzuziehen. Die Partie zeigt, dass der FCB in der Lage ist, auch nach großen Rückschlägen zurückzukommen — eine Eigenschaft, die Vincent Kompanys Mannschaft in dieser Saison bereits mehrfach unter Beweis gestellt hat.",
+      "sourceUrl": "https://miasanrot.de/fc-bayern-psg-cl-3-dinge-die-auffielen/",
+      "sourceName": "Miasanrot (Fanblog)"
+    },
     {
       "slug": "2026-04-28-kompany-gesperrt-bayern-coach-analysiert-psg-vom-t",
       "date": "2026-04-28",
