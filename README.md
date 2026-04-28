@@ -124,3 +124,63 @@ Sag Bescheid wenn das gewünscht ist.
 4. **Artikel-Klick führt ins Leere** → Wahrscheinlich ist `content.json` nicht im selben Ordner wie `index.html`. Im Browser `https://workuvision.de/content.json` aufrufen — sollte JSON anzeigen.
 
 Bei allem: einfach mit Screenshot zurück zu Claude.
+
+---
+
+# Match-Reporter (v3.3 NEU)
+
+## Was er macht
+
+Bei jedem Action-Run (3× täglich, an Spieltagen alle 30 Min) prüft der Match-Reporter:
+
+1. **Vor dem Spiel** (3h vor Anpfiff bis Anpfiff):
+   - Sucht in RSS-Feeds nach „Aufstellung Bayern" mit ≥3 Spielernamen
+   - Wenn gefunden → extrahiert die 11 Spieler + Formation und schreibt ins `currentLineup`
+   - Schreibt einen **Vorbericht-Post** (Anpfiff, Personalsituation, taktische Einordnung)
+   - Doppel-Posts werden via `matchPostsTracker` verhindert
+
+2. **Während Spiel:** Nichts (das Live-Frontend zeigt den Spielstand).
+
+3. **Nach Schlusspfiff** (sofort bis 3h danach):
+   - `currentLineup` wird gelöscht
+   - Schreibt einen **Spielbericht-Post** mit Endergebnis und Toren
+
+## Aufstellungs-Sektion auf der Startseite
+
+Direkt unter dem Hero erscheint die Sektion „Aufstellung · Startelf" mit:
+- Spielfeld-Visualisierung mit Trikotnummer + Nachname
+- Liste aller 11 Spieler (Position, Nummer, Name)
+- Bank, Trainer, optionale Notizen
+
+Wenn keine aktuelle Aufstellung in `content.json.currentLineup`: **Sektion ist versteckt**.
+
+## Manuelle Pflege (Backup wenn Bot nichts findet)
+
+Im Decap CMS unter `/admin/` gibt's jetzt einen neuen Eintrag **„Aufstellung manuell pflegen"**:
+
+1. `Aktiv?` auf TRUE setzen
+2. Spiel-Titel, Anpfiff-Zeit, Formation eintragen
+3. 11 Spieler eingeben (Position, Nummer, Name)
+4. Speichern
+
+Eine `lineup-override.json` mit `active: true` hat **Vorrang** vor der Bot-Aufstellung.
+Wenn du sie wieder ausschalten willst: einfach `active: false` setzen.
+
+## Frequenz an Spieltagen
+
+Der Workflow läuft **alle 30 Min** zwischen 12-23 Uhr deutsche Zeit
+an **Sa, So, Di, Mi** — die typischen Bayern-Spieltage.
+
+So entdeckt der Bot Aufstellungen meist binnen 30 Min nachdem
+kicker/BFW sie gepostet haben.
+
+## Live-Stand auf der Startseite
+
+Die „Nächstes Spiel"-Box ist jetzt smart:
+- **Vor dem Spiel:** Anpfiff-Zeit + Countdown
+- **Während Live-Spiel:** Aktueller Stand (z.B. „2:1 vs Heidenheim · LIVE · 67'") — Update alle 60s
+- **Nach Schlusspfiff:** Endstand 2h lang („3:1 vs Heidenheim · Beendet · Endstand")
+- **Danach:** Springt automatisch zum nächsten Spiel
+
+⚠️ **Wichtig:** OpenLigaDB enthält **keine CL-Spiele**, nur Bundesliga + 2. Liga.
+CL-Halbfinale & Co laufen daher über die News-Aggregation, nicht über den Match-Reporter.

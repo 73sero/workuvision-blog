@@ -22,13 +22,15 @@ collections:
           { label: "Reaktion", value: "Reaktion" },
           { label: "Gerüchteküche", value: "Gerüchteküche" },
           { label: "Vorschau", value: "Vorschau" },
+          { label: "Vorbericht", value: "Vorbericht" },
+          { label: "Spielbericht", value: "Spielbericht" },
           { label: "Breaking", value: "Breaking" }
         ]}
       - { label: "Badge Farbe", name: "badgeColor", widget: "select", options: [
           { label: "Rot (Taktik)", value: "bt" },
-          { label: "Gold (Reaktion)", value: "brc" },
+          { label: "Gold (Reaktion/Spielbericht)", value: "brc" },
           { label: "Grau (Gerüchte)", value: "bx" },
-          { label: "Gold-Rahmen (Vorschau)", value: "bv" }
+          { label: "Gold-Rahmen (Vorschau/Vorbericht)", value: "bv" }
         ], default: "bt" }
       - { label: "Thumbnail", name: "thumbnail", widget: "image" }
       - { label: "Lesezeit", name: "readtime", widget: "string", default: "5 Min." }
@@ -37,10 +39,43 @@ collections:
       - { label: "Kurzfassung", name: "excerpt", widget: "text" }
 
   - name: "ticker"
-    label: "Ticker-Meldungen"
+    label: "Ticker-Meldungen (manuell)"
     folder: "ticker"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Meldung", name: "title", widget: "string" }
       - { label: "Aktiv", name: "active", widget: "boolean", default: true }
+
+  # ===== MANUELLE AUFSTELLUNG =====
+  # Falls der Bot die Aufstellung nicht aus RSS extrahieren konnte,
+  # kannst du sie hier manuell pflegen.
+  # Diese Override-Datei hat Vorrang vor der Bot-Aufstellung.
+  - name: "lineup_override"
+    label: "Aufstellung manuell pflegen"
+    files:
+      - name: "lineup_override"
+        label: "Aktuelle Aufstellung (manuell)"
+        file: "lineup-override.json"
+        fields:
+          - { label: "Aktiv? (deaktivieren wenn der Bot wieder übernehmen soll)", name: "active", widget: "boolean", default: true }
+          - { label: "Spiel-Titel (z.B. 'Bayern vs Heidenheim')", name: "matchTitle", widget: "string" }
+          - { label: "Anzeige-Label", name: "matchLabel", widget: "string", default: "Aufstellung · Startelf" }
+          - { label: "Anpfiff", name: "matchDate", widget: "datetime", required: false }
+          - { label: "Formation", name: "formation", widget: "select", options: ["4-2-3-1", "4-3-3", "3-4-3", "4-4-2", "3-5-2", "4-1-4-1", "5-3-2"], default: "4-2-3-1" }
+          - label: "Startelf (genau 11 Spieler! Sortierung: TW → Abwehr → Mittelfeld → Sturm)"
+            name: "starters"
+            widget: "list"
+            min: 11
+            max: 11
+            fields:
+              - { label: "Position (TW/IV/RV/LV/ZDM/ZM/OM/RA/LA/ST)", name: "position", widget: "string" }
+              - { label: "Trikotnummer", name: "number", widget: "number", required: false }
+              - { label: "Spielername", name: "name", widget: "string" }
+          - label: "Bank"
+            name: "bench"
+            widget: "list"
+            required: false
+            field: { label: "Spielername", name: "name", widget: "string" }
+          - { label: "Trainer", name: "coach", widget: "string", default: "Vincent Kompany" }
+          - { label: "Notizen (optional)", name: "notes", widget: "text", required: false }
