@@ -39,7 +39,11 @@ jobs:
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
           YT_HANDLE: workuvision
 
-      - name: Match reporter (Pre/Post-Match Posts + Lineup)
+      - name: Update lineups (kicker.de scraper)
+        continue-on-error: true
+        run: python scripts/update_lineups.py
+
+      - name: Match reporter (Pre/Post-Match Posts)
         continue-on-error: true
         if: env.ANTHROPIC_API_KEY != ''
         run: python scripts/match_reporter.py
