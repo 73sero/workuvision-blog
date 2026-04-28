@@ -16,14 +16,23 @@ Verbesserungen ggü. v1:
 - Validation nach Generierung: Bei Fehlern → Artikel verworfen, kein Commit
 """
 import hashlib
+import io
 import json
 import os
+import random
 import re
 import sys
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
 import feedparser
+
+try:
+    from PIL import Image
+    PILLOW_AVAILABLE = True
+except ImportError:
+    PILLOW_AVAILABLE = False
 
 try:
     from anthropic import Anthropic
@@ -71,10 +80,30 @@ FEEDS = [
 ]
 
 IMAGE_POOL = {
-    "tactics": ["img/tactics.jpg", "img/stadium1.jpg", "img/football.jpg"],
-    "transfer": ["img/transfer.jpg", "img/night.jpg", "img/football.jpg"],
-    "reaction": ["img/fans.jpg", "img/stadium1.jpg", "img/hero.jpg"],
+    "tactics": ["img/tactics.jpg", "img/stadium1.jpg", "img/football.jpg", "img/hero.jpg", "img/night.jpg"],
+    "transfer": ["img/transfer.jpg", "img/night.jpg", "img/football.jpg", "img/hero.jpg", "img/stadium1.jpg"],
+    "reaction": ["img/fans.jpg", "img/stadium1.jpg", "img/hero.jpg", "img/football.jpg", "img/transfer.jpg"],
 }
+
+ARTICLE_IMG_DIR = ROOT / "img" / "articles"
+
+
+def pick_stock_image(category, articles):
+    """Wählt zufällig ein Stock-Bild aus dem Pool, vermeidet aber die zuletzt
+    benutzten lokalen Bilder (sodass keine zwei aufeinanderfolgenden Artikel
+    das gleiche Bild haben)."""
+    pool = list(IMAGE_POOL.get(category, IMAGE_POOL["tactics"]))
+    # Letzte 3 Stock-Thumbs (keine 'img/articles/...') aus den existierenden Artikeln
+    recent_stock = []
+    for a in articles[:3]:
+        thumb = a.get("thumbnail", "")
+        if thumb and not thumb.startswith("img/articles/"):
+            recent_stock.append(thumb)
+    # Pool ohne die zuletzt benutzten — falls etwas übrig bleibt
+    fresh = [p for p in pool if p not in recent_stock]
+    if fresh:
+        return random.choice(fresh)
+    return random.choice(pool)
 
 BADGE_MAP = {
     "tactics": ("Taktik-Analyse", "bt"),
@@ -238,6 +267,9 @@ def fetch_feed_items():
                 if not (strong_match or weak_match):
                     continue
 
+            # Bild-URL aus dem RSS-Entry extrahieren (verschiedene Felder probieren)
+            image_url = extract_image_from_entry(entry)
+
             items.append({
                 "source": name,
                 "url": entry.get("link", ""),
@@ -245,6 +277,7 @@ def fetch_feed_items():
                 "summary": summary_clean,
                 "published": entry.get("published", ""),
                 "is_social": "social" in ftype,
+                "image_url": image_url,
             })
             items_added += 1
 
@@ -252,6 +285,87 @@ def fetch_feed_items():
             print(f"  + {items_added:>2d} aus {name}")
 
     return items
+
+
+def extract_image_from_entry(entry):
+    """Sucht in einem feedparser-Entry nach einer Bild-URL.
+    Probiert: media_thumbnail, media_content, enclosures (links type=image),
+    img-Tag im summary, og:image-artige URLs."""
+    # 1) media_thumbnail
+    if hasattr(entry, "media_thumbnail") and entry.media_thumbnail:
+        url = entry.media_thumbnail[0].get("url")
+        if url:
+            return url
+    # 2) media_content
+    if hasattr(entry, "media_content") and entry.media_content:
+        for mc in entry.media_content:
+            url = mc.get("url")
+            if url and not url.endswith(".mp4"):
+                return url
+    # 3) Enclosure-Links
+    if hasattr(entry, "links"):
+        for link in entry.links:
+            if link.get("type", "").startswith("image/"):
+                href = link.get("href")
+                if href:
+                    return href
+    # 4) <img>-Tag im summary
+    summary = entry.get("summary", "") + entry.get("description", "")
+    if summary:
+        m = re.search(r'<img[^>]+src="([^"]+)"', summary)
+        if m:
+            return m.group(1)
+    return None
+
+
+def download_and_optimize_image(image_url, slug, target_dir):
+    """Lädt ein Bild herunter, skaliert es auf 1200x675 und speichert als JPEG.
+    Gibt den lokalen Pfad zurück (relativ zum Repo) oder None bei Fehlern."""
+    if not image_url or not PILLOW_AVAILABLE:
+        return None
+    target_path = target_dir / f"{slug}.jpg"
+    try:
+        # Mit Browser-Headers — manche Server blocken Default-User-Agent
+        req = urllib.request.Request(image_url, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; Workuvision-Bot/1.0)",
+            "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+            "Referer": "https://workuvision.de/",
+        })
+        with urllib.request.urlopen(req, timeout=20) as r:
+            data = r.read()
+        if len(data) < 2000:  # zu klein → vermutlich kein echtes Bild
+            return None
+        img = Image.open(io.BytesIO(data))
+        # In RGB konvertieren (wegen PNG/RGBA und JPEG-Inkompatibilität)
+        if img.mode not in ("RGB", "L"):
+            bg = Image.new("RGB", img.size, (255, 255, 255))
+            if img.mode == "RGBA":
+                bg.paste(img, mask=img.split()[-1])
+            else:
+                bg.paste(img)
+            img = bg
+        # Auf 1200×675 (16:9) zuschneiden — center-crop
+        target_w, target_h = 1200, 675
+        src_w, src_h = img.size
+        if src_w / src_h > target_w / target_h:
+            # zu breit, nach Höhe skalieren
+            new_h = target_h
+            new_w = int(src_w * (target_h / src_h))
+        else:
+            new_w = target_w
+            new_h = int(src_h * (target_w / src_w))
+        img = img.resize((new_w, new_h), Image.LANCZOS)
+        # Center crop
+        left = (new_w - target_w) // 2
+        top = (new_h - target_h) // 2
+        img = img.crop((left, top, left + target_w, top + target_h))
+        # Speichern
+        target_dir.mkdir(parents=True, exist_ok=True)
+        img.save(target_path, "JPEG", quality=82, optimize=True)
+        return f"img/articles/{slug}.jpg"
+    except Exception as e:
+        print(f"     Bild-Download fehlgeschlagen ({image_url[:60]}): {e}")
+        return None
 
 
 def is_already_covered(items, articles):
@@ -512,9 +626,28 @@ def main():
     title = new_post.get("title", "Workuvision Take")[:90]
     slug = f"{today}-{slugify(title)}"
 
-    pool = IMAGE_POOL.get(cat, IMAGE_POOL["tactics"])
-    h = int(hashlib.md5(slug.encode()).hexdigest(), 16)
-    thumbnail = pool[h % len(pool)]
+    # Bild-Auswahl:
+    # 1) Versuche, das Bild aus dem RSS-Item zu laden, das Claude als Quelle gewählt hat
+    # 2) Wenn das nicht klappt: zufällig aus Stock-Pool (vermeidet Wiederholungen)
+    thumbnail = None
+    source_url = new_post.get("sourceUrl", "")
+    chosen_item = next((it for it in items if it.get("url") == source_url), None)
+    # Fallback: matchen auf sourceName, falls URL nicht exakt gleich
+    if not chosen_item:
+        source_name = new_post.get("sourceName", "")
+        chosen_item = next((it for it in items if source_name and source_name in it.get("source", "")), None)
+
+    if chosen_item and chosen_item.get("image_url"):
+        local_thumb = download_and_optimize_image(
+            chosen_item["image_url"], slug, ARTICLE_IMG_DIR
+        )
+        if local_thumb:
+            thumbnail = local_thumb
+            print(f"  📷 RSS-Bild von {chosen_item.get('source','?')} gespeichert: {thumbnail}")
+
+    if not thumbnail:
+        thumbnail = pick_stock_image(cat, content.get("articles", []))
+        print(f"  📷 Stock-Bild verwendet: {thumbnail}")
 
     article = {
         "slug": slug,

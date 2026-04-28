@@ -533,22 +533,32 @@ def add_article_to_content(content, post_data, kind, slug_suffix, source_url=Non
     title = post_data.get("title","")[:90]
     slug = f"{today}-{slug_suffix}"
 
-    # Bilder pro kind
+    # Bilder pro kind — zufällig aus Pool für Abwechslung
+    import random as _random
     if kind == "preview":
         cat = "tactics"
         badge = "Vorbericht"
         badge_color = "bv"
-        thumb = "img/stadium1.jpg"
+        thumb = _random.choice([
+            "img/stadium1.jpg", "img/tactics.jpg", "img/hero.jpg",
+            "img/night.jpg", "img/football.jpg",
+        ])
     elif kind == "report":
         cat = "reaction"
         badge = "Spielbericht"
         badge_color = "brc"
-        thumb = "img/fans.jpg"
+        thumb = _random.choice([
+            "img/fans.jpg", "img/stadium1.jpg", "img/hero.jpg",
+            "img/football.jpg",
+        ])
     else:
         cat = "tactics"
         badge = "News"
         badge_color = "bt"
-        thumb = "img/football.jpg"
+        thumb = _random.choice([
+            "img/football.jpg", "img/tactics.jpg", "img/night.jpg",
+            "img/transfer.jpg",
+        ])
 
     article = {
         "slug": slug,
