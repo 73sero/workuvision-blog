@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-04-28T11:40:45+00:00",
+  "lastUpdated": "2026-04-28T17:30:16+00:00",
   "tiktokStats": {
     "followers": 1354,
     "likes": "27K",
     "videos": 52
   },
   "ticker": [
-    "Heim gegen Heidenheim in 4 Tagen — alle Augen auf den FCB",
+    "Heim gegen Heidenheim in 3 Tagen — alle Augen auf den FCB",
+    "Kompany gesperrt: Bayern-Coach analysiert PSG vom Tribünenplatz",
     "Eberl bestätigt: Olise bleibt beim FC Bayern",
     "Palhinha-Zukunft: Tottenham will niedrigere Ablöse",
     "Verletzungssorgen vor PSG: Bayern fehlen mindestens vier Spieler",
     "PSG vs Bayern — Das CL-Halbfinale, das alle wollen",
-    "Goretzka-Milan fix? Und Bayern jagt Anthony Gordon",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-04-28-kompany-gesperrt-bayern-coach-analysiert-psg-vom-t",
+      "date": "2026-04-28",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/stadium1.jpg",
+      "thumbnailAlt": "Kompany gesperrt: Bayern-Coach analysiert PSG vom Tribünenplatz",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Kompany gesperrt: Bayern-Coach analysiert PSG vom Tribünenplatz",
+      "excerpt": "Vincent Kompany verfolgt das Champions-League-Halbfinale gegen PSG von der Tribüne – eine Sperre zwingt den Bayern-Trainer zum Zuschauen.",
+      "body": "Laut Bavarian Football Works muss Vincent Kompany das Halbfinale der Champions League zwischen Paris Saint-Germain und dem FC Bayern von den Tribünen aus verfolgen. Der Münchner Cheftrainer ist für die Partie gesperrt und kann seine Mannschaft nicht von der Seitenlinie aus betreuen.\n\nKompany äußerte sich vor dem Spiel offen über seine Situation: Er werde irgendwo im Stadion sitzen – möglicherweise nicht weit entfernt von den anwesenden Journalisten. Die Abläufe seien klar geregelt; er wisse, wann und wie er das Team unterstützen dürfe.\n\nFür den FC Bayern ist die Ausgangslage ohnehin fordernd: Nach dem kräftezehrenden 4:3-Comeback gegen Mainz am Wochenende standen den Spielern laut Bavarian Football Works nur zwei Erholungstage zur Verfügung. Dass nun auch noch der Cheftrainer nicht auf dem Spielfeld eingreifen kann, ist eine zusätzliche Belastung vor einem der bedeutendsten Spiele der Saison.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/champions-league/195076/suspended-bayern-munich-coach-breaks-down-psg-game",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-04-28-eberl-bestaetigt-olise-bleibt-beim-fc-bayern",
       "date": "2026-04-28",
