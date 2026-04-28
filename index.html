@@ -149,13 +149,13 @@
     <a href="#" class="logo"><img src="img/logo.jpg" alt="Workuvision Logo" class="logo-img"><span class="logo-text">Workuvision</span></a>
     <ul class="nl2">
       <li><a href="#articles">Artikel</a></li>
-      <li><a href="#tiktok">Videos</a></li>
+      <li id="nav-tiktok-li"><a href="#tiktok">Videos</a></li>
       <li><a href="#ueber">Über mich</a></li>
       <li><a href="#newsletter" class="ncta">Abonnieren</a></li>
     </ul>
     <div class="ham" id="ham" onclick="tN()"><span></span><span></span><span></span></div>
   </nav>
-  <div class="mm" id="mm"><a href="#articles" onclick="cN()">Artikel</a><a href="#tiktok" onclick="cN()">Videos</a><a href="#ueber" onclick="cN()">Über mich</a><a href="#newsletter" onclick="cN()" style="color:var(--red)">Abonnieren</a></div>
+  <div class="mm" id="mm"><a href="#articles" onclick="cN()">Artikel</a><a id="mm-tiktok" href="#tiktok" onclick="cN()">Videos</a><a href="#ueber" onclick="cN()">Über mich</a><a href="#newsletter" onclick="cN()" style="color:var(--red)">Abonnieren</a></div>
 
   <section class="hero">
     <div class="hero-bg"></div><div class="hero-ov"></div><div class="hero-ln"></div>
@@ -388,7 +388,23 @@
 
     function renderTiktokVideos(videos) {
       const grid = document.getElementById('tiktok-grid');
+      const section = document.getElementById('tiktok');
+      const divider = section ? section.previousElementSibling : null;
+      const navLi = document.getElementById('nav-tiktok-li');
+      const mmLink = document.getElementById('mm-tiktok');
       if (!grid) return;
+      const hide = !videos || !videos.length;
+      if (hide) {
+        if (section) section.style.display = 'none';
+        if (divider && divider.classList && divider.classList.contains('dvd')) divider.style.display = 'none';
+        if (navLi) navLi.style.display = 'none';
+        if (mmLink) mmLink.style.display = 'none';
+        return;
+      }
+      if (section) section.style.display = '';
+      if (divider && divider.classList && divider.classList.contains('dvd')) divider.style.display = '';
+      if (navLi) navLi.style.display = '';
+      if (mmLink) mmLink.style.display = '';
       grid.innerHTML = videos.map(v => `
         <a class="ttc" href="${escHtml(v.url || 'https://www.tiktok.com/@workuvision')}" target="_blank" rel="noopener">
           <img class="ttc-img" src="${escHtml(v.thumbnail)}" alt="${escHtml(v.title)}" loading="lazy">

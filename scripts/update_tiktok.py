@@ -176,9 +176,8 @@ def main():
         "videos": int(stats.get("videoCount") or 0),
     }
 
-    # Videos updaten (max 6, neueste zuerst, nur wenn was gefunden)
+    # Videos updaten — nur wenn TikTok eine non-empty Liste liefert.
     if videos:
-        # createTime = Unix-Timestamp, neueste zuerst
         videos.sort(key=lambda v: v.get("createTime", 0), reverse=True)
         new_video_list = []
         for v in videos[:6]:
@@ -197,7 +196,17 @@ def main():
                 "url": f"https://www.tiktok.com/@{HANDLE}/video/{video_id}" if video_id else f"https://www.tiktok.com/@{HANDLE}",
             })
         content["tiktokVideos"] = new_video_list
-        print(f"✓ {len(new_video_list)} Videos in content.json eingetragen.")
+        content["tiktokVideosAuto"] = True
+        print(f"✓ {len(new_video_list)} Videos in content.json eingetragen (auto).")
+    else:
+        # TikTok liefert die Video-Liste nicht im initial-HTML.
+        # Wenn vorher Auto-Daten drin waren: Liste leer setzen → Frontend versteckt Sektion.
+        # Wenn manuell gepflegt: in Ruhe lassen.
+        if content.get("tiktokVideosAuto") is True:
+            content["tiktokVideos"] = []
+            print("⚠️  Keine Videos extrahierbar — Auto-Liste geleert (Sektion wird ausgeblendet).")
+        else:
+            print("⚠️  Keine Videos extrahiert — manuell gepflegte Liste bleibt unverändert.")
 
     from datetime import datetime, timezone
     content["lastUpdated"] = datetime.now(timezone.utc).isoformat(timespec="seconds")

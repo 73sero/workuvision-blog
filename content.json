@@ -16,61 +16,8 @@
     "Olise mit Traumtor gegen Mainz — Kompany lobt Musiala",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter"
   ],
-  "tiktokVideos": [
-    {
-      "thumbnail": "img/thumb1.jpg",
-      "title": "Bayern vs Real Madrid — Meine Einschätzung 🔴⚪",
-      "views": "812",
-      "url": "https://www.tiktok.com/@workuvision"
-    },
-    {
-      "thumbnail": "img/thumb2.jpg",
-      "title": "Verletzungssorgen vor Real Spiel? — News 08",
-      "views": "962",
-      "url": "https://www.tiktok.com/@workuvision"
-    },
-    {
-      "thumbnail": "img/thumb3.jpg",
-      "title": "Wie gut sind sie wirklich? — Entscheidet!",
-      "views": "1.156",
-      "url": "https://www.tiktok.com/@workuvision"
-    },
-    {
-      "thumbnail": "img/thumb4.jpg",
-      "title": "Länderspielpause vorbei — Kane verletzt?",
-      "views": "990",
-      "url": "https://www.tiktok.com/@workuvision"
-    },
-    {
-      "thumbnail": "img/thumb5.jpg",
-      "title": "Verletzungen durch Länderspielpause 🚑🩹",
-      "views": "977",
-      "url": "https://www.tiktok.com/@workuvision"
-    },
-    {
-      "thumbnail": "img/thumb6.jpg",
-      "title": "Kompany zu City? — FC Bayern News 07",
-      "views": "1.620",
-      "url": "https://www.tiktok.com/@workuvision"
-    }
-  ],
+  "tiktokVideos": [],
   "articles": [
-    {
-      "slug": "2026-04-27-psg-spiel-bayern-ohne-mindestens-fuenf-spieler",
-      "date": "2026-04-27",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/stadium1.jpg",
-      "thumbnailAlt": "PSG-Spiel: Bayern ohne mindestens fünf Spieler",
-      "readtime": "5 Min.",
-      "featured": false,
-      "title": "PSG-Spiel: Bayern ohne mindestens fünf Spieler",
-      "excerpt": "Das Halbfinale gegen Paris rückt näher — und Compay muss improvisieren. Vier bis fünf Ausfälle sind für Bayern bestätigt, PSG dagegen fit wie selten.",
-      "body": "Während PSG sich auf die Halbfinal-Rückkehr freut und im Training komplett durchgesund meldet, sieht es bei Bayern deutlich kritischer aus. Laut Bavarian Football Works werden mindestens vier, möglicherweise fünf Spieler fehlen — ein bekanntes Problem, aber beim Kracher gegen PSG halt besonders bitter. Lennart Kstark bleibt außen vor, Gnabry ist für die Saison raus. Das ist nicht neu, aber jetzt drängelt sich die Frage auf: Wie stabil ist unsere Personaldecke wirklich?\n\nCompany hat in der Liga gezeigt, dass er auch mit Ersatzmannschaften kreativ arbeiten kann (siehe das Mainz-Comeback). Aber die Champions League gegen PSG ist nochmal eine andere Kragenweite. Der französische Klub kann seine Top-Elf aufbieten — und das fühlt sich unfair an.\n\nHonestly: Das ist Fußball. Wir haben genug Qualität in der Bank, um Paris wehzutun. Die Chance auf ein großes Halbfinale ist für uns ja auch ein Statement nach der desaströsen letzten Saison. Jetzt heißt es: Zähne zusammenbeißen und mit dem liefern, was da ist.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/champions-league/194953/training-report-psg-fully-healthy-bayern-munich-to-miss-at-least-four-players-ahead-of-champions-league-tilt",
-      "sourceName": "Bavarian Football Works"
-    },
     {
       "slug": "2026-04-28-psg-bayern-cl-halbfinale",
       "date": "2026-04-28",
@@ -161,5 +108,6 @@
       "body": "Manuel Neuer wird in 4 Wochen 40 — dann entscheidet sein Körper über die Zukunft. Klar ist: Er beendet seine Karriere in München, kein Auslandswechsel.\n\nUlreich (37) könnte einen neuen Einjahresvertrag bekommen. Jonas Urbig ist als Nummer 1 der Zukunft geplant, fällt aber aktuell verletzt aus.\n\nAlexander Nübel will zurück, aber sein Gehalt (unterer zweistelliger Millionenbereich) macht es kompliziert — Stuttgart zahlt nur 30%. Und dann ist da noch Baumann als günstige Backup-Option, plus Gerüchte um Daniel Heuer Fernandes vom HSV.\n\nSaid El Mala, der heiße Flügelspieler, wurde intensiv beobachtet, ist aber wohl vom Markt.",
       "source": "workuvision"
     }
-  ]
+  ],
+  "tiktokVideosAuto": false
 }
