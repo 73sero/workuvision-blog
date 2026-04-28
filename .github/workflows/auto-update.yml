@@ -2,9 +2,11 @@ name: Auto-Update Content
 
 on:
   schedule:
-    # 6:00, 12:00, 18:00 Uhr deutsche Zeit (UTC = -1h Winter / -2h Sommer)
+    # Standard: 3x täglich (6, 12, 18 Uhr deutsche Zeit)
     - cron: '0 4,10,16 * * *'
-  workflow_dispatch:  # Manuell auslösbar im GitHub-UI
+    # An Spieltagen (Sa, So, Di, Mi) zusätzlich alle 30 Min zwischen 12-23 Uhr deutsche Zeit
+    - cron: '*/30 10-21 * * 0,2,3,6'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -36,6 +38,13 @@ jobs:
         env:
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
           YT_HANDLE: workuvision
+
+      - name: Match reporter (Pre/Post-Match Posts + Lineup)
+        continue-on-error: true
+        if: env.ANTHROPIC_API_KEY != ''
+        run: python scripts/match_reporter.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Aggregate news (Bayern RSS feeds)
         continue-on-error: true
