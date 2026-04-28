@@ -120,6 +120,14 @@
     .lineup-notes{font-size:.78rem;line-height:1.5;color:var(--gray);font-style:italic;border-left:2px solid var(--red);padding-left:.8rem}
     .lineup-meta{font-family:var(--fm);font-size:.55rem;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:var(--gray);text-align:right}
     .lineup-meta .formation{color:var(--gold);font-weight:700}
+    .lineup-opponent{margin-top:1.4rem;background:var(--glass);border:1px solid var(--gb);border-radius:8px;padding:1.4rem 1.6rem}
+    .lineup-opponent-header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1rem;flex-wrap:wrap;gap:.5rem}
+    .lineup-opp-formation{font-family:var(--fm);font-size:.55rem;letter-spacing:2.5px;color:var(--gold);font-weight:700;text-transform:uppercase}
+    .lineup-list--opp{grid-template-columns:repeat(3,1fr) !important}
+    @media(max-width:600px){.lineup-list--opp{grid-template-columns:repeat(2,1fr) !important}}
+    .lineup-source{margin-top:1rem;font-family:var(--fm);font-size:.5rem;letter-spacing:2px;color:var(--gray);text-align:right;text-transform:uppercase}
+    .lineup-source a{color:var(--red);text-decoration:none}
+    .lineup-source a:hover{text-decoration:underline}
     .ttsc{display:flex;gap:1.2rem;overflow-x:auto;padding-bottom:1rem;scrollbar-width:none;scroll-snap-type:x mandatory}.ttsc::-webkit-scrollbar{display:none}
     .ttc{min-width:210px;max-width:210px;aspect-ratio:9/16;border-radius:14px;border:1px solid var(--gb);overflow:hidden;position:relative;flex-shrink:0;cursor:pointer;transition:all .4s var(--e);scroll-snap-align:start}.ttc:hover{transform:scale(1.04) translateY(-4px);border-color:rgba(220,5,45,.3);box-shadow:0 20px 50px rgba(0,0,0,.4)}
     .ttc-img{width:100%;height:100%;object-fit:cover}
@@ -240,7 +248,7 @@
       <div class="lineup-pitch" id="lineup-pitch"></div>
       <div class="lineup-side">
         <div class="lineup-block">
-          <div class="lineup-block-title">Startelf</div>
+          <div class="lineup-block-title" id="lineup-team-name">Startelf · FC Bayern</div>
           <ol class="lineup-list" id="lineup-starters"></ol>
         </div>
         <div class="lineup-block" id="lineup-bench-block">
@@ -254,6 +262,15 @@
         <div class="lineup-notes" id="lineup-notes"></div>
       </div>
     </div>
+    <!-- Gegner-Aufstellung -->
+    <div class="lineup-opponent rv" id="lineup-opponent" style="display:none">
+      <div class="lineup-opponent-header">
+        <div class="lineup-block-title" id="lineup-opp-title">Gegner · Aufstellung</div>
+        <div class="lineup-opp-formation" id="lineup-opp-formation"></div>
+      </div>
+      <ol class="lineup-list lineup-list--opp" id="lineup-opp-starters"></ol>
+    </div>
+    <div class="lineup-source" id="lineup-source"></div>
   </section>
 
   <section class="sec" id="articles">
@@ -407,16 +424,18 @@
 
         // Lineup: Override hat Vorrang vor Bot-Lineup
         let lineup = CONTENT.currentLineup || null;
+        let opponentLineup = CONTENT.opponentLineup || null;
         try {
           const ovRes = await fetch('lineup-override.json?v=' + Date.now(), {cache: 'no-cache'});
           if (ovRes.ok) {
             const ov = await ovRes.json();
             if (ov && ov.active && ov.starters && ov.starters.length === 11) {
               lineup = ov;
+              opponentLineup = null; // Override → kein automatischer Gegner
             }
           }
         } catch(e) { /* keine Override-Datei → bot-lineup verwenden */ }
-        renderLineup(lineup);
+        renderLineup(lineup, opponentLineup);
       } catch(e) {
         console.warn('content.json konnte nicht geladen werden:', e);
       }
@@ -448,7 +467,7 @@
       grid.querySelectorAll('.rv').forEach(el => obs.observe(el));
     }
 
-    function renderLineup(lineup) {
+    function renderLineup(lineup, opponentLineup) {
       const section = document.getElementById('lineup-section');
       if (!section) return;
       if (!lineup || !lineup.starters || !lineup.starters.length) {
@@ -467,9 +486,11 @@
       const coachBlock = document.getElementById('lineup-coach-block');
       const notesEl = document.getElementById('lineup-notes');
       const pitchEl = document.getElementById('lineup-pitch');
+      const teamNameEl = document.getElementById('lineup-team-name');
 
       if (titleEl) titleEl.textContent = lineup.matchTitle || 'Aktuelle Aufstellung';
       if (labelEl) labelEl.textContent = lineup.matchLabel || 'Aufstellung · Startelf';
+      if (teamNameEl) teamNameEl.textContent = `Startelf · ${lineup.teamName || 'FC Bayern München'}`;
 
       // Meta: Formation + Datum
       let metaHtml = '';
@@ -495,7 +516,7 @@
       // Bank
       if (lineup.bench && lineup.bench.length) {
         benchBlock.style.display = '';
-        benchEl.innerHTML = lineup.bench.map(n => `<li>${escHtml(n)}</li>`).join('');
+        benchEl.innerHTML = lineup.bench.map(n => `<li>${escHtml(typeof n === 'string' ? n : n.name)}</li>`).join('');
       } else {
         benchBlock.style.display = 'none';
       }
@@ -518,6 +539,33 @@
 
       // Spielfeld-Visualisierung
       renderPitch(pitchEl, lineup.starters, lineup.formation);
+
+      // Gegner-Aufstellung
+      const oppSection = document.getElementById('lineup-opponent');
+      const oppTitle = document.getElementById('lineup-opp-title');
+      const oppFormation = document.getElementById('lineup-opp-formation');
+      const oppStarters = document.getElementById('lineup-opp-starters');
+      if (opponentLineup && opponentLineup.starters && opponentLineup.starters.length) {
+        oppSection.style.display = '';
+        oppTitle.textContent = `Gegner · ${opponentLineup.teamName || 'Aufstellung'}`;
+        oppFormation.textContent = opponentLineup.formation || '';
+        oppStarters.innerHTML = opponentLineup.starters.map(p => `
+          <li>
+            <span class="pos">${escHtml(p.position || '')}</span>
+            <span class="num">${p.number ? '#' + p.number : ''}</span>
+            <span>${escHtml(p.name)}</span>
+          </li>`).join('');
+      } else {
+        oppSection.style.display = 'none';
+      }
+
+      // Quellen-Hinweis
+      const sourceEl = document.getElementById('lineup-source');
+      if (lineup.sourceUrl && lineup.sourceName) {
+        sourceEl.innerHTML = `Quelle: <a href="${escHtml(lineup.sourceUrl)}" target="_blank" rel="noopener">${escHtml(lineup.sourceName)}</a>`;
+      } else {
+        sourceEl.innerHTML = '';
+      }
     }
 
     function renderPitch(pitchEl, starters, formation) {

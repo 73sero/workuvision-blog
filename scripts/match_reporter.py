@@ -594,6 +594,7 @@ def main():
         # Wenn lineup vorhanden aber kein Spiel mehr — currentLineup leeren
         if content.get("currentLineup"):
             content["currentLineup"] = None
+            content["opponentLineup"] = None
             save_content(content)
             print("  Aufstellung gelöscht (kein Spiel in Reichweite).")
         return
@@ -625,38 +626,48 @@ def main():
 
     # ===== PRE-MATCH =====
     if phase == "pre":
-        # 1) Aufstellung suchen — IMMER (auch wenn schon Vorbericht), damit Lineup live aktualisiert wird
-        candidates = fetch_lineup_candidates(opp_name)
-        if candidates:
-            print(f"  → {len(candidates)} Lineup-Kandidaten in RSS gefunden.")
-            try:
-                lineup = extract_lineup_via_claude(candidates, match_info)
-            except Exception as e:
-                print(f"  ❌ Lineup-Extraktion fehlgeschlagen: {e}")
-                lineup = None
-        else:
-            print("  Keine Aufstellungs-Hinweise in RSS.")
-            lineup = None
+        # Lineup-Scraper hat möglicherweise schon eine Aufstellung gesetzt —
+        # in dem Fall verwenden wir die für den Vorbericht-Kontext.
+        existing_lineup = content.get("currentLineup")
+        scraper_lineup_present = existing_lineup and existing_lineup.get("starters") and len(existing_lineup["starters"]) == 11
 
-        # 2) Aufstellung in content.json
-        if lineup:
-            content["currentLineup"] = {
-                "matchTitle": f"Bayern {('vs' if is_home else 'bei')} {opp_name}",
-                "matchLabel": "Aufstellung · Startelf",
-                "matchDate": kickoff.isoformat(),
-                "publishedAt": datetime.now(timezone.utc).isoformat(),
-                "formation": lineup.get("formation", ""),
-                "starters": lineup.get("starters", []),
-                "bench": lineup.get("bench", []),
-                "coach": "Vincent Kompany",
-                "notes": "",
+        if scraper_lineup_present:
+            print("  ✓ Aufstellung wurde bereits vom kicker-Scraper geladen — nutze sie.")
+            lineup = {
+                "formation": existing_lineup.get("formation",""),
+                "starters": existing_lineup.get("starters", []),
+                "bench": existing_lineup.get("bench", []),
             }
-            print(f"  ✓ Aufstellung in content.json ({lineup.get('formation','?')}).")
         else:
-            # Platzhalter-Lineup, damit Frontend "Aufstellung folgt" zeigt? Nein —
-            # Frontend versteckt die Sektion automatisch wenn keine starters.
-            # Wir setzen aber currentLineup nur, wenn wir auch wirklich was haben.
-            pass
+            # Fallback: RSS-basierte Lineup-Extraktion
+            candidates = fetch_lineup_candidates(opp_name)
+            if candidates:
+                print(f"  → {len(candidates)} Lineup-Kandidaten in RSS gefunden.")
+                try:
+                    lineup = extract_lineup_via_claude(candidates, match_info)
+                except Exception as e:
+                    print(f"  ❌ Lineup-Extraktion fehlgeschlagen: {e}")
+                    lineup = None
+            else:
+                print("  Keine Aufstellungs-Hinweise in RSS.")
+                lineup = None
+
+            # 2) Aufstellung in content.json (nur wenn RSS-Quelle was lieferte)
+            if lineup:
+                content["currentLineup"] = {
+                    "matchTitle": f"Bayern {('vs' if is_home else 'bei')} {opp_name}",
+                    "matchLabel": "Aufstellung · Startelf",
+                    "matchDate": kickoff.isoformat(),
+                    "publishedAt": datetime.now(timezone.utc).isoformat(),
+                    "formation": lineup.get("formation", ""),
+                    "starters": lineup.get("starters", []),
+                    "bench": lineup.get("bench", []),
+                    "coach": "Vincent Kompany",
+                    "notes": "",
+                    "teamName": "FC Bayern München",
+                    "sourceName": "RSS-Aggregation",
+                }
+                print(f"  ✓ Aufstellung in content.json ({lineup.get('formation','?')}).")
 
         # 3) Vorbericht-Post — nur einmal pro Match
         if state.get("pre"):
@@ -680,10 +691,12 @@ def main():
 
     # ===== POST-MATCH =====
     elif phase == "post":
-        # currentLineup löschen — Spiel ist vorbei
+        # currentLineup + opponentLineup löschen — Spiel ist vorbei
         if content.get("currentLineup"):
             content["currentLineup"] = None
             print("  Aufstellung gelöscht (Spiel beendet).")
+        if content.get("opponentLineup"):
+            content["opponentLineup"] = None
 
         if state.get("post"):
             print("  Spielbericht für dieses Spiel bereits geschrieben.")
