@@ -319,6 +319,51 @@ def extract_image_from_entry(entry):
     return None
 
 
+def fetch_og_image_from_url(article_url):
+    """Lädt die Artikel-Seite und extrahiert og:image (oder twitter:image als Fallback).
+    Wird als Fallback verwendet wenn der RSS-Feed kein Bild bereitstellt.
+    Gibt None zurück bei Fehler oder wenn kein Bild gefunden.
+    """
+    if not article_url:
+        return None
+    try:
+        req = urllib.request.Request(article_url, headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) "
+                          "AppleWebKit/605.1.15 (KHTML, like Gecko) "
+                          "Version/17.0 Safari/605.1.15",
+            "Accept": "text/html,application/xhtml+xml",
+        })
+        with urllib.request.urlopen(req, timeout=15) as r:
+            # Lese max 200KB — head/meta steht ganz oben
+            html = r.read(200_000).decode("utf-8", errors="ignore")
+        # 1) og:image
+        m = re.search(
+            r'<meta\s+(?:property|name)="og:image"[^>]*content="([^"]+)"',
+            html, re.IGNORECASE
+        )
+        if not m:
+            m = re.search(
+                r'<meta\s+content="([^"]+)"[^>]*(?:property|name)="og:image"',
+                html, re.IGNORECASE
+            )
+        # 2) twitter:image fallback
+        if not m:
+            m = re.search(
+                r'<meta\s+(?:property|name)="twitter:image"[^>]*content="([^"]+)"',
+                html, re.IGNORECASE
+            )
+        if m:
+            url = m.group(1).strip()
+            # HTML-Entity-Decoding (z.B. &amp; → &)
+            url = url.replace("&amp;", "&").replace("&#x2F;", "/")
+            if url.startswith("//"):
+                url = "https:" + url
+            return url
+    except Exception as e:
+        print(f"     og:image scrape fehlgeschlagen ({article_url[:60]}): {e}")
+    return None
+
+
 def download_and_optimize_image(image_url, slug, target_dir):
     """Lädt ein Bild herunter, skaliert es auf 1200x675 und speichert als JPEG.
     Gibt den lokalen Pfad zurück (relativ zum Repo) oder None bei Fehlern."""
@@ -369,16 +414,68 @@ def download_and_optimize_image(image_url, slug, target_dir):
         return None
 
 
+def _title_keywords(title):
+    """Extrahiert vergleichbare Stichworte aus einem Titel.
+    Nutzt sowohl Großbuchstabenwörter als auch normale Wörter (>= 5 Zeichen).
+    """
+    if not title:
+        return set()
+    # Großbuchstabenwörter (Eigennamen)
+    proper = re.findall(r"\b[A-ZÄÖÜ][a-zäöüß]{3,}\b", title)
+    # Generelle Stichworte: alle Wörter >= 5 Zeichen, ohne Stoppwörter
+    stop = {"sich", "nach", "trotz", "über", "diese", "dieser", "dieses",
+            "haben", "wieder", "noch", "auch", "seine", "seinen", "seiner",
+            "ihrem", "ihren", "ihrer", "wird", "werden", "wurde", "kann",
+            "nicht", "keine", "schon", "aber", "doch", "weil", "damit",
+            "gegen", "gegenüber", "dabei", "ohne"}
+    words = re.findall(r"\b\w{5,}\b", title.lower())
+    keywords = set(p.lower() for p in proper)
+    keywords.update(w for w in words if w not in stop)
+    return keywords
+
+
+def _is_similar_title(title_a, title_b, threshold=0.55):
+    """True wenn zwei Titel inhaltlich sehr ähnlich sind."""
+    ka = _title_keywords(title_a)
+    kb = _title_keywords(title_b)
+    if not ka or not kb:
+        return False
+    # Jaccard-Ähnlichkeit
+    intersect = len(ka & kb)
+    union = len(ka | kb)
+    if union == 0:
+        return False
+    similarity = intersect / union
+    return similarity >= threshold
+
+
 def is_already_covered(items, articles):
-    existing_keywords = set()
-    for a in articles[-15:]:
-        words = re.findall(r"\b[A-Z][a-zäöü]{4,}\b", a.get("title", ""))
-        existing_keywords.update(w.lower() for w in words)
+    """Prüft welche RSS-Items inhaltlich schon in den letzten Artikeln abgedeckt sind.
+    WICHTIG: articles ist absteigend sortiert (neueste zuerst, durch insert(0,...)).
+    Daher articles[:20] = die 20 NEUESTEN, nicht articles[-20:].
+    """
+    # Stichworte aus den 20 NEUESTEN Artikeln (oben in der Liste)
+    recent_keyword_sets = []
+    for a in articles[:20]:
+        kws = _title_keywords(a.get("title", ""))
+        if kws:
+            recent_keyword_sets.append(kws)
+
     fresh = []
     for item in items:
-        words = re.findall(r"\b[A-Z][a-zäöü]{4,}\b", item["title"])
-        overlap = sum(1 for w in words if w.lower() in existing_keywords)
-        if not words or overlap / len(words) < 0.5:
+        item_kws = _title_keywords(item.get("title", ""))
+        if not item_kws:
+            fresh.append(item)
+            continue
+        # Check gegen jeden recent Artikel
+        is_dup = False
+        for existing_kws in recent_keyword_sets:
+            intersect = len(item_kws & existing_kws)
+            union = len(item_kws | existing_kws)
+            if union > 0 and intersect / union >= 0.55:
+                is_dup = True
+                break
+        if not is_dup:
             fresh.append(item)
     return fresh
 
@@ -627,6 +724,20 @@ def main():
     title = new_post.get("title", "Workuvision Take")[:90]
     slug = f"{today}-{slugify(title)}"
 
+    # === POST-GENERATION DEDUP-CHECK ===
+    # Claude hat einen Titel generiert. Prüfe ob inhaltlich schon ein sehr
+    # ähnlicher Artikel in den letzten 20 existiert. Falls ja: nicht hinzufügen.
+    for existing in articles[:20]:
+        if existing.get("slug") == slug:
+            print(f"  ⚠️  Slug existiert bereits ({slug}) — übersprungen.")
+            sys.exit(0)
+        if _is_similar_title(title, existing.get("title", ""), threshold=0.5):
+            print(f"  ⚠️  Inhaltliches Duplikat erkannt:")
+            print(f"     Neu:        '{title}'")
+            print(f"     Existiert:  '{existing.get('title','')}'")
+            print(f"  → Artikel verworfen.")
+            sys.exit(0)
+
     # Bild-Auswahl:
     # 1) Versuche, das Bild aus dem RSS-Item zu laden, das Claude als Quelle gewählt hat
     # 2) Wenn das nicht klappt: zufällig aus Stock-Pool (vermeidet Wiederholungen)
@@ -646,6 +757,18 @@ def main():
             thumbnail = local_thumb
             print(f"  📷 RSS-Bild von {chosen_item.get('source','?')} gespeichert: {thumbnail}")
 
+    # Fallback 1: og:image direkt von der Artikel-URL scrapen
+    if not thumbnail:
+        article_url = new_post.get("sourceUrl", "")
+        if article_url:
+            og_url = fetch_og_image_from_url(article_url)
+            if og_url:
+                local_thumb = download_and_optimize_image(og_url, slug, ARTICLE_IMG_DIR)
+                if local_thumb:
+                    thumbnail = local_thumb
+                    print(f"  📷 og:image von {article_url[:50]} gescraped: {thumbnail}")
+
+    # Fallback 2: Stock-Bild aus Pool (nur wenn vorher nichts ging)
     if not thumbnail:
         thumbnail = pick_stock_image(cat, content.get("articles", []))
         print(f"  📷 Stock-Bild verwendet: {thumbnail}")
