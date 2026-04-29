@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-04-29T20:07:41+00:00",
+  "lastUpdated": "2026-04-29T21:38:25+00:00",
   "tiktokStats": {
     "followers": 1352,
     "likes": "27K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Heim gegen Heidenheim in 2 Tagen — alle Augen auf den FCB",
+    "Hakimi fällt für Rückspiel gegen Bayern aus",
     "Kompany eilt nach Abpfiff in die Kabine: Lob für kämpfende Bayern",
     "Gordon-Berater zu Gast: Bayern prüft Newcastle-Star",
     "Kompany eilt nach Abpfiff in die Kabine: Lob trotz 4:5",
     "Kompany und Enrique: Gespräch zweier Trainer auf Augenhöhe",
-    "Pavlović nach PSG-Niederlage: \"Wir schaffen es zu Hause\"",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-04-29-hakimi-faellt-fuer-rueckspiel-gegen-bayern-aus",
+      "date": "2026-04-29",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/stadium1.jpg",
+      "thumbnailAlt": "Hakimi fällt für Rückspiel gegen Bayern aus",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Hakimi fällt für Rückspiel gegen Bayern aus",
+      "excerpt": "PSG muss im Champions-League-Halbfinale-Rückspiel gegen den FC Bayern auf Achraf Hakimi verzichten. Das bestätigt Bavarian Football Works.",
+      "body": "Laut Bavarian Football Works ist Achraf Hakimi für das Rückspiel des Champions-League-Halbfinales zwischen dem FC Bayern und Paris Saint-Germain nicht einsatzfähig. Der marokkanische Rechtsverteidiger hatte sich im Hinspiel verletzt und wird der PSG-Mannschaft in München nicht zur Verfügung stehen.\n\nDas Hinspiel hatte mit 5:4 für PSG geendet — eines der torreichsten Duelle in der jüngeren Geschichte des europäischen Vereinsfußballs. Die Bayern kamen nach einem Rückstand von 5:2 noch auf 5:4 heran, verließen Paris aber dennoch als unterlegene Mannschaft. Der Ausfall Hakimis, einer der auffälligsten Spieler im Hinspiel, schwächt die rechte Seite der Pariser erheblich.\n\nFür den FC Bayern ist der Ausfall des PSG-Verteidigers eine günstige Nachricht vor dem Rückspiel in der Allianz Arena. Die Münchner benötigen mindestens ein Tor Unterschied, um die Verlängerung zu erzwingen, und werden wohl versuchen, die geschwächte rechte Abwehrseite der Franzosen gezielt zu bespielen. Das Rückspiel findet kommenden Mittwoch statt.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/champions-league/196098/injury-fears-confirmed-psgs-achraf-hakimi-set-to-miss-ucl-semis-second-leg-vs-bayern-munich",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-04-29-kompany-eilt-nach-abpfiff-in-die-kabine-lob-fuer-k",
       "date": "2026-04-29",
