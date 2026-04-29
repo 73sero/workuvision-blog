@@ -99,35 +99,56 @@
 
     /* TikTok */
     .tts{background:linear-gradient(180deg,transparent,rgba(220,5,45,.02),transparent);border-top:1px solid var(--gb);border-bottom:1px solid var(--gb)}
-    .lineup-card{background:var(--glass);border:1px solid var(--gb);border-radius:8px;overflow:hidden;display:grid;grid-template-columns:minmax(280px,1.2fr) 1fr;gap:0}
-    @media (max-width:900px){.lineup-card{grid-template-columns:1fr}}
-    .lineup-pitch{background:linear-gradient(180deg,#0c2818 0%,#0a3819 50%,#0c2818 100%);position:relative;min-height:480px;padding:1.4rem;border-right:1px solid var(--gb)}
-    .lineup-pitch::before{content:"";position:absolute;inset:1.4rem;border:2px solid rgba(255,255,255,.18);border-radius:6px}
-    .lineup-pitch::after{content:"";position:absolute;left:50%;top:1.4rem;bottom:1.4rem;width:1px;background:rgba(255,255,255,.12);transform:translateX(-50%)}
-    .lineup-circle{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:80px;height:80px;border:2px solid rgba(255,255,255,.18);border-radius:50%;pointer-events:none}
-    .pitch-pos{position:absolute;display:flex;flex-direction:column;align-items:center;gap:.25rem;text-align:center;font-family:var(--fb);transform:translate(-50%,-50%);width:90px;z-index:2}
-    .pitch-pos .num{background:var(--red);color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-weight:700;font-size:.85rem;box-shadow:0 4px 8px rgba(0,0,0,.4);border:2px solid rgba(255,255,255,.15)}
-    .pitch-pos .nm{font-family:var(--fh);font-weight:600;font-size:.65rem;letter-spacing:.5px;text-transform:uppercase;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.8);line-height:1.1}
-    .lineup-side{padding:1.6rem;display:flex;flex-direction:column;gap:1.4rem}
-    .lineup-block-title{font-family:var(--fm);font-size:.55rem;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gray);margin-bottom:.6rem}
-    .lineup-list{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:.4rem .8rem;margin:0;padding:0}
-    .lineup-list li{font-family:var(--fb);font-size:.85rem;color:var(--white);display:flex;gap:.5rem;align-items:baseline}
-    .lineup-list li .pos{font-family:var(--fm);font-size:.55rem;font-weight:700;color:var(--red);min-width:24px;letter-spacing:1px}
-    .lineup-list li .num{font-family:var(--fm);font-size:.7rem;color:var(--gray);min-width:18px}
-    .lineup-bench{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.4rem;font-size:.78rem;color:var(--gray)}
-    .lineup-bench li{padding:.25rem .55rem;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:3px}
-    .lineup-coach{font-family:var(--fh);font-size:1rem;font-weight:600;letter-spacing:1px;color:var(--white);text-transform:uppercase}
-    .lineup-notes{font-size:.78rem;line-height:1.5;color:var(--gray);font-style:italic;border-left:2px solid var(--red);padding-left:.8rem}
-    .lineup-meta{font-family:var(--fm);font-size:.55rem;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:var(--gray);text-align:right}
-    .lineup-meta .formation{color:var(--gold);font-weight:700}
-    .lineup-opponent{margin-top:1.4rem;background:var(--glass);border:1px solid var(--gb);border-radius:8px;padding:1.4rem 1.6rem}
-    .lineup-opponent-header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1rem;flex-wrap:wrap;gap:.5rem}
-    .lineup-opp-formation{font-family:var(--fm);font-size:.55rem;letter-spacing:2.5px;color:var(--gold);font-weight:700;text-transform:uppercase}
-    .lineup-list--opp{grid-template-columns:repeat(3,1fr) !important}
-    @media(max-width:600px){.lineup-list--opp{grid-template-columns:repeat(2,1fr) !important}}
-    .lineup-source{margin-top:1rem;font-family:var(--fm);font-size:.5rem;letter-spacing:2px;color:var(--gray);text-align:right;text-transform:uppercase}
-    .lineup-source a{color:var(--red);text-decoration:none}
-    .lineup-source a:hover{text-decoration:underline}
+    /* ========== LINEUP — KOMPAKTES DESIGN ========== */
+    .lineup-wrap{background:var(--glass);border:1px solid var(--gb);border-radius:10px;overflow:hidden;position:relative}
+    .lineup-wrap::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--red),var(--gold),var(--red));background-size:200% 100%;animation:shm 3s ease infinite;z-index:2}
+    .lineup-head{display:flex;justify-content:space-between;align-items:center;padding:.85rem 1.2rem;border-bottom:1px solid var(--gb);background:rgba(0,0,0,.3);flex-wrap:wrap;gap:.5rem}
+    .lineup-head-l{display:flex;flex-direction:column;gap:.15rem}
+    .lineup-head-mt{font-family:var(--fm);font-size:.5rem;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:var(--gray)}
+    .lineup-head-tt{font-family:var(--fh);font-size:1.05rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--white)}
+    .lineup-head-r{display:flex;align-items:center;gap:1rem}
+    .lineup-formation{font-family:var(--fh);font-size:.95rem;font-weight:700;color:var(--gold);letter-spacing:2px}
+    .lineup-time{font-family:var(--fm);font-size:.55rem;letter-spacing:2px;color:var(--gray);text-transform:uppercase}
+    .lineup-body{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:0}
+    @media (max-width:840px){.lineup-body{grid-template-columns:1fr}}
+    /* Spielfeld — kompakter, Höhe ~360px */
+    .lineup-pitch{position:relative;background:linear-gradient(180deg,#0d2a18 0%,#0a3a1d 50%,#0d2a18 100%);min-height:380px;padding:1.4rem;border-right:1px solid var(--gb)}
+    @media (max-width:840px){.lineup-pitch{border-right:none;border-bottom:1px solid var(--gb);min-height:340px}}
+    .lineup-pitch::before{content:"";position:absolute;left:1rem;right:1rem;top:1rem;bottom:1rem;border:1.5px solid rgba(255,255,255,.18);border-radius:4px;pointer-events:none}
+    .lineup-pitch::after{content:"";position:absolute;left:50%;top:1rem;bottom:1rem;width:1px;background:rgba(255,255,255,.18);transform:translateX(-50%);pointer-events:none}
+    .lineup-circle{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:64px;border:1.5px solid rgba(255,255,255,.18);border-radius:50%;pointer-events:none}
+    /* Spielerpunkte — als Trikot-Pucks */
+    .pitch-pos{position:absolute;display:flex;flex-direction:column;align-items:center;gap:.2rem;text-align:center;transform:translate(-50%,-50%);width:auto;z-index:3;pointer-events:none}
+    .pitch-puck{background:var(--red);color:#fff;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-weight:700;font-size:.78rem;box-shadow:0 3px 10px rgba(0,0,0,.5),0 0 0 2px rgba(255,255,255,.18) inset;line-height:1}
+    .pitch-pos .nm{font-family:var(--fh);font-weight:600;font-size:.6rem;letter-spacing:.5px;text-transform:uppercase;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.9);max-width:90px;line-height:1.1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    @media (max-width:600px){.pitch-pos .nm{font-size:.55rem;max-width:70px}}
+    /* TW etwas anders */
+    .pitch-pos.is-keeper .pitch-puck{background:#fbbf24;color:#000}
+    /* Rechte Seite — Liste */
+    .lineup-side{padding:1rem 1.2rem;display:flex;flex-direction:column;gap:1rem}
+    .lineup-block-title{font-family:var(--fm);font-size:.5rem;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--gray);margin-bottom:.4rem;display:flex;justify-content:space-between;align-items:center}
+    .lineup-block-title .accent{color:var(--red)}
+    .lineup-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:.25rem .8rem}
+    .lineup-list li{font-family:var(--fb);font-size:.78rem;color:var(--white);display:grid;grid-template-columns:24px 22px 1fr;gap:.4rem;align-items:baseline}
+    .lineup-list li .pos{font-family:var(--fm);font-size:.5rem;font-weight:700;color:var(--red);letter-spacing:1px;text-align:center}
+    .lineup-list li .num{font-family:var(--fm);font-size:.62rem;color:var(--gray);text-align:right}
+    .lineup-bench{display:flex;flex-wrap:wrap;gap:.3rem;list-style:none;margin:0;padding:0}
+    .lineup-bench li{font-family:var(--fb);font-size:.7rem;color:var(--gray);padding:.2rem .5rem;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.05);border-radius:3px}
+    .lineup-coach{font-family:var(--fh);font-size:.78rem;font-weight:600;letter-spacing:.8px;color:var(--white);text-transform:uppercase}
+    .lineup-coach .sub{display:block;font-family:var(--fm);font-size:.55rem;font-weight:500;letter-spacing:1.5px;color:var(--gray);text-transform:uppercase;margin-top:.2rem}
+    /* Gegner — als kompakte Leiste unten */
+    .lineup-opp{padding:.85rem 1.2rem;border-top:1px solid var(--gb);background:rgba(0,0,0,.2);display:flex;align-items:flex-start;gap:1.2rem;flex-wrap:wrap}
+    .lineup-opp-l{display:flex;flex-direction:column;gap:.15rem;min-width:140px}
+    .lineup-opp-lbl{font-family:var(--fm);font-size:.5rem;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--gray)}
+    .lineup-opp-tt{font-family:var(--fh);font-size:.85rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--white)}
+    .lineup-opp-form{font-family:var(--fh);font-size:.7rem;font-weight:700;color:var(--gold);letter-spacing:1.5px;margin-top:.1rem}
+    .lineup-opp-list{flex:1;display:flex;flex-wrap:wrap;gap:.25rem .8rem;list-style:none;margin:0;padding:0}
+    .lineup-opp-list li{font-family:var(--fb);font-size:.72rem;color:rgba(255,255,255,.85);white-space:nowrap}
+    .lineup-opp-list li .num{font-family:var(--fm);font-size:.58rem;color:var(--gray);margin-right:.3rem}
+    .lineup-foot{padding:.5rem 1.2rem;font-family:var(--fm);font-size:.5rem;letter-spacing:2px;color:var(--gray);text-transform:uppercase;text-align:right;border-top:1px solid var(--gb)}
+    .lineup-foot a{color:var(--red);text-decoration:none}
+    .lineup-foot a:hover{text-decoration:underline}
+    .lineup-notes{font-size:.7rem;line-height:1.5;color:var(--gray);font-style:italic;border-left:2px solid var(--red);padding:.2rem 0 .2rem .7rem}
     .ttsc{display:flex;gap:1.2rem;overflow-x:auto;padding-bottom:1rem;scrollbar-width:none;scroll-snap-type:x mandatory}.ttsc::-webkit-scrollbar{display:none}
     .ttc{min-width:210px;max-width:210px;aspect-ratio:9/16;border-radius:14px;border:1px solid var(--gb);overflow:hidden;position:relative;flex-shrink:0;cursor:pointer;transition:all .4s var(--e);scroll-snap-align:start}.ttc:hover{transform:scale(1.04) translateY(-4px);border-color:rgba(220,5,45,.3);box-shadow:0 20px 50px rgba(0,0,0,.4)}
     .ttc-img{width:100%;height:100%;object-fit:cover}
@@ -237,40 +258,49 @@
   </div></div>
 
   <section class="sec" id="lineup-section" style="display:none">
-    <div class="sh rv">
-      <div>
-        <div class="st" id="lineup-label">Aufstellung</div>
-        <h2 class="stl" id="lineup-title">Aufstellung folgt</h2>
-      </div>
-      <div class="lineup-meta" id="lineup-meta"></div>
-    </div>
-    <div class="lineup-card rv" id="lineup-card">
-      <div class="lineup-pitch" id="lineup-pitch"></div>
-      <div class="lineup-side">
-        <div class="lineup-block">
-          <div class="lineup-block-title" id="lineup-team-name">Startelf · FC Bayern</div>
-          <ol class="lineup-list" id="lineup-starters"></ol>
+    <div class="lineup-wrap rv" id="lineup-wrap">
+      <div class="lineup-head">
+        <div class="lineup-head-l">
+          <div class="lineup-head-mt" id="lineup-label">Aufstellung · Startelf</div>
+          <div class="lineup-head-tt" id="lineup-title">Aufstellung folgt</div>
         </div>
-        <div class="lineup-block" id="lineup-bench-block">
-          <div class="lineup-block-title">Auf der Bank</div>
-          <ul class="lineup-bench" id="lineup-bench"></ul>
+        <div class="lineup-head-r">
+          <span class="lineup-formation" id="lineup-formation"></span>
+          <span class="lineup-time" id="lineup-time"></span>
         </div>
-        <div class="lineup-block" id="lineup-coach-block">
-          <div class="lineup-block-title">Trainer</div>
-          <div class="lineup-coach" id="lineup-coach"></div>
+      </div>
+      <div class="lineup-body">
+        <div class="lineup-pitch" id="lineup-pitch"></div>
+        <div class="lineup-side">
+          <div>
+            <div class="lineup-block-title">
+              <span id="lineup-team-name">Startelf</span>
+              <span class="accent">11</span>
+            </div>
+            <ol class="lineup-list" id="lineup-starters"></ol>
+          </div>
+          <div id="lineup-bench-block">
+            <div class="lineup-block-title">Auf der Bank</div>
+            <ul class="lineup-bench" id="lineup-bench"></ul>
+          </div>
+          <div id="lineup-coach-block">
+            <div class="lineup-block-title">Trainer</div>
+            <div class="lineup-coach" id="lineup-coach"></div>
+          </div>
+          <div class="lineup-notes" id="lineup-notes" style="display:none"></div>
         </div>
-        <div class="lineup-notes" id="lineup-notes"></div>
       </div>
-    </div>
-    <!-- Gegner-Aufstellung -->
-    <div class="lineup-opponent rv" id="lineup-opponent" style="display:none">
-      <div class="lineup-opponent-header">
-        <div class="lineup-block-title" id="lineup-opp-title">Gegner · Aufstellung</div>
-        <div class="lineup-opp-formation" id="lineup-opp-formation"></div>
+      <!-- Gegner als kompakte Leiste -->
+      <div class="lineup-opp" id="lineup-opponent" style="display:none">
+        <div class="lineup-opp-l">
+          <div class="lineup-opp-lbl">Gegner</div>
+          <div class="lineup-opp-tt" id="lineup-opp-title">—</div>
+          <div class="lineup-opp-form" id="lineup-opp-formation"></div>
+        </div>
+        <ol class="lineup-opp-list" id="lineup-opp-starters"></ol>
       </div>
-      <ol class="lineup-list lineup-list--opp" id="lineup-opp-starters"></ol>
+      <div class="lineup-foot" id="lineup-source"></div>
     </div>
-    <div class="lineup-source" id="lineup-source"></div>
   </section>
 
   <section class="sec" id="articles">
@@ -478,7 +508,8 @@
 
       const titleEl = document.getElementById('lineup-title');
       const labelEl = document.getElementById('lineup-label');
-      const metaEl = document.getElementById('lineup-meta');
+      const formationEl = document.getElementById('lineup-formation');
+      const timeEl = document.getElementById('lineup-time');
       const startersEl = document.getElementById('lineup-starters');
       const benchEl = document.getElementById('lineup-bench');
       const benchBlock = document.getElementById('lineup-bench-block');
@@ -490,22 +521,19 @@
 
       if (titleEl) titleEl.textContent = lineup.matchTitle || 'Aktuelle Aufstellung';
       if (labelEl) labelEl.textContent = lineup.matchLabel || 'Aufstellung · Startelf';
-      if (teamNameEl) teamNameEl.textContent = `Startelf · ${lineup.teamName || 'FC Bayern München'}`;
-
-      // Meta: Formation + Datum
-      let metaHtml = '';
-      if (lineup.formation) metaHtml += `<span class="formation">${escHtml(lineup.formation)}</span>`;
-      if (lineup.matchDate) {
-        try {
-          const d = new Date(lineup.matchDate);
-          metaHtml += metaHtml ? ' · ' : '';
-          const opt = { day:'numeric', month:'short', hour:'2-digit', minute:'2-digit' };
-          metaHtml += d.toLocaleDateString('de-DE', opt) + ' Uhr';
-        } catch(e) {}
+      if (teamNameEl) teamNameEl.textContent = lineup.teamName || 'FC Bayern München';
+      if (formationEl) formationEl.textContent = lineup.formation || '';
+      if (timeEl) {
+        if (lineup.matchDate) {
+          try {
+            const d = new Date(lineup.matchDate);
+            const opt = { day:'numeric', month:'short', hour:'2-digit', minute:'2-digit' };
+            timeEl.textContent = d.toLocaleDateString('de-DE', opt) + ' Uhr';
+          } catch(e) { timeEl.textContent = ''; }
+        } else timeEl.textContent = '';
       }
-      if (metaEl) metaEl.innerHTML = metaHtml;
 
-      // Starter-Liste (rechts)
+      // Starter-Liste
       startersEl.innerHTML = lineup.starters.map(p => `
         <li>
           <span class="pos">${escHtml(p.position || '')}</span>
@@ -521,10 +549,16 @@
         benchBlock.style.display = 'none';
       }
 
-      // Trainer
+      // Trainer (mit Sub-Info wenn z.B. "gesperrt — vertreten durch ...")
       if (lineup.coach) {
         coachBlock.style.display = '';
-        coachEl.textContent = lineup.coach;
+        const coachStr = lineup.coach;
+        const m = coachStr.match(/^(.+?)\s*\((.+?)\)$/);
+        if (m) {
+          coachEl.innerHTML = `${escHtml(m[1].trim())}<span class="sub">${escHtml(m[2].trim())}</span>`;
+        } else {
+          coachEl.textContent = coachStr;
+        }
       } else {
         coachBlock.style.display = 'none';
       }
@@ -537,29 +571,26 @@
         notesEl.style.display = 'none';
       }
 
-      // Spielfeld-Visualisierung
+      // Pitch
       renderPitch(pitchEl, lineup.starters, lineup.formation);
 
-      // Gegner-Aufstellung
+      // Gegner
       const oppSection = document.getElementById('lineup-opponent');
       const oppTitle = document.getElementById('lineup-opp-title');
       const oppFormation = document.getElementById('lineup-opp-formation');
       const oppStarters = document.getElementById('lineup-opp-starters');
       if (opponentLineup && opponentLineup.starters && opponentLineup.starters.length) {
         oppSection.style.display = '';
-        oppTitle.textContent = `Gegner · ${opponentLineup.teamName || 'Aufstellung'}`;
+        oppTitle.textContent = opponentLineup.teamName || 'Aufstellung';
         oppFormation.textContent = opponentLineup.formation || '';
         oppStarters.innerHTML = opponentLineup.starters.map(p => `
-          <li>
-            <span class="pos">${escHtml(p.position || '')}</span>
-            <span class="num">${p.number ? '#' + p.number : ''}</span>
-            <span>${escHtml(p.name)}</span>
-          </li>`).join('');
+          <li><span class="num">#${p.number || ''}</span>${escHtml((p.name || '').split(' ').pop())}</li>
+        `).join('');
       } else {
         oppSection.style.display = 'none';
       }
 
-      // Quellen-Hinweis
+      // Quelle
       const sourceEl = document.getElementById('lineup-source');
       if (lineup.sourceUrl && lineup.sourceName) {
         sourceEl.innerHTML = `Quelle: <a href="${escHtml(lineup.sourceUrl)}" target="_blank" rel="noopener">${escHtml(lineup.sourceName)}</a>`;
@@ -572,54 +603,52 @@
       pitchEl.innerHTML = '<div class="lineup-circle"></div>';
       if (!starters || starters.length !== 11) return;
 
-      // Formation-Layout: Reihen von hinten (TW) nach vorne (Sturm)
-      // Standard-Mappings für gängige Formationen
+      // Layouts: Spieler-Anzahl pro Linie von HINTEN (TW) nach VORNE (ST)
+      // Total muss IMMER 11 sein!
       const layouts = {
-        '4-2-3-1': [[1],[4],[2,2],[3],[1]],
-        '4-3-3':   [[1],[4],[3],[3]],
-        '3-4-3':   [[1],[3],[4],[3]],
-        '4-4-2':   [[1],[4],[4],[2]],
-        '3-5-2':   [[1],[3],[5],[2]],
-        '4-1-4-1': [[1],[4],[1],[4],[1]],
-        '5-3-2':   [[1],[5],[3],[2]],
+        '4-2-3-1': [1, 4, 2, 3, 1],   // TW + 4 + 2 + 3 + 1 = 11 ✓
+        '4-3-3':   [1, 4, 3, 3],       // TW + 4 + 3 + 3     = 11 ✓
+        '3-4-3':   [1, 3, 4, 3],       // TW + 3 + 4 + 3     = 11 ✓
+        '4-4-2':   [1, 4, 4, 2],       // TW + 4 + 4 + 2     = 11 ✓
+        '3-5-2':   [1, 3, 5, 2],       // TW + 3 + 5 + 2     = 11 ✓
+        '4-1-4-1': [1, 4, 1, 4, 1],    // TW + 4 + 1 + 4 + 1 = 11 ✓
+        '5-3-2':   [1, 5, 3, 2],       // TW + 5 + 3 + 2     = 11 ✓
+        '4-2-2-2': [1, 4, 2, 2, 2],    // TW + 4 + 2 + 2 + 2 = 11 ✓
+        '3-4-2-1': [1, 3, 4, 2, 1],    // TW + 3 + 4 + 2 + 1 = 11 ✓
       };
+
       const rows = layouts[formation] || layouts['4-2-3-1'];
+      const sum = rows.reduce((a,b) => a + b, 0);
+      if (sum !== 11) return;
 
-      // Sicherheitscheck: Summe = 11?
-      const sum = rows.reduce((a,b) => a + b.reduce((x,y) => x+y, 0), 0);
-      if (sum !== 11) return; // Fallback: keine Pitch-Zeichnung
-
-      // Y-Positionen verteilen (von hinten nach vorne, 8% bis 92%)
-      const ys = [];
-      for (let i = 0; i < rows.length; i++) {
-        ys.push(8 + (i / (rows.length - 1)) * 84);
-      }
+      // Y-Positionen: TW unten (90%) bis ST oben (10%) — Bayern verteidigt nach unten
+      const ys = rows.map((_, i) => 90 - (i / (rows.length - 1)) * 78);
 
       let idx = 0;
-      rows.forEach((row, rowIdx) => {
-        const subRowCount = row.length;
-        // Wenn nur eine Zahl: alle Spieler auf gleicher Y-Linie
-        // Wenn zwei: zwei Sub-Linien (ZDM/OM-Trennung)
-        row.forEach((count, subIdx) => {
-          const yOffset = subRowCount > 1 ? (subIdx - (subRowCount-1)/2) * 6 : 0;
-          const y = ys[rowIdx] + yOffset;
-          for (let i = 0; i < count; i++) {
-            const x = ((i + 1) / (count + 1)) * 100;
-            const player = starters[idx];
-            if (!player) return;
-            const div = document.createElement('div');
-            div.className = 'pitch-pos';
-            div.style.left = x + '%';
-            div.style.top = y + '%';
-            // Nachname extrahieren (letztes Wort)
-            const lastName = (player.name || '').split(' ').pop();
-            div.innerHTML = `
-              <div class="num">${player.number || ''}</div>
-              <div class="nm">${escHtml(lastName)}</div>`;
-            pitchEl.appendChild(div);
-            idx++;
-          }
-        });
+      rows.forEach((count, rowIdx) => {
+        const y = ys[rowIdx];
+        const isKeeper = rowIdx === 0;
+        for (let i = 0; i < count; i++) {
+          // X-Verteilung: Spieler horizontal verteilen
+          // Bei 4 Spielern: x = 18, 38, 62, 82
+          // Bei 3: x = 25, 50, 75
+          // Bei 1: x = 50
+          const x = count === 1
+            ? 50
+            : 16 + (i / (count - 1)) * 68;
+          const player = starters[idx];
+          if (!player) return;
+          const div = document.createElement('div');
+          div.className = 'pitch-pos' + (isKeeper ? ' is-keeper' : '');
+          div.style.left = x + '%';
+          div.style.top = y + '%';
+          const lastName = (player.name || '').split(' ').pop();
+          div.innerHTML = `
+            <div class="pitch-puck">${player.number || ''}</div>
+            <div class="nm">${escHtml(lastName)}</div>`;
+          pitchEl.appendChild(div);
+          idx++;
+        }
       });
     }
 
