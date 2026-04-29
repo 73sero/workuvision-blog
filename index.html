@@ -100,196 +100,183 @@
     /* TikTok */
     .tts{background:linear-gradient(180deg,transparent,rgba(220,5,45,.02),transparent);border-top:1px solid var(--gb);border-bottom:1px solid var(--gb)}
     /* ========================================================================
-       LINEUP — Tactical Pitch (kicker.de / DAZN inspired)
-       Echter Pitch im Hochformat mit beiden Teams gegeneinander.
+       LINEUP — Editorial Match Card
+       Match-Info links als Karte, kompakter Pitch rechts. Whitespace, ruhig, premium.
        ======================================================================== */
-    .lu-wrap{position:relative;padding:0}
-    .lu-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:1.4rem;gap:1rem;flex-wrap:wrap}
-    .lu-head-l{display:flex;flex-direction:column;gap:.3rem}
-    .lu-head-tt{font-family:var(--fh);font-size:1.85rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--white);line-height:1}
-    .lu-head-st{font-family:var(--fb);font-size:.78rem;font-weight:400;color:rgba(255,255,255,.45);display:flex;align-items:center;gap:.4rem}
-    .lu-head-st .dot{width:6px;height:6px;border-radius:50%;background:#22c55e;box-shadow:0 0 8px rgba(34,197,94,.6);animation:lu-pulse 2s ease-in-out infinite}
-    @keyframes lu-pulse{0%,100%{opacity:1}50%{opacity:.4}}
-    .lu-head-r{font-family:var(--fm);font-size:.55rem;font-weight:500;letter-spacing:2px;color:rgba(255,255,255,.4);text-transform:uppercase;text-align:right}
+    .lu-wrap{position:relative;display:grid;grid-template-columns:minmax(0,360px) minmax(0,1fr);gap:1.5rem;align-items:start}
+    @media (max-width:840px){.lu-wrap{grid-template-columns:1fr}}
 
-    /* === PITCH CONTAINER === */
+    /* === LINKE SEITE: MATCH-CARD === */
+    .lu-card{
+      background:linear-gradient(180deg,#0e1622 0%,#0a1018 100%);
+      border:1px solid rgba(255,255,255,.05);
+      border-radius:14px;
+      padding:1.6rem 1.6rem 1.4rem;
+      display:flex;flex-direction:column;gap:1.4rem;
+      position:relative;
+      overflow:hidden;
+    }
+    .lu-card::before{
+      content:"";position:absolute;top:0;left:0;right:0;height:1px;
+      background:linear-gradient(90deg,transparent,var(--red) 30%,var(--red) 70%,transparent);
+      opacity:.6;
+    }
+
+    /* Card Header */
+    .lu-card-h{display:flex;flex-direction:column;gap:.5rem}
+    .lu-card-comp{font-family:var(--fm);font-size:.5rem;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:var(--red);display:flex;align-items:center;gap:.4rem}
+    .lu-card-comp::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--red);box-shadow:0 0 6px var(--red)}
+    .lu-card-tt{font-family:var(--fh);font-size:1.3rem;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--white);line-height:1.05}
+    .lu-card-time{font-family:var(--fm);font-size:.55rem;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:.2rem}
+
+    /* Teams in der Card — vertikal gestackt */
+    .lu-card-teams{display:flex;flex-direction:column;gap:.55rem;padding:1rem 0;border-top:1px solid rgba(255,255,255,.05);border-bottom:1px solid rgba(255,255,255,.05)}
+    .lu-card-team{display:grid;grid-template-columns:32px 1fr auto;gap:.85rem;align-items:center}
+    .lu-card-crest{
+      width:32px;height:32px;border-radius:8px;
+      display:flex;align-items:center;justify-content:center;
+      font-family:var(--fh);font-weight:700;font-size:.62rem;color:#fff;
+      letter-spacing:-.3px;
+    }
+    .lu-card-crest.is-bayern{background:linear-gradient(180deg,#dc052d,#a8001f)}
+    .lu-card-crest.is-psg{background:linear-gradient(180deg,#1e3a8a,#0f2563)}
+    .lu-card-team-info{display:flex;flex-direction:column;gap:.05rem;min-width:0}
+    .lu-card-team-name{font-family:var(--fh);font-size:.85rem;font-weight:600;letter-spacing:.3px;color:var(--white);text-transform:uppercase;line-height:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .lu-card-team-side{font-family:var(--fm);font-size:.46rem;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.4)}
+    .lu-card-team-form{font-family:var(--fh);font-size:.78rem;font-weight:600;color:rgba(255,255,255,.6);letter-spacing:1.5px;font-feature-settings:"tnum"}
+
+    /* Coach */
+    .lu-card-coach{display:flex;flex-direction:column;gap:.25rem}
+    .lu-card-coach-lbl{font-family:var(--fm);font-size:.45rem;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.32)}
+    .lu-card-coach-name{font-family:var(--fh);font-size:.85rem;font-weight:600;letter-spacing:.4px;color:var(--white);text-transform:uppercase;line-height:1.15}
+    .lu-card-coach-sub{font-family:var(--fm);font-size:.45rem;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--red);line-height:1.3}
+
+    /* Bench */
+    .lu-card-bench{display:flex;flex-direction:column;gap:.4rem}
+    .lu-card-bench-h{display:flex;justify-content:space-between;align-items:baseline}
+    .lu-card-bench-lbl{font-family:var(--fm);font-size:.45rem;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.32)}
+    .lu-card-bench-c{font-family:var(--fm);font-size:.5rem;color:rgba(255,255,255,.4);letter-spacing:1.5px}
+    .lu-card-bench-text{font-family:var(--fb);font-size:.7rem;line-height:1.6;color:rgba(255,255,255,.55)}
+
+    /* Notes */
+    .lu-card-notes{font-family:var(--fb);font-size:.7rem;line-height:1.5;color:rgba(255,255,255,.45);font-style:italic;padding-top:.6rem;border-top:1px solid rgba(255,255,255,.04)}
+
+    /* Source */
+    .lu-card-src{font-family:var(--fm);font-size:.42rem;letter-spacing:2.5px;color:rgba(255,255,255,.25);text-transform:uppercase;text-align:right}
+    .lu-card-src a{color:rgba(255,255,255,.55);text-decoration:none}
+    .lu-card-src a:hover{color:var(--red)}
+
+    /* === RECHTE SEITE: KOMPAKTER PITCH === */
     .lu-pitch-card{
       position:relative;
-      border-radius:16px;
+      border-radius:14px;
       overflow:hidden;
-      box-shadow:0 30px 80px rgba(0,0,0,.4),0 0 0 1px rgba(255,255,255,.04);
-      aspect-ratio:16/10;
-      max-width:100%;
-    }
-    @media (max-width:720px){
-      .lu-pitch-card{aspect-ratio:4/3}
+      aspect-ratio:16/11;
+      background:#0a1410;
+      box-shadow:0 20px 60px rgba(0,0,0,.4),0 0 0 1px rgba(255,255,255,.04);
     }
 
-    /* === PITCH BACKGROUND === */
+    /* Pitch Background — viel dunkler, premium */
     .lu-pitch{
       position:absolute;inset:0;
-      background:
-        linear-gradient(135deg,#1f8531 0%,#26a13a 50%,#1f8531 100%);
+      background:linear-gradient(135deg,#0d2418 0%,#0f3020 50%,#0d2418 100%);
     }
-    /* Stripes — vertikale Streifen wie auf echtem Rasen */
     .lu-pitch::before{
       content:"";position:absolute;inset:0;
       background:repeating-linear-gradient(
         90deg,
-        rgba(255,255,255,.04) 0,
-        rgba(255,255,255,.04) calc(100%/14),
+        rgba(255,255,255,.012) 0,
+        rgba(255,255,255,.012) calc(100%/14),
         transparent calc(100%/14),
         transparent calc(200%/14)
       );
     }
-    /* Vignette */
     .lu-pitch::after{
       content:"";position:absolute;inset:0;
-      background:radial-gradient(ellipse 90% 80% at 50% 50%,transparent 50%,rgba(0,0,0,.25) 100%);
+      background:radial-gradient(ellipse 100% 80% at 50% 50%,transparent 40%,rgba(0,0,0,.4) 100%);
     }
 
-    /* === PITCH MARKINGS (SVG) === */
+    /* SVG markings — dezent */
     .lu-marks{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
     .lu-marks line,.lu-marks circle,.lu-marks rect,.lu-marks path{
-      stroke:rgba(255,255,255,.55);stroke-width:.25;fill:none;vector-effect:non-scaling-stroke;
+      stroke:rgba(255,255,255,.18);stroke-width:1.2;fill:none;vector-effect:non-scaling-stroke;
     }
-    .lu-marks line,.lu-marks rect,.lu-marks path,.lu-marks .center-circle{stroke-width:1.4}
+    .lu-marks .dot{fill:rgba(255,255,255,.3);stroke:none}
 
     /* === PLAYERS === */
+    .lu-players{position:absolute;inset:0}
     .lu-player{
       position:absolute;
       transform:translate(-50%,-50%);
       display:flex;flex-direction:column;align-items:center;
-      gap:.3rem;z-index:5;
+      gap:.25rem;z-index:5;
       animation:lu-fade .6s var(--e) both;
     }
     @keyframes lu-fade{from{opacity:0;transform:translate(-50%,-46%)}to{opacity:1;transform:translate(-50%,-50%)}}
 
     .lu-avatar{
       position:relative;
-      width:48px;height:48px;border-radius:50%;
-      display:flex;align-items:center;justify-content:center;
-      box-shadow:0 4px 14px rgba(0,0,0,.45),0 0 0 2px rgba(255,255,255,.15);
+      width:32px;height:32px;border-radius:50%;
+      box-shadow:0 3px 10px rgba(0,0,0,.5),0 0 0 1.5px rgba(255,255,255,.12);
     }
-    /* Bayern: rotes Trikot mit weißem Streifen */
-    .lu-player.is-bayern .lu-avatar{
-      background:linear-gradient(180deg,#dc052d 0%,#a8001f 100%);
-    }
-    .lu-player.is-bayern .lu-avatar::before{
-      content:"";position:absolute;inset:6px;
-      border-radius:50%;
-      background:
-        radial-gradient(circle at 50% 35%,rgba(255,255,255,.14) 0%,rgba(255,255,255,.06) 25%,transparent 50%),
-        repeating-linear-gradient(90deg,transparent 0,transparent 38%,rgba(255,255,255,.6) 38%,rgba(255,255,255,.6) 42%,transparent 42%,transparent 58%,rgba(255,255,255,.6) 58%,rgba(255,255,255,.6) 62%,transparent 62%);
-    }
-    /* PSG: blaues Trikot mit rotem Streifen */
-    .lu-player.is-psg .lu-avatar{
-      background:linear-gradient(180deg,#1a3a8c 0%,#0f2563 100%);
-    }
-    .lu-player.is-psg .lu-avatar::before{
-      content:"";position:absolute;inset:6px;
-      border-radius:50%;
-      background:
-        radial-gradient(circle at 50% 35%,rgba(255,255,255,.12) 0%,rgba(255,255,255,.04) 25%,transparent 50%),
-        linear-gradient(90deg,transparent 0%,transparent 44%,#dc052d 44%,#dc052d 56%,transparent 56%);
-    }
-    /* TW abweichend: gelb-grünes Keepertrikot */
-    .lu-player.is-keeper .lu-avatar{
-      background:linear-gradient(180deg,#fbbf24 0%,#d97706 100%) !important;
-    }
-    .lu-player.is-keeper .lu-avatar::before{
-      background:radial-gradient(circle at 50% 35%,rgba(255,255,255,.18) 0%,rgba(255,255,255,.06) 30%,transparent 55%) !important;
-    }
+    .lu-player.is-bayern .lu-avatar{background:linear-gradient(180deg,#dc052d 0%,#a8001f 100%)}
+    .lu-player.is-psg .lu-avatar{background:linear-gradient(180deg,#1e3a8a 0%,#0f2563 100%)}
+    .lu-player.is-keeper .lu-avatar{background:linear-gradient(180deg,#fbbf24 0%,#d97706 100%) !important}
 
-    /* Nummer als Bubble oben rechts */
+    /* Number in der Mitte vom Avatar — clean, kein bubble */
     .lu-num{
-      position:absolute;top:-4px;right:-4px;
-      width:20px;height:20px;border-radius:50%;
-      background:#0a0e16;color:#fff;
-      font-family:var(--fh);font-weight:700;font-size:.7rem;
+      position:absolute;inset:0;
       display:flex;align-items:center;justify-content:center;
-      letter-spacing:-.5px;line-height:1;
-      box-shadow:0 0 0 1.5px rgba(255,255,255,.18);
-      z-index:2;
+      font-family:var(--fh);font-weight:700;font-size:.78rem;color:#fff;
+      letter-spacing:-.3px;line-height:1;
+      text-shadow:0 1px 2px rgba(0,0,0,.4);
     }
+    .lu-player.is-keeper .lu-num{color:#1a0f00;text-shadow:0 1px 1px rgba(255,255,255,.4)}
 
-    /* Spielername unter dem Avatar */
     .lu-name{
-      font-family:var(--fb);font-weight:600;font-size:.7rem;
-      color:#fff;
-      text-shadow:0 1px 3px rgba(0,0,0,.95),0 0 8px rgba(0,0,0,.5);
-      letter-spacing:.2px;line-height:1.1;
-      max-width:90px;text-align:center;
+      font-family:var(--fb);font-weight:600;font-size:.55rem;
+      color:rgba(255,255,255,.92);
+      text-shadow:0 1px 3px rgba(0,0,0,.95),0 0 8px rgba(0,0,0,.6);
+      letter-spacing:.3px;line-height:1.1;
+      max-width:74px;text-align:center;
       white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
     }
 
-    @media (max-width:720px){
-      .lu-avatar{width:24px;height:24px}
-      .lu-num{width:13px;height:13px;font-size:.5rem;top:-2px;right:-2px}
-      .lu-name{font-size:.42rem;max-width:48px;letter-spacing:0;font-weight:500;background:rgba(0,0,0,.4);padding:1px 3px;border-radius:2px;backdrop-filter:blur(2px)}
+    @media (max-width:840px){
+      .lu-pitch-card{aspect-ratio:16/12}
+      .lu-avatar{width:26px;height:26px}
+      .lu-num{font-size:.65rem}
+      .lu-name{font-size:.46rem;max-width:54px;letter-spacing:.1px}
     }
     @media (max-width:480px){
-      .lu-avatar{width:20px;height:20px}
-      .lu-num{width:11px;height:11px;font-size:.42rem}
-      .lu-name{font-size:.38rem;max-width:40px}
+      .lu-pitch-card{aspect-ratio:16/13}
+      .lu-avatar{width:22px;height:22px}
+      .lu-num{font-size:.58rem}
+      .lu-name{font-size:.42rem;max-width:46px;letter-spacing:0;font-weight:500}
     }
 
     /* Staggered fade-in */
-    .lu-player:nth-child(odd){animation-delay:.05s}
-    .lu-player:nth-child(2){animation-delay:.1s}
-    .lu-player:nth-child(3){animation-delay:.15s}
-    .lu-player:nth-child(4){animation-delay:.2s}
-    .lu-player:nth-child(5){animation-delay:.25s}
-    .lu-player:nth-child(6){animation-delay:.3s}
-    .lu-player:nth-child(7){animation-delay:.35s}
-    .lu-player:nth-child(8){animation-delay:.4s}
+    .lu-player:nth-child(2){animation-delay:.04s}
+    .lu-player:nth-child(3){animation-delay:.08s}
+    .lu-player:nth-child(4){animation-delay:.12s}
+    .lu-player:nth-child(5){animation-delay:.16s}
+    .lu-player:nth-child(6){animation-delay:.2s}
+    .lu-player:nth-child(7){animation-delay:.24s}
+    .lu-player:nth-child(8){animation-delay:.28s}
+    .lu-player:nth-child(9){animation-delay:.32s}
+    .lu-player:nth-child(10){animation-delay:.36s}
+    .lu-player:nth-child(11){animation-delay:.4s}
 
-    /* === FOOTER ÜBER DEM PITCH (Wappen + Formationen) === */
+    /* === FOOTER ÜBER DEM PITCH === */
     .lu-pitch-foot{
       position:absolute;left:0;right:0;bottom:0;
-      padding:.85rem 1.4rem;
+      padding:.65rem 1.1rem;
       display:flex;justify-content:space-between;align-items:center;
       pointer-events:none;
-      background:linear-gradient(0deg,rgba(0,0,0,.45),transparent);
+      background:linear-gradient(0deg,rgba(0,0,0,.5),transparent);
     }
-    .lu-team-marker{display:flex;align-items:center;gap:.7rem}
-    .lu-team-marker.is-right{flex-direction:row-reverse}
-    .lu-crest{
-      width:38px;height:38px;border-radius:50%;
-      background:#fff;display:flex;align-items:center;justify-content:center;
-      font-family:var(--fh);font-weight:700;font-size:.85rem;color:#0a0e16;
-      box-shadow:0 4px 12px rgba(0,0,0,.4);
-      letter-spacing:-.5px;
-    }
-    .lu-crest.is-bayern{background:linear-gradient(180deg,#dc052d,#a8001f);color:#fff}
-    .lu-crest.is-psg{background:linear-gradient(180deg,#0f2563,#1a3a8c);color:#fff}
-    .lu-crest-form{font-family:var(--fh);font-size:.95rem;font-weight:700;color:#fff;letter-spacing:2px;line-height:1;text-shadow:0 2px 4px rgba(0,0,0,.6)}
-
-    @media (max-width:720px){
-      .lu-pitch-foot{padding:.6rem .9rem}
-      .lu-crest{width:30px;height:30px;font-size:.7rem}
-      .lu-crest-form{font-size:.75rem;letter-spacing:1.5px}
-    }
-
-    /* === META BLOCK UNTER DEM PITCH === */
-    .lu-meta{margin-top:1.2rem;display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;flex-wrap:wrap}
-    .lu-meta-l{font-family:var(--fb);font-size:.78rem;color:rgba(255,255,255,.55);line-height:1.55;max-width:560px}
-    .lu-meta-l strong{color:rgba(255,255,255,.85);font-weight:600}
-    .lu-meta-r{font-family:var(--fm);font-size:.5rem;letter-spacing:2.5px;color:rgba(255,255,255,.3);text-transform:uppercase;text-align:right}
-    .lu-meta-r a{color:rgba(255,255,255,.65);text-decoration:none}
-    .lu-meta-r a:hover{color:var(--red)}
-
-    /* === SUBSTITUTES & COACH (unter Pitch, in 3 Spalten) === */
-    .lu-info{margin-top:1.6rem;display:grid;grid-template-columns:1.5fr 1fr;gap:1.6rem;padding:1.4rem 1.6rem;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.04);border-radius:10px}
-    @media (max-width:720px){.lu-info{grid-template-columns:1fr;padding:1.2rem}}
-    .lu-info-h{font-family:var(--fm);font-size:.46rem;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:.6rem;display:flex;justify-content:space-between;align-items:baseline}
-    .lu-info-c{color:rgba(255,255,255,.5);font-size:.55rem}
-    .lu-bench-text{font-family:var(--fb);font-size:.78rem;line-height:1.65;color:rgba(255,255,255,.65)}
-    .lu-coach-name{font-family:var(--fh);font-size:1rem;font-weight:600;letter-spacing:.5px;color:var(--white);text-transform:uppercase;line-height:1.2}
-    .lu-coach-sub{display:block;font-family:var(--fm);font-size:.5rem;font-weight:500;letter-spacing:2px;color:rgba(255,255,255,.4);text-transform:uppercase;margin-top:.35rem}
-
-    /* Notes */
-    .lu-notes{margin-top:1rem;font-family:var(--fb);font-size:.75rem;line-height:1.6;color:rgba(255,255,255,.5);font-style:italic}
+    .lu-pitch-team{font-family:var(--fm);font-size:.55rem;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,.85);display:flex;align-items:center;gap:.5rem;text-shadow:0 1px 2px rgba(0,0,0,.8)}
+    .lu-pitch-team .form{color:rgba(255,255,255,.55);font-weight:500;letter-spacing:1.5px}
     .ttsc{display:flex;gap:1.2rem;overflow-x:auto;padding-bottom:1rem;scrollbar-width:none;scroll-snap-type:x mandatory}.ttsc::-webkit-scrollbar{display:none}
     .ttc{min-width:210px;max-width:210px;aspect-ratio:9/16;border-radius:14px;border:1px solid var(--gb);overflow:hidden;position:relative;flex-shrink:0;cursor:pointer;transition:all .4s var(--e);scroll-snap-align:start}.ttc:hover{transform:scale(1.04) translateY(-4px);border-color:rgba(220,5,45,.3);box-shadow:0 20px 50px rgba(0,0,0,.4)}
     .ttc-img{width:100%;height:100%;object-fit:cover}
@@ -400,89 +387,77 @@
 
   <section class="sec" id="lineup-section" style="display:none">
     <div class="lu-wrap rv" id="lu-wrap">
-      <!-- HEADER -->
-      <div class="lu-head">
-        <div class="lu-head-l">
-          <h2 class="lu-head-tt" id="lu-head-tt">Aufstellung</h2>
-          <div class="lu-head-st">
-            <span class="dot"></span>
-            <span id="lu-head-st">Aktuelles Spiel · live aus kicker.de</span>
+
+      <!-- LINKS: MATCH-CARD -->
+      <div class="lu-card">
+        <div class="lu-card-h">
+          <div class="lu-card-comp" id="lu-card-comp">Champions League</div>
+          <div class="lu-card-tt" id="lu-card-tt">PSG vs Bayern</div>
+          <div class="lu-card-time" id="lu-card-time"></div>
+        </div>
+
+        <div class="lu-card-teams">
+          <div class="lu-card-team" id="lu-card-team-home">
+            <div class="lu-card-crest" id="lu-card-crest-home">FCB</div>
+            <div class="lu-card-team-info">
+              <div class="lu-card-team-name" id="lu-card-team-home-name">—</div>
+              <div class="lu-card-team-side">Heim</div>
+            </div>
+            <div class="lu-card-team-form" id="lu-card-team-home-form">—</div>
+          </div>
+          <div class="lu-card-team" id="lu-card-team-away">
+            <div class="lu-card-crest" id="lu-card-crest-away">PSG</div>
+            <div class="lu-card-team-info">
+              <div class="lu-card-team-name" id="lu-card-team-away-name">—</div>
+              <div class="lu-card-team-side">Auswärts</div>
+            </div>
+            <div class="lu-card-team-form" id="lu-card-team-away-form">—</div>
           </div>
         </div>
-        <div class="lu-head-r" id="lu-head-r"></div>
+
+        <div class="lu-card-coach" id="lu-card-coach-section">
+          <span class="lu-card-coach-lbl">Cheftrainer · <span id="lu-card-coach-team">FC Bayern</span></span>
+          <span class="lu-card-coach-name" id="lu-card-coach-name">—</span>
+          <span class="lu-card-coach-sub" id="lu-card-coach-sub" style="display:none"></span>
+        </div>
+
+        <div class="lu-card-bench" id="lu-card-bench-section">
+          <div class="lu-card-bench-h">
+            <span class="lu-card-bench-lbl">Bank</span>
+            <span class="lu-card-bench-c" id="lu-card-bench-c"></span>
+          </div>
+          <div class="lu-card-bench-text" id="lu-card-bench"></div>
+        </div>
+
+        <div class="lu-card-notes" id="lu-card-notes" style="display:none"></div>
+
+        <div class="lu-card-src" id="lu-card-src"></div>
       </div>
 
-      <!-- PITCH CARD -->
+      <!-- RECHTS: KOMPAKTER PITCH -->
       <div class="lu-pitch-card">
         <div class="lu-pitch"></div>
         <svg class="lu-marks" viewBox="0 0 1000 625" preserveAspectRatio="none">
-          <!-- Outer pitch outline -->
           <rect x="20" y="20" width="960" height="585" rx="2"/>
-          <!-- Center vertical line -->
           <line x1="500" y1="20" x2="500" y2="605"/>
-          <!-- Center circle + spot -->
-          <circle class="center-circle" cx="500" cy="312" r="60"/>
-          <circle cx="500" cy="312" r="3" fill="rgba(255,255,255,.55)" stroke="none"/>
-          <!-- Left penalty box -->
-          <rect x="20" y="160" width="125" height="305"/>
-          <!-- Left 6-yard box -->
-          <rect x="20" y="240" width="50" height="145"/>
-          <!-- Left penalty spot + arc -->
-          <circle cx="105" cy="312" r="2.5" fill="rgba(255,255,255,.55)" stroke="none"/>
-          <path d="M 145 270 A 50 50 0 0 1 145 354"/>
-          <!-- Right penalty box -->
-          <rect x="855" y="160" width="125" height="305"/>
-          <!-- Right 6-yard box -->
-          <rect x="930" y="240" width="50" height="145"/>
-          <!-- Right penalty spot + arc -->
-          <circle cx="895" cy="312" r="2.5" fill="rgba(255,255,255,.55)" stroke="none"/>
-          <path d="M 855 270 A 50 50 0 0 0 855 354"/>
-          <!-- Corner arcs -->
-          <path d="M 20 28 A 8 8 0 0 0 28 20"/>
-          <path d="M 972 20 A 8 8 0 0 0 980 28"/>
-          <path d="M 20 597 A 8 8 0 0 1 28 605"/>
-          <path d="M 972 605 A 8 8 0 0 1 980 597"/>
+          <circle cx="500" cy="312" r="55"/>
+          <circle class="dot" cx="500" cy="312" r="2.5"/>
+          <rect x="20" y="170" width="115" height="285"/>
+          <rect x="20" y="245" width="45" height="135"/>
+          <circle class="dot" cx="95" cy="312" r="2"/>
+          <path d="M 135 280 A 45 45 0 0 1 135 344"/>
+          <rect x="865" y="170" width="115" height="285"/>
+          <rect x="935" y="245" width="45" height="135"/>
+          <circle class="dot" cx="905" cy="312" r="2"/>
+          <path d="M 865 280 A 45 45 0 0 0 865 344"/>
         </svg>
         <div class="lu-players" id="lu-players"></div>
-        <!-- Footer mit Wappen + Formationen -->
         <div class="lu-pitch-foot">
-          <div class="lu-team-marker" id="lu-marker-left">
-            <div class="lu-crest" id="lu-crest-left">—</div>
-            <div class="lu-crest-form" id="lu-form-left"></div>
-          </div>
-          <div class="lu-team-marker is-right" id="lu-marker-right">
-            <div class="lu-crest" id="lu-crest-right">—</div>
-            <div class="lu-crest-form" id="lu-form-right"></div>
-          </div>
+          <div class="lu-pitch-team" id="lu-pitch-team-l">— <span class="form" id="lu-pitch-form-l"></span></div>
+          <div class="lu-pitch-team" id="lu-pitch-team-r"><span class="form" id="lu-pitch-form-r"></span> —</div>
         </div>
       </div>
 
-      <!-- META BLOCK -->
-      <div class="lu-meta">
-        <div class="lu-meta-l" id="lu-meta-l"></div>
-        <div class="lu-meta-r" id="lu-source"></div>
-      </div>
-
-      <!-- BENCH + COACH -->
-      <div class="lu-info" id="lu-info">
-        <div id="lu-bench-section">
-          <div class="lu-info-h">
-            <span>Auf der Bank · <span id="lu-bench-team">FC Bayern</span></span>
-            <span class="lu-info-c" id="lu-bench-count"></span>
-          </div>
-          <div class="lu-bench-text" id="lu-bench"></div>
-        </div>
-        <div id="lu-coach-section">
-          <div class="lu-info-h">
-            <span>Cheftrainer</span>
-          </div>
-          <div>
-            <span class="lu-coach-name" id="lu-coach-name">—</span>
-            <span class="lu-coach-sub" id="lu-coach-sub" style="display:none"></span>
-          </div>
-          <div class="lu-notes" id="lu-notes" style="display:none"></div>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -696,93 +671,101 @@
       // Heim = links, Auswärts = rechts
       const home = bayernIsHome ? lineup : (opponentLineup || {});
       const away = bayernIsHome ? (opponentLineup || {}) : lineup;
+      const homeIsBayern = /\bbayern\b/i.test(home.teamName || '');
+      const awayIsBayern = /\bbayern\b/i.test(away.teamName || '');
 
-      // Header oben
+      // Datum + Wettbewerb
       const dateStr = (() => {
         if (!lineup.matchDate) return '';
         try {
           const d = new Date(lineup.matchDate);
-          return d.toLocaleDateString('de-DE', { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit' }) + ' Uhr';
+          return d.toLocaleDateString('de-DE', { weekday:'short', day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit' }) + ' Uhr';
         } catch(e) { return ''; }
       })();
       const isCL = /champions\s*league|cl[\s-]/i.test(matchTitle + ' ' + (lineup.matchLabel || ''));
       const isDFB = /dfb|pokal/i.test(matchTitle);
       const comp = isCL ? 'Champions League' : isDFB ? 'DFB-Pokal' : 'Bundesliga';
-      setText('lu-head-st', comp + (dateStr ? ' · ' + dateStr : ''));
-      setText('lu-head-r', `${shortTeamName(home.teamName || 'TBD')} vs ${shortTeamName(away.teamName || 'TBD')}`);
 
-      // Pitch rendern
-      const playersEl = document.getElementById('lu-players');
-      playersEl.innerHTML = '';
+      // === MATCH-CARD ===
+      setText('lu-card-comp', comp);
+      setText('lu-card-tt', shortTeamName(home.teamName || 'TBD') + ' vs ' + shortTeamName(away.teamName || 'TBD'));
+      setText('lu-card-time', dateStr);
 
-      // Linke Hälfte = Home, rechte Hälfte = Away
-      if (home.starters && home.starters.length === 11) {
-        renderPitchHalf(playersEl, home.starters, home.formation, 'left',
-          /\bbayern\b/i.test(home.teamName || '') ? 'is-bayern' : 'is-psg');
-      }
-      if (away.starters && away.starters.length === 11) {
-        renderPitchHalf(playersEl, away.starters, away.formation, 'right',
-          /\bbayern\b/i.test(away.teamName || '') ? 'is-bayern' : 'is-psg');
-      }
+      // Teams in der Card
+      setText('lu-card-team-home-name', shortTeamName(home.teamName || 'TBD'));
+      setText('lu-card-team-home-form', home.formation || '—');
+      const homeCrest = document.getElementById('lu-card-crest-home');
+      homeCrest.textContent = crestInitials(home.teamName);
+      homeCrest.className = 'lu-card-crest' + (homeIsBayern ? ' is-bayern' : ' is-psg');
 
-      // Wappen + Formationen am unteren Rand des Pitches
-      const homeIsBayern = /\bbayern\b/i.test(home.teamName || '');
-      const awayIsBayern = /\bbayern\b/i.test(away.teamName || '');
-      const leftCrest = document.getElementById('lu-crest-left');
-      leftCrest.textContent = crestInitials(home.teamName);
-      leftCrest.className = 'lu-crest' + (homeIsBayern ? ' is-bayern' : ' is-psg');
-      setText('lu-form-left', home.formation || '');
+      setText('lu-card-team-away-name', shortTeamName(away.teamName || 'TBD'));
+      setText('lu-card-team-away-form', away.formation || '—');
+      const awayCrest = document.getElementById('lu-card-crest-away');
+      awayCrest.textContent = crestInitials(away.teamName);
+      awayCrest.className = 'lu-card-crest' + (awayIsBayern ? ' is-bayern' : ' is-psg');
 
-      const rightCrest = document.getElementById('lu-crest-right');
-      rightCrest.textContent = crestInitials(away.teamName);
-      rightCrest.className = 'lu-crest' + (awayIsBayern ? ' is-bayern' : ' is-psg');
-      setText('lu-form-right', away.formation || '');
-
-      // Meta-Block
-      const metaL = document.getElementById('lu-meta-l');
-      const homeName = home.teamName || 'TBD';
-      const awayName = away.teamName || 'TBD';
-      metaL.innerHTML = `<strong>${escHtml(homeName)}</strong> empfängt <strong>${escHtml(awayName)}</strong>${dateStr ? ' am ' + escHtml(dateStr) : ''}. Die taktische Aufstellung basiert auf Daten von <strong>${escHtml(lineup.sourceName || 'kicker.de')}</strong>.`;
-
-      // Bench (zeigen wir die Bayern-Bank)
-      const benchSection = document.getElementById('lu-bench-section');
-      if (lineup.bench && lineup.bench.length) {
-        benchSection.style.display = '';
-        setText('lu-bench-team', shortTeamName(lineup.teamName || 'FC Bayern'));
-        document.getElementById('lu-bench-count').textContent = lineup.bench.length + ' SPIELER';
-        const benchNames = lineup.bench.map(n => typeof n === 'string' ? n : n.name);
-        document.getElementById('lu-bench').textContent = benchNames.join(' · ');
-      } else benchSection.style.display = 'none';
-
-      // Trainer
-      const coachSection = document.getElementById('lu-coach-section');
+      // Trainer (Bayern)
+      const coachSection = document.getElementById('lu-card-coach-section');
+      const coachSubEl = document.getElementById('lu-card-coach-sub');
       if (lineup.coach) {
         coachSection.style.display = '';
+        setText('lu-card-coach-team', shortTeamName(lineup.teamName || 'FC Bayern'));
         const coachStr = lineup.coach;
         const m = coachStr.match(/^(.+?)\s*\((.+?)\)\s*$/);
-        const subEl = document.getElementById('lu-coach-sub');
         if (m) {
-          setText('lu-coach-name', m[1].trim());
-          subEl.style.display = '';
-          subEl.textContent = m[2].trim();
+          setText('lu-card-coach-name', m[1].trim());
+          coachSubEl.style.display = '';
+          coachSubEl.textContent = m[2].trim();
         } else {
-          setText('lu-coach-name', coachStr);
-          subEl.style.display = 'none';
+          setText('lu-card-coach-name', coachStr);
+          coachSubEl.style.display = 'none';
         }
       } else coachSection.style.display = 'none';
 
+      // Bench
+      const benchSection = document.getElementById('lu-card-bench-section');
+      if (lineup.bench && lineup.bench.length) {
+        benchSection.style.display = '';
+        setText('lu-card-bench-c', lineup.bench.length + ' Spieler');
+        const benchNames = lineup.bench.map(n => typeof n === 'string' ? n : n.name);
+        document.getElementById('lu-card-bench').textContent = benchNames.join(' · ');
+      } else benchSection.style.display = 'none';
+
       // Notes
-      const notesEl = document.getElementById('lu-notes');
+      const notesEl = document.getElementById('lu-card-notes');
       if (lineup.notes) {
         notesEl.style.display = '';
         notesEl.textContent = lineup.notes;
       } else notesEl.style.display = 'none';
 
       // Source
-      const sourceEl = document.getElementById('lu-source');
+      const srcEl = document.getElementById('lu-card-src');
       if (lineup.sourceUrl && lineup.sourceName) {
-        sourceEl.innerHTML = `Quelle <a href="${escHtml(lineup.sourceUrl)}" target="_blank" rel="noopener">${escHtml(lineup.sourceName)}</a>`;
-      } else sourceEl.innerHTML = '';
+        srcEl.innerHTML = `Quelle <a href="${escHtml(lineup.sourceUrl)}" target="_blank" rel="noopener">${escHtml(lineup.sourceName)}</a>`;
+      } else srcEl.innerHTML = '';
+
+      // === PITCH ===
+      const playersEl = document.getElementById('lu-players');
+      playersEl.innerHTML = '';
+
+      if (home.starters && home.starters.length === 11) {
+        renderPitchHalf(playersEl, home.starters, home.formation, 'left',
+          homeIsBayern ? 'is-bayern' : 'is-psg');
+      }
+      if (away.starters && away.starters.length === 11) {
+        renderPitchHalf(playersEl, away.starters, away.formation, 'right',
+          awayIsBayern ? 'is-bayern' : 'is-psg');
+      }
+
+      // Pitch-Footer mit Team-Kürzeln + Formationen
+      const formL = document.getElementById('lu-pitch-form-l');
+      const formR = document.getElementById('lu-pitch-form-r');
+      formL.textContent = home.formation || '';
+      formR.textContent = away.formation || '';
+      document.getElementById('lu-pitch-team-l').firstChild.textContent =
+        crestInitials(home.teamName) + ' ';
+      document.getElementById('lu-pitch-team-r').lastChild.textContent =
+        ' ' + crestInitials(away.teamName);
     }
 
     function shortTeamName(name) {
@@ -803,7 +786,6 @@
 
     function crestInitials(teamName) {
       if (!teamName) return '?';
-      // PSG, FCB für bekannte; sonst erste Buchstaben
       const map = {
         'FC Bayern München': 'FCB',
         'Bayern München': 'FCB',
@@ -820,50 +802,123 @@
     }
 
     /**
-     * Rendert eine Mannschaft auf einer Pitch-Hälfte.
-     * side: 'left' oder 'right'
-     * Bei 'left': TW ganz links (5%), ST nahe Mittellinie (45%)
-     * Bei 'right': TW ganz rechts (95%), ST nahe Mittellinie (55%)
+     * Rendert ein Team auf einer Pitch-Hälfte mit AKKURATER Formationsdarstellung.
+     * Nutzt Position-Codes der einzelnen Spieler statt nur "Reihen-Counts".
+     *
+     * Position-Code → Reihe (depth-band):
+     *   TW              → 0 (eigenes Tor)
+     *   LV/LIV/IV/RIV/RV → 1 (Verteidigung)
+     *   DM/ZDM           → 2 (defensives Mittelfeld)
+     *   LM/ZM/RM         → 3 (Mittelfeld)
+     *   LOM/OM/ROM/ZM    → 4 (offensives Mittelfeld) — fallback ZM teilt sich mit row 3
+     *   LF/LS/ZS/RS/RF/ST → 5 (Sturm)
+     *
+     * Ein 4-2-3-1 hat dann: TW + 4-Verteidiger + 2-DM + 3-OM + 1-ST.
+     *
+     * Position-Code → Y (lateral, 0=oben, 1=unten):
+     *   L_ / LV / LM / LF → ca. 0.18 (oben)
+     *   LIV / LDM         → ca. 0.34
+     *   IV / ZM / OM      → ca. 0.50 (Mitte)
+     *   RIV / RDM         → ca. 0.66
+     *   R_ / RV / RM / RF → ca. 0.82 (unten)
      */
     function renderPitchHalf(container, starters, formation, side, teamClass) {
-      const layouts = {
-        '4-2-3-1': [1, 4, 2, 3, 1],
-        '4-3-3':   [1, 4, 3, 3],
-        '3-4-3':   [1, 3, 4, 3],
-        '4-4-2':   [1, 4, 4, 2],
-        '3-5-2':   [1, 3, 5, 2],
-        '4-1-4-1': [1, 4, 1, 4, 1],
-        '5-3-2':   [1, 5, 3, 2],
-        '4-2-2-2': [1, 4, 2, 2, 2],
-        '3-4-2-1': [1, 3, 4, 2, 1],
-      };
-      const rows = layouts[formation] || layouts['4-2-3-1'];
-      if (rows.reduce((a,b) => a+b, 0) !== 11) return;
+      // Map Position-Code → {depthBand: 0..5, lateral: 0..1}
+      function classifyPos(pos) {
+        const p = (pos || '').toUpperCase().trim();
 
-      // X-Positionen für jede Reihe (TW bis ST)
-      // Linke Seite: TW bei 7%, ST bei 43%
-      // Rechte Seite: TW bei 93%, ST bei 57%
-      const isLeft = side === 'left';
-      const xs = rows.map((_, i) => {
-        const t = i / (rows.length - 1);  // 0 (TW) → 1 (ST)
-        if (isLeft) return 7 + t * 36;    // 7% → 43%
-        return 93 - t * 36;                // 93% → 57%
+        // Lateral (Y): wo auf der Höhe (0=ganz oben, 1=ganz unten)
+        let lateral;
+        if (p.startsWith('L')) lateral = 0.20;
+        else if (p.startsWith('R')) lateral = 0.80;
+        else lateral = 0.50;  // Z, M, ST, OM, DM, etc → Mitte
+
+        // Depth (X): wie weit vorgerückt
+        let depth;
+        if (p === 'TW' || p === 'TOR') depth = 0;
+        else if (p === 'LV' || p === 'RV' || p === 'IV' || p === 'LIV' || p === 'RIV') depth = 1;
+        else if (p === 'DM' || p === 'ZDM') depth = 2;
+        else if (p === 'LM' || p === 'RM' || p === 'ZM') depth = 3;
+        else if (p === 'LOM' || p === 'ROM' || p === 'OM' || p === 'ZOM') depth = 4;
+        else if (p === 'ST' || p === 'LS' || p === 'RS' || p === 'LF' || p === 'RF' || p === 'MS') depth = 5;
+        else depth = 3;  // fallback Mittelfeld
+        return { depth, lateral };
+      }
+
+      // Klassifiziere alle Spieler, gruppiere nach depth
+      const classified = starters.map(p => ({
+        ...p,
+        ...classifyPos(p.position)
+      }));
+
+      // Disambiguiere identische lateral-Werte innerhalb derselben depth
+      // Z.B. zwei IV: 1. IV → LIV (lateral=0.4), 2. IV → RIV (lateral=0.6)
+      // Nutze die Reihenfolge im Array (kicker liefert i.d.R. von links nach rechts)
+      const groupKey = p => p.depth + '_' + p.lateral.toFixed(2);
+      const groups = {};
+      classified.forEach(p => {
+        if (!groups[groupKey(p)]) groups[groupKey(p)] = [];
+        groups[groupKey(p)].push(p);
+      });
+      Object.values(groups).forEach(group => {
+        if (group.length > 1) {
+          // Spreize lateral-Werte: bei 2 Spielern → 0.40 / 0.60; bei 3 → 0.30 / 0.50 / 0.70
+          const center = group[0].lateral;
+          const span = 0.20;
+          group.forEach((p, i) => {
+            const t = group.length === 1 ? 0.5 : i / (group.length - 1);
+            p.lateral = center - span/2 + t * span;
+          });
+        }
       });
 
-      let idx = 0;
-      rows.forEach((count, rowIdx) => {
-        const x = xs[rowIdx];
-        const isKeeper = rowIdx === 0;
-        for (let i = 0; i < count; i++) {
-          const player = starters[idx];
-          if (!player) return;
+      // Gruppiere nach Tiefe (depth band)
+      const byDepth = {};
+      classified.forEach(p => {
+        if (!byDepth[p.depth]) byDepth[p.depth] = [];
+        byDepth[p.depth].push(p);
+      });
 
-          // Y-Position: Spieler vertikal verteilen
-          // Bei count=1 → y=50%; bei count=4 → 16%, 38%, 62%, 84%
-          const y = count === 1 ? 50 : 16 + (i / (count - 1)) * 68;
+      // Sortiere innerhalb jeder Tiefe nach lateral (oben → unten)
+      const depthLevels = Object.keys(byDepth).map(Number).sort((a,b) => a-b);
+      depthLevels.forEach(d => byDepth[d].sort((a,b) => a.lateral - b.lateral));
+
+      // Für jede Tiefe → eine X-Position auf der Pitch-Hälfte
+      // depth 0 (TW) ganz hinten, depth 5 (ST) nahe Mittellinie
+      const isLeft = side === 'left';
+      const minDepth = depthLevels[0];
+      const maxDepth = depthLevels[depthLevels.length - 1];
+
+      // Stelle sicher dass TW (depth=0) ganz am Tor ist und ST (depth=5) an Mittellinie
+      // X-Range für eine Hälfte: 5%-46% bzw. 54%-95%
+      function depthToX(d) {
+        // d=0 (TW) → ganz am Tor; d=5 (ST) → nahe Mittellinie
+        const t = d / 5; // 0 → 1
+        if (isLeft) return 6 + t * 38;  // 6% (TW) bis 44% (ST)
+        return 94 - t * 38;              // 94% (TW) bis 56% (ST)
+      }
+
+      depthLevels.forEach(d => {
+        const players = byDepth[d];
+        const x = depthToX(d);
+
+        players.forEach((player, idx) => {
+          // Y-Position: Spieler in dieser Reihe lateral verteilen
+          // Wenn nur 1 Spieler → 50%; sonst gleichmäßig zwischen 14% und 86%
+          let y;
+          if (players.length === 1) {
+            y = 50;
+          } else {
+            // Nutze die lateral-Werte direkt, aber gespreizt
+            // Bei 2 Spielern: 32% und 68%
+            // Bei 3 Spielern: 18%, 50%, 82%
+            // Bei 4 Spielern: 14%, 38%, 62%, 86%
+            const spread = 14 + (idx / (players.length - 1)) * 72;
+            y = spread;
+          }
 
           const div = document.createElement('div');
-          div.className = 'lu-player ' + teamClass + (isKeeper ? ' is-keeper' : '');
+          div.className = 'lu-player ' + teamClass + (player.depth === 0 ? ' is-keeper' : '');
           div.style.left = x + '%';
           div.style.top = y + '%';
           const lastName = (player.name || '').split(' ').slice(-1)[0];
@@ -873,8 +928,7 @@
             </div>
             <div class="lu-name">${escHtml(lastName)}</div>`;
           container.appendChild(div);
-          idx++;
-        }
+        });
       });
     }
 
