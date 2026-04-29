@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-04-29T06:17:15+00:00",
+  "lastUpdated": "2026-04-29T11:24:38+00:00",
   "tiktokStats": {
     "followers": 1354,
     "likes": "27K",
-    "videos": 52
+    "videos": 53
   },
   "ticker": [
     "Heim gegen Heidenheim in 3 Tagen — alle Augen auf den FCB",
+    "Kompany und Enrique: Gespräch zweier Trainer auf Augenhöhe",
     "Pavlović nach PSG-Niederlage: \"Wir schaffen es zu Hause\"",
     "Musiala im Fokus: Kompany setzt auf seinen Zehner gegen PSG",
     "Pavlović zuversichtlich: Bayern dreht das Spiel gegen PSG",
     "4:5 in Paris: Bayern trotzt Rückstand und hält Halbfinale offen",
-    "Kompany gesperrt: Bayern-Coach analysiert PSG vom Tribünenplatz",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-04-29-kompany-und-enrique-gespraech-zweier-trainer-auf-a",
+      "date": "2026-04-29",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/stadium1.jpg",
+      "thumbnailAlt": "Kompany und Enrique: Gespräch zweier Trainer auf Augenhöhe",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Kompany und Enrique: Gespräch zweier Trainer auf Augenhöhe",
+      "excerpt": "Nach dem 5:4 im Hinspiel gegen PSG wurde bekannt, dass Vincent Kompany und Luis Enrique ein persönliches Gespräch über das Trainerhandwerk geführt haben.",
+      "body": "Laut Bavarian Football Works sprachen FC-Bayern-Trainer Vincent Kompany und PSG-Coach Luis Enrique nach dem Halbfinal-Hinspiel der Champions League miteinander — und das Thema war das Coaching selbst. Kompany war während der Partie bereits auf der Tribüne gesperrt und beobachtete das Geschehen von dort, nachdem er im Viertelfinale eine Gelbe Karte erhalten hatte.\n\nDas Gespräch zwischen den beiden Trainern unterstreicht die gegenseitige Wertschätzung, die trotz der sportlichen Rivalität besteht. PSG-Trainer Luis Enrique hatte sich laut Bavarian Football Works zudem anerkennend über die Intensität der Münchner geäußert — ein Zeichen dafür, dass der FCB auch in der Niederlage einen bleibenden Eindruck hinterließ.\n\nDas Rückspiel im Halbfinale steht noch aus. Bayern müssen das 4:5-Hinspieldefizit aufholen, um ins Finale einzuziehen. Kompany wird dabei wieder an der Seitenlinie stehen — die Sperre war auf das Hinspiel begrenzt.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/champions-league/195630/bayern-munich-vincent-kompany-psg-paris-saint-germain-luis-enrique-kane-kimmich-neuer-musiala-dembele-kvaratskhelia-neves",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-04-29-pavlovi-nach-psg-niederlage-wir-schaffen-es-zu-hau",
       "date": "2026-04-29",
