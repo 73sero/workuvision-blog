@@ -100,87 +100,206 @@
     /* TikTok */
     .tts{background:linear-gradient(180deg,transparent,rgba(220,5,45,.02),transparent);border-top:1px solid var(--gb);border-bottom:1px solid var(--gb)}
     /* ========================================================================
-       LINEUP — Editorial Match Card
-       Match-Info links als Karte, kompakter Pitch rechts. Whitespace, ruhig, premium.
+       LINEUP — Editorial v4 "Match Day"
+       Bold typography. Asymmetric grid. Premium dark with subtle Bayern accents.
+       Inspired by The Athletic + Linear + DAZN broadcast graphics.
        ======================================================================== */
-    .lu-wrap{position:relative;display:grid;grid-template-columns:minmax(0,360px) minmax(0,1fr);gap:1.5rem;align-items:start}
-    @media (max-width:840px){.lu-wrap{grid-template-columns:1fr}}
+    .lu-wrap{
+      position:relative;
+      display:grid;
+      grid-template-columns:minmax(0,300px) minmax(0,1fr);
+      gap:1.5rem;
+      align-items:stretch;
+    }
+    @media (max-width:920px){.lu-wrap{grid-template-columns:1fr;gap:1.2rem}}
 
-    /* === LINKE SEITE: MATCH-CARD === */
+    /* === MATCH CARD (linke Spalte) === */
     .lu-card{
-      background:linear-gradient(180deg,#0e1622 0%,#0a1018 100%);
+      position:relative;
+      padding:1.6rem 1.6rem 1.4rem;
+      background:linear-gradient(165deg,#0c121b 0%,#080d14 100%);
       border:1px solid rgba(255,255,255,.05);
       border-radius:14px;
-      padding:1.6rem 1.6rem 1.4rem;
-      display:flex;flex-direction:column;gap:1.4rem;
-      position:relative;
+      display:flex;flex-direction:column;gap:1.5rem;
+      box-shadow:
+        0 30px 60px rgba(0,0,0,.35),
+        inset 0 1px 0 rgba(255,255,255,.04);
       overflow:hidden;
     }
+    /* Subtile Akzent-Linie oben in Bayern-Rot */
     .lu-card::before{
       content:"";position:absolute;top:0;left:0;right:0;height:1px;
-      background:linear-gradient(90deg,transparent,var(--red) 30%,var(--red) 70%,transparent);
-      opacity:.6;
+      background:linear-gradient(90deg,
+        transparent 0%,
+        rgba(220,5,45,.4) 25%,
+        rgba(220,5,45,.8) 50%,
+        rgba(220,5,45,.4) 75%,
+        transparent 100%);
+    }
+    /* Subtile Atmosphäre */
+    .lu-card::after{
+      content:"";position:absolute;top:-50px;left:-50px;
+      width:200px;height:200px;
+      background:radial-gradient(circle,rgba(220,5,45,.06),transparent 70%);
+      pointer-events:none;
     }
 
-    /* Card Header */
-    .lu-card-h{display:flex;flex-direction:column;gap:.5rem}
-    .lu-card-comp{font-family:var(--fm);font-size:.5rem;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:var(--red);display:flex;align-items:center;gap:.4rem}
-    .lu-card-comp::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--red);box-shadow:0 0 6px var(--red)}
-    .lu-card-tt{font-family:var(--fh);font-size:1.3rem;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--white);line-height:1.05}
-    .lu-card-time{font-family:var(--fm);font-size:.55rem;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:.2rem}
+    /* Card Top Row */
+    .lu-card-top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:1}
+    .lu-card-comp{
+      font-family:var(--fm);font-size:.46rem;font-weight:600;letter-spacing:3px;
+      text-transform:uppercase;color:var(--red);
+      display:flex;align-items:center;gap:.45rem;
+    }
+    .lu-card-comp::before{
+      content:"";width:6px;height:6px;border-radius:50%;
+      background:var(--red);
+      box-shadow:0 0 10px var(--red),0 0 0 2px rgba(220,5,45,.15);
+      animation:lu-pulse 2.5s ease-in-out infinite;
+    }
+    @keyframes lu-pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.85)}}
+    .lu-card-pill{
+      font-family:var(--fm);font-size:.42rem;font-weight:600;letter-spacing:1.5px;
+      text-transform:uppercase;color:rgba(255,255,255,.55);
+      padding:.22rem .55rem;
+      border:1px solid rgba(255,255,255,.08);border-radius:99px;
+      background:rgba(255,255,255,.025);
+    }
 
-    /* Teams in der Card — vertikal gestackt */
-    .lu-card-teams{display:flex;flex-direction:column;gap:.55rem;padding:1rem 0;border-top:1px solid rgba(255,255,255,.05);border-bottom:1px solid rgba(255,255,255,.05)}
-    .lu-card-team{display:grid;grid-template-columns:32px 1fr auto;gap:.85rem;align-items:center}
-    .lu-card-crest{
-      width:32px;height:32px;border-radius:8px;
+    /* Title */
+    .lu-card-title{display:flex;flex-direction:column;gap:.5rem;position:relative;z-index:1}
+    .lu-card-tt{
+      font-family:var(--fh);font-size:1.55rem;font-weight:700;
+      letter-spacing:.3px;text-transform:uppercase;
+      color:var(--white);line-height:.95;
+      background:linear-gradient(180deg,#fff 0%,rgba(255,255,255,.85) 100%);
+      -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+    }
+    .lu-card-time{
+      font-family:var(--fm);font-size:.55rem;font-weight:500;
+      letter-spacing:2.2px;text-transform:uppercase;
+      color:rgba(255,255,255,.4);
+    }
+
+    /* Versus block */
+    .lu-card-vs{
+      display:grid;grid-template-columns:1fr auto 1fr;
+      gap:.6rem;
+      padding:1rem 0;
+      border-top:1px solid rgba(255,255,255,.06);
+      border-bottom:1px solid rgba(255,255,255,.06);
+      position:relative;z-index:1;
+      align-items:center;
+    }
+    .lu-card-vs-team{display:flex;flex-direction:column;gap:.25rem;min-width:0}
+    .lu-card-vs-team.is-home{align-items:flex-start}
+    .lu-card-vs-team.is-away{text-align:right;align-items:flex-end}
+    .lu-card-vs-sep{
+      font-family:var(--fm);font-size:.46rem;font-weight:600;letter-spacing:2.5px;
+      color:rgba(255,255,255,.25);text-transform:uppercase;
+      padding:0 .15rem;
+    }
+    .lu-card-vs-name{
+      font-family:var(--fh);font-size:.85rem;font-weight:700;
+      letter-spacing:.5px;text-transform:uppercase;
+      color:var(--white);line-height:1.05;
+      max-width:100%;
+      word-break:break-word;
+    }
+    .lu-card-vs-form{
+      font-family:var(--fm);font-size:.62rem;font-weight:600;
+      letter-spacing:1.8px;color:rgba(255,255,255,.45);
+      font-feature-settings:"tnum";
+    }
+    .lu-card-vs-crest{
+      width:36px;height:36px;border-radius:9px;
       display:flex;align-items:center;justify-content:center;
-      font-family:var(--fh);font-weight:700;font-size:.62rem;color:#fff;
+      font-family:var(--fh);font-weight:700;font-size:.65rem;color:#fff;
       letter-spacing:-.3px;
+      box-shadow:0 6px 16px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.15);
     }
-    .lu-card-crest.is-bayern{background:linear-gradient(180deg,#dc052d,#a8001f)}
-    .lu-card-crest.is-psg{background:linear-gradient(180deg,#1e3a8a,#0f2563)}
-    .lu-card-team-info{display:flex;flex-direction:column;gap:.05rem;min-width:0}
-    .lu-card-team-name{font-family:var(--fh);font-size:.85rem;font-weight:600;letter-spacing:.3px;color:var(--white);text-transform:uppercase;line-height:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-    .lu-card-team-side{font-family:var(--fm);font-size:.46rem;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.4)}
-    .lu-card-team-form{font-family:var(--fh);font-size:.78rem;font-weight:600;color:rgba(255,255,255,.6);letter-spacing:1.5px;font-feature-settings:"tnum"}
+    .lu-card-vs-crest.is-bayern{
+      background:linear-gradient(180deg,#dc052d 0%,#a8001f 100%);
+      box-shadow:0 6px 16px rgba(220,5,45,.4),inset 0 1px 0 rgba(255,255,255,.2);
+    }
+    .lu-card-vs-crest.is-psg{
+      background:linear-gradient(180deg,#1e3a8a 0%,#0d1f4f 100%);
+      box-shadow:0 6px 16px rgba(30,58,138,.4),inset 0 1px 0 rgba(255,255,255,.2);
+    }
+    .lu-card-vs-crest.is-other{background:linear-gradient(180deg,#3a3a3a,#1a1a1a)}
 
     /* Coach */
-    .lu-card-coach{display:flex;flex-direction:column;gap:.25rem}
-    .lu-card-coach-lbl{font-family:var(--fm);font-size:.45rem;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.32)}
-    .lu-card-coach-name{font-family:var(--fh);font-size:.85rem;font-weight:600;letter-spacing:.4px;color:var(--white);text-transform:uppercase;line-height:1.15}
-    .lu-card-coach-sub{font-family:var(--fm);font-size:.45rem;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--red);line-height:1.3}
+    .lu-card-coach{display:flex;flex-direction:column;gap:.25rem;position:relative;z-index:1}
+    .lu-card-coach-lbl{
+      font-family:var(--fm);font-size:.42rem;font-weight:600;letter-spacing:2.8px;
+      text-transform:uppercase;color:rgba(255,255,255,.32);
+    }
+    .lu-card-coach-name{
+      font-family:var(--fh);font-size:.85rem;font-weight:600;
+      letter-spacing:.4px;color:var(--white);text-transform:uppercase;line-height:1.15;
+    }
+    .lu-card-coach-sub{
+      font-family:var(--fm);font-size:.42rem;font-weight:600;letter-spacing:1.8px;
+      text-transform:uppercase;color:var(--red);line-height:1.4;
+      display:block;
+    }
 
     /* Bench */
-    .lu-card-bench{display:flex;flex-direction:column;gap:.4rem}
+    .lu-card-bench{display:flex;flex-direction:column;gap:.4rem;position:relative;z-index:1}
     .lu-card-bench-h{display:flex;justify-content:space-between;align-items:baseline}
-    .lu-card-bench-lbl{font-family:var(--fm);font-size:.45rem;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.32)}
-    .lu-card-bench-c{font-family:var(--fm);font-size:.5rem;color:rgba(255,255,255,.4);letter-spacing:1.5px}
-    .lu-card-bench-text{font-family:var(--fb);font-size:.7rem;line-height:1.6;color:rgba(255,255,255,.55)}
+    .lu-card-bench-lbl{
+      font-family:var(--fm);font-size:.42rem;font-weight:600;letter-spacing:2.8px;
+      text-transform:uppercase;color:rgba(255,255,255,.32);
+    }
+    .lu-card-bench-c{
+      font-family:var(--fm);font-size:.42rem;color:rgba(255,255,255,.4);
+      letter-spacing:1.8px;text-transform:uppercase;
+    }
+    .lu-card-bench-text{
+      font-family:var(--fb);font-size:.7rem;line-height:1.65;
+      color:rgba(255,255,255,.55);
+    }
 
     /* Notes */
-    .lu-card-notes{font-family:var(--fb);font-size:.7rem;line-height:1.5;color:rgba(255,255,255,.45);font-style:italic;padding-top:.6rem;border-top:1px solid rgba(255,255,255,.04)}
+    .lu-card-notes{
+      font-family:var(--fb);font-size:.66rem;line-height:1.55;
+      color:rgba(255,255,255,.42);font-style:italic;
+      padding:.7rem 0 .2rem;
+      border-top:1px solid rgba(255,255,255,.05);
+      position:relative;z-index:1;
+    }
 
     /* Source */
-    .lu-card-src{font-family:var(--fm);font-size:.42rem;letter-spacing:2.5px;color:rgba(255,255,255,.25);text-transform:uppercase;text-align:right}
-    .lu-card-src a{color:rgba(255,255,255,.55);text-decoration:none}
+    .lu-card-src{
+      font-family:var(--fm);font-size:.4rem;letter-spacing:2.5px;
+      color:rgba(255,255,255,.25);text-transform:uppercase;
+      text-align:right;margin-top:auto;
+      position:relative;z-index:1;
+    }
+    .lu-card-src a{color:rgba(255,255,255,.5);text-decoration:none;transition:.2s}
     .lu-card-src a:hover{color:var(--red)}
 
-    /* === RECHTE SEITE: KOMPAKTER PITCH === */
-    .lu-pitch-card{
+    /* === PITCH STAGE === */
+    .lu-stage{
       position:relative;
       border-radius:14px;
       overflow:hidden;
-      aspect-ratio:16/11;
-      background:#0a1410;
-      box-shadow:0 20px 60px rgba(0,0,0,.4),0 0 0 1px rgba(255,255,255,.04);
+      background:#070b11;
+      box-shadow:
+        0 30px 70px rgba(0,0,0,.5),
+        0 0 0 1px rgba(255,255,255,.04);
     }
 
-    /* Pitch Background — viel dunkler, premium */
     .lu-pitch{
-      position:absolute;inset:0;
-      background:linear-gradient(135deg,#0d2418 0%,#0f3020 50%,#0d2418 100%);
+      position:relative;
+      aspect-ratio:16/10;
+      background:
+        radial-gradient(ellipse 90% 75% at 50% 50%,#0e2418 0%,#0a1810 55%,#060e0a 100%);
     }
+    @media (max-width:920px){.lu-pitch{aspect-ratio:5/4}}
+    @media (max-width:480px){.lu-pitch{aspect-ratio:4/4}}
+
+    /* Pitch-Surface mit subtilen Streifen */
     .lu-pitch::before{
       content:"";position:absolute;inset:0;
       background:repeating-linear-gradient(
@@ -190,69 +309,131 @@
         transparent calc(100%/14),
         transparent calc(200%/14)
       );
+      pointer-events:none;
     }
+    /* Vignette */
     .lu-pitch::after{
       content:"";position:absolute;inset:0;
-      background:radial-gradient(ellipse 100% 80% at 50% 50%,transparent 40%,rgba(0,0,0,.4) 100%);
+      background:radial-gradient(ellipse 100% 80% at 50% 50%,transparent 50%,rgba(0,0,0,.55) 100%);
+      pointer-events:none;
     }
 
-    /* SVG markings — dezent */
+    /* SVG markings */
     .lu-marks{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
     .lu-marks line,.lu-marks circle,.lu-marks rect,.lu-marks path{
-      stroke:rgba(255,255,255,.18);stroke-width:1.2;fill:none;vector-effect:non-scaling-stroke;
+      stroke:rgba(255,255,255,.15);stroke-width:1.2;fill:none;vector-effect:non-scaling-stroke;
     }
-    .lu-marks .dot{fill:rgba(255,255,255,.3);stroke:none}
+    .lu-marks .dot{fill:rgba(255,255,255,.25);stroke:none}
 
     /* === PLAYERS === */
-    .lu-players{position:absolute;inset:0}
+    .lu-players{position:absolute;inset:0;pointer-events:none}
     .lu-player{
       position:absolute;
       transform:translate(-50%,-50%);
       display:flex;flex-direction:column;align-items:center;
-      gap:.25rem;z-index:5;
-      animation:lu-fade .6s var(--e) both;
+      gap:.35rem;z-index:5;
+      pointer-events:auto;
+      animation:lu-fade .65s var(--e) both;
+      transition:transform .25s var(--e),z-index 0s;
+      cursor:default;
     }
+    .lu-player:hover{transform:translate(-50%,-50%) scale(1.12);z-index:8}
     @keyframes lu-fade{from{opacity:0;transform:translate(-50%,-46%)}to{opacity:1;transform:translate(-50%,-50%)}}
 
     .lu-avatar{
       position:relative;
-      width:32px;height:32px;border-radius:50%;
-      box-shadow:0 3px 10px rgba(0,0,0,.5),0 0 0 1.5px rgba(255,255,255,.12);
+      width:38px;height:38px;border-radius:50%;
+      box-shadow:
+        0 6px 14px rgba(0,0,0,.6),
+        0 0 0 2px rgba(255,255,255,.1),
+        inset 0 1px 0 rgba(255,255,255,.2),
+        inset 0 -3px 6px rgba(0,0,0,.3);
+      transition:box-shadow .25s var(--e),transform .25s var(--e);
+      overflow:hidden;
     }
-    .lu-player.is-bayern .lu-avatar{background:linear-gradient(180deg,#dc052d 0%,#a8001f 100%)}
-    .lu-player.is-psg .lu-avatar{background:linear-gradient(180deg,#1e3a8a 0%,#0f2563 100%)}
-    .lu-player.is-keeper .lu-avatar{background:linear-gradient(180deg,#fbbf24 0%,#d97706 100%) !important}
+    .lu-player:hover .lu-avatar{
+      box-shadow:
+        0 12px 28px rgba(0,0,0,.7),
+        0 0 0 2px rgba(255,255,255,.3),
+        inset 0 1px 0 rgba(255,255,255,.25),
+        inset 0 -3px 6px rgba(0,0,0,.3);
+    }
 
-    /* Number in der Mitte vom Avatar — clean, kein bubble */
+    /* Bayern: rotes Trikot mit subtilem weißem Streifen */
+    .lu-player.is-bayern .lu-avatar{
+      background:
+        linear-gradient(180deg,#ed1f4d 0%,#dc052d 50%,#a8001f 100%);
+    }
+    /* Bayern weißer Mittelstreifen */
+    .lu-player.is-bayern .lu-avatar::after{
+      content:"";position:absolute;inset:0;
+      background:linear-gradient(90deg,
+        transparent 0%,transparent 38%,
+        rgba(255,255,255,.18) 38%,rgba(255,255,255,.18) 42%,
+        transparent 42%,transparent 58%,
+        rgba(255,255,255,.18) 58%,rgba(255,255,255,.18) 62%,
+        transparent 62%);
+      pointer-events:none;
+    }
+    /* PSG: blau mit rotem Mittelstreifen */
+    .lu-player.is-psg .lu-avatar{
+      background:linear-gradient(180deg,#2a4ba8 0%,#1e3a8a 50%,#0d1f4f 100%);
+    }
+    .lu-player.is-psg .lu-avatar::after{
+      content:"";position:absolute;inset:0;
+      background:linear-gradient(90deg,
+        transparent 0%,transparent 44%,
+        rgba(220,5,45,.85) 44%,rgba(220,5,45,.85) 56%,
+        transparent 56%);
+      pointer-events:none;
+    }
+    /* Andere Teams: neutral grau */
+    .lu-player.is-other .lu-avatar{
+      background:linear-gradient(180deg,#4a4a4a 0%,#2a2a2a 100%);
+    }
+    /* Keeper: gelb */
+    .lu-player.is-keeper .lu-avatar{
+      background:linear-gradient(180deg,#fed042 0%,#f5b400 50%,#c08410 100%) !important;
+    }
+    .lu-player.is-keeper .lu-avatar::after{display:none !important}
+
+    /* Number in Avatar */
     .lu-num{
       position:absolute;inset:0;
       display:flex;align-items:center;justify-content:center;
-      font-family:var(--fh);font-weight:700;font-size:.78rem;color:#fff;
-      letter-spacing:-.3px;line-height:1;
-      text-shadow:0 1px 2px rgba(0,0,0,.4);
+      font-family:var(--fh);font-weight:700;font-size:.95rem;color:#fff;
+      letter-spacing:-.4px;line-height:1;
+      text-shadow:0 1px 3px rgba(0,0,0,.6);
+      font-feature-settings:"tnum";
+      z-index:2;
     }
-    .lu-player.is-keeper .lu-num{color:#1a0f00;text-shadow:0 1px 1px rgba(255,255,255,.4)}
+    .lu-player.is-keeper .lu-num{color:#1a0a00;text-shadow:0 1px 1px rgba(255,255,255,.4)}
 
     .lu-name{
-      font-family:var(--fb);font-weight:600;font-size:.55rem;
-      color:rgba(255,255,255,.92);
-      text-shadow:0 1px 3px rgba(0,0,0,.95),0 0 8px rgba(0,0,0,.6);
+      font-family:var(--fb);font-weight:600;font-size:.62rem;
+      color:rgba(255,255,255,.95);
+      text-shadow:
+        0 1px 3px rgba(0,0,0,.95),
+        0 0 12px rgba(0,0,0,.8);
       letter-spacing:.3px;line-height:1.1;
-      max-width:74px;text-align:center;
+      max-width:84px;text-align:center;
       white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
     }
 
-    @media (max-width:840px){
-      .lu-pitch-card{aspect-ratio:16/12}
-      .lu-avatar{width:26px;height:26px}
-      .lu-num{font-size:.65rem}
-      .lu-name{font-size:.46rem;max-width:54px;letter-spacing:.1px}
+    @media (max-width:1100px){
+      .lu-avatar{width:34px;height:34px}
+      .lu-num{font-size:.85rem}
+      .lu-name{font-size:.56rem;max-width:72px}
+    }
+    @media (max-width:920px){
+      .lu-avatar{width:32px;height:32px}
+      .lu-num{font-size:.78rem}
+      .lu-name{font-size:.52rem;max-width:64px}
     }
     @media (max-width:480px){
-      .lu-pitch-card{aspect-ratio:16/13}
-      .lu-avatar{width:22px;height:22px}
-      .lu-num{font-size:.58rem}
-      .lu-name{font-size:.42rem;max-width:46px;letter-spacing:0;font-weight:500}
+      .lu-avatar{width:26px;height:26px}
+      .lu-num{font-size:.66rem}
+      .lu-name{font-size:.44rem;max-width:50px;letter-spacing:.1px}
     }
 
     /* Staggered fade-in */
@@ -260,23 +441,40 @@
     .lu-player:nth-child(3){animation-delay:.08s}
     .lu-player:nth-child(4){animation-delay:.12s}
     .lu-player:nth-child(5){animation-delay:.16s}
-    .lu-player:nth-child(6){animation-delay:.2s}
+    .lu-player:nth-child(6){animation-delay:.20s}
     .lu-player:nth-child(7){animation-delay:.24s}
     .lu-player:nth-child(8){animation-delay:.28s}
     .lu-player:nth-child(9){animation-delay:.32s}
     .lu-player:nth-child(10){animation-delay:.36s}
-    .lu-player:nth-child(11){animation-delay:.4s}
+    .lu-player:nth-child(11){animation-delay:.40s}
+    .lu-player:nth-child(12){animation-delay:.44s}
+    .lu-player:nth-child(13){animation-delay:.48s}
+    .lu-player:nth-child(14){animation-delay:.52s}
 
-    /* === FOOTER ÜBER DEM PITCH === */
+    /* Pitch-Foot: Team-Pille rechts unten */
     .lu-pitch-foot{
-      position:absolute;left:0;right:0;bottom:0;
-      padding:.65rem 1.1rem;
-      display:flex;justify-content:space-between;align-items:center;
+      position:absolute;right:.9rem;bottom:.9rem;
+      display:flex;align-items:center;gap:.6rem;
+      padding:.45rem .8rem;
+      background:rgba(0,0,0,.55);
+      backdrop-filter:blur(10px) saturate(140%);
+      -webkit-backdrop-filter:blur(10px) saturate(140%);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:99px;
       pointer-events:none;
-      background:linear-gradient(0deg,rgba(0,0,0,.5),transparent);
+      box-shadow:0 4px 12px rgba(0,0,0,.4);
     }
-    .lu-pitch-team{font-family:var(--fm);font-size:.55rem;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,.85);display:flex;align-items:center;gap:.5rem;text-shadow:0 1px 2px rgba(0,0,0,.8)}
-    .lu-pitch-team .form{color:rgba(255,255,255,.55);font-weight:500;letter-spacing:1.5px}
+    .lu-pitch-foot-team{
+      font-family:var(--fh);font-size:.62rem;font-weight:700;
+      letter-spacing:1.5px;text-transform:uppercase;color:#fff;
+    }
+    .lu-pitch-foot-form{
+      font-family:var(--fm);font-size:.5rem;font-weight:600;
+      letter-spacing:1.5px;color:rgba(255,255,255,.55);
+      font-feature-settings:"tnum";
+    }
+    .lu-pitch-foot-sep{color:rgba(255,255,255,.2);font-family:var(--fm);font-size:.55rem}
+
     .ttsc{display:flex;gap:1.2rem;overflow-x:auto;padding-bottom:1rem;scrollbar-width:none;scroll-snap-type:x mandatory}.ttsc::-webkit-scrollbar{display:none}
     .ttc{min-width:210px;max-width:210px;aspect-ratio:9/16;border-radius:14px;border:1px solid var(--gb);overflow:hidden;position:relative;flex-shrink:0;cursor:pointer;transition:all .4s var(--e);scroll-snap-align:start}.ttc:hover{transform:scale(1.04) translateY(-4px);border-color:rgba(220,5,45,.3);box-shadow:0 20px 50px rgba(0,0,0,.4)}
     .ttc-img{width:100%;height:100%;object-fit:cover}
@@ -388,35 +586,34 @@
   <section class="sec" id="lineup-section" style="display:none">
     <div class="lu-wrap rv" id="lu-wrap">
 
-      <!-- LINKS: MATCH-CARD -->
-      <div class="lu-card">
-        <div class="lu-card-h">
+      <!-- LEFT: Match Card -->
+      <aside class="lu-card">
+        <div class="lu-card-top">
           <div class="lu-card-comp" id="lu-card-comp">Champions League</div>
-          <div class="lu-card-tt" id="lu-card-tt">PSG vs Bayern</div>
+          <div class="lu-card-pill" id="lu-card-pill">Aufstellung</div>
+        </div>
+
+        <div class="lu-card-title">
+          <h3 class="lu-card-tt" id="lu-card-tt">PSG · Bayern</h3>
           <div class="lu-card-time" id="lu-card-time"></div>
         </div>
 
-        <div class="lu-card-teams">
-          <div class="lu-card-team" id="lu-card-team-home">
-            <div class="lu-card-crest" id="lu-card-crest-home">FCB</div>
-            <div class="lu-card-team-info">
-              <div class="lu-card-team-name" id="lu-card-team-home-name">—</div>
-              <div class="lu-card-team-side">Heim</div>
-            </div>
-            <div class="lu-card-team-form" id="lu-card-team-home-form">—</div>
+        <div class="lu-card-vs">
+          <div class="lu-card-vs-team is-home">
+            <div class="lu-card-vs-crest" id="lu-card-crest-home">PSG</div>
+            <div class="lu-card-vs-name" id="lu-card-team-home-name">—</div>
+            <div class="lu-card-vs-form" id="lu-card-team-home-form">—</div>
           </div>
-          <div class="lu-card-team" id="lu-card-team-away">
-            <div class="lu-card-crest" id="lu-card-crest-away">PSG</div>
-            <div class="lu-card-team-info">
-              <div class="lu-card-team-name" id="lu-card-team-away-name">—</div>
-              <div class="lu-card-team-side">Auswärts</div>
-            </div>
-            <div class="lu-card-team-form" id="lu-card-team-away-form">—</div>
+          <span class="lu-card-vs-sep">vs</span>
+          <div class="lu-card-vs-team is-away">
+            <div class="lu-card-vs-crest" id="lu-card-crest-away">FCB</div>
+            <div class="lu-card-vs-name" id="lu-card-team-away-name">—</div>
+            <div class="lu-card-vs-form" id="lu-card-team-away-form">—</div>
           </div>
         </div>
 
         <div class="lu-card-coach" id="lu-card-coach-section">
-          <span class="lu-card-coach-lbl">Cheftrainer · <span id="lu-card-coach-team">FC Bayern</span></span>
+          <span class="lu-card-coach-lbl">Trainer · <span id="lu-card-coach-team">Bayern</span></span>
           <span class="lu-card-coach-name" id="lu-card-coach-name">—</span>
           <span class="lu-card-coach-sub" id="lu-card-coach-sub" style="display:none"></span>
         </div>
@@ -432,29 +629,33 @@
         <div class="lu-card-notes" id="lu-card-notes" style="display:none"></div>
 
         <div class="lu-card-src" id="lu-card-src"></div>
-      </div>
+      </aside>
 
-      <!-- RECHTS: KOMPAKTER PITCH -->
-      <div class="lu-pitch-card">
-        <div class="lu-pitch"></div>
-        <svg class="lu-marks" viewBox="0 0 1000 625" preserveAspectRatio="none">
-          <rect x="20" y="20" width="960" height="585" rx="2"/>
-          <line x1="500" y1="20" x2="500" y2="605"/>
-          <circle cx="500" cy="312" r="55"/>
-          <circle class="dot" cx="500" cy="312" r="2.5"/>
-          <rect x="20" y="170" width="115" height="285"/>
-          <rect x="20" y="245" width="45" height="135"/>
-          <circle class="dot" cx="95" cy="312" r="2"/>
-          <path d="M 135 280 A 45 45 0 0 1 135 344"/>
-          <rect x="865" y="170" width="115" height="285"/>
-          <rect x="935" y="245" width="45" height="135"/>
-          <circle class="dot" cx="905" cy="312" r="2"/>
-          <path d="M 865 280 A 45 45 0 0 0 865 344"/>
-        </svg>
-        <div class="lu-players" id="lu-players"></div>
-        <div class="lu-pitch-foot">
-          <div class="lu-pitch-team" id="lu-pitch-team-l">— <span class="form" id="lu-pitch-form-l"></span></div>
-          <div class="lu-pitch-team" id="lu-pitch-team-r"><span class="form" id="lu-pitch-form-r"></span> —</div>
+      <!-- RIGHT: Pitch Stage -->
+      <div class="lu-stage">
+        <div class="lu-pitch">
+          <svg class="lu-marks" viewBox="0 0 1000 562" preserveAspectRatio="none">
+            <rect x="14" y="14" width="972" height="534" rx="2"/>
+            <line x1="500" y1="14" x2="500" y2="548"/>
+            <circle cx="500" cy="281" r="50"/>
+            <circle class="dot" cx="500" cy="281" r="2"/>
+            <rect x="14" y="156" width="105" height="250"/>
+            <rect x="14" y="221" width="42" height="120"/>
+            <circle class="dot" cx="84" cy="281" r="1.8"/>
+            <path d="M 119 252 A 40 40 0 0 1 119 310"/>
+            <rect x="881" y="156" width="105" height="250"/>
+            <rect x="944" y="221" width="42" height="120"/>
+            <circle class="dot" cx="916" cy="281" r="1.8"/>
+            <path d="M 881 252 A 40 40 0 0 0 881 310"/>
+          </svg>
+          <div class="lu-players" id="lu-players"></div>
+          <div class="lu-pitch-foot">
+            <span class="lu-pitch-foot-team" id="lu-pitch-foot-l">—</span>
+            <span class="lu-pitch-foot-form" id="lu-pitch-foot-form-l"></span>
+            <span class="lu-pitch-foot-sep">·</span>
+            <span class="lu-pitch-foot-form" id="lu-pitch-foot-form-r"></span>
+            <span class="lu-pitch-foot-team" id="lu-pitch-foot-r">—</span>
+          </div>
         </div>
       </div>
 
@@ -758,14 +959,10 @@
       }
 
       // Pitch-Footer mit Team-Kürzeln + Formationen
-      const formL = document.getElementById('lu-pitch-form-l');
-      const formR = document.getElementById('lu-pitch-form-r');
-      formL.textContent = home.formation || '';
-      formR.textContent = away.formation || '';
-      document.getElementById('lu-pitch-team-l').firstChild.textContent =
-        crestInitials(home.teamName) + ' ';
-      document.getElementById('lu-pitch-team-r').lastChild.textContent =
-        ' ' + crestInitials(away.teamName);
+      setText('lu-pitch-foot-l', crestInitials(home.teamName));
+      setText('lu-pitch-foot-r', crestInitials(away.teamName));
+      setText('lu-pitch-foot-form-l', home.formation || '');
+      setText('lu-pitch-foot-form-r', away.formation || '');
     }
 
     function shortTeamName(name) {
@@ -823,17 +1020,20 @@
      *   R_ / RV / RM / RF → ca. 0.82 (unten)
      */
     function renderPitchHalf(container, starters, formation, side, teamClass) {
-      // Map Position-Code → {depthBand: 0..5, lateral: 0..1}
+      const isLeft = side === 'left';
+
+      // Map Position-Code → {depth: 0..5, lateral: 0..1}
+      // KONVENTION (wie kicker.de): Auf der Aufstellungskarte sind
+      //   L* Spieler immer UNTEN, R* Spieler immer OBEN — auf BEIDEN Seiten.
+      // Aus Mannschafts-Sicht: ihr eigener rechter Spieler ist oben auf der Karte.
       function classifyPos(pos) {
         const p = (pos || '').toUpperCase().trim();
 
-        // Lateral (Y): wo auf der Höhe (0=ganz oben, 1=ganz unten)
         let lateral;
-        if (p.startsWith('L')) lateral = 0.20;
-        else if (p.startsWith('R')) lateral = 0.80;
-        else lateral = 0.50;  // Z, M, ST, OM, DM, etc → Mitte
+        if (p.startsWith('L')) lateral = 0.80;        // L → unten
+        else if (p.startsWith('R')) lateral = 0.20;   // R → oben
+        else lateral = 0.50;                            // Z, M, ST, OM, DM → Mitte
 
-        // Depth (X): wie weit vorgerückt
         let depth;
         if (p === 'TW' || p === 'TOR') depth = 0;
         else if (p === 'LV' || p === 'RV' || p === 'IV' || p === 'LIV' || p === 'RIV') depth = 1;
@@ -841,7 +1041,7 @@
         else if (p === 'LM' || p === 'RM' || p === 'ZM') depth = 3;
         else if (p === 'LOM' || p === 'ROM' || p === 'OM' || p === 'ZOM') depth = 4;
         else if (p === 'ST' || p === 'LS' || p === 'RS' || p === 'LF' || p === 'RF' || p === 'MS') depth = 5;
-        else depth = 3;  // fallback Mittelfeld
+        else depth = 3;
         return { depth, lateral };
       }
 
@@ -885,7 +1085,6 @@
 
       // Für jede Tiefe → eine X-Position auf der Pitch-Hälfte
       // depth 0 (TW) ganz hinten, depth 5 (ST) nahe Mittellinie
-      const isLeft = side === 'left';
       const minDepth = depthLevels[0];
       const maxDepth = depthLevels[depthLevels.length - 1];
 
