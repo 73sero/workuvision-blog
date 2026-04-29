@@ -19,12 +19,27 @@
   "tiktokVideos": [],
   "articles": [
     {
+      "slug": "2026-04-29-vorbericht-bayern-psg",
+      "date": "2026-04-29",
+      "category": "tactics",
+      "badge": "Vorbericht",
+      "badgeColor": "bv",
+      "thumbnail": "img/stadium1.jpg",
+      "thumbnailAlt": "Vorbericht: PSG vs FC Bayern",
+      "readtime": "5 Min.",
+      "featured": false,
+      "showLineup": true,
+      "title": "Vorbericht: PSG empfängt Bayern im CL-Halbfinale",
+      "excerpt": "Heute Abend trifft der FC Bayern in Paris auf PSG. Alle Infos zur taktischen Aufstellung.",
+      "body": "Das CL-Halbfinal-Hinspiel zwischen PSG und Bayern wirft seine Schatten voraus. Trainer Vincent Kompany muss auf seinen gesperrten Cheftrainer-Status reagieren — Aaron Danks vertritt ihn an der Seitenlinie.\n\nDie taktische Idee: Mit Pavlović und Kimmich auf der Doppel-Sechs will Bayern stabil stehen, während Olise, Musiala und Díaz hinter Kane für die Offensive sorgen.\n\nPSG setzt auf ihr klassisches 4-3-3 mit Dembelé, Doué und Kvaratskhelia in der Sturmreihe."
+    },
+    {
       "slug": "2026-04-29-musiala-im-fokus-kompany-setzt-auf-seinen-zehner-g",
       "date": "2026-04-29",
       "category": "tactics",
       "badge": "Taktik-Analyse",
       "badgeColor": "bt",
-      "thumbnail": "img/night.jpg",
+      "thumbnail": "img/stadium1.jpg",
       "thumbnailAlt": "Musiala im Fokus: Kompany setzt auf seinen Zehner gegen PSG",
       "readtime": "4 Min.",
       "featured": false,

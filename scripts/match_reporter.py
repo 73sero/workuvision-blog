@@ -574,6 +574,10 @@ def add_article_to_content(content, post_data, kind, slug_suffix, source_url=Non
         "excerpt": post_data.get("excerpt","")[:250],
         "body": post_data.get("body",""),
     }
+    # Vorbericht-Artikel kriegen ein Marker-Feld, damit das Frontend die
+    # taktische Aufstellung (lineup-override.json) im Artikel anzeigen kann.
+    if kind == "preview":
+        article["showLineup"] = True
     if source_url:
         article["sourceUrl"] = source_url
     if source_name:

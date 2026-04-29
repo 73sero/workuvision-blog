@@ -89,21 +89,22 @@ ARTICLE_IMG_DIR = ROOT / "img" / "articles"
 
 
 def pick_stock_image(category, articles):
-    """Wählt zufällig ein Stock-Bild aus dem Pool, vermeidet aber die zuletzt
-    benutzten lokalen Bilder (sodass keine zwei aufeinanderfolgenden Artikel
-    das gleiche Bild haben)."""
+    """Wählt das am wenigsten benutzte Stock-Bild aus dem Kategorie-Pool aus.
+    So entstehen keine doppelten oder häufig wiederholten Stock-Bilder.
+    """
+    from collections import Counter
     pool = list(IMAGE_POOL.get(category, IMAGE_POOL["tactics"]))
-    # Letzte 3 Stock-Thumbs (keine 'img/articles/...') aus den existierenden Artikeln
-    recent_stock = []
-    for a in articles[:3]:
+    # Zähle wie oft jedes Stock-Bild aktuell genutzt wird (alle Kategorien)
+    usage = Counter()
+    for a in articles:
         thumb = a.get("thumbnail", "")
         if thumb and not thumb.startswith("img/articles/"):
-            recent_stock.append(thumb)
-    # Pool ohne die zuletzt benutzten — falls etwas übrig bleibt
-    fresh = [p for p in pool if p not in recent_stock]
-    if fresh:
-        return random.choice(fresh)
-    return random.choice(pool)
+            usage[thumb] += 1
+    # Bevorzuge das Bild aus dem Pool das am seltensten genutzt wird;
+    # bei Gleichstand zufällig wählen
+    pool_with_counts = [(usage.get(p, 0), p) for p in pool]
+    pool_with_counts.sort(key=lambda x: (x[0], random.random()))
+    return pool_with_counts[0][1]
 
 BADGE_MAP = {
     "tactics": ("Taktik-Analyse", "bt"),
