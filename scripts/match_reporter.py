@@ -533,32 +533,40 @@ def add_article_to_content(content, post_data, kind, slug_suffix, source_url=Non
     title = post_data.get("title","")[:90]
     slug = f"{today}-{slug_suffix}"
 
-    # Bilder pro kind — zufällig aus Pool für Abwechslung
+    # Bilder pro kind — wähle das am wenigsten benutzte aus dem Pool um
+    # Doppelungen mit existierenden Artikeln zu vermeiden.
+    from collections import Counter
     import random as _random
+
     if kind == "preview":
         cat = "tactics"
         badge = "Vorbericht"
         badge_color = "bv"
-        thumb = _random.choice([
-            "img/stadium1.jpg", "img/tactics.jpg", "img/hero.jpg",
-            "img/night.jpg", "img/football.jpg",
-        ])
+        pool = ["img/stadium1.jpg", "img/tactics.jpg", "img/hero.jpg",
+                "img/night.jpg", "img/football.jpg"]
     elif kind == "report":
         cat = "reaction"
         badge = "Spielbericht"
         badge_color = "brc"
-        thumb = _random.choice([
-            "img/fans.jpg", "img/stadium1.jpg", "img/hero.jpg",
-            "img/football.jpg",
-        ])
+        pool = ["img/fans.jpg", "img/stadium1.jpg", "img/hero.jpg",
+                "img/football.jpg"]
     else:
         cat = "tactics"
         badge = "News"
         badge_color = "bt"
-        thumb = _random.choice([
-            "img/football.jpg", "img/tactics.jpg", "img/night.jpg",
-            "img/transfer.jpg",
-        ])
+        pool = ["img/football.jpg", "img/tactics.jpg", "img/night.jpg",
+                "img/transfer.jpg"]
+
+    # Zähle wie oft jedes Stock-Bild bereits genutzt wird (alle Artikel)
+    usage = Counter()
+    for a in content.get("articles", []):
+        t = a.get("thumbnail", "")
+        if t and not t.startswith("img/articles/"):
+            usage[t] += 1
+    # Wähle das Bild mit niedrigster usage; tie-break: zufällig
+    candidates = [(usage.get(p, 0), _random.random(), p) for p in pool]
+    candidates.sort()
+    thumb = candidates[0][2]
 
     article = {
         "slug": slug,
