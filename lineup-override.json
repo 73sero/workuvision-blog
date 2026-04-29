@@ -1,11 +1,80 @@
 {
-  "active": false,
-  "matchTitle": "",
-  "matchLabel": "Aufstellung · Startelf",
-  "matchDate": "",
+  "active": true,
+  "matchTitle": "PSG vs Bayern · CL Halbfinale Hinspiel",
+  "matchLabel": "Aufstellung · Champions League",
+  "matchDate": "2026-04-29T21:00:00+02:00",
   "formation": "4-2-3-1",
-  "starters": [],
-  "bench": [],
-  "coach": "Vincent Kompany",
-  "notes": ""
+  "teamName": "FC Bayern München",
+  "starters": [
+    {
+      "position": "TW",
+      "number": 1,
+      "name": "Manuel Neuer"
+    },
+    {
+      "position": "LV",
+      "number": 19,
+      "name": "Alphonso Davies"
+    },
+    {
+      "position": "IV",
+      "number": 4,
+      "name": "Jonathan Tah"
+    },
+    {
+      "position": "IV",
+      "number": 2,
+      "name": "Dayot Upamecano"
+    },
+    {
+      "position": "RV",
+      "number": 44,
+      "name": "Josip Stanišić"
+    },
+    {
+      "position": "ZDM",
+      "number": 45,
+      "name": "Aleksandar Pavlović"
+    },
+    {
+      "position": "ZDM",
+      "number": 6,
+      "name": "Joshua Kimmich"
+    },
+    {
+      "position": "LM",
+      "number": 14,
+      "name": "Luis Díaz"
+    },
+    {
+      "position": "ZM",
+      "number": 10,
+      "name": "Jamal Musiala"
+    },
+    {
+      "position": "RM",
+      "number": 17,
+      "name": "Michael Olise"
+    },
+    {
+      "position": "ST",
+      "number": 9,
+      "name": "Harry Kane"
+    }
+  ],
+  "bench": [
+    "Sven Ulreich",
+    "Jonas Urbig",
+    "Konrad Laimer",
+    "Min-Jae Kim",
+    "Hiroki Itō",
+    "Leon Goretzka",
+    "Joao Palhinha",
+    "Serge Gnabry",
+    "Nicolas Jackson"
+  ],
+  "coach": "Vincent Kompany (gesperrt — vertreten durch Aaron Danks)",
+  "notes": "Aufstellung des CL-Halbfinal-Hinspiels in Paris.",
+  "sourceUrl": "https://www.kicker.de/paris-sg-gegen-bayern-2026-champions-league-5195139/aufstellung",
+  "sourceName": "kicker.de"
 }

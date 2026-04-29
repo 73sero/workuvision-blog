@@ -322,13 +322,28 @@ def main():
 
     if not bayern_match_info:
         print("  Kein Bayern-Spiel in den nächsten 6 Stunden — kein Lineup-Update.")
-        # Wenn currentLineup veraltet → leeren
-        if content.get("currentLineup"):
+        # Aufstellung nur leeren wenn wir wirklich eine vom Bot drin haben
+        # (also matchDate liegt in der Vergangenheit oder nicht gesetzt)
+        cur = content.get("currentLineup")
+        should_clear = False
+        if cur and cur.get("matchDate"):
+            try:
+                from datetime import datetime as _dt, timezone as _tz
+                match_date = _dt.fromisoformat(cur["matchDate"].replace("Z","+00:00"))
+                if match_date.tzinfo is None:
+                    match_date = match_date.replace(tzinfo=_tz.utc)
+                # Wenn das Spiel mehr als 5 Stunden her ist → leeren
+                hours_since = (_dt.now(_tz.utc) - match_date).total_seconds() / 3600
+                if hours_since > 5:
+                    should_clear = True
+            except Exception:
+                pass
+        if should_clear:
             content["currentLineup"] = None
             content["opponentLineup"] = None
             with CONTENT_FILE.open("w", encoding="utf-8") as f:
                 json.dump(content, f, ensure_ascii=False, indent=2)
-            print("  currentLineup geleert (kein anstehendes Spiel).")
+            print("  currentLineup geleert (Spiel vorbei, kein neues in Reichweite).")
         return
 
     print(f"  Spiel: Bayern {('vs' if bayern_match_info['is_home'] else 'bei')} {bayern_match_info['opponent_name']}")

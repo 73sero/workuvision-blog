@@ -431,7 +431,7 @@
             const ov = await ovRes.json();
             if (ov && ov.active && ov.starters && ov.starters.length === 11) {
               lineup = ov;
-              opponentLineup = null; // Override → kein automatischer Gegner
+              // opponentLineup aus content.json bleibt — kann mitgepflegt sein
             }
           }
         } catch(e) { /* keine Override-Datei → bot-lineup verwenden */ }
