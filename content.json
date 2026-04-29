@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-04-29T00:15:16+00:00",
+  "lastUpdated": "2026-04-29T00:18:50+00:00",
   "tiktokStats": {
     "followers": 1354,
     "likes": "27K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Heim gegen Heidenheim in 3 Tagen — alle Augen auf den FCB",
+    "Musiala im Fokus: Kompany setzt auf seinen Zehner gegen PSG",
     "Pavlović zuversichtlich: Bayern dreht das Spiel gegen PSG",
     "4:5 in Paris: Bayern trotzt Rückstand und hält Halbfinale offen",
     "Kompany gesperrt: Bayern-Coach analysiert PSG vom Tribünenplatz",
     "Eberl bestätigt: Olise bleibt beim FC Bayern",
-    "Palhinha-Zukunft: Tottenham will niedrigere Ablöse",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-04-29-musiala-im-fokus-kompany-setzt-auf-seinen-zehner-g",
+      "date": "2026-04-29",
+      "category": "tactics",
+      "badge": "Taktik-Analyse",
+      "badgeColor": "bt",
+      "thumbnail": "img/night.jpg",
+      "thumbnailAlt": "Musiala im Fokus: Kompany setzt auf seinen Zehner gegen PSG",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Musiala im Fokus: Kompany setzt auf seinen Zehner gegen PSG",
+      "excerpt": "Trainer Vincent Kompany hat Jamal Musiala als Schlüsselspieler für das Champions-League-Halbfinale gegen PSG bezeichnet.",
+      "body": "Laut Bavarian Football Works hat Bayern-Trainer Vincent Kompany Jamal Musiala ausdrücklich für die Aufgabe im Halbfinale gegen Paris Saint-Germain bereit erklärt. Der 21-Jährige habe in den vergangenen Wochen deutliche Fortschritte gezeigt — ein Aufwärtstrend, der zu einem kaum besseren Zeitpunkt kommt.\n\nDer Hintergrund: Mit Serge Gnabry und Lennart Karl stehen dem Rekordmeister zwei Optionen im Angriff verletzt nicht zur Verfügung. Die Münchner sind dadurch auf eine starke Leistung von Musiala auf der Zehn angewiesen. Kompany setzt offenbar volles Vertrauen in seinen Offensivstar.\n\nDas Halbfinale gegen PSG gilt als bislang schwerste Aufgabe der Saison für die Bayern. Ob Musiala die in ihn gesetzten Erwartungen auf der größten europäischen Bühne erfüllen kann, wird sich zeigen — die Voraussetzungen laut Kompany stimmen.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/champions-league/195170/vincent-kompany-says-bayern-munich-star-jamal-musiala-is-up-for-the-task-vs-psg",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-04-28-pavlovi-zuversichtlich-bayern-dreht-das-spiel-gege",
       "date": "2026-04-28",
