@@ -410,13 +410,13 @@
     .lu-player.is-keeper .lu-num{color:#1a0a00;text-shadow:0 1px 1px rgba(255,255,255,.4)}
 
     .lu-name{
-      font-family:var(--fb);font-weight:600;font-size:.62rem;
+      font-family:var(--fb);font-weight:600;font-size:.6rem;
       color:rgba(255,255,255,.95);
       text-shadow:
         0 1px 3px rgba(0,0,0,.95),
         0 0 12px rgba(0,0,0,.8);
-      letter-spacing:.3px;line-height:1.1;
-      max-width:84px;text-align:center;
+      letter-spacing:.2px;line-height:1.1;
+      max-width:74px;text-align:center;
       white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
     }
 
@@ -1022,102 +1022,102 @@
     function renderPitchHalf(container, starters, formation, side, teamClass) {
       const isLeft = side === 'left';
 
-      // Map Position-Code → {depth: 0..5, lateral: 0..1}
-      // KONVENTION (wie kicker.de): Auf der Aufstellungskarte sind
-      //   L* Spieler immer UNTEN, R* Spieler immer OBEN — auf BEIDEN Seiten.
-      // Aus Mannschafts-Sicht: ihr eigener rechter Spieler ist oben auf der Karte.
-      function classifyPos(pos) {
-        const p = (pos || '').toUpperCase().trim();
+      // === FORMATIONS-PARSER ===
+      // Parst "4-2-3-1" zu Reihen und mappt jeden Spieler auf eine konkrete Reihe.
+      // Die Spieler-Reihenfolge im Array entspricht der Formation:
+      //   TW + Reihe1 (von hinten) + Reihe2 + ... + ST (vorne).
+      //
+      // Lateral-Verteilung innerhalb einer Reihe:
+      //   - L* Spieler ganz unten, R* Spieler ganz oben (kicker-Konvention)
+      //   - Bei 2 Spielern auf einer Reihe ohne L/R → gespreizt (z.B. 2x ZDM = LDM/RDM)
+      //   - 1 Spieler → mittig (0.50)
+      //   - Sonst nach Position-Code: L→0.85, LZ→0.65, Z/zentral→0.50, RZ→0.35, R→0.15
+      const formStr = (formation || '4-2-3-1').replace(/\s+/g, '');
+      const formParts = formStr.split('-').map(Number);  // [4, 2, 3, 1]
+      // Gesamt: 1 (TW) + sum(formParts) sollte 11 sein
+      const totalRows = formParts.length + 1;  // +1 für TW
 
-        let lateral;
-        if (p.startsWith('L')) lateral = 0.80;        // L → unten
-        else if (p.startsWith('R')) lateral = 0.20;   // R → oben
-        else lateral = 0.50;                            // Z, M, ST, OM, DM → Mitte
+      // depth-Mapping: TW=0, dann Reihen gleichmäßig 1..(totalRows-1)
+      // Aber: TW immer ganz hinten, Sturm ganz vorne nahe Mittellinie
 
-        let depth;
-        if (p === 'TW' || p === 'TOR') depth = 0;
-        else if (p === 'LV' || p === 'RV' || p === 'IV' || p === 'LIV' || p === 'RIV') depth = 1;
-        else if (p === 'DM' || p === 'ZDM') depth = 2;
-        else if (p === 'LM' || p === 'RM' || p === 'ZM') depth = 3;
-        else if (p === 'LOM' || p === 'ROM' || p === 'OM' || p === 'ZOM') depth = 4;
-        else if (p === 'ST' || p === 'LS' || p === 'RS' || p === 'LF' || p === 'RF' || p === 'MS') depth = 5;
-        else depth = 3;
-        return { depth, lateral };
+      // Plane Spieler in Reihen
+      const rows = [];
+      rows.push([starters[0]]);  // TW
+      let idx = 1;
+      for (const count of formParts) {
+        const rowPlayers = [];
+        for (let i = 0; i < count; i++) {
+          if (starters[idx]) rowPlayers.push(starters[idx]);
+          idx++;
+        }
+        rows.push(rowPlayers);
       }
 
-      // Klassifiziere alle Spieler, gruppiere nach depth
-      const classified = starters.map(p => ({
-        ...p,
-        ...classifyPos(p.position)
-      }));
+      // Sortiere innerhalb jeder Reihe nach Position-Code (außer TW)
+      // Heuristik: L* zuerst, dann Z*/zentral, dann R*
+      function lateralKey(pos) {
+        const p = (pos || '').toUpperCase();
+        if (p.startsWith('L')) return 0;
+        if (p.startsWith('R')) return 2;
+        return 1;
+      }
 
-      // Disambiguiere identische lateral-Werte innerhalb derselben depth
-      // Z.B. zwei IV: 1. IV → LIV (lateral=0.4), 2. IV → RIV (lateral=0.6)
-      // Nutze die Reihenfolge im Array (kicker liefert i.d.R. von links nach rechts)
-      const groupKey = p => p.depth + '_' + p.lateral.toFixed(2);
-      const groups = {};
-      classified.forEach(p => {
-        if (!groups[groupKey(p)]) groups[groupKey(p)] = [];
-        groups[groupKey(p)].push(p);
-      });
-      Object.values(groups).forEach(group => {
-        if (group.length > 1) {
-          // Spreize lateral-Werte: bei 2 Spielern → 0.40 / 0.60; bei 3 → 0.30 / 0.50 / 0.70
-          const center = group[0].lateral;
-          const span = 0.20;
-          group.forEach((p, i) => {
-            const t = group.length === 1 ? 0.5 : i / (group.length - 1);
-            p.lateral = center - span/2 + t * span;
+      // Sortiere die Reihen mit mehreren Spielern
+      // Reihenfolge: erst L*-Spieler, dann Z*-Spieler, dann R*-Spieler
+      // Innerhalb gleicher Klasse: ursprüngliche Reihenfolge beibehalten
+      for (let r = 1; r < rows.length; r++) {
+        const row = rows[r];
+        if (row.length > 1) {
+          // Stable-sort nach lateralKey
+          row.sort((a, b) => {
+            const ka = lateralKey(a.position);
+            const kb = lateralKey(b.position);
+            if (ka !== kb) return ka - kb;
+            return 0;
           });
         }
-      });
-
-      // Gruppiere nach Tiefe (depth band)
-      const byDepth = {};
-      classified.forEach(p => {
-        if (!byDepth[p.depth]) byDepth[p.depth] = [];
-        byDepth[p.depth].push(p);
-      });
-
-      // Sortiere innerhalb jeder Tiefe nach lateral (oben → unten)
-      const depthLevels = Object.keys(byDepth).map(Number).sort((a,b) => a-b);
-      depthLevels.forEach(d => byDepth[d].sort((a,b) => a.lateral - b.lateral));
-
-      // Für jede Tiefe → eine X-Position auf der Pitch-Hälfte
-      // depth 0 (TW) ganz hinten, depth 5 (ST) nahe Mittellinie
-      const minDepth = depthLevels[0];
-      const maxDepth = depthLevels[depthLevels.length - 1];
-
-      // Stelle sicher dass TW (depth=0) ganz am Tor ist und ST (depth=5) an Mittellinie
-      // X-Range für eine Hälfte: 5%-46% bzw. 54%-95%
-      function depthToX(d) {
-        // d=0 (TW) → ganz am Tor; d=5 (ST) → nahe Mittellinie
-        const t = d / 5; // 0 → 1
-        if (isLeft) return 6 + t * 38;  // 6% (TW) bis 44% (ST)
-        return 94 - t * 38;              // 94% (TW) bis 56% (ST)
       }
 
-      depthLevels.forEach(d => {
-        const players = byDepth[d];
-        const x = depthToX(d);
+      // KORREKTUR der lateral-Reihenfolge:
+      // In kicker-Konvention: L* unten, R* oben.
+      // Wir bauen rows von "L zuerst" auf — das ist visuell von oben nach unten.
+      // Wir wollen R-zuerst (= oben) → einfach umdrehen
+      for (let r = 1; r < rows.length; r++) {
+        rows[r].reverse();  // jetzt: R-zuerst (oben), L-zuletzt (unten)
+      }
 
-        players.forEach((player, idx) => {
-          // Y-Position: Spieler in dieser Reihe lateral verteilen
-          // Wenn nur 1 Spieler → 50%; sonst gleichmäßig zwischen 14% und 86%
-          let y;
-          if (players.length === 1) {
-            y = 50;
-          } else {
-            // Nutze die lateral-Werte direkt, aber gespreizt
-            // Bei 2 Spielern: 32% und 68%
-            // Bei 3 Spielern: 18%, 50%, 82%
-            // Bei 4 Spielern: 14%, 38%, 62%, 86%
-            const spread = 14 + (idx / (players.length - 1)) * 72;
-            y = spread;
-          }
+      // === X-Positionen pro Reihe ===
+      // TW ganz an Tor, dann gleichmäßige Verteilung bis nahe Mittellinie
+      // X-Range: links 4%-46%, rechts 54%-96% — gibt 42% Gesamtbreite pro Hälfte
+      const xRange = isLeft ? [4, 46] : [96, 54];
+      // x[0] = TW; x[totalRows-1] = vorderste Reihe (ST)
+      const xs = rows.map((_, rIdx) => {
+        const t = rIdx / (rows.length - 1);
+        return xRange[0] + t * (xRange[1] - xRange[0]);
+      });
 
+      // === Y-Positionen innerhalb einer Reihe ===
+      // Bereich: 14% - 86% (Avatar + Name brauchen Platz oben/unten)
+      function yPositions(count) {
+        if (count === 1) return [50];
+        if (count === 2) return [32, 68];
+        if (count === 3) return [18, 50, 82];
+        if (count === 4) return [14, 38, 62, 86];
+        if (count === 5) return [12, 31, 50, 69, 88];
+        const yMin = 14, yMax = 86;
+        const step = (yMax - yMin) / (count - 1);
+        return Array.from({length: count}, (_, i) => yMin + i * step);
+      }
+
+      // === Spieler rendern ===
+      rows.forEach((rowPlayers, rIdx) => {
+        const x = xs[rIdx];
+        const ys = yPositions(rowPlayers.length);
+        rowPlayers.forEach((player, i) => {
+          const y = ys[i];
+          const isKeeper = rIdx === 0;
           const div = document.createElement('div');
-          div.className = 'lu-player ' + teamClass + (player.depth === 0 ? ' is-keeper' : '');
+          div.className = 'lu-player ' + teamClass + (isKeeper ? ' is-keeper' : '');
           div.style.left = x + '%';
           div.style.top = y + '%';
           const lastName = (player.name || '').split(' ').slice(-1)[0];
@@ -1131,6 +1131,7 @@
       });
     }
 
+      // Sortiere innerhalb jeder Tiefe nach lateral (oben → unten)
     function renderTiktokVideos(videos) {
       const grid = document.getElementById('tiktok-grid');
       const section = document.getElementById('tiktok');
