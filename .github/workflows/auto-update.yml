@@ -23,7 +23,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install feedparser anthropic requests
+        run: pip install feedparser anthropic requests Pillow
 
       - name: Update TikTok stats
         continue-on-error: true
@@ -57,6 +57,10 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
+      - name: Repair article images (Bayern-CDN / Wikipedia für alte Artikel)
+        continue-on-error: true
+        run: python scripts/repair_article_images.py
+
       - name: Update ticker (last articles + next match)
         continue-on-error: true
         run: python scripts/update_ticker.py
@@ -65,7 +69,7 @@ jobs:
         run: |
           git config user.name "Workuvision Bot"
           git config user.email "bot@workuvision.de"
-          git add content.json
+          git add content.json img/articles/ lineup-override.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "Keine Änderungen — nichts zu committen."
           else
