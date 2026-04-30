@@ -22,6 +22,7 @@ import os
 import random
 import re
 import sys
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -86,6 +87,242 @@ IMAGE_POOL = {
 }
 
 ARTICLE_IMG_DIR = ROOT / "img" / "articles"
+
+
+# ============================================================================
+# BAYERN-SPIELER-DATABASE für intelligente Bild-Auswahl
+# Wird genutzt um aus Artikel-Titeln Spielernamen zu extrahieren und passende
+# Bilder zu finden (Bayern-Pressefotos vom offiziellen CDN, Wikipedia-Fallback).
+# Das Spielerfoto wird genutzt, wenn aus dem RSS/og:image kein Bild kommt.
+# ============================================================================
+
+# Bekannte Bayern-Spieler 2025/26 + Kebab-Case-Slug für fcbayern.com CDN.
+# Pattern: img.fcbayern.com/.../players/spielerportraits/ganzkoerper/{slug}.png
+BAYERN_PLAYERS = {
+    # Tor
+    "Manuel Neuer":      "manuel-neuer",
+    "Neuer":             "manuel-neuer",
+    "Sven Ulreich":      "sven-ulreich",
+    "Jonas Urbig":       "jonas-urbig",
+    # Abwehr
+    "Dayot Upamecano":   "dayot-upamecano",
+    "Upamecano":         "dayot-upamecano",
+    "Jonathan Tah":      "jonathan-tah",
+    "Tah":               "jonathan-tah",
+    "Min-Jae Kim":       "minjae-kim",
+    "Kim Min-jae":       "minjae-kim",
+    "Hiroki Itō":        "hiroki-ito",
+    "Hiroki Ito":        "hiroki-ito",
+    "Josip Stanišić":    "josip-stanisic",
+    "Stanišić":          "josip-stanisic",
+    "Stanisic":          "josip-stanisic",
+    "Alphonso Davies":   "alphonso-davies",
+    "Davies":            "alphonso-davies",
+    "Raphaël Guerreiro": "raphael-guerreiro",
+    "Guerreiro":         "raphael-guerreiro",
+    "Sacha Boey":        "sacha-boey",
+    # Mittelfeld
+    "Joshua Kimmich":    "joshua-kimmich",
+    "Kimmich":           "joshua-kimmich",
+    "Aleksandar Pavlović": "aleksandar-pavlovic",
+    "Pavlović":          "aleksandar-pavlovic",
+    "Pavlovic":          "aleksandar-pavlovic",
+    "Leon Goretzka":     "leon-goretzka",
+    "Goretzka":          "leon-goretzka",
+    "Joao Palhinha":     "joao-palhinha",
+    "Palhinha":          "joao-palhinha",
+    "Konrad Laimer":     "konrad-laimer",
+    "Laimer":            "konrad-laimer",
+    # Offensive
+    "Jamal Musiala":     "jamal-musiala",
+    "Musiala":           "jamal-musiala",
+    "Michael Olise":     "michael-olise",
+    "Olise":             "michael-olise",
+    "Luis Díaz":         "luis-diaz",
+    "Luis Diaz":         "luis-diaz",
+    "Díaz":              "luis-diaz",
+    "Diaz":              "luis-diaz",
+    "Serge Gnabry":      "serge-gnabry",
+    "Gnabry":            "serge-gnabry",
+    "Harry Kane":        "harry-kane",
+    "Kane":              "harry-kane",
+    "Nicolas Jackson":   "nicolas-jackson",
+    "Lennart Karl":      "lennart-karl",
+    # Trainer
+    "Vincent Kompany":   "vincent-kompany",
+    "Kompany":           "vincent-kompany",
+}
+
+# Wikipedia-Fallback: für Bayern-Spieler PLUS andere relevante Personen
+# (Trainer, Bosse, Transferziele) als deutscher Wikipedia-Artikel-Titel.
+WIKIPEDIA_SUBJECTS = {
+    # Bayern alle wie oben — plus extras:
+    "Anthony Gordon":   "Anthony Gordon",
+    "Gordon":           "Anthony Gordon",
+    "Max Eberl":        "Max Eberl",
+    "Eberl":            "Max Eberl",
+    "Uli Hoeneß":       "Uli Hoeneß",
+    "Hoeneß":           "Uli Hoeneß",
+    "Christoph Freund": "Christoph Freund",
+    "Freund":           "Christoph Freund",
+    "Alexander Nübel":  "Alexander Nübel",
+    "Nübel":            "Alexander Nübel",
+    "Daniel Peretz":    "Daniel Peretz",
+    "Peretz":           "Daniel Peretz",
+    # Bayern (vollständige Namen für WP)
+    "Harry Kane":            "Harry Kane",
+    "Manuel Neuer":          "Manuel Neuer",
+    "Joshua Kimmich":        "Joshua Kimmich",
+    "Jamal Musiala":         "Jamal Musiala",
+    "Michael Olise":         "Michael Olise",
+    "Vincent Kompany":       "Vincent Kompany",
+    "Aleksandar Pavlović":   "Aleksandar Pavlović",
+    "Leon Goretzka":         "Leon Goretzka",
+    "Luis Díaz":             "Luis Díaz (Fußballspieler, 1997)",
+    "Dayot Upamecano":       "Dayot Upamecano",
+    "Alphonso Davies":       "Alphonso Davies",
+    "Jonathan Tah":          "Jonathan Tah",
+    "Konrad Laimer":         "Konrad Laimer",
+    "Joao Palhinha":         "João Palhinha",
+    "Serge Gnabry":          "Serge Gnabry",
+}
+
+
+def extract_subjects(title, body=""):
+    """Extrahiert Bayern-Spielernamen / bekannte Personen aus dem Titel/Body.
+    Gibt eine Liste der gefundenen Subjekte zurück, sortiert nach Länge
+    (längere Namen zuerst, also vollständige vor Nachnamen).
+    """
+    text = (title or "") + " " + (body or "")
+    found = []
+    # Sort by length DESC um vollständige Namen zuerst zu matchen
+    candidates = sorted(BAYERN_PLAYERS.keys(), key=len, reverse=True)
+    used_slugs = set()
+    for name in candidates:
+        # word-boundary match (name endet/startet an Wortgrenze)
+        pattern = r"\b" + re.escape(name) + r"\b"
+        if re.search(pattern, text):
+            slug = BAYERN_PLAYERS[name]
+            if slug not in used_slugs:
+                found.append(name)
+                used_slugs.add(slug)
+    # Auch andere bekannte Subjekte
+    for name in sorted(WIKIPEDIA_SUBJECTS.keys(), key=len, reverse=True):
+        if name in BAYERN_PLAYERS:
+            continue
+        pattern = r"\b" + re.escape(name) + r"\b"
+        if re.search(pattern, text):
+            if name not in found:
+                found.append(name)
+    return found
+
+
+def fetch_bayern_cdn_image(player_slug):
+    """Versucht das offizielle Bayern-Pressefoto vom fcbayern.com CDN zu laden.
+    Format: ganzkoerper-Pose, 16:9 zugeschnitten, kein Hintergrund-Background.
+    Returns image-URL string oder None.
+    """
+    if not player_slug:
+        return None
+    # Bayern's Cloudinary CDN — width 1200, aspect 16:9
+    url = (f"https://img.fcbayern.com/image/upload/"
+           f"f_auto/q_auto/ar_16:9,c_fill,g_custom,w_1200/"
+           f"v1691827799/cms/public/images/fcbayern-com/"
+           f"players/spielerportraits/ganzkoerper/{player_slug}.png")
+    try:
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) "
+                          "AppleWebKit/605.1.15 (KHTML, like Gecko) "
+                          "Version/17.0 Safari/605.1.15",
+            "Accept": "image/avif,image/webp,image/png,image/*;q=0.8,*/*;q=0.5",
+            "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
+            "Referer": "https://fcbayern.com/",
+        })
+        # HEAD-like check: einfach öffnen, kurz lesen um zu sehen ob da ist
+        with urllib.request.urlopen(req, timeout=10) as r:
+            if r.status == 200:
+                # Erste Bytes prüfen — ist es ein gültiges Bild?
+                head = r.read(16)
+                if head.startswith(b"\x89PNG") or head.startswith(b"\xff\xd8\xff") \
+                        or head.startswith(b"RIFF"):  # PNG/JPEG/WebP
+                    return url
+        return None
+    except Exception:
+        return None
+
+
+def fetch_wikipedia_image(subject_name):
+    """Holt das Hauptbild eines Wikipedia-Artikels via REST API.
+    DE Wikipedia bevorzugt, EN als Fallback. Funktioniert ohne API-Key.
+    Returns image-URL oder None.
+    """
+    if not subject_name:
+        return None
+    # WP-Titel kann gemappt sein (z.B. "Luis Díaz" → "Luis Díaz (Fußballspieler, 1997)")
+    wp_title = WIKIPEDIA_SUBJECTS.get(subject_name, subject_name)
+
+    for lang in ("de", "en"):
+        url = (f"https://{lang}.wikipedia.org/api/rest_v1/page/summary/"
+               f"{urllib.parse.quote(wp_title.replace(' ', '_'))}")
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": "WorkuvisionBot/1.0 "
+                              "(https://workuvision.de; bot@workuvision.de)",
+                "Accept": "application/json",
+            })
+            with urllib.request.urlopen(req, timeout=10) as r:
+                data = json.loads(r.read())
+            # Bevorzuge originalimage (höhere Auflösung), fallback thumbnail
+            img = (data.get("originalimage", {}).get("source") or
+                   data.get("thumbnail", {}).get("source"))
+            if img:
+                return img
+        except Exception:
+            continue
+    return None
+
+
+def find_subject_image(title, body=""):
+    """Hauptfunktion: findet ein passendes Bild basierend auf Titel/Body.
+    Probiert Bayern-CDN zuerst (offizielle Pressefotos), dann Wikipedia.
+    Gibt eine Bild-URL zurück oder None.
+    """
+    subjects = extract_subjects(title, body)
+    if not subjects:
+        return None
+
+    # Erstes Subjekt = wichtigstes (längster Match aus Titel)
+    primary = subjects[0]
+
+    # 1) Bayern-CDN: nur für Bayern-Spieler/Trainer
+    if primary in BAYERN_PLAYERS:
+        slug = BAYERN_PLAYERS[primary]
+        url = fetch_bayern_cdn_image(slug)
+        if url:
+            print(f"     🏟️  Bayern-CDN für '{primary}': gefunden")
+            return url
+
+    # 2) Wikipedia-Fallback: für Bayern-Spieler UND andere bekannte Subjekte
+    if primary in WIKIPEDIA_SUBJECTS or primary in BAYERN_PLAYERS:
+        url = fetch_wikipedia_image(primary)
+        if url:
+            print(f"     📖 Wikipedia für '{primary}': gefunden")
+            return url
+
+    # 3) Wenn primary nichts brachte, andere Subjekte versuchen
+    for s in subjects[1:3]:
+        if s in BAYERN_PLAYERS:
+            url = fetch_bayern_cdn_image(BAYERN_PLAYERS[s])
+            if url:
+                print(f"     🏟️  Bayern-CDN für '{s}' (sekundär): gefunden")
+                return url
+        if s in WIKIPEDIA_SUBJECTS:
+            url = fetch_wikipedia_image(s)
+            if url:
+                print(f"     📖 Wikipedia für '{s}' (sekundär): gefunden")
+                return url
+
+    return None
 
 
 def pick_stock_image(category, articles):
@@ -768,7 +1005,21 @@ def main():
                     thumbnail = local_thumb
                     print(f"  📷 og:image von {article_url[:50]} gescraped: {thumbnail}")
 
-    # Fallback 2: Stock-Bild aus Pool (nur wenn vorher nichts ging)
+    # Fallback 2: Subjekt-basiertes Bild (Bayern-CDN / Wikipedia)
+    # Schaut nach Bayern-Spielernamen im Titel/Body und holt offizielle
+    # Pressefotos. So bekommen auch Artikel ohne sourceUrl ein passendes Bild.
+    if not thumbnail:
+        subject_url = find_subject_image(
+            new_post.get("title", ""),
+            new_post.get("body", "")
+        )
+        if subject_url:
+            local_thumb = download_and_optimize_image(subject_url, slug, ARTICLE_IMG_DIR)
+            if local_thumb:
+                thumbnail = local_thumb
+                print(f"  📷 Subjekt-Bild gespeichert: {thumbnail}")
+
+    # Fallback 3: Stock-Bild aus Pool (nur wenn vorher nichts ging)
     if not thumbnail:
         thumbnail = pick_stock_image(cat, content.get("articles", []))
         print(f"  📷 Stock-Bild verwendet: {thumbnail}")
