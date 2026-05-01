@@ -522,7 +522,29 @@ def fetch_feed_items():
         if items_added:
             print(f"  + {items_added:>2d} aus {name}")
 
-    return items
+    # ── Quellenvielfalt sicherstellen ──
+    # Statt items in Feed-Reihenfolge zurückzugeben (BFW dominiert weil zuerst in
+    # der Liste), interleaven wir per Round-Robin: pro Durchgang ein Item aus
+    # jeder Quelle, dann nochmal usw. Dadurch sieht Claude eine bunte Mischung
+    # aus allen Feeds in den Top-15 Slots.
+    from collections import defaultdict
+    by_source = defaultdict(list)
+    for item in items:
+        by_source[item["source"]].append(item)
+
+    print(f"\n  Items pro Quelle:")
+    for src, lst in sorted(by_source.items(), key=lambda x: -len(x[1])):
+        print(f"    {len(lst):>3d}× {src}")
+
+    # Round-Robin: ein Item pro Quelle, dann nächste Runde
+    interleaved = []
+    max_per_source = max(len(lst) for lst in by_source.values()) if by_source else 0
+    for round_idx in range(max_per_source):
+        for src in by_source:
+            if round_idx < len(by_source[src]):
+                interleaved.append(by_source[src][round_idx])
+
+    return interleaved
 
 
 def extract_image_from_entry(entry):
@@ -864,12 +886,31 @@ Ausschließlich gültiges JSON (kein Markdown drumrum, keine Erklärung). Schema
 def write_with_claude(items, recent_articles, problems_from_previous=None):
     client = Anthropic(api_key=API_KEY)
 
+    # Mehr Items zeigen (25 statt 15) damit Claude eine echte Auswahl hat.
+    # Dank Round-Robin-Interleaving sehen die Top-25 alle Quellen
     items_str = "\n\n".join([
         f"### {it['title']}\nQuelle: {it['source']} ({it['url']})\nVeröffentlicht: {it.get('published','')}\nInhalt:\n{it['summary']}"
-        for it in items[:15]
+        for it in items[:25]
     ])
 
     recent_titles = "\n".join(f"- {a['title']}" for a in recent_articles[-10:]) if recent_articles else "(keine)"
+
+    # Letzte Quellen sammeln um Quellenvielfalt zu fördern
+    from collections import Counter
+    recent_sources = Counter()
+    for a in recent_articles[-10:]:
+        src = a.get("sourceName", "")
+        if src:
+            recent_sources[src] += 1
+    sources_hint = ""
+    if recent_sources:
+        most_used = recent_sources.most_common(1)[0]
+        if most_used[1] >= 3:
+            sources_hint = (f"\n\nHINWEIS Quellenvielfalt: Die letzten Artikel kamen häufig "
+                            f"von '{most_used[0]}' ({most_used[1]}x in den letzten 10). "
+                            f"Bevorzuge diesmal eine andere Quelle — Miasanrot (Taktik), "
+                            f"Christian Falk/Fabrizio Romano (Insider-Transfers), "
+                            f"oder kicker/Spiegel/SZ (klassischer Sport-Journalismus).")
 
     user = f"""Letzte Artikel auf Workuvision (NICHT wiederholen):
 {recent_titles}
@@ -878,7 +919,7 @@ Aktuelle Bayern-News-Vorschläge (wähle EINE Story aus):
 {items_str}
 
 Wähle die spannendste Story, die nicht zu nah an den letzten Artikeln liegt.
-Schreibe einen Artikel im Workuvision-Stil. Reines JSON zurück."""
+Schreibe einen Artikel im Workuvision-Stil. Reines JSON zurück.{sources_hint}"""
 
     if problems_from_previous:
         user += f"\n\n— HINWEIS — Beim letzten Versuch traten diese Probleme auf:\n"
