@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-04-30T17:09:04+00:00",
+  "lastUpdated": "2026-05-01T06:31:53+00:00",
   "tiktokStats": {
     "followers": 1352,
     "likes": "27K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Heim gegen Heidenheim morgen — alle Augen auf den FCB",
+    "Neuer vor Vertragsverlängerung: Entscheidung bahnt sich an",
     "Neuer vor Vertragsverlängerung: Ein weiteres Jahr in München?",
     "Gordons Berater bei Bayern: Offenbar Gespräche über Wechsel",
     "Hakimi fällt für Rückspiel gegen Bayern aus",
     "Kompany eilt nach Abpfiff in die Kabine: Lob für kämpfende Bayern",
-    "Gordon-Berater zu Gast: Bayern prüft Newcastle-Star",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-01-neuer-vor-vertragsverlaengerung-entscheidung-bahnt",
+      "date": "2026-05-01",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-01-neuer-vor-vertragsverlaengerung-entscheidung-bahnt.jpg",
+      "thumbnailAlt": "Neuer vor Vertragsverlängerung: Entscheidung bahnt sich an",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuer vor Vertragsverlängerung: Entscheidung bahnt sich an",
+      "excerpt": "Der Vertrag von Manuel Neuer läuft zum Saisonende aus. Nun verdichten sich die Zeichen, dass der 40-Jährige beim FC Bayern verlängert.",
+      "body": "Der Vertrag von Manuel Neuer beim FC Bayern läuft am Ende dieser Saison aus. Lange herrschte Unklarheit darüber, wie es mit dem Torhüter weitergeht. Nun berichten sowohl der kicker als auch Sport1 übereinstimmend, dass sich eine Entscheidung anbahnt — und die Zeichen dabei auf Verlängerung stehen.\n\nEine endgültige Einigung ist laut beiden Medien noch nicht erzielt. Der kicker schreibt, die Anzeichen verdichteten sich, dass Neuer seinen Vertrag verlängern würde. Sport1 bestätigt, eine Entscheidung sei in greifbarer Nähe. Details zu Vertragslaufzeit oder finanziellen Konditionen nennen die Berichte nicht.\n\nFür den FC Bayern käme eine Verlängerung zur rechten Zeit: Im Champions-League-Halbfinale gegen Paris Saint-Germain zeigte Neuer beim 4:5 im Hinspiel eine solide Leistung. Ob er auch beim Rückspiel in der Allianz Arena zwischen den Pfosten steht, dürfte die Personaldiskussion rund um das Münchner Tor vorerst beenden.",
+      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mkqbiomnoy2j",
+      "sourceName": "kicker (Bluesky) und Sport1 (Bluesky)"
+    },
     {
       "slug": "2026-04-30-neuer-vor-vertragsverlaengerung-ein-weiteres-jahr",
       "date": "2026-04-30",
