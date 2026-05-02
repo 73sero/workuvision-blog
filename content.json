@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-01T16:44:46+00:00",
+  "lastUpdated": "2026-05-02T06:01:05+00:00",
   "tiktokStats": {
-    "followers": 1351,
+    "followers": 1350,
     "likes": "27K",
     "videos": 54
   },
   "ticker": [
     "Heim gegen Heidenheim heute — alle Augen auf den FCB",
+    "Laimer-Zukunft ungewiss: Bayern lehnen Gehaltsforderungen ab",
     "Neuer vor Vertragsverlängerung: Entscheidung bahnt sich an",
     "Neuer vor Vertragsverlängerung: Ein weiteres Jahr in München?",
     "Gordons Berater bei Bayern: Offenbar Gespräche über Wechsel",
     "Hakimi fällt für Rückspiel gegen Bayern aus",
-    "Kompany eilt nach Abpfiff in die Kabine: Lob für kämpfende Bayern",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-02-laimer-zukunft-ungewiss-bayern-lehnen-gehaltsforde",
+      "date": "2026-05-02",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-02-laimer-zukunft-ungewiss-bayern-lehnen-gehaltsforde.jpg",
+      "thumbnailAlt": "Laimer-Zukunft ungewiss: Bayern lehnen Gehaltsforderungen ab",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Laimer-Zukunft ungewiss: Bayern lehnen Gehaltsforderungen ab",
+      "excerpt": "Der FC Bayern soll die Gehaltsforderungen von Konrad Laimer abgelehnt haben und einen ablösefreien Abgang akzeptieren.",
+      "body": "Konrad Laimer steht vor einer ungewissen Zukunft beim FC Bayern. Laut Bavarian Football Works haben die Münchner die Gehaltsforderungen des österreichischen Nationalspielers in Höhe von zwölf bis 15 Millionen Euro pro Jahr abgelehnt. Der FCB soll einem möglichen Abgang des Rechtsverteidigers nach Vertragsende akzeptieren.\n\nLaimer hatte sich beim Rekordmeister vom Mittelfeldspieler zu einem der stärksten Außenverteidiger Europas entwickelt. Sein aktueller Vertrag an der Säbener Straße läuft bis 2027, sodass den Bayern noch ein Transferfenster bleibt, um eine Ablöse zu erzielen — andernfalls würde Laimer ablösefrei wechseln können.\n\nDer Bericht fällt in eine sportlich intensive Phase: Bayern-Trainer Vincent Kompany kann sich im Champions-League-Halbfinale-Rückspiel gegen Paris Saint-Germain kaum erlauben, auf einen Stammkraft wie Laimer zu verzichten. Eine Entscheidung über seine Zukunft dürfte erst nach dem Saisonende fallen.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/196843/report-bayern-munich-reject-konrad-laimers-e12-15m-salary-demands-accept-potential-exit-on-a-free",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-01-neuer-vor-vertragsverlaengerung-entscheidung-bahnt",
       "date": "2026-05-01",
