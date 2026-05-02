@@ -592,11 +592,57 @@ def add_article_to_content(content, post_data, kind, slug_suffix, source_url=Non
         article["sourceName"] = source_name
 
     articles = content.get("articles", [])
-    # Doppel-Slug verhindern
-    articles = [a for a in articles if a.get("slug") != slug]
+
+    # === DEDUP-CHECKS ===
+    # 1) Genau gleicher Slug → ersetze (Update)
+    existing_same_slug = next((a for a in articles if a.get("slug") == slug), None)
+    if existing_same_slug:
+        articles = [a for a in articles if a.get("slug") != slug]
+        print(f"  ↻ Bestehenden Artikel mit Slug '{slug}' überschrieben.")
+
+    # 2) Inhaltlich ähnlicher Titel in den letzten 15 Artikeln (verhindert
+    # dass der Bot 2x leicht unterschiedliche Vorberichte zum selben Spiel
+    # anlegt, z.B. wenn er mehrfach am Spieltag triggert)
+    elif _is_title_dup(title, articles[:15], threshold=0.5):
+        print(f"  ⚠️  Inhaltlich ähnlicher Artikel existiert bereits — übersprungen.")
+        return False
+
     articles.insert(0, article)
     content["articles"] = articles[:30]
     return True
+
+
+def _title_keywords(title):
+    """Stichwörter aus Titel: Eigennamen + Wörter >=5 Zeichen ohne Stoppwörter."""
+    if not title:
+        return set()
+    proper = re.findall(r"\b[A-ZÄÖÜ][a-zäöüß]{3,}\b", title)
+    stop = {"sich","nach","trotz","über","diese","dieser","dieses","haben",
+            "wieder","noch","auch","seine","seinen","seiner","ihrem","ihren",
+            "ihrer","wird","werden","wurde","kann","nicht","keine","schon",
+            "aber","doch","weil","damit","gegen","gegenüber","dabei","ohne",
+            "bayern","fcb","münchen","muenchen","fc"}  # Bayern-Bezug ist überall
+    words = re.findall(r"\b\w{5,}\b", title.lower())
+    kws = set(p.lower() for p in proper)
+    kws.update(w for w in words if w not in stop)
+    return kws
+
+
+def _is_title_dup(title, recent_articles, threshold=0.5):
+    """Prüft ob title inhaltlich zu einem der recent_articles dupliziert."""
+    new_kws = _title_keywords(title)
+    if not new_kws:
+        return False
+    for a in recent_articles:
+        existing_kws = _title_keywords(a.get("title", ""))
+        if not existing_kws:
+            continue
+        intersect = len(new_kws & existing_kws)
+        union = len(new_kws | existing_kws)
+        if union > 0 and intersect / union >= threshold:
+            print(f"     Duplikat-Match: '{title[:60]}' ↔ '{a.get('title','')[:60]}' (score={intersect/union:.2f})")
+            return True
+    return False
 
 
 def main():

@@ -644,21 +644,50 @@
       }
 
       // === X-Positionen pro Reihe ===
-      // TW ganz an Tor, dann gleichmäßige Verteilung bis nahe Mittellinie
-      // X-Range: links 4%-46%, rechts 54%-96% — gibt 42% Gesamtbreite pro Hälfte
-      const xRange = isLeft ? [8, 44] : [92, 56];
-      // x[0] = TW; x[totalRows-1] = vorderste Reihe (ST)
-      const xs = rows.map((_, rIdx) => {
-        const t = rIdx / (rows.length - 1);
-        return xRange[0] + t * (xRange[1] - xRange[0]);
-      });
+      // Statt gleichmäßiger Verteilung: TW direkt am Tor (extrem),
+      // dann weniger Abstand zwischen Verteidigung+ZDM (eng), und
+      // OM+ST nahe Mittellinie. Das macht die Reihen visuell klarer
+      // sichtbar als zusammenhängende horizontale Linien.
+      //
+      // Konkrete Tiefen (relativ zur Tor-Mittellinie-Strecke):
+      //   TW=0.0  Verteidigung=0.18  ZDM=0.40  OM=0.62  ST=0.85
+      // Bei Formation 4-3-3 (kein OM-Trio):
+      //   TW=0.0  Verteidigung=0.20  Mittelfeld=0.50  Sturm=0.85
+      //
+      // Wir mappen Reihen-Index auf relative Tiefe, dann auf X-Range.
+      const xRange = isLeft ? [4, 46] : [96, 54];
+      const xSpan = xRange[1] - xRange[0];
+
+      // Bestimme relative Tiefen je nach Formation-Typ
+      let depths;
+      const nLines = formParts.length;
+      if (nLines === 4) {
+        // 4 Linien (z.B. 4-2-3-1 / 4-3-2-1 / 3-4-2-1)
+        depths = [0.0, 0.20, 0.42, 0.65, 0.92];
+      } else if (nLines === 3) {
+        // 3 Linien (z.B. 4-3-3 / 3-4-3 / 4-4-2 / 5-3-2)
+        depths = [0.0, 0.22, 0.55, 0.92];
+      } else if (nLines === 2) {
+        // sehr selten (z.B. 4-6 oder 5-5) — fallback gleichmäßig
+        depths = [0.0, 0.40, 0.92];
+      } else if (nLines === 5) {
+        // sehr offensiv (z.B. 3-2-2-2-1)
+        depths = [0.0, 0.16, 0.34, 0.52, 0.72, 0.92];
+      } else {
+        // Fallback: gleichmäßig
+        depths = rows.map((_, i) => i / (rows.length - 1));
+      }
+
+      const xs = depths.slice(0, rows.length).map(d => xRange[0] + d * xSpan);
 
       // === Y-Positionen innerhalb einer Reihe ===
-      // Bereich: 14% - 86% (Avatar + Name brauchen Platz oben/unten)
+      // 2-er Reihen (z.B. ZDM-Doppel) müssen ENG zusammen stehen damit die
+      // Reihe visuell als zentrale Linie erkennbar ist und nicht mit
+      // benachbarten Verteidigern "verschwimmt".
       function yPositions(count) {
         if (count === 1) return [50];
-        if (count === 2) return [32, 68];
-        if (count === 3) return [18, 50, 82];
+        if (count === 2) return [40, 60];        // eng zentriert
+        if (count === 3) return [22, 50, 78];
         if (count === 4) return [14, 38, 62, 86];
         if (count === 5) return [12, 31, 50, 69, 88];
         const yMin = 14, yMax = 86;
