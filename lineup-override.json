@@ -1,80 +1,82 @@
 {
   "active": true,
-  "matchTitle": "PSG vs Bayern · CL Halbfinale Hinspiel",
-  "matchLabel": "Aufstellung · Champions League",
-  "matchDate": "2026-04-29T21:00:00+02:00",
-  "formation": "4-2-3-1",
   "teamName": "FC Bayern München",
+  "formation": "4-2-3-1",
+  "matchTime": "2026-05-02T15:30:00+02:00",
+  "matchDate": "2026-05-02T13:30:00+00:00",
+  "matchTitle": "Bayern vs 1. FC Heidenheim 1846",
+  "matchLabel": "Aufstellung · Startelf",
+  "publishedAt": "2026-05-02T14:11:07.775489+00:00",
   "starters": [
     {
+      "number": 40,
       "position": "TW",
-      "number": 1,
-      "name": "Manuel Neuer"
+      "name": "Jonas Urbig"
     },
     {
-      "position": "LV",
-      "number": 19,
-      "name": "Alphonso Davies"
-    },
-    {
-      "position": "IV",
-      "number": 4,
-      "name": "Jonathan Tah"
-    },
-    {
-      "position": "IV",
-      "number": 2,
-      "name": "Dayot Upamecano"
-    },
-    {
-      "position": "RV",
       "number": 44,
+      "position": "RV",
       "name": "Josip Stanišić"
     },
     {
+      "number": 4,
+      "position": "IV",
+      "name": "Jonathan Tah"
+    },
+    {
+      "number": 3,
+      "position": "IV",
+      "name": "Min-Jae Kim"
+    },
+    {
+      "number": 21,
+      "position": "LV",
+      "name": "Hiroki Itō"
+    },
+    {
+      "number": 27,
       "position": "ZDM",
+      "name": "Konrad Laimer"
+    },
+    {
+      "number": 8,
+      "position": "ZDM",
+      "name": "Leon Goretzka"
+    },
+    {
       "number": 45,
+      "position": "LM",
       "name": "Aleksandar Pavlović"
     },
     {
-      "position": "ZDM",
-      "number": 6,
-      "name": "Joshua Kimmich"
-    },
-    {
-      "position": "LM",
-      "number": 14,
-      "name": "Luis Díaz"
-    },
-    {
+      "number": 39,
       "position": "ZM",
+      "name": "Cassiano Ndiaye"
+    },
+    {
       "number": 10,
+      "position": "RM",
       "name": "Jamal Musiala"
     },
     {
-      "position": "RM",
-      "number": 17,
-      "name": "Michael Olise"
-    },
-    {
+      "number": 11,
       "position": "ST",
-      "number": 9,
-      "name": "Harry Kane"
+      "name": "Nicolas Jackson"
     }
   ],
   "bench": [
-    "Sven Ulreich",
-    "Jonas Urbig",
-    "Konrad Laimer",
-    "Min-Jae Kim",
-    "Hiroki Itō",
-    "Leon Goretzka",
-    "Joao Palhinha",
-    "Serge Gnabry",
-    "Nicolas Jackson"
+    "Manuel Neuer",
+    "Harry Kane",
+    "Alphonso Davies",
+    "Michael Olise",
+    "Dayot Upamecano",
+    "Joshua Kimmich",
+    "Adam Pavic",
+    "Luis Díaz",
+    "Tom Bischof"
   ],
-  "coach": "Vincent Kompany (gesperrt — vertreten durch Aaron Danks)",
-  "notes": "Aufstellung des CL-Halbfinal-Hinspiels in Paris.",
-  "sourceUrl": "https://www.kicker.de/paris-sg-gegen-bayern-2026-champions-league-5195139/aufstellung",
-  "sourceName": "kicker.de"
+  "coach": "Vincent Kompany",
+  "sourceName": "fcbayern.com (Opta Sports)",
+  "sourceUrl": "https://fcbayern.com/de/spiele/profis/bundesliga/2025-2026/fc-bayern-muenchen-1-fc-heidenheim-1846-02-05-2026/aufstellung",
+  "notes": "Bundesliga · 32. Spieltag · Allianz Arena · 15:30 Uhr"
 }

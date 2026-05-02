@@ -498,11 +498,15 @@
         notesEl.textContent = lineup.notes;
       } else notesEl.style.display = 'none';
 
-      // Source
+      // Source — sowohl unten in der Details-Box als auch im Section-Header
       const srcEl = document.getElementById('lu-card-src');
       if (lineup.sourceUrl && lineup.sourceName) {
         srcEl.innerHTML = `Quelle <a href="${escHtml(lineup.sourceUrl)}" target="_blank" rel="noopener">${escHtml(lineup.sourceName)}</a>`;
       } else srcEl.innerHTML = '';
+      const headSrcEl = document.getElementById('lineup-source-name');
+      if (headSrcEl && lineup.sourceName) {
+        headSrcEl.textContent = `Quelle: ${lineup.sourceName}`;
+      }
 
       // === PITCH ===
       const playersEl = document.getElementById('lu-players');

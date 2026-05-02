@@ -33,14 +33,21 @@ def position_from_layout(line_idx, total_lines, idx_in_line, line_size):
     """Gibt Position-String basierend auf Spielfeld-Position."""
     if line_idx == 0:
         return "TW"
+    # Sturmreihe (vorderste Reihe, line_size 1-3)
     if line_idx == total_lines - 1:
+        if line_size == 1:
+            return "ST"
+        if line_size == 2:
+            return ["LS", "RS"][idx_in_line]
+        if line_size == 3:
+            return ["LS", "ST", "RS"][idx_in_line]
         return "ST"
     # Abwehr-Linie: RV/IV/LV
     if line_idx == 1:
         if line_size == 4:
             return ["LV","IV","IV","RV"][idx_in_line]
         elif line_size == 3:
-            return ["LV","IV","RV"][idx_in_line]
+            return ["LIV","IV","RIV"][idx_in_line]
         elif line_size == 5:
             return ["LV","IV","IV","IV","RV"][idx_in_line]
         return "AB"
@@ -81,6 +88,296 @@ def fetch(url, timeout=20):
             import gzip
             content = gzip.decompress(content)
         return content.decode("utf-8", errors="replace")
+
+
+# ============================================================================
+# FCBAYERN.COM Scraper (primäre Quelle — nutzt Opta Sports Daten)
+# ============================================================================
+
+def find_fcbayern_match_url(kickoff_dt, opponent_name):
+    """Konstruiert die fcbayern.com Aufstellungs-URL für ein bestimmtes Spiel.
+
+    Pattern:
+      https://fcbayern.com/de/spiele/profis/{liga}/{season}/{slug}/aufstellung
+
+    Beispiel:
+      https://fcbayern.com/de/spiele/profis/bundesliga/2025-2026/
+      fc-bayern-muenchen-1-fc-heidenheim-1846-02-05-2026/aufstellung
+
+    Wir leiten den Slug aus opponent_name + Datum ab.
+    """
+    # Saison ermitteln (Bundesliga-Saison startet im August)
+    year = kickoff_dt.year
+    if kickoff_dt.month >= 7:
+        season = f"{year}-{year+1}"
+    else:
+        season = f"{year-1}-{year}"
+
+    # Datum DD-MM-YYYY
+    date_str = kickoff_dt.strftime("%d-%m-%Y")
+
+    # Opponent-Slug bauen — fcbayern nutzt Volltexte mit Bindestrich
+    opp_clean = opponent_name.lower()
+    # Bekannte Mappings für korrekte Slugs
+    opp_slug_map = {
+        "1. fc heidenheim 1846": "1-fc-heidenheim-1846",
+        "1. fc heidenheim": "1-fc-heidenheim-1846",
+        "fc heidenheim": "1-fc-heidenheim-1846",
+        "heidenheim": "1-fc-heidenheim-1846",
+        "borussia dortmund": "borussia-dortmund",
+        "bvb": "borussia-dortmund",
+        "bayer 04 leverkusen": "bayer-04-leverkusen",
+        "bayer leverkusen": "bayer-04-leverkusen",
+        "leverkusen": "bayer-04-leverkusen",
+        "rb leipzig": "rb-leipzig",
+        "leipzig": "rb-leipzig",
+        "eintracht frankfurt": "eintracht-frankfurt",
+        "frankfurt": "eintracht-frankfurt",
+        "vfb stuttgart": "vfb-stuttgart",
+        "stuttgart": "vfb-stuttgart",
+        "vfl wolfsburg": "vfl-wolfsburg",
+        "wolfsburg": "vfl-wolfsburg",
+        "borussia mönchengladbach": "borussia-monchengladbach",
+        "mönchengladbach": "borussia-monchengladbach",
+        "gladbach": "borussia-monchengladbach",
+        "1. fc union berlin": "1-fc-union-berlin",
+        "union berlin": "1-fc-union-berlin",
+        "tsg hoffenheim": "tsg-hoffenheim",
+        "hoffenheim": "tsg-hoffenheim",
+        "fc augsburg": "fc-augsburg",
+        "augsburg": "fc-augsburg",
+        "sv werder bremen": "sv-werder-bremen",
+        "werder bremen": "sv-werder-bremen",
+        "bremen": "sv-werder-bremen",
+        "1. fsv mainz 05": "1-fsv-mainz-05",
+        "mainz": "1-fsv-mainz-05",
+        "1. fc köln": "1-fc-koln",
+        "köln": "1-fc-koln",
+        "fc st. pauli": "fc-st-pauli",
+        "st. pauli": "fc-st-pauli",
+        "hamburger sv": "hamburger-sv",
+        "hsv": "hamburger-sv",
+        "sc freiburg": "sc-freiburg",
+        "freiburg": "sc-freiburg",
+    }
+    opp_slug = opp_slug_map.get(opp_clean, opp_clean.replace(" ", "-").replace(".", ""))
+
+    bayern_slug = "fc-bayern-muenchen"
+    full_slug = f"{bayern_slug}-{opp_slug}-{date_str}"
+    return f"https://fcbayern.com/de/spiele/profis/bundesliga/{season}/{full_slug}/aufstellung"
+
+
+def parse_fcbayern_lineup(html_text):
+    """Parst die fcbayern.com /aufstellung-Seite.
+
+    Returns: dict mit teamA, teamB:
+      { "fc bayern": {"team_name":..., "formation":..., "players":[...]},
+        "heidenheim": ... }
+    """
+    teams_out = {}
+
+    # Section-Header finden: "Aufstellung {TEAMNAME}" 
+    matches = list(re.finditer(
+        r'Aufstellung\s+([^<\n]{3,40}?)\s*<', html_text
+    ))
+
+    sections = []
+    valid_team_keywords = ["FC Bayern", "Heidenheim", "Borussia", "Leverkusen",
+                            "Leipzig", "Eintracht", "VfB", "VfL", "Union",
+                            "Hoffenheim", "Augsburg", "Werder", "Mainz",
+                            "Köln", "Pauli", "Hamburger", "Freiburg",
+                            "Stuttgart", "Wolfsburg", "Mönchengladbach",
+                            "Heidenheim 1846"]
+
+    for i, m in enumerate(matches):
+        team_name = m.group(1).strip()
+        if not any(kw in team_name for kw in valid_team_keywords):
+            continue
+        start = m.end()
+        end = matches[i+1].start() if i+1 < len(matches) else len(html_text)
+        sect = html_text[start:end]
+        # Schneide bei "Die taktische Aufstellung" ab
+        cut = sect.find("Die taktische Aufstellung")
+        if cut > 0:
+            sect = sect[:cut]
+        sections.append((team_name, sect))
+
+    # De-Dup: dasselbe Team kann mehrfach auftauchen (weil fcbayern die Liste
+    # zweimal zeigt). Nimm die erste vollständige Sektion.
+    seen_team_keys = set()
+    for team_name, sect_html in sections:
+        team_key = team_name.lower()
+        if team_key in seen_team_keys:
+            continue
+
+        # Formation extrahieren
+        form_m = re.search(r'(\d)\s*-\s*(\d)\s*-\s*(\d)(?:\s*-\s*(\d))?', sect_html)
+        formation = "-".join(g for g in form_m.groups() if g) if form_m else None
+        if not formation:
+            continue
+
+        expected_count = 1 + sum(int(d) for d in formation.split("-"))
+
+        # Spieler extrahieren — Reihenfolge im HTML beibehalten!
+        # fcbayern listet: erst <a href="/de/teams/profis/...">Player</a>,
+        # zwischendrin (für Spieler ohne Profil): <li>Player</li> ohne <a>
+        # Wir parsen sequenziell durch <li>-Items.
+
+        players = []
+        # Strategie: Tags strippen aber List-Item-Grenzen markieren
+        # In fcbayern's HTML stehen Players in <li>...</li>. Innerhalb:
+        # <a href="/de/teams/profis/SLUG">{img}{number}{name}</a>
+        # ODER plain: {img}{number}{name}
+
+        # Schrittweise: alle <li>-Blöcke finden
+        # Unterschiedliche List-Layouts; einfacher: zerlege an <li> Tags
+        items = re.split(r'<li[^>]*>', sect_html)
+        for item in items[1:]:  # erstes Element vor <li> ignorieren
+            # Inneren Text bis </li> nehmen
+            end_li = item.find('</li>')
+            if end_li > 0:
+                item = item[:end_li]
+
+            # Zwei Fälle: mit <a href="/de/teams/profis/.."> oder ohne
+            inner_text = re.sub(r'<[^>]+>', ' ', item)
+            inner_text = re.sub(r'\s+', ' ', inner_text).strip()
+            # Pattern: "{nummer} {name}" oder "{name} {nummer}" — meist Erstes
+            m_player = re.match(r'^(\d{1,2})\s+([A-ZÀ-ÿ][\w.\'\-šžćčľń]*(?:\s+[A-ZÀ-ÿ][\w.\'\-šžćčľń]*)?)$', inner_text)
+            if m_player:
+                num = int(m_player.group(1))
+                name = m_player.group(2).strip()
+                if 1 <= num <= 99 and len(name) >= 3:
+                    players.append({"number": num, "name": name})
+                    if len(players) >= expected_count:
+                        break
+
+        # Fallback: wenn keine <li>-Struktur, regex über text
+        if len(players) < expected_count:
+            text = re.sub(r'<[^>]+>', ' ', sect_html)
+            text = re.sub(r'\s+', ' ', text).strip()
+            # Nimm "(\d{1,2})\s+([A-ZÄÖÜ][\w...])"
+            seen_nums = {p["number"] for p in players}
+            for m_p in re.finditer(
+                r'(\d{1,2})\s+([A-ZÀ-ÿ][\w.\'\-šžćčľń]+(?:\s+[A-ZÀ-ÿ][\w.\'\-šžćčľń]+)?)',
+                text
+            ):
+                num = int(m_p.group(1))
+                name = m_p.group(2).strip()
+                if num in seen_nums or num < 1 or num > 99:
+                    continue
+                if len(name) < 3:
+                    continue
+                # Filter: schließe Worte aus die offenbar Header sind
+                if name.lower() in ("aufstellung","fc","sv","tv","spieltag"):
+                    continue
+                players.append({"number": num, "name": name})
+                seen_nums.add(num)
+                if len(players) >= expected_count:
+                    break
+
+        # Auf expected_count limitieren
+        players = players[:expected_count]
+
+        teams_out[team_key] = {
+            "team_name": team_name,
+            "formation": formation,
+            "players": players,
+        }
+        seen_team_keys.add(team_key)
+
+    return teams_out
+
+
+def assign_positions_from_formation(players, formation_str):
+    """Weist jedem Spieler eine Position-String basierend auf seiner Reihenfolge
+    in der Aufstellung und der Formation zu.
+
+    fcbayern listet Spieler in Reihen-Reihenfolge: TW, dann Verteidigung,
+    dann Mittelfeld, dann Sturm — innerhalb einer Reihe von links nach rechts
+    (oder nach Trikotnummer? meist top→bottom auf der grafischen Darstellung,
+    bei fcbayern aber meistens links→rechts in der textuellen Liste).
+    """
+    if not formation_str:
+        return players
+
+    parts = list(map(int, formation_str.split("-")))
+    expected_total = 1 + sum(parts)
+    if len(players) != expected_total:
+        # Anzahl passt nicht zu Formation → keine Zuweisung
+        return players
+
+    out = []
+    # TW
+    out.append({**players[0], "position": "TW"})
+    idx = 1
+    for line_idx, line_size in enumerate(parts, start=1):
+        for in_line_idx in range(line_size):
+            pos = position_from_layout(line_idx, len(parts) + 1, in_line_idx, line_size)
+            out.append({**players[idx], "position": pos})
+            idx += 1
+    return out
+
+
+def fetch_fcbayern_lineup(match_info):
+    """Versucht die Aufstellung von fcbayern.com zu holen.
+
+    Returns: (bayern_lineup_dict, opponent_lineup_dict, source_url) oder (None, None, None)
+    """
+    url = find_fcbayern_match_url(match_info["kickoff"], match_info["opponent_name"])
+    print(f"  → fcbayern.com URL: {url}")
+    try:
+        html = fetch(url)
+    except Exception as e:
+        print(f"  ⚠️  fcbayern.com nicht ladbar: {e}")
+        return None, None, None
+
+    teams = parse_fcbayern_lineup(html)
+    print(f"  fcbayern.com gefundene Teams: {list(teams.keys())}")
+
+    if len(teams) < 2:
+        print(f"  ⚠️  fcbayern.com hat nur {len(teams)} Teams — Aufstellung evtl. noch nicht da.")
+        return None, None, None
+
+    # Bayern-Team finden
+    bayern_key = next((k for k in teams if "bayern" in k.lower()), None)
+    if not bayern_key:
+        print("  ⚠️  Bayern nicht in fcbayern-Daten gefunden.")
+        return None, None, None
+
+    opp_key = next((k for k in teams if k != bayern_key), None)
+    if not opp_key:
+        return None, None, None
+
+    bayern = teams[bayern_key]
+    opp = teams[opp_key]
+
+    # Mindestens 11 Spieler pro Team
+    if len(bayern["players"]) < 11 or len(opp["players"]) < 11:
+        print(f"  ⚠️  Unvollständig: Bayern {len(bayern['players'])}, Gegner {len(opp['players'])}")
+        return None, None, None
+
+    # Positionen zuweisen
+    bayern_with_pos = assign_positions_from_formation(bayern["players"][:11], bayern["formation"])
+    opp_with_pos = assign_positions_from_formation(opp["players"][:11], opp["formation"])
+
+    bayern_lineup = {
+        "active": True,
+        "teamName": bayern["team_name"],
+        "formation": bayern["formation"],
+        "starters": bayern_with_pos,
+        "bench": [],  # fcbayern listet Bank separat; kann im 2. Pass befüllt werden
+        "coach": "Vincent Kompany",
+        "sourceName": "fcbayern.com (Opta Sports)",
+        "sourceUrl": url,
+    }
+    opp_lineup = {
+        "teamName": opp["team_name"],
+        "formation": opp["formation"],
+        "starters": opp_with_pos,
+        "sourceName": "fcbayern.com (Opta Sports)",
+        "sourceUrl": url,
+    }
+    return bayern_lineup, opp_lineup, url
 
 
 def find_kicker_match_url(opponent_hint=None, league="bundesliga"):
@@ -349,6 +646,39 @@ def main():
     print(f"  Spiel: Bayern {('vs' if bayern_match_info['is_home'] else 'bei')} {bayern_match_info['opponent_name']}")
     print(f"  Anpfiff: {bayern_match_info['kickoff'].isoformat()}")
 
+    # === 2a) PRIMÄRE QUELLE: fcbayern.com (Opta Sports) ===
+    # Bei Heimspielen in der Bundesliga ist fcbayern.com die autoritative Quelle —
+    # die Daten stammen direkt von Opta Sports. Bei Auswärts/CL evtl. nicht
+    # verfügbar, dann fällt es auf kicker zurück.
+    if bayern_match_info["competition"].lower() == "bundesliga":
+        print("\n  → Versuche fcbayern.com (Opta Sports)…")
+        bayern_lu, opp_lu, src_url = fetch_fcbayern_lineup(bayern_match_info)
+        if bayern_lu and opp_lu:
+            # Match-Daten ergänzen
+            bayern_lu["matchTitle"] = f"Bayern {('vs' if bayern_match_info['is_home'] else 'bei')} {bayern_match_info['opponent_name']}"
+            bayern_lu["matchLabel"] = "Aufstellung · Startelf"
+            bayern_lu["matchDate"] = bayern_match_info["kickoff"].isoformat()
+            bayern_lu["matchTime"] = bayern_match_info["kickoff"].isoformat()
+            bayern_lu["publishedAt"] = datetime.now(timezone.utc).isoformat()
+
+            content["currentLineup"] = bayern_lu
+            content["opponentLineup"] = opp_lu
+
+            # lineup-override.json überschreiben (Frontend nutzt diese Datei direkt)
+            override_path = ROOT / "lineup-override.json"
+            with override_path.open("w", encoding="utf-8") as f:
+                json.dump(bayern_lu, f, ensure_ascii=False, indent=2)
+            print(f"  ✓ lineup-override.json aus fcbayern.com geschrieben.")
+
+            with CONTENT_FILE.open("w", encoding="utf-8") as f:
+                json.dump(content, f, ensure_ascii=False, indent=2)
+            print(f"  ✅ Aufstellung von fcbayern.com (Opta) übernommen.")
+            print(f"     Bayern: {bayern_lu['formation']} · {len(bayern_lu['starters'])} Spieler")
+            print(f"     Gegner: {opp_lu['formation']} · {len(opp_lu['starters'])} Spieler")
+            return
+        print("  ⚠️  fcbayern.com nicht erfolgreich — versuche kicker.de als Fallback.")
+
+    # === 2b) FALLBACK: kicker.de ===
     # 2) kicker-Aufstellungs-URL finden
     opp_hint = bayern_match_info["opponent_name"].lower().split()[0]  # "1. fsv mainz" → "fsv"
     if opp_hint in ("1.", "fsv"):

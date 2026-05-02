@@ -1,71 +1,23 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-02T15:10:33+00:00",
+  "lastUpdated": "2026-04-29T00:18:50+00:00",
   "tiktokStats": {
-    "followers": 1350,
+    "followers": 1354,
     "likes": "27K",
-    "videos": 54
+    "videos": 52
   },
   "ticker": [
-    "Heim gegen Heidenheim heute — alle Augen auf den FCB",
-    "Neuer-Vertrag: Bayern und Keeper wollen gemeinsam bis 2027",
-    "Neuer will verlängern: Bayern und Kapitän einig über 2027",
-    "Kathleen Krüger verlässt Bayern: Wechsel zum HSV bestätigt",
-    "Vorbericht: Bayern empfängt Heidenheim zum Bundesliga-Samstag",
-    "Davies bleibt: Kein Abgang trotz Verkaufsgerüchten",
+    "Heim gegen Heidenheim in 3 Tagen — alle Augen auf den FCB",
+    "Musiala im Fokus: Kompany setzt auf seinen Zehner gegen PSG",
+    "Pavlović zuversichtlich: Bayern dreht das Spiel gegen PSG",
+    "4:5 in Paris: Bayern trotzt Rückstand und hält Halbfinale offen",
+    "Kompany gesperrt: Bayern-Coach analysiert PSG vom Tribünenplatz",
+    "Eberl bestätigt: Olise bleibt beim FC Bayern",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
-    {
-      "slug": "2026-05-02-neuer-vertrag-bayern-und-keeper-wollen-gemeinsam-b",
-      "date": "2026-05-02",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-02-neuer-vertrag-bayern-und-keeper-wollen-gemeinsam-b.jpg",
-      "thumbnailAlt": "Neuer-Vertrag: Bayern und Keeper wollen gemeinsam bis 2027",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuer-Vertrag: Bayern und Keeper wollen gemeinsam bis 2027",
-      "excerpt": "Manuel Neuer soll seinen auslaufenden Vertrag beim FC Bayern um ein Jahr verlängern. Erste Gespräche laufen bereits.",
-      "body": "Laut dem kicker bestätigte Bayern-Sportdirektor Christoph Freund am Freitag, dass der Klub bei der Torwart-Frage derzeit keine Auskunft geben möchte. Gleichzeitig berichtet Bavarian Football Works unter Berufung auf Sky-Journalist Florian Plettenberg, dass sich sowohl Manuel Neuer als auch der FC Bayern eine Vertragsverlängerung bis Juni 2027 wünschen. Erste Gespräche hätten demnach bereits stattgefunden.\n\nDer 39-jährige Torhüter steht derzeit noch bis Saisonende unter Vertrag. Eine einjährige Verlängerung würde bedeuten, dass Neuer auch in der Saison 2026/27 das Münchner Tor hütet. Freund soll sich laut kicker beim Thema Torwart zwar bedeckt gehalten, jedoch regelrecht geschwärmt haben.\n\nDie Personalie ist für den FCB angesichts des laufenden Champions-League-Halbfinals gegen PSG nicht das dringlichste Thema — doch die Weichenstellung für die Torhüter-Position dürfte in den kommenden Wochen an Fahrt aufnehmen. Mit Jonas Urbig steht zwar ein junger Keeper im Kader, doch Neuers Erfahrung bleibt für die Münchner ein gewichtiges Argument.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mkrsdhtp7y2i",
-      "sourceName": "kicker (Bluesky)"
-    },
-    {
-      "slug": "2026-05-02-neuer-will-verlaengern-bayern-und-kapitaen-einig-u",
-      "date": "2026-05-02",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-02-neuer-will-verlaengern-bayern-und-kapitaen-einig-u.jpg",
-      "thumbnailAlt": "Neuer will verlängern: Bayern und Kapitän einig über 2027",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuer will verlängern: Bayern und Kapitän einig über 2027",
-      "excerpt": "Manuel Neuer möchte seinen Vertrag beim FC Bayern um ein Jahr bis Juni 2027 verlängern. Auch der Klub befürwortet eine Einigung.",
-      "body": "Manuel Neuer strebt eine Vertragsverlängerung beim FC Bayern bis Juni 2027 an. Laut dem kicker-Bluesky-Post vom 1. Mai hat Sportdirektor Christoph Freund dazu am Freitag kein konkretes Update gegeben — geriet beim Torwartthema jedoch ins Schwärmen. Der kicker verwies damit indirekt auf die positive Stimmung rund um den Kapitän.\n\nDie Grundlage für die Personalie lieferte Sky-Deutschland-Journalist Florian Plettenberg: Sowohl Neuer als auch der FCB wünschen sich eine einjährige Verlängerung, und erste Gespräche seien bereits aufgenommen worden, berichtet Bavarian Football Works. Der 40-Jährige, dessen aktueller Vertrag ausläuft, soll damit weiter das Tor der Münchner hüten.\n\nDie Entwicklung kommt zu einem günstigen Zeitpunkt: Bayern steht im Champions-League-Halbfinale und benötigt Planungssicherheit auf allen Positionen. Eine baldige Einigung mit Neuer würde die Kaderplanung für die Saison 2026/27 erheblich vereinfachen — zumal Trainer Vincent Kompany auf einen eingespielten Stammkeeper setzen dürfte.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mkrsdhtp7y2i",
-      "sourceName": "kicker (Bluesky)"
-    },
-    {
-      "slug": "2026-05-02-kathleen-krueger-verlaesst-bayern-wechsel-zum-hsv",
-      "date": "2026-05-02",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-02-kathleen-krueger-verlaesst-bayern-wechsel-zum-hsv.jpg",
-      "thumbnailAlt": "Kathleen Krüger verlässt Bayern: Wechsel zum HSV bestätigt",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Kathleen Krüger verlässt Bayern: Wechsel zum HSV bestätigt",
-      "excerpt": "Der FC Bayern hat bestätigt, dass Kathleen Krüger Verhandlungen mit dem Hamburger SV führt. Der Rekordmeister verliert damit eine zentrale Führungsperson.",
-      "body": "Der FC Bayern hat offiziell bestätigt, dass Kathleen Krüger, langjährige Teammanagerin des Klubs, Verhandlungen mit dem Hamburger SV aufgenommen hat. Das berichtet der kicker auf Bluesky. Ein Abgang gilt demnach als wahrscheinlich.\n\nKrüger war seit Jahren eine der prägenden Persönlichkeiten hinter den Kulissen an der Säbener Straße und galt als enge Vertrauensperson des Mannschaftsgefüges. Laut Miasanrot wäre ihr Abgang ein herber Verlust für den Rekordmeister — sowohl organisatorisch als auch in der internen Kommunikation mit den Spielern.\n\nSporvorstand Christoph Freund äußerte sich am Freitag zu dem Thema, wollte jedoch kein Update zur Torwart-Situation rund um Manuel Neuer geben — geriet aber beim Thema Torhüter ins Schwärmen, wie der kicker weiter berichtet. Die personellen Weichenstellungen beim FCB beschränken sich in diesem Frühjahr offensichtlich nicht nur auf den Spielerkader.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mkrsdhtp7y2i",
-      "sourceName": "kicker (Bluesky)"
-    },
     {
       "slug": "2026-05-02-vorbericht-bayern-heidenheim",
       "date": "2026-05-02",
@@ -80,182 +32,6 @@
       "excerpt": "Der FC Bayern trifft am Samstag (17:30 Uhr) in der Allianz Arena auf den FC Heidenheim. Für den Rekordmeister geht es um weitere Punkte im Saisonendspurt.",
       "body": "Am Samstag, den 2. Mai 2026, empfängt der FC Bayern München um 17:30 Uhr den 1. FC Heidenheim in der Allianz Arena. Für die Münchner steht die Partie mitten in einer entscheidenden Saisonphase – Bundesliga-Alltag, der mit Blick auf den weiteren Verlauf des Frühjahrs kaum an Gewicht verliert.\n\nDie Aufstellung steht noch aus. Vincent Kompany wird seine Auswahl voraussichtlich auf Basis der jüngsten Belastungssteuerung zusammenstellen – zumal mit dem laufenden Champions-League-Halbfinale ein weiterer kräftezehrender Wettbewerb im Hintergrund steht.\n\nHeidenheim präsentiert sich in dieser Saison als kompakte, defensiv organisierte Einheit, die auf schnelle Umschaltsituationen setzt. Die Münchner werden daher auf eine kontrollierte Spielanlage angewiesen sein, um Räume zu öffnen und die gegnerische Formation frühzeitig unter Druck zu setzen.",
       "showLineup": true
-    },
-    {
-      "slug": "2026-05-02-davies-bleibt-kein-abgang-trotz-verkaufsgeruechten",
-      "date": "2026-05-02",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-02-davies-bleibt-kein-abgang-trotz-verkaufsgeruechten.jpg",
-      "thumbnailAlt": "Davies bleibt: Kein Abgang trotz Verkaufsgerüchten",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Davies bleibt: Kein Abgang trotz Verkaufsgerüchten",
-      "excerpt": "Alphonso Davies hat laut kicker keine Wechselabsichten. Auch der Klub signalisiert, den Kanadier nicht aktiv anbieten zu wollen.",
-      "body": "Rund um Alphonso Davies kursierten in den vergangenen Wochen Berichte, der FC Bayern könnte den kanadischen Linksverteidiger im Sommer verkaufen. Laut dem kicker gehen der Klub und der Spieler selbst jedoch mit guten Nachrichten ins Wochenende: Sorgen um einen Davies-Abgang seien nicht angebracht.\n\nDie Münchner sollen zwar einem außergewöhnlich hohen Angebot nicht grundsätzlich ablehnend gegenüberstehen, Davies selbst habe aber keinerlei Absicht, die Allianz Arena zu verlassen. Der Kanadier ist damit offenbar fest in die Planungen für die kommende Saison eingebunden.\n\nDie Meldung kommt zu einem günstigen Zeitpunkt: Der FC Bayern steht vor dem entscheidenden Champions-League-Halbfinale und braucht jeden verfügbaren Leistungsträger. Dass die Personalsituation auf der linken Abwehrseite geklärt scheint, dürfte Trainer Vincent Kompany bei seiner Kaderplanung zusätzliche Sicherheit geben.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mkrqt7jbfa2h",
-      "sourceName": "kicker (Bluesky)"
-    },
-    {
-      "slug": "2026-05-02-krueger-abgang-bayern-bestaetigt-hsv-verhandlungen",
-      "date": "2026-05-02",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-02-krueger-abgang-bayern-bestaetigt-hsv-verhandlungen.jpg",
-      "thumbnailAlt": "Krüger-Abgang: Bayern bestätigt HSV-Verhandlungen",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Krüger-Abgang: Bayern bestätigt HSV-Verhandlungen",
-      "excerpt": "Kathleen Krüger könnte den FC Bayern verlassen. Der Rekordmeister hat Gespräche mit dem Hamburger SV offiziell bestätigt.",
-      "body": "Der FC Bayern hat bestätigt, dass Kathleen Krüger Verhandlungen mit dem Hamburger SV führt. Das berichtet der kicker auf Bluesky. Die langjährige Mitarbeiterin des Rekordmeisters soll beim HSV die Nachfolge von Stefan Kuntz als Sportvorständin antreten – und wäre damit die erste Frau in dieser Position in der Bundesliga.\n\nLaut dem Spiegel gilt Krüger beim HSV als Wunschkandidatin. Insider beschreiben ihren Führungsstil als strukturiert und fordernd. Krüger war viele Jahre eng in den Betrieb an der Säbener Straße eingebunden und genoss intern hohes Ansehen.\n\nEin Abgang würde den FC Bayern eine erfahrene Führungskraft kosten. Sportvorstand Christoph Freund äußerte sich am Freitag nicht zu einem möglichen Ersatz. Offen bleibt, wann eine endgültige Entscheidung fällt – die Verhandlungen laufen offenbar noch.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mkrsdhtp7y2i",
-      "sourceName": "kicker (Bluesky)"
-    },
-    {
-      "slug": "2026-05-02-laimer-zukunft-ungewiss-bayern-lehnen-gehaltsforde",
-      "date": "2026-05-02",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-02-laimer-zukunft-ungewiss-bayern-lehnen-gehaltsforde.jpg",
-      "thumbnailAlt": "Laimer-Zukunft ungewiss: Bayern lehnen Gehaltsforderungen ab",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Laimer-Zukunft ungewiss: Bayern lehnen Gehaltsforderungen ab",
-      "excerpt": "Der FC Bayern soll die Gehaltsforderungen von Konrad Laimer abgelehnt haben und einen ablösefreien Abgang akzeptieren.",
-      "body": "Konrad Laimer steht vor einer ungewissen Zukunft beim FC Bayern. Laut Bavarian Football Works haben die Münchner die Gehaltsforderungen des österreichischen Nationalspielers in Höhe von zwölf bis 15 Millionen Euro pro Jahr abgelehnt. Der FCB soll einem möglichen Abgang des Rechtsverteidigers nach Vertragsende akzeptieren.\n\nLaimer hatte sich beim Rekordmeister vom Mittelfeldspieler zu einem der stärksten Außenverteidiger Europas entwickelt. Sein aktueller Vertrag an der Säbener Straße läuft bis 2027, sodass den Bayern noch ein Transferfenster bleibt, um eine Ablöse zu erzielen — andernfalls würde Laimer ablösefrei wechseln können.\n\nDer Bericht fällt in eine sportlich intensive Phase: Bayern-Trainer Vincent Kompany kann sich im Champions-League-Halbfinale-Rückspiel gegen Paris Saint-Germain kaum erlauben, auf einen Stammkraft wie Laimer zu verzichten. Eine Entscheidung über seine Zukunft dürfte erst nach dem Saisonende fallen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/196843/report-bayern-munich-reject-konrad-laimers-e12-15m-salary-demands-accept-potential-exit-on-a-free",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-01-neuer-vor-vertragsverlaengerung-entscheidung-bahnt",
-      "date": "2026-05-01",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-01-neuer-vor-vertragsverlaengerung-entscheidung-bahnt.jpg",
-      "thumbnailAlt": "Neuer vor Vertragsverlängerung: Entscheidung bahnt sich an",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuer vor Vertragsverlängerung: Entscheidung bahnt sich an",
-      "excerpt": "Der Vertrag von Manuel Neuer läuft zum Saisonende aus. Nun verdichten sich die Zeichen, dass der 40-Jährige beim FC Bayern verlängert.",
-      "body": "Der Vertrag von Manuel Neuer beim FC Bayern läuft am Ende dieser Saison aus. Lange herrschte Unklarheit darüber, wie es mit dem Torhüter weitergeht. Nun berichten sowohl der kicker als auch Sport1 übereinstimmend, dass sich eine Entscheidung anbahnt — und die Zeichen dabei auf Verlängerung stehen.\n\nEine endgültige Einigung ist laut beiden Medien noch nicht erzielt. Der kicker schreibt, die Anzeichen verdichteten sich, dass Neuer seinen Vertrag verlängern würde. Sport1 bestätigt, eine Entscheidung sei in greifbarer Nähe. Details zu Vertragslaufzeit oder finanziellen Konditionen nennen die Berichte nicht.\n\nFür den FC Bayern käme eine Verlängerung zur rechten Zeit: Im Champions-League-Halbfinale gegen Paris Saint-Germain zeigte Neuer beim 4:5 im Hinspiel eine solide Leistung. Ob er auch beim Rückspiel in der Allianz Arena zwischen den Pfosten steht, dürfte die Personaldiskussion rund um das Münchner Tor vorerst beenden.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mkqbiomnoy2j",
-      "sourceName": "kicker (Bluesky) und Sport1 (Bluesky)"
-    },
-    {
-      "slug": "2026-04-30-neuer-vor-vertragsverlaengerung-ein-weiteres-jahr",
-      "date": "2026-04-30",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-04-30-neuer-vor-vertragsverlaengerung-ein-weiteres-jahr.jpg",
-      "thumbnailAlt": "Neuer vor Vertragsverlängerung: Ein weiteres Jahr in München?",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuer vor Vertragsverlängerung: Ein weiteres Jahr in München?",
-      "excerpt": "Manuel Neuers Agent war offenbar auf dem Vereinsgelände an der Säbener Straße, um über eine mögliche Verlängerung zu verhandeln.",
-      "body": "Laut Bavarian Football Works steht Manuel Neuer kurz vor einer einjährigen Vertragsverlängerung beim FC Bayern. Der Agent des Torhüters soll demnach bereits auf dem Trainingsgelände an der Säbener Straße erschienen sein, um die Modalitäten eines neuen Einjahresvertrags zu besprechen. Als Quelle wird die Bild zitiert.\n\nDer Hintergrund: Mit Jonas Urbig haben die Münchner bereits einen designierten Nachfolger im Kader, der langfristig die Nummer eins werden soll. Eine kurzfristige Verlängerung mit Neuer würde dem Club dennoch Kontinuität im Tor sichern und dem Youngster mehr Zeit zur Entwicklung geben.\n\nNach dem 4:5 im Champions-League-Halbfinale gegen Paris Saint-Germain steht Neuer ohnehin im Blickpunkt: In der Partie kassierte er fünf Tore. Ob die laufenden Vertragsgespräche durch das Hinspiel beeinflusst werden, bleibt abzuwarten. Klar ist: Die Entscheidung über seine Zukunft dürfte zeitnah fallen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/196406/manuel-neuer-close-to-signing-one-year-extension-with-bayern-munich",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-04-30-gordons-berater-bei-bayern-offenbar-gespraeche-ueb",
-      "date": "2026-04-30",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-04-30-gordons-berater-bei-bayern-offenbar-gespraeche-ueb.jpg",
-      "thumbnailAlt": "Gordons Berater bei Bayern: Offenbar Gespräche über Wechsel",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Gordons Berater bei Bayern: Offenbar Gespräche über Wechsel",
-      "excerpt": "Der Agent von Newcastle-Star Anthony Gordon soll Bayern München vergangene Woche besucht haben. Das berichten Sport-Bild-Journalisten.",
-      "body": "Laut Bavarian Football Works haben die Sport-Bild-Journalisten Christian Falk und Julian Agardi berichtet, dass der Berater von Newcastle-United-Flügelstürmer Anthony Gordon vergangene Woche Deutschland besucht und dabei Gespräche mit dem FC Bayern München geführt haben soll. Das Treffen fand demnach in der Woche vor dem Champions-League-Halbfinale gegen Paris Saint-Germain statt.\n\nÜber den Inhalt der Gespräche ist bislang nichts bekannt. Newcastle United gilt als einer der ambitioniertesten Klubs Englands und dürfte im Falle eines Verkaufs eine hohe Ablösesumme fordern. Gordon zählt seit Jahren zu den auffälligsten Offensivspielern der Premier League.\n\nFür die Bayern wäre eine Verpflichtung Gordons eine weitere Verstärkung auf den Außenbahnen. Der Rekordmeister hat in diesem Bereich mit Michael Olise, Kingsley Coman und Luis Díaz bereits mehrere Optionen im Kader. Ob aus dem Berater-Besuch konkrete Verhandlungen werden, bleibt vorerst offen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/196014/agent-for-newcastle-uniteds-anthony-gordon-visited-bayern-munich-last-week",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-04-29-hakimi-faellt-fuer-rueckspiel-gegen-bayern-aus",
-      "date": "2026-04-29",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-04-29-hakimi-faellt-fuer-rueckspiel-gegen-bayern-aus.jpg",
-      "thumbnailAlt": "Hakimi fällt für Rückspiel gegen Bayern aus",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Hakimi fällt für Rückspiel gegen Bayern aus",
-      "excerpt": "PSG muss im Champions-League-Halbfinale-Rückspiel gegen den FC Bayern auf Achraf Hakimi verzichten. Das bestätigt Bavarian Football Works.",
-      "body": "Laut Bavarian Football Works ist Achraf Hakimi für das Rückspiel des Champions-League-Halbfinales zwischen dem FC Bayern und Paris Saint-Germain nicht einsatzfähig. Der marokkanische Rechtsverteidiger hatte sich im Hinspiel verletzt und wird der PSG-Mannschaft in München nicht zur Verfügung stehen.\n\nDas Hinspiel hatte mit 5:4 für PSG geendet — eines der torreichsten Duelle in der jüngeren Geschichte des europäischen Vereinsfußballs. Die Bayern kamen nach einem Rückstand von 5:2 noch auf 5:4 heran, verließen Paris aber dennoch als unterlegene Mannschaft. Der Ausfall Hakimis, einer der auffälligsten Spieler im Hinspiel, schwächt die rechte Seite der Pariser erheblich.\n\nFür den FC Bayern ist der Ausfall des PSG-Verteidigers eine günstige Nachricht vor dem Rückspiel in der Allianz Arena. Die Münchner benötigen mindestens ein Tor Unterschied, um die Verlängerung zu erzwingen, und werden wohl versuchen, die geschwächte rechte Abwehrseite der Franzosen gezielt zu bespielen. Das Rückspiel findet kommenden Mittwoch statt.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/champions-league/196098/injury-fears-confirmed-psgs-achraf-hakimi-set-to-miss-ucl-semis-second-leg-vs-bayern-munich",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-04-29-kompany-eilt-nach-abpfiff-in-die-kabine-lob-fuer-k",
-      "date": "2026-04-29",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-04-29-kompany-eilt-nach-abpfiff-in-die-kabine-lob-fuer-.jpg",
-      "thumbnailAlt": "Kompany eilt nach Abpfiff in die Kabine: Lob für kämpfende Bayern",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Kompany eilt nach Abpfiff in die Kabine: Lob für kämpfende Bayern",
-      "excerpt": "Nach dem 4:5 in Paris suchte Vincent Kompany sofort das Gespräch mit der Mannschaft – mit lobenden Worten für Charakter und Moral.",
-      "body": "Nach dem dramatischen 4:5 im Champions-League-Halbfinale bei Paris Saint-Germain hat Bayern-Trainer Vincent Kompany unmittelbar nach dem Abpfiff die Kabine aufgesucht, um seiner Mannschaft Anerkennung auszusprechen. Laut einem Bericht der Bild, den Bavarian Football Works aufgreift, lobte Kompany die Spieler ausdrücklich für den gezeigten Kampfgeist und die Moral, mit der der FCB ein 2:5-Rückstand auf 4:5 verkürzte.\n\nDie Münchner hatten das Hinspiel in Paris über weite Strecken ausgeglichen gestaltet, gerieten jedoch nach einem früh vergangenen Elfmeter in eine schwierige Lage. Trotz des Rückstandes kämpfte sich der Rekordmeister eindrucksvoll zurück und hielt das Ergebnis bis zuletzt offen. Das Rückspiel in der Allianz Arena steht damit unter dem Zeichen einer möglichen Aufholjagd.\n\nDie Reaktion Kompanys direkt nach Spielschluss unterstreicht, wie hoch er die Leistung seiner Mannschaft trotz des Ergebnisses einordnete. Für das Rückspiel benötigen die Bayern einen Sieg mit mindestens zwei Toren Vorsprung, um noch ins Finale einzuziehen – ein schwieriges, aber angesichts des gezeigten Auftritts nicht unmögliches Unterfangen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-champions-league/195945/after-final-whistle-vincent-kompany-rushed-to-locker-room-to-praise-bayern-munich-after-psg-loss",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-04-29-gordon-berater-zu-gast-bayern-prueft-newcastle-sta",
-      "date": "2026-04-29",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-04-29-gordon-berater-zu-gast-bayern-prueft-newcastle-st.jpg",
-      "thumbnailAlt": "Gordon-Berater zu Gast: Bayern prüft Newcastle-Star",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Gordon-Berater zu Gast: Bayern prüft Newcastle-Star",
-      "excerpt": "Der Berater von Newcastle-Profi Anthony Gordon soll vergangene Woche beim FC Bayern in München vorstellig geworden sein.",
-      "body": "Laut einem Bericht von Sport-Bild-Journalisten Christian Falk und Julian Agardi, festgehalten von iMiaSanMia, hat der Berater von Newcastle-United-Angreifer Anthony Gordon den FC Bayern vergangene Woche in München besucht. Ein offizielles Angebot wurde demnach noch nicht unterbreitet, der Kontakt besteht jedoch.\n\nBavarian Football Works zufolge ging diese Nachricht im Trubel der 4:5-Niederlage der Bayern bei Paris Saint-Germain unter. Der Besuch des Beraters gilt bislang laut der Quelle als informelles Treffen, belastbare Verhandlungen seien noch nicht im Gange.\n\nAngesichts des offenen Kaderplanungsprozesses für die Saison 2026/27 könnte Gordon als mögliche Verstärkung für den Angriff ins Blickfeld geraten sein. Konkrete Aussagen über ein ernsthaftes Interesse des Rekordmeisters lassen sich aus dem Bericht jedoch noch nicht ableiten.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/196014/agent-for-newcastle-uniteds-anthony-gordon-visited-bayern-munich-last-week",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-04-29-kompany-und-enrique-gespraech-zweier-trainer-auf-a",
-      "date": "2026-04-29",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-04-29-kompany-und-enrique-gespraech-zweier-trainer-auf-.jpg",
-      "thumbnailAlt": "Kompany und Enrique: Gespräch zweier Trainer auf Augenhöhe",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Kompany und Enrique: Gespräch zweier Trainer auf Augenhöhe",
-      "excerpt": "Nach dem 5:4 im Hinspiel gegen PSG wurde bekannt, dass Vincent Kompany und Luis Enrique ein persönliches Gespräch über das Trainerhandwerk geführt haben.",
-      "body": "Laut Bavarian Football Works sprachen FC-Bayern-Trainer Vincent Kompany und PSG-Coach Luis Enrique nach dem Halbfinal-Hinspiel der Champions League miteinander — und das Thema war das Coaching selbst. Kompany war während der Partie bereits auf der Tribüne gesperrt und beobachtete das Geschehen von dort, nachdem er im Viertelfinale eine Gelbe Karte erhalten hatte.\n\nDas Gespräch zwischen den beiden Trainern unterstreicht die gegenseitige Wertschätzung, die trotz der sportlichen Rivalität besteht. PSG-Trainer Luis Enrique hatte sich laut Bavarian Football Works zudem anerkennend über die Intensität der Münchner geäußert — ein Zeichen dafür, dass der FCB auch in der Niederlage einen bleibenden Eindruck hinterließ.\n\nDas Rückspiel im Halbfinale steht noch aus. Bayern müssen das 4:5-Hinspieldefizit aufholen, um ins Finale einzuziehen. Kompany wird dabei wieder an der Seitenlinie stehen — die Sperre war auf das Hinspiel begrenzt.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/champions-league/195630/bayern-munich-vincent-kompany-psg-paris-saint-germain-luis-enrique-kane-kimmich-neuer-musiala-dembele-kvaratskhelia-neves",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-04-29-pavlovi-nach-psg-niederlage-wir-schaffen-es-zu-hau",
-      "date": "2026-04-29",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-04-29-pavlovi-nach-psg-niederlage-wir-schaffen-es-zu-hau.jpg",
-      "thumbnailAlt": "Pavlović nach PSG-Niederlage: \"Wir schaffen es zu Hause\"",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Pavlović nach PSG-Niederlage: \"Wir schaffen es zu Hause\"",
-      "excerpt": "Nach dem 4:5 in Paris gibt sich Aleksandar Pavlović kämpferisch und blickt optimistisch auf das Rückspiel in der Allianz Arena.",
-      "body": "Der FC Bayern hat das Hinspiel des Champions-League-Halbfinals bei Paris Saint-Germain mit 4:5 verloren — ein Ergebnis, das den Münchnern vor dem Rückspiel kommenden Mittwoch einen Rückstand aufbürdet. Laut Bavarian Football Works zeigte sich Mittelfeldspieler Aleksandar Pavlović nach der Partie jedoch zuversichtlich: Der Rekordmeister werde es zu Hause richten.\n\nDas Hinspiel in Paris entwickelte sich laut Bavarian Football Works zu einer der turbulentesten Partien der jüngeren Champions-League-Geschichte. Bayern habe die Begegnung taktisch vorbereitet und früh gute Voraussetzungen gehabt, das Spielgeschehen zu kontrollieren — ließ den Sieg letztlich aber aus den Händen gleiten.\n\nFür das Rückspiel in der Allianz Arena benötigt der FCB mindestens einen Zwei-Tore-Vorsprung, um ohne Verlängerung weiterzukommen. Pavlovićs Aussage spiegelt die Stimmung im Kader wider: Die Münchner sehen das Weiterkommen noch als realistisch an. Ob Vincent Kompanys Mannschaft die nötige Konstanz über 90 Minuten abrufen kann, wird sich zeigen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/champions-league/195653/aleksandar-pavlovic-says-bayern-munich-will-make-it-happen-home-in-psg-return-leg",
-      "sourceName": "Bavarian Football Works"
     },
     {
       "slug": "2026-04-29-musiala-im-fokus-kompany-setzt-auf-seinen-zehner-g",
@@ -375,7 +151,7 @@
       "category": "tactics",
       "badge": "Vorschau",
       "badgeColor": "bv",
-      "thumbnail": "img/articles/2026-04-28-psg-bayern-cl-halbfinale.jpg",
+      "thumbnail": "img/football.jpg",
       "thumbnailAlt": "Stadion",
       "readtime": "11 Min. Lesezeit",
       "featured": true,
@@ -390,7 +166,7 @@
       "category": "transfer",
       "badge": "Gerüchteküche",
       "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-04-28-goretzka-milan-gordon.jpg",
+      "thumbnail": "img/transfer.jpg",
       "thumbnailAlt": "Transfer",
       "readtime": "8 Min.",
       "featured": false,
@@ -405,7 +181,7 @@
       "category": "reaction",
       "badge": "Reaktion",
       "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-04-26-mainz-comeback.jpg",
+      "thumbnail": "img/hero.jpg",
       "thumbnailAlt": "Fans",
       "readtime": "7 Min.",
       "featured": false,
@@ -420,7 +196,7 @@
       "category": "transfer",
       "badge": "Gerüchteküche",
       "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-04-05-kane-zukunft.jpg",
+      "thumbnail": "img/night.jpg",
       "thumbnailAlt": "Fußball",
       "readtime": "7 Min.",
       "featured": false,
@@ -435,7 +211,7 @@
       "category": "tactics",
       "badge": "Taktik-Analyse",
       "badgeColor": "bt",
-      "thumbnail": "img/articles/2026-04-04-kompany-maschine.jpg",
+      "thumbnail": "img/tactics.jpg",
       "thumbnailAlt": "Taktik",
       "readtime": "8 Min.",
       "featured": false,
@@ -450,7 +226,7 @@
       "category": "transfer",
       "badge": "Gerüchteküche",
       "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-04-03-torwart-chaos.jpg",
+      "thumbnail": "img/transfer.jpg",
       "thumbnailAlt": "Stadion Nacht",
       "readtime": "10 Min.",
       "featured": false,
@@ -461,11 +237,162 @@
     }
   ],
   "tiktokVideosAuto": false,
-  "currentLineup": null,
-  "opponentLineup": null,
-  "matchPostsTracker": {
-    "77536": {
-      "pre": true
-    }
+  "currentLineup": {
+    "active": true,
+    "teamName": "FC Bayern München",
+    "formation": "4-2-3-1",
+    "matchTime": "2026-05-02T15:30:00+02:00",
+    "matchDate": "2026-05-02T13:30:00+00:00",
+    "matchTitle": "Bayern vs 1. FC Heidenheim 1846",
+    "matchLabel": "Aufstellung · Startelf",
+    "publishedAt": "2026-05-02T14:11:07.775489+00:00",
+    "starters": [
+      {
+        "number": 40,
+        "position": "TW",
+        "name": "Jonas Urbig"
+      },
+      {
+        "number": 44,
+        "position": "RV",
+        "name": "Josip Stanišić"
+      },
+      {
+        "number": 4,
+        "position": "IV",
+        "name": "Jonathan Tah"
+      },
+      {
+        "number": 3,
+        "position": "IV",
+        "name": "Min-Jae Kim"
+      },
+      {
+        "number": 21,
+        "position": "LV",
+        "name": "Hiroki Itō"
+      },
+      {
+        "number": 27,
+        "position": "ZDM",
+        "name": "Konrad Laimer"
+      },
+      {
+        "number": 8,
+        "position": "ZDM",
+        "name": "Leon Goretzka"
+      },
+      {
+        "number": 45,
+        "position": "LM",
+        "name": "Aleksandar Pavlović"
+      },
+      {
+        "number": 39,
+        "position": "ZM",
+        "name": "Cassiano Ndiaye"
+      },
+      {
+        "number": 10,
+        "position": "RM",
+        "name": "Jamal Musiala"
+      },
+      {
+        "number": 11,
+        "position": "ST",
+        "name": "Nicolas Jackson"
+      }
+    ],
+    "bench": [
+      "Manuel Neuer",
+      "Harry Kane",
+      "Alphonso Davies",
+      "Michael Olise",
+      "Dayot Upamecano",
+      "Joshua Kimmich",
+      "Adam Pavic",
+      "Luis Díaz",
+      "Tom Bischof"
+    ],
+    "coach": "Vincent Kompany",
+    "sourceName": "fcbayern.com (Opta Sports)",
+    "sourceUrl": "https://fcbayern.com/de/spiele/profis/bundesliga/2025-2026/fc-bayern-muenchen-1-fc-heidenheim-1846-02-05-2026/aufstellung",
+    "notes": "Bundesliga · 32. Spieltag · Allianz Arena · 15:30 Uhr"
+  },
+  "opponentLineup": {
+    "teamName": "1. FC Heidenheim 1846",
+    "shortName": "1. FC Heidenheim",
+    "formation": "3-4-3",
+    "starters": [
+      {
+        "number": 41,
+        "position": "TW",
+        "name": "Ramaj"
+      },
+      {
+        "number": 19,
+        "position": "LIV",
+        "name": "Föhrenbach"
+      },
+      {
+        "number": 6,
+        "position": "IV",
+        "name": "Mainka"
+      },
+      {
+        "number": 3,
+        "position": "RIV",
+        "name": "Schöppner"
+      },
+      {
+        "number": 30,
+        "position": "LM",
+        "name": "Dorsch"
+      },
+      {
+        "number": 2,
+        "position": "ZM",
+        "name": "Busch"
+      },
+      {
+        "number": 8,
+        "position": "ZM",
+        "name": "Dinkçi"
+      },
+      {
+        "number": 26,
+        "position": "RM",
+        "name": "Behrens"
+      },
+      {
+        "number": 11,
+        "position": "LS",
+        "name": "Zivzivadze"
+      },
+      {
+        "number": 18,
+        "position": "ST",
+        "name": "Pieringer"
+      },
+      {
+        "number": 22,
+        "position": "RS",
+        "name": "Ibrahimović"
+      }
+    ],
+    "bench": [
+      "Feller",
+      "Niehues",
+      "Siersleben",
+      "Stergiou",
+      "Kaufmann",
+      "Traoré",
+      "Kerber",
+      "Schimmer",
+      "Beck"
+    ],
+    "coach": "Frank Schmidt",
+    "sourceName": "fcbayern.com (Opta Sports)",
+    "sourceUrl": "https://fcbayern.com/de/spiele/profis/bundesliga/2025-2026/fc-bayern-muenchen-1-fc-heidenheim-1846-02-05-2026/aufstellung"
   }
 }
