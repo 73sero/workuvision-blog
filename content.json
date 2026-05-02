@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-02T10:43:42+00:00",
+  "lastUpdated": "2026-05-02T11:38:37+00:00",
   "tiktokStats": {
     "followers": 1350,
     "likes": "27K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Heim gegen Heidenheim heute — alle Augen auf den FCB",
+    "Davies bleibt: Kein Abgang trotz Verkaufsgerüchten",
     "Krüger-Abgang: Bayern bestätigt HSV-Verhandlungen",
     "Laimer-Zukunft ungewiss: Bayern lehnen Gehaltsforderungen ab",
     "Neuer vor Vertragsverlängerung: Entscheidung bahnt sich an",
     "Neuer vor Vertragsverlängerung: Ein weiteres Jahr in München?",
-    "Gordons Berater bei Bayern: Offenbar Gespräche über Wechsel",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-02-davies-bleibt-kein-abgang-trotz-verkaufsgeruechten",
+      "date": "2026-05-02",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-02-davies-bleibt-kein-abgang-trotz-verkaufsgeruechten.jpg",
+      "thumbnailAlt": "Davies bleibt: Kein Abgang trotz Verkaufsgerüchten",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Davies bleibt: Kein Abgang trotz Verkaufsgerüchten",
+      "excerpt": "Alphonso Davies hat laut kicker keine Wechselabsichten. Auch der Klub signalisiert, den Kanadier nicht aktiv anbieten zu wollen.",
+      "body": "Rund um Alphonso Davies kursierten in den vergangenen Wochen Berichte, der FC Bayern könnte den kanadischen Linksverteidiger im Sommer verkaufen. Laut dem kicker gehen der Klub und der Spieler selbst jedoch mit guten Nachrichten ins Wochenende: Sorgen um einen Davies-Abgang seien nicht angebracht.\n\nDie Münchner sollen zwar einem außergewöhnlich hohen Angebot nicht grundsätzlich ablehnend gegenüberstehen, Davies selbst habe aber keinerlei Absicht, die Allianz Arena zu verlassen. Der Kanadier ist damit offenbar fest in die Planungen für die kommende Saison eingebunden.\n\nDie Meldung kommt zu einem günstigen Zeitpunkt: Der FC Bayern steht vor dem entscheidenden Champions-League-Halbfinale und braucht jeden verfügbaren Leistungsträger. Dass die Personalsituation auf der linken Abwehrseite geklärt scheint, dürfte Trainer Vincent Kompany bei seiner Kaderplanung zusätzliche Sicherheit geben.",
+      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mkrqt7jbfa2h",
+      "sourceName": "kicker (Bluesky)"
+    },
     {
       "slug": "2026-05-02-krueger-abgang-bayern-bestaetigt-hsv-verhandlungen",
       "date": "2026-05-02",
