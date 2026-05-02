@@ -1,22 +1,52 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-02T16:07:38+00:00",
+  "lastUpdated": "2026-05-02T16:37:03+00:00",
   "tiktokStats": {
     "followers": 1350,
     "likes": "27K",
     "videos": 54
   },
   "ticker": [
+    "Laimer-Zukunft offen: Eberl gibt sich gelassen",
+    "FC Bayern 3:3 gegen Heidenheim — Spätes Remis nach Rückstand",
     "Olise-Glückstor in der 100. Minute rettet Bayern gegen Heidenheim",
     "Vorbericht: Bayern empfängt Heidenheim zum Bundesliga-Samstag",
     "Musiala im Fokus: Kompany setzt auf seinen Zehner gegen PSG",
-    "Pavlović zuversichtlich: Bayern dreht das Spiel gegen PSG",
-    "4:5 in Paris: Bayern trotzt Rückstand und hält Halbfinale offen",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-02-laimer-zukunft-offen-eberl-gibt-sich-gelassen",
+      "date": "2026-05-02",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-02-laimer-zukunft-offen-eberl-gibt-sich-gelassen.jpg",
+      "thumbnailAlt": "Laimer-Zukunft offen: Eberl gibt sich gelassen",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Laimer-Zukunft offen: Eberl gibt sich gelassen",
+      "excerpt": "Konrad Laimers Vertrag läuft aus, eine Einigung steht noch aus. Bayern-Sportvorstand Max Eberl sieht die Situation entspannt.",
+      "body": "Rund um Konrad Laimer verdichten sich die Fragen nach der Zukunft des Mittelfeldmanns. Sein Vertrag beim FC Bayern läuft aus, und laut Bavarian Football Works gibt es bislang keine Einigung über eine Verlängerung. Sportvorstand Max Eberl äußerte sich nach dem 3:3 gegen Heidenheim zum Stand der Gespräche.\n\nEberl erklärte demnach: Es gebe Diskussionen und Ideen, man sei aber noch nicht auf einer Linie. Von Streit oder schlechter Stimmung zwischen Klub und Spieler könne jedoch keine Rede sein. Der Sportvorstand zeigte sich gelassen und deutete an, die Situation nicht als akute Krise zu bewerten.\n\nLaimer gehört in der Saison 2025/26 zu den flexibel einsetzbaren Spielern im Kader von Trainer Vincent Kompany. Ein ablösefreier Abgang wäre sportlich und finanziell dennoch ein nennenswerter Verlust für den Rekordmeister — zumal die Kaderplanung für die kommende Saison zunehmend Konturen annimmt.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-bundesliga/197291/max-eberl-not-worried-about-losing-bayern-munichs-konrad-laimer-on-free-transfer",
+      "sourceName": "Bavarian Football Works"
+    },
+    {
+      "slug": "2026-05-02-spielbericht-bayern-heidenheim",
+      "date": "2026-05-02",
+      "category": "reaction",
+      "badge": "Spielbericht",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-02-spielbericht-bayern-heidenheim.jpg",
+      "thumbnailAlt": "FC Bayern 3:3 gegen Heidenheim — Spätes Remis nach Rückstand",
+      "readtime": "4 Min.",
+      "featured": true,
+      "title": "FC Bayern 3:3 gegen Heidenheim — Spätes Remis nach Rückstand",
+      "excerpt": "Der FC Bayern kommt gegen den abstiegsbedrohten 1. FC Heidenheim nicht über ein 3:3 hinaus und rettete sich erst in der Nachspielzeit.",
+      "body": "Der FC Bayern München hat am 32. Spieltag der Bundesliga einen deutlichen Rückstand aufgeholt, den Sieg aber nicht mehr erzwungen. Die Münchner lagen zur Halbzeit mit 0:2 zurück, glichen nach der Pause zunächst aus, kassierten dann erneut das Führungstor des Gegners und sicherten sich den Ausgleich zum 3:3 erst in der Nachspielzeit. Vincent Kompany hatte die Partie mit einer Reihe von Rotationen angegangen, was dem Spielrhythmus der Gastgeber sichtlich abträglich war.\n\nHeidenheim traf zweimal in der ersten Halbzeit und ging mit einer verdienten Führung in die Pause. Bayern kämpfte sich nach dem Seitenwechsel zurück — zunächst der Anschlusstreffer in der 44. Minute, der Ausgleich in der 57. Minute, ehe Heidenheim in der 76. Minute erneut in Führung ging. Erst tief in der Nachspielzeit fiel das 3:3. Wer die Treffer erzielte, geht aus den vorliegenden Daten nicht hervor.\n\nFür den bereits feststehenden deutschen Meister hat das Remis sportlich wenig Gewicht, zumal die Aufmerksamkeit auf das Champions-League-Halbfinale gerichtet ist. Für Heidenheim hingegen ist der Punkt im Abstiegskampf bedeutsam: Ein Sieg in München hätte den Klassenerhalt womöglich noch verlängert — ein Punkt reicht den Gastgebern an diesem Spieltag möglicherweise nicht, um den Abstieg abzuwenden."
+    },
     {
       "slug": "2026-05-02-olise-glueckstor-in-der-100-minute-rettet-bayern-g",
       "date": "2026-05-02",
@@ -384,7 +414,7 @@
       "category": "tactics",
       "badge": "Taktik-Analyse",
       "badgeColor": "bt",
-      "thumbnail": "img/tactics.jpg",
+      "thumbnail": "img/articles/2026-04-04-kompany-maschine.jpg",
       "thumbnailAlt": "Taktik",
       "readtime": "8 Min.",
       "featured": false,
@@ -410,165 +440,11 @@
     }
   ],
   "tiktokVideosAuto": false,
-  "currentLineup": {
-    "active": true,
-    "teamName": "FC Bayern München",
-    "formation": "4-3-1-2",
-    "matchTime": "2026-05-02T15:30:00+02:00",
-    "matchDate": "2026-05-02T13:30:00+00:00",
-    "matchTitle": "Bayern vs 1. FC Heidenheim 1846",
-    "matchLabel": "Aufstellung · Startelf",
-    "publishedAt": "2026-05-02T16:12:20.524229+00:00",
-    "starters": [
-      {
-        "number": 40,
-        "position": "TW",
-        "name": "Jonas Urbig"
-      },
-      {
-        "number": 44,
-        "position": "RV",
-        "name": "Josip Stanišić"
-      },
-      {
-        "number": 4,
-        "position": "IV",
-        "name": "Jonathan Tah"
-      },
-      {
-        "number": 3,
-        "position": "IV",
-        "name": "Min-Jae Kim"
-      },
-      {
-        "number": 21,
-        "position": "LV",
-        "name": "Hiroki Itō"
-      },
-      {
-        "number": 27,
-        "position": "RM",
-        "name": "Konrad Laimer"
-      },
-      {
-        "number": 8,
-        "position": "ZM",
-        "name": "Leon Goretzka"
-      },
-      {
-        "number": 45,
-        "position": "LM",
-        "name": "Aleksandar Pavlović"
-      },
-      {
-        "number": 39,
-        "position": "OM",
-        "name": "Cassiano Ndiaye"
-      },
-      {
-        "number": 10,
-        "position": "RS",
-        "name": "Jamal Musiala"
-      },
-      {
-        "number": 11,
-        "position": "LS",
-        "name": "Nicolas Jackson"
-      }
-    ],
-    "bench": [
-      "Manuel Neuer",
-      "Harry Kane",
-      "Alphonso Davies",
-      "Michael Olise",
-      "Dayot Upamecano",
-      "Joshua Kimmich",
-      "Adam Pavic",
-      "Luis Díaz",
-      "Tom Bischof"
-    ],
-    "coach": "Vincent Kompany",
-    "sourceName": "fcbayern.com (Opta Sports)",
-    "sourceUrl": "https://fcbayern.com/de/spiele/profis/bundesliga/2025-2026/fc-bayern-muenchen-1-fc-heidenheim-1846-02-05-2026/aufstellung",
-    "notes": "Bundesliga · 32. Spieltag · Allianz Arena · 15:30 Uhr"
-  },
-  "opponentLineup": {
-    "teamName": "1. FC Heidenheim 1846",
-    "shortName": "1. FC Heidenheim",
-    "formation": "3-4-3",
-    "starters": [
-      {
-        "number": 41,
-        "position": "TW",
-        "name": "Ramaj"
-      },
-      {
-        "number": 19,
-        "position": "LIV",
-        "name": "Föhrenbach"
-      },
-      {
-        "number": 6,
-        "position": "IV",
-        "name": "Mainka"
-      },
-      {
-        "number": 3,
-        "position": "RIV",
-        "name": "Schöppner"
-      },
-      {
-        "number": 30,
-        "position": "LM",
-        "name": "Dorsch"
-      },
-      {
-        "number": 2,
-        "position": "ZM",
-        "name": "Busch"
-      },
-      {
-        "number": 8,
-        "position": "ZM",
-        "name": "Dinkçi"
-      },
-      {
-        "number": 26,
-        "position": "RM",
-        "name": "Behrens"
-      },
-      {
-        "number": 11,
-        "position": "LS",
-        "name": "Zivzivadze"
-      },
-      {
-        "number": 18,
-        "position": "ST",
-        "name": "Pieringer"
-      },
-      {
-        "number": 22,
-        "position": "RS",
-        "name": "Ibrahimović"
-      }
-    ],
-    "bench": [
-      "Feller",
-      "Niehues",
-      "Siersleben",
-      "Stergiou",
-      "Kaufmann",
-      "Traoré",
-      "Kerber",
-      "Schimmer",
-      "Beck"
-    ],
-    "coach": "Frank Schmidt",
-    "sourceName": "fcbayern.com (Opta Sports)",
-    "sourceUrl": "https://fcbayern.com/de/spiele/profis/bundesliga/2025-2026/fc-bayern-muenchen-1-fc-heidenheim-1846-02-05-2026/aufstellung"
-  },
+  "currentLineup": null,
+  "opponentLineup": null,
   "matchPostsTracker": {
-    "77536": {}
+    "77536": {
+      "post": true
+    }
   }
 }
