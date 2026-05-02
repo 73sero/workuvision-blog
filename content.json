@@ -1,23 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-04-29T00:18:50+00:00",
+  "lastUpdated": "2026-05-02T16:07:38+00:00",
   "tiktokStats": {
-    "followers": 1354,
+    "followers": 1350,
     "likes": "27K",
-    "videos": 52
+    "videos": 54
   },
   "ticker": [
-    "Heim gegen Heidenheim in 3 Tagen — alle Augen auf den FCB",
+    "Olise-Glückstor in der 100. Minute rettet Bayern gegen Heidenheim",
+    "Vorbericht: Bayern empfängt Heidenheim zum Bundesliga-Samstag",
     "Musiala im Fokus: Kompany setzt auf seinen Zehner gegen PSG",
     "Pavlović zuversichtlich: Bayern dreht das Spiel gegen PSG",
     "4:5 in Paris: Bayern trotzt Rückstand und hält Halbfinale offen",
-    "Kompany gesperrt: Bayern-Coach analysiert PSG vom Tribünenplatz",
-    "Eberl bestätigt: Olise bleibt beim FC Bayern",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-02-olise-glueckstor-in-der-100-minute-rettet-bayern-g",
+      "date": "2026-05-02",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-02-olise-glueckstor-in-der-100-minute-rettet-bayern-g.jpg",
+      "thumbnailAlt": "Olise-Glückstor in der 100. Minute rettet Bayern gegen Heidenheim",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Olise-Glückstor in der 100. Minute rettet Bayern gegen Heidenheim",
+      "excerpt": "Der FC Bayern kommt gegen Schlusslicht Heidenheim nicht über ein 3:3 hinaus. Erst ein Abpraller in der Nachspielzeit verhindert die Niederlage.",
+      "body": "Der FC Bayern hat am Samstag in der Bundesliga gegen den 1. FC Heidenheim nur ein 3:3 erreicht. Wie Sport1 und der kicker berichten, verschliefen die Münchner den Start und gerieten in Rückstand. Der Rekordmeister, der vor dem Champions-League-Rückspiel gegen Paris Saint-Germain rotierte, fand lange keine Antwort auf den kämpferisch starken Tabellenletzten.\n\nDas Tor des Tages fiel unter kuriosen Umständen: Michael Olise traf in der 100. Minute mit einem Distanzschuss zunächst nur den Pfosten, von wo der Ball an den Rücken von Heidenheim-Keeper Diant Ramaj prallte und von dort ins Tor rollte. Laut Tagesschau Sport benötigten die Bayern damit eine Menge Glück, um eine Niederlage abzuwenden.\n\nZuvor hatte Leon Goretzka mit einem Doppelpack, darunter einem Freistoßtor, maßgeblich dazu beigetragen, den Rückstand aufzuholen — laut kicker war es erneut eine Aufholjagd, die den Bayern abverlangt wurde. Der Punktgewinn kurz vor dem Halbfinal-Rückspiel gegen PSG dürfte die Münchner trotz des schwachen Auftritts mit einem gewissen Selbstvertrauen in die kommende Woche gehen lassen.",
+      "sourceUrl": "https://www.sportschau.de/fussball/bundesliga/9010-olise-macht-naechstes-bayern-comeback-perfekt,spielbericht-bayern-muenchen-heidenheim-100.html",
+      "sourceName": "Tagesschau Sport"
+    },
     {
       "slug": "2026-05-02-vorbericht-bayern-heidenheim",
       "date": "2026-05-02",
@@ -151,7 +166,7 @@
       "category": "tactics",
       "badge": "Vorschau",
       "badgeColor": "bv",
-      "thumbnail": "img/football.jpg",
+      "thumbnail": "img/articles/2026-04-28-psg-bayern-cl-halbfinale.jpg",
       "thumbnailAlt": "Stadion",
       "readtime": "11 Min. Lesezeit",
       "featured": true,
@@ -166,7 +181,7 @@
       "category": "transfer",
       "badge": "Gerüchteküche",
       "badgeColor": "bx",
-      "thumbnail": "img/transfer.jpg",
+      "thumbnail": "img/articles/2026-04-28-goretzka-milan-gordon.jpg",
       "thumbnailAlt": "Transfer",
       "readtime": "8 Min.",
       "featured": false,
@@ -181,7 +196,7 @@
       "category": "reaction",
       "badge": "Reaktion",
       "badgeColor": "brc",
-      "thumbnail": "img/hero.jpg",
+      "thumbnail": "img/articles/2026-04-26-mainz-comeback.jpg",
       "thumbnailAlt": "Fans",
       "readtime": "7 Min.",
       "featured": false,
@@ -196,7 +211,7 @@
       "category": "transfer",
       "badge": "Gerüchteküche",
       "badgeColor": "bx",
-      "thumbnail": "img/night.jpg",
+      "thumbnail": "img/articles/2026-04-05-kane-zukunft.jpg",
       "thumbnailAlt": "Fußball",
       "readtime": "7 Min.",
       "featured": false,
@@ -237,162 +252,9 @@
     }
   ],
   "tiktokVideosAuto": false,
-  "currentLineup": {
-    "active": true,
-    "teamName": "FC Bayern München",
-    "formation": "4-2-3-1",
-    "matchTime": "2026-05-02T15:30:00+02:00",
-    "matchDate": "2026-05-02T13:30:00+00:00",
-    "matchTitle": "Bayern vs 1. FC Heidenheim 1846",
-    "matchLabel": "Aufstellung · Startelf",
-    "publishedAt": "2026-05-02T14:11:07.775489+00:00",
-    "starters": [
-      {
-        "number": 40,
-        "position": "TW",
-        "name": "Jonas Urbig"
-      },
-      {
-        "number": 44,
-        "position": "RV",
-        "name": "Josip Stanišić"
-      },
-      {
-        "number": 4,
-        "position": "IV",
-        "name": "Jonathan Tah"
-      },
-      {
-        "number": 3,
-        "position": "IV",
-        "name": "Min-Jae Kim"
-      },
-      {
-        "number": 21,
-        "position": "LV",
-        "name": "Hiroki Itō"
-      },
-      {
-        "number": 27,
-        "position": "ZDM",
-        "name": "Konrad Laimer"
-      },
-      {
-        "number": 8,
-        "position": "ZDM",
-        "name": "Leon Goretzka"
-      },
-      {
-        "number": 45,
-        "position": "LM",
-        "name": "Aleksandar Pavlović"
-      },
-      {
-        "number": 39,
-        "position": "ZM",
-        "name": "Cassiano Ndiaye"
-      },
-      {
-        "number": 10,
-        "position": "RM",
-        "name": "Jamal Musiala"
-      },
-      {
-        "number": 11,
-        "position": "ST",
-        "name": "Nicolas Jackson"
-      }
-    ],
-    "bench": [
-      "Manuel Neuer",
-      "Harry Kane",
-      "Alphonso Davies",
-      "Michael Olise",
-      "Dayot Upamecano",
-      "Joshua Kimmich",
-      "Adam Pavic",
-      "Luis Díaz",
-      "Tom Bischof"
-    ],
-    "coach": "Vincent Kompany",
-    "sourceName": "fcbayern.com (Opta Sports)",
-    "sourceUrl": "https://fcbayern.com/de/spiele/profis/bundesliga/2025-2026/fc-bayern-muenchen-1-fc-heidenheim-1846-02-05-2026/aufstellung",
-    "notes": "Bundesliga · 32. Spieltag · Allianz Arena · 15:30 Uhr"
-  },
-  "opponentLineup": {
-    "teamName": "1. FC Heidenheim 1846",
-    "shortName": "1. FC Heidenheim",
-    "formation": "3-4-3",
-    "starters": [
-      {
-        "number": 41,
-        "position": "TW",
-        "name": "Ramaj"
-      },
-      {
-        "number": 19,
-        "position": "LIV",
-        "name": "Föhrenbach"
-      },
-      {
-        "number": 6,
-        "position": "IV",
-        "name": "Mainka"
-      },
-      {
-        "number": 3,
-        "position": "RIV",
-        "name": "Schöppner"
-      },
-      {
-        "number": 30,
-        "position": "LM",
-        "name": "Dorsch"
-      },
-      {
-        "number": 2,
-        "position": "ZM",
-        "name": "Busch"
-      },
-      {
-        "number": 8,
-        "position": "ZM",
-        "name": "Dinkçi"
-      },
-      {
-        "number": 26,
-        "position": "RM",
-        "name": "Behrens"
-      },
-      {
-        "number": 11,
-        "position": "LS",
-        "name": "Zivzivadze"
-      },
-      {
-        "number": 18,
-        "position": "ST",
-        "name": "Pieringer"
-      },
-      {
-        "number": 22,
-        "position": "RS",
-        "name": "Ibrahimović"
-      }
-    ],
-    "bench": [
-      "Feller",
-      "Niehues",
-      "Siersleben",
-      "Stergiou",
-      "Kaufmann",
-      "Traoré",
-      "Kerber",
-      "Schimmer",
-      "Beck"
-    ],
-    "coach": "Frank Schmidt",
-    "sourceName": "fcbayern.com (Opta Sports)",
-    "sourceUrl": "https://fcbayern.com/de/spiele/profis/bundesliga/2025-2026/fc-bayern-muenchen-1-fc-heidenheim-1846-02-05-2026/aufstellung"
+  "currentLineup": null,
+  "opponentLineup": null,
+  "matchPostsTracker": {
+    "77536": {}
   }
 }
