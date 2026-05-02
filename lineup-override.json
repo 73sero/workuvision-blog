@@ -1,12 +1,12 @@
 {
   "active": true,
   "teamName": "FC Bayern München",
-  "formation": "4-2-3-1",
+  "formation": "4-3-1-2",
   "matchTime": "2026-05-02T15:30:00+02:00",
   "matchDate": "2026-05-02T13:30:00+00:00",
   "matchTitle": "Bayern vs 1. FC Heidenheim 1846",
   "matchLabel": "Aufstellung · Startelf",
-  "publishedAt": "2026-05-02T14:11:07.775489+00:00",
+  "publishedAt": "2026-05-02T16:12:20.524229+00:00",
   "starters": [
     {
       "number": 40,
@@ -35,12 +35,12 @@
     },
     {
       "number": 27,
-      "position": "ZDM",
+      "position": "RM",
       "name": "Konrad Laimer"
     },
     {
       "number": 8,
-      "position": "ZDM",
+      "position": "ZM",
       "name": "Leon Goretzka"
     },
     {
@@ -50,17 +50,17 @@
     },
     {
       "number": 39,
-      "position": "ZM",
+      "position": "OM",
       "name": "Cassiano Ndiaye"
     },
     {
       "number": 10,
-      "position": "RM",
+      "position": "RS",
       "name": "Jamal Musiala"
     },
     {
       "number": 11,
-      "position": "ST",
+      "position": "LS",
       "name": "Nicolas Jackson"
     }
   ],

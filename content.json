@@ -46,7 +46,165 @@
       "title": "Vorbericht: Bayern empfängt Heidenheim zum Bundesliga-Samstag",
       "excerpt": "Der FC Bayern trifft am Samstag (17:30 Uhr) in der Allianz Arena auf den FC Heidenheim. Für den Rekordmeister geht es um weitere Punkte im Saisonendspurt.",
       "body": "Am Samstag, den 2. Mai 2026, empfängt der FC Bayern München um 17:30 Uhr den 1. FC Heidenheim in der Allianz Arena. Für die Münchner steht die Partie mitten in einer entscheidenden Saisonphase – Bundesliga-Alltag, der mit Blick auf den weiteren Verlauf des Frühjahrs kaum an Gewicht verliert.\n\nDie Aufstellung steht noch aus. Vincent Kompany wird seine Auswahl voraussichtlich auf Basis der jüngsten Belastungssteuerung zusammenstellen – zumal mit dem laufenden Champions-League-Halbfinale ein weiterer kräftezehrender Wettbewerb im Hintergrund steht.\n\nHeidenheim präsentiert sich in dieser Saison als kompakte, defensiv organisierte Einheit, die auf schnelle Umschaltsituationen setzt. Die Münchner werden daher auf eine kontrollierte Spielanlage angewiesen sein, um Räume zu öffnen und die gegnerische Formation frühzeitig unter Druck zu setzen.",
-      "showLineup": true
+      "showLineup": true,
+      "embeddedLineup": {
+        "active": true,
+        "teamName": "FC Bayern München",
+        "formation": "4-3-1-2",
+        "matchTime": "2026-05-02T15:30:00+02:00",
+        "matchDate": "2026-05-02T13:30:00+00:00",
+        "matchTitle": "Bayern vs 1. FC Heidenheim 1846",
+        "matchLabel": "Aufstellung · Startelf",
+        "publishedAt": "2026-05-02T16:12:20.524229+00:00",
+        "starters": [
+          {
+            "number": 40,
+            "position": "TW",
+            "name": "Jonas Urbig"
+          },
+          {
+            "number": 44,
+            "position": "RV",
+            "name": "Josip Stanišić"
+          },
+          {
+            "number": 4,
+            "position": "IV",
+            "name": "Jonathan Tah"
+          },
+          {
+            "number": 3,
+            "position": "IV",
+            "name": "Min-Jae Kim"
+          },
+          {
+            "number": 21,
+            "position": "LV",
+            "name": "Hiroki Itō"
+          },
+          {
+            "number": 27,
+            "position": "RM",
+            "name": "Konrad Laimer"
+          },
+          {
+            "number": 8,
+            "position": "ZM",
+            "name": "Leon Goretzka"
+          },
+          {
+            "number": 45,
+            "position": "LM",
+            "name": "Aleksandar Pavlović"
+          },
+          {
+            "number": 39,
+            "position": "OM",
+            "name": "Cassiano Ndiaye"
+          },
+          {
+            "number": 10,
+            "position": "RS",
+            "name": "Jamal Musiala"
+          },
+          {
+            "number": 11,
+            "position": "LS",
+            "name": "Nicolas Jackson"
+          }
+        ],
+        "bench": [
+          "Manuel Neuer",
+          "Harry Kane",
+          "Alphonso Davies",
+          "Michael Olise",
+          "Dayot Upamecano",
+          "Joshua Kimmich",
+          "Adam Pavic",
+          "Luis Díaz",
+          "Tom Bischof"
+        ],
+        "coach": "Vincent Kompany",
+        "sourceName": "fcbayern.com (Opta Sports)",
+        "sourceUrl": "https://fcbayern.com/de/spiele/profis/bundesliga/2025-2026/fc-bayern-muenchen-1-fc-heidenheim-1846-02-05-2026/aufstellung",
+        "notes": "Bundesliga · 32. Spieltag · Allianz Arena · 15:30 Uhr"
+      },
+      "embeddedOpponentLineup": {
+        "teamName": "1. FC Heidenheim 1846",
+        "shortName": "1. FC Heidenheim",
+        "formation": "3-4-3",
+        "starters": [
+          {
+            "number": 41,
+            "position": "TW",
+            "name": "Ramaj"
+          },
+          {
+            "number": 19,
+            "position": "LIV",
+            "name": "Föhrenbach"
+          },
+          {
+            "number": 6,
+            "position": "IV",
+            "name": "Mainka"
+          },
+          {
+            "number": 3,
+            "position": "RIV",
+            "name": "Schöppner"
+          },
+          {
+            "number": 30,
+            "position": "LM",
+            "name": "Dorsch"
+          },
+          {
+            "number": 2,
+            "position": "ZM",
+            "name": "Busch"
+          },
+          {
+            "number": 8,
+            "position": "ZM",
+            "name": "Dinkçi"
+          },
+          {
+            "number": 26,
+            "position": "RM",
+            "name": "Behrens"
+          },
+          {
+            "number": 11,
+            "position": "LS",
+            "name": "Zivzivadze"
+          },
+          {
+            "number": 18,
+            "position": "ST",
+            "name": "Pieringer"
+          },
+          {
+            "number": 22,
+            "position": "RS",
+            "name": "Ibrahimović"
+          }
+        ],
+        "bench": [
+          "Feller",
+          "Niehues",
+          "Siersleben",
+          "Stergiou",
+          "Kaufmann",
+          "Traoré",
+          "Kerber",
+          "Schimmer",
+          "Beck"
+        ],
+        "coach": "Frank Schmidt",
+        "sourceName": "fcbayern.com (Opta Sports)",
+        "sourceUrl": "https://fcbayern.com/de/spiele/profis/bundesliga/2025-2026/fc-bayern-muenchen-1-fc-heidenheim-1846-02-05-2026/aufstellung"
+      }
     },
     {
       "slug": "2026-04-29-musiala-im-fokus-kompany-setzt-auf-seinen-zehner-g",
@@ -252,8 +410,164 @@
     }
   ],
   "tiktokVideosAuto": false,
-  "currentLineup": null,
-  "opponentLineup": null,
+  "currentLineup": {
+    "active": true,
+    "teamName": "FC Bayern München",
+    "formation": "4-3-1-2",
+    "matchTime": "2026-05-02T15:30:00+02:00",
+    "matchDate": "2026-05-02T13:30:00+00:00",
+    "matchTitle": "Bayern vs 1. FC Heidenheim 1846",
+    "matchLabel": "Aufstellung · Startelf",
+    "publishedAt": "2026-05-02T16:12:20.524229+00:00",
+    "starters": [
+      {
+        "number": 40,
+        "position": "TW",
+        "name": "Jonas Urbig"
+      },
+      {
+        "number": 44,
+        "position": "RV",
+        "name": "Josip Stanišić"
+      },
+      {
+        "number": 4,
+        "position": "IV",
+        "name": "Jonathan Tah"
+      },
+      {
+        "number": 3,
+        "position": "IV",
+        "name": "Min-Jae Kim"
+      },
+      {
+        "number": 21,
+        "position": "LV",
+        "name": "Hiroki Itō"
+      },
+      {
+        "number": 27,
+        "position": "RM",
+        "name": "Konrad Laimer"
+      },
+      {
+        "number": 8,
+        "position": "ZM",
+        "name": "Leon Goretzka"
+      },
+      {
+        "number": 45,
+        "position": "LM",
+        "name": "Aleksandar Pavlović"
+      },
+      {
+        "number": 39,
+        "position": "OM",
+        "name": "Cassiano Ndiaye"
+      },
+      {
+        "number": 10,
+        "position": "RS",
+        "name": "Jamal Musiala"
+      },
+      {
+        "number": 11,
+        "position": "LS",
+        "name": "Nicolas Jackson"
+      }
+    ],
+    "bench": [
+      "Manuel Neuer",
+      "Harry Kane",
+      "Alphonso Davies",
+      "Michael Olise",
+      "Dayot Upamecano",
+      "Joshua Kimmich",
+      "Adam Pavic",
+      "Luis Díaz",
+      "Tom Bischof"
+    ],
+    "coach": "Vincent Kompany",
+    "sourceName": "fcbayern.com (Opta Sports)",
+    "sourceUrl": "https://fcbayern.com/de/spiele/profis/bundesliga/2025-2026/fc-bayern-muenchen-1-fc-heidenheim-1846-02-05-2026/aufstellung",
+    "notes": "Bundesliga · 32. Spieltag · Allianz Arena · 15:30 Uhr"
+  },
+  "opponentLineup": {
+    "teamName": "1. FC Heidenheim 1846",
+    "shortName": "1. FC Heidenheim",
+    "formation": "3-4-3",
+    "starters": [
+      {
+        "number": 41,
+        "position": "TW",
+        "name": "Ramaj"
+      },
+      {
+        "number": 19,
+        "position": "LIV",
+        "name": "Föhrenbach"
+      },
+      {
+        "number": 6,
+        "position": "IV",
+        "name": "Mainka"
+      },
+      {
+        "number": 3,
+        "position": "RIV",
+        "name": "Schöppner"
+      },
+      {
+        "number": 30,
+        "position": "LM",
+        "name": "Dorsch"
+      },
+      {
+        "number": 2,
+        "position": "ZM",
+        "name": "Busch"
+      },
+      {
+        "number": 8,
+        "position": "ZM",
+        "name": "Dinkçi"
+      },
+      {
+        "number": 26,
+        "position": "RM",
+        "name": "Behrens"
+      },
+      {
+        "number": 11,
+        "position": "LS",
+        "name": "Zivzivadze"
+      },
+      {
+        "number": 18,
+        "position": "ST",
+        "name": "Pieringer"
+      },
+      {
+        "number": 22,
+        "position": "RS",
+        "name": "Ibrahimović"
+      }
+    ],
+    "bench": [
+      "Feller",
+      "Niehues",
+      "Siersleben",
+      "Stergiou",
+      "Kaufmann",
+      "Traoré",
+      "Kerber",
+      "Schimmer",
+      "Beck"
+    ],
+    "coach": "Frank Schmidt",
+    "sourceName": "fcbayern.com (Opta Sports)",
+    "sourceUrl": "https://fcbayern.com/de/spiele/profis/bundesliga/2025-2026/fc-bayern-muenchen-1-fc-heidenheim-1846-02-05-2026/aufstellung"
+  },
   "matchPostsTracker": {
     "77536": {}
   }

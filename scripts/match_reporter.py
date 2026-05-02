@@ -586,6 +586,16 @@ def add_article_to_content(content, post_data, kind, slug_suffix, source_url=Non
     # taktische Aufstellung (lineup-override.json) im Artikel anzeigen kann.
     if kind == "preview":
         article["showLineup"] = True
+        # WICHTIG: Aufstellung MIT in den Artikel speichern, sodass sie auch
+        # nach Spielende erhalten bleibt (lineup-override.json wird beim Post-Match
+        # geleert). So zeigt der Vorbericht-Artikel auch in Wochen die richtige
+        # Aufstellung an.
+        cur_lineup = content.get("currentLineup")
+        opp_lineup = content.get("opponentLineup")
+        if cur_lineup and isinstance(cur_lineup, dict) and len(cur_lineup.get("starters", [])) == 11:
+            article["embeddedLineup"] = cur_lineup
+        if opp_lineup and isinstance(opp_lineup, dict) and len(opp_lineup.get("starters", [])) == 11:
+            article["embeddedOpponentLineup"] = opp_lineup
     if source_url:
         article["sourceUrl"] = source_url
     if source_name:

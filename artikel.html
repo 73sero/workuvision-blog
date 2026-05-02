@@ -859,17 +859,35 @@
         // Lineup laden + rendern, falls Vorbericht-Artikel
         if (showLineup) {
           let lineup = null;
-          let opponentLineup = data.opponentLineup || null;
-          try {
-            const ovRes = await fetch('lineup-override.json?v=' + Date.now(), {cache: 'no-cache'});
-            if (ovRes.ok) {
-              const ov = await ovRes.json();
-              if (ov && ov.active && ov.starters && ov.starters.length === 11) {
-                lineup = ov;
+          let opponentLineup = null;
+
+          // 1) PRIORITÄT: Aufstellung im Article selbst eingebettet (persistent)
+          // Diese wird beim Schreiben des Vorberichts mitgespeichert und bleibt
+          // auch nach Spielende erhalten.
+          if (article.embeddedLineup && article.embeddedLineup.starters &&
+              article.embeddedLineup.starters.length === 11) {
+            lineup = article.embeddedLineup;
+          }
+          if (article.embeddedOpponentLineup && article.embeddedOpponentLineup.starters &&
+              article.embeddedOpponentLineup.starters.length === 11) {
+            opponentLineup = article.embeddedOpponentLineup;
+          }
+
+          // 2) Fallback: lineup-override.json (live aktuell, vor Spielende)
+          if (!lineup) {
+            try {
+              const ovRes = await fetch('lineup-override.json?v=' + Date.now(), {cache: 'no-cache'});
+              if (ovRes.ok) {
+                const ov = await ovRes.json();
+                if (ov && ov.active && ov.starters && ov.starters.length === 11) {
+                  lineup = ov;
+                }
               }
-            }
-          } catch(e) { /* keine Override-Datei */ }
+            } catch(e) { /* keine Override-Datei */ }
+          }
+          if (!opponentLineup) opponentLineup = data.opponentLineup || null;
           if (!lineup) lineup = data.currentLineup || null;
+
           if (lineup && lineup.starters && lineup.starters.length === 11) {
             // setTimeout statt rAF — gibt dem DOM Zeit, vollständig parsed zu sein
             setTimeout(() => renderLineup(lineup, opponentLineup), 50);
