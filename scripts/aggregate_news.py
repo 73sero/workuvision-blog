@@ -578,10 +578,50 @@ def extract_image_from_entry(entry):
     return None
 
 
+def _upgrade_image_url_resolution(url):
+    """Versucht eine Bild-URL auf höhere Auflösung umzubiegen, wenn das
+    URL-Pattern Größen-Parameter enthält. Kommt sehr häufig bei CMS-URLs vor.
+    Beispiele:
+      .../w_400/...         → .../w_1600/...
+      ?w=400&h=300          → ?w=1600&h=1200
+      ?width=400            → ?width=1600
+      .../400x300/...       → .../1600x1200/...
+      .../small.jpg         → .../large.jpg
+    """
+    if not url:
+        return url
+    original = url
+    # Cloudinary/Bavarian Football Works style: /w_400/  or  /w_400,h_300/
+    url = re.sub(r'(/w_)(\d{2,4})', lambda m: m.group(1) + '1600', url)
+    url = re.sub(r'([/,]h_)(\d{2,4})', lambda m: m.group(1) + '1200', url)
+    # WordPress: /img.jpg?w=400&h=300
+    url = re.sub(r'([?&]w=)(\d{2,4})', lambda m: m.group(1) + '1600', url)
+    url = re.sub(r'([?&]width=)(\d{2,4})', lambda m: m.group(1) + '1600', url)
+    url = re.sub(r'([?&]h=)(\d{2,4})', lambda m: m.group(1) + '1200', url)
+    url = re.sub(r'([?&]height=)(\d{2,4})', lambda m: m.group(1) + '1200', url)
+    # NTV/Sport1-style: /Img_16_9/1200/foo.jpg → /Img_16_9/1920/foo.jpg
+    # Match: /<digits>/  unmittelbar vor dem Dateinamen
+    url = re.sub(
+        r'/(\d{3,4})/([^/]+\.(?:jpg|jpeg|png|webp))',
+        lambda m: ('/1920/' if int(m.group(1)) < 1920 else f'/{m.group(1)}/') + m.group(2),
+        url, flags=re.IGNORECASE
+    )
+    # Pfad-style: /400x300/
+    url = re.sub(r'/(\d{3,4})x(\d{3,4})/', '/1600x1200/', url)
+    # NTV/RND-style mit ?_v=mobile
+    url = re.sub(r'imageVersion=mobile', 'imageVersion=2-3', url)
+    # WAZ/FUNKE Bauanleitung: -16-9.jpg vs -1-1.jpg etc bei "w=" Parameter
+    return url
+
+
 def fetch_og_image_from_url(article_url):
-    """Lädt die Artikel-Seite und extrahiert og:image (oder twitter:image als Fallback).
-    Wird als Fallback verwendet wenn der RSS-Feed kein Bild bereitstellt.
-    Gibt None zurück bei Fehler oder wenn kein Bild gefunden.
+    """Lädt die Artikel-Seite und extrahiert das beste verfügbare Hauptbild.
+    Strategie:
+      1) Mehrere Bild-Kandidaten sammeln (og:image, og:image:secure_url,
+         twitter:image, twitter:image:src, JSON-LD image, schema:image)
+      2) Bei jedem Kandidaten die URL nach Möglichkeit auf höhere Auflösung
+         hochstufen (w=400 → w=1600 etc.)
+      3) Den ersten gefundenen Kandidaten zurückgeben
     """
     if not article_url:
         return None
@@ -591,32 +631,62 @@ def fetch_og_image_from_url(article_url):
                           "AppleWebKit/605.1.15 (KHTML, like Gecko) "
                           "Version/17.0 Safari/605.1.15",
             "Accept": "text/html,application/xhtml+xml",
+            "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
         })
         with urllib.request.urlopen(req, timeout=15) as r:
-            # Lese max 200KB — head/meta steht ganz oben
-            html = r.read(200_000).decode("utf-8", errors="ignore")
-        # 1) og:image
-        m = re.search(
+            # Lese mehr (300KB) — manche Seiten haben Meta-Tags weiter unten
+            html = r.read(300_000).decode("utf-8", errors="ignore")
+
+        # Sammle ALLE Bild-Kandidaten in Prioritätsreihenfolge
+        candidates = []
+
+        # 1) og:image:secure_url (höchste Priorität, oft hi-res)
+        for m in re.finditer(
+            r'<meta\s+(?:property|name)="og:image:secure_url"[^>]*content="([^"]+)"',
+            html, re.IGNORECASE):
+            candidates.append(m.group(1))
+
+        # 2) og:image (Standard)
+        for m in re.finditer(
             r'<meta\s+(?:property|name)="og:image"[^>]*content="([^"]+)"',
-            html, re.IGNORECASE
-        )
-        if not m:
-            m = re.search(
-                r'<meta\s+content="([^"]+)"[^>]*(?:property|name)="og:image"',
-                html, re.IGNORECASE
+            html, re.IGNORECASE):
+            candidates.append(m.group(1))
+        for m in re.finditer(
+            r'<meta\s+content="([^"]+)"[^>]*(?:property|name)="og:image"',
+            html, re.IGNORECASE):
+            candidates.append(m.group(1))
+
+        # 3) twitter:image (Backup)
+        for m in re.finditer(
+            r'<meta\s+(?:property|name)="twitter:image(?::src)?"[^>]*content="([^"]+)"',
+            html, re.IGNORECASE):
+            candidates.append(m.group(1))
+
+        # 4) JSON-LD: schema.org Article hat oft "image" Feld mit vollständiger URL
+        for m in re.finditer(
+            r'"image"\s*:\s*(?:\[\s*)?["{]([^"]+(?:\.jpg|\.jpeg|\.png|\.webp))',
+            html, re.IGNORECASE):
+            url_candidate = m.group(1).split('"')[0].split("?")[0] + (
+                "?" + m.group(1).split("?")[1] if "?" in m.group(1) else ""
             )
-        # 2) twitter:image fallback
-        if not m:
-            m = re.search(
-                r'<meta\s+(?:property|name)="twitter:image"[^>]*content="([^"]+)"',
-                html, re.IGNORECASE
-            )
-        if m:
-            url = m.group(1).strip()
-            # HTML-Entity-Decoding (z.B. &amp; → &)
-            url = url.replace("&amp;", "&").replace("&#x2F;", "/")
+            candidates.append(m.group(1))
+
+        if not candidates:
+            return None
+
+        # Erste gültige URL nehmen, dafür auf hohe Auflösung upgraden
+        for url in candidates:
+            url = url.strip()
+            if not url:
+                continue
+            # HTML-Entity-Decoding
+            url = url.replace("&amp;", "&").replace("&#x2F;", "/").replace("&quot;", "")
             if url.startswith("//"):
                 url = "https:" + url
+            if not url.startswith("http"):
+                continue
+            # URL-Auflösung hochsetzen wo möglich
+            url = _upgrade_image_url_resolution(url)
             return url
     except Exception as e:
         print(f"     og:image scrape fehlgeschlagen ({article_url[:60]}): {e}")
@@ -624,24 +694,45 @@ def fetch_og_image_from_url(article_url):
 
 
 def download_and_optimize_image(image_url, slug, target_dir):
-    """Lädt ein Bild herunter, skaliert es auf 1200x675 und speichert als JPEG.
+    """Lädt ein Bild herunter und speichert als JPEG in optimaler Qualität.
+
+    Strategie für maximale Qualität:
+    - Kein Hochskalieren (würde unscharf werden) — wenn Original kleiner als
+      1200x675, nutzt das Original und schreibt eine Warnung
+    - 16:9 Center-Crop wenn das Original größer ist
+    - High-Quality LANCZOS Resampling
+    - JPEG quality=88, progressive=True (kleinere Dateien bei besserer Qualität)
+    - Mindestgröße 600px Breite — sonst wird das Bild verworfen (zu klein
+      für Header-Verwendung). Der Caller fällt dann auf andere Quelle zurück.
+
     Gibt den lokalen Pfad zurück (relativ zum Repo) oder None bei Fehlern."""
     if not image_url or not PILLOW_AVAILABLE:
         return None
     target_path = target_dir / f"{slug}.jpg"
     try:
-        # Mit Browser-Headers — manche Server blocken Default-User-Agent
         req = urllib.request.Request(image_url, headers={
-            "User-Agent": "Mozilla/5.0 (compatible; Workuvision-Bot/1.0)",
-            "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) "
+                          "AppleWebKit/605.1.15 (KHTML, like Gecko) "
+                          "Version/17.0 Safari/605.1.15",
+            "Accept": "image/avif,image/webp,image/apng,image/jpeg,image/png,image/*,*/*;q=0.8",
+            "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
             "Referer": "https://workuvision.de/",
         })
         with urllib.request.urlopen(req, timeout=20) as r:
             data = r.read()
-        if len(data) < 2000:  # zu klein → vermutlich kein echtes Bild
+        if len(data) < 5000:  # < 5KB → wahrscheinlich Tracking-Pixel oder Platzhalter
+            print(f"     ⚠️  Bild zu klein ({len(data)/1024:.1f}KB) — vermutlich Platzhalter")
             return None
         img = Image.open(io.BytesIO(data))
-        # In RGB konvertieren (wegen PNG/RGBA und JPEG-Inkompatibilität)
+        src_w, src_h = img.size
+
+        # Mindestauflösung: 600x400. Kleiner = nicht header-tauglich
+        # → Caller fällt auf nächsten Fallback zurück (z.B. Bayern-CDN/Wikipedia)
+        if src_w < 600 or src_h < 400:
+            print(f"     ⚠️  Bild zu klein ({src_w}x{src_h}) für Header — überspringe")
+            return None
+
+        # In RGB konvertieren
         if img.mode not in ("RGB", "L"):
             bg = Image.new("RGB", img.size, (255, 255, 255))
             if img.mode == "RGBA":
@@ -649,24 +740,51 @@ def download_and_optimize_image(image_url, slug, target_dir):
             else:
                 bg.paste(img)
             img = bg
-        # Auf 1200×675 (16:9) zuschneiden — center-crop
+
+        # Ziel: 16:9 (1200x675), aber NIE hochskalieren
         target_w, target_h = 1200, 675
-        src_w, src_h = img.size
-        if src_w / src_h > target_w / target_h:
-            # zu breit, nach Höhe skalieren
-            new_h = target_h
-            new_w = int(src_w * (target_h / src_h))
+        target_ratio = target_w / target_h
+
+        # Wenn Original kleiner als Ziel: Original-Größe nutzen und 16:9 croppen
+        if src_w < target_w or src_h < target_h:
+            # Auf 16:9 zuschneiden, ohne zu skalieren
+            src_ratio = src_w / src_h
+            if src_ratio > target_ratio:
+                # Zu breit — oben/unten haben volle Höhe, links/rechts wegschneiden
+                new_w = int(src_h * target_ratio)
+                left = (src_w - new_w) // 2
+                img = img.crop((left, 0, left + new_w, src_h))
+            else:
+                # Zu hoch — links/rechts volle Breite, oben/unten wegschneiden
+                new_h = int(src_w / target_ratio)
+                top = (src_h - new_h) // 2
+                img = img.crop((0, top, src_w, top + new_h))
+            print(f"     ℹ️  Original {src_w}x{src_h} kleiner als Ziel — kein Upscale, nur Crop auf {img.size}")
         else:
-            new_w = target_w
-            new_h = int(src_h * (target_w / src_w))
-        img = img.resize((new_w, new_h), Image.LANCZOS)
-        # Center crop
-        left = (new_w - target_w) // 2
-        top = (new_h - target_h) // 2
-        img = img.crop((left, top, left + target_w, top + target_h))
-        # Speichern
+            # Original ist größer: skalieren auf 16:9 (target) mit Center-Crop
+            src_ratio = src_w / src_h
+            if src_ratio > target_ratio:
+                # Höhe zu klein → nach Höhe skalieren, links/rechts cropen
+                scale = target_h / src_h
+                new_w = int(src_w * scale)
+                new_h = target_h
+                img = img.resize((new_w, new_h), Image.LANCZOS)
+                left = (new_w - target_w) // 2
+                img = img.crop((left, 0, left + target_w, target_h))
+            else:
+                # Breite zu klein → nach Breite skalieren, oben/unten cropen
+                scale = target_w / src_w
+                new_w = target_w
+                new_h = int(src_h * scale)
+                img = img.resize((new_w, new_h), Image.LANCZOS)
+                top = (new_h - target_h) // 2
+                img = img.crop((0, top, target_w, top + target_h))
+
+        # Speichern: hohe Qualität, progressive für besseres Streaming
         target_dir.mkdir(parents=True, exist_ok=True)
-        img.save(target_path, "JPEG", quality=82, optimize=True)
+        img.save(target_path, "JPEG", quality=88, optimize=True, progressive=True)
+        size_kb = target_path.stat().st_size / 1024
+        print(f"     ✓ {target_path.name} {img.size[0]}x{img.size[1]} ({size_kb:.0f}KB)")
         return f"img/articles/{slug}.jpg"
     except Exception as e:
         print(f"     Bild-Download fehlgeschlagen ({image_url[:60]}): {e}")
