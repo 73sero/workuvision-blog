@@ -712,26 +712,47 @@ def is_already_covered(items, articles):
     """Prüft welche RSS-Items inhaltlich schon in den letzten Artikeln abgedeckt sind.
     WICHTIG: articles ist absteigend sortiert (neueste zuerst, durch insert(0,...)).
     Daher articles[:20] = die 20 NEUESTEN, nicht articles[-20:].
+
+    Drei Schichten:
+      1) URL-Match: gleiche sourceUrl → schon abgedeckt
+      2) Jaccard ≥ 0.45 → ähnlicher Titel
+      3) Top-3-Stichworte-Heuristik bei kurzen Titeln
     """
-    # Stichworte aus den 20 NEUESTEN Artikeln (oben in der Liste)
+    # Existierende sourceUrls und Stichworte aus den 25 NEUESTEN Artikeln
+    recent_source_urls = set()
     recent_keyword_sets = []
-    for a in articles[:20]:
+    for a in articles[:25]:
+        src = (a.get("sourceUrl", "") or "").strip()
+        if src:
+            recent_source_urls.add(src)
         kws = _title_keywords(a.get("title", ""))
         if kws:
             recent_keyword_sets.append(kws)
 
     fresh = []
     for item in items:
+        # 1) sourceUrl-Match
+        item_url = (item.get("url", "") or "").strip()
+        if item_url and item_url in recent_source_urls:
+            # Schon mal verarbeitet — überspringen ohne Logging-Spam
+            continue
+
         item_kws = _title_keywords(item.get("title", ""))
         if not item_kws:
             fresh.append(item)
             continue
-        # Check gegen jeden recent Artikel
+
+        # 2+3) Inhalts-Match
         is_dup = False
         for existing_kws in recent_keyword_sets:
             intersect = len(item_kws & existing_kws)
             union = len(item_kws | existing_kws)
-            if union > 0 and intersect / union >= 0.55:
+            smaller = min(len(item_kws), len(existing_kws))
+            # Jaccard ≥ 0.45 ODER 3+ gemeinsame Stichworte (60% des kleineren)
+            if union > 0 and intersect / union >= 0.45:
+                is_dup = True
+                break
+            if intersect >= 3 and smaller > 0 and intersect / smaller >= 0.6:
                 is_dup = True
                 break
         if not is_dup:
@@ -1003,18 +1024,51 @@ def main():
     slug = f"{today}-{slugify(title)}"
 
     # === POST-GENERATION DEDUP-CHECK ===
-    # Claude hat einen Titel generiert. Prüfe ob inhaltlich schon ein sehr
-    # ähnlicher Artikel in den letzten 20 existiert. Falls ja: nicht hinzufügen.
-    for existing in articles[:20]:
+    # Claude hat einen Titel generiert. Drei Schichten von Duplikatsprüfung:
+    #   1) Slug exakt gleich → übersprungen
+    #   2) Gleiche sourceUrl wie ein existierender Artikel → übersprungen
+    #      (verhindert dass derselbe Quell-Artikel 2x verarbeitet wird,
+    #      auch wenn Claude leicht andere Titel generiert hat)
+    #   3) Inhaltlich ähnlicher Titel (Jaccard ≥ 0.4 oder ≥3 Kern-Stichworte
+    #      identisch) → übersprungen
+    new_source_url = new_post.get("sourceUrl", "").strip()
+    new_kws = _title_keywords(title)
+
+    for existing in articles[:25]:
         if existing.get("slug") == slug:
             print(f"  ⚠️  Slug existiert bereits ({slug}) — übersprungen.")
             sys.exit(0)
-        if _is_similar_title(title, existing.get("title", ""), threshold=0.5):
-            print(f"  ⚠️  Inhaltliches Duplikat erkannt:")
+        # Gleiche Quell-URL: harter Block
+        ex_src = existing.get("sourceUrl", "").strip()
+        if new_source_url and ex_src and new_source_url == ex_src:
+            print(f"  ⚠️  Selbe sourceUrl bereits verarbeitet:")
+            print(f"     {new_source_url[:80]}")
+            print(f"     existiert als: '{existing.get('title','')}'")
+            print(f"  → Artikel verworfen.")
+            sys.exit(0)
+        # Inhalts-Dedup
+        if _is_similar_title(title, existing.get("title", ""), threshold=0.4):
+            print(f"  ⚠️  Inhaltliches Duplikat erkannt (Jaccard ≥ 0.4):")
             print(f"     Neu:        '{title}'")
             print(f"     Existiert:  '{existing.get('title','')}'")
             print(f"  → Artikel verworfen.")
             sys.exit(0)
+        # Zusätzliche Heuristik: Wenn 3+ Kern-Stichworte überlappen, ist das
+        # bei kurzen Titeln meist ein Duplikat unabhängig vom Jaccard-Score
+        if new_kws:
+            ex_kws = _title_keywords(existing.get("title", ""))
+            if ex_kws:
+                overlap = len(new_kws & ex_kws)
+                # Bei kleinen Sets: mind. 3 gemeinsame Wörter UND mind. 60%
+                # Überlappung mit dem kleineren Titel
+                smaller = min(len(new_kws), len(ex_kws))
+                if overlap >= 3 and smaller > 0 and overlap / smaller >= 0.6:
+                    print(f"  ⚠️  Stichwort-Überlappung zu hoch ({overlap} gemeinsam, {overlap}/{smaller}):")
+                    print(f"     Neu:        '{title}'")
+                    print(f"     Existiert:  '{existing.get('title','')}'")
+                    print(f"     Gemeinsam:  {new_kws & ex_kws}")
+                    print(f"  → Artikel verworfen.")
+                    sys.exit(0)
 
     # Bild-Auswahl:
     # 1) Versuche, das Bild aus dem RSS-Item zu laden, das Claude als Quelle gewählt hat

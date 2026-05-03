@@ -613,7 +613,7 @@ def add_article_to_content(content, post_data, kind, slug_suffix, source_url=Non
     # 2) Inhaltlich ähnlicher Titel in den letzten 15 Artikeln (verhindert
     # dass der Bot 2x leicht unterschiedliche Vorberichte zum selben Spiel
     # anlegt, z.B. wenn er mehrfach am Spieltag triggert)
-    elif _is_title_dup(title, articles[:15], threshold=0.5):
+    elif _is_title_dup(title, articles[:15], threshold=0.4):
         print(f"  ⚠️  Inhaltlich ähnlicher Artikel existiert bereits — übersprungen.")
         return False
 
@@ -638,8 +638,10 @@ def _title_keywords(title):
     return kws
 
 
-def _is_title_dup(title, recent_articles, threshold=0.5):
-    """Prüft ob title inhaltlich zu einem der recent_articles dupliziert."""
+def _is_title_dup(title, recent_articles, threshold=0.4):
+    """Prüft ob title inhaltlich zu einem der recent_articles dupliziert.
+    Zwei Heuristiken: Jaccard ≥ threshold ODER 3+ Top-Stichwörter gemeinsam.
+    """
     new_kws = _title_keywords(title)
     if not new_kws:
         return False
@@ -649,8 +651,14 @@ def _is_title_dup(title, recent_articles, threshold=0.5):
             continue
         intersect = len(new_kws & existing_kws)
         union = len(new_kws | existing_kws)
+        smaller = min(len(new_kws), len(existing_kws))
+        # Jaccard
         if union > 0 and intersect / union >= threshold:
-            print(f"     Duplikat-Match: '{title[:60]}' ↔ '{a.get('title','')[:60]}' (score={intersect/union:.2f})")
+            print(f"     Duplikat-Match (Jaccard): '{title[:60]}' ↔ '{a.get('title','')[:60]}' (score={intersect/union:.2f})")
+            return True
+        # Top-Stichwörter-Overlap (3+ gemeinsame Wörter, mind. 60% des kleineren)
+        if intersect >= 3 and smaller > 0 and intersect / smaller >= 0.6:
+            print(f"     Duplikat-Match (Top-Keywords): '{title[:60]}' ↔ '{a.get('title','')[:60]}' (overlap={intersect}/{smaller})")
             return True
     return False
 
