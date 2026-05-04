@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-04T11:42:54+00:00",
+  "lastUpdated": "2026-05-04T17:22:27+00:00",
   "tiktokStats": {
-    "followers": 1367,
+    "followers": 1369,
     "likes": "27K",
-    "videos": 55
+    "videos": 56
   },
   "ticker": [
     "Auswärts bei Wolfsburg in 5 Tagen — alle Augen auf den FCB",
+    "Bayern präsentiert neues Heimtrikot für die Saison 2026/27",
     "Laimer-Vertrag: Bayern will bei Verlängerung hart bleiben",
     "Goretzka trifft doppelt – und kämpft mit den Emotionen",
     "Laimer lehnt Gehaltsangebot ab – Bayern akzeptieren möglichen Abgang",
     "Neuer will verlängern: Einigung mit FC Bayern in Sicht",
-    "Laimer-Zukunft offen: Eberl gibt sich gelassen",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-04-bayern-praesentiert-neues-heimtrikot-fuer-die-sais",
+      "date": "2026-05-04",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/stadium1.jpg",
+      "thumbnailAlt": "Bayern präsentiert neues Heimtrikot für die Saison 2026/27",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Bayern präsentiert neues Heimtrikot für die Saison 2026/27",
+      "excerpt": "Der FC Bayern hat sein neues Heimtrikot für 2026/27 vorgestellt. Laut kicker feiert es bereits am Mittwoch seine Premiere.",
+      "body": "Der FC Bayern München hat am Montagmorgen sein neues Heimtrikot für die Saison 2026/27 präsentiert. Das berichtet der kicker. Das neue Dress soll demnach bereits in der laufenden Woche zum ersten Mal auf dem Platz zu sehen sein.\n\nLaut kicker feiert das Trikot seine Premiere am kommenden Mittwoch — ein Termin, der für Bayern-Fans angesichts des Champions-League-Halbfinal-Rückspiels gegen Paris Saint-Germain besondere Bedeutung hat. Ob es sich dabei um ein bewusstes Timing handelt, ließ der Verein offen.\n\nDie Vorstellung eines neuen Trikots kurz vor einem der wichtigsten Spiele der Saison folgt einer Tradition, die der FCB in den vergangenen Jahren mehrfach praktiziert hat. Das Rückspiel gegen PSG bietet mit Blick auf die europaweite Aufmerksamkeit eine prominente Bühne für die neue Kollektion.",
+      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mkz5bm5rly2x",
+      "sourceName": "kicker (Bluesky)"
+    },
     {
       "slug": "2026-05-04-laimer-vertrag-bayern-will-bei-verlaengerung-hart",
       "date": "2026-05-04",
