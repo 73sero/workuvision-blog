@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-05T20:02:59+00:00",
+  "lastUpdated": "2026-05-05T21:33:23+00:00",
   "tiktokStats": {
     "followers": 1374,
     "likes": "27K",
     "videos": 57
   },
   "ticker": [
-    "Auswärts bei Wolfsburg in 3 Tagen — alle Augen auf den FCB",
+    "Heim gegen Paris heute Abend (Champions League) — alle Augen auf den FCB",
+    "Arsenal im Finale: Bayern kennt nun den möglichen Gegner",
     "Chelsea und Barcelona sollen Harry Kane umwerben",
     "Bayerns Kadertiefe: Ist die Bank ein Risikofaktor?",
     "Dreifaches Comeback: Bischof, Karl und Guerreiro fit für PSG",
     "Hoeneß nennt Neffen Sebastian als möglichen Kompany-Nachfolger",
-    "Pavlović: Bayerns stiller Unterschiedspieler gegen PSG",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-05-arsenal-im-finale-bayern-kennt-nun-den-moeglichen",
+      "date": "2026-05-05",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-05-arsenal-im-finale-bayern-kennt-nun-den-moeglichen.jpg",
+      "thumbnailAlt": "Arsenal im Finale: Bayern kennt nun den möglichen Gegner",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Arsenal im Finale: Bayern kennt nun den möglichen Gegner",
+      "excerpt": "Der FC Arsenal hat sich für das Champions-League-Finale qualifiziert. Die Münchner erfahren ihren potenziellen Endspielgegner, falls sie PSG bezwingen.",
+      "body": "Der FC Arsenal steht nach 20 Jahren wieder im Finale der Champions League. Wie Sport1 berichtet, setzten sich die Londoner im Halbfinale gegen Atlético Madrid mit 1:0 durch – das entscheidende Tor erzielte Bukayo Saka in der 44. Minute. Im Gesamtergebnis gewann Arsenal mit 2:1.\n\nDamit steht der mögliche Finalgegner des FC Bayern fest. Die Münchner treffen am Mittwoch in der Allianz Arena auf Paris Saint-Germain im Rückspiel des anderen Halbfinals. Der Sieger dieser Begegnung wird am 30. Mai in der Puskás Aréna in Budapest auf Arsenal treffen.\n\nFür den FCB wäre ein Finale gegen Arsenal eine besondere Konstellation: Trainer Vincent Kompany coachte zuletzt in der Premier League, und mehrere aktuelle Bayernspieler sind in England bestens bekannt. Das Endspiel rückt damit für die Münchner in greifbare Nähe – vorausgesetzt, das Rückspiel gegen PSG gelingt.",
+      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3ml53evv3tq2w",
+      "sourceName": "Sport1 (Bluesky)"
+    },
     {
       "slug": "2026-05-05-chelsea-und-barcelona-sollen-harry-kane-umwerben",
       "date": "2026-05-05",
@@ -56,7 +72,7 @@
       "category": "reaction",
       "badge": "Reaktion",
       "badgeColor": "brc",
-      "thumbnail": "img/football.jpg",
+      "thumbnail": "img/articles/2026-05-05-dreifaches-comeback-bischof-karl-und-guerreiro-fit.jpg",
       "thumbnailAlt": "Dreifaches Comeback: Bischof, Karl und Guerreiro fit für PSG",
       "readtime": "4 Min.",
       "featured": false,
@@ -120,7 +136,7 @@
       "category": "reaction",
       "badge": "Reaktion",
       "badgeColor": "brc",
-      "thumbnail": "img/stadium1.jpg",
+      "thumbnail": "img/articles/2026-05-04-bayern-praesentiert-neues-heimtrikot-fuer-die-sais.jpg",
       "thumbnailAlt": "Bayern präsentiert neues Heimtrikot für die Saison 2026/27",
       "readtime": "4 Min.",
       "featured": false,
