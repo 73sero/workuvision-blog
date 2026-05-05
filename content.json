@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-05T12:44:55+00:00",
+  "lastUpdated": "2026-05-05T17:02:32+00:00",
   "tiktokStats": {
-    "followers": 1375,
+    "followers": 1374,
     "likes": "27K",
-    "videos": 56
+    "videos": 57
   },
   "ticker": [
     "Auswärts bei Wolfsburg in 4 Tagen — alle Augen auf den FCB",
+    "Bayerns Kadertiefe: Ist die Bank ein Risikofaktor?",
     "Dreifaches Comeback: Bischof, Karl und Guerreiro fit für PSG",
     "Hoeneß nennt Neffen Sebastian als möglichen Kompany-Nachfolger",
     "Pavlović: Bayerns stiller Unterschiedspieler gegen PSG",
     "Bayern verweigert PSG das Stammhotel vor dem Rückspiel",
-    "Bayern präsentiert neues Heimtrikot für die Saison 2026/27",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-05-bayerns-kadertiefe-ist-die-bank-ein-risikofaktor",
+      "date": "2026-05-05",
+      "category": "tactics",
+      "badge": "Taktik-Analyse",
+      "badgeColor": "bt",
+      "thumbnail": "img/articles/2026-05-05-bayerns-kadertiefe-ist-die-bank-ein-risikofaktor.jpg",
+      "thumbnailAlt": "Bayerns Kadertiefe: Ist die Bank ein Risikofaktor?",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Bayerns Kadertiefe: Ist die Bank ein Risikofaktor?",
+      "excerpt": "Miasanrot analysiert, ob die Qualitätsunterschiede im Bayern-Kader dem FCB in der Saisonendphase noch zum Verhängnis werden könnten.",
+      "body": "Der FC Bayern bestreitet eine außergewöhnliche Saison – doch Miasanrot stellt eine kritische Frage: Könnte die mangelnde Tiefe auf der Ersatzbank den Münchnern am Ende alles kosten? Das Fanblog-Analyse-Portal beleuchtet, wie groß die Qualitätsunterschiede zwischen Stammelf und Reservisten beim Rekordmeister tatsächlich sind.\n\nAls Beispiel nennt Miasanrot Nicolas Jackson, der in der Hierarchie hinter Harry Kane deutlich zurückliegt. In einer Phase, in der die Bayern auf mehrere Stammkräfte verzichten müssen, tritt das strukturelle Problem offen zutage: Die Startelf gehört zur europäischen Spitzenklasse, die Optionen dahinter sind spürbar weniger schlagkräftig.\n\nGerade mit Blick auf das Champions-League-Halbfinale gegen Paris Saint-Germain gewinnt diese Analyse an Gewicht. Sollte Trainer Vincent Kompany im Rückspiel auf Alternativen angewiesen sein, wird sich zeigen, ob der Kader breit genug aufgestellt ist, um auch unter Druck die nötige Qualität auf den Platz zu bringen.",
+      "sourceUrl": "https://miasanrot.de/fc-bayern-problemzone-bank-kader-qualitaet-analyse/",
+      "sourceName": "Miasanrot"
+    },
     {
       "slug": "2026-05-05-dreifaches-comeback-bischof-karl-und-guerreiro-fit",
       "date": "2026-05-05",
