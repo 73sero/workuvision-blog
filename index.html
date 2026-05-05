@@ -433,6 +433,15 @@
     const BAYERN_ID = 40;
     const SEASON = 2025;
     const LEAGUE = 'bl1';
+    // Wettbewerbe in denen Bayern spielen kann — fetchen wir alle
+    // damit die Stats-Card immer das wirklich nächste Spiel zeigt,
+    // egal ob Bundesliga, Champions League, DFB-Pokal oder CWC
+    const ALL_COMPS = [
+      { code: 'bl1',    season: 2025, label: 'Bundesliga' },
+      { code: 'ucl2025',season: 2025, label: 'Champions League' },
+      { code: 'ucl24',  season: 2025, label: 'Champions League' },
+      { code: 'dfb24',  season: 2025, label: 'DFB-Pokal' },
+    ];
 
     function setText(id, val) { const el = document.getElementById(id); if (el) el.textContent = val; }
 
@@ -474,14 +483,23 @@
       setText('next-match-date', '');
 
       try {
-        // Vollständigen Spielplan laden — alle 34 Spieltage
-        const url = `https://api.openligadb.de/getmatchdata/${LEAGUE}/${SEASON}`;
-        const res = await fetch(url);
-        if (!res.ok) throw new Error('HTTP ' + res.status);
-        const allMatches = await res.json();
-        if (!Array.isArray(allMatches) || !allMatches.length) throw new Error('Spielplan leer');
+        // Alle relevanten Wettbewerbe parallel laden — Bundesliga, CL, DFB-Pokal
+        // damit die Card auch CL-Halbfinale & Co. zeigt, nicht nur Bundesliga
+        const responses = await Promise.allSettled(
+          ALL_COMPS.map(c =>
+            fetch(`https://api.openligadb.de/getmatchdata/${c.code}/${c.season}`)
+              .then(r => r.ok ? r.json() : [])
+              .then(arr => Array.isArray(arr) ? arr.map(m => ({...m, _competition: c.label})) : [])
+              .catch(() => [])
+          )
+        );
+        const allMatches = responses
+          .filter(r => r.status === 'fulfilled')
+          .flatMap(r => r.value);
 
-        // Nur Bayern-Spiele
+        if (!allMatches.length) throw new Error('Keine Spielpläne ladbar');
+
+        // Nur Bayern-Spiele; nach Datum sortiert
         const bayernMatches = allMatches.filter(m => {
           const t1 = (m.team1 && m.team1.teamName || '').toLowerCase();
           const t2 = (m.team2 && m.team2.teamName || '').toLowerCase();
@@ -577,12 +595,16 @@
           if (lbl && lbl.nodeType === 3) lbl.nodeValue = 'Letztes Spiel ';
         }
       } else {
-        // Upcoming: Datum + Countdown
+        // Upcoming: Datum + Countdown + Wettbewerb-Label
         const prefix = isHome ? 'vs' : 'bei';
         setText('next-match-opponent', `${prefix} ${opName}`);
         const matchDate = new Date(match.matchDateTime);
         const opt = { weekday:'short', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit' };
-        setText('next-match-date', matchDate.toLocaleDateString('de-DE', opt) + ' Uhr');
+        const dateStr = matchDate.toLocaleDateString('de-DE', opt) + ' Uhr';
+        // Wettbewerb dazu wenn nicht Bundesliga (sonst überflüssig — Bundesliga ist Standard)
+        const compLabel = match._competition && match._competition !== 'Bundesliga'
+          ? ` · ${match._competition}` : '';
+        setText('next-match-date', dateStr + compLabel);
         if (matchInfoLabel) {
           const lbl = matchInfoLabel.firstChild;
           if (lbl && lbl.nodeType === 3) lbl.nodeValue = 'Nächstes Spiel ';

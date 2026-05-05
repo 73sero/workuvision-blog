@@ -170,12 +170,26 @@ def get_match_phase():
       match: das relevante Match-Objekt (oder None)
       match_id: str
     """
-    bl_data = fetch_json("https://api.openligadb.de/getmatchdata/bl1/2025") or []
-    if not bl_data:
+    # Mehrere Wettbewerbe parallel checken — Bundesliga, CL, DFB-Pokal —
+    # damit auch CL-Halbfinale-Spiele Vorberichte/Spielberichte bekommen
+    competition_urls = [
+        ("https://api.openligadb.de/getmatchdata/bl1/2025",     "Bundesliga"),
+        ("https://api.openligadb.de/getmatchdata/ucl2025/2025", "Champions League"),
+        ("https://api.openligadb.de/getmatchdata/ucl24/2025",   "Champions League"),
+        ("https://api.openligadb.de/getmatchdata/dfb24/2025",   "DFB-Pokal"),
+    ]
+    all_data = []
+    for url, comp in competition_urls:
+        data = fetch_json(url) or []
+        for m in data:
+            m["_competition"] = comp
+            all_data.append(m)
+
+    if not all_data:
         return {"phase": "idle", "match": None, "match_id": None}
 
     bayern_matches = [
-        m for m in bl_data
+        m for m in all_data
         if "bayern" in (m.get("team1",{}).get("teamName","") + " " + m.get("team2",{}).get("teamName","")).lower()
     ]
     bayern_matches.sort(key=lambda m: m.get("matchDateTime",""))

@@ -94,19 +94,21 @@ def fetch(url, timeout=20):
 # FCBAYERN.COM Scraper (primäre Quelle — nutzt Opta Sports Daten)
 # ============================================================================
 
-def find_fcbayern_match_url(kickoff_dt, opponent_name):
+def find_fcbayern_match_url(kickoff_dt, opponent_name, competition="Bundesliga"):
     """Konstruiert die fcbayern.com Aufstellungs-URL für ein bestimmtes Spiel.
 
     Pattern:
       https://fcbayern.com/de/spiele/profis/{liga}/{season}/{slug}/aufstellung
 
-    Beispiel:
+    Beispiel Bundesliga:
       https://fcbayern.com/de/spiele/profis/bundesliga/2025-2026/
       fc-bayern-muenchen-1-fc-heidenheim-1846-02-05-2026/aufstellung
 
-    Wir leiten den Slug aus opponent_name + Datum ab.
+    Beispiel Champions League:
+      https://fcbayern.com/de/spiele/profis/champions-league/2025-2026/
+      paris-saint-germain-fc-bayern-muenchen-05-05-2026/aufstellung
     """
-    # Saison ermitteln (Bundesliga-Saison startet im August)
+    # Saison ermitteln (BL/CL Saison startet im August)
     year = kickoff_dt.year
     if kickoff_dt.month >= 7:
         season = f"{year}-{year+1}"
@@ -115,6 +117,14 @@ def find_fcbayern_match_url(kickoff_dt, opponent_name):
 
     # Datum DD-MM-YYYY
     date_str = kickoff_dt.strftime("%d-%m-%Y")
+
+    # Wettbewerb-Pfad
+    comp_path_map = {
+        "Bundesliga": "bundesliga",
+        "Champions League": "champions-league",
+        "DFB-Pokal": "dfb-pokal",
+    }
+    comp_path = comp_path_map.get(competition, "bundesliga")
 
     # Opponent-Slug bauen — fcbayern nutzt Volltexte mit Bindestrich
     opp_clean = opponent_name.lower()
@@ -159,12 +169,37 @@ def find_fcbayern_match_url(kickoff_dt, opponent_name):
         "hsv": "hamburger-sv",
         "sc freiburg": "sc-freiburg",
         "freiburg": "sc-freiburg",
+        # Champions League
+        "paris saint-germain": "paris-saint-germain",
+        "paris saint germain": "paris-saint-germain",
+        "psg": "paris-saint-germain",
+        "real madrid": "real-madrid",
+        "manchester city": "manchester-city",
+        "manchester united": "manchester-united",
+        "fc barcelona": "fc-barcelona",
+        "barcelona": "fc-barcelona",
+        "inter mailand": "inter-mailand",
+        "inter": "inter-mailand",
+        "ac mailand": "ac-mailand",
+        "milan": "ac-mailand",
+        "ajax amsterdam": "ajax-amsterdam",
+        "fc liverpool": "fc-liverpool",
+        "liverpool": "fc-liverpool",
+        "fc arsenal": "fc-arsenal",
+        "arsenal": "fc-arsenal",
+        "fc chelsea": "fc-chelsea",
+        "chelsea": "fc-chelsea",
+        "tottenham hotspur": "tottenham-hotspur",
+        "tottenham": "tottenham-hotspur",
     }
     opp_slug = opp_slug_map.get(opp_clean, opp_clean.replace(" ", "-").replace(".", ""))
 
     bayern_slug = "fc-bayern-muenchen"
+    # Bei Auswärtsspielen kommt der Gegner zuerst, sonst Bayern zuerst
+    # Da wir hier nicht wissen ob is_home (das wissen wir aber im Caller-Kontext),
+    # versuchen wir beide Varianten — der Caller probiert erst home-Pattern.
     full_slug = f"{bayern_slug}-{opp_slug}-{date_str}"
-    return f"https://fcbayern.com/de/spiele/profis/bundesliga/{season}/{full_slug}/aufstellung"
+    return f"https://fcbayern.com/de/spiele/profis/{comp_path}/{season}/{full_slug}/aufstellung"
 
 
 def parse_fcbayern_lineup(html_text):
@@ -323,7 +358,11 @@ def fetch_fcbayern_lineup(match_info):
 
     Returns: (bayern_lineup_dict, opponent_lineup_dict, source_url) oder (None, None, None)
     """
-    url = find_fcbayern_match_url(match_info["kickoff"], match_info["opponent_name"])
+    url = find_fcbayern_match_url(
+        match_info["kickoff"],
+        match_info["opponent_name"],
+        match_info.get("competition", "Bundesliga"),
+    )
     print(f"  → fcbayern.com URL: {url}")
     try:
         html = fetch(url)
@@ -582,13 +621,29 @@ def main():
     with CONTENT_FILE.open("r", encoding="utf-8") as f:
         content = json.load(f)
 
-    # 1) Bayern's nächstes Spiel finden (BL via OpenLigaDB ODER CL via kicker-Spielplan)
+    # 1) Bayern's nächstes Spiel finden — über alle Wettbewerbe (BL, CL, DFB-Pokal)
     bayern_match_info = None
+    competition_urls = [
+        ("https://api.openligadb.de/getmatchdata/bl1/2025",     "Bundesliga"),
+        ("https://api.openligadb.de/getmatchdata/ucl2025/2025", "Champions League"),
+        ("https://api.openligadb.de/getmatchdata/ucl24/2025",   "Champions League"),
+        ("https://api.openligadb.de/getmatchdata/dfb24/2025",   "DFB-Pokal"),
+    ]
     try:
-        bl_data = json.loads(fetch("https://api.openligadb.de/getmatchdata/bl1/2025"))
+        all_data = []
+        for url, comp_label in competition_urls:
+            try:
+                data = json.loads(fetch(url))
+                if isinstance(data, list):
+                    for m in data:
+                        m["_competition"] = comp_label
+                        all_data.append(m)
+            except Exception:
+                continue
+
         now = datetime.now(timezone.utc)
         upcoming = []
-        for m in bl_data:
+        for m in all_data:
             t1 = m.get("team1", {}).get("teamName", "")
             t2 = m.get("team2", {}).get("teamName", "")
             if "bayern" not in (t1+t2).lower():
@@ -612,7 +667,7 @@ def main():
                 "opponent_name": opp.get("shortName") or opp.get("teamName") or "TBD",
                 "kickoff": kickoff,
                 "is_home": is_home,
-                "competition": "Bundesliga",
+                "competition": match.get("_competition", "Bundesliga"),
             }
     except Exception as e:
         print(f"  ⚠️  OpenLigaDB-Check fehlgeschlagen: {e}")
@@ -647,36 +702,36 @@ def main():
     print(f"  Anpfiff: {bayern_match_info['kickoff'].isoformat()}")
 
     # === 2a) PRIMÄRE QUELLE: fcbayern.com (Opta Sports) ===
-    # Bei Heimspielen in der Bundesliga ist fcbayern.com die autoritative Quelle —
-    # die Daten stammen direkt von Opta Sports. Bei Auswärts/CL evtl. nicht
-    # verfügbar, dann fällt es auf kicker zurück.
-    if bayern_match_info["competition"].lower() == "bundesliga":
-        print("\n  → Versuche fcbayern.com (Opta Sports)…")
-        bayern_lu, opp_lu, src_url = fetch_fcbayern_lineup(bayern_match_info)
-        if bayern_lu and opp_lu:
-            # Match-Daten ergänzen
-            bayern_lu["matchTitle"] = f"Bayern {('vs' if bayern_match_info['is_home'] else 'bei')} {bayern_match_info['opponent_name']}"
-            bayern_lu["matchLabel"] = "Aufstellung · Startelf"
-            bayern_lu["matchDate"] = bayern_match_info["kickoff"].isoformat()
-            bayern_lu["matchTime"] = bayern_match_info["kickoff"].isoformat()
-            bayern_lu["publishedAt"] = datetime.now(timezone.utc).isoformat()
+    # Bei Heim-Pflichtspielen ist fcbayern.com die autoritative Quelle —
+    # die Daten stammen direkt von Opta Sports. Funktioniert für Bundesliga,
+    # Champions League und DFB-Pokal Heimspiele. Bei Auswärtsspielen mit
+    # unklaren URL-Patterns wird auf kicker zurückgegriffen.
+    print("\n  → Versuche fcbayern.com (Opta Sports)…")
+    bayern_lu, opp_lu, src_url = fetch_fcbayern_lineup(bayern_match_info)
+    if bayern_lu and opp_lu:
+        # Match-Daten ergänzen
+        bayern_lu["matchTitle"] = f"Bayern {('vs' if bayern_match_info['is_home'] else 'bei')} {bayern_match_info['opponent_name']}"
+        bayern_lu["matchLabel"] = "Aufstellung · Startelf"
+        bayern_lu["matchDate"] = bayern_match_info["kickoff"].isoformat()
+        bayern_lu["matchTime"] = bayern_match_info["kickoff"].isoformat()
+        bayern_lu["publishedAt"] = datetime.now(timezone.utc).isoformat()
 
-            content["currentLineup"] = bayern_lu
-            content["opponentLineup"] = opp_lu
+        content["currentLineup"] = bayern_lu
+        content["opponentLineup"] = opp_lu
 
-            # lineup-override.json überschreiben (Frontend nutzt diese Datei direkt)
-            override_path = ROOT / "lineup-override.json"
-            with override_path.open("w", encoding="utf-8") as f:
-                json.dump(bayern_lu, f, ensure_ascii=False, indent=2)
-            print(f"  ✓ lineup-override.json aus fcbayern.com geschrieben.")
+        # lineup-override.json überschreiben (Frontend nutzt diese Datei direkt)
+        override_path = ROOT / "lineup-override.json"
+        with override_path.open("w", encoding="utf-8") as f:
+            json.dump(bayern_lu, f, ensure_ascii=False, indent=2)
+        print(f"  ✓ lineup-override.json aus fcbayern.com geschrieben.")
 
-            with CONTENT_FILE.open("w", encoding="utf-8") as f:
-                json.dump(content, f, ensure_ascii=False, indent=2)
-            print(f"  ✅ Aufstellung von fcbayern.com (Opta) übernommen.")
-            print(f"     Bayern: {bayern_lu['formation']} · {len(bayern_lu['starters'])} Spieler")
-            print(f"     Gegner: {opp_lu['formation']} · {len(opp_lu['starters'])} Spieler")
-            return
-        print("  ⚠️  fcbayern.com nicht erfolgreich — versuche kicker.de als Fallback.")
+        with CONTENT_FILE.open("w", encoding="utf-8") as f:
+            json.dump(content, f, ensure_ascii=False, indent=2)
+        print(f"  ✅ Aufstellung von fcbayern.com (Opta) übernommen.")
+        print(f"     Bayern: {bayern_lu['formation']} · {len(bayern_lu['starters'])} Spieler")
+        print(f"     Gegner: {opp_lu['formation']} · {len(opp_lu['starters'])} Spieler")
+        return
+    print("  ⚠️  fcbayern.com nicht erfolgreich — versuche kicker.de als Fallback.")
 
     # === 2b) FALLBACK: kicker.de ===
     # 2) kicker-Aufstellungs-URL finden

@@ -31,13 +31,30 @@ def shorten(title, limit=85):
 
 
 def get_next_match_blurb():
-    """Wenn ein Bayern-BL-Spiel in den nächsten 7 Tagen ist: Ticker-Text bauen."""
-    data = fetch_json("https://api.openligadb.de/getmatchdata/bl1/2025") or fetch_json("https://api.openligadb.de/getmatchdata/bl1")
-    if not data or not isinstance(data, list):
+    """Wenn ein Bayern-Spiel in den nächsten 7 Tagen ist: Ticker-Text bauen.
+    Fragt mehrere Wettbewerbe ab (Bundesliga, CL, DFB-Pokal) damit auch
+    CL-Halbfinale & Co. erkannt werden, nicht nur Liga-Spiele.
+    """
+    competitions = [
+        ("https://api.openligadb.de/getmatchdata/bl1/2025",     "Bundesliga"),
+        ("https://api.openligadb.de/getmatchdata/ucl2025/2025", "Champions League"),
+        ("https://api.openligadb.de/getmatchdata/ucl24/2025",   "Champions League"),
+        ("https://api.openligadb.de/getmatchdata/dfb24/2025",   "DFB-Pokal"),
+    ]
+    all_matches = []
+    for url, comp_label in competitions:
+        data = fetch_json(url)
+        if data and isinstance(data, list):
+            for m in data:
+                m["_competition"] = comp_label
+                all_matches.append(m)
+
+    if not all_matches:
         return None
+
     now = datetime.now(timezone.utc)
     next_match = None
-    for m in data:
+    for m in all_matches:
         if m.get("matchIsFinished"):
             continue
         t1 = (m.get("team1") or {}).get("teamName", "").lower()
@@ -66,14 +83,18 @@ def get_next_match_blurb():
     opp_name = opp.get("shortName") or opp.get("teamName") or "TBD"
     delta = (match_dt - now).total_seconds()
     days = int(delta // 86400)
+    hours = int((delta - days*86400) // 3600)
     if days == 0:
-        when = "heute"
+        when = "heute" if hours <= 12 else "heute Abend"
     elif days == 1:
         when = "morgen"
     else:
         when = f"in {days} Tagen"
     prefix = "Heim gegen" if is_home else "Auswärts bei"
-    return f"{prefix} {opp_name} {when} — alle Augen auf den FCB"
+    # Wettbewerb dazu wenn nicht Bundesliga
+    comp = m.get("_competition", "")
+    comp_suffix = f" ({comp})" if comp and comp != "Bundesliga" else ""
+    return f"{prefix} {opp_name} {when}{comp_suffix} — alle Augen auf den FCB"
 
 
 def main():

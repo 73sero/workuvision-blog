@@ -638,28 +638,135 @@ def _upgrade_image_url_resolution(url):
     return url
 
 
-def fetch_og_image_from_url(article_url):
-    """Lädt die Artikel-Seite und extrahiert das beste verfügbare Hauptbild.
-    Strategie:
-      1) Mehrere Bild-Kandidaten sammeln (og:image, og:image:secure_url,
-         twitter:image, twitter:image:src, JSON-LD image, schema:image)
-      2) Bei jedem Kandidaten die URL nach Möglichkeit auf höhere Auflösung
-         hochstufen (w=400 → w=1600 etc.)
-      3) Den ersten gefundenen Kandidaten zurückgeben
+def fetch_bluesky_image(bsky_url):
+    """Holt das embedded Bild aus einem Bluesky-Post via offizieller Bsky-API.
 
-    Special cases (skip):
-      - Bluesky URLs (bsky.app, *.bsky.app) — die og:image ist immer das
-        Avatar-Thumbnail des Posters, nicht der Artikel-Inhalt. Caller fällt
-        dann auf Subject-Lookup oder Stock zurück.
+    Bluesky-Posts haben verschiedene Embed-Typen:
+    - app.bsky.embed.images#view: Spieler/Foto direkt im Post (priorität 1)
+    - app.bsky.embed.external#view: Link zu Artikel mit thumb (priorität 2)
+
+    Die Bsky-API ist öffentlich (kein Auth-Key nötig).
+
+    Returns: tuple (image_url, fallback_article_url) oder (None, None)
+        image_url: direkte Bild-URL die geladen werden kann
+        fallback_article_url: URL des verlinkten Artikels (wenn external embed),
+            damit der Caller stattdessen ein hochwertigeres og:image scrapen kann
+    """
+    if not bsky_url or "bsky.app" not in bsky_url:
+        return None, None
+    m = re.match(r'https?://bsky\.app/profile/([^/]+)/post/([^/?#]+)', bsky_url)
+    if not m:
+        return None, None
+    handle, post_id = m.group(1), m.group(2)
+
+    try:
+        # Schritt 1: DID des Profils holen
+        prof_url = f"https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor={urllib.parse.quote(handle)}"
+        req = urllib.request.Request(prof_url, headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) "
+                          "AppleWebKit/605.1.15 Safari/605.1.15",
+            "Accept": "application/json",
+        })
+        with urllib.request.urlopen(req, timeout=10) as r:
+            profile = json.loads(r.read())
+        did = profile.get("did")
+        if not did:
+            return None, None
+
+        # Schritt 2: Post-Thread holen
+        at_uri = f"at://{did}/app.bsky.feed.post/{post_id}"
+        thread_url = (f"https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread"
+                      f"?uri={urllib.parse.quote(at_uri)}")
+        req = urllib.request.Request(thread_url, headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) "
+                          "AppleWebKit/605.1.15 Safari/605.1.15",
+            "Accept": "application/json",
+        })
+        with urllib.request.urlopen(req, timeout=10) as r:
+            thread = json.loads(r.read())
+
+        post = thread.get("thread", {}).get("post", {})
+        embed = post.get("embed") or post.get("record", {}).get("embed", {})
+        if not embed:
+            return None, None
+
+        # 1) Direkt eingebettete Bilder im Post (höchste Qualität)
+        if "images" in embed:
+            for img in embed.get("images", []):
+                full = img.get("fullsize")
+                if full:
+                    return full, None
+                thumb = img.get("thumb")
+                if thumb:
+                    return thumb, None
+
+        # 2) External-Embed (Link zu anderer Seite)
+        if "external" in embed:
+            ext = embed.get("external", {})
+            ext_thumb = ext.get("thumb")
+            ext_uri = ext.get("uri")
+            return ext_thumb, ext_uri
+
+        return None, None
+    except Exception as e:
+        print(f"     Bsky-API fehlgeschlagen ({bsky_url[:60]}): {e}")
+        return None, None
+
+
+def _resolve_redirect_url(url):
+    """Folgt HTTP-Redirects (z.B. dlvr.it Linktree) zur finalen URL.
+    Returns die aufgelöste URL oder None bei Fehler."""
+    if not url:
+        return None
+    try:
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) "
+                          "AppleWebKit/605.1.15 Safari/605.1.15",
+        })
+        with urllib.request.urlopen(req, timeout=10) as r:
+            return r.url
+    except Exception:
+        return None
+
+
+def fetch_og_image_from_url(article_url):
+    """Lädt das beste verfügbare Hauptbild für eine Artikel-URL.
+
+    Strategie:
+    - Bei Bluesky-URLs: Bsky-API benutzen
+        * Direkt eingebettete Bilder im Post (höchste Qualität)
+        * Bei external-Embed: erst og:image vom verlinkten Artikel holen
+          (oft hochauflösender als Bsky-Thumb), dann Bsky-Thumb als Fallback
+    - Bei normalen URLs: og:image-Tags + JSON-LD aus dem HTML extrahieren
+    - In allen Fällen: URL nach Möglichkeit auf höhere Auflösung hochsetzen
     """
     if not article_url:
         return None
 
-    # Bluesky liefert nur Avatar-Thumbnails als og:image — nicht nutzbar
+    # === Bluesky special case ===
     if "bsky.app" in article_url.lower():
-        print(f"     ⚠️  Bluesky-URL — og:image ist nur Avatar, skip")
+        bsky_img, fallback_url = fetch_bluesky_image(article_url)
+        # Wenn external embed mit Link: erst og:image vom verlinkten Artikel holen
+        if fallback_url:
+            resolved = _resolve_redirect_url(fallback_url) or fallback_url
+            print(f"     Bluesky-External → og:image vom verlinkten Artikel ({resolved[:70]})")
+            ext_og = _fetch_og_from_html(resolved)
+            if ext_og:
+                return ext_og
+        # Fallback: Bsky-Thumb selbst
+        if bsky_img:
+            print(f"     Bluesky-Thumb als Bild verwendet")
+            return _upgrade_image_url_resolution(bsky_img)
         return None
 
+    # === Normale URLs ===
+    return _fetch_og_from_html(article_url)
+
+
+def _fetch_og_from_html(article_url):
+    """Interner Helper: og:image aus HTML einer normalen Artikel-Seite scrapen."""
+    if not article_url:
+        return None
     try:
         req = urllib.request.Request(article_url, headers={
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) "
