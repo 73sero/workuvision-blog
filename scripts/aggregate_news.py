@@ -147,7 +147,16 @@ BAYERN_PLAYERS = {
     "Harry Kane":        "harry-kane",
     "Kane":              "harry-kane",
     "Nicolas Jackson":   "nicolas-jackson",
+    "Jackson":           "nicolas-jackson",
     "Lennart Karl":      "lennart-karl",
+    # ⚠️  "Karl" als Nachnamen-Match nicht hinzugefügt — ist zu generisch
+    # (auch Vorname/normales Wort), würde False Positives erzeugen
+    "Cassiano Ndiaye":   "cassiano-ndiaye",
+    "Ndiaye":            "cassiano-ndiaye",
+    "Tom Bischof":       "tom-bischof",
+    "Bischof":           "tom-bischof",
+    "Adam Pavic":        "adam-pavic",
+    "Pavic":             "adam-pavic",
     # Trainer
     "Vincent Kompany":   "vincent-kompany",
     "Kompany":           "vincent-kompany",
@@ -284,42 +293,57 @@ def fetch_wikipedia_image(subject_name):
 
 def find_subject_image(title, body=""):
     """Hauptfunktion: findet ein passendes Bild basierend auf Titel/Body.
-    Probiert Bayern-CDN zuerst (offizielle Pressefotos), dann Wikipedia.
-    Gibt eine Bild-URL zurück oder None.
+
+    Strategie:
+      1) Wenn 3+ Bayern-Spielernamen im Titel → Multi-Spieler-Thema, ein
+         einzelnes Spielerbild wäre irreführend → return None (Caller fällt
+         auf Stock zurück, was generischer aber thematisch passender ist)
+      2) Bayern-CDN: aktuelle offizielle Bayern-Pressefotos (immer korrektes
+         Bayern-Trikot)
+      3) Wikipedia: NUR für nicht-Bayern-Personen (Berater, andere Trainer
+         etc.). Wikipedia hat oft veraltete Bilder mit altem Vereinstrikot
+         (Beispiel: Guerreiro auf Wikipedia oft noch im BVB-Trikot)
+
+    Returns: Bild-URL oder None.
     """
     subjects = extract_subjects(title, body)
     if not subjects:
         return None
 
-    # Erstes Subjekt = wichtigstes (längster Match aus Titel)
+    # Multi-Spieler-Thema → einzelnes Spielerbild ist nicht repräsentativ
+    bayern_subjects = [s for s in subjects if s in BAYERN_PLAYERS]
+    if len(bayern_subjects) >= 2:
+        print(f"     ⚠️  {len(bayern_subjects)} Bayern-Spieler im Titel "
+              f"({', '.join(bayern_subjects[:5])}) — Stock-Fallback statt Einzelbild")
+        return None
+
     primary = subjects[0]
 
-    # 1) Bayern-CDN: nur für Bayern-Spieler/Trainer
+    # 1) Bayern-CDN für Bayern-Spieler/Trainer
     if primary in BAYERN_PLAYERS:
         slug = BAYERN_PLAYERS[primary]
         url = fetch_bayern_cdn_image(slug)
         if url:
             print(f"     🏟️  Bayern-CDN für '{primary}': gefunden")
             return url
+        # Wenn Bayern-CDN nichts hat: KEIN Wikipedia-Fallback weil Wikipedia
+        # oft Bilder vom ehemaligen Verein zeigt (z.B. Guerreiro im BVB-Trikot)
+        print(f"     ⚠️  '{primary}' im Bayern-CDN nicht gefunden — "
+              f"kein Wikipedia-Fallback (Vermeidung falscher Vereinstrikots)")
 
-    # 2) Wikipedia-Fallback: für Bayern-Spieler UND andere bekannte Subjekte
-    if primary in WIKIPEDIA_SUBJECTS or primary in BAYERN_PLAYERS:
+    # 2) Wikipedia: NUR für nicht-Bayern-Personen
+    if primary not in BAYERN_PLAYERS and primary in WIKIPEDIA_SUBJECTS:
         url = fetch_wikipedia_image(primary)
         if url:
-            print(f"     📖 Wikipedia für '{primary}': gefunden")
+            print(f"     📖 Wikipedia für '{primary}' (kein Bayern-Spieler): gefunden")
             return url
 
-    # 3) Wenn primary nichts brachte, andere Subjekte versuchen
+    # 3) Sekundäre Subjekte (nur Bayern-CDN)
     for s in subjects[1:3]:
         if s in BAYERN_PLAYERS:
             url = fetch_bayern_cdn_image(BAYERN_PLAYERS[s])
             if url:
                 print(f"     🏟️  Bayern-CDN für '{s}' (sekundär): gefunden")
-                return url
-        if s in WIKIPEDIA_SUBJECTS:
-            url = fetch_wikipedia_image(s)
-            if url:
-                print(f"     📖 Wikipedia für '{s}' (sekundär): gefunden")
                 return url
 
     return None
@@ -622,9 +646,20 @@ def fetch_og_image_from_url(article_url):
       2) Bei jedem Kandidaten die URL nach Möglichkeit auf höhere Auflösung
          hochstufen (w=400 → w=1600 etc.)
       3) Den ersten gefundenen Kandidaten zurückgeben
+
+    Special cases (skip):
+      - Bluesky URLs (bsky.app, *.bsky.app) — die og:image ist immer das
+        Avatar-Thumbnail des Posters, nicht der Artikel-Inhalt. Caller fällt
+        dann auf Subject-Lookup oder Stock zurück.
     """
     if not article_url:
         return None
+
+    # Bluesky liefert nur Avatar-Thumbnails als og:image — nicht nutzbar
+    if "bsky.app" in article_url.lower():
+        print(f"     ⚠️  Bluesky-URL — og:image ist nur Avatar, skip")
+        return None
+
     try:
         req = urllib.request.Request(article_url, headers={
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) "
