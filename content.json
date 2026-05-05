@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-05T11:11:30+00:00",
+  "lastUpdated": "2026-05-05T11:12:53+00:00",
   "tiktokStats": {
     "followers": 1375,
     "likes": "27K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Auswärts bei Wolfsburg in 4 Tagen — alle Augen auf den FCB",
+    "Hoeneß nennt Neffen Sebastian als möglichen Kompany-Nachfolger",
     "Pavlović: Bayerns stiller Unterschiedspieler gegen PSG",
     "Bayern verweigert PSG das Stammhotel vor dem Rückspiel",
     "Bayern präsentiert neues Heimtrikot für die Saison 2026/27",
     "Laimer-Vertrag: Bayern will bei Verlängerung hart bleiben",
-    "Goretzka trifft doppelt – und kämpft mit den Emotionen",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-05-hoeness-nennt-neffen-sebastian-als-moeglichen-komp",
+      "date": "2026-05-05",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-05-hoeness-nennt-neffen-sebastian-als-moeglichen-komp.jpg",
+      "thumbnailAlt": "Hoeneß nennt Neffen Sebastian als möglichen Kompany-Nachfolger",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Hoeneß nennt Neffen Sebastian als möglichen Kompany-Nachfolger",
+      "excerpt": "Bayerns Ehrenpräsident Uli Hoeneß lobt Vincent Kompany in höchsten Tönen – und bringt zugleich seinen Neffen als künftigen Trainer ins Gespräch.",
+      "body": "Ehrenpräsident Uli Hoeneß hat sich laut dem Spiegel lobend über Trainer Vincent Kompany geäußert und dessen Anteil am Erfolg des FC Bayern in dieser Saison hervorgehoben. Der Rekordmeister steht als Meister fest und hat mit dem Halbfinaleinzug in der Champions League für Aufsehen gesorgt.\n\nDoch Hoeneß blickte auch über Kompany hinaus: Der Spiegel berichtet, dass der Ehrenpräsident seinen Neffen Sebastian Hoeneß als möglichen zukünftigen Trainer der Münchner ins Gespräch gebracht hat. Sebastian Hoeneß trainiert derzeit den VfB Stuttgart und gilt als einer der interessantesten deutschen Trainer seiner Generation.\n\nEine konkrete Nachfolgediskussion ist damit offiziell nicht verbunden – Kompany besitzt einen laufenden Vertrag und führt den FCB aktuell durch das Champions-League-Halbfinale gegen Paris Saint-Germain. Die Äußerungen von Uli Hoeneß dürften dennoch Gesprächsstoff liefern, zumal das Rückspiel in der Allianz Arena bereits in wenigen Tagen ansteht.",
+      "sourceUrl": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-uli-hoeness-sieht-seinen-neffen-sebastian-als-moeglichen-nachfolger-von-vincent-kompany-a-9dd09ef4-03b0-4901-b921-8ff8ecf6963a#ref=rss",
+      "sourceName": "Spiegel Sport"
+    },
     {
       "slug": "2026-05-05-pavlovi-bayerns-stiller-unterschiedspieler-gegen-p",
       "date": "2026-05-05",
