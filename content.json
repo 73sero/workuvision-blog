@@ -1,23 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-06T17:29:01+00:00",
+  "lastUpdated": "2026-05-06T19:10:51+00:00",
   "tiktokStats": {
-    "followers": 1374,
+    "followers": 1375,
     "likes": "27K",
     "videos": 57
   },
   "ticker": [
     "Heim gegen Paris heute (Champions League) — alle Augen auf den FCB",
+    "Vorbericht: Bayern empfängt Paris im CL-Halbfinale",
     "Neuer verlängert, Laimer vor dem Abgang",
     "Arsenal im Finale: Bayern kennt nun den möglichen Gegner",
     "Chelsea und Barcelona sollen Harry Kane umwerben",
     "Bayerns Kadertiefe: Ist die Bank ein Risikofaktor?",
-    "Dreifaches Comeback: Bischof, Karl und Guerreiro fit für PSG",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-06-vorbericht-bayern-paris",
+      "date": "2026-05-06",
+      "category": "tactics",
+      "badge": "Vorbericht",
+      "badgeColor": "bv",
+      "thumbnail": "img/hero.jpg",
+      "thumbnailAlt": "Vorbericht: Bayern empfängt Paris im CL-Halbfinale",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Vorbericht: Bayern empfängt Paris im CL-Halbfinale",
+      "excerpt": "Am Mittwochabend empfängt der FC Bayern Paris Saint-Germain im Rückspiel des Champions-League-Halbfinales. Anpfiff in der Allianz Arena ist um 21:00 Uhr.",
+      "body": "Der FC Bayern empfängt Paris Saint-Germain am Mittwoch, den 6. Mai 2026, zum Rückspiel des Champions-League-Halbfinales. Anpfiff in der Allianz Arena ist um 21:00 Uhr. Für den Rekordmeister geht es um den Einzug ins Finale der Königsklasse.\n\nDie Aufstellung steht noch aus. Vincent Kompany wird seine Startelf voraussichtlich erst kurz vor dem Spiel bekanntgeben.\n\nDer FCB steht vor einer taktisch anspruchsvollen Aufgabe gegen einen der besten Klubs Europas. Wie die Münchner in dieser Begegnung auftreten und welche Mittel Kompany wählt, wird sich spätestens beim Anpfiff zeigen.",
+      "showLineup": true
+    },
     {
       "slug": "2026-05-06-neuer-verlaengert-laimer-vor-dem-abgang",
       "date": "2026-05-06",
@@ -631,21 +646,6 @@
       "excerpt": "Erstes Team in der Bundesliga-Geschichte mit 100+ Toren nach 28 Spieltagen.",
       "body": "Erstes Team in der Bundesliga-Geschichte mit 100+ Toren nach 28 Spieltagen. Die Zahlen: Kane 31 Tore, Díaz 15, Olise 11 + 18 Assists.\n\nKompany vergleicht Olise öffentlich mit De Bruyne: „Er ist bereits so gut wie der beste Spieler, den City je hatte.\" 77% Siegquote unter Kompany in 62 Spielen.\n\nDie taktische DNA: hohes Pressing, schnelle Flügelwechsel, Kane als Gravitationszentrum.",
       "source": "workuvision"
-    },
-    {
-      "slug": "2026-04-03-torwart-chaos",
-      "date": "2026-04-03",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-04-03-torwart-chaos.jpg",
-      "thumbnailAlt": "Stadion Nacht",
-      "readtime": "10 Min.",
-      "featured": false,
-      "title": "Das Torwart-Chaos: Neuer, Nübel, Urbig, Baumann",
-      "excerpt": "Manuel Neuer wird in 4 Wochen 40 — dann entscheidet sein Körper über die Zukunft.",
-      "body": "Manuel Neuer wird in 4 Wochen 40 — dann entscheidet sein Körper über die Zukunft. Klar ist: Er beendet seine Karriere in München, kein Auslandswechsel.\n\nUlreich (37) könnte einen neuen Einjahresvertrag bekommen. Jonas Urbig ist als Nummer 1 der Zukunft geplant, fällt aber aktuell verletzt aus.\n\nAlexander Nübel will zurück, aber sein Gehalt (unterer zweistelliger Millionenbereich) macht es kompliziert — Stuttgart zahlt nur 30%. Und dann ist da noch Baumann als günstige Backup-Option, plus Gerüchte um Daniel Heuer Fernandes vom HSV.\n\nSaid El Mala, der heiße Flügelspieler, wurde intensiv beobachtet, ist aber wohl vom Markt.",
-      "source": "workuvision"
     }
   ],
   "tiktokVideosAuto": false,
@@ -654,6 +654,9 @@
   "matchPostsTracker": {
     "77536": {
       "post": true
+    },
+    "81429": {
+      "pre": true
     }
   }
 }
