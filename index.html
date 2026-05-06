@@ -64,7 +64,8 @@
 
     /* Hero */
     .hero{min-height:100vh;position:relative;overflow:hidden;display:flex;align-items:center;padding:8rem 2.5rem 5rem}
-    .hero-bg{position:absolute;inset:0;background:url('img/hero.jpg') center/cover;filter:brightness(.18) saturate(1.2);transform:scale(1.05);transition:transform 8s}.hero:hover .hero-bg{transform:scale(1)}
+    .hero-bg{position:absolute;inset:0;background:url('img/hero-pyro.jpg') center/cover;filter:brightness(.42) saturate(1.25) contrast(1.05);transform:scale(1.05);transition:transform 8s}.hero:hover .hero-bg{transform:scale(1)}
+    @media(max-width:768px){.hero-bg{background-image:url('img/hero-pyro-mobile.jpg')}}
     .hero-ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,10,16,.7) 0%,rgba(6,10,16,.3) 40%,rgba(6,10,16,.85) 100%),radial-gradient(ellipse 70% 50% at 30% 50%,rgba(220,5,45,.08),transparent 60%)}
     .hero-ln{position:absolute;inset:0;overflow:hidden;opacity:.04}.hero-ln::before{content:'';position:absolute;inset:-50%;background:repeating-linear-gradient(-45deg,transparent,transparent 80px,rgba(220,5,45,.5) 80px,rgba(220,5,45,.5) 81px);animation:ld 20s linear infinite}@keyframes ld{from{transform:translateX(0)}to{transform:translateX(113px)}}
     .hero-c{max-width:var(--mw);margin:0 auto;width:100%;display:grid;grid-template-columns:1.15fr .85fr;gap:5rem;align-items:center;position:relative;z-index:2}
