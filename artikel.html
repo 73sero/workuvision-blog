@@ -762,8 +762,10 @@
             </div>
           </section>` : '';
 
-        // Vorbericht-Artikel: Aufstellung mit anzeigen
-        const showLineup = article.showLineup === true || article.badge === 'Vorbericht';
+        // Aufstellungs-System wurde entfernt — wir zeigen die Aufstellung
+        // nicht mehr an, da die Datenquellen unzuverlässig waren. Vorberichte
+        // erwähnen die Aufstellung jetzt im Fließtext, wenn relevant.
+        const showLineup = false;
         const lineupSection = showLineup ? `
           <div class="lineup-wrapper" id="lineup-section">
             <div class="lineup-wrapper-h">

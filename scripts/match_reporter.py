@@ -174,9 +174,9 @@ def get_match_phase():
     # damit auch CL-Halbfinale-Spiele Vorberichte/Spielberichte bekommen
     competition_urls = [
         ("https://api.openligadb.de/getmatchdata/bl1/2025",     "Bundesliga"),
-        ("https://api.openligadb.de/getmatchdata/ucl2025/2025", "Champions League"),
-        ("https://api.openligadb.de/getmatchdata/ucl24/2025",   "Champions League"),
-        ("https://api.openligadb.de/getmatchdata/dfb24/2025",   "DFB-Pokal"),
+        ("https://api.openligadb.de/getmatchdata/ucl/2025", "Champions League"),
+        ("https://api.openligadb.de/getmatchdata/ucl2025/2025",   "Champions League"),
+        ("https://api.openligadb.de/getmatchdata/dfb/2025",   "DFB-Pokal"),
     ]
     all_data = []
     for url, comp in competition_urls:
@@ -596,20 +596,10 @@ def add_article_to_content(content, post_data, kind, slug_suffix, source_url=Non
         "excerpt": post_data.get("excerpt","")[:250],
         "body": post_data.get("body",""),
     }
-    # Vorbericht-Artikel kriegen ein Marker-Feld, damit das Frontend die
-    # taktische Aufstellung (lineup-override.json) im Artikel anzeigen kann.
-    if kind == "preview":
-        article["showLineup"] = True
-        # WICHTIG: Aufstellung MIT in den Artikel speichern, sodass sie auch
-        # nach Spielende erhalten bleibt (lineup-override.json wird beim Post-Match
-        # geleert). So zeigt der Vorbericht-Artikel auch in Wochen die richtige
-        # Aufstellung an.
-        cur_lineup = content.get("currentLineup")
-        opp_lineup = content.get("opponentLineup")
-        if cur_lineup and isinstance(cur_lineup, dict) and len(cur_lineup.get("starters", [])) == 11:
-            article["embeddedLineup"] = cur_lineup
-        if opp_lineup and isinstance(opp_lineup, dict) and len(opp_lineup.get("starters", [])) == 11:
-            article["embeddedOpponentLineup"] = opp_lineup
+    # showLineup-Feld wurde entfernt — die Aufstellungs-Anzeige im Frontend
+    # ist deaktiviert (Datenquellen waren unzuverlässig). Der Vorbericht-
+    # Body kann die voraussichtliche Aufstellung im Fließtext erwähnen
+    # wenn die Information vorliegt.
     if source_url:
         article["sourceUrl"] = source_url
     if source_name:

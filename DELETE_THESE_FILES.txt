@@ -1,0 +1,13 @@
+Bitte folgende Dateien aus dem Live-Repo MANUELL löschen
+(GitHub Web-Interface → Datei öffnen → Trash-Icon):
+
+  lineup-override.json     ← Aufstellungs-Frontend ist deaktiviert,
+                             diese Datei wird nicht mehr gebraucht.
+
+Auf GitHub:
+  https://github.com/73sero/workuvision-blog/blob/main/lineup-override.json
+  → "Delete this file" Button rechts oben
+
+Optional auch löschen (sind nicht mehr in Verwendung):
+  scripts/update_lineups.py    (im Update durch No-Op ersetzt — bleibt drin
+                                damit der Workflow nicht failed)
