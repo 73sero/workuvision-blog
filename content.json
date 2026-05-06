@@ -1,23 +1,37 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-05T12:44:55+00:00",
+  "lastUpdated": "2026-05-06T21:52:24+00:00",
   "tiktokStats": {
     "followers": 1375,
     "likes": "27K",
-    "videos": 56
+    "videos": 57
   },
   "ticker": [
-    "Auswärts bei Wolfsburg in 4 Tagen — alle Augen auf den FCB",
+    "Auswärts bei Wolfsburg in 2 Tagen — alle Augen auf den FCB",
+    "FC Bayern 1:1 gegen PSG — Aus im Halbfinale",
     "Dreifaches Comeback: Bischof, Karl und Guerreiro fit für PSG",
     "Hoeneß nennt Neffen Sebastian als möglichen Kompany-Nachfolger",
     "Pavlović: Bayerns stiller Unterschiedspieler gegen PSG",
     "Bayern verweigert PSG das Stammhotel vor dem Rückspiel",
-    "Bayern präsentiert neues Heimtrikot für die Saison 2026/27",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-06-spielbericht-bayern-paris-saint-germain",
+      "date": "2026-05-06",
+      "category": "reaction",
+      "badge": "Spielbericht",
+      "badgeColor": "brc",
+      "thumbnail": "img/football.jpg",
+      "thumbnailAlt": "FC Bayern 1:1 gegen PSG — Aus im Halbfinale",
+      "readtime": "4 Min.",
+      "featured": true,
+      "title": "FC Bayern 1:1 gegen PSG — Aus im Halbfinale",
+      "excerpt": "Bayern München scheidet nach einem 1:1 im Rückspiel mit 5:6 auf Gesamtniveau aus der Champions League aus.",
+      "body": "Bayern München ist im Halbfinale der Champions League gescheitert. Das Rückspiel gegen Paris Saint-Germain endete vor heimischer Kulisse in der Allianz Arena 1:1, womit der FCB das Gesamtergebnis auf 5:6 nicht mehr drehen konnte. PSG traf früh in der dritten Minute zur Führung, Bayern gelang erst in der Nachspielzeit der 94. Minute der Ausgleich — zu spät für das Weiterkommen.\n\nDie frühe Gegentreffer-Situation zwang die Münchner, den Abend lang einem Rückstand hinterherzulaufen. Trotz des späten Ausgleichtreffers fehlte Bayern über weite Strecken die Kaltschnäuzigkeit in entscheidenden Momenten. Kapitän Manuel Neuer räumte nach dem Abpfiff ein, dass die Mannschaft die nötige Präzision im Abschluss vermissen ließ und PSG die Kontrolle über das Gesamtaggregat nie ernsthaft gefährdet sah.\n\nFür Bayern bedeutet das Ausscheiden das Ende der europäischen Ambitionen in dieser Saison. Relevant bleibt die Frage, wie viele Champions-League-Startplätze die Bundesliga für 2026/27 erhält — nach dem Münchner Aus ist Freiburgs Abschneiden in Europa mitentscheidend. Intern verbleiben noch die Bundesliga-Abschlusspartien gegen Wolfsburg und Köln sowie das DFB-Pokalfinale gegen Stuttgart in Berlin als verbliebene Saisonziele."
+    },
     {
       "slug": "2026-05-05-dreifaches-comeback-bischof-karl-und-guerreiro-fit",
       "date": "2026-05-05",
@@ -430,6 +444,9 @@
   "opponentLineup": null,
   "matchPostsTracker": {
     "77536": {
+      "post": true
+    },
+    "81435": {
       "post": true
     }
   }
