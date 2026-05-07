@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-07T06:29:56+00:00",
+  "lastUpdated": "2026-05-07T11:43:04+00:00",
   "tiktokStats": {
     "followers": 1374,
     "likes": "27K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Auswärts bei Wolfsburg in 2 Tagen — alle Augen auf den FCB",
+    "Schiedsrichter Pinheiro: Bayerns Ärger mit Einschränkungen",
     "Dreifaches Comeback: Bischof, Karl und Guerreiro fit für PSG",
     "Hoeneß nennt Neffen Sebastian als möglichen Kompany-Nachfolger",
     "Pavlović: Bayerns stiller Unterschiedspieler gegen PSG",
     "Bayern verweigert PSG das Stammhotel vor dem Rückspiel",
-    "Bayern präsentiert neues Heimtrikot für die Saison 2026/27",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-07-schiedsrichter-pinheiro-bayerns-aerger-mit-einschr",
+      "date": "2026-05-07",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-07-schiedsrichter-pinheiro-bayerns-aerger-mit-einschr.jpg",
+      "thumbnailAlt": "Schiedsrichter Pinheiro: Bayerns Ärger mit Einschränkungen",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Schiedsrichter Pinheiro: Bayerns Ärger mit Einschränkungen",
+      "excerpt": "Nach dem Halbfinal-Aus gegen PSG debattiert der FC Bayern über zwei strittige Schiedsrichterentscheidungen – mit unterschiedlichem Ergebnis.",
+      "body": "Der FC Bayern München ist im Champions-League-Halbfinale gegen Paris Saint-Germain ausgeschieden. Das Rückspiel endete 1:1, auf Gesamtbasis verloren die Münchner mit 5:6. Im Mittelpunkt der Nachbetrachtung steht Schiedsrichter João Pinheiro, dem die Bayern-Seite eine folgenschwere Fehlentscheidung vorwirft.\n\nLaut der Süddeutschen Zeitung und der FAZ standen zwei Handszenen im Fokus. Die FAZ urteilt, dass Pinheiro in einer Situation regelkonform entschied, während die zweite Szene tatsächlich diskussionswürdig ist. Die Süddeutsche Zeitung ergänzt, dass der VAR in dem strittigen Fall aufgrund der geltenden Vorschriften nicht eingreifen durfte – weshalb ein möglicher Elfmeter für Bayern ausblieb.\n\nJosip Stanišić äußerte sich laut Sportschau offen über den Unparteiischen und erklärte, er habe dessen Entscheidungen in bestimmten Momenten nicht nachvollziehen können. Das Ausscheiden bleibt damit von einem zwiespältigen Gefühl begleitet: Der Schiedsrichter trug in einer Szene tatsächlich Mitschuld – doch das Scheitern der Münchner erklärt das allein nicht.",
+      "sourceUrl": "https://www.sueddeutsche.de/sport/bayern-psg-schiedsrichter-hand-mendes-li.3479847",
+      "sourceName": "Süddeutsche Sport"
+    },
     {
       "slug": "2026-05-05-dreifaches-comeback-bischof-karl-und-guerreiro-fit",
       "date": "2026-05-05",
