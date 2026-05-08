@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-08T11:02:47+00:00",
+  "lastUpdated": "2026-05-08T17:02:52+00:00",
   "tiktokStats": {
-    "followers": 1374,
+    "followers": 1373,
     "likes": "28K",
     "videos": 58
   },
   "ticker": [
     "Auswärts bei Wolfsburg morgen — alle Augen auf den FCB",
+    "Davies erleidet Muskelverletzung – Saison vorzeitig beendet",
     "Bayern testet Tornike Kvaratskhelia – Freund bestätigt",
     "Wie Luis Enrique Michael Olise im Halbfinale ausschaltete",
     "Laimer-Abgang: Bayern akzeptiert ablösefreien Wechsel",
     "Schiedsrichter Pinheiro: Bayerns Ärger mit Einschränkungen",
-    "Dreifaches Comeback: Bischof, Karl und Guerreiro fit für PSG",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-08-davies-erleidet-muskelverletzung-saison-vorzeitig",
+      "date": "2026-05-08",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-08-davies-erleidet-muskelverletzung-saison-vorzeitig.jpg",
+      "thumbnailAlt": "Davies erleidet Muskelverletzung – Saison vorzeitig beendet",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Davies erleidet Muskelverletzung – Saison vorzeitig beendet",
+      "excerpt": "Alphonso Davies fällt beim FC Bayern mehrere Wochen aus. Auch seine WM-Vorbereitung gerät damit in Gefahr.",
+      "body": "Der FC Bayern muss auf Alphonso Davies verzichten. Wie der Klub offiziell bestätigte, zog sich der Linksverteidiger im Champions-League-Halbfinal-Rückspiel gegen Paris Saint-Germain eine Muskelverletzung im linken Oberschenkel zu. Die Ausfallzeit beträgt laut Vereinsangaben mehrere Wochen.\n\nDamit ist die Saison für den 25-Jährigen vorzeitig beendet. Der kicker berichtet auf Bluesky, dass durch den Ausfall auch die Vorbereitung von Davies auf die bevorstehende Weltmeisterschaft erheblich gestört wird. Der Zeitplan für seine Rückkehr bleibt eng.\n\nFür die Münchner ist es ein weiterer Rückschlag in einer Woche, in der bereits das Aus in der Champions League zu verkraften war. In den verbleibenden Bundesliga-Spielen sowie einem möglichen DFB-Pokal-Endspiel fehlt Trainer Vincent Kompany damit eine wichtige Option auf der linken Abwehrseite.",
+      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mldm6wkrao2h",
+      "sourceName": "kicker (Bluesky)"
+    },
     {
       "slug": "2026-05-08-bayern-testet-tornike-kvaratskhelia-freund-bestaet",
       "date": "2026-05-08",
@@ -471,21 +487,6 @@
       "title": "100+ Tore in 28 Spielen — Historische Kompany-Maschine",
       "excerpt": "Erstes Team in der Bundesliga-Geschichte mit 100+ Toren nach 28 Spieltagen.",
       "body": "Erstes Team in der Bundesliga-Geschichte mit 100+ Toren nach 28 Spieltagen. Die Zahlen: Kane 31 Tore, Díaz 15, Olise 11 + 18 Assists.\n\nKompany vergleicht Olise öffentlich mit De Bruyne: „Er ist bereits so gut wie der beste Spieler, den City je hatte.\" 77% Siegquote unter Kompany in 62 Spielen.\n\nDie taktische DNA: hohes Pressing, schnelle Flügelwechsel, Kane als Gravitationszentrum.",
-      "source": "workuvision"
-    },
-    {
-      "slug": "2026-04-03-torwart-chaos",
-      "date": "2026-04-03",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-04-03-torwart-chaos.jpg",
-      "thumbnailAlt": "Stadion Nacht",
-      "readtime": "10 Min.",
-      "featured": false,
-      "title": "Das Torwart-Chaos: Neuer, Nübel, Urbig, Baumann",
-      "excerpt": "Manuel Neuer wird in 4 Wochen 40 — dann entscheidet sein Körper über die Zukunft.",
-      "body": "Manuel Neuer wird in 4 Wochen 40 — dann entscheidet sein Körper über die Zukunft. Klar ist: Er beendet seine Karriere in München, kein Auslandswechsel.\n\nUlreich (37) könnte einen neuen Einjahresvertrag bekommen. Jonas Urbig ist als Nummer 1 der Zukunft geplant, fällt aber aktuell verletzt aus.\n\nAlexander Nübel will zurück, aber sein Gehalt (unterer zweistelliger Millionenbereich) macht es kompliziert — Stuttgart zahlt nur 30%. Und dann ist da noch Baumann als günstige Backup-Option, plus Gerüchte um Daniel Heuer Fernandes vom HSV.\n\nSaid El Mala, der heiße Flügelspieler, wurde intensiv beobachtet, ist aber wohl vom Markt.",
       "source": "workuvision"
     }
   ],
