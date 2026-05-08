@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-08T05:51:43+00:00",
+  "lastUpdated": "2026-05-08T11:02:47+00:00",
   "tiktokStats": {
-    "followers": 1373,
+    "followers": 1374,
     "likes": "28K",
     "videos": 58
   },
   "ticker": [
     "Auswärts bei Wolfsburg morgen — alle Augen auf den FCB",
+    "Bayern testet Tornike Kvaratskhelia – Freund bestätigt",
     "Wie Luis Enrique Michael Olise im Halbfinale ausschaltete",
     "Laimer-Abgang: Bayern akzeptiert ablösefreien Wechsel",
     "Schiedsrichter Pinheiro: Bayerns Ärger mit Einschränkungen",
     "Dreifaches Comeback: Bischof, Karl und Guerreiro fit für PSG",
-    "Hoeneß nennt Neffen Sebastian als möglichen Kompany-Nachfolger",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-08-bayern-testet-tornike-kvaratskhelia-freund-bestaet",
+      "date": "2026-05-08",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-08-bayern-testet-tornike-kvaratskhelia-freund-bestaet.jpg",
+      "thumbnailAlt": "Bayern testet Tornike Kvaratskhelia – Freund bestätigt",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Bayern testet Tornike Kvaratskhelia – Freund bestätigt",
+      "excerpt": "Der FC Bayern nimmt einen Spieler mit bekanntem Nachnamen unter die Lupe: Sportdirektor Christoph Freund bestätigte das Probetraining mit Tornike Kvaratskhelia.",
+      "body": "Der FC Bayern hat nach dem Champions-League-Aus gegen Paris Saint-Germain den Blick bereits nach vorne gerichtet. Wie der kicker auf Bluesky berichtet, testet der Rekordmeister derzeit Tornike Kvaratskhelia – einen Spieler, dessen Nachname aus dem europäischen Fußball bestens bekannt ist. Sportdirektor Christoph Freund bestätigte den Probetraining auf einer Pressekonferenz am Freitag.\n\nÜber die genauen Modalitäten und eine mögliche Verpflichtung äußerte sich Freund laut kicker nicht weiter. Tornike Kvaratskhelia ist der Bruder von Chwitscha Kvaratskhelia, der zuletzt mit Paris Saint-Germain im Champions-League-Halbfinale gegen die Bayern auftrat und in beiden Begegnungen entscheidend zur Münchner Niederlage beitrug.\n\nOb aus dem Probetraining ein konkretes Angebot folgt, ist nach aktuellem Stand offen. Die Bayern suchen im Sommer offenbar gezielt nach Verstärkungen – auch aus dem Umfeld bekannter Namen. Nähere Informationen dürften in den kommenden Wochen folgen.",
+      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mldg5zya3r2o",
+      "sourceName": "kicker (Bluesky)"
+    },
     {
       "slug": "2026-05-08-wie-luis-enrique-michael-olise-im-halbfinale-aussc",
       "date": "2026-05-08",
