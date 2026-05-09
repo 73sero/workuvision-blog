@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-09T16:28:21+00:00",
+  "lastUpdated": "2026-05-09T16:41:44+00:00",
   "tiktokStats": {
     "followers": 1372,
     "likes": "28K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Auswärts bei Wolfsburg heute — alle Augen auf den FCB",
+    "FC Bayern Frauen: Vierter Meistertitel in Serie perfekt",
     "Vorbericht: Bayern gastiert am Samstag in Wolfsburg",
     "Goretzka kurz vor ablösefreiem Wechsel zu AC Milan",
     "Bayern intern unzufrieden: Davies' Verletzungshistorie sorgt für Unmut",
     "Davies erleidet Muskelverletzung – Saison vorzeitig beendet",
-    "Bayern testet Tornike Kvaratskhelia – Freund bestätigt",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-09-fc-bayern-frauen-vierter-meistertitel-in-serie-per",
+      "date": "2026-05-09",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-09-fc-bayern-frauen-vierter-meistertitel-in-serie-per.jpg",
+      "thumbnailAlt": "FC Bayern Frauen: Vierter Meistertitel in Serie perfekt",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "FC Bayern Frauen: Vierter Meistertitel in Serie perfekt",
+      "excerpt": "Die Fußballfrauen des FC Bayern haben beim letzten Heimspiel der Saison die Meisterschale entgegengenommen – mit einem 2:0-Sieg gegen Eintracht Frankfurt.",
+      "body": "Die Fußballfrauen des FC Bayern München haben ihren vierten deutschen Meistertitel in Folge gefeiert. Beim letzten Heimspiel der Saison bezwangen sie Eintracht Frankfurt mit 2:0, wie die Tagesschau und die FAZ berichten. Mannschaft und Fans feierten anschließend gemeinsam die Übergabe der Meisterschale.\n\nDamit krönen die Münchnerinnen laut Tagesschau Sport eine überragende Saison mit dem erneuten Titelgewinn. Der Sieg gegen den Tabellendritten Frankfurt diente dabei gleichzeitig als Generalprobe vor dem anstehenden Pokalfinale, wie Miasanrot berichtet.\n\nMit vier aufeinanderfolgenden Meisterschaften hat die Frauenmannschaft des FC Bayern eine bemerkenswerte Dominanz in der Frauen-Bundesliga etabliert. Das Pokalfinale steht als nächste große Aufgabe bereits auf dem Programm.",
+      "sourceUrl": "https://www.sportschau.de/regional/br/br-vierter-titel-in-folge-fc-bayern-frauen-feiern-meisterschaft-102.html",
+      "sourceName": "Tagesschau Sport"
+    },
     {
       "slug": "2026-05-09-vorbericht-bayern-wolfsburg",
       "date": "2026-05-09",
@@ -473,21 +489,6 @@
       "title": "PSG vs Bayern — Das CL-Halbfinale, das alle wollen",
       "excerpt": "Nach dem dramatischen 4:3 in Mainz wartet nun der Wahnsinn von Paris. PSG ist laut Luis Enrique „in der besten Form aller Zeiten\".",
       "body": "Nach dem dramatischen 4:3 in Mainz (von 0:3 zurückgekommen!) wartet nun der Wahnsinn von Paris. PSG ist laut Luis Enrique „in der besten Form aller Zeiten\" — Bayern unter Kompany hat aber gezeigt, dass sie auch dann zurückkommen, wenn alles verloren scheint.\n\nSchiedsrichter Sandro Schärer leitet das Hinspiel. Schlüsselduelle: Olise, der gegen Mainz schon ein Traumtor erzielte, gegen die Pariser Defensive. Musiala ist nach Verletzung wieder in Topform — Kompany lobte ausdrücklich seine wiedergefundene Leichtigkeit. Kane will den ersten CL-Titel seines Lebens.\n\nDas Rückspiel steigt eine Woche später in der Allianz Arena.",
-      "source": "workuvision"
-    },
-    {
-      "slug": "2026-04-28-goretzka-milan-gordon",
-      "date": "2026-04-28",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-04-28-goretzka-milan-gordon.jpg",
-      "thumbnailAlt": "Transfer",
-      "readtime": "8 Min.",
-      "featured": false,
-      "title": "Goretzka-Milan fix? Und Bayern jagt Anthony Gordon",
-      "excerpt": "Laut Gazzetta dello Sport hat Leon Goretzka „grünes Licht\" für einen Wechsel zur AC Milan gegeben.",
-      "body": "Laut Gazzetta dello Sport hat Leon Goretzka „grünes Licht\" für einen Wechsel zur AC Milan gegeben. Dreijahresvertrag mit Option liegt bereit, Allegri hat sich persönlich um den Mittelfeldspieler bemüht.\n\nParallel dazu hat Bayern laut dem belgischen Journalisten Sacha Tavolieri Kontakt zu Newcastles Anthony Gordon (25) aufgenommen — 10 CL-Tore und 6 Premier-League-Treffer in dieser Saison. Auch Liverpool soll im Rennen sein.\n\nEberl bestätigt zudem im ZDF-Sportstudio: Nicolas Jackson kehrt nach der Saison zu Chelsea zurück, die Kaufoption greift nicht.",
       "source": "workuvision"
     }
   ],
