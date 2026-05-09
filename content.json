@@ -1,23 +1,53 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-09T18:13:49+00:00",
+  "lastUpdated": "2026-05-09T19:39:39+00:00",
   "tiktokStats": {
     "followers": 1372,
     "likes": "28K",
     "videos": 58
   },
   "ticker": [
-    "Auswärts bei Wolfsburg heute — alle Augen auf den FCB",
+    "Heim gegen Köln in 6 Tagen — alle Augen auf den FCB",
+    "Olise-Traumtor rettet Bayern: 1:0-Sieg beim VfL Wolfsburg",
+    "VfL Wolfsburg 0:1 FC Bayern – Olise entscheidet knappes Auswärtsspiel",
     "Bayern visiert Gordon an: Erste Gespräche mit Newcastle geführt",
     "Hamann kritisiert Bayern und Kompany nach PSG-Aus",
     "FC Bayern Frauen: Vierter Meistertitel in Serie perfekt",
-    "Vorbericht: Bayern gastiert am Samstag in Wolfsburg",
-    "Goretzka kurz vor ablösefreiem Wechsel zu AC Milan",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-09-olise-traumtor-rettet-bayern-1-0-sieg-beim-vfl-wol",
+      "date": "2026-05-09",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-09-olise-traumtor-rettet-bayern-1-0-sieg-beim-vfl-wol.jpg",
+      "thumbnailAlt": "Olise-Traumtor rettet Bayern: 1:0-Sieg beim VfL Wolfsburg",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Olise-Traumtor rettet Bayern: 1:0-Sieg beim VfL Wolfsburg",
+      "excerpt": "Ein Kunstschuss von Michael Olise entscheidet das knappe Bundesliga-Gastspiel des FC Bayern beim abstiegsbedrohten VfL Wolfsburg – trotz eines verschossenen Elfmeters von Harry Kane.",
+      "body": "Am 33. Bundesliga-Spieltag hat der FC Bayern München beim VfL Wolfsburg mit 1:0 gewonnen. Laut kicker dominierten die Gastgeber vor allem den ersten Abschnitt und setzten die Münchner dabei deutlich unter Druck. Erst nach der Pause fanden die Bayern zu ihrem Spiel und nutzten ihre Überlegenheit zum entscheidenden Treffer.\n\nMichael Olise erzielte in der 56. Minute per feinem Solo und präzisem Abschluss das einzige Tor der Partie, wie kicker und Sportschau übereinstimmend berichten. Zuvor hatte Harry Kane erstmals in seiner Bundesliga-Zeit einen Elfmeter verschossen. Torhüter Jonas Urbig sicherte auf der anderen Seite einige Wolfsburger Möglichkeiten, ehe die Gastgeber auch noch Aluminiumpech hinnehmen mussten.\n\nDurch die Niederlage gehen die Wolfsburger punktgleich mit einem direkten Konkurrenten in das letzte Saisonspiel bei St. Pauli — ein Endspiel um den Klassenverbleib. Für Werder Bremen und den 1. FC Köln hingegen bedeutet das Bayern-Ergebnis den endgültigen Ligaverbleib, wie Sport1 meldet. Den Münchnern bleibt vor dem Saisonfinale noch das DFB-Pokalfinale gegen den VfB Stuttgart.",
+      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mlgvuzl2zw23",
+      "sourceName": "kicker (Bluesky)"
+    },
+    {
+      "slug": "2026-05-09-spielbericht-bayern-wolfsburg",
+      "date": "2026-05-09",
+      "category": "reaction",
+      "badge": "Spielbericht",
+      "badgeColor": "brc",
+      "thumbnail": "img/hero.jpg",
+      "thumbnailAlt": "VfL Wolfsburg 0:1 FC Bayern – Olise entscheidet knappes Auswärtsspiel",
+      "readtime": "4 Min.",
+      "featured": true,
+      "title": "VfL Wolfsburg 0:1 FC Bayern – Olise entscheidet knappes Auswärtsspiel",
+      "excerpt": "Der FC Bayern München gewinnt beim VfL Wolfsburg knapp mit 1:0. Michael Olise erzielte in der 56. Minute das einzige Tor der Partie.",
+      "body": "Der FC Bayern München hat beim VfL Wolfsburg einen 1:0-Auswärtssieg eingefahren. Die Partie verlief über weite Strecken zäh, Wolfsburg präsentierte sich als unbequemer Gegner und agierte phasenweise gefährlicher als die Münchner. Letztlich reichte ein einziger Treffer, um die drei Punkte zu sichern.\n\nDen entscheidenden Moment lieferte Michael Olise in der 56. Minute mit einem sehenswerten Kunstschuss, der den Unterschied machte. Bereits in der 35. Minute hatte der FCB einen Elfmeter zugesprochen bekommen, nachdem Olise im Strafraum gefoult worden war – doch Harry Kane scheiterte vom Punkt. Berichten zufolge soll ein Wolfsburger Spieler den Elfmeterpunkt vor Kanes Anlauf manipuliert haben. Olise wurde als bester Spieler der Partie ausgezeichnet.\n\nFür den FC Bayern bedeutet der Sieg die Fortsetzung einer konzentrierten Restsaison nach dem Ausscheiden in der Champions League gegen Paris Saint-Germain. Im Fokus steht nun das DFB-Pokalfinale gegen VfB Stuttgart, das noch aussteht. Die Meisterschale hatten die Münchner bereits am vorangegangenen Heimspieltag nach dem 2:0 gegen Eintracht Frankfurt in Empfang genommen."
+    },
     {
       "slug": "2026-05-09-bayern-visiert-gordon-an-erste-gespraeche-mit-newc",
       "date": "2026-05-09",
@@ -459,38 +489,6 @@
       "body": "Laut Bavarian Football Works muss Vincent Kompany das Halbfinale der Champions League zwischen Paris Saint-Germain und dem FC Bayern von den Tribünen aus verfolgen. Der Münchner Cheftrainer ist für die Partie gesperrt und kann seine Mannschaft nicht von der Seitenlinie aus betreuen.\n\nKompany äußerte sich vor dem Spiel offen über seine Situation: Er werde irgendwo im Stadion sitzen – möglicherweise nicht weit entfernt von den anwesenden Journalisten. Die Abläufe seien klar geregelt; er wisse, wann und wie er das Team unterstützen dürfe.\n\nFür den FC Bayern ist die Ausgangslage ohnehin fordernd: Nach dem kräftezehrenden 4:3-Comeback gegen Mainz am Wochenende standen den Spielern laut Bavarian Football Works nur zwei Erholungstage zur Verfügung. Dass nun auch noch der Cheftrainer nicht auf dem Spielfeld eingreifen kann, ist eine zusätzliche Belastung vor einem der bedeutendsten Spiele der Saison.",
       "sourceUrl": "https://www.bavarianfootballworks.com/champions-league/195076/suspended-bayern-munich-coach-breaks-down-psg-game",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-04-28-eberl-bestaetigt-olise-bleibt-beim-fc-bayern",
-      "date": "2026-04-28",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-04-28-eberl-bestaetigt-olise-bleibt-beim-fc-bayern.jpg",
-      "thumbnailAlt": "Eberl bestätigt: Olise bleibt beim FC Bayern",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Eberl bestätigt: Olise bleibt beim FC Bayern",
-      "excerpt": "Sportvorstand Max Eberl hat die Zukunft von Michael Olise beim FC Bayern offiziell bestätigt. Der Flügelstürmer wird den Rekordmeister nicht verlassen.",
-      "body": "Laut Bavarian Football Works hat Bayerns Sportvorstand Max Eberl öffentlich bestätigt, dass Michael Olise dem FC Bayern erhalten bleibt. Spekulationen über einen möglichen Abgang des Angreifers sind damit vorerst vom Tisch.\n\nOlise hat in der laufenden Saison 2025/26 in 46 Pflichtspielen 19 Tore erzielt und 29 Vorlagen geliefert, wie Bavarian Football Works berichtet. Diese Zahlen machen ihn nach Einschätzung des Portals zu einem ernsthaften Kandidaten für den Ballon d'Or der Saison.\n\nFür den FC Bayern kommt die Klarstellung zu einem bedeutsamen Zeitpunkt: Mit dem Champions-League-Halbfinale gegen Paris Saint-Germain vor der Tür ist die Planungssicherheit rund um Leistungsträger wie Olise ein wichtiges Signal — sowohl sportlich als auch im Hinblick auf die mittelfristige Kaderplanung.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-finances-board/194851/max-eberl-confirms-michael-olise-will-stay-at-bayern-munich",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-04-28-palhinha-zukunft-tottenham-will-niedrigere-abloese",
-      "date": "2026-04-28",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-04-28-palhinha-zukunft-tottenham-will-niedrigere-abloese.jpg",
-      "thumbnailAlt": "Palhinha-Zukunft: Tottenham will niedrigere Ablöse",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Palhinha-Zukunft: Tottenham will niedrigere Ablöse",
-      "excerpt": "Joao Palhinhas Leihe zu Tottenham Hotspur entwickelte sich zum Misserfolg. Nun berichtet Bavarian Football Works über einen möglichen Verkauf — jedoch zu reduzierten Konditionen.",
-      "body": "Joao Palhinhas Leihe zu Tottenham Hotspur verlief alles andere als geplant. Wie Bavarian Football Works berichtet, begann der Wechsel des portugiesischen Nationalspielers vielversprechend, geriet jedoch nach einem Trainerwechsel bei den Spurs ins Stocken. Inzwischen befindet sich Tottenham mitten im Abstiegskampf der Premier League.\n\nLaut dem Bericht ist Tottenham dem Vernehmen nach grundsätzlich an einem festen Transfer Palhinhas interessiert. Allerdings pochen die Londoner auf eine deutlich niedrigere Ablösesumme als von Bayern München gefordert. Beim FCB hat der defensive Mittelfeldspieler nach Einschätzung des Portals keine Zukunft mehr.\n\nFür die Münchner stellt sich damit die Frage, zu welchem Preis ein dauerhafter Abgang realisierbar ist. Angesichts Palhinhas schwieriger Leihe dürfte die Verhandlungsposition des Rekordmeisters geschwächt sein. Wie der Transferpoker letztlich ausgeht, bleibt offen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/193658/tottenham-hotspur-joao-palhinha-reduced-fee-transfer-bayern-munich-epl",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
@@ -504,7 +502,8 @@
       "post": true
     },
     "77549": {
-      "pre": true
+      "pre": true,
+      "post": true
     }
   }
 }
