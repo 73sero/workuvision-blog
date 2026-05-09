@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-09T14:16:20+00:00",
+  "lastUpdated": "2026-05-09T15:29:01+00:00",
   "tiktokStats": {
     "followers": 1372,
     "likes": "28K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Auswärts bei Wolfsburg heute — alle Augen auf den FCB",
+    "Goretzka kurz vor ablösefreiem Wechsel zu AC Milan",
     "Bayern intern unzufrieden: Davies' Verletzungshistorie sorgt für Unmut",
     "Davies erleidet Muskelverletzung – Saison vorzeitig beendet",
     "Bayern testet Tornike Kvaratskhelia – Freund bestätigt",
     "Wie Luis Enrique Michael Olise im Halbfinale ausschaltete",
-    "Laimer-Abgang: Bayern akzeptiert ablösefreien Wechsel",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-09-goretzka-kurz-vor-abloesefreiem-wechsel-zu-ac-mila",
+      "date": "2026-05-09",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-09-goretzka-kurz-vor-abloesefreiem-wechsel-zu-ac-mila.jpg",
+      "thumbnailAlt": "Goretzka kurz vor ablösefreiem Wechsel zu AC Milan",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Goretzka kurz vor ablösefreiem Wechsel zu AC Milan",
+      "excerpt": "Leon Goretzkas Zeit beim FC Bayern endet im Sommer – laut Berichten steht der Mittelfeldspieler kurz vor einem ablösefreien Wechsel zum italienischen Traditionsklub AC Milan.",
+      "body": "Leon Goretzkas Abschied vom FC Bayern München ist seit Monaten beschlossene Sache: Der auslaufende Vertrag des Mittelfeldspielers wird nicht verlängert. Wie Bavarian Football Works berichtet, steht der 30-Jährige nun kurz vor dem Abschluss eines ablösefreien Wechsels zu AC Milan.\n\nGoretzka hatte sich nach Bekanntwerden seines bevorstehenden Abgangs voll auf die Saison konzentriert und dem Rekordmeister in der Bundesliga sowie im Champions-League-Halbfinale gegen Paris Saint-Germain zur Verfügung gestanden. Nun, im Mai, nähert sich sein letztes Kapitel in München seinem Ende.\n\nMit Goretzka verliert der FCB einen Spieler, der seit 2018 für den Verein aufgelaufen ist und in dieser Zeit mehrere Meistertitel sowie die Champions League gewonnen hat. Wer mittelfristig seinen Platz im zentralen Mittelfeld einnimmt, bleibt abzuwarten – zumal Trainer Vincent Kompany die Kaderzusammenstellung für die kommende Spielzeit noch nicht abgeschlossen hat.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/199827/leon-goretzka-close-to-completing-free-transfer-bayern-munich-to-ac-milan-real-madrid-luka-modric-adrien-rabiot-champions-league-schalke-04-vfl-bochum",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-09-bayern-intern-unzufrieden-davies-verletzungshistor",
       "date": "2026-05-09",
@@ -473,21 +489,6 @@
       "title": "0:3 zurück und 4:3 gewonnen — Bayerns Wahnsinn in Mainz",
       "excerpt": "Was zur Halbzeit nach einer Demütigung aussah, wurde zum vielleicht verrücktesten Bundesliga-Comeback der Saison.",
       "body": "Was zur Halbzeit nach einer Demütigung aussah, wurde zum vielleicht verrücktesten Bundesliga-Comeback der Saison. 0:3 lag Bayern in Mainz hinten.\n\nDann kam Kompanys Wutrede in der Kabine — Goretzka berichtete später: „Der Trainer war wütend und das zurecht.\" 45 Minuten später stand es 4:3.\n\nErst der zweite 0:3-Comeback-Sieg der Bundesliga-Geschichte für Bayern. Olise mit Traumtor (1,3% xG!), Musiala wieder in Topform. Auswärtsserie weiter ungebrochen.",
-      "source": "workuvision"
-    },
-    {
-      "slug": "2026-04-05-kane-zukunft",
-      "date": "2026-04-05",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-04-05-kane-zukunft.jpg",
-      "thumbnailAlt": "Fußball",
-      "readtime": "7 Min.",
-      "featured": false,
-      "title": "Kane-Zukunft: „Spielt nie wieder in der Premier League\"",
-      "excerpt": "Ein englischer Pundit ist sich sicher: Kane bleibt in München.",
-      "body": "Ein englischer Pundit ist sich sicher: Kane bleibt in München. Eberl plant offizielle Vertragsgespräche im Sommer. Aber Hoeneß warnt: „Man weiß nie, ob ein Saudi kommt und viel Geld auf den Tisch legt.\"\n\nKane selbst schweigt — fokussiert auf die 31 Tore und den Golden Boot. Dazu: Intermediäre haben Bayern wegen Vinícius Júnior kontaktiert, falls der Real verlassen will. Unrealistisch, aber das Gerücht kursiert.",
       "source": "workuvision"
     }
   ],
