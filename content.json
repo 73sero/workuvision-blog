@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-09T16:41:44+00:00",
+  "lastUpdated": "2026-05-09T17:28:39+00:00",
   "tiktokStats": {
     "followers": 1372,
     "likes": "28K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Auswärts bei Wolfsburg heute — alle Augen auf den FCB",
+    "Hamann kritisiert Bayern und Kompany nach PSG-Aus",
     "FC Bayern Frauen: Vierter Meistertitel in Serie perfekt",
     "Vorbericht: Bayern gastiert am Samstag in Wolfsburg",
     "Goretzka kurz vor ablösefreiem Wechsel zu AC Milan",
     "Bayern intern unzufrieden: Davies' Verletzungshistorie sorgt für Unmut",
-    "Davies erleidet Muskelverletzung – Saison vorzeitig beendet",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-09-hamann-kritisiert-bayern-und-kompany-nach-psg-aus",
+      "date": "2026-05-09",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-09-hamann-kritisiert-bayern-und-kompany-nach-psg-aus.jpg",
+      "thumbnailAlt": "Hamann kritisiert Bayern und Kompany nach PSG-Aus",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Hamann kritisiert Bayern und Kompany nach PSG-Aus",
+      "excerpt": "Nach dem Halbfinal-Aus in der Champions League gegen PSG übt Ex-Profi Dietmar Hamann scharfe Kritik – auch an Trainer Vincent Kompany.",
+      "body": "Nach dem Ausscheiden des FC Bayern im Champions-League-Halbfinale gegen Paris Saint-Germain hat sich Dietmar Hamann zu Wort gemeldet. Laut Sport1 fand der frühere Nationalspieler dabei deutliche Worte – sowohl zum Auftritt der Mannschaft als auch zu Trainer Vincent Kompany.\n\nKompany selbst hatte sich auf seiner Pressekonferenz vor dem Bundesliga-Auswärtsspiel in Wolfsburg der Kritik gestellt. Der Belgier zeigte laut Bavarian Football Works Verständnis für die Enttäuschung der Fans, betonte jedoch, dass das Scheitern kein Grund zur Panik sei: Das Ausscheiden sei schmerzhaft, die Welt drehe sich aber weiter.\n\nFür den FC Bayern geht es nun darum, die Saison in der Bundesliga würdevoll abzuschließen. Der Rekordmeister reiste nach Wolfsburg, wo der abstiegsbedrohte VfL auf Punkte angewiesen ist – ein Umfeld, das zusätzlichen Druck erzeugt. Wie der Verein mit der öffentlichen Aufarbeitung des europäischen Rückschlags umgeht, dürfte die Debatte um Kompanys Zukunft weiter befeuern.",
+      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mlgdkm55za2h",
+      "sourceName": "Sport1 (Bluesky)"
+    },
     {
       "slug": "2026-05-09-fc-bayern-frauen-vierter-meistertitel-in-serie-per",
       "date": "2026-05-09",
@@ -475,21 +491,6 @@
       "body": "Laut Bavarian Football Works steht Bayern München vor dem Halbfinale der Champions League gegen Paris Saint-Germain unter erhöhtem Personaldruck. Mindestens vier Spieler werden Trainer Vincent Kompany nicht zur Verfügung stehen — darunter Lennart Karl. Alle Ausfälle waren dem Bericht zufolge bereits vor dem Montag bekannt.\n\nAuf gegnerischer Seite sieht die Lage deutlich besser aus: PSG ist nach dem Trainingsbericht vollständig gesund und kann aus dem Vollen schöpfen. Bayern hingegen hatte zuletzt auch körperlich einiges zu bewältigen: Nach dem dramatischen 4:3-Comeback beim FSV Mainz 05 — nach einem 0:3-Rückstand zur Pause — stehen den Münchnern laut Bavarian Football Works lediglich zwei Tage zur Erholung zur Verfügung.\n\nDass die Belastungssteuerung nun zum Problem werden könnte, deutet der Bericht zumindest an. Kompany hatte in Mainz unter anderem Harry Kane, Michael Olise und Jamal Musiala in der zweiten Halbzeit eingewechselt, um die Partie noch zu drehen. Ob diese Stammkräfte am Dienstag in Paris von Beginn an fit genug sein werden, bleibt abzuwarten.",
       "sourceUrl": "https://www.bavarianfootballworks.com/champions-league/194953/training-report-psg-fully-healthy-bayern-munich-to-miss-at-least-four-players-ahead-of-champions-league-tilt",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-04-28-psg-bayern-cl-halbfinale",
-      "date": "2026-04-28",
-      "category": "tactics",
-      "badge": "Vorschau",
-      "badgeColor": "bv",
-      "thumbnail": "img/articles/2026-04-28-psg-bayern-cl-halbfinale.jpg",
-      "thumbnailAlt": "Stadion",
-      "readtime": "11 Min. Lesezeit",
-      "featured": true,
-      "title": "PSG vs Bayern — Das CL-Halbfinale, das alle wollen",
-      "excerpt": "Nach dem dramatischen 4:3 in Mainz wartet nun der Wahnsinn von Paris. PSG ist laut Luis Enrique „in der besten Form aller Zeiten\".",
-      "body": "Nach dem dramatischen 4:3 in Mainz (von 0:3 zurückgekommen!) wartet nun der Wahnsinn von Paris. PSG ist laut Luis Enrique „in der besten Form aller Zeiten\" — Bayern unter Kompany hat aber gezeigt, dass sie auch dann zurückkommen, wenn alles verloren scheint.\n\nSchiedsrichter Sandro Schärer leitet das Hinspiel. Schlüsselduelle: Olise, der gegen Mainz schon ein Traumtor erzielte, gegen die Pariser Defensive. Musiala ist nach Verletzung wieder in Topform — Kompany lobte ausdrücklich seine wiedergefundene Leichtigkeit. Kane will den ersten CL-Titel seines Lebens.\n\nDas Rückspiel steigt eine Woche später in der Allianz Arena.",
-      "source": "workuvision"
     }
   ],
   "tiktokVideosAuto": false,
