@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-11T12:35:26+00:00",
+  "lastUpdated": "2026-05-11T17:49:31+00:00",
   "tiktokStats": {
     "followers": 1374,
     "likes": "28K",
     "videos": 59
   },
   "ticker": [
-    "Heim gegen Köln in 5 Tagen — alle Augen auf den FCB",
+    "Heim gegen Köln in 4 Tagen — alle Augen auf den FCB",
+    "Boey-Zukunft: Galatasaray will Kaufoption nicht zahlen",
     "Tarlac verlässt Bayern: Leibenath folgt als Sportdirektor",
     "Aufsichtsrat trifft sich: Bayern planen Zukunft und Transferfenster",
     "Davies fällt aus: Kompany gibt Update nach Wolfsburg-Sieg",
     "Goretzka nach Kopftreffer in Wolfsburg vorsichtshalber ausgewechselt",
-    "Olise-Traumtor rettet Bayern: 1:0-Sieg beim VfL Wolfsburg",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-11-boey-zukunft-galatasaray-will-kaufoption-nicht-zah",
+      "date": "2026-05-11",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-11-boey-zukunft-galatasaray-will-kaufoption-nicht-zah.jpg",
+      "thumbnailAlt": "Boey-Zukunft: Galatasaray will Kaufoption nicht zahlen",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Boey-Zukunft: Galatasaray will Kaufoption nicht zahlen",
+      "excerpt": "Galatasaray möchte Sacha Boey dauerhaft verpflichten, lehnt aber die vertraglich vereinbarte Kaufoption von 15 Millionen Euro ab.",
+      "body": "Laut einem Bericht von Florian Plettenberg, den Miasanrot aufgreift, ist der türkische Meister Galatasaray daran interessiert, Leihspieler Sacha Boey dauerhaft vom FC Bayern zu übernehmen. Die Istanbuler sehen den Außenverteidiger als festen Bestandteil ihrer Planungen – wollen jedoch die im Leihvertrag festgeschriebene Kaufoption von 15 Millionen Euro nicht aktivieren.\n\nStattdessen sucht Galatasaray nach einer günstigeren Einigung mit den Münchnern. Ob der FCB bereit ist, den Preis zu senken oder die Verhandlungen scheitern zu lassen, ist laut dem Bericht noch offen. Boey war in der laufenden Saison nach Istanbul verliehen worden, um dort regelmäßige Spielzeit zu sammeln.\n\nFür die Bayern ist der Fall Boey Teil einer umfassenderen Kaderneugestaltung im Sommer. Wie der Verein mit der Forderung Galatasarays umgeht, dürfte in den kommenden Wochen klarer werden – spätestens wenn die Transferperiode offiziell beginnt.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/201210/bayern-munich-transfer-news-rumors-loan-watch-galatasaray-sacha-boey-loanee-turkiye-champions-leauge",
+      "sourceName": "Bavarian Football Works (nach Florian Plettenberg)"
+    },
     {
       "slug": "2026-05-11-tarlac-verlaesst-bayern-leibenath-folgt-als-sportd",
       "date": "2026-05-11",
@@ -475,20 +491,6 @@
       "body": "Der FC Bayern hat am Samstag in der Bundesliga gegen den 1. FC Heidenheim nur ein 3:3 erreicht. Wie Sport1 und der kicker berichten, verschliefen die Münchner den Start und gerieten in Rückstand. Der Rekordmeister, der vor dem Champions-League-Rückspiel gegen Paris Saint-Germain rotierte, fand lange keine Antwort auf den kämpferisch starken Tabellenletzten.\n\nDas Tor des Tages fiel unter kuriosen Umständen: Michael Olise traf in der 100. Minute mit einem Distanzschuss zunächst nur den Pfosten, von wo der Ball an den Rücken von Heidenheim-Keeper Diant Ramaj prallte und von dort ins Tor rollte. Laut Tagesschau Sport benötigten die Bayern damit eine Menge Glück, um eine Niederlage abzuwenden.\n\nZuvor hatte Leon Goretzka mit einem Doppelpack, darunter einem Freistoßtor, maßgeblich dazu beigetragen, den Rückstand aufzuholen — laut kicker war es erneut eine Aufholjagd, die den Bayern abverlangt wurde. Der Punktgewinn kurz vor dem Halbfinal-Rückspiel gegen PSG dürfte die Münchner trotz des schwachen Auftritts mit einem gewissen Selbstvertrauen in die kommende Woche gehen lassen.",
       "sourceUrl": "https://www.sportschau.de/fussball/bundesliga/9010-olise-macht-naechstes-bayern-comeback-perfekt,spielbericht-bayern-muenchen-heidenheim-100.html",
       "sourceName": "Tagesschau Sport"
-    },
-    {
-      "slug": "2026-05-02-vorbericht-bayern-heidenheim",
-      "date": "2026-05-02",
-      "category": "tactics",
-      "badge": "Vorbericht",
-      "badgeColor": "bv",
-      "thumbnail": "img/articles/2026-05-02-vorbericht-bayern-heidenheim.jpg",
-      "thumbnailAlt": "Vorbericht: Bayern empfängt Heidenheim zum Bundesliga-Samstag",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Vorbericht: Bayern empfängt Heidenheim zum Bundesliga-Samstag",
-      "excerpt": "Der FC Bayern trifft am Samstag (17:30 Uhr) in der Allianz Arena auf den FC Heidenheim. Für den Rekordmeister geht es um weitere Punkte im Saisonendspurt.",
-      "body": "Am Samstag, den 2. Mai 2026, empfängt der FC Bayern München um 17:30 Uhr den 1. FC Heidenheim in der Allianz Arena. Für die Münchner steht die Partie mitten in einer entscheidenden Saisonphase – Bundesliga-Alltag, der mit Blick auf den weiteren Verlauf des Frühjahrs kaum an Gewicht verliert.\n\nDie Aufstellung steht noch aus. Vincent Kompany wird seine Auswahl voraussichtlich auf Basis der jüngsten Belastungssteuerung zusammenstellen – zumal mit dem laufenden Champions-League-Halbfinale ein weiterer kräftezehrender Wettbewerb im Hintergrund steht.\n\nHeidenheim präsentiert sich in dieser Saison als kompakte, defensiv organisierte Einheit, die auf schnelle Umschaltsituationen setzt. Die Münchner werden daher auf eine kontrollierte Spielanlage angewiesen sein, um Räume zu öffnen und die gegnerische Formation frühzeitig unter Druck zu setzen."
     }
   ],
   "tiktokVideosAuto": false,
