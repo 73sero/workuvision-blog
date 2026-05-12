@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-12T14:00:00+00:00",
+  "lastUpdated": "2026-05-12T16:19:39+00:00",
   "tiktokStats": {
     "followers": 1374,
     "likes": "28K",
     "videos": 59
   },
   "ticker": [
-    "Heim gegen Köln in 4 Tagen — alle Augen auf den FCB",
+    "Heim gegen Köln in 3 Tagen — alle Augen auf den FCB",
+    "Vlahović-Vater bei Bayern: Gespräche über möglichen Wechsel",
     "Krüger verlässt Bayern: Erste Sportvorständin der Bundesliga",
     "Olise als bester französischer Fußballer im Ausland ausgezeichnet",
     "Kompany vs. Bischof: Was die Daten wirklich sagen",
     "Boey-Zukunft: Galatasaray will Kaufoption nicht zahlen",
-    "Tarlac verlässt Bayern: Leibenath folgt als Sportdirektor",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-12-vlahovi-vater-bei-bayern-gespraeche-ueber-moeglich",
+      "date": "2026-05-12",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-12-vlahovi-vater-bei-bayern-gespraeche-ueber-moeglich.jpg",
+      "thumbnailAlt": "Vlahović-Vater bei Bayern: Gespräche über möglichen Wechsel",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Vlahović-Vater bei Bayern: Gespräche über möglichen Wechsel",
+      "excerpt": "Der FC Bayern soll Kontakt zur Familie des Juventus-Stürmers Dušan Vlahović aufgenommen haben. Ein Treffen mit seinem Vater hat offenbar stattgefunden.",
+      "body": "Laut einem Bericht des italienischen Sportblatts Corriere dello Sport, den Bavarian Football Works aufgreift, hat der FC Bayern ein Treffen mit dem Vater von Juventus-Stürmer Dušan Vlahović abgehalten. Dabei soll die Möglichkeit eines Wechsels nach München im Sommer ausgelotet worden sein.\n\nVlahović wird dem Bericht zufolge seit Jahren mit den Münchnern in Verbindung gebracht. Nun deutet das beschriebene Gespräch darauf hin, dass zumindest auf beiden Seiten ein gewisses Interesse an einem Transfer besteht. Juventus gilt als verkaufswillig, da Vlahović im kommenden Jahr ablösefrei wechseln könnte.\n\nDie Personalie ist vor dem Hintergrund der Kaderplanung für die Saison 2026/27 relevant. Ob Bayern tatsächlich ein konkretes Angebot für den serbischen Nationalstürmer vorbereitet, bleibt laut der Quelle offen. Offizielle Bestätigungen des Klubs liegen nicht vor.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/201578/dusan-vlahovic-harrykanebayern-munich-juventus-real-madrid-fc-barcelona-transfer",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-12-krueger-verlaesst-bayern-erste-sportvorstaendin-de",
       "date": "2026-05-12",
@@ -477,22 +493,6 @@
       "body": "Beim FC Bayern zeichnet sich ein überraschender Abgang ab: Laut Bavarian Football Works haben die Münchner die Gehaltsforderungen von Konrad Laimer in Höhe von 12 bis 15 Millionen Euro pro Jahr abgelehnt. Der Rekordmeister ist demnach bereit, einen ablösefreien Wechsel des Österreichers nach Vertragsende zu akzeptieren.\n\nLaimer, der ursprünglich als Mittelfeldspieler zum FCB gestoßen war, hat sich unter Trainer Vincent Kompany zum Stammspieler auf der Rechtsverteidigerposition entwickelt. Sein Vertrag in München läuft bis 2027, sodass noch Zeit für eine Einigung oder eine geordnete Transferlösung besteht.\n\nEin Abgang Laimers würde die Bayern vor eine empfindliche Lücke in der Defensive stellen. Kompany hat den 26-Jährigen in dieser Saison regelmäßig auf der rechten Abwehrseite eingesetzt. Ob es zu einer Einigung kommt oder die Zusammenarbeit tatsächlich endet, bleibt laut Bavarian Football Works offen.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/196843/report-bayern-munich-reject-konrad-laimers-e12-15m-salary-demands-accept-potential-exit-on-a-free",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-03-neuer-will-verlaengern-einigung-mit-fc-bayern-in-s",
-      "date": "2026-05-03",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-03-neuer-will-verlaengern-einigung-mit-fc-bayern-in-s.jpg",
-      "thumbnailAlt": "Neuer will verlängern: Einigung mit FC Bayern in Sicht",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuer will verlängern: Einigung mit FC Bayern in Sicht",
-      "excerpt": "Manuel Neuer und der FC Bayern streben offenbar eine gemeinsame Vertragsverlängerung bis Juni 2027 an. Erste Gespräche laufen bereits.",
-      "body": "Manuel Neuer möchte seinen auslaufenden Vertrag beim FC Bayern um ein weiteres Jahr verlängern. Wie der Sky-Journalist Florian Plettenberg berichtet, wollen beide Seiten eine Einigung bis Juni 2027 erzielen. Die ersten Gespräche haben demnach bereits stattgefunden.\n\nDer 40-jährige Torhüter ist seit 2011 beim Rekordmeister und gilt trotz seines Alters weiterhin als gesetzt zwischen den Pfosten. In der laufenden Saison absolvierte Neuer zahlreiche Partien, zuletzt auch das spektakuläre Champions-League-Halbfinalhinspiel gegen Paris Saint-Germain.\n\nHinter Neuer stehen mit Sven Ulreich und Jonas Urbig zwei weitere Torhüter im Kader. Eine Verlängerung Neuers würde die Hierarchie im Tor des FC Bayern für mindestens eine weitere Spielzeit festigen — und die Frage nach einer mittel- bis langfristigen Nachfolgelösung vorerst vertagen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/196822/manuel-neuer-bayern-munich-want-contract-extension-through-2027",
-      "sourceName": "Sky Deutschland (via Bavarian Football Works)"
     }
   ],
   "tiktokVideosAuto": false,
