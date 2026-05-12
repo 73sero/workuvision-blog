@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-12T06:32:02+00:00",
+  "lastUpdated": "2026-05-12T11:48:18+00:00",
   "tiktokStats": {
     "followers": 1374,
     "likes": "28K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Heim gegen Köln in 4 Tagen — alle Augen auf den FCB",
+    "Olise als bester französischer Fußballer im Ausland ausgezeichnet",
     "Kompany vs. Bischof: Was die Daten wirklich sagen",
     "Boey-Zukunft: Galatasaray will Kaufoption nicht zahlen",
     "Tarlac verlässt Bayern: Leibenath folgt als Sportdirektor",
     "Aufsichtsrat trifft sich: Bayern planen Zukunft und Transferfenster",
-    "Davies fällt aus: Kompany gibt Update nach Wolfsburg-Sieg",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-12-olise-als-bester-franzoesischer-fussballer-im-ausl",
+      "date": "2026-05-12",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-12-olise-als-bester-franzoesischer-fussballer-im-ausl.jpg",
+      "thumbnailAlt": "Olise als bester französischer Fußballer im Ausland ausgezeichnet",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Olise als bester französischer Fußballer im Ausland ausgezeichnet",
+      "excerpt": "Michael Olise wurde in Paris von der französischen Fußballer-Gewerkschaft zum besten französischen Profi im Ausland gewählt – vor Kylian Mbappé.",
+      "body": "Michael Olise hat in Paris eine besondere Auszeichnung erhalten. Wie Sport1 berichtet, kürte die französische Fußballer-Gewerkschaft den Offensivspieler des FC Bayern zum besten französischen Fußballer im Ausland. Olise setzte sich dabei unter anderem gegen Kylian Mbappé durch.\n\nFür den Münchner Angreifer ist die Ehrung eine Bestätigung seiner starken Saison beim Rekordmeister. Olise war im Sommer 2024 von Crystal Palace zu den Bayern gewechselt und zählt seitdem zu den prägenden Figuren im Spiel von Trainer Vincent Kompany.\n\nDie Verleihung fand am Rande der Ligue-1-Gala statt, bei der auch Ousmane Dembélé zum zweiten Mal in Folge als bester Spieler der französischen Oberliga ausgezeichnet wurde. Für den FCB ist die Auszeichnung Olieses ein weiteres Signal, dass sich die Investition in den Franzosen bislang ausgezahlt hat.",
+      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mlnfp5n2r62m",
+      "sourceName": "Sport1 (Bluesky)"
+    },
     {
       "slug": "2026-05-12-kompany-vs-bischof-was-die-daten-wirklich-sagen",
       "date": "2026-05-12",
@@ -477,20 +493,6 @@
       "body": "Rund um Konrad Laimer verdichten sich die Fragen nach der Zukunft des Mittelfeldmanns. Sein Vertrag beim FC Bayern läuft aus, und laut Bavarian Football Works gibt es bislang keine Einigung über eine Verlängerung. Sportvorstand Max Eberl äußerte sich nach dem 3:3 gegen Heidenheim zum Stand der Gespräche.\n\nEberl erklärte demnach: Es gebe Diskussionen und Ideen, man sei aber noch nicht auf einer Linie. Von Streit oder schlechter Stimmung zwischen Klub und Spieler könne jedoch keine Rede sein. Der Sportvorstand zeigte sich gelassen und deutete an, die Situation nicht als akute Krise zu bewerten.\n\nLaimer gehört in der Saison 2025/26 zu den flexibel einsetzbaren Spielern im Kader von Trainer Vincent Kompany. Ein ablösefreier Abgang wäre sportlich und finanziell dennoch ein nennenswerter Verlust für den Rekordmeister — zumal die Kaderplanung für die kommende Saison zunehmend Konturen annimmt.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-bundesliga/197291/max-eberl-not-worried-about-losing-bayern-munichs-konrad-laimer-on-free-transfer",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-02-spielbericht-bayern-heidenheim",
-      "date": "2026-05-02",
-      "category": "reaction",
-      "badge": "Spielbericht",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-02-spielbericht-bayern-heidenheim.jpg",
-      "thumbnailAlt": "FC Bayern 3:3 gegen Heidenheim — Spätes Remis nach Rückstand",
-      "readtime": "4 Min.",
-      "featured": true,
-      "title": "FC Bayern 3:3 gegen Heidenheim — Spätes Remis nach Rückstand",
-      "excerpt": "Der FC Bayern kommt gegen den abstiegsbedrohten 1. FC Heidenheim nicht über ein 3:3 hinaus und rettete sich erst in der Nachspielzeit.",
-      "body": "Der FC Bayern München hat am 32. Spieltag der Bundesliga einen deutlichen Rückstand aufgeholt, den Sieg aber nicht mehr erzwungen. Die Münchner lagen zur Halbzeit mit 0:2 zurück, glichen nach der Pause zunächst aus, kassierten dann erneut das Führungstor des Gegners und sicherten sich den Ausgleich zum 3:3 erst in der Nachspielzeit. Vincent Kompany hatte die Partie mit einer Reihe von Rotationen angegangen, was dem Spielrhythmus der Gastgeber sichtlich abträglich war.\n\nHeidenheim traf zweimal in der ersten Halbzeit und ging mit einer verdienten Führung in die Pause. Bayern kämpfte sich nach dem Seitenwechsel zurück — zunächst der Anschlusstreffer in der 44. Minute, der Ausgleich in der 57. Minute, ehe Heidenheim in der 76. Minute erneut in Führung ging. Erst tief in der Nachspielzeit fiel das 3:3. Wer die Treffer erzielte, geht aus den vorliegenden Daten nicht hervor.\n\nFür den bereits feststehenden deutschen Meister hat das Remis sportlich wenig Gewicht, zumal die Aufmerksamkeit auf das Champions-League-Halbfinale gerichtet ist. Für Heidenheim hingegen ist der Punkt im Abstiegskampf bedeutsam: Ein Sieg in München hätte den Klassenerhalt womöglich noch verlängert — ein Punkt reicht den Gastgebern an diesem Spieltag möglicherweise nicht, um den Abstieg abzuwenden."
     }
   ],
   "tiktokVideosAuto": false,
