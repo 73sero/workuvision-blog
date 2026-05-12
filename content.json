@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-12T16:19:39+00:00",
+  "lastUpdated": "2026-05-12T17:53:27+00:00",
   "tiktokStats": {
     "followers": 1374,
     "likes": "28K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Heim gegen Köln in 3 Tagen — alle Augen auf den FCB",
+    "Kane kurz vor zweitem Golden-Shoe-Triumph",
     "Vlahović-Vater bei Bayern: Gespräche über möglichen Wechsel",
     "Krüger verlässt Bayern: Erste Sportvorständin der Bundesliga",
     "Olise als bester französischer Fußballer im Ausland ausgezeichnet",
     "Kompany vs. Bischof: Was die Daten wirklich sagen",
-    "Boey-Zukunft: Galatasaray will Kaufoption nicht zahlen",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-12-kane-kurz-vor-zweitem-golden-shoe-triumph",
+      "date": "2026-05-12",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-12-kane-kurz-vor-zweitem-golden-shoe-triumph.jpg",
+      "thumbnailAlt": "Kane kurz vor zweitem Golden-Shoe-Triumph",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Kane kurz vor zweitem Golden-Shoe-Triumph",
+      "excerpt": "Harry Kane steht unmittelbar vor seiner zweiten Golden-Shoe-Auszeichnung. Der kicker berichtet, dass dem Bayern-Stürmer die Trophäe kaum noch zu nehmen ist.",
+      "body": "Harry Kane dürfte in Kürze zum zweiten Mal den Goldenen Schuh als treffsicherster Stürmer Europas entgegennehmen. Wie der kicker berichtet, führt der Münchner Angreifer die Torjägerwertung des Kontinents trotz zuletzt ausgebliebenem Torerfolg weiterhin souverän an – seinen ersten Triumph hatte er bereits in der Saison 2023/24 gefeiert.\n\nLaut kicker ist auch der zweite Platz in der Gesamtwertung nahezu vergeben. Für Kylian Mbappé, der im vergangenen Jahr noch als ernsthafter Rivale galt, könnte es dem Bericht zufolge sogar eng werden mit einem Platz auf dem Podium.\n\nFür den FC Bayern wäre es eine weitere individuelle Auszeichnung in einer sportlich bedeutsamen Saison. Kane gehört seit seinem Wechsel nach München zu den prägenden Figuren im Angriffsspiel der Mannschaft von Trainer Vincent Kompany – die Vergabe des Goldenen Schuhs dürfte diesen Status nun auch statistisch auf europäischer Ebene zementieren.",
+      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mlnichc34f2w",
+      "sourceName": "kicker (Bluesky)"
+    },
     {
       "slug": "2026-05-12-vlahovi-vater-bei-bayern-gespraeche-ueber-moeglich",
       "date": "2026-05-12",
@@ -477,22 +493,6 @@
       "body": "Beim mühsamen 3:3 des FC Bayern gegen den 1. FC Heidenheim war Leon Goretzka der auffälligste Münchner: Der Nationalspieler traf doppelt und verhalf dem Rekordmeister zumindest zu einem Punkt. Laut NTV äußerte sich Goretzka nach der Partie sichtlich bewegt – mit Blick auf das bevorstehende Rückspiel in der Champions League sagte er, das Stadion werde brennen.\n\nDie Partie selbst verlief aus Münchner Sicht enttäuschend. Die Bayern, die laut NTV stark rotierten, gerieten gegen den Tabellenletzten in Rückstand und retteten das Remis erst in der Nachspielzeit. Goretzka, dessen Abschied vom FCB zum Saisonende feststeht, nutzte die Startelf-Chance für seinen bislang stärksten Auftritt in dieser Phase der Saison.\n\nWohin es den Mittelfeldspieler nach dem Sommer zieht, bleibt laut NTV weiter offen. Die emotionale Gemengelage ist dennoch spürbar: Maximal fünf Spiele im Bayern-Trikot warten noch auf Goretzka – darunter das CL-Halbfinal-Rückspiel gegen Paris Saint-Germain, das für den Rekordmeister nun im Fokus steht.",
       "sourceUrl": "https://www.n-tv.de/sport/fussball/Emotionaler-Goretzka-hat-keine-Zeit-fuer-die-bayernlose-Zukunft-id30780376.html",
       "sourceName": "NTV Sport"
-    },
-    {
-      "slug": "2026-05-03-laimer-lehnt-gehaltsangebot-ab-bayern-akzeptieren",
-      "date": "2026-05-03",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-03-laimer-lehnt-gehaltsangebot-ab-bayern-akzeptieren.jpg",
-      "thumbnailAlt": "Laimer lehnt Gehaltsangebot ab – Bayern akzeptieren möglichen Abgang",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Laimer lehnt Gehaltsangebot ab – Bayern akzeptieren möglichen Abgang",
-      "excerpt": "Konrad Laimer und der FC Bayern kommen bei den Vertragsgesprächen nicht zusammen. Laut Berichten lehnte der Klub die Gehaltsforderungen des Österreichers ab.",
-      "body": "Beim FC Bayern zeichnet sich ein überraschender Abgang ab: Laut Bavarian Football Works haben die Münchner die Gehaltsforderungen von Konrad Laimer in Höhe von 12 bis 15 Millionen Euro pro Jahr abgelehnt. Der Rekordmeister ist demnach bereit, einen ablösefreien Wechsel des Österreichers nach Vertragsende zu akzeptieren.\n\nLaimer, der ursprünglich als Mittelfeldspieler zum FCB gestoßen war, hat sich unter Trainer Vincent Kompany zum Stammspieler auf der Rechtsverteidigerposition entwickelt. Sein Vertrag in München läuft bis 2027, sodass noch Zeit für eine Einigung oder eine geordnete Transferlösung besteht.\n\nEin Abgang Laimers würde die Bayern vor eine empfindliche Lücke in der Defensive stellen. Kompany hat den 26-Jährigen in dieser Saison regelmäßig auf der rechten Abwehrseite eingesetzt. Ob es zu einer Einigung kommt oder die Zusammenarbeit tatsächlich endet, bleibt laut Bavarian Football Works offen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/196843/report-bayern-munich-reject-konrad-laimers-e12-15m-salary-demands-accept-potential-exit-on-a-free",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
