@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-12T18:21:10+00:00",
+  "lastUpdated": "2026-05-12T20:16:47+00:00",
   "tiktokStats": {
     "followers": 1374,
     "likes": "28K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Heim gegen Köln in 3 Tagen — alle Augen auf den FCB",
+    "Neuer vor WM-Comeback: Zeichen mehren sich laut kicker",
     "Kennet Eichhorn: Manchester City greift Bayern-Ziel an",
     "Kane kurz vor zweitem Golden-Shoe-Triumph",
     "Vlahović-Vater bei Bayern: Gespräche über möglichen Wechsel",
     "Krüger verlässt Bayern: Erste Sportvorständin der Bundesliga",
-    "Olise als bester französischer Fußballer im Ausland ausgezeichnet",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-12-neuer-vor-wm-comeback-zeichen-mehren-sich-laut-kic",
+      "date": "2026-05-12",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/fans.jpg",
+      "thumbnailAlt": "Neuer vor WM-Comeback: Zeichen mehren sich laut kicker",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuer vor WM-Comeback: Zeichen mehren sich laut kicker",
+      "excerpt": "Manuel Neuer könnte überraschend Teil des deutschen WM-Kaders werden. Der kicker berichtet, dass die Signale dafür deutlich zunehmen.",
+      "body": "Der kicker berichtet, dass ein WM-Comeback von Bayern-Torhüter Manuel Neuer immer wahrscheinlicher wird. Bundestrainer Nagelsmann will seinen Kader am 21. Mai benennen — und ein Platz für Neuer gilt laut dem Fachmagazin nicht mehr als ausgeschlossen.\n\nNoch vor wenigen Wochen galt eine Nominierung des 40-Jährigen als große Überraschung. Doch die Zeichen mehren sich, so der kicker, dass der Bundestrainer seine Position überdenkt. Als Katalysator gilt Neuers starke Leistung im Champions-League-Halbfinale gegen Real Madrid, die bundesweit Aufsehen erregte.\n\nFür den FC Bayern wäre eine WM-Teilnahme ihres Kapitäns ein bedeutendes Signal. Neuer steht beim Rekordmeister noch im Kader und hat in dieser Saison seine Klasse mehrfach unter Beweis gestellt. Ob er letztlich im deutschen Aufgebot steht, entscheidet sich spätestens am 21. Mai.",
+      "sourceUrl": "https://www.kicker.de/die-zeichen-mehren-sich-denkt-nagelsmann-bei-neuer-doch-noch-um-1218863/artikel#omrss",
+      "sourceName": "kicker News"
+    },
     {
       "slug": "2026-05-12-kennet-eichhorn-manchester-city-greift-bayern-ziel",
       "date": "2026-05-12",
@@ -477,22 +493,6 @@
       "body": "Der FC Bayern München hat am Montagmorgen sein neues Heimtrikot für die Saison 2026/27 präsentiert. Das berichtet der kicker. Das neue Dress soll demnach bereits in der laufenden Woche zum ersten Mal auf dem Platz zu sehen sein.\n\nLaut kicker feiert das Trikot seine Premiere am kommenden Mittwoch — ein Termin, der für Bayern-Fans angesichts des Champions-League-Halbfinal-Rückspiels gegen Paris Saint-Germain besondere Bedeutung hat. Ob es sich dabei um ein bewusstes Timing handelt, ließ der Verein offen.\n\nDie Vorstellung eines neuen Trikots kurz vor einem der wichtigsten Spiele der Saison folgt einer Tradition, die der FCB in den vergangenen Jahren mehrfach praktiziert hat. Das Rückspiel gegen PSG bietet mit Blick auf die europaweite Aufmerksamkeit eine prominente Bühne für die neue Kollektion.",
       "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mkz5bm5rly2x",
       "sourceName": "kicker (Bluesky)"
-    },
-    {
-      "slug": "2026-05-04-laimer-vertrag-bayern-will-bei-verlaengerung-hart",
-      "date": "2026-05-04",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-04-laimer-vertrag-bayern-will-bei-verlaengerung-hart.jpg",
-      "thumbnailAlt": "Laimer-Vertrag: Bayern will bei Verlängerung hart bleiben",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Laimer-Vertrag: Bayern will bei Verlängerung hart bleiben",
-      "excerpt": "Konrad Laimers Vertrag läuft im Sommer aus. Er will verlängern – aber nur zu besseren Konditionen. Der FCB zögert nach teuren Verlängerungen.",
-      "body": "Laut einem Bericht der Sportschau steht der FC Bayern vor einer schwierigen Personalentscheidung: Konrad Laimers Vertrag läuft im kommenden Sommer aus, und der österreichische Nationalspieler signalisiert Verlängerungsbereitschaft – allerdings nur zu deutlich erhöhten Bezügen.\n\nDer Rekordmeister zeigt sich dem Bericht zufolge jedoch zurückhaltend. Nach den kostspieligen Vertragsverlängerungen mit Alphonso Davies, Dayot Upamecano und Jamal Musiala will der Verein diesmal eine härtere Linie einhalten und keine weiteren großen Gehaltserhöhungen stemmen.\n\nDie Situation bleibt damit offen: Sollten sich beide Seiten nicht einigen, droht der Abgang Laimers ablösefrei – ein Szenario, das die Bayern in der Vergangenheit mehrfach erlebt haben und eigentlich vermeiden wollen. Eine Entscheidung dürfte spätestens im Sommer fallen.",
-      "sourceUrl": "https://www.sportschau.de/regional/br/br-fehlende-wertschaetzung-der-fc-bayern-und-die-laimer-frage-102.html",
-      "sourceName": "Sportschau"
     }
   ],
   "tiktokVideosAuto": false,
