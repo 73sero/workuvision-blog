@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-13T16:38:13+00:00",
+  "lastUpdated": "2026-05-13T17:55:27+00:00",
   "tiktokStats": {
     "followers": 1375,
     "likes": "28K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Heim gegen Köln in 2 Tagen — alle Augen auf den FCB",
+    "Jackson kehrt zu Chelsea zurück – Kompany wollte ihn halten",
     "Neuer vor Vertragsverlängerung – und WM-Comeback im Gespräch",
     "Neuer vor Vertragsverlängerung – und WM-Rückkehr möglich",
     "Neuer vor Verlängerung – und WM-Rückkehr im Gespräch",
     "Neuer-Verlängerung beim FC Bayern steht unmittelbar bevor",
-    "Neuer vor WM-Rückkehr ins DFB-Team? Zeichen verdichten sich",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-13-jackson-kehrt-zu-chelsea-zurueck-kompany-wollte-ih",
+      "date": "2026-05-13",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-13-jackson-kehrt-zu-chelsea-zurueck-kompany-wollte-ih.jpg",
+      "thumbnailAlt": "Jackson kehrt zu Chelsea zurück – Kompany wollte ihn halten",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Jackson kehrt zu Chelsea zurück – Kompany wollte ihn halten",
+      "excerpt": "Nicolas Jackson verlässt den FC Bayern nach seiner Leihe. Trainer Vincent Kompany hätte den Stürmer gerne behalten – Chelsea verlangte jedoch zu viel.",
+      "body": "Der FC Bayern wird Nicolas Jackson nach dieser Saison nicht dauerhaft verpflichten. Der Leihstürmer kehrt zu Chelsea FC zurück, wie Bavarian Football Works berichtet. In der laufenden Spielzeit erzielte der senegalesische Angreifer zehn Tore und legte vier weitere auf.\n\nLaut dem Bericht bewertete Trainer Vincent Kompany Jacksons Beitrag als positiv und hätte den Stürmer gerne dauerhaft an der Isar gehalten. Doch Chelsea verlangte einen Transferpreis, den der FCB nicht bereit war zu zahlen. Das bestätigt auch Lothar Matthäus, der zitiert wird, wonach Chelsea Jackson schlicht zu teuer gemacht habe.\n\nDie Münchner stehen damit vor der Aufgabe, im Sommer die Angriffsreihe neu zu gestalten. Jackson war als Ergänzungsspieler hinter Harry Kane eine durchaus brauchbare Option. Welchen Stürmer der Rekordmeister als Ersatz ins Visier nimmt, ist bislang nicht bekannt.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/201242/vincent-kompany-wants-keep-nicolas-jackson-at-bayern-munich-but-chelsea-made-him-too-expensive-says-matthaus",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-13-neuer-vor-vertragsverlaengerung-und-wm-comeback-im",
       "date": "2026-05-13",
@@ -40,7 +56,7 @@
       "category": "reaction",
       "badge": "Reaktion",
       "badgeColor": "brc",
-      "thumbnail": "img/fans.jpg",
+      "thumbnail": "img/articles/2026-05-13-neuer-vor-vertragsverlaengerung-und-wm-rueckkehr-m.jpg",
       "thumbnailAlt": "Neuer vor Vertragsverlängerung – und WM-Rückkehr möglich",
       "readtime": "4 Min.",
       "featured": false,
@@ -477,22 +493,6 @@
       "body": "Laut Bavarian Football Works bereitet sich der FC Bayern intern auf ein Szenario ohne Konrad Laimer vor. Die Vertragsverhandlungen zwischen dem Klub und dem österreichischen Mittelfeldspieler sind gescheitert, weil beide Seiten bei der Gehaltsfrage keine gemeinsame Basis finden konnten.\n\nDa Laimers Vertrag ausläuft, droht dem Rekordmeister ein ablösefreier Abgang. Den Berichten zufolge akzeptieren die Verantwortlichen diese Möglichkeit mittlerweile, anstatt weitere Zugeständnisse zu machen. Konkrete Interessenten werden in dem Bericht nicht genannt.\n\nLaimer war 2023 ablösefrei von RB Leipzig zum FCB gewechselt und hatte sich als vielseitiger Defensivspezialist etabliert. Sein möglicher Abgang würde die Münchner vor allem in der Breite des Kaders treffen und dürfte die Transferplanung für die kommende Saison unmittelbar beeinflussen.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/199539/bayern-munich-okay-with-konrad-laimer-leaving-on-free-transfer",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-07-schiedsrichter-pinheiro-bayerns-aerger-mit-einschr",
-      "date": "2026-05-07",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-07-schiedsrichter-pinheiro-bayerns-aerger-mit-einschr.jpg",
-      "thumbnailAlt": "Schiedsrichter Pinheiro: Bayerns Ärger mit Einschränkungen",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Schiedsrichter Pinheiro: Bayerns Ärger mit Einschränkungen",
-      "excerpt": "Nach dem Halbfinal-Aus gegen PSG debattiert der FC Bayern über zwei strittige Schiedsrichterentscheidungen – mit unterschiedlichem Ergebnis.",
-      "body": "Der FC Bayern München ist im Champions-League-Halbfinale gegen Paris Saint-Germain ausgeschieden. Das Rückspiel endete 1:1, auf Gesamtbasis verloren die Münchner mit 5:6. Im Mittelpunkt der Nachbetrachtung steht Schiedsrichter João Pinheiro, dem die Bayern-Seite eine folgenschwere Fehlentscheidung vorwirft.\n\nLaut der Süddeutschen Zeitung und der FAZ standen zwei Handszenen im Fokus. Die FAZ urteilt, dass Pinheiro in einer Situation regelkonform entschied, während die zweite Szene tatsächlich diskussionswürdig ist. Die Süddeutsche Zeitung ergänzt, dass der VAR in dem strittigen Fall aufgrund der geltenden Vorschriften nicht eingreifen durfte – weshalb ein möglicher Elfmeter für Bayern ausblieb.\n\nJosip Stanišić äußerte sich laut Sportschau offen über den Unparteiischen und erklärte, er habe dessen Entscheidungen in bestimmten Momenten nicht nachvollziehen können. Das Ausscheiden bleibt damit von einem zwiespältigen Gefühl begleitet: Der Schiedsrichter trug in einer Szene tatsächlich Mitschuld – doch das Scheitern der Münchner erklärt das allein nicht.",
-      "sourceUrl": "https://www.sueddeutsche.de/sport/bayern-psg-schiedsrichter-hand-mendes-li.3479847",
-      "sourceName": "Süddeutsche Sport"
     }
   ],
   "tiktokVideosAuto": false,
