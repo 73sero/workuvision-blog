@@ -1,6 +1,6 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-13T11:55:35+00:00",
+  "lastUpdated": "2026-05-13T11:57:22+00:00",
   "tiktokStats": {
     "followers": 1374,
     "likes": "28K",
@@ -8,16 +8,32 @@
   },
   "ticker": [
     "Heim gegen Köln in 3 Tagen — alle Augen auf den FCB",
+    "Neuer vor Verlängerung – und WM-Rückkehr im Gespräch",
     "Neuer-Verlängerung beim FC Bayern steht unmittelbar bevor",
     "Neuer vor WM-Rückkehr ins DFB-Team? Zeichen verdichten sich",
     "Neuer vor WM-Comeback: Zeichen mehren sich laut kicker",
     "Kennet Eichhorn: Manchester City greift Bayern-Ziel an",
-    "Kane kurz vor zweitem Golden-Shoe-Triumph",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-13-neuer-vor-verlaengerung-und-wm-rueckkehr-im-gespra",
+      "date": "2026-05-13",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-13-neuer-vor-verlaengerung-und-wm-rueckkehr-im-gespra.jpg",
+      "thumbnailAlt": "Neuer vor Verlängerung – und WM-Rückkehr im Gespräch",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuer vor Verlängerung – und WM-Rückkehr im Gespräch",
+      "excerpt": "Manuel Neuer steht beim FC Bayern offenbar kurz vor einer Vertragsverlängerung. Zugleich verdichten sich Berichte über eine mögliche Rückkehr in die Nationalmannschaft.",
+      "body": "Laut Sport1 deutet beim FC Bayern alles auf eine Vertragsverlängerung mit Manuel Neuer hin. Als möglichen Zeitpunkt für eine Verkündung nennt der Sender das letzte Heimspiel der Saison gegen den 1. FC Köln oder die Meisterfeier einen Tag später auf dem Marienplatz.\n\nGleichzeitig berichten die Tagesschau und der kicker, dass Neuers Name auf der vorläufigen WM-Kaderliste des Bundestrainers stehe. Der Kader soll am 21. Mai offiziell benannt werden. Laut BR-Informationen wäre eine Berufung des 39-Jährigen vier Wochen vor WM-Beginn zwar eine große Überraschung – die Zeichen mehrten sich jedoch, dass es dazu kommen könnte.\n\nFür den FC Bayern wäre eine Verlängerung mit dem erfahrenen Torhüter eine klare Kontinuitätsentscheidung. Ob Neuer darüber hinaus noch einmal das DFB-Trikot überzieht, dürfte spätestens mit der Kadernominierung Ende Mai geklärt sein.",
+      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mlpyj6njql2k",
+      "sourceName": "Sport1 (Bluesky), Tagesschau Sport, kicker (Bluesky)"
+    },
     {
       "slug": "2026-05-13-neuer-verlaengerung-beim-fc-bayern-steht-unmittelb",
       "date": "2026-05-13",
@@ -477,22 +493,6 @@
       "body": "Ehrenpräsident Uli Hoeneß hat sich laut dem Spiegel lobend über Trainer Vincent Kompany geäußert und dessen Anteil am Erfolg des FC Bayern in dieser Saison hervorgehoben. Der Rekordmeister steht als Meister fest und hat mit dem Halbfinaleinzug in der Champions League für Aufsehen gesorgt.\n\nDoch Hoeneß blickte auch über Kompany hinaus: Der Spiegel berichtet, dass der Ehrenpräsident seinen Neffen Sebastian Hoeneß als möglichen zukünftigen Trainer der Münchner ins Gespräch gebracht hat. Sebastian Hoeneß trainiert derzeit den VfB Stuttgart und gilt als einer der interessantesten deutschen Trainer seiner Generation.\n\nEine konkrete Nachfolgediskussion ist damit offiziell nicht verbunden – Kompany besitzt einen laufenden Vertrag und führt den FCB aktuell durch das Champions-League-Halbfinale gegen Paris Saint-Germain. Die Äußerungen von Uli Hoeneß dürften dennoch Gesprächsstoff liefern, zumal das Rückspiel in der Allianz Arena bereits in wenigen Tagen ansteht.",
       "sourceUrl": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-uli-hoeness-sieht-seinen-neffen-sebastian-als-moeglichen-nachfolger-von-vincent-kompany-a-9dd09ef4-03b0-4901-b921-8ff8ecf6963a#ref=rss",
       "sourceName": "Spiegel Sport"
-    },
-    {
-      "slug": "2026-05-05-pavlovi-bayerns-stiller-unterschiedspieler-gegen-p",
-      "date": "2026-05-05",
-      "category": "tactics",
-      "badge": "Taktik-Analyse",
-      "badgeColor": "bt",
-      "thumbnail": "img/articles/2026-05-05-pavlovi-bayerns-stiller-unterschiedspieler-gegen-p.jpg",
-      "thumbnailAlt": "Pavlović: Bayerns stiller Unterschiedspieler gegen PSG",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Pavlović: Bayerns stiller Unterschiedspieler gegen PSG",
-      "excerpt": "Im Halbfinal-Rückspiel gegen Paris Saint-Germain könnte Aleksandar Pavlović zur entscheidenden Figur im Bayern-Mittelfeld werden.",
-      "body": "Im Vorfeld des Champions-League-Rückspiels gegen Paris Saint-Germain rückt Aleksandar Pavlović in den Fokus. Laut Miasanrot entwickelt sich der 20-Jährige im Schatten von Joshua Kimmich zunehmend zum Unterschiedspieler – eine Rolle, die er auch im Rückspiel in der Allianz Arena ausfüllen soll.\n\nPavlović übernimmt dabei Aufgaben, die weit über die eines klassischen Ergänzungsspielers hinausgehen. Miasanrot beschreibt, wie der Mittelfeldakteur durch seine Positionierung und Zweikampfstärke Räume schließt und gleichzeitig als Verbindungsglied zwischen Abwehr und Angriff fungiert – eine taktische Funktion, die in hochintensiven Partien gegen technisch starke Gegner besonders gefragt ist.\n\nDer FC Bayern liegt im Halbfinale nach dem 4:5 aus dem Hinspiel mit 4:5 im Rückstand und benötigt gegen PSG eine Reaktion. Ob Pavlović seinen Anteil daran leisten kann, wird sich am Mittwochabend zeigen. Miasanrot sieht in ihm jedenfalls einen der Schlüsselspieler für das Weiterkommen des Rekordmeisters.",
-      "sourceUrl": "https://miasanrot.de/fc-bayern-aleksandar-pavlovic-psg-unterschiedspieler/",
-      "sourceName": "Miasanrot"
     }
   ],
   "tiktokVideosAuto": false,
