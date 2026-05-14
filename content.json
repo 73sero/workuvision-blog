@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-14T06:41:04+00:00",
+  "lastUpdated": "2026-05-14T11:44:20+00:00",
   "tiktokStats": {
-    "followers": 1375,
+    "followers": 1374,
     "likes": "28K",
     "videos": 59
   },
   "ticker": [
     "Heim gegen Köln in 2 Tagen — alle Augen auf den FCB",
+    "Gordon-Poker: Chelsea und Arsenal drängen sich vor Bayern",
     "Kane lässt sich bei Vertragsgesprächen Zeit",
     "Neuer vor Vertragsverlängerung – und WM-Gerüchte nehmen zu",
     "Jackson kehrt zu Chelsea zurück – Kompany wollte ihn halten",
     "Neuer vor Vertragsverlängerung – und WM-Comeback im Gespräch",
-    "Neuer vor Vertragsverlängerung – und WM-Rückkehr möglich",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-14-gordon-poker-chelsea-und-arsenal-draengen-sich-vor",
+      "date": "2026-05-14",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-14-gordon-poker-chelsea-und-arsenal-draengen-sich-vor.jpg",
+      "thumbnailAlt": "Gordon-Poker: Chelsea und Arsenal drängen sich vor Bayern",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Gordon-Poker: Chelsea und Arsenal drängen sich vor Bayern",
+      "excerpt": "Der FC Bayern hat Anthony Gordon als Transferpriorität ausgerufen – doch die Konkurrenz wächst rapide. Nun sollen mehrere englische Topklubs ernsthafte Absichten hegen.",
+      "body": "Laut Bavarian Football Works, unter Berufung auf Bayern-Insider Christian Falk von der Sport Bild, hat der FC Bayern Newcastle Uniteds Angreifer Anthony Gordon zur Nummer-eins-Priorität im Sommer-Transferfenster erklärt. Der variabel einsetzbare Flügelstürmer überzeugte in dieser Saison sowohl in der Premier League als auch in der Champions League.\n\nDoch der Wettbewerb um Gordon gestaltet sich zunehmend schwierig. Bavarian Football Works zufolge haben sich inzwischen Arsenal, Liverpool und Chelsea in den Poker eingeschaltet. Auch der FC Barcelona soll Interesse bekundet haben, wobei Gordons Berater laut dem Bericht mehrere Optionen aktiv prüfen.\n\nFür die Münchner bedeutet dies, dass ein Wechsel an der Isar nicht allein von der eigenen Bereitschaft abhängt. Wie hoch die Ablöseforderung Newcastles letztlich ausfällt und welche Gehaltsvorstellungen Gordon mitbringt, wird den Ausgang dieses Transferrennens maßgeblich bestimmen. Zuletzt hatte Workuvision bereits über erste Gespräche der Bayern mit Newcastle berichtet.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/transfer-rumors/201874/bayern-munich-arsenal-liverpool-chelsea-gordon-fc-barcelona-lewandowski-real-madrid-psg",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-14-kane-laesst-sich-bei-vertragsgespraechen-zeit",
       "date": "2026-05-14",
@@ -476,22 +492,6 @@
       "excerpt": "Alphonso Davies fällt beim FC Bayern mehrere Wochen aus. Auch seine WM-Vorbereitung gerät damit in Gefahr.",
       "body": "Der FC Bayern muss auf Alphonso Davies verzichten. Wie der Klub offiziell bestätigte, zog sich der Linksverteidiger im Champions-League-Halbfinal-Rückspiel gegen Paris Saint-Germain eine Muskelverletzung im linken Oberschenkel zu. Die Ausfallzeit beträgt laut Vereinsangaben mehrere Wochen.\n\nDamit ist die Saison für den 25-Jährigen vorzeitig beendet. Der kicker berichtet auf Bluesky, dass durch den Ausfall auch die Vorbereitung von Davies auf die bevorstehende Weltmeisterschaft erheblich gestört wird. Der Zeitplan für seine Rückkehr bleibt eng.\n\nFür die Münchner ist es ein weiterer Rückschlag in einer Woche, in der bereits das Aus in der Champions League zu verkraften war. In den verbleibenden Bundesliga-Spielen sowie einem möglichen DFB-Pokal-Endspiel fehlt Trainer Vincent Kompany damit eine wichtige Option auf der linken Abwehrseite.",
       "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mldm6wkrao2h",
-      "sourceName": "kicker (Bluesky)"
-    },
-    {
-      "slug": "2026-05-08-bayern-testet-tornike-kvaratskhelia-freund-bestaet",
-      "date": "2026-05-08",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-08-bayern-testet-tornike-kvaratskhelia-freund-bestaet.jpg",
-      "thumbnailAlt": "Bayern testet Tornike Kvaratskhelia – Freund bestätigt",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Bayern testet Tornike Kvaratskhelia – Freund bestätigt",
-      "excerpt": "Der FC Bayern nimmt einen Spieler mit bekanntem Nachnamen unter die Lupe: Sportdirektor Christoph Freund bestätigte das Probetraining mit Tornike Kvaratskhelia.",
-      "body": "Der FC Bayern hat nach dem Champions-League-Aus gegen Paris Saint-Germain den Blick bereits nach vorne gerichtet. Wie der kicker auf Bluesky berichtet, testet der Rekordmeister derzeit Tornike Kvaratskhelia – einen Spieler, dessen Nachname aus dem europäischen Fußball bestens bekannt ist. Sportdirektor Christoph Freund bestätigte den Probetraining auf einer Pressekonferenz am Freitag.\n\nÜber die genauen Modalitäten und eine mögliche Verpflichtung äußerte sich Freund laut kicker nicht weiter. Tornike Kvaratskhelia ist der Bruder von Chwitscha Kvaratskhelia, der zuletzt mit Paris Saint-Germain im Champions-League-Halbfinale gegen die Bayern auftrat und in beiden Begegnungen entscheidend zur Münchner Niederlage beitrug.\n\nOb aus dem Probetraining ein konkretes Angebot folgt, ist nach aktuellem Stand offen. Die Bayern suchen im Sommer offenbar gezielt nach Verstärkungen – auch aus dem Umfeld bekannter Namen. Nähere Informationen dürften in den kommenden Wochen folgen.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mldg5zya3r2o",
       "sourceName": "kicker (Bluesky)"
     }
   ],
