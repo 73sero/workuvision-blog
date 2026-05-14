@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-14T11:44:20+00:00",
+  "lastUpdated": "2026-05-14T17:31:07+00:00",
   "tiktokStats": {
     "followers": 1374,
     "likes": "28K",
-    "videos": 59
+    "videos": 60
   },
   "ticker": [
-    "Heim gegen Köln in 2 Tagen — alle Augen auf den FCB",
+    "Heim gegen Köln morgen — alle Augen auf den FCB",
+    "Bayern Frauen holen Double: 4:0-Kantersieg im Pokalfinale",
     "Gordon-Poker: Chelsea und Arsenal drängen sich vor Bayern",
     "Kane lässt sich bei Vertragsgesprächen Zeit",
     "Neuer vor Vertragsverlängerung – und WM-Gerüchte nehmen zu",
     "Jackson kehrt zu Chelsea zurück – Kompany wollte ihn halten",
-    "Neuer vor Vertragsverlängerung – und WM-Comeback im Gespräch",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-14-bayern-frauen-holen-double-4-0-kantersieg-im-pokal",
+      "date": "2026-05-14",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/football.jpg",
+      "thumbnailAlt": "Bayern Frauen holen Double: 4:0-Kantersieg im Pokalfinale",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Bayern Frauen holen Double: 4:0-Kantersieg im Pokalfinale",
+      "excerpt": "Die Frauen des FC Bayern krönen ihre Saison mit dem DFB-Pokal. Im Finale in Köln bezwingen sie den VfL Wolfsburg verdient mit 4:0.",
+      "body": "Die Frauen des FC Bayern München haben am Donnerstag in Köln das DFB-Pokalfinale gegen den VfL Wolfsburg mit 4:0 gewonnen und damit das Double aus Meisterschaft und Pokal perfekt gemacht. Laut übereinstimmenden Berichten von kicker, Sportschau und Süddeutscher Zeitung ließen die Münchnerinnen dem Rekordsieger aus Wolfsburg nur in der ersten Halbzeit Chancen zur Gegenwehr.\n\nFür den FCB ist es laut kicker der dritte DFB-Pokaltitel der Vereinsgeschichte im Frauenfußball. Das klare Ergebnis unterstreicht die Dominanz der Münchnerinnen in dieser Spielzeit. Für VfL-Kapitänin Alexandra Popp endete damit das letzte große Spiel ihrer Karriere beim Wolfsburger Traditionsklub ohne Titelgewinn, wie der Spiegel berichtet.\n\nMit dem Gewinn von Meisterschaft und Pokal in derselben Saison bestätigen die Bayern-Frauen ihre Vormachtstellung im deutschen Frauenfußball. Es ist bereits das zweite Double der Vereinsgeschichte in diesem Bereich – ein Beleg für die konsequente Entwicklung des Frauenteams beim Rekordmeister in den vergangenen Jahren.",
+      "sourceUrl": "https://www.kicker.de/wolfsburg-gegen-bayern-2026-frauen-dfb-pokal-5197881/spielbericht#omrss",
+      "sourceName": "kicker News"
+    },
     {
       "slug": "2026-05-14-gordon-poker-chelsea-und-arsenal-draengen-sich-vor",
       "date": "2026-05-14",
@@ -477,22 +493,6 @@
       "body": "Alphonso Davies steht beim FC Bayern erneut verletzt auf der Seitenlinien. Wie Miasanrot berichtet, fehlt der Linksverteidiger dem Rekordmeister wohl mehrere Wochen. Es ist kein Einzelfall: Der Kanadier hat in dieser Saison bereits mehrfach pausieren müssen.\n\nLaut einem Bericht von Bavarian Football Works, der sich auf interne Quellen beruft, regt sich innerhalb des Klubs Unmut über die Verletzungshistorie des 24-Jährigen. Bayern hatten Davies erst vergangenes Jahr mit einem neuen Fünfjahresvertrag ausgestattet, der ihm bei Erreichen aller Leistungsprämien bis zu 20 Millionen Euro pro Saison einbringen kann.\n\nDer erneute Ausfall kommt zur Unzeit: Am 33. Spieltag reisen die Münchner nach Wolfsburg, bevor mit dem DFB-Pokalfinale noch ein Titel zu vergeben ist. Trainer Vincent Kompany muss auf der linken Abwehrseite improvisieren — und das kurz vor dem wichtigsten verbleibenden Pflichtspiel der Saison.",
       "sourceUrl": "https://miasanrot.de/fc-bayern-alphonso-davies-verletzt-sich-erneut/",
       "sourceName": "Miasanrot (Fanblog)"
-    },
-    {
-      "slug": "2026-05-08-davies-erleidet-muskelverletzung-saison-vorzeitig",
-      "date": "2026-05-08",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-08-davies-erleidet-muskelverletzung-saison-vorzeitig.jpg",
-      "thumbnailAlt": "Davies erleidet Muskelverletzung – Saison vorzeitig beendet",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Davies erleidet Muskelverletzung – Saison vorzeitig beendet",
-      "excerpt": "Alphonso Davies fällt beim FC Bayern mehrere Wochen aus. Auch seine WM-Vorbereitung gerät damit in Gefahr.",
-      "body": "Der FC Bayern muss auf Alphonso Davies verzichten. Wie der Klub offiziell bestätigte, zog sich der Linksverteidiger im Champions-League-Halbfinal-Rückspiel gegen Paris Saint-Germain eine Muskelverletzung im linken Oberschenkel zu. Die Ausfallzeit beträgt laut Vereinsangaben mehrere Wochen.\n\nDamit ist die Saison für den 25-Jährigen vorzeitig beendet. Der kicker berichtet auf Bluesky, dass durch den Ausfall auch die Vorbereitung von Davies auf die bevorstehende Weltmeisterschaft erheblich gestört wird. Der Zeitplan für seine Rückkehr bleibt eng.\n\nFür die Münchner ist es ein weiterer Rückschlag in einer Woche, in der bereits das Aus in der Champions League zu verkraften war. In den verbleibenden Bundesliga-Spielen sowie einem möglichen DFB-Pokal-Endspiel fehlt Trainer Vincent Kompany damit eine wichtige Option auf der linken Abwehrseite.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mldm6wkrao2h",
-      "sourceName": "kicker (Bluesky)"
     }
   ],
   "tiktokVideosAuto": false,
