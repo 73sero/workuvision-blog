@@ -1,30 +1,46 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-14T17:31:07+00:00",
+  "lastUpdated": "2026-05-15T06:50:49+00:00",
   "tiktokStats": {
-    "followers": 1374,
+    "followers": 1376,
     "likes": "28K",
     "videos": 60
   },
   "ticker": [
     "Heim gegen Köln morgen — alle Augen auf den FCB",
+    "Neuer verlängert: Keeper bleibt Bayern noch ein Jahr erhalten",
     "Bayern Frauen holen Double: 4:0-Kantersieg im Pokalfinale",
     "Gordon-Poker: Chelsea und Arsenal drängen sich vor Bayern",
     "Kane lässt sich bei Vertragsgesprächen Zeit",
     "Neuer vor Vertragsverlängerung – und WM-Gerüchte nehmen zu",
-    "Jackson kehrt zu Chelsea zurück – Kompany wollte ihn halten",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
     {
+      "slug": "2026-05-15-neuer-verlaengert-keeper-bleibt-bayern-noch-ein-ja",
+      "date": "2026-05-15",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-15-neuer-verlaengert-keeper-bleibt-bayern-noch-ein-ja.jpg",
+      "thumbnailAlt": "Neuer verlängert: Keeper bleibt Bayern noch ein Jahr erhalten",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuer verlängert: Keeper bleibt Bayern noch ein Jahr erhalten",
+      "excerpt": "Manuel Neuer setzt seine Karriere fort: Der Weltmeister verlängert seinen auslaufenden Vertrag beim FC Bayern München um ein weiteres Jahr.",
+      "body": "Laut einem Bericht von NTV Sport hat Manuel Neuer seinen zum Saisonende auslaufenden Vertrag beim FC Bayern München um ein Jahr verlängert. Der 40-jährige Torhüter und Weltmeister von 2014 bleibt dem Rekordmeister damit über die aktuelle Spielzeit hinaus erhalten.\n\nNach Informationen von Bavarian Football Works soll im Zuge der Neuer-Verlängerung auch Sven Ulreich einen neuen Vertrag erhalten. Sky-Reporter Florian Plettenberg zufolge werde der Ersatzkeeper ebenfalls weiter in München bleiben, um die Torhüterposition auch in der kommenden Saison doppelt zu besetzen.\n\nDie Weiterverpflichtung Neuers kommt wenig überraschend, nachdem der Kapitän in der laufenden Saison überwiegend überzeugte. Die Süddeutsche Zeitung berichtete zudem, dass beim DFB eine Nominierung Neuers für den WM-Kader diskutiert wird — eine Entscheidung, die unabhängig vom Verein getroffen werden müsste.",
+      "sourceUrl": "https://www.n-tv.de/sport/fussball/Manuel-Neuer-verlaengert-beim-FC-Bayern-id30817216.html",
+      "sourceName": "NTV Sport / Bavarian Football Works"
+    },
+    {
       "slug": "2026-05-14-bayern-frauen-holen-double-4-0-kantersieg-im-pokal",
       "date": "2026-05-14",
       "category": "reaction",
       "badge": "Reaktion",
       "badgeColor": "brc",
-      "thumbnail": "img/football.jpg",
+      "thumbnail": "img/articles/2026-05-14-bayern-frauen-holen-double-4-0-kantersieg-im-pokal.jpg",
       "thumbnailAlt": "Bayern Frauen holen Double: 4:0-Kantersieg im Pokalfinale",
       "readtime": "4 Min.",
       "featured": false,
@@ -477,22 +493,6 @@
       "body": "Leon Goretzkas Abschied vom FC Bayern München ist seit Monaten beschlossene Sache: Der auslaufende Vertrag des Mittelfeldspielers wird nicht verlängert. Wie Bavarian Football Works berichtet, steht der 30-Jährige nun kurz vor dem Abschluss eines ablösefreien Wechsels zu AC Milan.\n\nGoretzka hatte sich nach Bekanntwerden seines bevorstehenden Abgangs voll auf die Saison konzentriert und dem Rekordmeister in der Bundesliga sowie im Champions-League-Halbfinale gegen Paris Saint-Germain zur Verfügung gestanden. Nun, im Mai, nähert sich sein letztes Kapitel in München seinem Ende.\n\nMit Goretzka verliert der FCB einen Spieler, der seit 2018 für den Verein aufgelaufen ist und in dieser Zeit mehrere Meistertitel sowie die Champions League gewonnen hat. Wer mittelfristig seinen Platz im zentralen Mittelfeld einnimmt, bleibt abzuwarten – zumal Trainer Vincent Kompany die Kaderzusammenstellung für die kommende Spielzeit noch nicht abgeschlossen hat.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/199827/leon-goretzka-close-to-completing-free-transfer-bayern-munich-to-ac-milan-real-madrid-luka-modric-adrien-rabiot-champions-league-schalke-04-vfl-bochum",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-09-bayern-intern-unzufrieden-davies-verletzungshistor",
-      "date": "2026-05-09",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-09-bayern-intern-unzufrieden-davies-verletzungshistor.jpg",
-      "thumbnailAlt": "Bayern intern unzufrieden: Davies' Verletzungshistorie sorgt für Unmut",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Bayern intern unzufrieden: Davies' Verletzungshistorie sorgt für Unmut",
-      "excerpt": "Alphonso Davies hat erneut einen Rückschlag erlitten. Laut Miasanrot wächst intern die Kritik an der Verletzungsanfälligkeit des Kanadiers.",
-      "body": "Alphonso Davies steht beim FC Bayern erneut verletzt auf der Seitenlinien. Wie Miasanrot berichtet, fehlt der Linksverteidiger dem Rekordmeister wohl mehrere Wochen. Es ist kein Einzelfall: Der Kanadier hat in dieser Saison bereits mehrfach pausieren müssen.\n\nLaut einem Bericht von Bavarian Football Works, der sich auf interne Quellen beruft, regt sich innerhalb des Klubs Unmut über die Verletzungshistorie des 24-Jährigen. Bayern hatten Davies erst vergangenes Jahr mit einem neuen Fünfjahresvertrag ausgestattet, der ihm bei Erreichen aller Leistungsprämien bis zu 20 Millionen Euro pro Saison einbringen kann.\n\nDer erneute Ausfall kommt zur Unzeit: Am 33. Spieltag reisen die Münchner nach Wolfsburg, bevor mit dem DFB-Pokalfinale noch ein Titel zu vergeben ist. Trainer Vincent Kompany muss auf der linken Abwehrseite improvisieren — und das kurz vor dem wichtigsten verbleibenden Pflichtspiel der Saison.",
-      "sourceUrl": "https://miasanrot.de/fc-bayern-alphonso-davies-verletzt-sich-erneut/",
-      "sourceName": "Miasanrot (Fanblog)"
     }
   ],
   "tiktokVideosAuto": false,
