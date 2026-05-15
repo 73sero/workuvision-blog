@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-15T11:48:09+00:00",
+  "lastUpdated": "2026-05-15T17:22:16+00:00",
   "tiktokStats": {
-    "followers": 1382,
+    "followers": 1390,
     "likes": "28K",
     "videos": 60
   },
   "ticker": [
-    "Heim gegen Köln morgen — alle Augen auf den FCB",
+    "Heim gegen Köln heute Abend — alle Augen auf den FCB",
+    "Neuer und Ulreich verlängern: Bayern-Torwartfrage geklärt",
     "Kane gewinnt kicker-Torjägerkanone mit 33 Saisontreffern",
     "Neuer verlängert: Keeper bleibt Bayern noch ein Jahr erhalten",
     "Bayern Frauen holen Double: 4:0-Kantersieg im Pokalfinale",
     "Gordon-Poker: Chelsea und Arsenal drängen sich vor Bayern",
-    "Kane lässt sich bei Vertragsgesprächen Zeit",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-15-neuer-und-ulreich-verlaengern-bayern-torwartfrage",
+      "date": "2026-05-15",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-15-neuer-und-ulreich-verlaengern-bayern-torwartfrage.jpg",
+      "thumbnailAlt": "Neuer und Ulreich verlängern: Bayern-Torwartfrage geklärt",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuer und Ulreich verlängern: Bayern-Torwartfrage geklärt",
+      "excerpt": "Manuel Neuer bleibt dem FC Bayern eine weitere Saison erhalten. Auch Sven Ulreich unterschreibt bis 2027.",
+      "body": "Der FC Bayern München hat seine Torwartfrage für die Saison 2026/27 geklärt. Wie der Verein am Freitagnachmittag offiziell bestätigte, verlängert Manuel Neuer seinen zum Sommer auslaufenden Vertrag um ein weiteres Jahr bis Juni 2027. Der 40-Jährige geht damit in seine 16. Saison beim deutschen Rekordmeister.\n\nNach wochenlangen Verhandlungen einigten sich beide Seiten auf eine Einigung, wie der kicker und Sport1 übereinstimmend berichten. Parallel dazu verlängert auch Sven Ulreich seinen Vertrag beim FCB bis 2027. Die Bayern-Verantwortlichen äußerten sich laut Sport1 in höchsten Tönen über den Kapitän.\n\nFür Torhüter Jonas Urbig bedeutet die Verlängerung, dass er sich weiterhin in der Warteschleife befindet. Laut Spiegel Sport denkt Neuer darüber hinaus an eine Rückkehr in die Nationalmannschaft und könnte somit sogar zur WM fahren. Die Personalfrage im Tor ist für Bayern damit vorerst gelöst.",
+      "sourceUrl": "https://www.kicker.de/offiziell-neuer-verlaengert-beim-fc-bayern-auch-ulreich-unterschreibt-bis-2027-1215401/artikel#omrss",
+      "sourceName": "kicker News"
+    },
     {
       "slug": "2026-05-15-kane-gewinnt-kicker-torjaegerkanone-mit-33-saisont",
       "date": "2026-05-15",
@@ -479,20 +495,6 @@
       "body": "Die Fußballfrauen des FC Bayern München haben ihren vierten deutschen Meistertitel in Folge gefeiert. Beim letzten Heimspiel der Saison bezwangen sie Eintracht Frankfurt mit 2:0, wie die Tagesschau und die FAZ berichten. Mannschaft und Fans feierten anschließend gemeinsam die Übergabe der Meisterschale.\n\nDamit krönen die Münchnerinnen laut Tagesschau Sport eine überragende Saison mit dem erneuten Titelgewinn. Der Sieg gegen den Tabellendritten Frankfurt diente dabei gleichzeitig als Generalprobe vor dem anstehenden Pokalfinale, wie Miasanrot berichtet.\n\nMit vier aufeinanderfolgenden Meisterschaften hat die Frauenmannschaft des FC Bayern eine bemerkenswerte Dominanz in der Frauen-Bundesliga etabliert. Das Pokalfinale steht als nächste große Aufgabe bereits auf dem Programm.",
       "sourceUrl": "https://www.sportschau.de/regional/br/br-vierter-titel-in-folge-fc-bayern-frauen-feiern-meisterschaft-102.html",
       "sourceName": "Tagesschau Sport"
-    },
-    {
-      "slug": "2026-05-09-vorbericht-bayern-wolfsburg",
-      "date": "2026-05-09",
-      "category": "tactics",
-      "badge": "Vorbericht",
-      "badgeColor": "bv",
-      "thumbnail": "img/stadium1.jpg",
-      "thumbnailAlt": "Vorbericht: Bayern gastiert am Samstag in Wolfsburg",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Vorbericht: Bayern gastiert am Samstag in Wolfsburg",
-      "excerpt": "Der FC Bayern ist am Samstag (20:30 Uhr) beim VfL Wolfsburg zu Gast. Für den Rekordmeister geht es um weitere Punkte in der laufenden Bundesliga-Saison.",
-      "body": "Am Samstag, den 9. Mai 2026, ist der FC Bayern München in der Bundesliga beim VfL Wolfsburg zu Gast. Anpfiff in der Volkswagen Arena ist um 20:30 Uhr. Die Partie fällt in die Schlussphase der Saison, in der jeder Punkt für die Münchner Bedeutung hat.\n\nDie Aufstellung steht noch aus. Wie zuletzt berichtet, hatte der FCB vor dem Champions-League-Halbfinale gegen Paris Saint-Germain mit mehreren verletzungsbedingten Ausfällen zu kämpfen. Ob alle betroffenen Spieler für die Partie in Wolfsburg wieder zur Verfügung stehen, bleibt abzuwarten. Trainer Vincent Kompany wird seine Kaderplanung voraussichtlich erst kurzfristig bekanntgeben.\n\nMit dem VfL Wolfsburg wartet auf Bayern ein Gegner, der im heimischen Stadion stabil auftreten kann. Die Niedersachsen verteidigen kompakt und setzen auf schnelle Umschaltmomente. Für den Rekordmeister wird es darauf ankommen, frühzeitig Kontrolle über das Spiel zu gewinnen und die eigene Offensive konsequent einzusetzen."
     }
   ],
   "tiktokVideosAuto": false,
