@@ -1,23 +1,39 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-15T06:50:49+00:00",
+  "lastUpdated": "2026-05-15T11:48:09+00:00",
   "tiktokStats": {
-    "followers": 1376,
+    "followers": 1382,
     "likes": "28K",
     "videos": 60
   },
   "ticker": [
     "Heim gegen Köln morgen — alle Augen auf den FCB",
+    "Kane gewinnt kicker-Torjägerkanone mit 33 Saisontreffern",
     "Neuer verlängert: Keeper bleibt Bayern noch ein Jahr erhalten",
     "Bayern Frauen holen Double: 4:0-Kantersieg im Pokalfinale",
     "Gordon-Poker: Chelsea und Arsenal drängen sich vor Bayern",
     "Kane lässt sich bei Vertragsgesprächen Zeit",
-    "Neuer vor Vertragsverlängerung – und WM-Gerüchte nehmen zu",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-15-kane-gewinnt-kicker-torjaegerkanone-mit-33-saisont",
+      "date": "2026-05-15",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-15-kane-gewinnt-kicker-torjaegerkanone-mit-33-saisont.jpg",
+      "thumbnailAlt": "Kane gewinnt kicker-Torjägerkanone mit 33 Saisontreffern",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Kane gewinnt kicker-Torjägerkanone mit 33 Saisontreffern",
+      "excerpt": "Harry Kane führt die Torschützenliste der Bundesliga mit 33 Treffern an – ein Vorsprung von 14 Toren auf den Zweitplatzierten.",
+      "body": "Laut kicker erhält Harry Kane die Torjägerkanone der Saison 2025/26. Der englische Stürmer des FC Bayern traf in der Bundesliga 33 Mal und führt die Torschützenliste damit mit einem Vorsprung von 14 Treffern vor Deniz Undav vom VfB Stuttgart an.\n\nWie der kicker weiter berichtet, handelt es sich dabei um ein besonderes Novum: Zwar geht die Auszeichnung zum 24. Mal an einen Bayern-Spieler, doch die Überlegenheit Kanes in dieser Kategorie ist in dieser Deutlichkeit außergewöhnlich. Die Kanone soll ihm am Samstag nach Abpfiff des Spiels gegen den 1. FC Köln überreicht werden.\n\nFür den Rekordmeister unterstreicht die Auszeichnung eine starke Spielzeit im Angriff. Kane war in dieser Saison der prägende Faktor in der Offensive der Münchner – die Torjägerkanone ist der statistische Beleg dafür.",
+      "sourceUrl": "https://www.kicker.de/zum-24-mal-die-bayern-und-doch-ein-novum-kicker-torjaegerkanone-fuer-kane-1218773/artikel#omrss",
+      "sourceName": "kicker News"
+    },
     {
       "slug": "2026-05-15-neuer-verlaengert-keeper-bleibt-bayern-noch-ein-ja",
       "date": "2026-05-15",
@@ -477,22 +493,6 @@
       "title": "Vorbericht: Bayern gastiert am Samstag in Wolfsburg",
       "excerpt": "Der FC Bayern ist am Samstag (20:30 Uhr) beim VfL Wolfsburg zu Gast. Für den Rekordmeister geht es um weitere Punkte in der laufenden Bundesliga-Saison.",
       "body": "Am Samstag, den 9. Mai 2026, ist der FC Bayern München in der Bundesliga beim VfL Wolfsburg zu Gast. Anpfiff in der Volkswagen Arena ist um 20:30 Uhr. Die Partie fällt in die Schlussphase der Saison, in der jeder Punkt für die Münchner Bedeutung hat.\n\nDie Aufstellung steht noch aus. Wie zuletzt berichtet, hatte der FCB vor dem Champions-League-Halbfinale gegen Paris Saint-Germain mit mehreren verletzungsbedingten Ausfällen zu kämpfen. Ob alle betroffenen Spieler für die Partie in Wolfsburg wieder zur Verfügung stehen, bleibt abzuwarten. Trainer Vincent Kompany wird seine Kaderplanung voraussichtlich erst kurzfristig bekanntgeben.\n\nMit dem VfL Wolfsburg wartet auf Bayern ein Gegner, der im heimischen Stadion stabil auftreten kann. Die Niedersachsen verteidigen kompakt und setzen auf schnelle Umschaltmomente. Für den Rekordmeister wird es darauf ankommen, frühzeitig Kontrolle über das Spiel zu gewinnen und die eigene Offensive konsequent einzusetzen."
-    },
-    {
-      "slug": "2026-05-09-goretzka-kurz-vor-abloesefreiem-wechsel-zu-ac-mila",
-      "date": "2026-05-09",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-09-goretzka-kurz-vor-abloesefreiem-wechsel-zu-ac-mila.jpg",
-      "thumbnailAlt": "Goretzka kurz vor ablösefreiem Wechsel zu AC Milan",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Goretzka kurz vor ablösefreiem Wechsel zu AC Milan",
-      "excerpt": "Leon Goretzkas Zeit beim FC Bayern endet im Sommer – laut Berichten steht der Mittelfeldspieler kurz vor einem ablösefreien Wechsel zum italienischen Traditionsklub AC Milan.",
-      "body": "Leon Goretzkas Abschied vom FC Bayern München ist seit Monaten beschlossene Sache: Der auslaufende Vertrag des Mittelfeldspielers wird nicht verlängert. Wie Bavarian Football Works berichtet, steht der 30-Jährige nun kurz vor dem Abschluss eines ablösefreien Wechsels zu AC Milan.\n\nGoretzka hatte sich nach Bekanntwerden seines bevorstehenden Abgangs voll auf die Saison konzentriert und dem Rekordmeister in der Bundesliga sowie im Champions-League-Halbfinale gegen Paris Saint-Germain zur Verfügung gestanden. Nun, im Mai, nähert sich sein letztes Kapitel in München seinem Ende.\n\nMit Goretzka verliert der FCB einen Spieler, der seit 2018 für den Verein aufgelaufen ist und in dieser Zeit mehrere Meistertitel sowie die Champions League gewonnen hat. Wer mittelfristig seinen Platz im zentralen Mittelfeld einnimmt, bleibt abzuwarten – zumal Trainer Vincent Kompany die Kaderzusammenstellung für die kommende Spielzeit noch nicht abgeschlossen hat.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/199827/leon-goretzka-close-to-completing-free-transfer-bayern-munich-to-ac-milan-real-madrid-luka-modric-adrien-rabiot-champions-league-schalke-04-vfl-bochum",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
