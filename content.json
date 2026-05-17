@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-17T15:35:53+00:00",
+  "lastUpdated": "2026-05-17T16:45:38+00:00",
   "tiktokStats": {
     "followers": 1397,
     "likes": "28K",
     "videos": 61
   },
   "ticker": [
+    "Neuer und Ulreich verlängern: FCB verlängert mit beiden Torhütern",
     "Neuer mit muskulären Problemen: WM-Debatte spitzt sich zu",
     "Neuer und Ulreich verlängern: Urbig gratuliert Torhüter-Duo",
     "Kane holt Torjägerkrone: 36 Treffer in der Bundesliga",
     "FC Bayern 5:1 FC Köln – Kane-Hut-Trick zum Saisonabschluss",
-    "Gordon will England verlassen: Bayern im Vorteil",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-17-neuer-und-ulreich-verlaengern-fcb-verlaengert-mit",
+      "date": "2026-05-17",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-17-neuer-und-ulreich-verlaengern-fcb-verlaengert-mit.jpg",
+      "thumbnailAlt": "Neuer und Ulreich verlängern: FCB verlängert mit beiden Torhütern",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuer und Ulreich verlängern: FCB verlängert mit beiden Torhütern",
+      "excerpt": "Der FC Bayern hat die Verträge von Manuel Neuer und Sven Ulreich um je ein Jahr verlängert. Sportvorstand Max Eberl bestätigte die Einigungen.",
+      "body": "Der FC Bayern hat am Sonntag die Vertragsverlängerungen von Manuel Neuer und Sven Ulreich um jeweils ein Jahr offiziell bekanntgegeben. Beide Torhüter bleiben damit mindestens eine weitere Saison beim Rekordmeister. Laut Bavarian Football Works wurden die neuen Kontrakte im Rahmen einer Pressekonferenz von Sportvorstand Max Eberl bestätigt.\n\nEberl hatte sich zuvor nach dem 5:1-Sieg gegen den 1. FC Köln am letzten Bundesliga-Spieltag gegenüber Medienvertretern zu den Torhüterfragen geäußert. Bavarian Football Works berichtet, dass Eberl im Vorfeld der Einigung noch ausweichend auf Fragen zur Vertragssituation Neuers reagiert hatte, obwohl die Gespräche bereits weit fortgeschritten gewesen seien.\n\nFür Neuer kommt die Verlängerung zu einem brisanten Zeitpunkt: Der 40-Jährige hatte beim letzten Heimspiel gegen Köln nach rund einer Stunde um seine Auswechslung gebeten, um kein gesundheitliches Risiko einzugehen, wie der kicker berichtete. Die Personalie Neuer dürfte den FCB auch in den kommenden Wochen beschäftigen — nicht zuletzt im Hinblick auf die WM-Kader-Nominierung des DFB, die für Donnerstag angekündigt ist.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/202745/new-deals-for-bayern-munichs-manuel-neuer-sven-ulreich-are-imminent",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-17-neuer-mit-muskulaeren-problemen-wm-debatte-spitzt",
       "date": "2026-05-17",
@@ -476,22 +492,6 @@
       "body": "Laut einem Bericht der Abendzeitung (Kilian Kreitmair und Maximilian Koch) trifft sich der Aufsichtsrat des FC Bayern München an diesem Montag zu einer bedeutenden Sitzung. Dabei sollen unter anderem mögliche Vertragsverlängerungen mit Sportvorstand Max Eberl, Sportdirektor Christoph Freund und Vorstandschef Jan-Christian Dreesen besprochen werden.\n\nEin weiterer zentraler Punkt der Sitzung ist demnach das bevorstehende Sommertransferfenster. Der Rekordmeister steht nach dem Ausscheiden in der Champions League und dem nahenden Bundesliga-Saisonende vor wegweisenden personellen Entscheidungen, die die Kaderplanung für die Saison 2026/27 bestimmen werden.\n\nDas Treffen fällt in eine Phase, in der beim FCB gleich mehrere Personalfragen offen sind. Zuletzt hatte etwa die Zukunft von Hiroki Itō für Gesprächsstoff gesorgt. Wie die Abendzeitung weiter berichtet, soll das Aufsichtsgremium einen umfassenden Überblick über die strategische Ausrichtung des Klubs erhalten – die Ergebnisse der Sitzung dürften die Münchner Transferaktivitäten in den kommenden Wochen maßgeblich prägen.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/201182/big-monday-bayern-munich-to-hold-important-summit-on-future",
       "sourceName": "Abendzeitung (via Bavarian Football Works)"
-    },
-    {
-      "slug": "2026-05-10-davies-faellt-aus-kompany-gibt-update-nach-wolfsbu",
-      "date": "2026-05-10",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-10-davies-faellt-aus-kompany-gibt-update-nach-wolfsbu.jpg",
-      "thumbnailAlt": "Davies fällt aus: Kompany gibt Update nach Wolfsburg-Sieg",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Davies fällt aus: Kompany gibt Update nach Wolfsburg-Sieg",
-      "excerpt": "Bayern gewinnt 1:0 in Wolfsburg – doch die Nachricht überschattet den Sieg: Alphonso Davies scheidet verletzt aus und verpasst den Rest der Saison.",
-      "body": "Der FC Bayern hat am 33. Spieltag beim VfL Wolfsburg mit 1:0 gewonnen und damit einen weiteren Schritt in Richtung Meisterfest gemacht. Wie Miasanrot berichtet, war es eine Partie mit zwei Gesichtern: einer schwachen ersten und einer stärkeren zweiten Hälfte. Den entscheidenden Treffer erzielte Michael Olise mit einem sehenswerten Abschluss, während Torhüter Jonas Urbig mit starken Paraden die knappe Führung über die Zeit rettete.\n\nDie sportliche Freude wurde jedoch durch eine Hiobsbotschaft getrübt. Laut Bavarian Football Works zog sich Alphonso Davies im Verlauf der Partie eine Verletzung zu und wird in dieser Saison nicht mehr zum Einsatz kommen. Trainer Vincent Kompany bestätigte den Ausfall nach dem Abpfiff in einer Stellungnahme.\n\nFür die Münchner steht nun noch das letzte Bundesliga-Heimspiel gegen den 1. FC Köln an – verbunden mit der Meisterfeier inklusive Trophäenübergabe. Der Ausfall von Davies trübt die Stimmung vor dem Saisonabschluss, ändert jedoch nichts an der sportlichen Ausgangslage des Rekordmeisters.",
-      "sourceUrl": "https://miasanrot.de/fc-bayern-zaehmt-die-wolfe/",
-      "sourceName": "Miasanrot"
     }
   ],
   "tiktokVideosAuto": false,
