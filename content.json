@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-17T10:59:31+00:00",
+  "lastUpdated": "2026-05-17T12:01:21+00:00",
   "tiktokStats": {
-    "followers": 1396,
+    "followers": 1397,
     "likes": "28K",
     "videos": 61
   },
   "ticker": [
+    "Neuer mit muskulären Problemen: WM-Debatte spitzt sich zu",
     "Neuer und Ulreich verlängern: Urbig gratuliert Torhüter-Duo",
     "Kane holt Torjägerkrone: 36 Treffer in der Bundesliga",
     "FC Bayern 5:1 FC Köln – Kane-Hut-Trick zum Saisonabschluss",
     "Gordon will England verlassen: Bayern im Vorteil",
-    "Vorbericht: Bayern empfängt den 1. FC Köln",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-17-neuer-mit-muskulaeren-problemen-wm-debatte-spitzt",
+      "date": "2026-05-17",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/hero.jpg",
+      "thumbnailAlt": "Neuer mit muskulären Problemen: WM-Debatte spitzt sich zu",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuer mit muskulären Problemen: WM-Debatte spitzt sich zu",
+      "excerpt": "Manuel Neuer muss nach dem Saisonfinale wegen muskulärer Beschwerden kürzertreten – mitten in der Debatte um eine WM-Nominierung.",
+      "body": "Der FC Bayern hat am Sonntagmittag mitgeteilt, dass Manuel Neuer wegen muskulärer Probleme vorübergehend kürzertreten muss. Bereits beim 5:1-Heimsieg gegen den 1. FC Köln hatte der 40-Jährige nach rund einer Stunde um seine Auswechslung gebeten. Laut kicker erklärte Neuer anschließend, er habe kein Risiko eingehen wollen.\n\nDie Meldung trifft zu einem ungünstigen Zeitpunkt ein: Seit Wochen wird über ein mögliches Comeback des Torwarts im deutschen WM-Kader spekuliert. Bundestrainer äußerten sich bislang nicht abschließend dazu; die offizielle Nominierung soll laut Tagesschau am Donnerstag bekanntgegeben werden.\n\nFür den FC Bayern bedeutet der Fall eine zusätzliche Ungewissheit in der ohnehin angespannten Torwartfrage. Neuer verlängerte seinen Vertrag zuletzt um ein weiteres Jahr – wie er die Vorbereitung auf die neue Saison gestalten kann, hängt nun vom Verlauf der muskulären Beschwerden ab. Sven Ulreich und Jonas Urbig stehen als Alternativen bereit.",
+      "sourceUrl": "https://www.kicker.de/muskulaere-probleme-neuer-muss-kuerzertreten-1220224/artikel#omrss",
+      "sourceName": "kicker"
+    },
     {
       "slug": "2026-05-17-neuer-und-ulreich-verlaengern-urbig-gratuliert-tor",
       "date": "2026-05-17",
@@ -476,22 +492,6 @@
       "body": "Der FC Bayern hat am 33. Spieltag beim VfL Wolfsburg mit 1:0 gewonnen und damit einen weiteren Schritt in Richtung Meisterfest gemacht. Wie Miasanrot berichtet, war es eine Partie mit zwei Gesichtern: einer schwachen ersten und einer stärkeren zweiten Hälfte. Den entscheidenden Treffer erzielte Michael Olise mit einem sehenswerten Abschluss, während Torhüter Jonas Urbig mit starken Paraden die knappe Führung über die Zeit rettete.\n\nDie sportliche Freude wurde jedoch durch eine Hiobsbotschaft getrübt. Laut Bavarian Football Works zog sich Alphonso Davies im Verlauf der Partie eine Verletzung zu und wird in dieser Saison nicht mehr zum Einsatz kommen. Trainer Vincent Kompany bestätigte den Ausfall nach dem Abpfiff in einer Stellungnahme.\n\nFür die Münchner steht nun noch das letzte Bundesliga-Heimspiel gegen den 1. FC Köln an – verbunden mit der Meisterfeier inklusive Trophäenübergabe. Der Ausfall von Davies trübt die Stimmung vor dem Saisonabschluss, ändert jedoch nichts an der sportlichen Ausgangslage des Rekordmeisters.",
       "sourceUrl": "https://miasanrot.de/fc-bayern-zaehmt-die-wolfe/",
       "sourceName": "Miasanrot"
-    },
-    {
-      "slug": "2026-05-10-goretzka-nach-kopftreffer-in-wolfsburg-vorsichtsha",
-      "date": "2026-05-10",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-10-goretzka-nach-kopftreffer-in-wolfsburg-vorsichtsha.jpg",
-      "thumbnailAlt": "Goretzka nach Kopftreffer in Wolfsburg vorsichtshalber ausgewechselt",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Goretzka nach Kopftreffer in Wolfsburg vorsichtshalber ausgewechselt",
-      "excerpt": "Leon Goretzka musste das Spiel beim VfL Wolfsburg in der Halbzeit verlassen – nach einem Kopftreffer klagte er in der Kabine über Schwindel.",
-      "body": "Beim 1:0-Sieg des FC Bayern beim VfL Wolfsburg am 33. Spieltag hat Mittelfeldspieler Leon Goretzka einen Schlag gegen den Kopf erlitten. Wie Bavarian Football Works unter Berufung auf die Bild berichtet, absolvierte der 30-Jährige die erste Halbzeit noch vollständig – in der Kabine klagte er jedoch über Schwindelgefühle.\n\nDaraufhin entschied der medizinische Stab des FCB, Goretzka nicht mehr aufs Feld zu schicken. Die Auswechslung zur Halbzeit erfolgte demnach als Vorsichtsmaßnahme und nicht aufgrund taktischer Überlegungen von Trainer Vincent Kompany.\n\nAngaben zum weiteren Gesundheitszustand Goretzkas machte der Verein zunächst nicht. Für die Bayern steht am kommenden Samstag der abschließende 34. Bundesliga-Spieltag an – ob Goretzka dabei zur Verfügung steht, bleibt vorerst offen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-bundesliga/200900/leon-goretzka-felt-dizziness-at-halftime-of-bayern-munichs-1-0-win-over-wolfsburg",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
