@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-17T17:51:48+00:00",
+  "lastUpdated": "2026-05-17T18:56:07+00:00",
   "tiktokStats": {
     "followers": 1397,
     "likes": "28K",
     "videos": 61
   },
   "ticker": [
+    "Goretzka-Abschied: Bayern ehrt einen oft verkannten Profi",
     "Nübel ohne Zukunft beim FCB: Sportdirektor stellt klar",
     "Neuer und Ulreich verlängern: FCB verlängert mit beiden Torhütern",
     "Neuer mit muskulären Problemen: WM-Debatte spitzt sich zu",
     "Neuer und Ulreich verlängern: Urbig gratuliert Torhüter-Duo",
-    "Kane holt Torjägerkrone: 36 Treffer in der Bundesliga",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-17-goretzka-abschied-bayern-ehrt-einen-oft-verkannten",
+      "date": "2026-05-17",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-17-goretzka-abschied-bayern-ehrt-einen-oft-verkannten.jpg",
+      "thumbnailAlt": "Goretzka-Abschied: Bayern ehrt einen oft verkannten Profi",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Goretzka-Abschied: Bayern ehrt einen oft verkannten Profi",
+      "excerpt": "Beim 5:1 gegen den 1. FC Köln verabschiedete sich Leon Goretzka nach vielen Jahren beim FC Bayern mit einer angemessenen Bühne.",
+      "body": "Mit einem 5:1-Heimsieg gegen den 1. FC Köln beendeten die Bayern ihre Bundesliga-Saison – und richteten dabei einen besonderen Fokus auf Leon Goretzka. Wie die Süddeutsche Zeitung berichtet, spielten die Münchner zum Abschied des Mittelfeldprofis eigens den Bochum-Song, eine Anspielung auf Goretzkas Karriere-Anfänge beim VfL Bochum. Der FCB, der sich bei Abschieds-Inszenierungen laut dem Bericht mitunter schwertut, habe dem Spieler diesmal eine würdige Bühne bereitet.\n\nParallel dazu sorgte das letzte Heimspiel für eine zusätzliche Randnotiz: Manuel Neuer bat laut kicker nach rund einer Stunde selbst um seine Auswechslung. Der 40-Jährige erklärte anschließend, er habe kein Risiko eingehen wollen – ein Verweis auf die anhaltende Debatte um seinen möglichen WM-Einsatz im DFB-Kader. Der FC Bayern bestätigte zudem, dass Neuer wegen muskulärer Probleme vorerst kürzertreten muss.\n\nFür den Rekordmeister war der Saisonabschluss somit zweigesichtig: sportlich ein souveräner Erfolg, menschlich geprägt vom Goretzka-Abschied und einer Verletzungssorge um den Stammtorhüter kurz vor der Weltmeisterschaft.",
+      "sourceUrl": "https://www.sueddeutsche.de/sport/bundesliga-fc-bayern-leon-goretzka-abschied-li.3484510",
+      "sourceName": "Süddeutsche Zeitung"
+    },
     {
       "slug": "2026-05-17-nuebel-ohne-zukunft-beim-fcb-sportdirektor-stellt",
       "date": "2026-05-17",
@@ -476,22 +492,6 @@
       "body": "Laut einem Bericht von Florian Plettenberg, den Miasanrot aufgreift, ist der türkische Meister Galatasaray daran interessiert, Leihspieler Sacha Boey dauerhaft vom FC Bayern zu übernehmen. Die Istanbuler sehen den Außenverteidiger als festen Bestandteil ihrer Planungen – wollen jedoch die im Leihvertrag festgeschriebene Kaufoption von 15 Millionen Euro nicht aktivieren.\n\nStattdessen sucht Galatasaray nach einer günstigeren Einigung mit den Münchnern. Ob der FCB bereit ist, den Preis zu senken oder die Verhandlungen scheitern zu lassen, ist laut dem Bericht noch offen. Boey war in der laufenden Saison nach Istanbul verliehen worden, um dort regelmäßige Spielzeit zu sammeln.\n\nFür die Bayern ist der Fall Boey Teil einer umfassenderen Kaderneugestaltung im Sommer. Wie der Verein mit der Forderung Galatasarays umgeht, dürfte in den kommenden Wochen klarer werden – spätestens wenn die Transferperiode offiziell beginnt.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/201210/bayern-munich-transfer-news-rumors-loan-watch-galatasaray-sacha-boey-loanee-turkiye-champions-leauge",
       "sourceName": "Bavarian Football Works (nach Florian Plettenberg)"
-    },
-    {
-      "slug": "2026-05-11-tarlac-verlaesst-bayern-leibenath-folgt-als-sportd",
-      "date": "2026-05-11",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-11-tarlac-verlaesst-bayern-leibenath-folgt-als-sportd.jpg",
-      "thumbnailAlt": "Tarlac verlässt Bayern: Leibenath folgt als Sportdirektor",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Tarlac verlässt Bayern: Leibenath folgt als Sportdirektor",
-      "excerpt": "Der FC Bayern und Sportdirektor Dragan Tarlac trennen sich nach der Saison. Als Nachfolger steht Thorsten Leibenath vom SSV Ulm fest.",
-      "body": "Der FC Bayern München und Sportdirektor Dragan Tarlac gehen nach der laufenden Saison getrennte Wege. Das berichtet der kicker. Der Serbe verlässt den Rekordmeister damit nach vergleichsweise kurzer Amtszeit.\n\nAls Nachfolger ist laut kicker bereits ein Kandidat gefunden: Thorsten Leibenath, derzeit beim SSV Ulm tätig, übernimmt den Posten des Sportdirektors an der Säbener Straße. Ein genaues Datum für seinen Amtsantritt nannte der kicker nicht.\n\nDer Wechsel auf der Sportdirektor-Position fällt in eine ohnehin bewegte Phase beim FCB. Zuletzt hatte Sport1-Journalist Stefan Kumberger berichtet, auch die Zukunft von Vorstandsmitglied Max Eberl sei intern nicht unumstritten. Wie sich die neue Konstellation auf die Transferplanung für die Saison 2026/27 auswirkt, bleibt abzuwarten.",
-      "sourceUrl": "https://www.kicker.de/bayern-und-tarlac-gehen-getrennte-wege-ulmer-leibenath-wird-nachfolger-1218472/artikel#omrss",
-      "sourceName": "kicker"
     }
   ],
   "tiktokVideosAuto": false,
