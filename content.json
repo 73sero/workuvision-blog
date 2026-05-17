@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-17T21:12:55+00:00",
+  "lastUpdated": "2026-05-17T22:12:40+00:00",
   "tiktokStats": {
     "followers": 1398,
     "likes": "28K",
     "videos": 61
   },
   "ticker": [
+    "Gvardiol im Visier: Bayern sollen Kontakt zu City-Star aufgenommen haben",
     "Nübel ohne Bayern-Chance: Urbigs Aufstieg versperrt den Weg",
     "Goretzka-Abschied: Bayern ehrt einen oft verkannten Profi",
     "Nübel ohne Zukunft beim FCB: Sportdirektor stellt klar",
     "Neuer und Ulreich verlängern: FCB verlängert mit beiden Torhütern",
-    "Neuer mit muskulären Problemen: WM-Debatte spitzt sich zu",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-17-gvardiol-im-visier-bayern-sollen-kontakt-zu-city-s",
+      "date": "2026-05-17",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-17-gvardiol-im-visier-bayern-sollen-kontakt-zu-city-s.jpg",
+      "thumbnailAlt": "Gvardiol im Visier: Bayern sollen Kontakt zu City-Star aufgenommen haben",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Gvardiol im Visier: Bayern sollen Kontakt zu City-Star aufgenommen haben",
+      "excerpt": "Lothar Matthäus deutet an, dass der FC Bayern erste Anfragen bezüglich Joško Gvardiol von Manchester City gestellt haben soll.",
+      "body": "Laut dem früheren Bayern- und Nationalmannschaftsspieler Lothar Matthäus beschäftigt sich der FC Bayern offenbar mit einem möglichen Transfer von Joško Gvardiol. Matthäus erklärte, er habe einen konkreten Spieler im Sinn und habe gehört, dass die Münchner bereits erste Anfragen gestellt hätten – ein früherer Bundesligaspieler aus Leipzig, der derzeit für Manchester City aktiv sei. Damit deutete er eindeutig auf den kroatischen Innenverteidiger hin, wie Bavarian Football Works berichtet.\n\nGvardiol wechselte 2023 von RB Leipzig zu Manchester City und etablierte sich dort als Stammspieler in der Abwehr. Der 22-Jährige gilt als einer der stärksten Innenverteidiger seiner Generation in Europa. In der Münchner Defensive könnte er das Angebot an Optionen für Trainer Vincent Kompany deutlich erhöhen.\n\nOffizielle Stellungnahmen des FC Bayern oder von Manchester City liegen bislang nicht vor. Matthäus ist zwar ein gut vernetzter Kenner der Münchner Vereinsstrategien, seine Aussagen haben jedoch den Charakter eines Insiderhinweises und keiner bestätigten Meldung. Ob die Bayern tatsächlich konkret werden, dürfte sich im Laufe des Sommers zeigen.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/203388/bayern-munich-could-be-chasing-manchester-citys-josko-gvardiol",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-17-nuebel-ohne-bayern-chance-urbigs-aufstieg-versperr",
       "date": "2026-05-17",
@@ -476,22 +492,6 @@
       "body": "Michael Olise hat in Paris eine besondere Auszeichnung erhalten. Wie Sport1 berichtet, kürte die französische Fußballer-Gewerkschaft den Offensivspieler des FC Bayern zum besten französischen Fußballer im Ausland. Olise setzte sich dabei unter anderem gegen Kylian Mbappé durch.\n\nFür den Münchner Angreifer ist die Ehrung eine Bestätigung seiner starken Saison beim Rekordmeister. Olise war im Sommer 2024 von Crystal Palace zu den Bayern gewechselt und zählt seitdem zu den prägenden Figuren im Spiel von Trainer Vincent Kompany.\n\nDie Verleihung fand am Rande der Ligue-1-Gala statt, bei der auch Ousmane Dembélé zum zweiten Mal in Folge als bester Spieler der französischen Oberliga ausgezeichnet wurde. Für den FCB ist die Auszeichnung Olieses ein weiteres Signal, dass sich die Investition in den Franzosen bislang ausgezahlt hat.",
       "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mlnfp5n2r62m",
       "sourceName": "Sport1 (Bluesky)"
-    },
-    {
-      "slug": "2026-05-12-kompany-vs-bischof-was-die-daten-wirklich-sagen",
-      "date": "2026-05-12",
-      "category": "tactics",
-      "badge": "Taktik-Analyse",
-      "badgeColor": "bt",
-      "thumbnail": "img/articles/2026-05-12-kompany-vs-bischof-was-die-daten-wirklich-sagen.jpg",
-      "thumbnailAlt": "Kompany vs. Bischof: Was die Daten wirklich sagen",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Kompany vs. Bischof: Was die Daten wirklich sagen",
-      "excerpt": "Nach dem Sieg in Wolfsburg kassierte Vincent Kompany eine Aussage von Tom Bischof öffentlich ein. Miasanrot hat die Zahlen hinter der Kontroverse analysiert.",
-      "body": "Nach dem 1:0-Sieg des FC Bayern beim VfL Wolfsburg sorgte eine ungewöhnliche Szene für Gesprächsstoff: Trainer Vincent Kompany korrigierte eine Aussage von Mittelfeldspieler Tom Bischof öffentlich – eine offene Meinungsverschiedenheit zwischen Coach und Spieler, die in Fachkreisen Aufmerksamkeit erzeugte.\n\nWie Miasanrot berichtet, hat der Fanblog die Leistungsdaten Bischofs aus dieser Partie sowie aus dem Saisonverlauf ausgewertet, um die Einschätzungen beider Seiten zu überprüfen. Die Analyse zeigt demnach ein differenziertes Bild, das weder Kompanys noch Bischofs Version vollständig bestätigt – die Datenlage liefere Argumente für beide Standpunkte.\n\nFür den FC Bayern kommt die interne Debatte zu einem sensiblen Zeitpunkt: Mit dem DFB-Pokalfinale gegen den VfB Stuttgart steht der Rekordmeister vor der Möglichkeit, die Saison mit einem Double abzuschließen. Ob Bischof in Berlin eine tragende Rolle spielen wird, bleibt nach der öffentlichen Kontroverse eine offene Frage.",
-      "sourceUrl": "https://miasanrot.de/fc-bayern-kontroverse-kompany-bischof-daten-zahlen/",
-      "sourceName": "Miasanrot (Fanblog)"
     }
   ],
   "tiktokVideosAuto": false,
