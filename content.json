@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-17T20:02:13+00:00",
+  "lastUpdated": "2026-05-17T21:12:55+00:00",
   "tiktokStats": {
-    "followers": 1397,
+    "followers": 1398,
     "likes": "28K",
     "videos": 61
   },
   "ticker": [
+    "Nübel ohne Bayern-Chance: Urbigs Aufstieg versperrt den Weg",
     "Goretzka-Abschied: Bayern ehrt einen oft verkannten Profi",
     "Nübel ohne Zukunft beim FCB: Sportdirektor stellt klar",
     "Neuer und Ulreich verlängern: FCB verlängert mit beiden Torhütern",
     "Neuer mit muskulären Problemen: WM-Debatte spitzt sich zu",
-    "Neuer und Ulreich verlängern: Urbig gratuliert Torhüter-Duo",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-17-nuebel-ohne-bayern-chance-urbigs-aufstieg-versperr",
+      "date": "2026-05-17",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-17-nuebel-ohne-bayern-chance-urbigs-aufstieg-versperr.jpg",
+      "thumbnailAlt": "Nübel ohne Bayern-Chance: Urbigs Aufstieg versperrt den Weg",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Nübel ohne Bayern-Chance: Urbigs Aufstieg versperrt den Weg",
+      "excerpt": "Nach Neuers Vertragsverlängerung hat Alexander Nübel keine Rückkehrmöglichkeit zum FC Bayern mehr. Laut Sport Bild ist die Torhüterfrage damit endgültig geklärt.",
+      "body": "Nach der bestätigten Vertragsverlängerung von Manuel Neuer beim FC Bayern hat Leihspieler Alexander Nübel keine Perspektive mehr auf eine Rückkehr nach München. Das berichtet Sport Bild, wie das Fanblog Miasanrot unter Berufung auf das Blatt festhält.\n\nAusschlaggebend ist demnach nicht allein Neuers Verbleib, sondern auch die rasante Entwicklung von Jonas Urbig. Der junge Torhüter hat sich laut dem Bericht in der Hierarchie so weit nach oben gearbeitet, dass für Nübel schlicht kein Platz mehr vorhanden ist. Damit ist die Torhütersituation des Rekordmeisters für die kommende Saison besetzt: Neuer, Urbig und Sven Ulreich bilden das Trio.\n\nFür Nübel, dessen Leihe ausläuft, bedeutet dies die endgültige Gewissheit, dass er seinen Weg woanders fortsetzen muss. Laut dem Bericht soll er Angebote aus der Premier League sowie von anderen Klubs erhalten haben. Beim FC Bayern endet damit ein langes Kapitel der Ungewissheit — die Torwartfrage ist nun auf allen Ebenen beantwortet.",
+      "sourceUrl": "https://miasanrot.de/fc-bayern-koeln-bundesliga-spielbericht-analyse/",
+      "sourceName": "Miasanrot (via Sport Bild)"
+    },
     {
       "slug": "2026-05-17-goretzka-abschied-bayern-ehrt-einen-oft-verkannten",
       "date": "2026-05-17",
@@ -476,22 +492,6 @@
       "body": "Nach dem 1:0-Sieg des FC Bayern beim VfL Wolfsburg sorgte eine ungewöhnliche Szene für Gesprächsstoff: Trainer Vincent Kompany korrigierte eine Aussage von Mittelfeldspieler Tom Bischof öffentlich – eine offene Meinungsverschiedenheit zwischen Coach und Spieler, die in Fachkreisen Aufmerksamkeit erzeugte.\n\nWie Miasanrot berichtet, hat der Fanblog die Leistungsdaten Bischofs aus dieser Partie sowie aus dem Saisonverlauf ausgewertet, um die Einschätzungen beider Seiten zu überprüfen. Die Analyse zeigt demnach ein differenziertes Bild, das weder Kompanys noch Bischofs Version vollständig bestätigt – die Datenlage liefere Argumente für beide Standpunkte.\n\nFür den FC Bayern kommt die interne Debatte zu einem sensiblen Zeitpunkt: Mit dem DFB-Pokalfinale gegen den VfB Stuttgart steht der Rekordmeister vor der Möglichkeit, die Saison mit einem Double abzuschließen. Ob Bischof in Berlin eine tragende Rolle spielen wird, bleibt nach der öffentlichen Kontroverse eine offene Frage.",
       "sourceUrl": "https://miasanrot.de/fc-bayern-kontroverse-kompany-bischof-daten-zahlen/",
       "sourceName": "Miasanrot (Fanblog)"
-    },
-    {
-      "slug": "2026-05-11-boey-zukunft-galatasaray-will-kaufoption-nicht-zah",
-      "date": "2026-05-11",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-11-boey-zukunft-galatasaray-will-kaufoption-nicht-zah.jpg",
-      "thumbnailAlt": "Boey-Zukunft: Galatasaray will Kaufoption nicht zahlen",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Boey-Zukunft: Galatasaray will Kaufoption nicht zahlen",
-      "excerpt": "Galatasaray möchte Sacha Boey dauerhaft verpflichten, lehnt aber die vertraglich vereinbarte Kaufoption von 15 Millionen Euro ab.",
-      "body": "Laut einem Bericht von Florian Plettenberg, den Miasanrot aufgreift, ist der türkische Meister Galatasaray daran interessiert, Leihspieler Sacha Boey dauerhaft vom FC Bayern zu übernehmen. Die Istanbuler sehen den Außenverteidiger als festen Bestandteil ihrer Planungen – wollen jedoch die im Leihvertrag festgeschriebene Kaufoption von 15 Millionen Euro nicht aktivieren.\n\nStattdessen sucht Galatasaray nach einer günstigeren Einigung mit den Münchnern. Ob der FCB bereit ist, den Preis zu senken oder die Verhandlungen scheitern zu lassen, ist laut dem Bericht noch offen. Boey war in der laufenden Saison nach Istanbul verliehen worden, um dort regelmäßige Spielzeit zu sammeln.\n\nFür die Bayern ist der Fall Boey Teil einer umfassenderen Kaderneugestaltung im Sommer. Wie der Verein mit der Forderung Galatasarays umgeht, dürfte in den kommenden Wochen klarer werden – spätestens wenn die Transferperiode offiziell beginnt.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/201210/bayern-munich-transfer-news-rumors-loan-watch-galatasaray-sacha-boey-loanee-turkiye-champions-leauge",
-      "sourceName": "Bavarian Football Works (nach Florian Plettenberg)"
     }
   ],
   "tiktokVideosAuto": false,
