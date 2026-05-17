@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-17T06:39:30+00:00",
+  "lastUpdated": "2026-05-17T10:59:31+00:00",
   "tiktokStats": {
-    "followers": 1393,
+    "followers": 1396,
     "likes": "28K",
-    "videos": 60
+    "videos": 61
   },
   "ticker": [
+    "Neuer und Ulreich verlängern: Urbig gratuliert Torhüter-Duo",
     "Kane holt Torjägerkrone: 36 Treffer in der Bundesliga",
     "FC Bayern 5:1 FC Köln – Kane-Hut-Trick zum Saisonabschluss",
     "Gordon will England verlassen: Bayern im Vorteil",
     "Vorbericht: Bayern empfängt den 1. FC Köln",
-    "Neuer und Ulreich verlängern: Bayern-Torwartfrage geklärt",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-17-neuer-und-ulreich-verlaengern-urbig-gratuliert-tor",
+      "date": "2026-05-17",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-17-neuer-und-ulreich-verlaengern-urbig-gratuliert-tor.jpg",
+      "thumbnailAlt": "Neuer und Ulreich verlängern: Urbig gratuliert Torhüter-Duo",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuer und Ulreich verlängern: Urbig gratuliert Torhüter-Duo",
+      "excerpt": "Manuel Neuer und Sven Ulreich haben ihre Verträge beim FC Bayern um je ein Jahr verlängert. Jonas Urbig sprach öffentlich seinen Glückwunsch aus.",
+      "body": "Laut Bavarian Football Works ist es nun offiziell: Manuel Neuer und Sven Ulreich haben ihre auslaufenden Verträge beim FC Bayern München jeweils um ein Jahr verlängert. Beide Torhüter sind damit mindestens bis Juni 2027 an den Rekordmeister gebunden.\n\nJonas Urbig, der dritte Keeper im Kader, gratulierte seinen Teamkollegen öffentlich zu den Vertragsverlängerungen. Damit bleibt das gesamte Torwart-Trio der Münchner beisammen — eine klare Aussage des Vereins über die Besetzung dieser Schlüsselposition.\n\nNoch am Samstag, beim 5:1-Heimsieg gegen den 1. FC Köln, bat der 40-jährige Neuer nach rund einer Stunde selbst um seine Auswechslung, wie der kicker berichtet. Der Kapitän wollte nach eigener Aussage kein Risiko eingehen. Mit der nun bestätigten Vertragsverlängerung dürfte Neuer — trotz seines Alters — auch in der Saison 2026/27 als klare Nummer eins eingeplant sein.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/202940/jonas-urbig-congratulates-manuel-neuer-sven-ulreich-on-bayern-munich-extensions",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-17-kane-holt-torjaegerkrone-36-treffer-in-der-bundesl",
       "date": "2026-05-17",
@@ -476,22 +492,6 @@
       "body": "Beim 1:0-Sieg des FC Bayern beim VfL Wolfsburg am 33. Spieltag hat Mittelfeldspieler Leon Goretzka einen Schlag gegen den Kopf erlitten. Wie Bavarian Football Works unter Berufung auf die Bild berichtet, absolvierte der 30-Jährige die erste Halbzeit noch vollständig – in der Kabine klagte er jedoch über Schwindelgefühle.\n\nDaraufhin entschied der medizinische Stab des FCB, Goretzka nicht mehr aufs Feld zu schicken. Die Auswechslung zur Halbzeit erfolgte demnach als Vorsichtsmaßnahme und nicht aufgrund taktischer Überlegungen von Trainer Vincent Kompany.\n\nAngaben zum weiteren Gesundheitszustand Goretzkas machte der Verein zunächst nicht. Für die Bayern steht am kommenden Samstag der abschließende 34. Bundesliga-Spieltag an – ob Goretzka dabei zur Verfügung steht, bleibt vorerst offen.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-bundesliga/200900/leon-goretzka-felt-dizziness-at-halftime-of-bayern-munichs-1-0-win-over-wolfsburg",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-09-olise-traumtor-rettet-bayern-1-0-sieg-beim-vfl-wol",
-      "date": "2026-05-09",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-09-olise-traumtor-rettet-bayern-1-0-sieg-beim-vfl-wol.jpg",
-      "thumbnailAlt": "Olise-Traumtor rettet Bayern: 1:0-Sieg beim VfL Wolfsburg",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Olise-Traumtor rettet Bayern: 1:0-Sieg beim VfL Wolfsburg",
-      "excerpt": "Ein Kunstschuss von Michael Olise entscheidet das knappe Bundesliga-Gastspiel des FC Bayern beim abstiegsbedrohten VfL Wolfsburg – trotz eines verschossenen Elfmeters von Harry Kane.",
-      "body": "Am 33. Bundesliga-Spieltag hat der FC Bayern München beim VfL Wolfsburg mit 1:0 gewonnen. Laut kicker dominierten die Gastgeber vor allem den ersten Abschnitt und setzten die Münchner dabei deutlich unter Druck. Erst nach der Pause fanden die Bayern zu ihrem Spiel und nutzten ihre Überlegenheit zum entscheidenden Treffer.\n\nMichael Olise erzielte in der 56. Minute per feinem Solo und präzisem Abschluss das einzige Tor der Partie, wie kicker und Sportschau übereinstimmend berichten. Zuvor hatte Harry Kane erstmals in seiner Bundesliga-Zeit einen Elfmeter verschossen. Torhüter Jonas Urbig sicherte auf der anderen Seite einige Wolfsburger Möglichkeiten, ehe die Gastgeber auch noch Aluminiumpech hinnehmen mussten.\n\nDurch die Niederlage gehen die Wolfsburger punktgleich mit einem direkten Konkurrenten in das letzte Saisonspiel bei St. Pauli — ein Endspiel um den Klassenverbleib. Für Werder Bremen und den 1. FC Köln hingegen bedeutet das Bayern-Ergebnis den endgültigen Ligaverbleib, wie Sport1 meldet. Den Münchnern bleibt vor dem Saisonfinale noch das DFB-Pokalfinale gegen den VfB Stuttgart.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mlgvuzl2zw23",
-      "sourceName": "kicker (Bluesky)"
     }
   ],
   "tiktokVideosAuto": false,
