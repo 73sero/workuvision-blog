@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-18T07:55:13+00:00",
+  "lastUpdated": "2026-05-18T13:00:28+00:00",
   "tiktokStats": {
     "followers": 1400,
     "likes": "28K",
     "videos": 61
   },
   "ticker": [
+    "Kane-Verlängerung: Einigkeit im Grundsatz, Streit um Laufzeit",
     "Kimmich als Bundesliga-MVP: FAZ würdigt außergewöhnliche Saison",
     "Gvardiol im Visier: Bayern sollen Kontakt zu City-Star aufgenommen haben",
     "Nübel ohne Bayern-Chance: Urbigs Aufstieg versperrt den Weg",
     "Goretzka-Abschied: Bayern ehrt einen oft verkannten Profi",
-    "Nübel ohne Zukunft beim FCB: Sportdirektor stellt klar",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-18-kane-verlaengerung-einigkeit-im-grundsatz-streit-u",
+      "date": "2026-05-18",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-18-kane-verlaengerung-einigkeit-im-grundsatz-streit-u.jpg",
+      "thumbnailAlt": "Kane-Verlängerung: Einigkeit im Grundsatz, Streit um Laufzeit",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Kane-Verlängerung: Einigkeit im Grundsatz, Streit um Laufzeit",
+      "excerpt": "Der FC Bayern und Harry Kane sind sich über eine Vertragsverlängerung grundsätzlich einig – doch bei der gewünschten Laufzeit gehen die Vorstellungen auseinander.",
+      "body": "Laut einem Bericht des kicker sind der FC Bayern und Stürmer Harry Kane bereit, den bestehenden Vertrag zu verlängern. Konkrete Gespräche zwischen beiden Seiten haben demnach bereits stattgefunden, und der Wille zur Einigung ist auf beiden Seiten vorhanden.\n\nDer entscheidende Knackpunkt liegt jedoch in der Vertragslänge. Während die sportliche Führung der Münchner offenbar eine kürzere Laufzeit bevorzugt, soll Kane an einer längerfristigen Bindung interessiert sein. Eine abschließende Einigung steht damit noch aus.\n\nKane erzielte in der abgelaufenen Bundesliga-Saison 2025/26 erneut überragende Torwerte und gilt als unverzichtbarer Bestandteil von Trainer Vincent Kompanys Spielsystem. Die kommenden Verhandlungswochen dürften zeigen, ob sich beide Parteien auf einen Mittelweg einigen können.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/204175/bayern-munich-harry-kane-could-be-at-odds-on-length-of-contract",
+      "sourceName": "kicker (via Bavarian Football Works)"
+    },
     {
       "slug": "2026-05-18-kimmich-als-bundesliga-mvp-faz-wuerdigt-aussergewo",
       "date": "2026-05-18",
@@ -476,22 +492,6 @@
       "body": "Laut einem Bericht des italienischen Sportblatts Corriere dello Sport, den Bavarian Football Works aufgreift, hat der FC Bayern ein Treffen mit dem Vater von Juventus-Stürmer Dušan Vlahović abgehalten. Dabei soll die Möglichkeit eines Wechsels nach München im Sommer ausgelotet worden sein.\n\nVlahović wird dem Bericht zufolge seit Jahren mit den Münchnern in Verbindung gebracht. Nun deutet das beschriebene Gespräch darauf hin, dass zumindest auf beiden Seiten ein gewisses Interesse an einem Transfer besteht. Juventus gilt als verkaufswillig, da Vlahović im kommenden Jahr ablösefrei wechseln könnte.\n\nDie Personalie ist vor dem Hintergrund der Kaderplanung für die Saison 2026/27 relevant. Ob Bayern tatsächlich ein konkretes Angebot für den serbischen Nationalstürmer vorbereitet, bleibt laut der Quelle offen. Offizielle Bestätigungen des Klubs liegen nicht vor.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/201578/dusan-vlahovic-harrykanebayern-munich-juventus-real-madrid-fc-barcelona-transfer",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-12-krueger-verlaesst-bayern-erste-sportvorstaendin-de",
-      "date": "2026-05-12",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-12-krueger-verlaesst-bayern-erste-sportvorstaendin-de.jpg",
-      "thumbnailAlt": "Krüger verlässt Bayern: Erste Sportvorständin der Bundesliga",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Krüger verlässt Bayern: Erste Sportvorständin der Bundesliga",
-      "excerpt": "Kathleen Krüger wechselt vom FC Bayern zum Hamburger SV und übernimmt dort das Amt der Sportvorständin – ein historisches Novum in der Bundesliga.",
-      "body": "Wie der kicker berichtet, verlässt Kathleen Krüger den FC Bayern München und wechselt zum Hamburger SV. Dort tritt sie die Nachfolge von Stefan Kuntz an und wird damit zur ersten festen Sportvorständin in der Geschichte der Fußball-Bundesliga.\n\nKrüger war beim Rekordmeister zuletzt als Leiterin Organisation und Infrastruktur tätig. Auch Sport1 und die FAZ bestätigen den Wechsel übereinstimmend. Der Schritt habe sich bereits in den vergangenen Wochen abgezeichnet, heißt es.\n\nFür den FC Bayern bedeutet der Abgang den Verlust einer langjährigen Funktionärin. Für den HSV ist die Verpflichtung ein klares Signal: Der Aufsteiger setzt auf eine erfahrene Führungskraft mit Hintergrund aus dem europäischen Spitzenfußball. Ob und wie München die frei gewordene Position intern neu besetzt, ist bislang nicht bekannt.",
-      "sourceUrl": "https://www.kicker.de/bundesliga-premiere-krueger-neue-sportvorstaendin-beim-hsv-1216253/artikel#omrss",
-      "sourceName": "kicker"
     }
   ],
   "tiktokVideosAuto": false,
