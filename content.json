@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-19T16:15:15+00:00",
+  "lastUpdated": "2026-05-19T17:57:25+00:00",
   "tiktokStats": {
     "followers": 1401,
     "likes": "28K",
     "videos": 61
   },
   "ticker": [
+    "Gvardiol im Bayern-Gespräch – aber ein Faktor bremst",
     "Kane holt den Golden Shoe – zum zweiten Mal",
     "Nathaniel Brown: Bayern soll Frankfurter Linksverteidiger im Visier haben",
     "Palhinhas Zukunft beim FCB völlig offen",
     "Kane-Verlängerung: Einigkeit im Grundsatz, Streit um Laufzeit",
-    "Kimmich als Bundesliga-MVP: FAZ würdigt außergewöhnliche Saison",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-19-gvardiol-im-bayern-gespraech-aber-ein-faktor-brems",
+      "date": "2026-05-19",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-19-gvardiol-im-bayern-gespraech-aber-ein-faktor-brems.jpg",
+      "thumbnailAlt": "Gvardiol im Bayern-Gespräch – aber ein Faktor bremst",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Gvardiol im Bayern-Gespräch – aber ein Faktor bremst",
+      "excerpt": "Rund um den FC Bayern fällt der Name Joško Gvardiol. Laut Sport1 wäre der Innenverteidiger ein Kandidat – doch ein konkreter Umstand steht einem Wechsel entgegen.",
+      "body": "Beim FC Bayern ist offenbar der Name Joško Gvardiol ins Gespräch geraten. Wie Sport1 berichtet, wird der Innenverteidiger von Manchester City im Umfeld der Münchner gehandelt. Der kroatische Nationalspieler gilt als einer der besten Defensivakteure seiner Generation und wäre vom Profil her ein Kandidat, der zum Anforderungsniveau des Rekordmeisters passen würde.\n\nAllerdings, so Sport1 weiter, spreche ein entscheidender Fakt gegen einen Transfer. Welcher konkrete Umstand dies ist, führt der Bericht nur angedeutet aus – wahrscheinlich dürfte der aufgerufene Marktwert oder ein laufender Vertrag bei City die größte Hürde darstellen. Details nennt die Quelle nicht ausdrücklich.\n\nFür die Innenverteidigung stehen dem FCB in der Saison 2025/26 Dayot Upamecano, Min-Jae Kim, Jonathan Tah und Hiroki Itō zur Verfügung. Ob Bayern tatsächlich Bedarf an einer weiteren Verstärkung in dieser Position sieht und konkrete Schritte unternimmt, ist derzeit nicht bestätigt. Der Bericht bleibt auf der Ebene eines frühen Gerüchts.",
+      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mm7jdtvyjy2z",
+      "sourceName": "Sport1 (Bluesky)"
+    },
     {
       "slug": "2026-05-19-kane-holt-den-golden-shoe-zum-zweiten-mal",
       "date": "2026-05-19",
@@ -476,22 +492,6 @@
       "body": "Laut Bavarian Football Works verdichten sich die Hinweise, dass Manuel Neuer bei der bevorstehenden Weltmeisterschaft zum deutschen Aufgebot gehören könnte. Hintergrund ist eine Häufung von Umständen: Der bisherige Stammtorhüter Oliver Baumann zeigte zuletzt deutliche Formeinbrüche, und der verletzte Marc-André ter Stegen steht weiterhin nicht zur Verfügung.\n\nNeuer hatte zuletzt mit starken Leistungen auf sich aufmerksam gemacht — besonders sein Auftritt gegen Real Madrid wurde einem breiten Publikum nicht verborgen. Auch der kicker berichtet, dass ein Comeback des Weltmeisters zwar eine Überraschung wäre, die Vorzeichen jedoch zunehmend in diese Richtung deuteten. Der Bundestrainer will seinen Kader am 21. Mai benennen.\n\nFür den FC Bayern wäre eine WM-Teilnahme Neuers ein zweischneidiges Schwert: Einerseits würde sie die Bedeutung des 39-Jährigen unterstreichen, andererseits käme sie kurz nach einem intensiven Saisonfinale. Die endgültige Entscheidung liegt beim Bundestrainer.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-coaches/201818/manuel-neuer-could-still-be-called-up-for-germany-at-this-years-world-cup",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-12-neuer-vor-wm-comeback-zeichen-mehren-sich-laut-kic",
-      "date": "2026-05-12",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-12-neuer-vor-wm-comeback-zeichen-mehren-sich-laut-kic.jpg",
-      "thumbnailAlt": "Neuer vor WM-Comeback: Zeichen mehren sich laut kicker",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuer vor WM-Comeback: Zeichen mehren sich laut kicker",
-      "excerpt": "Manuel Neuer könnte überraschend Teil des deutschen WM-Kaders werden. Der kicker berichtet, dass die Signale dafür deutlich zunehmen.",
-      "body": "Der kicker berichtet, dass ein WM-Comeback von Bayern-Torhüter Manuel Neuer immer wahrscheinlicher wird. Bundestrainer Nagelsmann will seinen Kader am 21. Mai benennen — und ein Platz für Neuer gilt laut dem Fachmagazin nicht mehr als ausgeschlossen.\n\nNoch vor wenigen Wochen galt eine Nominierung des 40-Jährigen als große Überraschung. Doch die Zeichen mehren sich, so der kicker, dass der Bundestrainer seine Position überdenkt. Als Katalysator gilt Neuers starke Leistung im Champions-League-Halbfinale gegen Real Madrid, die bundesweit Aufsehen erregte.\n\nFür den FC Bayern wäre eine WM-Teilnahme ihres Kapitäns ein bedeutendes Signal. Neuer steht beim Rekordmeister noch im Kader und hat in dieser Saison seine Klasse mehrfach unter Beweis gestellt. Ob er letztlich im deutschen Aufgebot steht, entscheidet sich spätestens am 21. Mai.",
-      "sourceUrl": "https://www.kicker.de/die-zeichen-mehren-sich-denkt-nagelsmann-bei-neuer-doch-noch-um-1218863/artikel#omrss",
-      "sourceName": "kicker News"
     }
   ],
   "tiktokVideosAuto": false,
