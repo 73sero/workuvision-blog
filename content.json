@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-19T12:34:21+00:00",
+  "lastUpdated": "2026-05-19T16:15:15+00:00",
   "tiktokStats": {
-    "followers": 1400,
+    "followers": 1401,
     "likes": "28K",
     "videos": 61
   },
   "ticker": [
+    "Kane holt den Golden Shoe – zum zweiten Mal",
     "Nathaniel Brown: Bayern soll Frankfurter Linksverteidiger im Visier haben",
     "Palhinhas Zukunft beim FCB völlig offen",
     "Kane-Verlängerung: Einigkeit im Grundsatz, Streit um Laufzeit",
     "Kimmich als Bundesliga-MVP: FAZ würdigt außergewöhnliche Saison",
-    "Gvardiol im Visier: Bayern sollen Kontakt zu City-Star aufgenommen haben",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-19-kane-holt-den-golden-shoe-zum-zweiten-mal",
+      "date": "2026-05-19",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-19-kane-holt-den-golden-shoe-zum-zweiten-mal.jpg",
+      "thumbnailAlt": "Kane holt den Golden Shoe – zum zweiten Mal",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Kane holt den Golden Shoe – zum zweiten Mal",
+      "excerpt": "Harry Kane sichert sich laut kicker die Torjägerkanone Europas. Es ist bereits seine zweite Auszeichnung mit dem Golden Shoe.",
+      "body": "Harry Kane wird in dieser Saison zum zweiten Mal nach 2023/24 den Golden Shoe als bester Torschütze Europas gewinnen. Das berichtet der kicker. Der Bayern-Stürmer habe am vergangenen Wochenende letzte Zweifel beseitigt und den Vorsprung in der Wertung entscheidend ausgebaut.\n\nIn der Verfolgung des Engländers liefern sich laut kicker Dion Beljo und Kylian Mbappé noch ein Duell um Platz zwei. Kane selbst ist demnach nicht mehr einzuholen.\n\nFür den FC Bayern ist Kanes erneute Auszeichnung ein Signal, das über die individuelle Trophäe hinausgeht: Der Mittelstürmer bleibt der prägende Angreifer der Münchner – auch in einer Saison, in der der Verein sportlich unter Druck stand.",
+      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mm72mnkzpf23",
+      "sourceName": "kicker (Bluesky)"
+    },
     {
       "slug": "2026-05-19-nathaniel-brown-bayern-soll-frankfurter-linksverte",
       "date": "2026-05-19",
@@ -476,22 +492,6 @@
       "body": "Der kicker berichtet, dass ein WM-Comeback von Bayern-Torhüter Manuel Neuer immer wahrscheinlicher wird. Bundestrainer Nagelsmann will seinen Kader am 21. Mai benennen — und ein Platz für Neuer gilt laut dem Fachmagazin nicht mehr als ausgeschlossen.\n\nNoch vor wenigen Wochen galt eine Nominierung des 40-Jährigen als große Überraschung. Doch die Zeichen mehren sich, so der kicker, dass der Bundestrainer seine Position überdenkt. Als Katalysator gilt Neuers starke Leistung im Champions-League-Halbfinale gegen Real Madrid, die bundesweit Aufsehen erregte.\n\nFür den FC Bayern wäre eine WM-Teilnahme ihres Kapitäns ein bedeutendes Signal. Neuer steht beim Rekordmeister noch im Kader und hat in dieser Saison seine Klasse mehrfach unter Beweis gestellt. Ob er letztlich im deutschen Aufgebot steht, entscheidet sich spätestens am 21. Mai.",
       "sourceUrl": "https://www.kicker.de/die-zeichen-mehren-sich-denkt-nagelsmann-bei-neuer-doch-noch-um-1218863/artikel#omrss",
       "sourceName": "kicker News"
-    },
-    {
-      "slug": "2026-05-12-kennet-eichhorn-manchester-city-greift-bayern-ziel",
-      "date": "2026-05-12",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-12-kennet-eichhorn-manchester-city-greift-bayern-ziel.jpg",
-      "thumbnailAlt": "Kennet Eichhorn: Manchester City greift Bayern-Ziel an",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Kennet Eichhorn: Manchester City greift Bayern-Ziel an",
-      "excerpt": "Der 16-jährige Herthaer Kennet Eichhorn ist heiß begehrt – nun soll Manchester City konkrete Schritte unternommen haben, um den Bayern-Kandidaten zu verpflichten.",
-      "body": "Laut Bavarian Football Works hat Manchester City konkrete Schritte eingeleitet, um Kennet Eichhorn von Hertha BSC zu verpflichten. Der 16-Jährige hat sich in der Saison 2025/26 als einer der wichtigsten Spieler des Zweitligisten etabliert und verfügt über eine Ausstiegsklausel in seinem Vertrag.\n\nDer FC Bayern gilt ebenfalls als Interessent an dem Teenager. Doch nun droht den Münchnern mit Manchester City ein finanzstarker Konkurrent aus der Premier League. Die Engländer sollen planen, Eichhorn nach einem Transfer zunächst zu verleihen, um ihn behutsam zu entwickeln.\n\nNeben Bayern und Manchester City sollen laut dem Bericht auch Bayer Leverkusen und Borussia Dortmund das Talent beobachten. Für den FCB wäre Eichhorn ein weiterer Baustein im Aufbau eines zukunftsorientierten Kaders unter Trainer Vincent Kompany – doch der Wettbewerb um die Unterschrift des Youngsters wird zunehmend intensiver.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/201406/manchester-city-making-concrete-moves-for-bayern-munich-target-kennet-eichhorn-planning-to-loan-him-out-hertha-berlin-bayer-leverkusen-borussia-dortmund-echeverri",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
