@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-18T17:52:33+00:00",
+  "lastUpdated": "2026-05-19T07:36:38+00:00",
   "tiktokStats": {
     "followers": 1400,
     "likes": "28K",
     "videos": 61
   },
   "ticker": [
+    "Palhinhas Zukunft beim FCB völlig offen",
     "Kane-Verlängerung: Einigkeit im Grundsatz, Streit um Laufzeit",
     "Kimmich als Bundesliga-MVP: FAZ würdigt außergewöhnliche Saison",
     "Gvardiol im Visier: Bayern sollen Kontakt zu City-Star aufgenommen haben",
     "Nübel ohne Bayern-Chance: Urbigs Aufstieg versperrt den Weg",
-    "Goretzka-Abschied: Bayern ehrt einen oft verkannten Profi",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-19-palhinhas-zukunft-beim-fcb-voellig-offen",
+      "date": "2026-05-19",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-19-palhinhas-zukunft-beim-fcb-voellig-offen.jpg",
+      "thumbnailAlt": "Palhinhas Zukunft beim FCB völlig offen",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Palhinhas Zukunft beim FCB völlig offen",
+      "excerpt": "Bleibt Joao Palhinha beim FC Bayern, wechselt er zu Tottenham – oder kehrt er in die Heimat zurück? Laut Sport1 ist die Entscheidung noch vollkommen ungeklärt.",
+      "body": "Die Zukunft von Joao Palhinha beim FC Bayern ist weiterhin ungewiss. Wie Sport1 berichtet, gibt es gleich drei mögliche Szenarien für den portugiesischen Mittelfeldspieler: ein Verbleib in München, ein Wechsel zu Tottenham Hotspur oder eine Rückkehr nach Portugal, wo offenbar ein Topklub Interesse angemeldet hat.\n\nPalhinha war im Sommer 2024 für rund 51 Millionen Euro vom FC Fulham nach München gewechselt. In seiner ersten Saison unter Trainer Vincent Kompany gehörte er zum festen Kader der Bayern, konnte sich jedoch nicht unumstritten als Stammspieler etablieren. Sein Vertrag läuft noch bis 2028.\n\nEine baldige Entscheidung über seine Zukunft dürfte in den kommenden Wochen fallen, wenn der FC Bayern seine Transferplanung für die Saison 2026/27 konkretisiert. Fest steht laut Sport1 bislang nur: Alle Optionen sind offen.",
+      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mm5dbasz372y",
+      "sourceName": "Sport1 (Bluesky)"
+    },
     {
       "slug": "2026-05-18-kane-verlaengerung-einigkeit-im-grundsatz-streit-u",
       "date": "2026-05-18",
@@ -476,22 +492,6 @@
       "body": "Harry Kane dürfte in Kürze zum zweiten Mal den Goldenen Schuh als treffsicherster Stürmer Europas entgegennehmen. Wie der kicker berichtet, führt der Münchner Angreifer die Torjägerwertung des Kontinents trotz zuletzt ausgebliebenem Torerfolg weiterhin souverän an – seinen ersten Triumph hatte er bereits in der Saison 2023/24 gefeiert.\n\nLaut kicker ist auch der zweite Platz in der Gesamtwertung nahezu vergeben. Für Kylian Mbappé, der im vergangenen Jahr noch als ernsthafter Rivale galt, könnte es dem Bericht zufolge sogar eng werden mit einem Platz auf dem Podium.\n\nFür den FC Bayern wäre es eine weitere individuelle Auszeichnung in einer sportlich bedeutsamen Saison. Kane gehört seit seinem Wechsel nach München zu den prägenden Figuren im Angriffsspiel der Mannschaft von Trainer Vincent Kompany – die Vergabe des Goldenen Schuhs dürfte diesen Status nun auch statistisch auf europäischer Ebene zementieren.",
       "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mlnichc34f2w",
       "sourceName": "kicker (Bluesky)"
-    },
-    {
-      "slug": "2026-05-12-vlahovi-vater-bei-bayern-gespraeche-ueber-moeglich",
-      "date": "2026-05-12",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-12-vlahovi-vater-bei-bayern-gespraeche-ueber-moeglich.jpg",
-      "thumbnailAlt": "Vlahović-Vater bei Bayern: Gespräche über möglichen Wechsel",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Vlahović-Vater bei Bayern: Gespräche über möglichen Wechsel",
-      "excerpt": "Der FC Bayern soll Kontakt zur Familie des Juventus-Stürmers Dušan Vlahović aufgenommen haben. Ein Treffen mit seinem Vater hat offenbar stattgefunden.",
-      "body": "Laut einem Bericht des italienischen Sportblatts Corriere dello Sport, den Bavarian Football Works aufgreift, hat der FC Bayern ein Treffen mit dem Vater von Juventus-Stürmer Dušan Vlahović abgehalten. Dabei soll die Möglichkeit eines Wechsels nach München im Sommer ausgelotet worden sein.\n\nVlahović wird dem Bericht zufolge seit Jahren mit den Münchnern in Verbindung gebracht. Nun deutet das beschriebene Gespräch darauf hin, dass zumindest auf beiden Seiten ein gewisses Interesse an einem Transfer besteht. Juventus gilt als verkaufswillig, da Vlahović im kommenden Jahr ablösefrei wechseln könnte.\n\nDie Personalie ist vor dem Hintergrund der Kaderplanung für die Saison 2026/27 relevant. Ob Bayern tatsächlich ein konkretes Angebot für den serbischen Nationalstürmer vorbereitet, bleibt laut der Quelle offen. Offizielle Bestätigungen des Klubs liegen nicht vor.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/201578/dusan-vlahovic-harrykanebayern-munich-juventus-real-madrid-fc-barcelona-transfer",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
