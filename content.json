@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-20T07:35:40+00:00",
+  "lastUpdated": "2026-05-20T12:15:42+00:00",
   "tiktokStats": {
     "followers": 1402,
     "likes": "28K",
     "videos": 61
   },
   "ticker": [
+    "Hainer stellt klar: Olise bleibt beim FC Bayern",
     "Bayern-Präsident: Kompany ist für den FCB \"unverkäuflich\"",
     "Lennart Karl offenbar für WM-Kader der DFB-Elf nominiert",
     "Kahn kritisiert Kompanys Taktik nach PSG-Aus",
     "Hoeneß und Laimer legen Streit bei – Gespräche gehen weiter",
-    "Gvardiol im Bayern-Gespräch – aber ein Faktor bremst",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-20-hainer-stellt-klar-olise-bleibt-beim-fc-bayern",
+      "date": "2026-05-20",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-20-hainer-stellt-klar-olise-bleibt-beim-fc-bayern.jpg",
+      "thumbnailAlt": "Hainer stellt klar: Olise bleibt beim FC Bayern",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Hainer stellt klar: Olise bleibt beim FC Bayern",
+      "excerpt": "Klubpräsident Herbert Hainer hat sich unmissverständlich zur Zukunft von Michael Olise geäußert: Der Franzose soll in München bleiben.",
+      "body": "Michael Olise hat sich in seiner ersten Saison beim FC Bayern als einer der besten Flügelspieler Europas etabliert und damit internationales Interesse auf sich gezogen. Laut Sport1 hat Klubpräsident Herbert Hainer nun jedoch klargemacht, dass der Franzose nicht zur Disposition steht.\n\nHainer äußerte sich demnach unmissverständlich: Die Zukunft Olises liege in München. Damit reagiert der Vereinspräsident auf die Spekulationen aus dem Ausland, die den 23-Jährigen zuletzt mit namhaften Klubs in Verbindung gebracht hatten.\n\nFür den FC Bayern wäre ein Verbleib Olises ein wichtiges Signal. Der Angreifer gilt unter Trainer Vincent Kompany als zentraler Bestandteil des Spielsystems. Sollte sich die Aussage Hainers in den kommenden Wochen durch einen Vertragsabschluss konkretisieren, wäre die Planungssicherheit für die Saison 2025/26 in einem entscheidenden Bereich gesichert.",
+      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mmbpfvlea62y",
+      "sourceName": "Sport1 (Bluesky)"
+    },
     {
       "slug": "2026-05-20-bayern-praesident-kompany-ist-fuer-den-fcb-unverka",
       "date": "2026-05-20",
@@ -476,22 +492,6 @@
       "body": "Der FC Bayern wird Nicolas Jackson nach dieser Saison nicht dauerhaft verpflichten. Der Leihstürmer kehrt zu Chelsea FC zurück, wie Bavarian Football Works berichtet. In der laufenden Spielzeit erzielte der senegalesische Angreifer zehn Tore und legte vier weitere auf.\n\nLaut dem Bericht bewertete Trainer Vincent Kompany Jacksons Beitrag als positiv und hätte den Stürmer gerne dauerhaft an der Isar gehalten. Doch Chelsea verlangte einen Transferpreis, den der FCB nicht bereit war zu zahlen. Das bestätigt auch Lothar Matthäus, der zitiert wird, wonach Chelsea Jackson schlicht zu teuer gemacht habe.\n\nDie Münchner stehen damit vor der Aufgabe, im Sommer die Angriffsreihe neu zu gestalten. Jackson war als Ergänzungsspieler hinter Harry Kane eine durchaus brauchbare Option. Welchen Stürmer der Rekordmeister als Ersatz ins Visier nimmt, ist bislang nicht bekannt.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/201242/vincent-kompany-wants-keep-nicolas-jackson-at-bayern-munich-but-chelsea-made-him-too-expensive-says-matthaus",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-13-neuer-vor-vertragsverlaengerung-und-wm-comeback-im",
-      "date": "2026-05-13",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-13-neuer-vor-vertragsverlaengerung-und-wm-comeback-im.jpg",
-      "thumbnailAlt": "Neuer vor Vertragsverlängerung – und WM-Comeback im Gespräch",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuer vor Vertragsverlängerung – und WM-Comeback im Gespräch",
-      "excerpt": "Manuel Neuer steht offenbar vor einer Verlängerung beim FC Bayern. Gleichzeitig mehren sich Berichte über eine mögliche Rückkehr in den DFB-Kader.",
-      "body": "Manuel Neuer könnte seine Karriere beim FC Bayern München fortsetzen: Laut Sport1 deutet derzeit alles auf eine Vertragsverlängerung des Torhüters hin. Wann genau eine Einigung verkündet werden soll, ließ die Quelle offen.\n\nParallel dazu berichten die Sportschau und der kicker übereinstimmend, dass Neuers Name auf der vorläufigen WM-Kaderliste des Bundestrainers stehen soll. Der Kader soll am 21. Mai bekanntgegeben werden. Laut BR-Informationen, die die Sportschau zitiert, wäre ein Comeback des Weltmeisters eine große Überraschung – die Zeichen mehrten sich jedoch. Auch Miasanrot berichtet, dass eine Verlängerung in München kurz bevorstehe und ein Medienbericht das WM-Thema erneut aufgegriffen habe.\n\nFür den FC Bayern wären beide Entwicklungen bedeutsam: Eine Vertragsverlängerung würde die Torhüterfrage für die Saison 2026/27 frühzeitig klären. Ein WM-Einsatz Neuers könnte dessen Stellenwert im Kader zusätzlich unterstreichen – sofern er verletzungsfrei bleibt.",
-      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mlqfaeftuu2k",
-      "sourceName": "Sport1 (Bluesky), Sportschau, Miasanrot"
     }
   ],
   "tiktokVideosAuto": false,
