@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-20T12:16:53+00:00",
+  "lastUpdated": "2026-05-20T16:04:44+00:00",
   "tiktokStats": {
-    "followers": 1402,
+    "followers": 1404,
     "likes": "28K",
-    "videos": 61
+    "videos": 62
   },
   "ticker": [
+    "Neuer vor DFB-Pokalfinale: Wadenprobleme bereiten Sorgen",
     "Hainer stellt klar: Olise bleibt beim FC Bayern",
     "Bayern-Präsident: Kompany ist für den FCB \"unverkäuflich\"",
     "Lennart Karl offenbar für WM-Kader der DFB-Elf nominiert",
     "Kahn kritisiert Kompanys Taktik nach PSG-Aus",
-    "Hoeneß und Laimer legen Streit bei – Gespräche gehen weiter",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-20-neuer-vor-dfb-pokalfinale-wadenprobleme-bereiten-s",
+      "date": "2026-05-20",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-20-neuer-vor-dfb-pokalfinale-wadenprobleme-bereiten-s.jpg",
+      "thumbnailAlt": "Neuer vor DFB-Pokalfinale: Wadenprobleme bereiten Sorgen",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuer vor DFB-Pokalfinale: Wadenprobleme bereiten Sorgen",
+      "excerpt": "Manuel Neuer trainierte laut Bild weder am Dienstag noch am Mittwoch mit dem Team – sein Einsatz im Pokalfinale gegen den VfB Stuttgart ist fraglich.",
+      "body": "Laut Bavarian Football Works, die sich auf einen Bericht der Bild beziehen, fehlte Manuel Neuer dem FC Bayern in dieser Woche gleich an zwei aufeinanderfolgenden Trainingstagen. Grund ist ein anhaltender Wadenprobleme, der den Einsatz des Torhüters im DFB-Pokalfinale gegen den VfB Stuttgart am Samstag in Frage stellt.\n\nDamit könnte Sven Ulreich im Endspiel zwischen den Pfosten stehen. Der erfahrene Ersatztorhüter wäre im Falle eines Neuer-Ausfalls die erste Wahl von Trainer Vincent Kompany. Offiziell hat sich der FC Bayern zu Neuers Zustand bislang nicht geäußert.\n\nDer Zeitpunkt ist für den Rekordmeister denkbar ungünstig: Das DFB-Pokalfinale ist das letzte Pflichtspiel der Saison — und mit dem Doppel aus Bundesliga und Pokal könnte der FCB die Spielzeit mit zwei Titeln abschließen. Ob Neuer rechtzeitig fit wird, dürfte sich erst kurz vor dem Anpfiff entscheiden.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-dfb-pokal/205038/bayern-munich-star-manuel-neuers-status-in-doubt-for-dfb-pokal",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-20-hainer-stellt-klar-olise-bleibt-beim-fc-bayern",
       "date": "2026-05-20",
@@ -476,22 +492,6 @@
       "body": "Manuel Neuer könnte beim FC Bayern München langfristig bleiben: Wie Miasanrot unter Berufung auf einen Medienbericht schreibt, steht der Torhüter kurz vor einer Vertragsverlängerung mit dem Rekordmeister. Details zur Laufzeit wurden bislang nicht bekannt.\n\nParallel dazu berichten die Tagesschau und der kicker übereinstimmend, dass Neuers Name auf der vorläufigen WM-Kaderliste des Deutschen Fußball-Bundes stehen soll. Der kicker verweist auf BR-Informationen und bezeichnet eine Nominierung als große Überraschung, die sich jedoch immer deutlicher abzeichne. Der DFB-Bundestrainer will seinen WM-Kader am 21. Mai benennen.\n\nFür den FC Bayern kämen beide Entwicklungen zur rechten Zeit: Neuer bestritt in der laufenden Saison unter Trainer Vincent Kompany starke Leistungen. Ob eine mögliche WM-Teilnahme und die Vertragsgespräche zusammenhängen, ist laut den Quellen offen.",
       "sourceUrl": "https://miasanrot.de/manuel-neuer-fc-bayern-dfb-team-3-perspektiven/",
       "sourceName": "Miasanrot / kicker (Bluesky) / Tagesschau Sport"
-    },
-    {
-      "slug": "2026-05-13-jackson-kehrt-zu-chelsea-zurueck-kompany-wollte-ih",
-      "date": "2026-05-13",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-13-jackson-kehrt-zu-chelsea-zurueck-kompany-wollte-ih.jpg",
-      "thumbnailAlt": "Jackson kehrt zu Chelsea zurück – Kompany wollte ihn halten",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Jackson kehrt zu Chelsea zurück – Kompany wollte ihn halten",
-      "excerpt": "Nicolas Jackson verlässt den FC Bayern nach seiner Leihe. Trainer Vincent Kompany hätte den Stürmer gerne behalten – Chelsea verlangte jedoch zu viel.",
-      "body": "Der FC Bayern wird Nicolas Jackson nach dieser Saison nicht dauerhaft verpflichten. Der Leihstürmer kehrt zu Chelsea FC zurück, wie Bavarian Football Works berichtet. In der laufenden Spielzeit erzielte der senegalesische Angreifer zehn Tore und legte vier weitere auf.\n\nLaut dem Bericht bewertete Trainer Vincent Kompany Jacksons Beitrag als positiv und hätte den Stürmer gerne dauerhaft an der Isar gehalten. Doch Chelsea verlangte einen Transferpreis, den der FCB nicht bereit war zu zahlen. Das bestätigt auch Lothar Matthäus, der zitiert wird, wonach Chelsea Jackson schlicht zu teuer gemacht habe.\n\nDie Münchner stehen damit vor der Aufgabe, im Sommer die Angriffsreihe neu zu gestalten. Jackson war als Ergänzungsspieler hinter Harry Kane eine durchaus brauchbare Option. Welchen Stürmer der Rekordmeister als Ersatz ins Visier nimmt, ist bislang nicht bekannt.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/201242/vincent-kompany-wants-keep-nicolas-jackson-at-bayern-munich-but-chelsea-made-him-too-expensive-says-matthaus",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
