@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-20T16:04:44+00:00",
+  "lastUpdated": "2026-05-20T18:09:56+00:00",
   "tiktokStats": {
-    "followers": 1404,
+    "followers": 1405,
     "likes": "28K",
     "videos": 62
   },
   "ticker": [
+    "Musiala seit Februar ohne Führerschein nach Unfall",
     "Neuer vor DFB-Pokalfinale: Wadenprobleme bereiten Sorgen",
     "Hainer stellt klar: Olise bleibt beim FC Bayern",
     "Bayern-Präsident: Kompany ist für den FCB \"unverkäuflich\"",
     "Lennart Karl offenbar für WM-Kader der DFB-Elf nominiert",
-    "Kahn kritisiert Kompanys Taktik nach PSG-Aus",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-20-musiala-seit-februar-ohne-fuehrerschein-nach-unfal",
+      "date": "2026-05-20",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-20-musiala-seit-februar-ohne-fuehrerschein-nach-unfal.jpg",
+      "thumbnailAlt": "Musiala seit Februar ohne Führerschein nach Unfall",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Musiala seit Februar ohne Führerschein nach Unfall",
+      "excerpt": "Jamal Musiala verlor nach einem Verkehrsunfall im April 2025 seinen Führerschein. Zwei Menschen wurden dabei leicht verletzt.",
+      "body": "Wie die Süddeutsche Zeitung und NTV berichten, ist Bayern-Profi Jamal Musiala bereits seit Februar dieses Jahres ohne Fahrerlaubnis. Grund dafür ist ein Verkehrsunfall, der sich im April 2025 auf der A8 ereignete: Beim Überholen kollidierte der 23-Jährige mit einem anderen Fahrzeug, wodurch zwei Personen leicht verletzt wurden.\n\nInfolge des Unfalls wurde dem Nationalspieler der Führerschein entzogen. Öffentlich bekannt wurde der Vorfall erst jetzt – rund ein Jahr nach dem Ereignis und mehrere Monate nach dem behördlichen Entzug der Fahrerlaubnis.\n\nDer Zeitpunkt der Berichterstattung ist für Musiala ungünstig: Der Offensivspieler steht kurz vor der Fußball-WM in Nordamerika und ist fester Bestandteil des deutschen WM-Kaders. Wie sich der Vorfall auf sein öffentliches Auftreten und mögliche sportrechtliche Konsequenzen auswirkt, ist bislang nicht bekannt.",
+      "sourceUrl": "https://www.sueddeutsche.de/sport/musiala-fuehrerschein-unfall-fc-bayern-li.3486720",
+      "sourceName": "Süddeutsche Zeitung"
+    },
     {
       "slug": "2026-05-20-neuer-vor-dfb-pokalfinale-wadenprobleme-bereiten-s",
       "date": "2026-05-20",
@@ -476,22 +492,6 @@
       "body": "Laut Bavarian Football Works gestalten sich die Vertragsgespräche zwischen dem FC Bayern und Stürmer Harry Kane zäher als erwartet. Obwohl beide Seiten grundsätzlich an einer Fortsetzung der Zusammenarbeit interessiert sind, lässt sich der englische Nationalspieler bei der Unterzeichnung eines neuen Kontrakts offenbar Zeit.\n\nDer Bericht betont, dass Kane keinen Grund sieht, die Verhandlungen zu beschleunigen. Die Münchner hingegen sind laut der Quelle dringend an einer Einigung interessiert und möchten ihren Torjäger langfristig binden. Konkrete Vertragslaufzeiten oder finanzielle Details nennt der Bericht nicht.\n\nFür den FC Bayern wäre eine schnelle Einigung strategisch bedeutsam: Kane ist die zentrale Figur im Angriffsspiel unter Trainer Vincent Kompany. Wie lange sich beide Parteien diesen Schwebezustand leisten können, dürfte sich in den kommenden Wochen zeigen.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/202007/harry-kane-in-no-rush-to-ink-bayern-munich-contract",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-13-neuer-vor-vertragsverlaengerung-und-wm-geruechte-n",
-      "date": "2026-05-13",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-13-neuer-vor-vertragsverlaengerung-und-wm-geruechte-n.jpg",
-      "thumbnailAlt": "Neuer vor Vertragsverlängerung – und WM-Gerüchte nehmen zu",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuer vor Vertragsverlängerung – und WM-Gerüchte nehmen zu",
-      "excerpt": "Manuel Neuer steht laut Miasanrot kurz vor einer Verlängerung beim FC Bayern. Zugleich mehren sich Zeichen für eine Nationalmannschafts-Rückkehr.",
-      "body": "Manuel Neuer könnte beim FC Bayern München langfristig bleiben: Wie Miasanrot unter Berufung auf einen Medienbericht schreibt, steht der Torhüter kurz vor einer Vertragsverlängerung mit dem Rekordmeister. Details zur Laufzeit wurden bislang nicht bekannt.\n\nParallel dazu berichten die Tagesschau und der kicker übereinstimmend, dass Neuers Name auf der vorläufigen WM-Kaderliste des Deutschen Fußball-Bundes stehen soll. Der kicker verweist auf BR-Informationen und bezeichnet eine Nominierung als große Überraschung, die sich jedoch immer deutlicher abzeichne. Der DFB-Bundestrainer will seinen WM-Kader am 21. Mai benennen.\n\nFür den FC Bayern kämen beide Entwicklungen zur rechten Zeit: Neuer bestritt in der laufenden Saison unter Trainer Vincent Kompany starke Leistungen. Ob eine mögliche WM-Teilnahme und die Vertragsgespräche zusammenhängen, ist laut den Quellen offen.",
-      "sourceUrl": "https://miasanrot.de/manuel-neuer-fc-bayern-dfb-team-3-perspektiven/",
-      "sourceName": "Miasanrot / kicker (Bluesky) / Tagesschau Sport"
     }
   ],
   "tiktokVideosAuto": false,
