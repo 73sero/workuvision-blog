@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-20T18:38:57+00:00",
+  "lastUpdated": "2026-05-20T20:58:01+00:00",
   "tiktokStats": {
-    "followers": 1405,
+    "followers": 1406,
     "likes": "28K",
     "videos": 62
   },
   "ticker": [
+    "Davies zur WM? Bayern behalten das letzte Wort",
     "Musiala seit Februar ohne Führerschein nach Unfall",
     "Neuer vor DFB-Pokalfinale: Wadenprobleme bereiten Sorgen",
     "Hainer stellt klar: Olise bleibt beim FC Bayern",
     "Bayern-Präsident: Kompany ist für den FCB \"unverkäuflich\"",
-    "Lennart Karl offenbar für WM-Kader der DFB-Elf nominiert",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-20-davies-zur-wm-bayern-behalten-das-letzte-wort",
+      "date": "2026-05-20",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-20-davies-zur-wm-bayern-behalten-das-letzte-wort.jpg",
+      "thumbnailAlt": "Davies zur WM? Bayern behalten das letzte Wort",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Davies zur WM? Bayern behalten das letzte Wort",
+      "excerpt": "Nach der Fehldiagnose im März 2025 will der FC Bayern die Entscheidung über eine WM-Teilnahme von Alphonso Davies selbst treffen – nicht Kanada.",
+      "body": "Laut einem Bericht von Sport1, den Bavarian Football Works aufgreift, wird der FC Bayern München Canada Soccer nicht das letzte Wort darüber lassen, ob Alphonso Davies an der Weltmeisterschaft teilnimmt. Die Münchner behalten sich vor, eine eigene Entscheidung zu treffen – abhängig davon, ob sie mit der Behandlung ihres Spielers zufrieden sind.\n\nHintergrund ist die als katastrophal beschriebene Fehldiagnose eines Kreuzbandrisses bei Davies im März 2025. Der Vorfall hat das Verhältnis zwischen dem Rekordmeister und dem kanadischen Fußballverband offenbar nachhaltig belastet. Bayern sieht darin offenbar einen ausreichenden Grund, die Hoheit über die Entscheidung zur WM-Nominierung für sich zu beanspruchen.\n\nDer Fall verdeutlicht die wachsende Spannung zwischen Vereinen und Nationalverbänden im dichten Turnierkalender. Für Davies, der nach seiner schweren Verletzung gerade auf die Rückkehr hinarbeitet, hängt die WM-Teilnahme damit nicht allein von sportlichen, sondern auch von medizinischen und diplomatischen Faktoren ab.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-injuries/204315/bayern-munich-will-not-allow-canada-soccer-to-decide-if-alphonso-davies-goes-to-the-world-cup",
+      "sourceName": "Sport1 (via Bavarian Football Works)"
+    },
     {
       "slug": "2026-05-20-musiala-seit-februar-ohne-fuehrerschein-nach-unfal",
       "date": "2026-05-20",
@@ -475,22 +491,6 @@
       "excerpt": "Der FC Bayern hat Anthony Gordon als Transferpriorität ausgerufen – doch die Konkurrenz wächst rapide. Nun sollen mehrere englische Topklubs ernsthafte Absichten hegen.",
       "body": "Laut Bavarian Football Works, unter Berufung auf Bayern-Insider Christian Falk von der Sport Bild, hat der FC Bayern Newcastle Uniteds Angreifer Anthony Gordon zur Nummer-eins-Priorität im Sommer-Transferfenster erklärt. Der variabel einsetzbare Flügelstürmer überzeugte in dieser Saison sowohl in der Premier League als auch in der Champions League.\n\nDoch der Wettbewerb um Gordon gestaltet sich zunehmend schwierig. Bavarian Football Works zufolge haben sich inzwischen Arsenal, Liverpool und Chelsea in den Poker eingeschaltet. Auch der FC Barcelona soll Interesse bekundet haben, wobei Gordons Berater laut dem Bericht mehrere Optionen aktiv prüfen.\n\nFür die Münchner bedeutet dies, dass ein Wechsel an der Isar nicht allein von der eigenen Bereitschaft abhängt. Wie hoch die Ablöseforderung Newcastles letztlich ausfällt und welche Gehaltsvorstellungen Gordon mitbringt, wird den Ausgang dieses Transferrennens maßgeblich bestimmen. Zuletzt hatte Workuvision bereits über erste Gespräche der Bayern mit Newcastle berichtet.",
       "sourceUrl": "https://www.bavarianfootballworks.com/transfer-rumors/201874/bayern-munich-arsenal-liverpool-chelsea-gordon-fc-barcelona-lewandowski-real-madrid-psg",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-14-kane-laesst-sich-bei-vertragsgespraechen-zeit",
-      "date": "2026-05-14",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-14-kane-laesst-sich-bei-vertragsgespraechen-zeit.jpg",
-      "thumbnailAlt": "Kane lässt sich bei Vertragsgesprächen Zeit",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Kane lässt sich bei Vertragsgesprächen Zeit",
-      "excerpt": "Harry Kane zeigt sich bei den Verhandlungen über eine Vertragsverlängerung beim FC Bayern nicht unter Druck – trotz beiderseitigem Interesse.",
-      "body": "Laut Bavarian Football Works gestalten sich die Vertragsgespräche zwischen dem FC Bayern und Stürmer Harry Kane zäher als erwartet. Obwohl beide Seiten grundsätzlich an einer Fortsetzung der Zusammenarbeit interessiert sind, lässt sich der englische Nationalspieler bei der Unterzeichnung eines neuen Kontrakts offenbar Zeit.\n\nDer Bericht betont, dass Kane keinen Grund sieht, die Verhandlungen zu beschleunigen. Die Münchner hingegen sind laut der Quelle dringend an einer Einigung interessiert und möchten ihren Torjäger langfristig binden. Konkrete Vertragslaufzeiten oder finanzielle Details nennt der Bericht nicht.\n\nFür den FC Bayern wäre eine schnelle Einigung strategisch bedeutsam: Kane ist die zentrale Figur im Angriffsspiel unter Trainer Vincent Kompany. Wie lange sich beide Parteien diesen Schwebezustand leisten können, dürfte sich in den kommenden Wochen zeigen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/202007/harry-kane-in-no-rush-to-ink-bayern-munich-contract",
       "sourceName": "Bavarian Football Works"
     }
   ],
