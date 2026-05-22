@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-22T12:13:31+00:00",
+  "lastUpdated": "2026-05-22T17:44:31+00:00",
   "tiktokStats": {
-    "followers": 1406,
-    "likes": "28K",
-    "videos": 62
+    "followers": 1407,
+    "likes": "29K",
+    "videos": 63
   },
   "ticker": [
+    "Neuer fällt aus: Bayern im Pokalfinale ohne Stammkeeper",
     "Neuer fehlt im Pokalfinale: Urbig übernimmt gegen Stuttgart",
     "Neuer, Karl und Urbig: Drei Bayern-Keeper im WM-Aufgebot",
     "Davies zur WM? Bayern behalten das letzte Wort",
     "Musiala seit Februar ohne Führerschein nach Unfall",
-    "Neuer vor DFB-Pokalfinale: Wadenprobleme bereiten Sorgen",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-22-neuer-faellt-aus-bayern-im-pokalfinale-ohne-stammk",
+      "date": "2026-05-22",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-22-neuer-faellt-aus-bayern-im-pokalfinale-ohne-stammk.jpg",
+      "thumbnailAlt": "Neuer fällt aus: Bayern im Pokalfinale ohne Stammkeeper",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuer fällt aus: Bayern im Pokalfinale ohne Stammkeeper",
+      "excerpt": "Manuel Neuer steht dem FC Bayern im DFB-Pokalfinale gegen den VfB Stuttgart nicht zur Verfügung. Die Wadenverletzung aus dem letzten Bundesligaspiel zwingt ihn zur Pause.",
+      "body": "Der FC Bayern muss im DFB-Pokalfinale am Samstag gegen den VfB Stuttgart auf Manuel Neuer verzichten. Wie die ZEIT berichtet, hatte sich der Torhüter im abschließenden Bundesligaspiel eine Wadenverletzung zugezogen. Der kicker bestätigt: Der Rekordmeister hat inzwischen Gewissheit über den Ausfall seines Stammkeepers.\n\nDamit rückt Sven Ulreich ins Tor. Trainer Vincent Kompany lobte laut Sport1 seinen Ersatztorhüter ausdrücklich vor dem Finale, betonte jedoch, der Druck liege nicht auf dessen Schultern. Für Ulreich, der erst kürzlich seinen Vertrag verlängert hatte, ist es ein besonderer Einsatz auf der größten nationalen Bühne.\n\nFür die Bayern kommt der Ausfall zur Unzeit: Das Pokalfinale in Berlin ist der letzte Titelkampf der Saison, und die Münchner gelten trotz des Personalverlusts im Tor als klarer Favorit. Neuer schont sich offenbar auch im Hinblick auf die bevorstehende Weltmeisterschaft — ein Risiko wollte der Keeper nach Medienberichten nicht eingehen.",
+      "sourceUrl": "https://www.zeit.de/sport/2026-05/manuel-neuer-ausfall-dfb-pokalfinale-fc-bayern-muenchen",
+      "sourceName": "ZEIT Sport / kicker (Bluesky) / Sport1 (Bluesky)"
+    },
     {
       "slug": "2026-05-22-neuer-fehlt-im-pokalfinale-urbig-uebernimmt-gegen",
       "date": "2026-05-22",
@@ -476,22 +492,6 @@
       "body": "Laut kicker erhält Harry Kane die Torjägerkanone der Saison 2025/26. Der englische Stürmer des FC Bayern traf in der Bundesliga 33 Mal und führt die Torschützenliste damit mit einem Vorsprung von 14 Treffern vor Deniz Undav vom VfB Stuttgart an.\n\nWie der kicker weiter berichtet, handelt es sich dabei um ein besonderes Novum: Zwar geht die Auszeichnung zum 24. Mal an einen Bayern-Spieler, doch die Überlegenheit Kanes in dieser Kategorie ist in dieser Deutlichkeit außergewöhnlich. Die Kanone soll ihm am Samstag nach Abpfiff des Spiels gegen den 1. FC Köln überreicht werden.\n\nFür den Rekordmeister unterstreicht die Auszeichnung eine starke Spielzeit im Angriff. Kane war in dieser Saison der prägende Faktor in der Offensive der Münchner – die Torjägerkanone ist der statistische Beleg dafür.",
       "sourceUrl": "https://www.kicker.de/zum-24-mal-die-bayern-und-doch-ein-novum-kicker-torjaegerkanone-fuer-kane-1218773/artikel#omrss",
       "sourceName": "kicker News"
-    },
-    {
-      "slug": "2026-05-15-neuer-verlaengert-keeper-bleibt-bayern-noch-ein-ja",
-      "date": "2026-05-15",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-15-neuer-verlaengert-keeper-bleibt-bayern-noch-ein-ja.jpg",
-      "thumbnailAlt": "Neuer verlängert: Keeper bleibt Bayern noch ein Jahr erhalten",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuer verlängert: Keeper bleibt Bayern noch ein Jahr erhalten",
-      "excerpt": "Manuel Neuer setzt seine Karriere fort: Der Weltmeister verlängert seinen auslaufenden Vertrag beim FC Bayern München um ein weiteres Jahr.",
-      "body": "Laut einem Bericht von NTV Sport hat Manuel Neuer seinen zum Saisonende auslaufenden Vertrag beim FC Bayern München um ein Jahr verlängert. Der 40-jährige Torhüter und Weltmeister von 2014 bleibt dem Rekordmeister damit über die aktuelle Spielzeit hinaus erhalten.\n\nNach Informationen von Bavarian Football Works soll im Zuge der Neuer-Verlängerung auch Sven Ulreich einen neuen Vertrag erhalten. Sky-Reporter Florian Plettenberg zufolge werde der Ersatzkeeper ebenfalls weiter in München bleiben, um die Torhüterposition auch in der kommenden Saison doppelt zu besetzen.\n\nDie Weiterverpflichtung Neuers kommt wenig überraschend, nachdem der Kapitän in der laufenden Saison überwiegend überzeugte. Die Süddeutsche Zeitung berichtete zudem, dass beim DFB eine Nominierung Neuers für den WM-Kader diskutiert wird — eine Entscheidung, die unabhängig vom Verein getroffen werden müsste.",
-      "sourceUrl": "https://www.n-tv.de/sport/fussball/Manuel-Neuer-verlaengert-beim-FC-Bayern-id30817216.html",
-      "sourceName": "NTV Sport / Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
