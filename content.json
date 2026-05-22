@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-21T17:50:40+00:00",
+  "lastUpdated": "2026-05-22T07:37:10+00:00",
   "tiktokStats": {
     "followers": 1405,
     "likes": "28K",
     "videos": 62
   },
   "ticker": [
+    "Neuer, Karl und Urbig: Drei Bayern-Keeper im WM-Aufgebot",
     "Davies zur WM? Bayern behalten das letzte Wort",
     "Musiala seit Februar ohne Führerschein nach Unfall",
     "Neuer vor DFB-Pokalfinale: Wadenprobleme bereiten Sorgen",
     "Hainer stellt klar: Olise bleibt beim FC Bayern",
-    "Bayern-Präsident: Kompany ist für den FCB \"unverkäuflich\"",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-22-neuer-karl-und-urbig-drei-bayern-keeper-im-wm-aufg",
+      "date": "2026-05-22",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-22-neuer-karl-und-urbig-drei-bayern-keeper-im-wm-aufg.jpg",
+      "thumbnailAlt": "Neuer, Karl und Urbig: Drei Bayern-Keeper im WM-Aufgebot",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuer, Karl und Urbig: Drei Bayern-Keeper im WM-Aufgebot",
+      "excerpt": "Bundestrainer Nagelsmann nominiert Manuel Neuer als Nummer eins für die WM 2026 – und nimmt gleich drei Bayern-Torhüter mit in die USA.",
+      "body": "Laut Tagesschau Sport hat der DFB-Bundestrainer seinen 26-köpfigen WM-Kader für das Turnier 2026 in den USA präsentiert. Manuel Neuer kehrt dabei als Nummer eins ins Nationaltor zurück – eine Rückkehr, die zuletzt für intensive Diskussionen gesorgt hatte.\n\nNeben Neuer schaffte es auch Lennart Karl in den Kader, wie die Tagesschau berichtet. Zudem reist laut Sport1 Jonas Urbig als dritter Torhüter mit, übernimmt dort jedoch ausschließlich die Rolle als Trainingshüter. Bayern München stellt damit das gesamte Torhüter-Trio des deutschen WM-Aufgebots.\n\nDer kicker bestätigt die Nominierung Neuers ebenfalls und hebt dessen Rückkehr als eine der auffälligsten Personalentscheidungen des Kaders hervor. Für den FCB bedeutet das Aufgebot eine erhebliche personelle Belastung in der Saisonvorbereitung – bis zu vier Spieler könnten die Münchner für das Turnier abgeben.",
+      "sourceUrl": "https://www.sportschau.de/fussball/fifa-wm-2026/nagelsmann-nimmt-neuer-karl-und-sane-mit-zur-wm,kaderbekanntgabe-wm-100.html",
+      "sourceName": "Tagesschau Sport"
+    },
     {
       "slug": "2026-05-20-davies-zur-wm-bayern-behalten-das-letzte-wort",
       "date": "2026-05-20",
@@ -476,22 +492,6 @@
       "body": "Die Frauen des FC Bayern München haben am Donnerstag in Köln das DFB-Pokalfinale gegen den VfL Wolfsburg mit 4:0 gewonnen und damit das Double aus Meisterschaft und Pokal perfekt gemacht. Laut übereinstimmenden Berichten von kicker, Sportschau und Süddeutscher Zeitung ließen die Münchnerinnen dem Rekordsieger aus Wolfsburg nur in der ersten Halbzeit Chancen zur Gegenwehr.\n\nFür den FCB ist es laut kicker der dritte DFB-Pokaltitel der Vereinsgeschichte im Frauenfußball. Das klare Ergebnis unterstreicht die Dominanz der Münchnerinnen in dieser Spielzeit. Für VfL-Kapitänin Alexandra Popp endete damit das letzte große Spiel ihrer Karriere beim Wolfsburger Traditionsklub ohne Titelgewinn, wie der Spiegel berichtet.\n\nMit dem Gewinn von Meisterschaft und Pokal in derselben Saison bestätigen die Bayern-Frauen ihre Vormachtstellung im deutschen Frauenfußball. Es ist bereits das zweite Double der Vereinsgeschichte in diesem Bereich – ein Beleg für die konsequente Entwicklung des Frauenteams beim Rekordmeister in den vergangenen Jahren.",
       "sourceUrl": "https://www.kicker.de/wolfsburg-gegen-bayern-2026-frauen-dfb-pokal-5197881/spielbericht#omrss",
       "sourceName": "kicker News"
-    },
-    {
-      "slug": "2026-05-14-gordon-poker-chelsea-und-arsenal-draengen-sich-vor",
-      "date": "2026-05-14",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-14-gordon-poker-chelsea-und-arsenal-draengen-sich-vor.jpg",
-      "thumbnailAlt": "Gordon-Poker: Chelsea und Arsenal drängen sich vor Bayern",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Gordon-Poker: Chelsea und Arsenal drängen sich vor Bayern",
-      "excerpt": "Der FC Bayern hat Anthony Gordon als Transferpriorität ausgerufen – doch die Konkurrenz wächst rapide. Nun sollen mehrere englische Topklubs ernsthafte Absichten hegen.",
-      "body": "Laut Bavarian Football Works, unter Berufung auf Bayern-Insider Christian Falk von der Sport Bild, hat der FC Bayern Newcastle Uniteds Angreifer Anthony Gordon zur Nummer-eins-Priorität im Sommer-Transferfenster erklärt. Der variabel einsetzbare Flügelstürmer überzeugte in dieser Saison sowohl in der Premier League als auch in der Champions League.\n\nDoch der Wettbewerb um Gordon gestaltet sich zunehmend schwierig. Bavarian Football Works zufolge haben sich inzwischen Arsenal, Liverpool und Chelsea in den Poker eingeschaltet. Auch der FC Barcelona soll Interesse bekundet haben, wobei Gordons Berater laut dem Bericht mehrere Optionen aktiv prüfen.\n\nFür die Münchner bedeutet dies, dass ein Wechsel an der Isar nicht allein von der eigenen Bereitschaft abhängt. Wie hoch die Ablöseforderung Newcastles letztlich ausfällt und welche Gehaltsvorstellungen Gordon mitbringt, wird den Ausgang dieses Transferrennens maßgeblich bestimmen. Zuletzt hatte Workuvision bereits über erste Gespräche der Bayern mit Newcastle berichtet.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/transfer-rumors/201874/bayern-munich-arsenal-liverpool-chelsea-gordon-fc-barcelona-lewandowski-real-madrid-psg",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
