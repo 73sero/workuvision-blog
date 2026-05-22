@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-22T07:37:10+00:00",
+  "lastUpdated": "2026-05-22T12:13:31+00:00",
   "tiktokStats": {
-    "followers": 1405,
+    "followers": 1406,
     "likes": "28K",
     "videos": 62
   },
   "ticker": [
+    "Neuer fehlt im Pokalfinale: Urbig übernimmt gegen Stuttgart",
     "Neuer, Karl und Urbig: Drei Bayern-Keeper im WM-Aufgebot",
     "Davies zur WM? Bayern behalten das letzte Wort",
     "Musiala seit Februar ohne Führerschein nach Unfall",
     "Neuer vor DFB-Pokalfinale: Wadenprobleme bereiten Sorgen",
-    "Hainer stellt klar: Olise bleibt beim FC Bayern",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-22-neuer-fehlt-im-pokalfinale-urbig-uebernimmt-gegen",
+      "date": "2026-05-22",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-22-neuer-fehlt-im-pokalfinale-urbig-uebernimmt-gegen.jpg",
+      "thumbnailAlt": "Neuer fehlt im Pokalfinale: Urbig übernimmt gegen Stuttgart",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuer fehlt im Pokalfinale: Urbig übernimmt gegen Stuttgart",
+      "excerpt": "Manuel Neuer steht dem FC Bayern im DFB-Pokalfinale gegen den VfB Stuttgart wegen seiner Wadenprobleme nicht zur Verfügung. Jonas Urbig rückt ins Tor.",
+      "body": "Der FC Bayern muss im DFB-Pokalfinale am Samstag gegen den VfB Stuttgart auf Manuel Neuer verzichten. Wie die Süddeutsche Zeitung berichtet, plagen den Kapitän weiterhin muskuläre Probleme in der Wade. Neuer selbst möchte im Hinblick auf die WM kein Risiko eingehen – die DFB-Vorbereitung beginnt bereits am kommenden Mittwoch.\n\nFür Neuer rückt Jonas Urbig zwischen die Pfosten. Der 22-Jährige hatte zuletzt durch die Vertragsverlängerungen von Neuer und Sven Ulreich bereits Gewissheit über seine Rolle als dritter Torwart erhalten – nun bekommt er im wichtigsten Vereinsspiel der Saison seine Chance. Auch der kicker bestätigte, dass die Bayern inzwischen Gewissheit über den Ausfall ihres Stammkeepers haben.\n\nFür den Rekordmeister ist es die nächste Herausforderung in einem ohnehin unruhigen Umfeld rund um die Torwartfrage. Im Pokalfinale treffen die Münchner auf einen VfB Stuttgart, der in der bisherigen Pokalhistorie gegen Bayern eine Bilanz von einem Sieg bei neun Duellen aufweist. Trotz des Ausfalls von Neuer gelten die Bayern als klarer Favorit.",
+      "sourceUrl": "https://www.sueddeutsche.de/sport/fc-bayern-dfb-pokal-finale-manuel-neuer-verletzt-urbig-li.3487598",
+      "sourceName": "Süddeutsche Zeitung"
+    },
     {
       "slug": "2026-05-22-neuer-karl-und-urbig-drei-bayern-keeper-im-wm-aufg",
       "date": "2026-05-22",
@@ -476,22 +492,6 @@
       "body": "Laut einem Bericht von NTV Sport hat Manuel Neuer seinen zum Saisonende auslaufenden Vertrag beim FC Bayern München um ein Jahr verlängert. Der 40-jährige Torhüter und Weltmeister von 2014 bleibt dem Rekordmeister damit über die aktuelle Spielzeit hinaus erhalten.\n\nNach Informationen von Bavarian Football Works soll im Zuge der Neuer-Verlängerung auch Sven Ulreich einen neuen Vertrag erhalten. Sky-Reporter Florian Plettenberg zufolge werde der Ersatzkeeper ebenfalls weiter in München bleiben, um die Torhüterposition auch in der kommenden Saison doppelt zu besetzen.\n\nDie Weiterverpflichtung Neuers kommt wenig überraschend, nachdem der Kapitän in der laufenden Saison überwiegend überzeugte. Die Süddeutsche Zeitung berichtete zudem, dass beim DFB eine Nominierung Neuers für den WM-Kader diskutiert wird — eine Entscheidung, die unabhängig vom Verein getroffen werden müsste.",
       "sourceUrl": "https://www.n-tv.de/sport/fussball/Manuel-Neuer-verlaengert-beim-FC-Bayern-id30817216.html",
       "sourceName": "NTV Sport / Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-14-bayern-frauen-holen-double-4-0-kantersieg-im-pokal",
-      "date": "2026-05-14",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-14-bayern-frauen-holen-double-4-0-kantersieg-im-pokal.jpg",
-      "thumbnailAlt": "Bayern Frauen holen Double: 4:0-Kantersieg im Pokalfinale",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Bayern Frauen holen Double: 4:0-Kantersieg im Pokalfinale",
-      "excerpt": "Die Frauen des FC Bayern krönen ihre Saison mit dem DFB-Pokal. Im Finale in Köln bezwingen sie den VfL Wolfsburg verdient mit 4:0.",
-      "body": "Die Frauen des FC Bayern München haben am Donnerstag in Köln das DFB-Pokalfinale gegen den VfL Wolfsburg mit 4:0 gewonnen und damit das Double aus Meisterschaft und Pokal perfekt gemacht. Laut übereinstimmenden Berichten von kicker, Sportschau und Süddeutscher Zeitung ließen die Münchnerinnen dem Rekordsieger aus Wolfsburg nur in der ersten Halbzeit Chancen zur Gegenwehr.\n\nFür den FCB ist es laut kicker der dritte DFB-Pokaltitel der Vereinsgeschichte im Frauenfußball. Das klare Ergebnis unterstreicht die Dominanz der Münchnerinnen in dieser Spielzeit. Für VfL-Kapitänin Alexandra Popp endete damit das letzte große Spiel ihrer Karriere beim Wolfsburger Traditionsklub ohne Titelgewinn, wie der Spiegel berichtet.\n\nMit dem Gewinn von Meisterschaft und Pokal in derselben Saison bestätigen die Bayern-Frauen ihre Vormachtstellung im deutschen Frauenfußball. Es ist bereits das zweite Double der Vereinsgeschichte in diesem Bereich – ein Beleg für die konsequente Entwicklung des Frauenteams beim Rekordmeister in den vergangenen Jahren.",
-      "sourceUrl": "https://www.kicker.de/wolfsburg-gegen-bayern-2026-frauen-dfb-pokal-5197881/spielbericht#omrss",
-      "sourceName": "kicker News"
     }
   ],
   "tiktokVideosAuto": false,
