@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-23T20:08:25+00:00",
+  "lastUpdated": "2026-05-23T21:12:53+00:00",
   "tiktokStats": {
     "followers": 1408,
     "likes": "29K",
     "videos": 63
   },
   "ticker": [
+    "Bayern gewinnt den DFB-Pokal: Kane trifft dreifach",
     "FC Bayern 3:0 VfB Stuttgart – DFB-Pokal-Triumph zum Double",
     "Hoeneß äußert Zweifel an Eberls Verlängerung beim FCB",
     "Vorbericht: Bayern empfängt den VfB Stuttgart",
     "Hoeneß kritisiert Kommunikation rund um Neuer und Kimmich",
-    "Gordon-Transfer: Bayern und Newcastle einig bei 80 Millionen Euro",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-23-bayern-gewinnt-den-dfb-pokal-kane-trifft-dreifach",
+      "date": "2026-05-23",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-23-bayern-gewinnt-den-dfb-pokal-kane-trifft-dreifach.jpg",
+      "thumbnailAlt": "Bayern gewinnt den DFB-Pokal: Kane trifft dreifach",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Bayern gewinnt den DFB-Pokal: Kane trifft dreifach",
+      "excerpt": "Harry Kane erzielt einen Hattrick beim 3:0-Finalsieg gegen den VfB Stuttgart – der FCB holt sich nach sechs Jahren das Double.",
+      "body": "Der FC Bayern München ist zum 21. Mal DFB-Pokalsieger. Im Berliner Olympiastadion besiegte die Mannschaft von Trainer Vincent Kompany den Titelverteidiger VfB Stuttgart mit 3:0 und sicherte sich damit das Double aus Meisterschaft und Pokalsieg – den ersten Pokaltriumph seit 2020.\n\nWie der kicker berichtet, war die erste Halbzeit noch ausgeglichen, Stuttgart stellte die Münchner vor echte Probleme. Nach dem Seitenwechsel übernahmen die Bayern jedoch das Spielgeschehen. Der entscheidende Faktor war Harry Kane: Der englische Stürmer traf dreifach und entschied die Partie nahezu im Alleingang.\n\nLaut der Süddeutschen Zeitung wurden die Münchner erst nach der Pause vollständig ihrer Favoritenrolle gerecht. Die FAZ hob hervor, dass Kane auch in Berlin traf und traf – trotz eines zunächst schwierigen Spielverlaufs. Mit nun 36 Bundesligatoren in der Hinrunde und dem Pokal-Hattrick im Finale krönte der Mittelstürmer eine überragende Saison in jeder Hinsicht.",
+      "sourceUrl": "https://www.kicker.de/hattrick-kane-bayern-gewinnt-nach-sechs-jahren-wartezeit-den-dfb-pokal-1221625/artikel#omrss",
+      "sourceName": "kicker"
+    },
     {
       "slug": "2026-05-23-spielbericht-bayern-stuttgart",
       "date": "2026-05-23",
@@ -475,22 +491,6 @@
       "excerpt": "Manuel Neuer und Sven Ulreich haben ihre Verträge beim FC Bayern um je ein Jahr verlängert. Jonas Urbig sprach öffentlich seinen Glückwunsch aus.",
       "body": "Laut Bavarian Football Works ist es nun offiziell: Manuel Neuer und Sven Ulreich haben ihre auslaufenden Verträge beim FC Bayern München jeweils um ein Jahr verlängert. Beide Torhüter sind damit mindestens bis Juni 2027 an den Rekordmeister gebunden.\n\nJonas Urbig, der dritte Keeper im Kader, gratulierte seinen Teamkollegen öffentlich zu den Vertragsverlängerungen. Damit bleibt das gesamte Torwart-Trio der Münchner beisammen — eine klare Aussage des Vereins über die Besetzung dieser Schlüsselposition.\n\nNoch am Samstag, beim 5:1-Heimsieg gegen den 1. FC Köln, bat der 40-jährige Neuer nach rund einer Stunde selbst um seine Auswechslung, wie der kicker berichtet. Der Kapitän wollte nach eigener Aussage kein Risiko eingehen. Mit der nun bestätigten Vertragsverlängerung dürfte Neuer — trotz seines Alters — auch in der Saison 2026/27 als klare Nummer eins eingeplant sein.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/202940/jonas-urbig-congratulates-manuel-neuer-sven-ulreich-on-bayern-munich-extensions",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-17-kane-holt-torjaegerkrone-36-treffer-in-der-bundesl",
-      "date": "2026-05-17",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-17-kane-holt-torjaegerkrone-36-treffer-in-der-bundesl.jpg",
-      "thumbnailAlt": "Kane holt Torjägerkrone: 36 Treffer in der Bundesliga",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Kane holt Torjägerkrone: 36 Treffer in der Bundesliga",
-      "excerpt": "Harry Kane krönt eine außergewöhnliche Saison mit der Bundesliga-Torjägerkrone. Der Engländer erzielte in der Spielzeit 2025/26 insgesamt 36 Ligatore.",
-      "body": "Harry Kane hat in seiner zweiten Bundesliga-Saison die Torjägerkrone der Liga gewonnen. Laut Bavarian Football Works erzielte der englische Angreifer des FC Bayern in der Spielzeit 2025/26 insgesamt 36 Treffer – darunter vier Hattricks, neun Doppelpacks sowie sechs Einzeltore.\n\nDen Schlusspunkt setzte der 31-Jährige beim 5:1-Sieg gegen den 1. FC Köln am letzten Bundesliga-Spieltag. Damit beendeten die Münchner eine starke Saison mit insgesamt mehr als 120 erzielten Ligatoren, wie die Tagesschau berichtet.\n\nMit 36 Bundesliga-Treffern in einer einzigen Spielzeit reiht sich Kane in die Gesellschaft der produktivsten Stürmer ein, die je für den Rekordmeister aufgelaufen sind. Ob er diese Marke in der kommenden Saison noch übertreffen kann, bleibt abzuwarten.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-bundesliga/203333/bayern-munich-harry-kane-bundesliga-top-scorer-fc-koln-robert-lewandowski-gerd-muller",
       "sourceName": "Bavarian Football Works"
     }
   ],
