@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-24T11:08:56+00:00",
+  "lastUpdated": "2026-05-24T12:38:57+00:00",
   "tiktokStats": {
     "followers": 1407,
     "likes": "29K",
     "videos": 63
   },
   "ticker": [
+    "Mourinho beobachtet Olise: Real Madrid soll Interesse haben",
     "Kane-Hattrick: Bayern gewinnt Double mit Pokalsieg",
     "Bayern gewinnt den DFB-Pokal: Kane trifft dreifach",
     "FC Bayern 3:0 VfB Stuttgart – DFB-Pokal-Triumph zum Double",
     "Hoeneß äußert Zweifel an Eberls Verlängerung beim FCB",
-    "Vorbericht: Bayern empfängt den VfB Stuttgart",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-24-mourinho-beobachtet-olise-real-madrid-soll-interes",
+      "date": "2026-05-24",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-24-mourinho-beobachtet-olise-real-madrid-soll-interes.jpg",
+      "thumbnailAlt": "Mourinho beobachtet Olise: Real Madrid soll Interesse haben",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Mourinho beobachtet Olise: Real Madrid soll Interesse haben",
+      "excerpt": "Beim DFB-Pokalfinale war angeblich auch der künftige Real-Madrid-Trainer zugegen – mit einem konkreten Beobachtungsauftrag.",
+      "body": "Laut Bavarian Football Works war José Mourinho, der designierte Cheftrainer von Real Madrid, beim DFB-Pokalfinale in Berlin persönlich anwesend, um Bayern-Flügelspieler Michael Olise zu beobachten. Das berichtet das Portal unter Berufung auf Sky-Deutschland-Journalist Florian Plettenberg, der Mourinho per Video beim Verlassen seines Berliner Hotels in Richtung Stadion zeigte.\n\nDer Franzose lieferte im Finale gegen den VfB Stuttgart eine Leistung, die Begehrlichkeiten wecken dürfte. Bayern gewann die Partie dank des Hattricks von Harry Kane mit 3:0 und sicherte sich das Double. Olise stand dabei von Beginn an auf dem Platz.\n\nOb Real Madrid konkrete Schritte unternimmt, ist laut der Quelle noch offen. Für den FC Bayern käme ein Abgang des Offensivspielers zu einem ungünstigen Zeitpunkt – der Rekordmeister plant mit Olise fest für die kommende Saison unter Vincent Kompany.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/206294/incoming-real-madrid-boss-jose-mourinho-attends-dfb-pokal-to-scout-bayern-munichs-michael-olise",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-24-kane-hattrick-bayern-gewinnt-double-mit-pokalsieg",
       "date": "2026-05-24",
@@ -476,22 +492,6 @@
       "body": "Der FC Bayern hat am Sonntag die Vertragsverlängerungen von Manuel Neuer und Sven Ulreich um jeweils ein Jahr offiziell bekanntgegeben. Beide Torhüter bleiben damit mindestens eine weitere Saison beim Rekordmeister. Laut Bavarian Football Works wurden die neuen Kontrakte im Rahmen einer Pressekonferenz von Sportvorstand Max Eberl bestätigt.\n\nEberl hatte sich zuvor nach dem 5:1-Sieg gegen den 1. FC Köln am letzten Bundesliga-Spieltag gegenüber Medienvertretern zu den Torhüterfragen geäußert. Bavarian Football Works berichtet, dass Eberl im Vorfeld der Einigung noch ausweichend auf Fragen zur Vertragssituation Neuers reagiert hatte, obwohl die Gespräche bereits weit fortgeschritten gewesen seien.\n\nFür Neuer kommt die Verlängerung zu einem brisanten Zeitpunkt: Der 40-Jährige hatte beim letzten Heimspiel gegen Köln nach rund einer Stunde um seine Auswechslung gebeten, um kein gesundheitliches Risiko einzugehen, wie der kicker berichtete. Die Personalie Neuer dürfte den FCB auch in den kommenden Wochen beschäftigen — nicht zuletzt im Hinblick auf die WM-Kader-Nominierung des DFB, die für Donnerstag angekündigt ist.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/202745/new-deals-for-bayern-munichs-manuel-neuer-sven-ulreich-are-imminent",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-17-neuer-mit-muskulaeren-problemen-wm-debatte-spitzt",
-      "date": "2026-05-17",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-17-neuer-mit-muskulaeren-problemen-wm-debatte-spitzt.jpg",
-      "thumbnailAlt": "Neuer mit muskulären Problemen: WM-Debatte spitzt sich zu",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuer mit muskulären Problemen: WM-Debatte spitzt sich zu",
-      "excerpt": "Manuel Neuer muss nach dem Saisonfinale wegen muskulärer Beschwerden kürzertreten – mitten in der Debatte um eine WM-Nominierung.",
-      "body": "Der FC Bayern hat am Sonntagmittag mitgeteilt, dass Manuel Neuer wegen muskulärer Probleme vorübergehend kürzertreten muss. Bereits beim 5:1-Heimsieg gegen den 1. FC Köln hatte der 40-Jährige nach rund einer Stunde um seine Auswechslung gebeten. Laut kicker erklärte Neuer anschließend, er habe kein Risiko eingehen wollen.\n\nDie Meldung trifft zu einem ungünstigen Zeitpunkt ein: Seit Wochen wird über ein mögliches Comeback des Torwarts im deutschen WM-Kader spekuliert. Bundestrainer äußerten sich bislang nicht abschließend dazu; die offizielle Nominierung soll laut Tagesschau am Donnerstag bekanntgegeben werden.\n\nFür den FC Bayern bedeutet der Fall eine zusätzliche Ungewissheit in der ohnehin angespannten Torwartfrage. Neuer verlängerte seinen Vertrag zuletzt um ein weiteres Jahr – wie er die Vorbereitung auf die neue Saison gestalten kann, hängt nun vom Verlauf der muskulären Beschwerden ab. Sven Ulreich und Jonas Urbig stehen als Alternativen bereit.",
-      "sourceUrl": "https://www.kicker.de/muskulaere-probleme-neuer-muss-kuerzertreten-1220224/artikel#omrss",
-      "sourceName": "kicker"
     }
   ],
   "tiktokVideosAuto": false,
