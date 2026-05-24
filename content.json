@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-24T15:41:43+00:00",
+  "lastUpdated": "2026-05-24T16:52:19+00:00",
   "tiktokStats": {
-    "followers": 1407,
+    "followers": 1408,
     "likes": "29K",
     "videos": 64
   },
   "ticker": [
+    "Hoeneß schließt Kane-Wechsel zu Barcelona aus",
     "Hattrick im Finale: Kane krönt sich zum Double-Helden",
     "Mourinho beobachtet Olise: Real Madrid soll Interesse haben",
     "Kane-Hattrick: Bayern gewinnt Double mit Pokalsieg",
     "Bayern gewinnt den DFB-Pokal: Kane trifft dreifach",
-    "FC Bayern 3:0 VfB Stuttgart – DFB-Pokal-Triumph zum Double",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-24-hoeness-schliesst-kane-wechsel-zu-barcelona-aus",
+      "date": "2026-05-24",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-24-hoeness-schliesst-kane-wechsel-zu-barcelona-aus.jpg",
+      "thumbnailAlt": "Hoeneß schließt Kane-Wechsel zu Barcelona aus",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Hoeneß schließt Kane-Wechsel zu Barcelona aus",
+      "excerpt": "Uli Hoeneß hat Spekulationen über ein Interesse des FC Barcelona an Harry Kane klar zurückgewiesen – mit einer unmissverständlichen Begründung.",
+      "body": "Laut Bavarian Football Works hat Uli Hoeneß Berichte über ein angebliches Interesse des FC Barcelona an Harry Kane deutlich dementiert. Der Ehrenpräsident des FC Bayern begründete seine Aussage damit, dass Barcelona schlicht nicht über die finanziellen Mittel für einen solchen Transfer verfüge.\n\nKane hatte im DFB-Pokalfinale gegen den VfB Stuttgart mit einem Hattrick maßgeblichen Anteil am 3:0-Sieg der Münchner. Mit 61 Saisontoren in allen Wettbewerben stellte der englische Nationalspieler laut Bavarian Football Works zudem einen Rekord auf, den zuletzt Cristiano Ronaldo seit 2015 erzielt hatte.\n\nDie Aussagen von Hoeneß kommen zu einem Zeitpunkt, an dem die Zukunft Kanes beim FCB ohnehin intensiv diskutiert wird. Eine Vertragsverlängerung gilt als grundsätzlich wahrscheinlich, über die Laufzeit besteht jedoch noch keine Einigung. Barcelonas angebliches Interesse dürfte damit vorerst keine praktische Relevanz entfalten.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-dfb-pokal/206468/bayern-munich-s-uli-hoeness-dismisses-fc-barcelona-s-interest-in-harry-kane-for-they-have-no-money",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-24-hattrick-im-finale-kane-kroent-sich-zum-double-hel",
       "date": "2026-05-24",
@@ -476,22 +492,6 @@
       "body": "Mit einem 5:1-Heimsieg gegen den 1. FC Köln beendeten die Bayern ihre Bundesliga-Saison – und richteten dabei einen besonderen Fokus auf Leon Goretzka. Wie die Süddeutsche Zeitung berichtet, spielten die Münchner zum Abschied des Mittelfeldprofis eigens den Bochum-Song, eine Anspielung auf Goretzkas Karriere-Anfänge beim VfL Bochum. Der FCB, der sich bei Abschieds-Inszenierungen laut dem Bericht mitunter schwertut, habe dem Spieler diesmal eine würdige Bühne bereitet.\n\nParallel dazu sorgte das letzte Heimspiel für eine zusätzliche Randnotiz: Manuel Neuer bat laut kicker nach rund einer Stunde selbst um seine Auswechslung. Der 40-Jährige erklärte anschließend, er habe kein Risiko eingehen wollen – ein Verweis auf die anhaltende Debatte um seinen möglichen WM-Einsatz im DFB-Kader. Der FC Bayern bestätigte zudem, dass Neuer wegen muskulärer Probleme vorerst kürzertreten muss.\n\nFür den Rekordmeister war der Saisonabschluss somit zweigesichtig: sportlich ein souveräner Erfolg, menschlich geprägt vom Goretzka-Abschied und einer Verletzungssorge um den Stammtorhüter kurz vor der Weltmeisterschaft.",
       "sourceUrl": "https://www.sueddeutsche.de/sport/bundesliga-fc-bayern-leon-goretzka-abschied-li.3484510",
       "sourceName": "Süddeutsche Zeitung"
-    },
-    {
-      "slug": "2026-05-17-nuebel-ohne-zukunft-beim-fcb-sportdirektor-stellt",
-      "date": "2026-05-17",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-17-nuebel-ohne-zukunft-beim-fcb-sportdirektor-stellt.jpg",
-      "thumbnailAlt": "Nübel ohne Zukunft beim FCB: Sportdirektor stellt klar",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Nübel ohne Zukunft beim FCB: Sportdirektor stellt klar",
-      "excerpt": "Bayern Münchens Sportdirektor hat bestätigt, dass Alexander Nübel in der Torwartplanung des Vereins keine Rolle mehr spielt.",
-      "body": "Laut Bavarian Football Works hat der FC Bayern vergangene Woche die Verträge von Manuel Neuer und Sven Ulreich bis Ende der Saison 2026/27 verlängert. Gemeinsam mit Jonas Urbig bilden die beiden erfahrenen Keeper das Torhütergespann der kommenden Spielzeit.\n\nDamit ist für Alexander Nübel, der einst als zukünftiger Stammtorhüter der Münchner gehandelt wurde, beim Rekordmeister kein Platz mehr. Bavarian Football Works zufolge hat Sportdirektor Max Eberl jeden Zweifel ausgeräumt: Nübel sei nicht Teil der Planungen des FCB.\n\nDer Fall Nübel verdeutlicht den Wandel in der Münchner Torwartplanung. Mit der Verlängerung von Neuer und Ulreich sowie dem perspektivisch eingeplanten Urbig hat der Verein eine klare Hierarchie definiert — und damit auch einen früher heiß diskutierten Kaderplatz endgültig geschlossen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/203783/bayern-munich-sporting-director-confirms-alexander-nubel-is-not-in-plans",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
