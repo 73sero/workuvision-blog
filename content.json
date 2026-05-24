@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-24T16:52:19+00:00",
+  "lastUpdated": "2026-05-24T16:53:47+00:00",
   "tiktokStats": {
     "followers": 1408,
     "likes": "29K",
     "videos": 64
   },
   "ticker": [
+    "Kane egalisiert Ronaldo-Rekord mit 61 Saisontoren",
     "Hoeneß schließt Kane-Wechsel zu Barcelona aus",
     "Hattrick im Finale: Kane krönt sich zum Double-Helden",
     "Mourinho beobachtet Olise: Real Madrid soll Interesse haben",
     "Kane-Hattrick: Bayern gewinnt Double mit Pokalsieg",
-    "Bayern gewinnt den DFB-Pokal: Kane trifft dreifach",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-24-kane-egalisiert-ronaldo-rekord-mit-61-saisontoren",
+      "date": "2026-05-24",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-24-kane-egalisiert-ronaldo-rekord-mit-61-saisontoren.jpg",
+      "thumbnailAlt": "Kane egalisiert Ronaldo-Rekord mit 61 Saisontoren",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Kane egalisiert Ronaldo-Rekord mit 61 Saisontoren",
+      "excerpt": "Harry Kane hat mit seinem Hattrick im DFB-Pokalfinale gegen den VfB Stuttgart eine historische Marke erreicht und egalisiert einen Rekord von Cristiano Ronaldo.",
+      "body": "Mit drei Treffern im DFB-Pokalfinale gegen den VfB Stuttgart hat Harry Kane seine Saisonausbeute auf 61 Tore in allen Wettbewerben gesteigert. Laut Bavarian Football Works egalisiert der englische Nationalmannschaftskapitän damit einen Rekord von Cristiano Ronaldo als treffsicherster Stürmer einer einzelnen Saison seit 2015.\n\nDer FCB gewann das Pokalfinale 3:0 und sicherte sich damit das nationale Double aus Bundesliga und DFB-Pokal. Kane war laut dem Bericht das Herzstück dieser Saison und trug maßgeblich dazu bei, dass die Münchner beide Titel einfahren konnten.\n\nDie Zahlen unterstreichen die außergewöhnliche Konstanz des Mittelstürmers im zweiten Jahr unter Trainer Vincent Kompany. Ob Kane seinen eigenen Maßstab in der kommenden Spielzeit weiter verschieben kann, bleibt abzuwarten – zumal seine Vertragsverlängerung beim FCB noch nicht abschließend geklärt ist.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-dfb-pokal/206472/insane-stat-harry-kane-equals-cristiano-ronaldo-for-most-goals-scored-in-a-single-season-since-2015",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-24-hoeness-schliesst-kane-wechsel-zu-barcelona-aus",
       "date": "2026-05-24",
@@ -476,22 +492,6 @@
       "body": "Nach der bestätigten Vertragsverlängerung von Manuel Neuer beim FC Bayern hat Leihspieler Alexander Nübel keine Perspektive mehr auf eine Rückkehr nach München. Das berichtet Sport Bild, wie das Fanblog Miasanrot unter Berufung auf das Blatt festhält.\n\nAusschlaggebend ist demnach nicht allein Neuers Verbleib, sondern auch die rasante Entwicklung von Jonas Urbig. Der junge Torhüter hat sich laut dem Bericht in der Hierarchie so weit nach oben gearbeitet, dass für Nübel schlicht kein Platz mehr vorhanden ist. Damit ist die Torhütersituation des Rekordmeisters für die kommende Saison besetzt: Neuer, Urbig und Sven Ulreich bilden das Trio.\n\nFür Nübel, dessen Leihe ausläuft, bedeutet dies die endgültige Gewissheit, dass er seinen Weg woanders fortsetzen muss. Laut dem Bericht soll er Angebote aus der Premier League sowie von anderen Klubs erhalten haben. Beim FC Bayern endet damit ein langes Kapitel der Ungewissheit — die Torwartfrage ist nun auf allen Ebenen beantwortet.",
       "sourceUrl": "https://miasanrot.de/fc-bayern-koeln-bundesliga-spielbericht-analyse/",
       "sourceName": "Miasanrot (via Sport Bild)"
-    },
-    {
-      "slug": "2026-05-17-goretzka-abschied-bayern-ehrt-einen-oft-verkannten",
-      "date": "2026-05-17",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-17-goretzka-abschied-bayern-ehrt-einen-oft-verkannten.jpg",
-      "thumbnailAlt": "Goretzka-Abschied: Bayern ehrt einen oft verkannten Profi",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Goretzka-Abschied: Bayern ehrt einen oft verkannten Profi",
-      "excerpt": "Beim 5:1 gegen den 1. FC Köln verabschiedete sich Leon Goretzka nach vielen Jahren beim FC Bayern mit einer angemessenen Bühne.",
-      "body": "Mit einem 5:1-Heimsieg gegen den 1. FC Köln beendeten die Bayern ihre Bundesliga-Saison – und richteten dabei einen besonderen Fokus auf Leon Goretzka. Wie die Süddeutsche Zeitung berichtet, spielten die Münchner zum Abschied des Mittelfeldprofis eigens den Bochum-Song, eine Anspielung auf Goretzkas Karriere-Anfänge beim VfL Bochum. Der FCB, der sich bei Abschieds-Inszenierungen laut dem Bericht mitunter schwertut, habe dem Spieler diesmal eine würdige Bühne bereitet.\n\nParallel dazu sorgte das letzte Heimspiel für eine zusätzliche Randnotiz: Manuel Neuer bat laut kicker nach rund einer Stunde selbst um seine Auswechslung. Der 40-Jährige erklärte anschließend, er habe kein Risiko eingehen wollen – ein Verweis auf die anhaltende Debatte um seinen möglichen WM-Einsatz im DFB-Kader. Der FC Bayern bestätigte zudem, dass Neuer wegen muskulärer Probleme vorerst kürzertreten muss.\n\nFür den Rekordmeister war der Saisonabschluss somit zweigesichtig: sportlich ein souveräner Erfolg, menschlich geprägt vom Goretzka-Abschied und einer Verletzungssorge um den Stammtorhüter kurz vor der Weltmeisterschaft.",
-      "sourceUrl": "https://www.sueddeutsche.de/sport/bundesliga-fc-bayern-leon-goretzka-abschied-li.3484510",
-      "sourceName": "Süddeutsche Zeitung"
     }
   ],
   "tiktokVideosAuto": false,
