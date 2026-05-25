@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-24T22:31:17+00:00",
+  "lastUpdated": "2026-05-25T08:12:01+00:00",
   "tiktokStats": {
     "followers": 1408,
     "likes": "29K",
     "videos": 64
   },
   "ticker": [
+    "Eberl dämpft Gerüchte: Kein Interesse an John Stones",
     "Kane spricht Klartext: Kein Grund, Bayern zu verlassen",
     "Goretzkas Bayern-Abschied: Das Ende einer wechselhaften Ära",
     "Kane egalisiert Ronaldo-Rekord mit 61 Saisontoren",
     "Hoeneß schließt Kane-Wechsel zu Barcelona aus",
-    "Hattrick im Finale: Kane krönt sich zum Double-Helden",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-25-eberl-daempft-geruechte-kein-interesse-an-john-sto",
+      "date": "2026-05-25",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-25-eberl-daempft-geruechte-kein-interesse-an-john-sto.jpg",
+      "thumbnailAlt": "Eberl dämpft Gerüchte: Kein Interesse an John Stones",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Eberl dämpft Gerüchte: Kein Interesse an John Stones",
+      "excerpt": "Bayern-Sportvorstand Max Eberl hat Berichte über ein Interesse des FCB an Innenverteidiger John Stones klar relativiert.",
+      "body": "Laut Bavarian Football Works hat Bayern-Sportvorstand Max Eberl die zuletzt kursierenden Spekulationen über einen möglichen Transfer von John Stones erheblich gedämpft. Der englische Nationalspieler verlässt Manchester City nach zehn Jahren ablösefrei und war dabei auch mit dem deutschen Rekordmeister in Verbindung gebracht worden.\n\nEberl stellte laut dem Bericht klar, dass der FCB zwar grundsätzlich den Markt für Defensivspieler beobachte, von einem konkreten Interesse an Stones jedoch keine Rede sein könne. Bayern verfügt in der Innenverteidigung mit Dayot Upamecano, Min-Jae Kim, Jonathan Tah und Hiroki Itō bereits über eine gut besetzte Viererreihe.\n\nDie Personalie Stones bleibt damit vorerst ohne Bayern-Dimension. Für den FCB dürfte nach dem gewonnenen Double die Kaderplanung im Sommer dennoch ein zentrales Thema bleiben — Eberl hatte zuletzt signalisiert, gezielt und mit Bedacht in den Transfermarkt eingreifen zu wollen.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/205995/max-eberl-throws-cold-water-on-john-stones-bayern-munich-links",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-24-kane-spricht-klartext-kein-grund-bayern-zu-verlass",
       "date": "2026-05-24",
@@ -476,22 +492,6 @@
       "body": "Laut einem Bericht des kicker sind der FC Bayern und Stürmer Harry Kane bereit, den bestehenden Vertrag zu verlängern. Konkrete Gespräche zwischen beiden Seiten haben demnach bereits stattgefunden, und der Wille zur Einigung ist auf beiden Seiten vorhanden.\n\nDer entscheidende Knackpunkt liegt jedoch in der Vertragslänge. Während die sportliche Führung der Münchner offenbar eine kürzere Laufzeit bevorzugt, soll Kane an einer längerfristigen Bindung interessiert sein. Eine abschließende Einigung steht damit noch aus.\n\nKane erzielte in der abgelaufenen Bundesliga-Saison 2025/26 erneut überragende Torwerte und gilt als unverzichtbarer Bestandteil von Trainer Vincent Kompanys Spielsystem. Die kommenden Verhandlungswochen dürften zeigen, ob sich beide Parteien auf einen Mittelweg einigen können.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/204175/bayern-munich-harry-kane-could-be-at-odds-on-length-of-contract",
       "sourceName": "kicker (via Bavarian Football Works)"
-    },
-    {
-      "slug": "2026-05-18-kimmich-als-bundesliga-mvp-faz-wuerdigt-aussergewo",
-      "date": "2026-05-18",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-18-kimmich-als-bundesliga-mvp-faz-wuerdigt-aussergewo.jpg",
-      "thumbnailAlt": "Kimmich als Bundesliga-MVP: FAZ würdigt außergewöhnliche Saison",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Kimmich als Bundesliga-MVP: FAZ würdigt außergewöhnliche Saison",
-      "excerpt": "Die FAZ hebt Joshua Kimmich als wertvollsten Spieler der Bundesliga-Saison hervor – und begründet das mit einem entscheidenden Moment maximaler Größe.",
-      "body": "Die FAZ hat Joshua Kimmich in einer Analyse zur Frage des wertvollsten Spielers der abgelaufenen Bundesliga-Saison gekürt. Laut dem Bericht zeichne sich der Mittelfeldspieler des FC Bayern nicht allein durch seine Leistungen auf dem Platz aus, sondern besonders durch sein Verhalten in einem Moment größter Anspannung – er habe dabei maximale Größe gezeigt.\n\nDie Zeitung stellt Kimmich dabei über andere Kandidaten wie Michael Olise und wägt die Argumente sachlich ab. Ausschlaggebend sei letztlich nicht nur die sportliche Konstanz über die gesamte Spielzeit, sondern auch die Haltung des Spielers in einem kritischen Saisonmoment gewesen.\n\nFür den FC Bayern unterstreicht die Würdigung, welche Bedeutung Kimmich als Stabilisator im Kader von Trainer Vincent Kompany besitzt. In einer Saison, die der Rekordmeister mit der Deutschen Meisterschaft abgeschlossen hat, rückt die FAZ damit einen Spieler in den Vordergrund, dessen Beitrag über reine Tore und Vorlagen hinausgeht.",
-      "sourceUrl": "https://www.faz.net/aktuell/sport/fussball/bundesliga/bayern-muenchen-warum-joshua-kimmich-der-mvp-der-bundesliga-ist-200826912.html",
-      "sourceName": "FAZ Sport"
     }
   ],
   "tiktokVideosAuto": false,
