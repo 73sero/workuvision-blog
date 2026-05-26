@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-25T17:28:18+00:00",
+  "lastUpdated": "2026-05-26T07:36:10+00:00",
   "tiktokStats": {
-    "followers": 1413,
+    "followers": 1417,
     "likes": "29K",
     "videos": 65
   },
   "ticker": [
+    "Kompany bei Guardiolas Abschiedsfeier mit Meisterpokal",
     "Goretzka verabschiedet sich mit DFB-Pokal-Triumph",
     "Eberl dämpft Gerüchte: Kein Interesse an John Stones",
     "Kane spricht Klartext: Kein Grund, Bayern zu verlassen",
     "Goretzkas Bayern-Abschied: Das Ende einer wechselhaften Ära",
-    "Kane egalisiert Ronaldo-Rekord mit 61 Saisontoren",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-26-kompany-bei-guardiolas-abschiedsfeier-mit-meisterp",
+      "date": "2026-05-26",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-26-kompany-bei-guardiolas-abschiedsfeier-mit-meisterp.jpg",
+      "thumbnailAlt": "Kompany bei Guardiolas Abschiedsfeier mit Meisterpokal",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Kompany bei Guardiolas Abschiedsfeier mit Meisterpokal",
+      "excerpt": "Zwei Tage nach dem DFB-Pokalfinale in Berlin trat Vincent Kompany erneut ins Rampenlicht – diesmal bei der Abschiedsparty für Pep Guardiola in Manchester.",
+      "body": "Laut Spiegel Sport besuchte Bayern-Trainer Vincent Kompany die Abschiedsfeier für den scheidenden Manchester-City-Trainer Pep Guardiola. Dabei präsentierte Kompany den englischen Meisterpokal von 2018, den er als Spieler unter Guardiola gewonnen hatte.\n\nDer Zeitpunkt ist bemerkenswert: Erst am Samstag hatte Kompany mit dem FC Bayern das DFB-Pokalfinale gegen den VfB Stuttgart mit 3:0 gewonnen und damit das Double für die Münchner perfektgemacht. Wenige Tage später reiste er zurück in die Stadt, in der seine Trainerkarriere begann.\n\nKompany hatte City im Sommer 2023 als Cheftrainer verlassen, um beim FC Burnley anzuheuern, bevor er im Sommer 2024 den Wechsel nach München vollzog. Die Verbindung zu Guardiola, unter dem er als Kapitän prägende Jahre erlebte, ist offenkundig ungebrochen.",
+      "sourceUrl": "https://www.spiegel.de/sport/fussball/manchester-city-vincent-kompany-besucht-abschiedsparty-fuer-pep-guardiola-a-00eba49a-3c31-400b-9f51-1abe208071de#ref=rss",
+      "sourceName": "Spiegel Sport"
+    },
     {
       "slug": "2026-05-25-goretzka-verabschiedet-sich-mit-dfb-pokal-triumph",
       "date": "2026-05-25",
@@ -476,22 +492,6 @@
       "body": "Laut einem Bericht von Sport1-Journalist Stefan Kumberger, den Bavarian Football Works aufgreift, beobachtet der FC Bayern Nathaniel Brown von Eintracht Frankfurt. Der 22-jährige Linksverteidiger wechselte 2024 vom 1. FC Nürnberg zu den Hessen und absolvierte in der Saison 2025/26 eine starke Spielzeit.\n\nBrown kam in 42 Pflichtspielen für Eintracht Frankfurt zum Einsatz und erzielte dabei vier Tore sowie sechs Vorlagen. Der Defensivspieler überzeugte vor allem in seiner offensiven Unterstützung und etablierte sich bei den Frankfurtern als Stammkraft auf der linken Abwehrseite.\n\nFür den FC Bayern könnte Brown als Option auf der linken Seite relevant werden. Raphael Guerreiro und Alphonso Davies stehen zwar im aktuellen Kader, doch Davies kämpfte in der vergangenen Saison wiederholt mit Verletzungsproblemen. Konkrete Verhandlungen oder ein offizielles Angebot erwähnt der Bericht nicht.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/204483/bayern-munich-eyeing-eintracht-frankfurt-left-back",
       "sourceName": "Sport1 / Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-19-palhinhas-zukunft-beim-fcb-voellig-offen",
-      "date": "2026-05-19",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-19-palhinhas-zukunft-beim-fcb-voellig-offen.jpg",
-      "thumbnailAlt": "Palhinhas Zukunft beim FCB völlig offen",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Palhinhas Zukunft beim FCB völlig offen",
-      "excerpt": "Bleibt Joao Palhinha beim FC Bayern, wechselt er zu Tottenham – oder kehrt er in die Heimat zurück? Laut Sport1 ist die Entscheidung noch vollkommen ungeklärt.",
-      "body": "Die Zukunft von Joao Palhinha beim FC Bayern ist weiterhin ungewiss. Wie Sport1 berichtet, gibt es gleich drei mögliche Szenarien für den portugiesischen Mittelfeldspieler: ein Verbleib in München, ein Wechsel zu Tottenham Hotspur oder eine Rückkehr nach Portugal, wo offenbar ein Topklub Interesse angemeldet hat.\n\nPalhinha war im Sommer 2024 für rund 51 Millionen Euro vom FC Fulham nach München gewechselt. In seiner ersten Saison unter Trainer Vincent Kompany gehörte er zum festen Kader der Bayern, konnte sich jedoch nicht unumstritten als Stammspieler etablieren. Sein Vertrag läuft noch bis 2028.\n\nEine baldige Entscheidung über seine Zukunft dürfte in den kommenden Wochen fallen, wenn der FC Bayern seine Transferplanung für die Saison 2026/27 konkretisiert. Fest steht laut Sport1 bislang nur: Alle Optionen sind offen.",
-      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mm5dbasz372y",
-      "sourceName": "Sport1 (Bluesky)"
     }
   ],
   "tiktokVideosAuto": false,
