@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-26T07:36:10+00:00",
+  "lastUpdated": "2026-05-26T16:37:30+00:00",
   "tiktokStats": {
-    "followers": 1417,
+    "followers": 1418,
     "likes": "29K",
     "videos": 65
   },
   "ticker": [
+    "Palhinha will nicht zurück: Leihe endet ohne Rückkehr",
     "Kompany bei Guardiolas Abschiedsfeier mit Meisterpokal",
     "Goretzka verabschiedet sich mit DFB-Pokal-Triumph",
     "Eberl dämpft Gerüchte: Kein Interesse an John Stones",
     "Kane spricht Klartext: Kein Grund, Bayern zu verlassen",
-    "Goretzkas Bayern-Abschied: Das Ende einer wechselhaften Ära",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-26-palhinha-will-nicht-zurueck-leihe-endet-ohne-rueck",
+      "date": "2026-05-26",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-26-palhinha-will-nicht-zurueck-leihe-endet-ohne-rueck.jpg",
+      "thumbnailAlt": "Palhinha will nicht zurück: Leihe endet ohne Rückkehr",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Palhinha will nicht zurück: Leihe endet ohne Rückkehr",
+      "excerpt": "Joao Palhinha möchte nach seiner Leihe zu Tottenham Hotspur nicht zum FC Bayern zurückkehren – das berichten kicker und Sport1 übereinstimmend.",
+      "body": "Joao Palhinha wird den FC Bayern München offenbar nicht als fester Bestandteil des Kaders in die neue Saison begleiten. Wie der kicker und Sport1 berichten, zieht der portugiesische Mittelfeldspieler einen Verbleib bei Tottenham Hotspur einer Rückkehr nach München vor. Palhinha hatte die vergangene Spielzeit auf Leihbasis beim Premier-League-Klub verbracht.\n\nLaut Sport1 zeigte sich Palhinha trotz einer schwierigen Saison bei den Spurs begeistert von seinem Aufenthalt in London. Sein Trainer soll sich sogar noch deutlicher für einen dauerhaften Verbleib ausgesprochen haben. Der kicker berichtet ergänzend, dass Palhinha einen Verbleib bei Tottenham nach dem Klassenerhalt des Vereins in der Premier League in Betracht zieht.\n\nFür den FC Bayern bedeutet das eine klare Personalie, die in der Transferplanung für den Sommer abgehakt werden dürfte. Trainer Vincent Kompany muss die Besetzung des defensiven Mittelfelds neu bewerten. Mit Aleksandar Pavlović, Joshua Kimmich und Leon Goretzka stehen dem Rekordmeister in dieser Zone zwar Alternativen zur Verfügung, doch die Situation rund um Goretzka ist nach dessen jüngst gemeldeten Abschied ebenfalls offen.",
+      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mmr2hkcpwu2c",
+      "sourceName": "Sport1 (Bluesky) und kicker (Bluesky)"
+    },
     {
       "slug": "2026-05-26-kompany-bei-guardiolas-abschiedsfeier-mit-meisterp",
       "date": "2026-05-26",
@@ -476,22 +492,6 @@
       "body": "Harry Kane wird in dieser Saison zum zweiten Mal nach 2023/24 den Golden Shoe als bester Torschütze Europas gewinnen. Das berichtet der kicker. Der Bayern-Stürmer habe am vergangenen Wochenende letzte Zweifel beseitigt und den Vorsprung in der Wertung entscheidend ausgebaut.\n\nIn der Verfolgung des Engländers liefern sich laut kicker Dion Beljo und Kylian Mbappé noch ein Duell um Platz zwei. Kane selbst ist demnach nicht mehr einzuholen.\n\nFür den FC Bayern ist Kanes erneute Auszeichnung ein Signal, das über die individuelle Trophäe hinausgeht: Der Mittelstürmer bleibt der prägende Angreifer der Münchner – auch in einer Saison, in der der Verein sportlich unter Druck stand.",
       "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mm72mnkzpf23",
       "sourceName": "kicker (Bluesky)"
-    },
-    {
-      "slug": "2026-05-19-nathaniel-brown-bayern-soll-frankfurter-linksverte",
-      "date": "2026-05-19",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-19-nathaniel-brown-bayern-soll-frankfurter-linksverte.jpg",
-      "thumbnailAlt": "Nathaniel Brown: Bayern soll Frankfurter Linksverteidiger im Visier haben",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Nathaniel Brown: Bayern soll Frankfurter Linksverteidiger im Visier haben",
-      "excerpt": "Der FC Bayern soll Interesse an Eintracht Frankfurts Linksverteidiger Nathaniel Brown zeigen. Das berichtet Sport1-Journalist Stefan Kumberger.",
-      "body": "Laut einem Bericht von Sport1-Journalist Stefan Kumberger, den Bavarian Football Works aufgreift, beobachtet der FC Bayern Nathaniel Brown von Eintracht Frankfurt. Der 22-jährige Linksverteidiger wechselte 2024 vom 1. FC Nürnberg zu den Hessen und absolvierte in der Saison 2025/26 eine starke Spielzeit.\n\nBrown kam in 42 Pflichtspielen für Eintracht Frankfurt zum Einsatz und erzielte dabei vier Tore sowie sechs Vorlagen. Der Defensivspieler überzeugte vor allem in seiner offensiven Unterstützung und etablierte sich bei den Frankfurtern als Stammkraft auf der linken Abwehrseite.\n\nFür den FC Bayern könnte Brown als Option auf der linken Seite relevant werden. Raphael Guerreiro und Alphonso Davies stehen zwar im aktuellen Kader, doch Davies kämpfte in der vergangenen Saison wiederholt mit Verletzungsproblemen. Konkrete Verhandlungen oder ein offizielles Angebot erwähnt der Bericht nicht.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/204483/bayern-munich-eyeing-eintracht-frankfurt-left-back",
-      "sourceName": "Sport1 / Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
