@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-26T16:37:30+00:00",
+  "lastUpdated": "2026-05-26T18:17:42+00:00",
   "tiktokStats": {
     "followers": 1418,
     "likes": "29K",
     "videos": 65
   },
   "ticker": [
+    "Palhinha liebäugelt mit Verbleib bei Tottenham",
     "Palhinha will nicht zurück: Leihe endet ohne Rückkehr",
     "Kompany bei Guardiolas Abschiedsfeier mit Meisterpokal",
     "Goretzka verabschiedet sich mit DFB-Pokal-Triumph",
     "Eberl dämpft Gerüchte: Kein Interesse an John Stones",
-    "Kane spricht Klartext: Kein Grund, Bayern zu verlassen",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-26-palhinha-liebaeugelt-mit-verbleib-bei-tottenham",
+      "date": "2026-05-26",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-26-palhinha-liebaeugelt-mit-verbleib-bei-tottenham.jpg",
+      "thumbnailAlt": "Palhinha liebäugelt mit Verbleib bei Tottenham",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Palhinha liebäugelt mit Verbleib bei Tottenham",
+      "excerpt": "Bayerns Leihspieler Joao Palhinha kann sich nach Tottenhams Klassenerhalt einen Verbleib in London vorstellen – sein Trainer äußert sich noch deutlicher.",
+      "body": "Der kicker berichtet, dass Joao Palhinha nach dem gesicherten Premier-League-Verbleib der Spurs offen für eine Fortsetzung seines Aufenthalts in London ist. Die Bayern-Leihgabe soll sich einen dauerhaften Wechsel zu Tottenham Hotspur vorstellen können.\n\nNoch klarer positioniert sich laut kicker der Trainer der Londoner: Er sprach sich offenbar deutlich für einen Verbleib des portugiesischen Mittelfeldspielers aus. Damit wächst der Druck auf den FC Bayern, eine Entscheidung über die Zukunft Palhinhas zu treffen.\n\nPalhinha war in der vergangenen Saison von München nach London verliehen worden. Ob die Bayern ihn in die Planungen für die Saison 2026/27 einbeziehen oder dauerhaft abgeben, ist noch offen. Die Entwicklung dürfte die Kaderplanung von Trainer Vincent Kompany im defensiven Mittelfeld direkt beeinflussen.",
+      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mmqvrbo32y2s",
+      "sourceName": "kicker (Bluesky)"
+    },
     {
       "slug": "2026-05-26-palhinha-will-nicht-zurueck-leihe-endet-ohne-rueck",
       "date": "2026-05-26",
@@ -476,22 +492,6 @@
       "body": "Beim FC Bayern ist offenbar der Name Joško Gvardiol ins Gespräch geraten. Wie Sport1 berichtet, wird der Innenverteidiger von Manchester City im Umfeld der Münchner gehandelt. Der kroatische Nationalspieler gilt als einer der besten Defensivakteure seiner Generation und wäre vom Profil her ein Kandidat, der zum Anforderungsniveau des Rekordmeisters passen würde.\n\nAllerdings, so Sport1 weiter, spreche ein entscheidender Fakt gegen einen Transfer. Welcher konkrete Umstand dies ist, führt der Bericht nur angedeutet aus – wahrscheinlich dürfte der aufgerufene Marktwert oder ein laufender Vertrag bei City die größte Hürde darstellen. Details nennt die Quelle nicht ausdrücklich.\n\nFür die Innenverteidigung stehen dem FCB in der Saison 2025/26 Dayot Upamecano, Min-Jae Kim, Jonathan Tah und Hiroki Itō zur Verfügung. Ob Bayern tatsächlich Bedarf an einer weiteren Verstärkung in dieser Position sieht und konkrete Schritte unternimmt, ist derzeit nicht bestätigt. Der Bericht bleibt auf der Ebene eines frühen Gerüchts.",
       "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mm7jdtvyjy2z",
       "sourceName": "Sport1 (Bluesky)"
-    },
-    {
-      "slug": "2026-05-19-kane-holt-den-golden-shoe-zum-zweiten-mal",
-      "date": "2026-05-19",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-19-kane-holt-den-golden-shoe-zum-zweiten-mal.jpg",
-      "thumbnailAlt": "Kane holt den Golden Shoe – zum zweiten Mal",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Kane holt den Golden Shoe – zum zweiten Mal",
-      "excerpt": "Harry Kane sichert sich laut kicker die Torjägerkanone Europas. Es ist bereits seine zweite Auszeichnung mit dem Golden Shoe.",
-      "body": "Harry Kane wird in dieser Saison zum zweiten Mal nach 2023/24 den Golden Shoe als bester Torschütze Europas gewinnen. Das berichtet der kicker. Der Bayern-Stürmer habe am vergangenen Wochenende letzte Zweifel beseitigt und den Vorsprung in der Wertung entscheidend ausgebaut.\n\nIn der Verfolgung des Engländers liefern sich laut kicker Dion Beljo und Kylian Mbappé noch ein Duell um Platz zwei. Kane selbst ist demnach nicht mehr einzuholen.\n\nFür den FC Bayern ist Kanes erneute Auszeichnung ein Signal, das über die individuelle Trophäe hinausgeht: Der Mittelstürmer bleibt der prägende Angreifer der Münchner – auch in einer Saison, in der der Verein sportlich unter Druck stand.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mm72mnkzpf23",
-      "sourceName": "kicker (Bluesky)"
     }
   ],
   "tiktokVideosAuto": false,
