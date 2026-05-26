@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-26T19:13:48+00:00",
+  "lastUpdated": "2026-05-26T21:08:56+00:00",
   "tiktokStats": {
     "followers": 1418,
     "likes": "29K",
     "videos": 65
   },
   "ticker": [
+    "Kane gewinnt zum zweiten Mal den Goldenen Schuh",
     "Eberl sicherte Kompany-Vertrag vor Guardiola-Abgang",
     "Palhinha liebäugelt mit Verbleib bei Tottenham",
     "Palhinha will nicht zurück: Leihe endet ohne Rückkehr",
     "Kompany bei Guardiolas Abschiedsfeier mit Meisterpokal",
-    "Goretzka verabschiedet sich mit DFB-Pokal-Triumph",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-26-kane-gewinnt-zum-zweiten-mal-den-goldenen-schuh",
+      "date": "2026-05-26",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-26-kane-gewinnt-zum-zweiten-mal-den-goldenen-schuh.jpg",
+      "thumbnailAlt": "Kane gewinnt zum zweiten Mal den Goldenen Schuh",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Kane gewinnt zum zweiten Mal den Goldenen Schuh",
+      "excerpt": "Harry Kane holt erneut die Auszeichnung als treffsicherster Stürmer Europas. Der kicker bestätigt den zweiten Titel für den Bayern-Angreifer.",
+      "body": "Harry Kane hat zum zweiten Mal in seiner Karriere den Goldenen Schuh gewonnen. Der kicker berichtet, dass der Angreifer des FC Bayern München damit die Auszeichnung für den treffsichersten Stürmer des europäischen Vereinsfußballs erneut erhält. Kane folgt auf Kylian Mbappé, der in dieser Wertung auf den dritten Rang zurückfiel.\n\nFür Kane ist es nach dem ersten Gewinn dieser Trophäe ein weiterer individueller Meilenstein in seiner ersten Bayern-Ära. Der Engländer hatte den Rekordmeister in der abgelaufenen Saison auch im DFB-Pokalfinale entscheidend geprägt – laut ZEIT Sport war es nach einem schwierigen Spielverlauf gegen den VfB Stuttgart Kane, der die Partie für München entschied.\n\nDie Auszeichnung fällt in eine Phase, in der Kanes Zukunft beim FCB noch nicht endgültig besiegelt ist. Christian Falk hatte zuletzt jedoch bestätigt, dass zwischen Kane und Bayern kein Streit über die Vertragslaufzeit einer möglichen Verlängerung besteht. Die individuelle Trophäe dürfte das Bestreben beider Seiten nach einer dauerhaften Einigung weiter untermauern.",
+      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mmqofqnuq52w",
+      "sourceName": "kicker (Bluesky)"
+    },
     {
       "slug": "2026-05-26-eberl-sicherte-kompany-vertrag-vor-guardiola-abgan",
       "date": "2026-05-26",
@@ -475,22 +491,6 @@
       "excerpt": "Ex-Bayern-CEO Oliver Kahn hat die taktische Ausrichtung von Trainer Vincent Kompany nach dem Champions-League-Aus gegen Paris Saint-Germain öffentlich hinterfragt.",
       "body": "Der FC Bayern schied in der Vorschlussrunde der Champions League gegen Paris Saint-Germain aus – und die Aufarbeitung läuft. Laut Bavarian Football Works meldete sich Ex-Vorstandschef Oliver Kahn kurz nach dem Ergebnis zu Wort und stellte die taktischen Entscheidungen von Trainer Vincent Kompany infrage.\n\nKahn sieht die Spielweise, die dem FCB in der Gruppenphase und in früheren K.-o.-Runden überzeugende Auftritte beschert hatte, nach dem PSG-Ergebnis in einem anderen Licht. Die Niederlage werfe Fragen auf, die sich zuvor nicht gestellt hätten, so die Einschätzung des früheren Torwarts.\n\nFür Kompany war es dennoch eine bemerkenswerte Champions-League-Saison, die die Münchner bis in die Runde der letzten Vier trug. Die Diskussion um die taktische Ausrichtung dürfte den Kader und den Trainer in der Vorbereitung auf die Saison 2025/26 weiter begleiten.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-champions-league/202648/oliver-kahn-questions-bayern-munich-tactics-vincent-kompany-champions-league-paris-saint-germain",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-19-hoeness-und-laimer-legen-streit-bei-gespraeche-geh",
-      "date": "2026-05-19",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-19-hoeness-und-laimer-legen-streit-bei-gespraeche-geh.jpg",
-      "thumbnailAlt": "Hoeneß und Laimer legen Streit bei – Gespräche gehen weiter",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Hoeneß und Laimer legen Streit bei – Gespräche gehen weiter",
-      "excerpt": "Nach öffentlicher Kritik von Uli Hoeneß an Konrad Laimers Gehaltsvorstellungen haben sich beide Seiten bei den Meisterfeierlichkeiten versöhnt.",
-      "body": "Laut Bavarian Football Works hatten Uli Hoeneß und Konrad Laimer zuletzt öffentlich Differenzen: Der Bayern-Ehrenpräsident hatte sich kritisch zu den kolportierten Gehaltserwartungen des österreichischen Mittelfeldspielers geäußert, was Laimer offenbar nicht klaglos hinnahm.\n\nBei den Feierlichkeiten zur Bundesliga-Meisterschaft trafen die beiden aufeinander und bereinigten den Konflikt. Beide Seiten hätten die Angelegenheit beigelegt, berichtet Bavarian Football Works – die Vertragsgespräche sollen im Anschluss fortgesetzt werden.\n\nLaimer steht beim FC Bayern noch unter Vertrag, über eine Verlängerung wurde bislang keine Einigung erzielt. Die Annäherung zwischen Hoeneß und dem Spieler dürfte die Verhandlungen zumindest atmosphärisch erleichtern – wie weit die inhaltlichen Positionen noch auseinanderliegen, ließ der Bericht offen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/204293/bayern-munichs-uli-hoenes-konrad-laimer-make-peace-ahead-more-contract-talks",
       "sourceName": "Bavarian Football Works"
     }
   ],
