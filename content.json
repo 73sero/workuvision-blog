@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-27T21:18:55+00:00",
+  "lastUpdated": "2026-05-27T22:54:59+00:00",
   "tiktokStats": {
     "followers": 1418,
     "likes": "29K",
     "videos": 65
   },
   "ticker": [
+    "Gordon-Deal geplatzt: FC Barcelona schnappt Bayern den Engländer weg",
     "Gordon-Wechsel: Barcelona schlägt Bayern bei Newcastle aus",
     "Gordon-Wechsel zu Barça: Bayern steigt aus dem Rennen aus",
     "Gordon-Poker: FC Barcelona überholt Bayern im Transferrennen",
     "Davies zur WM bestätigt – Einigung zwischen Bayern und Kanada",
-    "Hoeneß und Rummenigge üben Kritik an Sportvorstand Eberl",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-27-gordon-deal-geplatzt-fc-barcelona-schnappt-bayern",
+      "date": "2026-05-27",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-27-gordon-deal-geplatzt-fc-barcelona-schnappt-bayern.webp",
+      "thumbnailAlt": "Gordon-Deal geplatzt: FC Barcelona schnappt Bayern den Engländer weg",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Gordon-Deal geplatzt: FC Barcelona schnappt Bayern den Engländer weg",
+      "excerpt": "Der FC Bayern geht bei Anthony Gordon leer aus: Laut Transfer-Experte Fabrizio Romano wechselt der Newcastle-Angreifer zu FC Barcelona.",
+      "body": "Die Transferplanungen des FC Bayern haben einen empfindlichen Rückschlag erlitten. Wie Transfer-Experte Fabrizio Romano bestätigt und Bavarian Football Works berichtet, wechselt Anthony Gordon vom FC Newcastle United zum FC Barcelona – und nicht nach München. Romano gab sein bekanntes Signal für einen abgeschlossenen Transfer, womit der Wechsel als gesichert gilt.\n\nDer FC Bayern hatte Gordon offenbar als Verstärkung für den Angriff ins Visier genommen. Zuletzt war bereits über eine Einigung zwischen den Münchnern und Newcastle berichtet worden – der Rekordmeister schien im Rennen um den englischen Nationalspieler weit fortgeschritten. Nun aber setzte sich der FC Barcelona durch und sicherte sich den Zuschlag.\n\nFür die Münchner ist das Scheitern des Transfers ein spürbarer Dämpfer in der Sommervorbereitung. Vincent Kompany hatte im abgelaufenen Doppel-Spieljahr zwar das Double gewonnen, doch der Kader soll weiter verstärkt werden. Mit Gordon wäre ein variabel einsetzbarer, schneller Außenstürmer in den Kader gekommen, der auf beiden Flügeln hätte spielen können.\n\nDie Bayern müssen nun auf dem Transfermarkt umdisponieren. Im Angriff stehen Kompany mit Michael Olise, Jamal Musiala, Kingsley Coman und Luis Díaz bereits mehrere offensive Optionen zur Verfügung. Ob der Verein einen gleichwertigen Ersatz für den geplatzten Gordon-Transfer ins Visier nimmt oder die Planungen in eine andere Richtung lenkt, ist laut den vorliegenden Berichten noch offen.\n\nDie Entwicklung zeigt einmal mehr, wie kompetitiv der europäische Transfermarkt geworden ist. Dass ausgerechnet der FC Barcelona – trotz anhaltender finanzieller Schwierigkeiten – dem FC Bayern bei einem Zielspieler zuvorkommt, dürfte in München für Gesprächsstoff sorgen. Die Sommertransferperiode ist noch jung, und der Rekordmeister wird seine Kaderplanung entsprechend anpassen müssen.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/208219/its-over-fc-barcelona-jumps-over-bayern-munich-to-get-anthony-gordon",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-27-gordon-wechsel-barcelona-schlaegt-bayern-bei-newca",
       "date": "2026-05-27",
@@ -476,22 +492,6 @@
       "body": "Laut Tagesschau Sport hat der DFB-Bundestrainer seinen 26-köpfigen WM-Kader für das Turnier 2026 in den USA präsentiert. Manuel Neuer kehrt dabei als Nummer eins ins Nationaltor zurück – eine Rückkehr, die zuletzt für intensive Diskussionen gesorgt hatte.\n\nNeben Neuer schaffte es auch Lennart Karl in den Kader, wie die Tagesschau berichtet. Zudem reist laut Sport1 Jonas Urbig als dritter Torhüter mit, übernimmt dort jedoch ausschließlich die Rolle als Trainingshüter. Bayern München stellt damit das gesamte Torhüter-Trio des deutschen WM-Aufgebots.\n\nDer kicker bestätigt die Nominierung Neuers ebenfalls und hebt dessen Rückkehr als eine der auffälligsten Personalentscheidungen des Kaders hervor. Für den FCB bedeutet das Aufgebot eine erhebliche personelle Belastung in der Saisonvorbereitung – bis zu vier Spieler könnten die Münchner für das Turnier abgeben.",
       "sourceUrl": "https://www.sportschau.de/fussball/fifa-wm-2026/nagelsmann-nimmt-neuer-karl-und-sane-mit-zur-wm,kaderbekanntgabe-wm-100.html",
       "sourceName": "Tagesschau Sport"
-    },
-    {
-      "slug": "2026-05-20-davies-zur-wm-bayern-behalten-das-letzte-wort",
-      "date": "2026-05-20",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-20-davies-zur-wm-bayern-behalten-das-letzte-wort.jpg",
-      "thumbnailAlt": "Davies zur WM? Bayern behalten das letzte Wort",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Davies zur WM? Bayern behalten das letzte Wort",
-      "excerpt": "Nach der Fehldiagnose im März 2025 will der FC Bayern die Entscheidung über eine WM-Teilnahme von Alphonso Davies selbst treffen – nicht Kanada.",
-      "body": "Laut einem Bericht von Sport1, den Bavarian Football Works aufgreift, wird der FC Bayern München Canada Soccer nicht das letzte Wort darüber lassen, ob Alphonso Davies an der Weltmeisterschaft teilnimmt. Die Münchner behalten sich vor, eine eigene Entscheidung zu treffen – abhängig davon, ob sie mit der Behandlung ihres Spielers zufrieden sind.\n\nHintergrund ist die als katastrophal beschriebene Fehldiagnose eines Kreuzbandrisses bei Davies im März 2025. Der Vorfall hat das Verhältnis zwischen dem Rekordmeister und dem kanadischen Fußballverband offenbar nachhaltig belastet. Bayern sieht darin offenbar einen ausreichenden Grund, die Hoheit über die Entscheidung zur WM-Nominierung für sich zu beanspruchen.\n\nDer Fall verdeutlicht die wachsende Spannung zwischen Vereinen und Nationalverbänden im dichten Turnierkalender. Für Davies, der nach seiner schweren Verletzung gerade auf die Rückkehr hinarbeitet, hängt die WM-Teilnahme damit nicht allein von sportlichen, sondern auch von medizinischen und diplomatischen Faktoren ab.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-injuries/204315/bayern-munich-will-not-allow-canada-soccer-to-decide-if-alphonso-davies-goes-to-the-world-cup",
-      "sourceName": "Sport1 (via Bavarian Football Works)"
     }
   ],
   "tiktokVideosAuto": false,
