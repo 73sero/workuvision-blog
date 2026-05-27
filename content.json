@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-27T07:56:18+00:00",
+  "lastUpdated": "2026-05-27T12:47:44+00:00",
   "tiktokStats": {
     "followers": 1417,
     "likes": "29K",
     "videos": 65
   },
   "ticker": [
+    "Gordon-Poker: FC Barcelona überholt Bayern im Transferrennen",
     "Davies zur WM bestätigt – Einigung zwischen Bayern und Kanada",
     "Hoeneß und Rummenigge üben Kritik an Sportvorstand Eberl",
     "Laimer-Verlängerung beim FCB: Einigung rückt näher",
     "Kane gewinnt zum zweiten Mal den Goldenen Schuh",
-    "Eberl sicherte Kompany-Vertrag vor Guardiola-Abgang",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-27-gordon-poker-fc-barcelona-ueberholt-bayern-im-tran",
+      "date": "2026-05-27",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-27-gordon-poker-fc-barcelona-ueberholt-bayern-im-tran.webp",
+      "thumbnailAlt": "Gordon-Poker: FC Barcelona überholt Bayern im Transferrennen",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Gordon-Poker: FC Barcelona überholt Bayern im Transferrennen",
+      "excerpt": "Im Werben um Newcastle-Stürmer Anthony Gordon hat der FC Barcelona Bayern München nach Berichten mehrerer Quellen überholt. Laut Transfer-Experte Fabrizio Romano ist Gordon bereit, bei einer Einigung zwischen den Klubs zu wechseln.",
+      "body": "Im Transferpoker um Anthony Gordon hat sich die Lage für den FC Bayern München deutlich verschlechtert. Nachdem die Münchner über mehrere Wochen als Favorit auf eine Verpflichtung des Newcastle-United-Angreifers gehandelt worden waren, hat der FC Barcelona nach übereinstimmenden Berichten die Führung übernommen.\n\nTransfer-Experte Fabrizio Romano berichtete, dass Gordon grundsätzlich bereit sei, einen Vertrag beim FC Barcelona zu unterzeichnen – vorausgesetzt, die beiden Klubs einigen sich auf eine Ablösesumme. Auch Bavarian Football Works, das das Thema intensiv verfolgt hat, bestätigt die veränderte Ausgangslage: Barcelona habe sich in der Favoritenrolle festgesetzt.\n\nDie veränderten Quoten auf der Wettbörse Betfair unterstreichen diese Entwicklung. Laut einem Sprecher der Plattform, James Mackie, ist Gordon zwar zunehmend aus Newcastle wegzudenken, doch Barcelona habe nun die Nase vor Bayern München und dem FC Liverpool. Konkrete Ablösezahlen wurden dabei nicht öffentlich kommuniziert – was bei den Wettbörsen-Quoten grundsätzlich Vorsicht gebietet.\n\nFür den FCB käme ein Scheitern des Gordon-Transfers zu einem ungünstigen Zeitpunkt. Erst kürzlich hatten Berichte einen bereits erzielten Einigung zwischen Bayern und Newcastle über eine Ablöse von rund 80 Millionen Euro kursiert. Ob diese Verhandlungen tatsächlich so weit fortgeschritten waren oder ob Barcelona schlicht mit einem konkreteren Angebot vorgeprescht ist, lässt sich aus den vorliegenden Quellen nicht abschließend klären.\n\nSollte Barcelona den Transfer tatsächlich realisieren, müsste Sportvorstand Max Eberl auf dem Flügelmarkt umplanen. Mit Michael Olise, Kingsley Coman und Luis Díaz verfügen die Bayern zwar über Optionen in der Breite, doch ein zusätzlicher Flügelstürmer war offensichtlich Teil der Kaderplanung für die Saison 2026/27. Wie Bavarian Football Works berichtet, gilt die Situation als weiterhin dynamisch – eine endgültige Entscheidung steht noch aus.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/208000/fc-barcelona-moves-ahead-of-bayern-munich-on-anthony-gordon-pursuit",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-27-davies-zur-wm-bestaetigt-einigung-zwischen-bayern",
       "date": "2026-05-27",
@@ -476,22 +492,6 @@
       "body": "Laut Bavarian Football Works, die sich auf einen Bericht der Bild beziehen, fehlte Manuel Neuer dem FC Bayern in dieser Woche gleich an zwei aufeinanderfolgenden Trainingstagen. Grund ist ein anhaltender Wadenprobleme, der den Einsatz des Torhüters im DFB-Pokalfinale gegen den VfB Stuttgart am Samstag in Frage stellt.\n\nDamit könnte Sven Ulreich im Endspiel zwischen den Pfosten stehen. Der erfahrene Ersatztorhüter wäre im Falle eines Neuer-Ausfalls die erste Wahl von Trainer Vincent Kompany. Offiziell hat sich der FC Bayern zu Neuers Zustand bislang nicht geäußert.\n\nDer Zeitpunkt ist für den Rekordmeister denkbar ungünstig: Das DFB-Pokalfinale ist das letzte Pflichtspiel der Saison — und mit dem Doppel aus Bundesliga und Pokal könnte der FCB die Spielzeit mit zwei Titeln abschließen. Ob Neuer rechtzeitig fit wird, dürfte sich erst kurz vor dem Anpfiff entscheiden.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-dfb-pokal/205038/bayern-munich-star-manuel-neuers-status-in-doubt-for-dfb-pokal",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-20-hainer-stellt-klar-olise-bleibt-beim-fc-bayern",
-      "date": "2026-05-20",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-20-hainer-stellt-klar-olise-bleibt-beim-fc-bayern.jpg",
-      "thumbnailAlt": "Hainer stellt klar: Olise bleibt beim FC Bayern",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Hainer stellt klar: Olise bleibt beim FC Bayern",
-      "excerpt": "Klubpräsident Herbert Hainer hat sich unmissverständlich zur Zukunft von Michael Olise geäußert: Der Franzose soll in München bleiben.",
-      "body": "Michael Olise hat sich in seiner ersten Saison beim FC Bayern als einer der besten Flügelspieler Europas etabliert und damit internationales Interesse auf sich gezogen. Laut Sport1 hat Klubpräsident Herbert Hainer nun jedoch klargemacht, dass der Franzose nicht zur Disposition steht.\n\nHainer äußerte sich demnach unmissverständlich: Die Zukunft Olises liege in München. Damit reagiert der Vereinspräsident auf die Spekulationen aus dem Ausland, die den 23-Jährigen zuletzt mit namhaften Klubs in Verbindung gebracht hatten.\n\nFür den FC Bayern wäre ein Verbleib Olises ein wichtiges Signal. Der Angreifer gilt unter Trainer Vincent Kompany als zentraler Bestandteil des Spielsystems. Sollte sich die Aussage Hainers in den kommenden Wochen durch einen Vertragsabschluss konkretisieren, wäre die Planungssicherheit für die Saison 2025/26 in einem entscheidenden Bereich gesichert.",
-      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mmbpfvlea62y",
-      "sourceName": "Sport1 (Bluesky)"
     }
   ],
   "tiktokVideosAuto": false,
