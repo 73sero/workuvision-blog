@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-27T16:33:17+00:00",
+  "lastUpdated": "2026-05-27T18:19:26+00:00",
   "tiktokStats": {
     "followers": 1417,
     "likes": "29K",
     "videos": 65
   },
   "ticker": [
+    "Gordon-Wechsel zu Barça: Bayern steigt aus dem Rennen aus",
     "Gordon-Poker: FC Barcelona überholt Bayern im Transferrennen",
     "Davies zur WM bestätigt – Einigung zwischen Bayern und Kanada",
     "Hoeneß und Rummenigge üben Kritik an Sportvorstand Eberl",
     "Laimer-Verlängerung beim FCB: Einigung rückt näher",
-    "Kane gewinnt zum zweiten Mal den Goldenen Schuh",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-27-gordon-wechsel-zu-bar-a-bayern-steigt-aus-dem-renn",
+      "date": "2026-05-27",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-27-gordon-wechsel-zu-bar-a-bayern-steigt-aus-dem-renn.webp",
+      "thumbnailAlt": "Gordon-Wechsel zu Barça: Bayern steigt aus dem Rennen aus",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Gordon-Wechsel zu Barça: Bayern steigt aus dem Rennen aus",
+      "excerpt": "Der FC Bayern zieht sich aus dem Transferpoker um Anthony Gordon zurück. Laut Fabrizio Romano könnte der Engländer nun zu FC Barcelona wechseln.",
+      "body": "Der FC Bayern München wird sich nicht am Wechsel von Anthony Gordon beteiligen. Wie Transfer-Experte Fabrizio Romano berichtet und Bavarian Football Works aufgreift, haben die Münchner entschieden, den Newcastle-United-Angreifer nicht zu verpflichten – trotz grundsätzlichem Interesse an dem Spieler.\n\nLaut Romano deutet der Transfer nun klar in Richtung FC Barcelona. Die Katalanen könnten Gordon für eine Festvergütung von mindestens 70 Millionen Euro zuzüglich möglicher Bonuszahlungen verpflichten. Damit liegt das Gesamtvolumen des Deals potenziell über jenem Betrag, den Bayern bereit gewesen wäre zu investieren.\n\nAls entscheidenden Faktor für den Bayern-Rückzug nennt Bavarian Football Works die bereits stark besetzte Angriffsreihe der Münchner. Mit Harry Kane als gesetzter Sturmspitze sowie Michael Olise und Jamal Musiala als Flügelstürmer verfügen die Bayern unter Trainer Vincent Kompany über ein eingespieltes Offensivtrio. Ein weiterer hochpreisiger Angreifer hätte die Kaderhierarchie erheblich durcheinandergebracht – und die finanziellen Mittel für andere Positionen belastet.\n\nBavarian Football Works zufolge prüfen die Verantwortlichen an der Säbener Straße daher kostengünstigere Alternativen im Angriff. Gordons Wechsel zu Barcelona würde den englischen Nationalspieler zudem auf der Insel halten – eine Option, die laut dem Bericht ebenfalls im Raum stand. Newcastle United erhält für einen seiner Leistungsträger dennoch eine Ablöse im zweistelligen Millionenbereich, die dem Verein weiteren finanziellen Spielraum verschafft.\n\nFür Bayern bedeutet der Rückzug keine Schwächung der Offensive, sondern eine bewusste Prioritätensetzung. Ob die frei bleibenden Mittel in die Defensive oder ins Mittelfeld fließen, lässt die Quelle offen. Der Transfer von Gordon zu Barcelona gilt Romano zufolge als weitgehend beschlossene Sache – formale Schritte sollen folgen.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/208175/bayern-munich-exits-race-as-fc-barcelona-could-secure-anthony-gordon-for-as-low-as-e70-million-add-ons",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-27-gordon-poker-fc-barcelona-ueberholt-bayern-im-tran",
       "date": "2026-05-27",
@@ -476,22 +492,6 @@
       "body": "Wie die Süddeutsche Zeitung und NTV berichten, ist Bayern-Profi Jamal Musiala bereits seit Februar dieses Jahres ohne Fahrerlaubnis. Grund dafür ist ein Verkehrsunfall, der sich im April 2025 auf der A8 ereignete: Beim Überholen kollidierte der 23-Jährige mit einem anderen Fahrzeug, wodurch zwei Personen leicht verletzt wurden.\n\nInfolge des Unfalls wurde dem Nationalspieler der Führerschein entzogen. Öffentlich bekannt wurde der Vorfall erst jetzt – rund ein Jahr nach dem Ereignis und mehrere Monate nach dem behördlichen Entzug der Fahrerlaubnis.\n\nDer Zeitpunkt der Berichterstattung ist für Musiala ungünstig: Der Offensivspieler steht kurz vor der Fußball-WM in Nordamerika und ist fester Bestandteil des deutschen WM-Kaders. Wie sich der Vorfall auf sein öffentliches Auftreten und mögliche sportrechtliche Konsequenzen auswirkt, ist bislang nicht bekannt.",
       "sourceUrl": "https://www.sueddeutsche.de/sport/musiala-fuehrerschein-unfall-fc-bayern-li.3486720",
       "sourceName": "Süddeutsche Zeitung"
-    },
-    {
-      "slug": "2026-05-20-neuer-vor-dfb-pokalfinale-wadenprobleme-bereiten-s",
-      "date": "2026-05-20",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-20-neuer-vor-dfb-pokalfinale-wadenprobleme-bereiten-s.jpg",
-      "thumbnailAlt": "Neuer vor DFB-Pokalfinale: Wadenprobleme bereiten Sorgen",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuer vor DFB-Pokalfinale: Wadenprobleme bereiten Sorgen",
-      "excerpt": "Manuel Neuer trainierte laut Bild weder am Dienstag noch am Mittwoch mit dem Team – sein Einsatz im Pokalfinale gegen den VfB Stuttgart ist fraglich.",
-      "body": "Laut Bavarian Football Works, die sich auf einen Bericht der Bild beziehen, fehlte Manuel Neuer dem FC Bayern in dieser Woche gleich an zwei aufeinanderfolgenden Trainingstagen. Grund ist ein anhaltender Wadenprobleme, der den Einsatz des Torhüters im DFB-Pokalfinale gegen den VfB Stuttgart am Samstag in Frage stellt.\n\nDamit könnte Sven Ulreich im Endspiel zwischen den Pfosten stehen. Der erfahrene Ersatztorhüter wäre im Falle eines Neuer-Ausfalls die erste Wahl von Trainer Vincent Kompany. Offiziell hat sich der FC Bayern zu Neuers Zustand bislang nicht geäußert.\n\nDer Zeitpunkt ist für den Rekordmeister denkbar ungünstig: Das DFB-Pokalfinale ist das letzte Pflichtspiel der Saison — und mit dem Doppel aus Bundesliga und Pokal könnte der FCB die Spielzeit mit zwei Titeln abschließen. Ob Neuer rechtzeitig fit wird, dürfte sich erst kurz vor dem Anpfiff entscheiden.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-dfb-pokal/205038/bayern-munich-star-manuel-neuers-status-in-doubt-for-dfb-pokal",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
