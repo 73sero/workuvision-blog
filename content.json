@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-27T19:15:13+00:00",
+  "lastUpdated": "2026-05-27T21:18:55+00:00",
   "tiktokStats": {
-    "followers": 1417,
+    "followers": 1418,
     "likes": "29K",
     "videos": 65
   },
   "ticker": [
+    "Gordon-Wechsel: Barcelona schlägt Bayern bei Newcastle aus",
     "Gordon-Wechsel zu Barça: Bayern steigt aus dem Rennen aus",
     "Gordon-Poker: FC Barcelona überholt Bayern im Transferrennen",
     "Davies zur WM bestätigt – Einigung zwischen Bayern und Kanada",
     "Hoeneß und Rummenigge üben Kritik an Sportvorstand Eberl",
-    "Laimer-Verlängerung beim FCB: Einigung rückt näher",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-27-gordon-wechsel-barcelona-schlaegt-bayern-bei-newca",
+      "date": "2026-05-27",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-27-gordon-wechsel-barcelona-schlaegt-bayern-bei-newca.webp",
+      "thumbnailAlt": "Gordon-Wechsel: Barcelona schlägt Bayern bei Newcastle aus",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Gordon-Wechsel: Barcelona schlägt Bayern bei Newcastle aus",
+      "excerpt": "Der FC Bayern scheitert im Werben um Anthony Gordon: Barcelona sichert sich den Engländer für rund 69 Millionen Pfund – das Münchner Angebot reichte nicht.",
+      "body": "Der Transferpoker um Anthony Gordon hat eine klare Entscheidung gebracht – und die fällt nicht zugunsten des FC Bayern aus. Wie Bavarian Football Works unter Berufung auf den Chronicle-Live-Reporter Lee Ryder berichtet, hat Newcastle United nach einem langen Verhandlungstag mit dem FC Barcelona eine Einigung über einen Wechsel des englischen Außenstürmers erzielt. Die vereinbarte Ablösesumme beläuft sich demnach auf 69,3 Millionen Pfund.\n\nDie Münchner hatten dem Bericht zufolge ebenfalls ein finales Angebot eingereicht, konnten damit jedoch nicht mit dem Vorschlag der Katalanen mithalten. Bayern habe schlicht das Nachsehen gehabt, heißt es – das Angebot aus München fiel deutlich geringer aus als jenes Barcelonas.\n\nParallel dazu berichtete Transfer-Experte Fabrizio Romano über den Stand der Verhandlungen. Laut Romano war Barcelona entschlossen, den Deal noch in dieser Woche abzuschließen, und zeigte sich gegenüber einem Abschluss mit Gordon und Newcastle zuversichtlich. Grundlage bildete ein Gesamtpaket von rund 80 Millionen Euro – ein Wert, der die Münchner Offerte offenkundig übertraf.\n\nFür den FCB ist das ein empfindlicher Rückschlag auf dem Transfermarkt. Gordon galt als Wunschlösung für die Außenbahn, nachdem die Bayern in der Kaderplanung für die Saison 2025/26 auf Breite und Qualität im Angriff setzen wollten. Mit Michael Olise, Jamal Musiala, Kingsley Coman und Luis Díaz verfügt Trainer Vincent Kompany zwar über namhafte Optionen auf den Flügeln, doch die Klub-Führung hatte offenbar weiteren Bedarf gesehen.\n\nDass nun ausgerechnet Barcelona, das finanziell zuletzt unter erheblichem Druck stand, das Rennen macht, dürfte in München für Gesprächsstoff sorgen. Die Münchner müssen ihre Transferplanung nun anpassen und andere Lösungen für eine mögliche Verstärkung der Offensivreihen suchen.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/208297/bayern-munich-submitted-final-bid-on-anthony-gordon-but-it-wasnt-enough",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-27-gordon-wechsel-zu-bar-a-bayern-steigt-aus-dem-renn",
       "date": "2026-05-27",
@@ -476,22 +492,6 @@
       "body": "Laut einem Bericht von Sport1, den Bavarian Football Works aufgreift, wird der FC Bayern München Canada Soccer nicht das letzte Wort darüber lassen, ob Alphonso Davies an der Weltmeisterschaft teilnimmt. Die Münchner behalten sich vor, eine eigene Entscheidung zu treffen – abhängig davon, ob sie mit der Behandlung ihres Spielers zufrieden sind.\n\nHintergrund ist die als katastrophal beschriebene Fehldiagnose eines Kreuzbandrisses bei Davies im März 2025. Der Vorfall hat das Verhältnis zwischen dem Rekordmeister und dem kanadischen Fußballverband offenbar nachhaltig belastet. Bayern sieht darin offenbar einen ausreichenden Grund, die Hoheit über die Entscheidung zur WM-Nominierung für sich zu beanspruchen.\n\nDer Fall verdeutlicht die wachsende Spannung zwischen Vereinen und Nationalverbänden im dichten Turnierkalender. Für Davies, der nach seiner schweren Verletzung gerade auf die Rückkehr hinarbeitet, hängt die WM-Teilnahme damit nicht allein von sportlichen, sondern auch von medizinischen und diplomatischen Faktoren ab.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-injuries/204315/bayern-munich-will-not-allow-canada-soccer-to-decide-if-alphonso-davies-goes-to-the-world-cup",
       "sourceName": "Sport1 (via Bavarian Football Works)"
-    },
-    {
-      "slug": "2026-05-20-musiala-seit-februar-ohne-fuehrerschein-nach-unfal",
-      "date": "2026-05-20",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-20-musiala-seit-februar-ohne-fuehrerschein-nach-unfal.jpg",
-      "thumbnailAlt": "Musiala seit Februar ohne Führerschein nach Unfall",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Musiala seit Februar ohne Führerschein nach Unfall",
-      "excerpt": "Jamal Musiala verlor nach einem Verkehrsunfall im April 2025 seinen Führerschein. Zwei Menschen wurden dabei leicht verletzt.",
-      "body": "Wie die Süddeutsche Zeitung und NTV berichten, ist Bayern-Profi Jamal Musiala bereits seit Februar dieses Jahres ohne Fahrerlaubnis. Grund dafür ist ein Verkehrsunfall, der sich im April 2025 auf der A8 ereignete: Beim Überholen kollidierte der 23-Jährige mit einem anderen Fahrzeug, wodurch zwei Personen leicht verletzt wurden.\n\nInfolge des Unfalls wurde dem Nationalspieler der Führerschein entzogen. Öffentlich bekannt wurde der Vorfall erst jetzt – rund ein Jahr nach dem Ereignis und mehrere Monate nach dem behördlichen Entzug der Fahrerlaubnis.\n\nDer Zeitpunkt der Berichterstattung ist für Musiala ungünstig: Der Offensivspieler steht kurz vor der Fußball-WM in Nordamerika und ist fester Bestandteil des deutschen WM-Kaders. Wie sich der Vorfall auf sein öffentliches Auftreten und mögliche sportrechtliche Konsequenzen auswirkt, ist bislang nicht bekannt.",
-      "sourceUrl": "https://www.sueddeutsche.de/sport/musiala-fuehrerschein-unfall-fc-bayern-li.3486720",
-      "sourceName": "Süddeutsche Zeitung"
     }
   ],
   "tiktokVideosAuto": false,
