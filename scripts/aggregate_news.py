@@ -850,7 +850,7 @@ def download_and_optimize_image(image_url, slug, target_dir):
     Gibt den lokalen Pfad zurück (relativ zum Repo) oder None bei Fehlern."""
     if not image_url or not PILLOW_AVAILABLE:
         return None
-    target_path = target_dir / f"{slug}.jpg"
+    target_path = target_dir / f"{slug}.webp"
     try:
         req = urllib.request.Request(image_url, headers={
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) "
@@ -922,12 +922,13 @@ def download_and_optimize_image(image_url, slug, target_dir):
                 top = (new_h - target_h) // 2
                 img = img.crop((0, top, target_w, top + target_h))
 
-        # Speichern: hohe Qualität, progressive für besseres Streaming
+        # Speichern: WebP lossy quality=82 ≈ JPEG quality 88 visuell, aber ~40% kleiner.
+        # method=6 = bester Kompressor, langsamer aber im 3×-täglich-Workflow egal.
         target_dir.mkdir(parents=True, exist_ok=True)
-        img.save(target_path, "JPEG", quality=88, optimize=True, progressive=True)
+        img.save(target_path, "WEBP", quality=82, method=6)
         size_kb = target_path.stat().st_size / 1024
         print(f"     ✓ {target_path.name} {img.size[0]}x{img.size[1]} ({size_kb:.0f}KB)")
-        return f"img/articles/{slug}.jpg"
+        return f"img/articles/{slug}.webp"
     except Exception as e:
         print(f"     Bild-Download fehlgeschlagen ({image_url[:60]}): {e}")
         return None
@@ -1054,12 +1055,13 @@ def validate_article(post):
     if re.search(r"(?:^|[\.\!\?]\s+)(Honestly|Anyway|Look|Listen|Frankly)", full_text):
         problems.append("Englischer Ausruf am Satzanfang")
 
-    # 5. Body zu kurz/lang
+    # 5. Body zu kurz/lang — Google's NewsArticle Quality-Signal liegt bei 300+ Wörtern,
+    #    deshalb Minimum 250 (kleine Toleranz für sehr knappe Quellen).
     body_words = len((post.get("body") or "").split())
-    if body_words < 80:
-        problems.append(f"Body zu kurz ({body_words} Wörter, Minimum 80)")
-    if body_words > 350:
-        problems.append(f"Body zu lang ({body_words} Wörter, Maximum 350)")
+    if body_words < 250:
+        problems.append(f"Body zu kurz ({body_words} Wörter, Minimum 250)")
+    if body_words > 480:
+        problems.append(f"Body zu lang ({body_words} Wörter, Maximum 480)")
 
     # 6. Pflichtfelder
     if not post.get("title"):
@@ -1109,7 +1111,9 @@ Deine Aufgabe: aus einer oder mehreren RSS-Quellen einen sauberen, knappen, jour
 - Seriöser Journalismus mit Fan-Perspektive (vergleichbar mit kicker.de oder Süddeutscher Sportteil), KEIN Boulevard.
 - Klare deutsche Sätze. Keine Anglizismen, keine Umgangssprache, keine Füllwörter.
 - Keine eigene Meinung im Body — die Quelle wird sachlich wiedergegeben. Eine kleine Einordnung am Ende ist erlaubt.
-- Maximal 220 Wörter. Drei Absätze.
+- Zielumfang 320–420 Wörter. Vier bis fünf Absätze. Tiefe ist erwünscht — solange jedes Wort durch die Quelle gedeckt ist.
+- Erlaubt zur Tiefenerweiterung (sofern die Quelle es hergibt): Einordnung in die laufende Saison, Bezug zu vorherigen Spielen oder Transfers, kurze taktische Einordnung, konkrete Statistiken aus der Quelle, sachlicher Vergleich mit Konkurrenz.
+- NICHT erlaubt zur Tiefenerweiterung: erfundene Zahlen, Spekulation ohne Beleg, doppelte Wiederholung derselben Aussage, Floskeln, generische Phrasen wie "es bleibt spannend".
 
 —— FAKTEN ——
 Aktueller Bayern-Kader Saison 2025/26 (NUR diese Spieler dürfen erwähnt werden):
@@ -1158,7 +1162,7 @@ Ausschließlich gültiges JSON (kein Markdown drumrum, keine Erklärung). Schema
   "title": "max. 65 Zeichen, sachlich",
   "category": "tactics" | "transfer" | "reaction",
   "excerpt": "ein bis zwei Sätze, max. 200 Zeichen, sachlich",
-  "body": "drei Absätze, getrennt durch \\n\\n",
+  "body": "vier bis fünf Absätze, getrennt durch \\n\\n, Zielumfang 320–420 Wörter",
   "sourceUrl": "URL der Hauptquelle",
   "sourceName": "Name der Hauptquelle, z.B. 'Christian Falk (Bluesky)' oder 'Bavarian Football Works'"
 }}"""
