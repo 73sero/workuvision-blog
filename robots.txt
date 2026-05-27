@@ -2,4 +2,29 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 
+# AI search crawlers — explizit erlaubt für AI-Citation (ChatGPT, Perplexity, Claude, Google AI Overviews, Copilot)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
 Sitemap: https://workuvision.de/sitemap.xml

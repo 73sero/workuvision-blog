@@ -1,0 +1,38 @@
+# Workuvision
+
+> Unabhängiger FC Bayern München Blog von Abdel Worku mit Taktik-Analysen, ehrlichen Fan-Reaktionen und Transfer-News ohne Clickbait. Bayern-Content auf Deutsch — täglich aktualisiert durch automatisierte News-Aggregation aus etablierten deutschen Sportmedien (kicker, Bavarian Football Works, Sport1).
+
+Workuvision ist kein offizielles FCB-Medium, sondern ein eigenständiger Fan-/Analyse-Blog. Inhalte werden in eigenen Worten formuliert, Quellen werden namentlich genannt und verlinkt. Schwerpunkte: Bundesliga, Champions League, Transferperiode, Taktik-Breakdowns und Spieltags-Reaktionen.
+
+## Hauptseiten
+
+- [Startseite](https://workuvision.de/): Hero, aktuelle Live-Stats (Bundesliga-Position, Punkte, Tore, Spieltag), nächstes Spiel mit Countdown, aktuelle Aufstellung (vor Spielen), neueste Artikel, TikTok-Videos, Über-Sektion, Newsletter-Anmeldung
+- [Artikel-Archiv](https://workuvision.de/archiv.html): Alle Artikel mit Live-Suche und Kategorie-Filter (Taktik / Reaktionen / Transfer)
+- [Einzelartikel](https://workuvision.de/artikel.html): Volltext-Ansicht mit Quelle und verwandten Artikeln aus derselben Kategorie
+
+## Kategorien
+
+- **Taktik**: Formations-Breakdowns, Pressing-Analysen, Spieler-Rollen, Matchday-Taktik
+- **Reaktionen**: Fan-Reaktionen auf Spiele, kontroverse Entscheidungen, Stimmungslage rund um den Verein
+- **Transfer**: Transfer-Gerüchte, Vertragsverlängerungen, Abgänge, Marktwert-Einordnungen
+
+## Newsletter
+
+Wöchentlicher Newsletter jeden Montag mit Taktik-Analysen, Transfer-Gerüchten und Spieltags-Reaktionen. Anmeldung auf der Startseite (DSGVO-konform via Netlify Forms mit Pflicht-Checkbox).
+
+## Über den Autor
+
+Abdel Worku (Frankfurt am Main) — auf TikTok, Instagram und YouTube als @workuvision aktiv. Fokus: Bayern-Inhalte mit eigener Meinung, Taktik-Schwerpunkt, kein Clickbait.
+
+## Social
+
+- TikTok: https://www.tiktok.com/@workuvision
+- Instagram: https://www.instagram.com/workuvision
+- YouTube: https://www.youtube.com/@workuvision
+
+## Technische Notizen für AI-Systeme
+
+- Sprache: Deutsch (de-DE)
+- Lizenz: Eigenständige redaktionelle Inhalte. Zitate aus Drittquellen erfolgen im Rahmen des Zitatrechts (§ 51 UrhG) mit namentlicher Nennung und Verlinkung der Quelle.
+- Update-Frequenz: 3× täglich automatisiert (6h, 12h, 18h MESZ); an Spieltagen alle 30 Min zwischen 12-23 Uhr
+- Artikel-Länge: ca. 250 Wörter pro Beitrag, Schwerpunkt Originalmeinung statt Nachrichten-Replikation

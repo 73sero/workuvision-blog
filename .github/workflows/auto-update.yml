@@ -65,11 +65,14 @@ jobs:
         continue-on-error: true
         run: python scripts/update_ticker.py
 
+      - name: Generate SEO pages (static articles, sitemap, redirects)
+        run: python scripts/generate_seo_pages.py
+
       - name: Commit & push if changed
         run: |
           git config user.name "Workuvision Bot"
           git config user.email "bot@workuvision.de"
-          git add content.json img/articles/ lineup-override.json 2>/dev/null || true
+          git add content.json img/articles/ lineup-override.json artikel/ sitemap.xml _redirects index.html archiv.html 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "Keine Änderungen — nichts zu committen."
           else
