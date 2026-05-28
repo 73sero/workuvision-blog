@@ -222,9 +222,6 @@
       <h2 style="font-family:'Oswald',sans-serif;letter-spacing:2px;text-transform:uppercase;margin-bottom:1.5rem;font-size:1.4rem">Aktuelle Artikel</h2>
       <ul style="list-style:none;padding:0;line-height:1.6">
         <li style="margin-bottom:.6rem"><a href="/artikel/2026-05-27-gordon-deal-geplatzt-fc-barcelona-schnappt-bayern.html" style="color:inherit"><strong style="color:var(--red)">Gerüchteküche</strong> · 27. Mai 2026 — Gordon-Deal geplatzt: FC Barcelona schnappt Bayern den Engländer weg</a></li>
-        <li style="margin-bottom:.6rem"><a href="/artikel/2026-05-27-gordon-wechsel-barcelona-schlaegt-bayern-bei-newca.html" style="color:inherit"><strong style="color:var(--red)">Gerüchteküche</strong> · 27. Mai 2026 — Gordon-Wechsel: Barcelona schlägt Bayern bei Newcastle aus</a></li>
-        <li style="margin-bottom:.6rem"><a href="/artikel/2026-05-27-gordon-wechsel-zu-bar-a-bayern-steigt-aus-dem-renn.html" style="color:inherit"><strong style="color:var(--red)">Gerüchteküche</strong> · 27. Mai 2026 — Gordon-Wechsel zu Barça: Bayern steigt aus dem Rennen aus</a></li>
-        <li style="margin-bottom:.6rem"><a href="/artikel/2026-05-27-gordon-poker-fc-barcelona-ueberholt-bayern-im-tran.html" style="color:inherit"><strong style="color:var(--red)">Gerüchteküche</strong> · 27. Mai 2026 — Gordon-Poker: FC Barcelona überholt Bayern im Transferrennen</a></li>
         <li style="margin-bottom:.6rem"><a href="/artikel/2026-05-27-davies-zur-wm-bestaetigt-einigung-zwischen-bayern.html" style="color:inherit"><strong style="color:var(--red)">Reaktion</strong> · 27. Mai 2026 — Davies zur WM bestätigt – Einigung zwischen Bayern und Kanada</a></li>
         <li style="margin-bottom:.6rem"><a href="/artikel/2026-05-27-hoeness-und-rummenigge-ueben-kritik-an-sportvorsta.html" style="color:inherit"><strong style="color:var(--red)">Reaktion</strong> · 27. Mai 2026 — Hoeneß und Rummenigge üben Kritik an Sportvorstand Eberl</a></li>
         <li style="margin-bottom:.6rem"><a href="/artikel/2026-05-26-laimer-verlaengerung-beim-fcb-einigung-rueckt-naeh.html" style="color:inherit"><strong style="color:var(--red)">Gerüchteküche</strong> · 26. Mai 2026 — Laimer-Verlängerung beim FCB: Einigung rückt näher</a></li>
@@ -484,10 +481,17 @@
     // damit die Stats-Card immer das wirklich nächste Spiel zeigt,
     // egal ob Bundesliga, Champions League, DFB-Pokal oder CWC
     const ALL_COMPS = [
-      { code: 'bl1',    season: 2025, label: 'Bundesliga' },
+      // Saison 2025/26 (aktuell beendet) + 2026/27 (Fixtures erscheinen ~Ende Juni).
+      // Sobald openligadb die neue Saison hat, wird das nächste Spiel automatisch
+      // gefunden — leere Antworten für noch nicht existierende Saisons sind harmlos.
+      { code: 'bl1',     season: 2025, label: 'Bundesliga' },
       { code: 'ucl',     season: 2025, label: 'Champions League' },
-      { code: 'ucl2025',season: 2025, label: 'Champions League' },
-      { code: 'dfb',    season: 2025, label: 'DFB-Pokal' },
+      { code: 'ucl2025', season: 2025, label: 'Champions League' },
+      { code: 'dfb',     season: 2025, label: 'DFB-Pokal' },
+      { code: 'bl1',     season: 2026, label: 'Bundesliga' },
+      { code: 'ucl',     season: 2026, label: 'Champions League' },
+      { code: 'ucl2026', season: 2026, label: 'Champions League' },
+      { code: 'dfb',     season: 2026, label: 'DFB-Pokal' },
     ];
 
     function setText(id, val) { const el = document.getElementById(id); if (el) el.textContent = val; }
@@ -640,6 +644,21 @@
         if (matchInfoLabel) {
           const lbl = matchInfoLabel.firstChild;
           if (lbl && lbl.nodeType === 3) lbl.nodeValue = 'Letztes Spiel ';
+        }
+      } else if (mode === 'finished') {
+        // Saison vorbei — kein kommendes Spiel im Spielplan (neue Saison noch nicht
+        // veröffentlicht). Letztes Resultat als HISTORISCHEN Endstand zeigen,
+        // NICHT als "nächstes Spiel". Countdown ausblenden.
+        const r = (match.matchResults || []).find(x => x.resultName === 'Endergebnis') || (match.matchResults || [])[0];
+        const team1Score = r ? r.pointsTeam1 : 0;
+        const team2Score = r ? r.pointsTeam2 : 0;
+        setText('next-match-opponent', `${team1Score}:${team2Score} ${isHome ? 'vs' : 'bei'} ${opName}`);
+        setText('next-match-date', 'Saison beendet');
+        const cdWrap = document.getElementById('countdown-wrap');
+        if (cdWrap) cdWrap.style.display = 'none';
+        if (matchInfoLabel) {
+          const lbl = matchInfoLabel.firstChild;
+          if (lbl && lbl.nodeType === 3) lbl.nodeValue = 'Saisonfinale ';
         }
       } else {
         // Upcoming: Datum + Countdown + Wettbewerb-Label

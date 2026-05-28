@@ -24,7 +24,7 @@ import re
 import sys
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import feedparser
@@ -1197,6 +1197,20 @@ def write_with_claude(items, recent_articles, problems_from_previous=None):
                             f"Christian Falk/Fabrizio Romano (Insider-Transfers), "
                             f"oder kicker/Spiegel/SZ (klassischer Sport-Journalismus).")
 
+    # Themen-Cooldown: Subjekte der letzten 2 Tage sammeln, damit Claude proaktiv
+    # ein ANDERES Thema wählt statt eine paraphrasierte Wiederholung zu schreiben
+    # (die der Subjekt-Dedup-Check ohnehin verwerfen würde).
+    cutoff_2d = (datetime.now(timezone.utc) - timedelta(days=2)).strftime("%Y-%m-%d")
+    covered_subjects = set()
+    for a in recent_articles:
+        if a.get("date", "") >= cutoff_2d:
+            covered_subjects.update(extract_subjects(a.get("title", ""), a.get("body", "")))
+    subjects_hint = ""
+    if covered_subjects:
+        subjects_hint = (f"\n\nBEREITS ABGEDECKT (letzte 2 Tage) — wähle ein ANDERES Subjekt, "
+                         f"KEINE neue Variante zu denselben Personen/Themen: "
+                         f"{', '.join(sorted(covered_subjects))}.")
+
     user = f"""Letzte Artikel auf Workuvision (NICHT wiederholen):
 {recent_titles}
 
@@ -1204,7 +1218,7 @@ Aktuelle Bayern-News-Vorschläge (wähle EINE Story aus):
 {items_str}
 
 Wähle die spannendste Story, die nicht zu nah an den letzten Artikeln liegt.
-Schreibe einen Artikel im Workuvision-Stil. Reines JSON zurück.{sources_hint}"""
+Schreibe einen Artikel im Workuvision-Stil. Reines JSON zurück.{sources_hint}{subjects_hint}"""
 
     if problems_from_previous:
         user += f"\n\n— HINWEIS — Beim letzten Versuch traten diese Probleme auf:\n"
@@ -1333,6 +1347,33 @@ def main():
                     print(f"     Gemeinsam:  {new_kws & ex_kws}")
                     print(f"  → Artikel verworfen.")
                     sys.exit(0)
+
+    # === SUBJEKT-DUBLETTEN-CHECK ===
+    # Fängt paraphrasierte Wiederholungen ab, die URL- und Titel-Jaccard-Dedup
+    # durchrutschen: dieselbe Person/dasselbe Thema, andere Quell-URL, anders
+    # formulierter Titel (z.B. 4× "Gordon → Barcelona" an einem Tag). Regel:
+    # gemeinsames erkanntes Subjekt + gleiche Kategorie + Artikel der letzten
+    # 2 Tage → als Themen-Wiederholung verworfen. extract_subjects() liefert nur
+    # bekannte Spieler/Personen, generische Artikel ohne Subjekt sind nicht betroffen.
+    new_subjects = set(extract_subjects(title, new_post.get("body", "")))
+    if new_subjects:
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=2)).strftime("%Y-%m-%d")
+        for existing in articles[:12]:
+            if existing.get("category") != cat:
+                continue
+            if existing.get("date", "") < cutoff:
+                continue
+            ex_subjects = set(extract_subjects(
+                existing.get("title", ""), existing.get("body", "")
+            ))
+            shared = new_subjects & ex_subjects
+            if shared:
+                print(f"  ⚠️  Themen-Dublette: Subjekt {shared} in gleicher Kategorie "
+                      f"({cat}) der letzten 2 Tage bereits behandelt:")
+                print(f"     Neu:        '{title}'")
+                print(f"     Existiert:  '{existing.get('title','')}' ({existing.get('date')})")
+                print(f"  → Artikel verworfen.")
+                sys.exit(0)
 
     # Bild-Auswahl:
     # 1) Versuche, das Bild aus dem RSS-Item zu laden, das Claude als Quelle gewählt hat
