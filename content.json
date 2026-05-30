@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-30T11:14:30+00:00",
+  "lastUpdated": "2026-05-30T12:45:21+00:00",
   "tiktokStats": {
     "followers": 1420,
     "likes": "29K",
     "videos": 66
   },
   "ticker": [
+    "Lennart Karl startet für Deutschland gegen Finnland",
     "Vlahović wieder im Gespräch: Bayern auf Stürmersuche",
     "Gordon-Deal geplatzt: FC Barcelona schnappt Bayern den Engländer weg",
     "Davies zur WM bestätigt – Einigung zwischen Bayern und Kanada",
     "Hoeneß und Rummenigge üben Kritik an Sportvorstand Eberl",
-    "Laimer-Verlängerung beim FCB: Einigung rückt näher",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-30-lennart-karl-startet-fuer-deutschland-gegen-finnla",
+      "date": "2026-05-30",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-30-lennart-karl-startet-fuer-deutschland-gegen-finnla.webp",
+      "thumbnailAlt": "Lennart Karl startet für Deutschland gegen Finnland",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Lennart Karl startet für Deutschland gegen Finnland",
+      "excerpt": "Bayern-Keeper Lennart Karl erhält im WM-Vorbereitungsspiel gegen Finnland sein Startelf-Debüt für die deutsche Nationalmannschaft.",
+      "body": "Der FC Bayern darf sich über eine besondere Auszeichnung für seinen jungen Torhüter freuen: Lennart Karl wird im WM-Testspiel der deutschen Nationalmannschaft gegen Finnland von Beginn an zwischen den Pfosten stehen. Das berichtet Bavarian Football Works unter Berufung auf den Bundestrainer, der Karl ausdrücklich lobte: Der 19-Jährige habe im Trainingslager einen sehr guten Eindruck hinterlassen und verdiene sich diesen Einsatz.\n\nFür Karl ist es eine bedeutende Chance, sich auf internationalem Parkett zu empfehlen. Der junge Torhüter gehört seit dieser Saison fest zum Profikader des FC Bayern und wurde zuletzt auch in das deutsche WM-Aufgebot berufen — eine Entwicklung, die seinen rasanten Aufstieg unterstreicht. Laut Bavarian Football Works gilt das Länderspiel gegen Finnland als Generalprobe für das bevorstehende Turnier in den USA.\n\nDer Bundestrainer muss in dieser Partie auf Manuel Neuer verzichten. Neuer, der mit einer Wadenverletzung in das Trainingslager gereist war, steht nicht zur Verfügung, wie Sport1 auf Bluesky meldet. Damit rückt Karl in die Rolle des Stammkeepers für diesen Testkick — eine Konstellation, die dem Youngster wertvolle Spielminuten auf höchstem Niveau beschert, bevor der WM-Ernst beginnt.\n\nKarl ist damit einer von drei Bayern-Keepern im deutschen WM-Aufgebot. Neben Neuer gehört auch Jonas Urbig zum Kader des Bundestrainers — Urbig hatte zuletzt im DFB-Pokalfinale gegen den VfB Stuttgart vertreten und sich dabei solide präsentiert. Die Konkurrenz zwischen den drei Münchner Torhütern um Einsatzzeiten bei der Nationalmannschaft verleiht dem Testspiel gegen Finnland zusätzliche Brisanz.\n\nFür den FC Bayern ist Karls Nominierung zum Starter ein weiteres Signal dafür, dass die Nachwuchsarbeit des Klubs Früchte trägt. Ein Youngster, der in einer WM-Vorbereitung das Vertrauen des Bundestrainers gewinnt, sendet eine klare Botschaft — sowohl in Richtung des Turniers als auch in Richtung der internen Hierarchie beim deutschen Rekordmeister.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/germany-international-soccer/209426/bayern-munich-lennart-karl-to-start-for-germany-vs-finland",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-30-vlahovi-wieder-im-gespraech-bayern-auf-stuermersuc",
       "date": "2026-05-30",
