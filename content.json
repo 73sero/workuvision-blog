@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-30T19:15:01+00:00",
+  "lastUpdated": "2026-05-30T20:32:54+00:00",
   "tiktokStats": {
     "followers": 1421,
     "likes": "29K",
     "videos": 67
   },
   "ticker": [
+    "Müller sieht Olise vor Kane im Ballon-d'Or-Rennen",
     "Konaté ablösefrei: Bayern prüft erneut Interesse an Liverpool-Verteidiger",
     "Lennart Karl startet für Deutschland gegen Finnland",
     "Vlahović wieder im Gespräch: Bayern auf Stürmersuche",
     "Gordon-Deal geplatzt: FC Barcelona schnappt Bayern den Engländer weg",
-    "Davies zur WM bestätigt – Einigung zwischen Bayern und Kanada",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-30-mueller-sieht-olise-vor-kane-im-ballon-d-or-rennen",
+      "date": "2026-05-30",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-05-30-mueller-sieht-olise-vor-kane-im-ballon-d-or-rennen.webp",
+      "thumbnailAlt": "Müller sieht Olise vor Kane im Ballon-d'Or-Rennen",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Müller sieht Olise vor Kane im Ballon-d'Or-Rennen",
+      "excerpt": "Ex-Bayern-Profi Thomas Müller hält Michael Olise für den aussichtsreicheren Kandidaten auf den Ballon d'Or – noch vor Harry Kane.",
+      "body": "Nach einem historisch erfolgreichen Jahr für den FC Bayern mit dem Double aus Meisterschaft und DFB-Pokal werden gleich zwei Münchner als ernsthafte Anwärter auf den Ballon d'Or gehandelt. Laut Bavarian Football Works hat sich nun Bayern-Legende Thomas Müller in dieser Debatte positioniert – und überrascht dabei mit einer klaren Einschätzung.\n\nIn einem Auftritt im Bayern-Insider-Podcast erklärte Müller, warum er Michael Olise im Ballon-d'Or-Rennen aktuell vor Harry Kane einordnet. Beide Spieler gehörten in dieser Saison zu den besten Fußballern der Welt und seien jeweils an ihrer Position kaum zu übertreffen, so Müller. Dennoch sehe er beim Franzosen derzeit leichte Vorteile gegenüber dem englischen Torjäger.\n\nOlise absolvierte für die Bayern eine außergewöhnliche Saison und überzeugte nicht nur durch Tore, sondern auch durch seine Vielseitigkeit im Offensivspiel. Müller betonte laut Bavarian Football Works, dass beide Akteure unter den fünf besten Spielern weltweit einzuordnen seien – eine Aussage, die den Stellenwert des FC Bayern in der internationalen Fußballlandschaft unterstreicht. Die Entscheidung zwischen den beiden sei äußerst eng, was die sportliche Qualität des Münchner Kaders eindrücklich belegt.\n\nFür Kane war die abgelaufene Spielzeit ebenfalls überragend: Der englische Nationalstürmer krönte sie mit einem Hattrick im DFB-Pokalfinale gegen den VfB Stuttgart. Dass Müller nun Olise knapp vorne sieht, dürfte vor allem auf die Breite und Konstanz von Olises Leistungen über die gesamte Saison zurückzuführen sein – ein Aspekt, der bei der Vergabe des Ballon d'Or traditionell stark gewichtet wird.\n\nDie Vergabe des Ballon d'Or findet üblicherweise im Herbst statt, sodass auch die WM-Leistungen der beiden Spieler noch in die Bewertung einfließen könnten. Für den FC Bayern wäre eine Auszeichnung – egal welchen der beiden Angreifer sie am Ende trifft – ein weiterer Beleg für die Dominanz des Klubs in der Saison 2025/26.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-alumni/209013/bayern-munich-legend-thomas-muller-says-michael-olise-is-ahead-of-harry-kane-in-the-ballon-dor-race",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-30-konat-abloesefrei-bayern-prueft-erneut-interesse-a",
       "date": "2026-05-30",
@@ -476,22 +492,6 @@
       "body": "Der FC Bayern muss im DFB-Pokalfinale am Samstag gegen den VfB Stuttgart auf Manuel Neuer verzichten. Wie die Süddeutsche Zeitung berichtet, plagen den Kapitän weiterhin muskuläre Probleme in der Wade. Neuer selbst möchte im Hinblick auf die WM kein Risiko eingehen – die DFB-Vorbereitung beginnt bereits am kommenden Mittwoch.\n\nFür Neuer rückt Jonas Urbig zwischen die Pfosten. Der 22-Jährige hatte zuletzt durch die Vertragsverlängerungen von Neuer und Sven Ulreich bereits Gewissheit über seine Rolle als dritter Torwart erhalten – nun bekommt er im wichtigsten Vereinsspiel der Saison seine Chance. Auch der kicker bestätigte, dass die Bayern inzwischen Gewissheit über den Ausfall ihres Stammkeepers haben.\n\nFür den Rekordmeister ist es die nächste Herausforderung in einem ohnehin unruhigen Umfeld rund um die Torwartfrage. Im Pokalfinale treffen die Münchner auf einen VfB Stuttgart, der in der bisherigen Pokalhistorie gegen Bayern eine Bilanz von einem Sieg bei neun Duellen aufweist. Trotz des Ausfalls von Neuer gelten die Bayern als klarer Favorit.",
       "sourceUrl": "https://www.sueddeutsche.de/sport/fc-bayern-dfb-pokal-finale-manuel-neuer-verletzt-urbig-li.3487598",
       "sourceName": "Süddeutsche Zeitung"
-    },
-    {
-      "slug": "2026-05-22-neuer-karl-und-urbig-drei-bayern-keeper-im-wm-aufg",
-      "date": "2026-05-22",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-22-neuer-karl-und-urbig-drei-bayern-keeper-im-wm-aufg.jpg",
-      "thumbnailAlt": "Neuer, Karl und Urbig: Drei Bayern-Keeper im WM-Aufgebot",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuer, Karl und Urbig: Drei Bayern-Keeper im WM-Aufgebot",
-      "excerpt": "Bundestrainer Nagelsmann nominiert Manuel Neuer als Nummer eins für die WM 2026 – und nimmt gleich drei Bayern-Torhüter mit in die USA.",
-      "body": "Laut Tagesschau Sport hat der DFB-Bundestrainer seinen 26-köpfigen WM-Kader für das Turnier 2026 in den USA präsentiert. Manuel Neuer kehrt dabei als Nummer eins ins Nationaltor zurück – eine Rückkehr, die zuletzt für intensive Diskussionen gesorgt hatte.\n\nNeben Neuer schaffte es auch Lennart Karl in den Kader, wie die Tagesschau berichtet. Zudem reist laut Sport1 Jonas Urbig als dritter Torhüter mit, übernimmt dort jedoch ausschließlich die Rolle als Trainingshüter. Bayern München stellt damit das gesamte Torhüter-Trio des deutschen WM-Aufgebots.\n\nDer kicker bestätigt die Nominierung Neuers ebenfalls und hebt dessen Rückkehr als eine der auffälligsten Personalentscheidungen des Kaders hervor. Für den FCB bedeutet das Aufgebot eine erhebliche personelle Belastung in der Saisonvorbereitung – bis zu vier Spieler könnten die Münchner für das Turnier abgeben.",
-      "sourceUrl": "https://www.sportschau.de/fussball/fifa-wm-2026/nagelsmann-nimmt-neuer-karl-und-sane-mit-zur-wm,kaderbekanntgabe-wm-100.html",
-      "sourceName": "Tagesschau Sport"
     }
   ],
   "tiktokVideosAuto": false,
