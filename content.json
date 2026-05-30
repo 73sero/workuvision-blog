@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-30T15:44:58+00:00",
+  "lastUpdated": "2026-05-30T16:52:31+00:00",
   "tiktokStats": {
     "followers": 1420,
     "likes": "29K",
     "videos": 67
   },
   "ticker": [
+    "Konaté ablösefrei: Bayern prüft erneut Interesse an Liverpool-Verteidiger",
     "Lennart Karl startet für Deutschland gegen Finnland",
     "Vlahović wieder im Gespräch: Bayern auf Stürmersuche",
     "Gordon-Deal geplatzt: FC Barcelona schnappt Bayern den Engländer weg",
     "Davies zur WM bestätigt – Einigung zwischen Bayern und Kanada",
-    "Hoeneß und Rummenigge üben Kritik an Sportvorstand Eberl",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-30-konat-abloesefrei-bayern-prueft-erneut-interesse-a",
+      "date": "2026-05-30",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-05-30-konat-abloesefrei-bayern-prueft-erneut-interesse-a.webp",
+      "thumbnailAlt": "Konaté ablösefrei: Bayern prüft erneut Interesse an Liverpool-Verteidiger",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Konaté ablösefrei: Bayern prüft erneut Interesse an Liverpool-Verteidiger",
+      "excerpt": "Nach überstandenen Upamecano-Verhandlungen rückt Ibrahima Konaté beim FC Bayern offenbar wieder in den Fokus – der Innenverteidiger ist ablösefrei.",
+      "body": "Der FC Bayern hat sein Interesse an Liverpools Innenverteidiger Ibrahima Konaté möglicherweise wieder aufgenommen. Laut Bavarian Football Works war der Franzose bereits im vergangenen Herbst ein Kandidat bei den Münchnern, als die Zukunft von Dayot Upamecano beim Rekordmeister noch ungewiss war. Nachdem die Vertragsverlängerung mit Upamecano schließlich gelang, verschwand Konatés Name zunächst von der Bayern-Agenda.\n\nNun hat sich die Ausgangslage verändert: Konaté läuft zum Saisonende aus seinem Vertrag bei Liverpool aus und wäre damit ablösefrei zu haben. Dieser Umstand macht den 25-Jährigen für potenzielle Abnehmer erheblich attraktiver, da keine Transfergebühr fällig würde. Bavarian Football Works berichtet, dass Bayern die Situation des Verteidigers erneut beobachtet.\n\nIn der Münchner Innenverteidigung stehen mit Upamecano, Min-Jae Kim und Jonathan Tah derzeit drei etablierte Kräfte zur Verfügung. Tah überzeugte in seiner Premierensaison als unumstrittener Stammspieler, wie auch Miasanrot in seiner Saisonbewertung hervorhob. Dennoch erscheint die Frage nach weiterer Qualität und Kadertiefe in der Defensive berechtigt, zumal eine intensive Saison mit Bundesliga, DFB-Pokal und Champions League erhebliche Belastungen mit sich bringt.\n\nKonaté gilt als physisch starker, zweikampfbetonter Innenverteidiger, der bei Liverpool in der Premier League regelmäßig auf hohem Niveau agierte. Eine ablösefreie Verpflichtung würde den Bayern finanziellen Spielraum für andere Transfers erhalten – ein Aspekt, der bei der Transferplanung des Klubs traditionell eine Rolle spielt.\n\nOb aus dem erneuerten Interesse tatsächlich konkrete Verhandlungen entstehen, lässt Bavarian Football Works offen. Angesichts der ablösefreien Verfügbarkeit Konatés dürfte der FC Bayern jedoch nicht der einzige europäische Spitzenklub sein, der den Franzosen auf dem Zettel hat. Die kommenden Wochen werden zeigen, ob München in diesem Poker ernsthaft mitbietet.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/208880/is-bayern-munich-back-in-on-ibrahima-konate",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-30-lennart-karl-startet-fuer-deutschland-gegen-finnla",
       "date": "2026-05-30",
