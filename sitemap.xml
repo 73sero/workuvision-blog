@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://workuvision.de/</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://workuvision.de/archiv.html</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://workuvision.de/artikel/2026-05-31-bayerns-sommervorbereitung-trainingsstart-am-20-ju.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://workuvision.de/artikel/2026-05-30-mueller-sieht-olise-vor-kane-im-ballon-d-or-rennen.html</loc>
@@ -182,12 +188,6 @@
   </url>
   <url>
     <loc>https://workuvision.de/artikel/2026-05-22-neuer-faellt-aus-bayern-im-pokalfinale-ohne-stammk.html</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://workuvision.de/artikel/2026-05-22-neuer-fehlt-im-pokalfinale-urbig-uebernimmt-gegen.html</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

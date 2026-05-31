@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-05-30T21:53:48+00:00",
+  "lastUpdated": "2026-05-31T07:38:47+00:00",
   "tiktokStats": {
     "followers": 1422,
     "likes": "29K",
     "videos": 67
   },
   "ticker": [
+    "Bayerns Sommervorbereitung: Trainingsstart am 20. Juli",
     "Müller sieht Olise vor Kane im Ballon-d'Or-Rennen",
     "Konaté ablösefrei: Bayern prüft erneut Interesse an Liverpool-Verteidiger",
     "Lennart Karl startet für Deutschland gegen Finnland",
     "Vlahović wieder im Gespräch: Bayern auf Stürmersuche",
-    "Gordon-Deal geplatzt: FC Barcelona schnappt Bayern den Engländer weg",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-05-31-bayerns-sommervorbereitung-trainingsstart-am-20-ju",
+      "date": "2026-05-31",
+      "category": "tactics",
+      "badge": "Taktik-Analyse",
+      "badgeColor": "bt",
+      "thumbnail": "img/articles/2026-05-31-bayerns-sommervorbereitung-trainingsstart-am-20-ju.webp",
+      "thumbnailAlt": "Bayerns Sommervorbereitung: Trainingsstart am 20. Juli",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Bayerns Sommervorbereitung: Trainingsstart am 20. Juli",
+      "excerpt": "Der FC Bayern hat seine Sommerpläne für die Vorbereitung auf die Saison 2026/27 bekanntgegeben. Vincent Kompany versammelt seinen Kader erstmals am 20. Juli.",
+      "body": "Knapp eine Woche nach dem Ende der Saison 2025/26 stehen die Sommerpläne des FC Bayern bereits fest. Laut Bavarian Football Works wird Vincent Kompany seine Mannschaft am 20. Juli erstmals zur Trainingseinheit zusammenrufen — einen Tag nach dem WM-Finale. Die Planung zeigt, dass der Rekordmeister trotz des laufenden Turniers keine Zeit verlieren möchte.\n\nFünf Tage nach dem Trainingsauftakt soll das Team laut derselben Quelle zu einer Sommerreise aufbrechen. Details zum genauen Reiseziel oder zu möglichen Testspielen wurden bislang nicht genannt, doch der straffe Zeitplan verdeutlicht, mit welcher Ernsthaftigkeit die Münchner in die neue Spielzeit starten wollen.\n\nDer frühe Beginn der Vorbereitung hat einen praktischen Hintergrund: Mehrere Bayern-Profis werden bei der WM 2026 im Einsatz sein und kehren damit erst kurz vor oder sogar nach dem geplanten Trainingsstart nach München zurück. Alphonso Davies etwa führt das kanadische Aufgebot als Kapitän an, wie der kicker berichtet. Auch Joshua Kimmich bestreitet für Deutschland seine dritte Weltmeisterschaft. Für Kompany bedeutet das, in der Anfangsphase der Vorbereitung mit einem reduzierten Kader zu arbeiten.\n\nDie abgelaufene Saison schloss der FC Bayern mit dem Double ab — Meisterschaft und DFB-Pokal gingen an den Rekordmeister. Der Pokalsieg gegen den VfB Stuttgart war dabei der krönende Abschluss einer erfolgreichen Spielzeit unter Kompany. Nun gilt es, diese Basis in die kommende Saison zu tragen und die Kaderplanung rechtzeitig abzuschließen.\n\nDer frühe Trainingsstart lässt darauf schließen, dass Kompany und die sportliche Führung um Sportvorstand Max Eberl die Vorbereitungszeit so effektiv wie möglich nutzen wollen. Mit dem WM-Finale am 19. Juli als Fixpunkt im Kalender bleibt dem Trainerteam ohnehin wenig Spielraum — die Planung trägt diesem Umstand erkennbar Rechnung.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-friendlies/208961/bayern-munichs-summer-plans-revealed-in-detail",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-05-30-mueller-sieht-olise-vor-kane-im-ballon-d-or-rennen",
       "date": "2026-05-30",
@@ -476,22 +492,6 @@
       "body": "Der FC Bayern muss im DFB-Pokalfinale am Samstag gegen den VfB Stuttgart auf Manuel Neuer verzichten. Wie die ZEIT berichtet, hatte sich der Torhüter im abschließenden Bundesligaspiel eine Wadenverletzung zugezogen. Der kicker bestätigt: Der Rekordmeister hat inzwischen Gewissheit über den Ausfall seines Stammkeepers.\n\nDamit rückt Sven Ulreich ins Tor. Trainer Vincent Kompany lobte laut Sport1 seinen Ersatztorhüter ausdrücklich vor dem Finale, betonte jedoch, der Druck liege nicht auf dessen Schultern. Für Ulreich, der erst kürzlich seinen Vertrag verlängert hatte, ist es ein besonderer Einsatz auf der größten nationalen Bühne.\n\nFür die Bayern kommt der Ausfall zur Unzeit: Das Pokalfinale in Berlin ist der letzte Titelkampf der Saison, und die Münchner gelten trotz des Personalverlusts im Tor als klarer Favorit. Neuer schont sich offenbar auch im Hinblick auf die bevorstehende Weltmeisterschaft — ein Risiko wollte der Keeper nach Medienberichten nicht eingehen.",
       "sourceUrl": "https://www.zeit.de/sport/2026-05/manuel-neuer-ausfall-dfb-pokalfinale-fc-bayern-muenchen",
       "sourceName": "ZEIT Sport / kicker (Bluesky) / Sport1 (Bluesky)"
-    },
-    {
-      "slug": "2026-05-22-neuer-fehlt-im-pokalfinale-urbig-uebernimmt-gegen",
-      "date": "2026-05-22",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-22-neuer-fehlt-im-pokalfinale-urbig-uebernimmt-gegen.jpg",
-      "thumbnailAlt": "Neuer fehlt im Pokalfinale: Urbig übernimmt gegen Stuttgart",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuer fehlt im Pokalfinale: Urbig übernimmt gegen Stuttgart",
-      "excerpt": "Manuel Neuer steht dem FC Bayern im DFB-Pokalfinale gegen den VfB Stuttgart wegen seiner Wadenprobleme nicht zur Verfügung. Jonas Urbig rückt ins Tor.",
-      "body": "Der FC Bayern muss im DFB-Pokalfinale am Samstag gegen den VfB Stuttgart auf Manuel Neuer verzichten. Wie die Süddeutsche Zeitung berichtet, plagen den Kapitän weiterhin muskuläre Probleme in der Wade. Neuer selbst möchte im Hinblick auf die WM kein Risiko eingehen – die DFB-Vorbereitung beginnt bereits am kommenden Mittwoch.\n\nFür Neuer rückt Jonas Urbig zwischen die Pfosten. Der 22-Jährige hatte zuletzt durch die Vertragsverlängerungen von Neuer und Sven Ulreich bereits Gewissheit über seine Rolle als dritter Torwart erhalten – nun bekommt er im wichtigsten Vereinsspiel der Saison seine Chance. Auch der kicker bestätigte, dass die Bayern inzwischen Gewissheit über den Ausfall ihres Stammkeepers haben.\n\nFür den Rekordmeister ist es die nächste Herausforderung in einem ohnehin unruhigen Umfeld rund um die Torwartfrage. Im Pokalfinale treffen die Münchner auf einen VfB Stuttgart, der in der bisherigen Pokalhistorie gegen Bayern eine Bilanz von einem Sieg bei neun Duellen aufweist. Trotz des Ausfalls von Neuer gelten die Bayern als klarer Favorit.",
-      "sourceUrl": "https://www.sueddeutsche.de/sport/fc-bayern-dfb-pokal-finale-manuel-neuer-verletzt-urbig-li.3487598",
-      "sourceName": "Süddeutsche Zeitung"
     }
   ],
   "tiktokVideosAuto": false,
