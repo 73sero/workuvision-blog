@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-01T20:09:55+00:00",
+  "lastUpdated": "2026-06-02T08:20:42+00:00",
   "tiktokStats": {
     "followers": 1436,
     "likes": "30K",
     "videos": 68
   },
   "ticker": [
+    "Bayern auf Linksaußen-Suche: Gordon-Ausfall und mögliche Alternativen",
     "Bayerns Sommervorbereitung: Trainingsstart am 20. Juli",
     "Müller sieht Olise vor Kane im Ballon-d'Or-Rennen",
     "Konaté ablösefrei: Bayern prüft erneut Interesse an Liverpool-Verteidiger",
     "Lennart Karl startet für Deutschland gegen Finnland",
-    "Vlahović wieder im Gespräch: Bayern auf Stürmersuche",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-02-bayern-auf-linksaussen-suche-gordon-ausfall-und-mo",
+      "date": "2026-06-02",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-06-02-bayern-auf-linksaussen-suche-gordon-ausfall-und-mo.webp",
+      "thumbnailAlt": "Bayern auf Linksaußen-Suche: Gordon-Ausfall und mögliche Alternativen",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Bayern auf Linksaußen-Suche: Gordon-Ausfall und mögliche Alternativen",
+      "excerpt": "Anthony Gordon wechselt zum FC Barcelona statt zum FC Bayern. Der Rekordmeister muss seine Suche nach einem Linksaußen neu ausrichten.",
+      "body": "Der FC Bayern steht auf dem Transfermarkt vor einem Rückschlag: Anthony Gordon, zuletzt intensiv mit einem Wechsel nach München in Verbindung gebracht, wechselt laut Miasanrot zum FC Barcelona. Damit fällt ein Kandidat vom Markt, auf den der Rekordmeister offensichtlich konkret gezielt hatte – wie der bereits berichtete Einigung mit Newcastle United über rund 80 Millionen Euro verdeutlicht hatte.\n\nLaut Miasanrot steht Bayern nun vor der Aufgabe, die Linksaußen-Position anderweitig zu besetzen. Der Fanblog nennt dabei mehrere Namen, die als mögliche Alternativen gehandelt werden: Rafa Leão vom AC Mailand, Arne Godts von Ajax Amsterdam sowie Kenan Yıldız von Juventus Turin. Alle drei sind im Profil ähnlich angelegt – dynamische, technisch versierte Außenstürmer, die auf der linken Seite agieren können.\n\nDer Bedarf auf dieser Position ist bei den Münchnern real. Kingsley Coman steht zwar noch bis 2027 unter Vertrag – Christian Falk hatte im Dezember bestätigt, dass der FCB den Franzosen im Winter nicht abgeben wollte –, doch als alleinige Lösung für die Breite im Kader gilt er offenbar nicht. Luis Díaz bekleidet die Position ebenfalls, und auch Jamal Musiala kann von links agieren, ist jedoch primär als hängende Spitze oder zentraler Spielmacher einzuplanen.\n\nDie Herausforderung für Bayern liegt nun nicht nur in der sportlichen Eignung möglicher Kandidaten, sondern auch in der finanziellen und terminlichen Umsetzbarkeit. Leão etwa gilt als einer der teuersten Spieler seines Fachs; Yıldız steht erst am Anfang seiner Karriere auf Top-Niveau. Miasanrot ordnet ein, dass keiner der genannten Namen bislang konkret mit München in Verbindung gebracht wurde – es handelt sich um mögliche Alternativen, keine bestätigten Ziele.\n\nDer Sommer verspricht in dieser Hinsicht Bewegung: Mit dem Wegfall Gordons als Option muss die Transferplanung der Bayern auf der linken Außenbahn neu priorisiert werden. Wie schnell und auf welchem Weg der Kader dort verstärkt wird, bleibt laut aktuellem Stand offen.",
+      "sourceUrl": "https://miasanrot.de/fc-bayern-gordon-alternativen-leao-godts-yildiz/",
+      "sourceName": "Miasanrot (Fanblog)"
+    },
     {
       "slug": "2026-05-31-bayerns-sommervorbereitung-trainingsstart-am-20-ju",
       "date": "2026-05-31",
@@ -476,22 +492,6 @@
       "body": "Der FC Bayern München kommt dem Wechsel von Anthony Gordon offenbar einen entscheidenden Schritt näher. Laut einem Bericht der Daily Mail, den Bavarian Football Works aufgreift, haben sich die Münchner und Newcastle United auf eine Ablösesumme von rund 80 Millionen Euro geeinigt.\n\nNewcastle soll dem Vernehmen nach bereits einen Ersatz für den englischen Nationalspieler identifiziert haben. Gordon selbst gilt als Transfer-Wunsch des FC Bayern für die kommende Saison, in der der Rekordmeister seinen Angriff gezielt verstärken möchte.\n\nEine offizielle Bestätigung beider Klubs steht noch aus. Sollte die Einigung Bestand haben, wäre Gordon einer der teuersten Zugänge der Bayern-Geschichte. Die nächsten Wochen dürften zeigen, ob die Verhandlungen zu einem Abschluss kommen.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/205972/have-bayern-munich-and-newcastle-agreed-on-number-for-anthony-gordon",
       "sourceName": "The Daily Mail (via Bavarian Football Works)"
-    },
-    {
-      "slug": "2026-05-22-neuer-faellt-aus-bayern-im-pokalfinale-ohne-stammk",
-      "date": "2026-05-22",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-22-neuer-faellt-aus-bayern-im-pokalfinale-ohne-stammk.jpg",
-      "thumbnailAlt": "Neuer fällt aus: Bayern im Pokalfinale ohne Stammkeeper",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuer fällt aus: Bayern im Pokalfinale ohne Stammkeeper",
-      "excerpt": "Manuel Neuer steht dem FC Bayern im DFB-Pokalfinale gegen den VfB Stuttgart nicht zur Verfügung. Die Wadenverletzung aus dem letzten Bundesligaspiel zwingt ihn zur Pause.",
-      "body": "Der FC Bayern muss im DFB-Pokalfinale am Samstag gegen den VfB Stuttgart auf Manuel Neuer verzichten. Wie die ZEIT berichtet, hatte sich der Torhüter im abschließenden Bundesligaspiel eine Wadenverletzung zugezogen. Der kicker bestätigt: Der Rekordmeister hat inzwischen Gewissheit über den Ausfall seines Stammkeepers.\n\nDamit rückt Sven Ulreich ins Tor. Trainer Vincent Kompany lobte laut Sport1 seinen Ersatztorhüter ausdrücklich vor dem Finale, betonte jedoch, der Druck liege nicht auf dessen Schultern. Für Ulreich, der erst kürzlich seinen Vertrag verlängert hatte, ist es ein besonderer Einsatz auf der größten nationalen Bühne.\n\nFür die Bayern kommt der Ausfall zur Unzeit: Das Pokalfinale in Berlin ist der letzte Titelkampf der Saison, und die Münchner gelten trotz des Personalverlusts im Tor als klarer Favorit. Neuer schont sich offenbar auch im Hinblick auf die bevorstehende Weltmeisterschaft — ein Risiko wollte der Keeper nach Medienberichten nicht eingehen.",
-      "sourceUrl": "https://www.zeit.de/sport/2026-05/manuel-neuer-ausfall-dfb-pokalfinale-fc-bayern-muenchen",
-      "sourceName": "ZEIT Sport / kicker (Bluesky) / Sport1 (Bluesky)"
     }
   ],
   "tiktokVideosAuto": false,
