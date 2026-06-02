@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-02T08:20:42+00:00",
+  "lastUpdated": "2026-06-02T13:51:45+00:00",
   "tiktokStats": {
     "followers": 1436,
     "likes": "30K",
     "videos": 68
   },
   "ticker": [
+    "Dante kehrt als Amateure-Trainer zum FC Bayern zurück",
     "Bayern auf Linksaußen-Suche: Gordon-Ausfall und mögliche Alternativen",
     "Bayerns Sommervorbereitung: Trainingsstart am 20. Juli",
     "Müller sieht Olise vor Kane im Ballon-d'Or-Rennen",
     "Konaté ablösefrei: Bayern prüft erneut Interesse an Liverpool-Verteidiger",
-    "Lennart Karl startet für Deutschland gegen Finnland",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-02-dante-kehrt-als-amateure-trainer-zum-fc-bayern-zur",
+      "date": "2026-06-02",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-06-02-dante-kehrt-als-amateure-trainer-zum-fc-bayern-zur.webp",
+      "thumbnailAlt": "Dante kehrt als Amateure-Trainer zum FC Bayern zurück",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Dante kehrt als Amateure-Trainer zum FC Bayern zurück",
+      "excerpt": "Elf Jahre nach seinem Abschied als Spieler übernimmt Dante die Leitung der FC Bayern Amateure – seine erste Trainerstation nach dem Ende seiner aktiven Karriere.",
+      "body": "Der frühere Innenverteidiger Dante kehrt zum FC Bayern München zurück – diesmal als Trainer. Wie der kicker auf Bluesky berichtet und Sport1 bestätigt, übernimmt der Brasilianer die Leitung der FC-Bayern-Amateure. Für Dante ist es die erste Trainerstation nach dem Ende seiner aktiven Karriere.\n\nDante stand von 2011 bis 2015 beim FC Bayern unter Vertrag und gewann mit den Münchnern in der Saison 2012/13 das Triple aus Bundesliga, DFB-Pokal und Champions League. Anschließend wechselte er zu Borussia Mönchengladbach, später zu OGC Nizza und zum VfL Wolfsburg, bevor er seine Profilaufbahn beendete. Laut kicker fand er zum Abschluss dieser Laufbahn die entscheidende Erleichterung noch einmal vor ungewohnter Kulisse.\n\nMit der Übernahme der Bayern-Amateure erhält Dante die Möglichkeit, das Trainerhandwerk im Umfeld des Klubs zu erlernen, bei dem er einen Großteil seiner erfolgreichsten Jahre verbrachte. Die Nachwuchsabteilung des FC Bayern gilt als eine der renommiertesten in Deutschland – mehrere Bundesliga-Profis durchliefen zuletzt diesen Unterbau, bevor sie den Sprung in den Erstliga-Kader schafften.\n\nDie Rückkehr eines Triple-Siegers als Übungsleiter fügt sich in eine Bayern-Tradition ein: Auch andere ehemalige Spieler des Rekordmeisters haben ihre Trainerkarriere im klubeigenen Nachwuchsbereich begonnen. Dante bringt dabei nicht nur die Erfahrung aus über einem Jahrzehnt auf höchstem europäischen Niveau mit, sondern auch genaue Kenntnisse der Klubphilosophie und der internen Strukturen.\n\nDie Bayern-Amateure spielen in der Regionalliga Bayern und dienen als direkte Vorstufe zum Profikader von Trainer Vincent Kompany. Ob und wie schnell Dante eigene Handschriften in der Spielanlage des Teams hinterlassen kann, wird sich in der kommenden Saison zeigen. Mit der Verpflichtung setzen die Münchner jedenfalls ein klares Zeichen, dass sie ehemaligen Leistungsträgern den Einstieg ins Trainergeschäft innerhalb des Klubs ermöglichen wollen.",
+      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mncaasbmtf2s",
+      "sourceName": "Sport1 (Bluesky) und kicker (Bluesky)"
+    },
     {
       "slug": "2026-06-02-bayern-auf-linksaussen-suche-gordon-ausfall-und-mo",
       "date": "2026-06-02",
@@ -476,22 +492,6 @@
       "body": "Uli Hoeneß hat sich vor dem DFB-Pokalfinale deutlich zur Kaderdiskussion um die deutsche Nationalmannschaft geäußert. Laut NTV und der Süddeutschen Zeitung bemängelte der Bayern-Ehrenpräsident die Kommunikation des Bundestrainers rund um die Rückholaktion von Manuel Neuer und die Planungen mit Joshua Kimmich als nicht in Ordnung und nicht fair.\n\nBesonders die Art und Weise, wie mit Kimmich umgegangen werde, beschäftigt Hoeneß. Der Rekordmeister-Ehrenpräsident warnte ausdrücklich davor, den Bayern-Kapitän zu verschleißen. Neuer wurde trotz seiner Verletzungssorgen in den vergangenen Wochen für die WM nominiert – ein Vorgang, der laut Hoeneß mehr Fingerspitzengefühl verdient hätte.\n\nDie Aussagen fallen in eine ohnehin angespannte Phase für den FCB: Am Samstagabend steht das DFB-Pokalfinale gegen den VfB Stuttgart an, zudem ist die Zukunft von Sportvorstand Max Eberl laut NTV noch offen. Hoeneß sieht die Tendenz zu einer Verlängerung Eberls, äußerte sich aber nicht vollständig überzeugt. Für Bayern-Fans bleibt der Abend in Berlin zunächst die entscheidendere Aufgabe.",
       "sourceUrl": "https://www.n-tv.de/sport/fussball-wm/Uli-Hoeness-wuetet-gegen-Nagelsmann-Nicht-in-Ordnung-nicht-fair-id30852369.html",
       "sourceName": "NTV Sport"
-    },
-    {
-      "slug": "2026-05-23-gordon-transfer-bayern-und-newcastle-einig-bei-80",
-      "date": "2026-05-23",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-23-gordon-transfer-bayern-und-newcastle-einig-bei-80.jpg",
-      "thumbnailAlt": "Gordon-Transfer: Bayern und Newcastle einig bei 80 Millionen Euro",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Gordon-Transfer: Bayern und Newcastle einig bei 80 Millionen Euro",
-      "excerpt": "Der FC Bayern und Newcastle United haben sich laut The Daily Mail auf eine Ablösesumme von rund 80 Millionen Euro für Angreifer Anthony Gordon verständigt.",
-      "body": "Der FC Bayern München kommt dem Wechsel von Anthony Gordon offenbar einen entscheidenden Schritt näher. Laut einem Bericht der Daily Mail, den Bavarian Football Works aufgreift, haben sich die Münchner und Newcastle United auf eine Ablösesumme von rund 80 Millionen Euro geeinigt.\n\nNewcastle soll dem Vernehmen nach bereits einen Ersatz für den englischen Nationalspieler identifiziert haben. Gordon selbst gilt als Transfer-Wunsch des FC Bayern für die kommende Saison, in der der Rekordmeister seinen Angriff gezielt verstärken möchte.\n\nEine offizielle Bestätigung beider Klubs steht noch aus. Sollte die Einigung Bestand haben, wäre Gordon einer der teuersten Zugänge der Bayern-Geschichte. Die nächsten Wochen dürften zeigen, ob die Verhandlungen zu einem Abschluss kommen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/205972/have-bayern-munich-and-newcastle-agreed-on-number-for-anthony-gordon",
-      "sourceName": "The Daily Mail (via Bavarian Football Works)"
     }
   ],
   "tiktokVideosAuto": false,
