@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-02T21:28:16+00:00",
+  "lastUpdated": "2026-06-02T23:15:36+00:00",
   "tiktokStats": {
     "followers": 1437,
     "likes": "30K",
     "videos": 68
   },
   "ticker": [
+    "Bayern steigt aus dem Rennen um Nathaniel Brown ein",
     "Bayern reicht Saibari Vertragsangebot ein – Ablöse offen",
     "Dante kehrt als Amateure-Trainer zum FC Bayern zurück",
     "Bayern auf Linksaußen-Suche: Gordon-Ausfall und mögliche Alternativen",
     "Bayerns Sommervorbereitung: Trainingsstart am 20. Juli",
-    "Müller sieht Olise vor Kane im Ballon-d'Or-Rennen",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-02-bayern-steigt-aus-dem-rennen-um-nathaniel-brown-ei",
+      "date": "2026-06-02",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-06-02-bayern-steigt-aus-dem-rennen-um-nathaniel-brown-ei.webp",
+      "thumbnailAlt": "Bayern steigt aus dem Rennen um Nathaniel Brown ein",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Bayern steigt aus dem Rennen um Nathaniel Brown ein",
+      "excerpt": "Laut einem Bericht des Athletic buhlen der FC Bayern und Arsenal um Eintracht Frankfurts Linksverteidiger Nathaniel Brown.",
+      "body": "Der FC Bayern München und der FC Arsenal sind offenbar die aussichtsreichsten Interessenten für Nathaniel Brown von Eintracht Frankfurt. Das berichtet Seb Stafford-Bloor vom Athletic, wie Bavarian Football Works festhält. Demnach ist Brown, der die deutsche Nationalmannschaft vertritt, in den Fokus zweier europäischer Topklubs geraten und soll Frankfurt in diesem Sommer verlassen.\n\nBrown gilt als einer der vielversprechendsten Linksverteidiger der Bundesliga. Bei Eintracht Frankfurt hat er sich als feste Größe etabliert und zuletzt auch die Aufmerksamkeit des DFB-Teams auf sich gezogen. Sein Abgang aus Frankfurt gilt dem Bericht zufolge als wahrscheinlich — konkrete Ablösesummen werden indes nicht genannt.\n\nFür den FCB käme Brown zu einem strategisch bedeutsamen Zeitpunkt. Raphaël Guerreiro steht als Option auf der linken Abwehrseite zur Verfügung, doch mit Alphonso Davies hat die Mannschaft auf dieser Position einen Stammspieler verloren. Ein verlässlicher und junger Linksverteidiger mit Bundesliga-Erfahrung würde somit einem echten Bedarf entsprechen.\n\nDass auch Arsenal um Brown wirbt, zeigt den Stellenwert des Spielers auf dem internationalen Markt. Die Londoner sind unter Trainer Mikel Arteta seit Jahren auf der Suche nach stabilen Lösungen in der Defensive und haben in der Vergangenheit wiederholt Interesse an deutschen Spielern bekundet. Der Wettbewerb mit einem Premier-League-Klub dürfte die Ablöseverhandlungen mit Frankfurt komplizierter — und teurer — gestalten.\n\nNoch ist nichts entschieden, und konkrete Verhandlungsstände sind laut der Quelle nicht bekannt. Browns Situation ist jedoch eines der interessanteren Transfers in diesem Sommer, weil er sowohl die sportlichen Anforderungen auf Vereinsebene als auch internationale Perspektiven verbindet. Ob Bayern in einem etwaigen Bieterwettbewerb mit Arsenal den Vorzug erhält, wird sich in den kommenden Wochen zeigen.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/210634/bayern-munich-arsenal-vying-for-eintracht-frankfurts-nathaniel-brown",
+      "sourceName": "Bavarian Football Works / The Athletic (Seb Stafford-Bloor)"
+    },
     {
       "slug": "2026-06-02-bayern-reicht-saibari-vertragsangebot-ein-abloese",
       "date": "2026-06-02",
@@ -478,20 +494,6 @@
       "body": "Kurz vor dem DFB-Pokalfinale in Berlin hat Uli Hoeneß öffentlich Zweifel an der Zukunft von Sportvorstand Max Eberl beim FC Bayern geäußert. Laut NTV sieht der Ehrenpräsident zwar die Tendenz zu einer Verlängerung, betonte aber, dass Eberl ihn bislang nicht vollständig überzeugt habe. Die Aussage sorgte unmittelbar für Aufsehen.\n\nEberl hatte sich zuletzt in einem Interview mit der Bild-Zeitung zu möglichen Transfers geäußert und dabei nach Informationen von Bavarian Football Works ohne direkte Namensnennung Andeutungen zu einem möglichen Neuzugang gemacht. Ob und wann eine offizielle Entscheidung über seine Vertragssituation fällt, bleibt offen.\n\nDie Personaldebatte um den Sportvorstand fällt in eine sportlich bedeutsame Phase: Die Münchner bestreiten am Samstagabend das DFB-Pokalfinale gegen den VfB Stuttgart und könnten damit das Double perfektmachen. Unabhängig vom Ausgang dürfte die Frage um Eberls Zukunft den FCB auch in den kommenden Wochen beschäftigen.",
       "sourceUrl": "https://www.n-tv.de/sport/fussball/Uli-Hoeness-Zweifel-Aussage-sorgt-fuer-Aufsehen-id30852655.html",
       "sourceName": "NTV Sport"
-    },
-    {
-      "slug": "2026-05-23-vorbericht-bayern-stuttgart",
-      "date": "2026-05-23",
-      "category": "tactics",
-      "badge": "Vorbericht",
-      "badgeColor": "bv",
-      "thumbnail": "img/tactics.jpg",
-      "thumbnailAlt": "Vorbericht: Bayern empfängt den VfB Stuttgart",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Vorbericht: Bayern empfängt den VfB Stuttgart",
-      "excerpt": "Der FC Bayern trifft am Samstagabend auf den VfB Stuttgart. Es ist das letzte Heimspiel der Saison 2025/26.",
-      "body": "Der FC Bayern empfängt am Samstag, den 23. Mai 2026, um 22:00 Uhr den VfB Stuttgart in der Allianz Arena. Die Partie ist das letzte Heimspiel der Bundesliga-Saison 2025/26 und damit der Abschluss eines langen Spieljahres vor eigenem Publikum.\n\nDie Aufstellung steht noch aus. Ob Manuel Neuer nach seinen zuletzt gemeldeten muskulären Problemen zwischen den Pfosten stehen wird, bleibt abzuwarten. Weitere Personalentscheidungen dürften Vincent Kompany erst kurz vor dem Anpfiff bekanntgeben.\n\nStuttgart präsentierte sich in dieser Saison als unangenehmer Gegner mit kompaktem Pressing und schnellem Umschaltspiel. Die Münchner werden darauf bedacht sein, das Zentrum zu kontrollieren und die Räume hinter der Stuttgarter Abwehrlinie konsequent zu nutzen. Angesichts des Saisonfinals dürfte die Partie für beide Mannschaften noch sportliche Bedeutung besitzen."
     }
   ],
   "tiktokVideosAuto": false,
