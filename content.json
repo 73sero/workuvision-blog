@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-04T08:12:47+00:00",
+  "lastUpdated": "2026-06-04T12:39:16+00:00",
   "tiktokStats": {
     "followers": 1437,
     "likes": "30K",
     "videos": 69
   },
   "ticker": [
+    "Eichhorn-Transfer: Bayern intern uneins – nicht nur beim Preis",
     "Olise zum besten Angreifer der Welt gewählt",
     "Bayern steigt aus dem Rennen um Nathaniel Brown ein",
     "Bayern reicht Saibari Vertragsangebot ein – Ablöse offen",
     "Dante kehrt als Amateure-Trainer zum FC Bayern zurück",
-    "Bayern auf Linksaußen-Suche: Gordon-Ausfall und mögliche Alternativen",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-04-eichhorn-transfer-bayern-intern-uneins-nicht-nur-b",
+      "date": "2026-06-04",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-06-04-eichhorn-transfer-bayern-intern-uneins-nicht-nur-b.webp",
+      "thumbnailAlt": "Eichhorn-Transfer: Bayern intern uneins – nicht nur beim Preis",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Eichhorn-Transfer: Bayern intern uneins – nicht nur beim Preis",
+      "excerpt": "Der FC Bayern hat die Verhandlungen um Hertha-Talent Kennet Eichhorn abgebrochen – und das aus mehr als nur einem Grund.",
+      "body": "Der FC Bayern München wird das 16-jährige Talent Kennet Eichhorn nicht verpflichten. Wie der kicker in einem ausführlichen Bericht schreibt, haben sich die Münchner gegen einen Transfer entschieden – und das trotz des grundsätzlichen Interesses, das intern vorhanden war. Eichhorn, der bei Hertha BSC ausgebildet wird und als eines der verheißungsvollsten deutschen Nachwuchstalente gilt, stand auf der Liste des Rekordmeisters.\n\nDie Ablöseforderung war dabei nur ein Aspekt des gescheiterten Deals. Laut Bavarian Football Works, die sich auf den kicker-Bericht beziehen, war Bayern intern in der Frage des Transfers nicht einig – unabhängig vom Preis. Das bedeutet: Selbst wenn sich beide Klubs auf eine Transfersumme geeinigt hätten, wäre eine Einigung intern nicht zwingend zustande gekommen. Welche konkreten Bedenken innerhalb des Vereins geäußert wurden, geht aus den Berichten nicht im Detail hervor.\n\nDer kicker hatte die Nachricht vom Rückzug der Bayern bereits am 3. Juni auf Bluesky bestätigt: Eichhorn habe zwar einem Wechsel nach München offen gegenübergestanden, doch die Münchner hätten sich aus mehreren Gründen gegen den Transfer entschieden. Sport1 und Bild hatten zuvor übereinstimmend berichtet, dass die Verhandlungen an der Transfersumme gescheitert seien – der kicker lieferte nun die tiefere Einordnung.\n\nFür Eichhorn bedeutet das Scheitern der Bayern-Gespräche nicht das Ende seiner Wechseloptionen in diesem Sommer. Hertha BSC, derzeit in der 2. Bundesliga, könnte den Youngster im Sommer ziehen lassen. Welche Klubs nun noch konkret an ihm interessiert sind, ist aus den vorliegenden Berichten nicht zu entnehmen.\n\nDer Fall zeigt, dass beim FC Bayern in der Transferplanung nicht allein die Ablösesumme entscheidend ist. Interne Abstimmungsprozesse spielen offensichtlich eine gewichtige Rolle – gerade wenn es um junge Talente geht, bei denen Entwicklungsperspektive und sportliche Passung sorgfältig abgewogen werden müssen. Ob Bayern im Laufe des Sommers eine Alternative auf der Nachwuchs-Agenda benennt, bleibt vorerst offen.",
+      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mnf3w5k3vr2i",
+      "sourceName": "kicker (Bluesky)"
+    },
     {
       "slug": "2026-06-03-olise-zum-besten-angreifer-der-welt-gewaehlt",
       "date": "2026-06-03",
@@ -480,20 +496,6 @@
       "body": "Der FC Bayern München ist zum 21. Mal DFB-Pokalsieger. Im Berliner Olympiastadion besiegte die Mannschaft von Trainer Vincent Kompany den Titelverteidiger VfB Stuttgart mit 3:0 und sicherte sich damit das Double aus Meisterschaft und Pokalsieg – den ersten Pokaltriumph seit 2020.\n\nWie der kicker berichtet, war die erste Halbzeit noch ausgeglichen, Stuttgart stellte die Münchner vor echte Probleme. Nach dem Seitenwechsel übernahmen die Bayern jedoch das Spielgeschehen. Der entscheidende Faktor war Harry Kane: Der englische Stürmer traf dreifach und entschied die Partie nahezu im Alleingang.\n\nLaut der Süddeutschen Zeitung wurden die Münchner erst nach der Pause vollständig ihrer Favoritenrolle gerecht. Die FAZ hob hervor, dass Kane auch in Berlin traf und traf – trotz eines zunächst schwierigen Spielverlaufs. Mit nun 36 Bundesligatoren in der Hinrunde und dem Pokal-Hattrick im Finale krönte der Mittelstürmer eine überragende Saison in jeder Hinsicht.",
       "sourceUrl": "https://www.kicker.de/hattrick-kane-bayern-gewinnt-nach-sechs-jahren-wartezeit-den-dfb-pokal-1221625/artikel#omrss",
       "sourceName": "kicker"
-    },
-    {
-      "slug": "2026-05-23-spielbericht-bayern-stuttgart",
-      "date": "2026-05-23",
-      "category": "reaction",
-      "badge": "Spielbericht",
-      "badgeColor": "brc",
-      "thumbnail": "img/fans.jpg",
-      "thumbnailAlt": "FC Bayern 3:0 VfB Stuttgart – DFB-Pokal-Triumph zum Double",
-      "readtime": "4 Min.",
-      "featured": true,
-      "title": "FC Bayern 3:0 VfB Stuttgart – DFB-Pokal-Triumph zum Double",
-      "excerpt": "Der FC Bayern München gewinnt das DFB-Pokal-Finale in Berlin gegen den VfB Stuttgart mit 3:0 und sichert sich das Double aus Meisterschaft und Pokalsieg.",
-      "body": "Der FC Bayern München hat am Samstag im Berliner Olympiastadion das DFB-Pokal-Finale gegen den VfB Stuttgart mit 3:0 gewonnen. Die Mannschaft von Trainer Vincent Kompany dominierte die Partie über weite Strecken und ließ dem Gegner im Verlauf der zweiten Hälfte kaum Möglichkeiten, in das Spiel zurückzufinden.\n\nDen entscheidenden Impuls gab Harry Kane in der 55. Minute, als er eine Hereingabe von Michael Olise per Kopf zum 1:0 verwertete. Kane erzielte damit seinen ersten Treffer des Abends; weitere Tore fielen in der 80. und 92. Minute, womit der FCB das Ergebnis deutlich ausbaute. Mit einem Hattrick war Kane maßgeblicher Akteur des Abends und unterstrich einmal mehr seine überragende Rolle in dieser Saison.\n\nFür den FC Bayern ist es der 21. Pokalsieg der Vereinsgeschichte und zugleich der erste seit 2020. In Kombination mit der in dieser Saison bereits gesicherten deutschen Meisterschaft vollenden die Münchner damit das Double – ein weiterer Beleg für die Stärke der Mannschaft unter Vincent Kompany in dessen erster Spielzeit als Cheftrainer. Als nächste Aufgabe wartet auf den FCB der Franz-Beckenbauer-Supercup 2026 gegen Borussia Dortmund."
     }
   ],
   "tiktokVideosAuto": false,
