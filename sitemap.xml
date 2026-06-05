@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://workuvision.de/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://workuvision.de/archiv.html</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://workuvision.de/artikel/2026-06-05-saibari-im-bayern-visier-medizincheck-koennte-in-d.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://workuvision.de/artikel/2026-06-04-eichhorn-transfer-bayern-intern-uneins-nicht-nur-b.html</loc>
@@ -183,12 +189,6 @@
   <url>
     <loc>https://workuvision.de/artikel/2026-05-24-kane-hattrick-bayern-gewinnt-double-mit-pokalsieg.html</loc>
     <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://workuvision.de/artikel/2026-05-23-bayern-gewinnt-den-dfb-pokal-kane-trifft-dreifach.html</loc>
-    <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

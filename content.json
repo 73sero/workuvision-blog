@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-04T18:09:02+00:00",
+  "lastUpdated": "2026-06-05T07:59:48+00:00",
   "tiktokStats": {
     "followers": 1438,
     "likes": "30K",
     "videos": 69
   },
   "ticker": [
+    "Saibari im Bayern-Visier: Medizincheck könnte in den USA stattfinden",
     "Eichhorn-Transfer: Bayern intern uneins – nicht nur beim Preis",
     "Olise zum besten Angreifer der Welt gewählt",
     "Bayern steigt aus dem Rennen um Nathaniel Brown ein",
     "Bayern reicht Saibari Vertragsangebot ein – Ablöse offen",
-    "Dante kehrt als Amateure-Trainer zum FC Bayern zurück",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-05-saibari-im-bayern-visier-medizincheck-koennte-in-d",
+      "date": "2026-06-05",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-06-05-saibari-im-bayern-visier-medizincheck-koennte-in-d.webp",
+      "thumbnailAlt": "Saibari im Bayern-Visier: Medizincheck könnte in den USA stattfinden",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Saibari im Bayern-Visier: Medizincheck könnte in den USA stattfinden",
+      "excerpt": "Der FC Bayern soll kurz vor einer Einigung mit PSV Eindhoven über Ismael Saibari stehen. Laut Miasanrot könnte der Medizincheck direkt in den USA erfolgen.",
+      "body": "Der FC Bayern treibt seine Transferplanung für die kommende Saison offenbar mit Nachdruck voran. Laut Miasanrot soll der Rekordmeister großes Interesse an Ismael Saibari von PSV Eindhoven hegen. Der 25-jährige Marokkaner gilt als mögliche Verstärkung im offensiven Mittelfeld.\n\nBesonders bemerkenswert ist die logistische Komponente des möglichen Transfers: Sollten sich Bayern und PSV Eindhoven auf eine Ablösesumme einigen, würde der Medizincheck nicht in München stattfinden, sondern in den Vereinigten Staaten. Saibari befindet sich derzeit mit der marokkanischen Nationalmannschaft in den USA, wo die WM 2026 ausgetragen wird. Dies berichtet Miasanrot unter Berufung auf die niederländische Zeitung Eindhovens Dagblad.\n\nDer offensive Mittelfeldspieler absolvierte für PSV Eindhoven zuletzt eine starke Saison in der Eredivisie und in der Champions League. Miasanrot ordnet ihn in einem gesonderten Scouting-Report als möglichen Backup ein — einen Spieler also, der Tiefe im Kader schafft, ohne sofort gesetzt sein zu müssen. Seine Vielseitigkeit auf der Zehn und auf den Flügeln macht ihn für das System von Trainer Vincent Kompany grundsätzlich interessant.\n\nFür Bayern wäre Saibari eine Ergänzung in einem bereits breiten Angriffsmittelfeld mit Jamal Musiala, Michael Olise und Kingsley Coman. Gerade in englischen Wochen mit Champions-League-Belastung wäre zusätzliche Qualität auf diesen Positionen jedoch ein nachvollziehbares Ziel der Transferabteilung. PSV Eindhoven gilt als Verein, der bei passenden Angeboten verkaufsbereit ist — konkrete Verhandlungsstände oder eine Ablösesumme nennt Miasanrot allerdings nicht.\n\nDer ungewöhnliche Ablauf eines Medizinchecks während einer laufenden Weltmeisterschaft zeigt, wie eng die Transferfenster und der internationale Spielplan mittlerweile verzahnt sind. Ob aus dem Interesse eine konkrete Verpflichtung wird, bleibt nach aktuellem Stand offen — die Rahmenbedingungen für eine zügige Abwicklung wären laut Miasanrot jedoch bereits gegeben.",
+      "sourceUrl": "https://miasanrot.de/ismael-saibari-fc-bayern-scouting-report/",
+      "sourceName": "Miasanrot (Fanblog)"
+    },
     {
       "slug": "2026-06-04-eichhorn-transfer-bayern-intern-uneins-nicht-nur-b",
       "date": "2026-06-04",
@@ -480,22 +496,6 @@
       "body": "Der FC Bayern München ist nach sechs Jahren wieder DFB-Pokalsieger. Im Berliner Olympiastadion bezwangen die Münchner den amtierenden Titelverteidiger VfB Stuttgart mit 3:0 – durch einen Hattrick von Harry Kane. Wie der kicker berichtet, belohnten sich die Bayern nach einer schwierigen ersten Hälfte mit einer deutlichen Leistungssteigerung nach dem Seitenwechsel.\n\nLaut NTV erzielte Kane in dieser Saison insgesamt 61 Tore, zehn davon allein im DFB-Pokal. Trainer Vincent Kompany zeigte sich nach dem Schlusspfiff kaum in der Lage, die Leistung seines Stürmers angemessen in Worte zu fassen. Ehrenpräsident Uli Hoeneß bezeichnete Kane einem Sport1-Bericht zufolge als unverkäuflich.\n\nDer Spiegel beschreibt die Partie als einen der schönsten Abende in Kanes Karriere. Mit dem Pokaltitel sicherte sich der Rekordmeister das Double aus Bundesliga und DFB-Pokal – der erste Doppelgewinn seit Jahren. Stuttgart, das in der ersten Halbzeit dem FCB durchaus Probleme bereitete, musste am Ende dennoch ohne Titel nach Hause fahren.",
       "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mmkawrv5ii2o",
       "sourceName": "kicker (Bluesky)"
-    },
-    {
-      "slug": "2026-05-23-bayern-gewinnt-den-dfb-pokal-kane-trifft-dreifach",
-      "date": "2026-05-23",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-23-bayern-gewinnt-den-dfb-pokal-kane-trifft-dreifach.jpg",
-      "thumbnailAlt": "Bayern gewinnt den DFB-Pokal: Kane trifft dreifach",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Bayern gewinnt den DFB-Pokal: Kane trifft dreifach",
-      "excerpt": "Harry Kane erzielt einen Hattrick beim 3:0-Finalsieg gegen den VfB Stuttgart – der FCB holt sich nach sechs Jahren das Double.",
-      "body": "Der FC Bayern München ist zum 21. Mal DFB-Pokalsieger. Im Berliner Olympiastadion besiegte die Mannschaft von Trainer Vincent Kompany den Titelverteidiger VfB Stuttgart mit 3:0 und sicherte sich damit das Double aus Meisterschaft und Pokalsieg – den ersten Pokaltriumph seit 2020.\n\nWie der kicker berichtet, war die erste Halbzeit noch ausgeglichen, Stuttgart stellte die Münchner vor echte Probleme. Nach dem Seitenwechsel übernahmen die Bayern jedoch das Spielgeschehen. Der entscheidende Faktor war Harry Kane: Der englische Stürmer traf dreifach und entschied die Partie nahezu im Alleingang.\n\nLaut der Süddeutschen Zeitung wurden die Münchner erst nach der Pause vollständig ihrer Favoritenrolle gerecht. Die FAZ hob hervor, dass Kane auch in Berlin traf und traf – trotz eines zunächst schwierigen Spielverlaufs. Mit nun 36 Bundesligatoren in der Hinrunde und dem Pokal-Hattrick im Finale krönte der Mittelstürmer eine überragende Saison in jeder Hinsicht.",
-      "sourceUrl": "https://www.kicker.de/hattrick-kane-bayern-gewinnt-nach-sechs-jahren-wartezeit-den-dfb-pokal-1221625/artikel#omrss",
-      "sourceName": "kicker"
     }
   ],
   "tiktokVideosAuto": false,
