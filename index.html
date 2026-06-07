@@ -586,7 +586,12 @@
           return !m.matchIsFinished && start > now;
         });
 
-        let displayMatch = liveMatch || nextOpen || bayernMatches[bayernMatches.length - 1];
+        // Letztes beendetes Spiel — robust ermittelt, da der Spielplan jetzt auch
+        // zukünftige Partien der neuen Saison enthalten kann (sortiert aufsteigend,
+        // daher das letzte beendete von hinten suchen, nicht einfach das letzte Element).
+        const lastFinished = [...bayernMatches].reverse().find(m => m.matchIsFinished) || bayernMatches[bayernMatches.length - 1];
+
+        let displayMatch = liveMatch || nextOpen || lastFinished;
         let mode = liveMatch ? 'live' : (nextOpen ? 'upcoming' : 'finished');
 
         // Wenn ein Spiel gerade live läuft UND eines beendet ist (z.B. Doppelspieltag),
@@ -594,6 +599,23 @@
         if (!liveMatch && justFinished && (!nextOpen || (new Date(nextOpen.matchDateTime) - now) > 12 * 3600 * 1000)) {
           displayMatch = justFinished;
           mode = 'just_finished';
+        }
+
+        // ===== Sommerpausen-Logik =====
+        // In der Sommerpause ist die neue Bundesliga-Saison (bl1) noch nicht im
+        // OpenLigaDB-Spielplan, während einzelne Wettbewerbe (z.B. die DFB-Pokal-
+        // 1. Runde) schon Termine haben. Ein Monats-Countdown auf so ein einzelnes
+        // Spiel im September ist unerwünscht: Bis der Bundesliga-Spielplan da ist,
+        // bleibt die Karte auf "Saison beendet" (letztes Resultat, kein Countdown).
+        // Ein nahes Spiel (≤30 Tage, z.B. ein Pokalfinale am Saisonende) wird NICHT
+        // unterdrückt, damit echte End-of-Season-Partien sichtbar bleiben.
+        const hasUpcomingBundesliga = bayernMatches.some(m =>
+          m._competition === 'Bundesliga' && !m.matchIsFinished && new Date(m.matchDateTime) > now);
+        const DAYS_30 = 30 * 24 * 3600 * 1000;
+        const nextIsFarAway = nextOpen && (new Date(nextOpen.matchDateTime) - now) > DAYS_30;
+        if (mode === 'upcoming' && !hasUpcomingBundesliga && nextIsFarAway) {
+          displayMatch = lastFinished;
+          mode = 'finished';
         }
 
         renderNextMatch(displayMatch, mode);
