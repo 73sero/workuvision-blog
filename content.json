@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-08T08:46:10+00:00",
+  "lastUpdated": "2026-06-08T13:58:51+00:00",
   "tiktokStats": {
     "followers": 1447,
     "likes": "30K",
     "videos": 71
   },
   "ticker": [
+    "Hainer blockt Real Madrid ab: Olise ist nicht zu kaufen",
     "Schwerer Rückschlag: Lennart Karl fällt für die WM aus",
     "Brown blockt Bayern-Fragen ab: Fokus liegt auf der WM",
     "Saibari im Bayern-Visier: Medizincheck könnte in den USA stattfinden",
     "Eichhorn-Transfer: Bayern intern uneins – nicht nur beim Preis",
-    "Olise zum besten Angreifer der Welt gewählt",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-08-hainer-blockt-real-madrid-ab-olise-ist-nicht-zu-ka",
+      "date": "2026-06-08",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-06-08-hainer-blockt-real-madrid-ab-olise-ist-nicht-zu-ka.webp",
+      "thumbnailAlt": "Hainer blockt Real Madrid ab: Olise ist nicht zu kaufen",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Hainer blockt Real Madrid ab: Olise ist nicht zu kaufen",
+      "excerpt": "Bayerns Präsident Herbert Hainer hat Spekulationen um einen Wechsel von Michael Olise zu Real Madrid klar zurückgewiesen.",
+      "body": "Die Gerüchteküche rund um Michael Olise und Real Madrid brodelt seit Wochen – doch Bayern Münchens Vereinspräsident Herbert Hainer hat nun unmissverständlich Stellung bezogen. Laut Sport1 wandte sich Hainer direkt an Real-Präsident Florentino Pérez: Olise sei ein Spieler des FC Bayern München und halte einen Langzeitvertrag. Der Rekordmeister sei kein Verkäufer.\n\nDamit setzt die Führungsebene des FCB ein klares Signal an alle interessierten Klubs. Olise, der in der abgelaufenen Saison 2025/26 zu einem der auffälligsten Außenspieler der Bundesliga avancierte, gilt in Madrid als potenzieller Kandidat für den Kader von Trainer José Mourinho, der Real nach dem erneuten Wahlsieg von Florentino Pérez übernehmen soll. Bayerns Reaktion lässt keinen Interpretationsspielraum.\n\nDie Aussage Hainers fügt sich in eine klare Linie der Münchner Klubführung ein: Bereits zu Jahresbeginn hatten die Verantwortlichen betont, keinen ihrer Schlüsselspieler abgeben zu wollen. Dass nun ausgerechnet der Präsident persönlich das Wort ergreift und Pérez namentlich adressiert, unterstreicht, wie ernst die Münchner die Abwerbeversuche aus der spanischen Hauptstadt nehmen – und wie entschlossen sie sind, den Franzosen zu halten.\n\nOlise ist unter Trainer Vincent Kompany ein fester Bestandteil des Angriffsspiels der Bayern. Seine Fähigkeit, aus dem Halbraum heraus Eins-gegen-Eins-Situationen zu kreieren und als Vorbereiter für Harry Kane zu fungieren, macht ihn zu einem schwer ersetzbaren Element im System des Belgiers. Ein Abgang würde die Münchner vor erhebliche Probleme im Offensivbereich stellen – zumal die Transferoptionen auf diesem Niveau überschaubar sind.\n\nFür die Bayern-Fans dürfte Hainers Aussage Beruhigung bringen: Der Klub zeigt, dass er auch gegenüber dem finanzkräftigsten Verein Europas nicht klein beigibt. Ob Real Madrid das letzte Wort gesprochen hat, wird sich spätestens im Sommer zeigen – die Transferphase hat gerade erst begonnen.",
+      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mnplz7skmq2j",
+      "sourceName": "Sport1 (Bluesky)"
+    },
     {
       "slug": "2026-06-06-schwerer-rueckschlag-lennart-karl-faellt-fuer-die",
       "date": "2026-06-06",
@@ -480,22 +496,6 @@
       "body": "Laut Bavarian Football Works hat Uli Hoeneß Berichte über ein angebliches Interesse des FC Barcelona an Harry Kane deutlich dementiert. Der Ehrenpräsident des FC Bayern begründete seine Aussage damit, dass Barcelona schlicht nicht über die finanziellen Mittel für einen solchen Transfer verfüge.\n\nKane hatte im DFB-Pokalfinale gegen den VfB Stuttgart mit einem Hattrick maßgeblichen Anteil am 3:0-Sieg der Münchner. Mit 61 Saisontoren in allen Wettbewerben stellte der englische Nationalspieler laut Bavarian Football Works zudem einen Rekord auf, den zuletzt Cristiano Ronaldo seit 2015 erzielt hatte.\n\nDie Aussagen von Hoeneß kommen zu einem Zeitpunkt, an dem die Zukunft Kanes beim FCB ohnehin intensiv diskutiert wird. Eine Vertragsverlängerung gilt als grundsätzlich wahrscheinlich, über die Laufzeit besteht jedoch noch keine Einigung. Barcelonas angebliches Interesse dürfte damit vorerst keine praktische Relevanz entfalten.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-dfb-pokal/206468/bayern-munich-s-uli-hoeness-dismisses-fc-barcelona-s-interest-in-harry-kane-for-they-have-no-money",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-24-hattrick-im-finale-kane-kroent-sich-zum-double-hel",
-      "date": "2026-05-24",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-24-hattrick-im-finale-kane-kroent-sich-zum-double-hel.jpg",
-      "thumbnailAlt": "Hattrick im Finale: Kane krönt sich zum Double-Helden",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Hattrick im Finale: Kane krönt sich zum Double-Helden",
-      "excerpt": "Harry Kane trifft dreifach im DFB-Pokalfinale gegen Stuttgart und führt den FC Bayern mit 3:0 zum Double. Die Sportschau zeichnet seinen Aufstieg nach.",
-      "body": "Mit einem Hattrick im DFB-Pokalfinale hat Harry Kane den FC Bayern München zum Double geführt. Gegen den VfB Stuttgart, der die Münchner in der ersten Halbzeit zeitweise unter Druck setzte, traf der englische Stürmer dreifach und entschied die Partie in Berlin zugunsten des Rekordmeisters, wie die Sportschau berichtet.\n\nDie Tagesschau-Sportschau zeichnet dabei den Wandel Kanes nach: Als er im Sommer 2023 nach München wechselte, galt er als torgefährlichster Stürmer Englands – und zugleich als Spieler ohne einen einzigen Titel in seiner Karriere. Drei Jahre später hat er den Ruf des titellos gebliebenen Angreifers hinter sich gelassen und ist nun doppelter Titelgewinner mit dem FCB.\n\nDer 3:0-Endstand spiegelt dabei nicht die gesamte Spielentwicklung wider. Die erste Halbzeit gehörte phasenweise dem VfB Stuttgart, bevor der Rekordmeister nach dem Seitenwechsel die Kontrolle übernahm und Kane seine Klasse ausspielen konnte. Mit dem Pokaltitel komplettiert Bayern München unter Trainer Vincent Kompany eine erfolgreiche Saison.",
-      "sourceUrl": "https://www.sportschau.de/regional/br/br-final-hattrick-der-titellose-prinz-kroent-sich-zu-king-kane-108.html",
-      "sourceName": "Tagesschau Sportschau"
     }
   ],
   "tiktokVideosAuto": false,
