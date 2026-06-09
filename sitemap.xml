@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://workuvision.de/</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://workuvision.de/archiv.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://workuvision.de/artikel/2026-06-09-olise-dreierpack-bayern-star-glaenzt-bei-frankreic.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://workuvision.de/artikel/2026-06-08-hainer-blockt-real-madrid-ab-olise-ist-nicht-zu-ka.html</loc>
@@ -182,12 +188,6 @@
   </url>
   <url>
     <loc>https://workuvision.de/artikel/2026-05-24-kane-egalisiert-ronaldo-rekord-mit-61-saisontoren.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://workuvision.de/artikel/2026-05-24-hoeness-schliesst-kane-wechsel-zu-barcelona-aus.html</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

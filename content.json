@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-08T18:19:48+00:00",
+  "lastUpdated": "2026-06-09T07:37:52+00:00",
   "tiktokStats": {
     "followers": 1447,
     "likes": "30K",
     "videos": 71
   },
   "ticker": [
+    "Olise-Dreierpack: Bayern-Star glänzt bei Frankreichs WM-Generalprobe",
     "Hainer blockt Real Madrid ab: Olise ist nicht zu kaufen",
     "Schwerer Rückschlag: Lennart Karl fällt für die WM aus",
     "Brown blockt Bayern-Fragen ab: Fokus liegt auf der WM",
     "Saibari im Bayern-Visier: Medizincheck könnte in den USA stattfinden",
-    "Eichhorn-Transfer: Bayern intern uneins – nicht nur beim Preis",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-09-olise-dreierpack-bayern-star-glaenzt-bei-frankreic",
+      "date": "2026-06-09",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-06-09-olise-dreierpack-bayern-star-glaenzt-bei-frankreic.webp",
+      "thumbnailAlt": "Olise-Dreierpack: Bayern-Star glänzt bei Frankreichs WM-Generalprobe",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Olise-Dreierpack: Bayern-Star glänzt bei Frankreichs WM-Generalprobe",
+      "excerpt": "Michael Olise trifft dreifach beim 3:1 gegen Nordirland und führt Frankreich mit einem überragenden Auftritt in die WM.",
+      "body": "Michael Olise hat beim letzten WM-Test der französischen Nationalmannschaft einen eindrucksvollen Auftritt hingelegt. Wie der kicker berichtet, schnürte der Bayern-Angreifer beim 3:1-Sieg gegen Nordirland einen Dreierpack und war damit der entscheidende Mann in Frankreichs WM-Generalprobe. Die Équipe Tricolore reist demnach mit einem guten Gefühl in das Turnier.\n\nFür Olise war es ein besonderer Abend: Der 23-Jährige, der in der abgelaufenen Bundesliga-Saison unter Trainer Vincent Kompany zu einem der gefährlichsten Angreifer Europas gereift ist, übertrug seine Vereinsform nahtlos auf das Nationalteam. Drei Tore in einem einzigen Spiel unterstreichen, welches Gewicht der Flügelstürmer in der aktuellen Frankreich-Elf besitzt.\n\nDer kicker-Bericht hebt dabei hervor, dass Frankreich dank dieses überragenden Auftritts als Mitfavorit in die WM startet. Auch die Tagesschau-Sportschau bestätigt: Olises Gala war das herausragende Einzelerlebnis der Begegnung. Für den FC Bayern bedeutet das zugleich, dass einer ihrer Schlüsselspieler bestens in Form in das Turnier geht — und entsprechend mit hoher Belastung durch die WM-Wochen geführt wird.\n\nBesonders bemerkenswert ist die Rolle, die Olise inzwischen beim Nationalteam einnimmt. Laut Bavarian Football Works verbringt er auch im Vereinsleben viel Zeit mit seinem Landsmann und Bayern-Teamkollegen Dayot Upamecano, der ebenfalls zum französischen WM-Aufgebot gehört. Die Achse der beiden Münchner könnte sich auch im Turnier als wichtiger Faktor erweisen.\n\nFür den FC Bayern ist Olises Hochform eine erfreuliche Nachricht — auch wenn die Münchner ihren Star nun für mehrere Wochen an die Nationalmannschaft abtreten. Sollte Frankreich tief ins Turnier vorstoßen, könnte sich die Vorbereitung auf die neue Bundesliga-Saison 2025/26 entsprechend verkürzen. Zunächst aber dürfen die Bayern-Fans ihren Angreifer in einem der größten Fußballturniere der Welt beobachten — und nach dem Dreierpack gegen Nordirland mit einiger Spannung.",
+      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mnsnfpb3f72t",
+      "sourceName": "kicker (Bluesky)"
+    },
     {
       "slug": "2026-06-08-hainer-blockt-real-madrid-ab-olise-ist-nicht-zu-ka",
       "date": "2026-06-08",
@@ -479,22 +495,6 @@
       "excerpt": "Harry Kane hat mit seinem Hattrick im DFB-Pokalfinale gegen den VfB Stuttgart eine historische Marke erreicht und egalisiert einen Rekord von Cristiano Ronaldo.",
       "body": "Mit drei Treffern im DFB-Pokalfinale gegen den VfB Stuttgart hat Harry Kane seine Saisonausbeute auf 61 Tore in allen Wettbewerben gesteigert. Laut Bavarian Football Works egalisiert der englische Nationalmannschaftskapitän damit einen Rekord von Cristiano Ronaldo als treffsicherster Stürmer einer einzelnen Saison seit 2015.\n\nDer FCB gewann das Pokalfinale 3:0 und sicherte sich damit das nationale Double aus Bundesliga und DFB-Pokal. Kane war laut dem Bericht das Herzstück dieser Saison und trug maßgeblich dazu bei, dass die Münchner beide Titel einfahren konnten.\n\nDie Zahlen unterstreichen die außergewöhnliche Konstanz des Mittelstürmers im zweiten Jahr unter Trainer Vincent Kompany. Ob Kane seinen eigenen Maßstab in der kommenden Spielzeit weiter verschieben kann, bleibt abzuwarten – zumal seine Vertragsverlängerung beim FCB noch nicht abschließend geklärt ist.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-dfb-pokal/206472/insane-stat-harry-kane-equals-cristiano-ronaldo-for-most-goals-scored-in-a-single-season-since-2015",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-24-hoeness-schliesst-kane-wechsel-zu-barcelona-aus",
-      "date": "2026-05-24",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-24-hoeness-schliesst-kane-wechsel-zu-barcelona-aus.jpg",
-      "thumbnailAlt": "Hoeneß schließt Kane-Wechsel zu Barcelona aus",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Hoeneß schließt Kane-Wechsel zu Barcelona aus",
-      "excerpt": "Uli Hoeneß hat Spekulationen über ein Interesse des FC Barcelona an Harry Kane klar zurückgewiesen – mit einer unmissverständlichen Begründung.",
-      "body": "Laut Bavarian Football Works hat Uli Hoeneß Berichte über ein angebliches Interesse des FC Barcelona an Harry Kane deutlich dementiert. Der Ehrenpräsident des FC Bayern begründete seine Aussage damit, dass Barcelona schlicht nicht über die finanziellen Mittel für einen solchen Transfer verfüge.\n\nKane hatte im DFB-Pokalfinale gegen den VfB Stuttgart mit einem Hattrick maßgeblichen Anteil am 3:0-Sieg der Münchner. Mit 61 Saisontoren in allen Wettbewerben stellte der englische Nationalspieler laut Bavarian Football Works zudem einen Rekord auf, den zuletzt Cristiano Ronaldo seit 2015 erzielt hatte.\n\nDie Aussagen von Hoeneß kommen zu einem Zeitpunkt, an dem die Zukunft Kanes beim FCB ohnehin intensiv diskutiert wird. Eine Vertragsverlängerung gilt als grundsätzlich wahrscheinlich, über die Laufzeit besteht jedoch noch keine Einigung. Barcelonas angebliches Interesse dürfte damit vorerst keine praktische Relevanz entfalten.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-dfb-pokal/206468/bayern-munich-s-uli-hoeness-dismisses-fc-barcelona-s-interest-in-harry-kane-for-they-have-no-money",
       "sourceName": "Bavarian Football Works"
     }
   ],
