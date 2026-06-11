@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-10T21:33:48+00:00",
+  "lastUpdated": "2026-06-11T08:28:24+00:00",
   "tiktokStats": {
     "followers": 1454,
     "likes": "30K",
     "videos": 72
   },
   "ticker": [
+    "Itō vor Abgang: Bayern sucht Abnehmer für Verteidiger",
     "Olise-Dreierpack: Bayern-Star glänzt bei Frankreichs WM-Generalprobe",
     "Hainer blockt Real Madrid ab: Olise ist nicht zu kaufen",
     "Schwerer Rückschlag: Lennart Karl fällt für die WM aus",
     "Brown blockt Bayern-Fragen ab: Fokus liegt auf der WM",
-    "Saibari im Bayern-Visier: Medizincheck könnte in den USA stattfinden",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-11-it-vor-abgang-bayern-sucht-abnehmer-fuer-verteidig",
+      "date": "2026-06-11",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-06-11-it-vor-abgang-bayern-sucht-abnehmer-fuer-verteidig.webp",
+      "thumbnailAlt": "Itō vor Abgang: Bayern sucht Abnehmer für Verteidiger",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Itō vor Abgang: Bayern sucht Abnehmer für Verteidiger",
+      "excerpt": "Der FC Bayern hat die Berater von Hiroki Itō aufgefordert, einen neuen Verein zu finden. Der Japaner soll laut Sport Bild in die LaLiga wechseln wollen.",
+      "body": "Der FC Bayern trennt sich offenbar von Hiroki Itō. Laut einem Bericht von Sport Bild, den die Journalisten Julian Agardi, Christian Falk und Johannes Wolf gemeinsam verfasst haben und der über Bavarian Football Works aufgegriffen wurde, hat der Rekordmeister die Berater des japanischen Abwehrspielers aufgefordert, einen neuen Klub für ihren Mandanten zu finden.\n\nItō selbst soll dem Bericht zufolge einen Wechsel in die spanische LaLiga anstreben. Damit zeichnet sich nach nur einer Saison in München das Ende des Engagements des 24-jährigen Linksverteidigers ab. Bayern soll jedoch nicht bereit sein, jeden Preis zu akzeptieren, und erwartet eine Ablösesumme, die den eigenen Vorstellungen entspricht.\n\nItō war im Sommer 2024 von Stuttgarter VfB zum FC Bayern gewechselt und galt als langfristige Lösung auf der linken Abwehrseite. In der abgelaufenen Saison 2025/26 kämpfte er jedoch um Einsatzzeiten und konnte sich gegen die Konkurrenz auf seiner Position nicht dauerhaft durchsetzen. Mit Raphael Guerreiro und Alphonso Davies stehen auf dieser Position zwei weitere Optionen zur Verfügung, was Itōs Chancen auf regelmäßige Spielzeit erheblich einschränkte.\n\nFür den FCB stellt ein möglicher Itō-Verkauf gleichzeitig eine Frage der Kaderzusammenstellung dar. Die linke Abwehrseite ist mit Guerreiro und Davies doppelt besetzt, sodass der Abgang des Japaners die Tiefe im Kader dort verringern würde. Ob Bayern einen Ersatz einplant oder bewusst schlanker plant, geht aus dem Bericht nicht hervor.\n\nDer Transfermarkt hat für den Rekordmeister in diesem Sommer mehrere Baustellen. Der Fall Itō zeigt, dass nicht nur Zugänge, sondern auch Abgänge aktiv gesteuert werden. Ob sich ein interessierter Verein aus Spanien findet und zu welchen Konditionen ein Deal zustande kommen könnte, dürfte sich in den kommenden Wochen entscheiden.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/transfer-rumors/213575/bayern-munich-ito-arsenal-real-madrid-fc-barcelona-tottenham-manchester-united-city-liverpool-chelsea-arsenal",
+      "sourceName": "Sport Bild (via Bavarian Football Works)"
+    },
     {
       "slug": "2026-06-09-olise-dreierpack-bayern-star-glaenzt-bei-frankreic",
       "date": "2026-06-09",
@@ -480,22 +496,6 @@
       "body": "Leon Goretzka verlässt den FC Bayern München nach Jahren, die von Höhen und Tiefen geprägt waren. Wie der Spiegel berichtet, endete seine Zeit beim Rekordmeister mit einem Abschied, der sich bereits länger abgezeichnet hatte. Einst als einer der Führungsspieler der Zukunft gehandelt, verlor der Mittelfeldspieler zunehmend an Bedeutung.\n\nAls zentraler Grund nennt der Spiegel das Spielsystem von Trainer Vincent Kompany. Dessen taktische Ausrichtung ließ für Goretzkas Qualitäten schlicht keinen Platz mehr. Der Mittelfeldspieler fand sich in der Hierarchie weit hinten wieder – hinter Spielern wie Joshua Kimmich, Aleksandar Pavlović und Joao Palhinha.\n\nDamit endet eine Karriere beim FCB, die einst mit großen Erwartungen begann. Goretzka galt lange als Symbol für den modernen Bayern-Fußball. Dass sein Abgang nun so still vollzogen wird, steht in deutlichem Kontrast zu seinen stärksten Jahren im Münchner Trikot.",
       "sourceUrl": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-leon-goretzkas-abschied-und-die-bilanz-seiner-zeit-beim-fcb-a-8da15ea4-2a4e-4e84-b880-3f7161fb06f6#ref=rss",
       "sourceName": "Spiegel Sport"
-    },
-    {
-      "slug": "2026-05-24-kane-egalisiert-ronaldo-rekord-mit-61-saisontoren",
-      "date": "2026-05-24",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-24-kane-egalisiert-ronaldo-rekord-mit-61-saisontoren.jpg",
-      "thumbnailAlt": "Kane egalisiert Ronaldo-Rekord mit 61 Saisontoren",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Kane egalisiert Ronaldo-Rekord mit 61 Saisontoren",
-      "excerpt": "Harry Kane hat mit seinem Hattrick im DFB-Pokalfinale gegen den VfB Stuttgart eine historische Marke erreicht und egalisiert einen Rekord von Cristiano Ronaldo.",
-      "body": "Mit drei Treffern im DFB-Pokalfinale gegen den VfB Stuttgart hat Harry Kane seine Saisonausbeute auf 61 Tore in allen Wettbewerben gesteigert. Laut Bavarian Football Works egalisiert der englische Nationalmannschaftskapitän damit einen Rekord von Cristiano Ronaldo als treffsicherster Stürmer einer einzelnen Saison seit 2015.\n\nDer FCB gewann das Pokalfinale 3:0 und sicherte sich damit das nationale Double aus Bundesliga und DFB-Pokal. Kane war laut dem Bericht das Herzstück dieser Saison und trug maßgeblich dazu bei, dass die Münchner beide Titel einfahren konnten.\n\nDie Zahlen unterstreichen die außergewöhnliche Konstanz des Mittelstürmers im zweiten Jahr unter Trainer Vincent Kompany. Ob Kane seinen eigenen Maßstab in der kommenden Spielzeit weiter verschieben kann, bleibt abzuwarten – zumal seine Vertragsverlängerung beim FCB noch nicht abschließend geklärt ist.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-dfb-pokal/206472/insane-stat-harry-kane-equals-cristiano-ronaldo-for-most-goals-scored-in-a-single-season-since-2015",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
