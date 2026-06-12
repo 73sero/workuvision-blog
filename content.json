@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-12T12:50:07+00:00",
+  "lastUpdated": "2026-06-12T17:59:39+00:00",
   "tiktokStats": {
     "followers": 1454,
     "likes": "30K",
     "videos": 73
   },
   "ticker": [
+    "Wechsel von Nathaniel Brown zum FCB rückt näher",
     "Kane und Olise in der ESM-Elf der Saison 2025/26",
     "Itō vor Abgang: Bayern sucht Abnehmer für Verteidiger",
     "Olise-Dreierpack: Bayern-Star glänzt bei Frankreichs WM-Generalprobe",
     "Hainer blockt Real Madrid ab: Olise ist nicht zu kaufen",
-    "Schwerer Rückschlag: Lennart Karl fällt für die WM aus",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-12-wechsel-von-nathaniel-brown-zum-fcb-rueckt-naeher",
+      "date": "2026-06-12",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-06-12-wechsel-von-nathaniel-brown-zum-fcb-rueckt-naeher.webp",
+      "thumbnailAlt": "Wechsel von Nathaniel Brown zum FCB rückt näher",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Wechsel von Nathaniel Brown zum FCB rückt näher",
+      "excerpt": "Der FC Bayern und Eintracht Frankfurt nähern sich in den Verhandlungen um Nathaniel Brown an. Laut NTV Sport sollen die Münchner bereit sein, eine Rekordablöse zu zahlen.",
+      "body": "Der FC Bayern treibt die Verpflichtung von Nathaniel Brown offenbar mit Nachdruck voran. Laut NTV Sport nähern sich die Münchner und Eintracht Frankfurt in den Verhandlungen deutlich an — der Bundesligist sei bereit, eine satte Ablöse für den deutschen Nationalspieler zu zahlen. Für Frankfurt würde der Transfer eine Rekordeinnahme bedeuten. Sky berichtete zuvor exklusiv, dass beide Klubs in den Gesprächen Fortschritte erzielt hätten.\n\nBrown gilt als eines der vielversprechendsten Talente im deutschen Fußball. Der Außenverteidiger steht bei Eintracht Frankfurt unter Vertrag und hat sich in der abgelaufenen Saison als Stammspieler in der Bundesliga etabliert. Sein Profil — ein offensiv starker, robuster Rechtsverteidiger mit guter Strafraumaktion — passt in das Anforderungsprofil, das Trainer Vincent Kompany für seine Hintermannschaft formuliert hat.\n\nFür den FCB hätte die Verpflichtung taktische Relevanz: In der Defensive setzt Kompany auf einen modernen, spielerisch versierten Kader. Mit Sacha Boey steht zwar ein Rechtsvollback im Aufgebot, doch dessen Verletzungshistorie macht eine zusätzliche Option auf dieser Position nachvollziehbar. Brown könnte entsprechende Konkurrenz und Absicherung zugleich bieten.\n\nFür Eintracht Frankfurt käme ein solcher Transfer zur rechten Zeit: Der Klub würde von einer Rekordsumme profitieren und sich damit finanziellen Spielraum für eigene Verstärkungen verschaffen. Wie hoch die konkrete Ablöse ausfallen soll, nennt NTV Sport nicht — dem Bericht zufolge signalisieren die Bayern jedoch grundsätzliche Bereitschaft, den Frankfurter Forderungen entgegenzukommen.\n\nEin abschließender Abschluss ist noch nicht vermeldet worden. Die Annäherung beider Klubs lässt aber darauf schließen, dass eine Einigung in absehbarer Zeit möglich ist. Browns Wunsch, zu den Bayern zu wechseln, gilt laut NTV Sport als bekannt.",
+      "sourceUrl": "https://www.n-tv.de/sport/fussball/1bundesliga/Rekord-Abloese-Wechsel-von-Brown-zum-FC-Bayern-rueckt-naeher-id30961147.html",
+      "sourceName": "NTV Sport"
+    },
     {
       "slug": "2026-06-12-kane-und-olise-in-der-esm-elf-der-saison-2025-26",
       "date": "2026-06-12",
@@ -480,22 +496,6 @@
       "body": "Laut Bavarian Football Works hat Bayern-Sportvorstand Max Eberl die zuletzt kursierenden Spekulationen über einen möglichen Transfer von John Stones erheblich gedämpft. Der englische Nationalspieler verlässt Manchester City nach zehn Jahren ablösefrei und war dabei auch mit dem deutschen Rekordmeister in Verbindung gebracht worden.\n\nEberl stellte laut dem Bericht klar, dass der FCB zwar grundsätzlich den Markt für Defensivspieler beobachte, von einem konkreten Interesse an Stones jedoch keine Rede sein könne. Bayern verfügt in der Innenverteidigung mit Dayot Upamecano, Min-Jae Kim, Jonathan Tah und Hiroki Itō bereits über eine gut besetzte Viererreihe.\n\nDie Personalie Stones bleibt damit vorerst ohne Bayern-Dimension. Für den FCB dürfte nach dem gewonnenen Double die Kaderplanung im Sommer dennoch ein zentrales Thema bleiben — Eberl hatte zuletzt signalisiert, gezielt und mit Bedacht in den Transfermarkt eingreifen zu wollen.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/205995/max-eberl-throws-cold-water-on-john-stones-bayern-munich-links",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-24-kane-spricht-klartext-kein-grund-bayern-zu-verlass",
-      "date": "2026-05-24",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-24-kane-spricht-klartext-kein-grund-bayern-zu-verlass.jpg",
-      "thumbnailAlt": "Kane spricht Klartext: Kein Grund, Bayern zu verlassen",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Kane spricht Klartext: Kein Grund, Bayern zu verlassen",
-      "excerpt": "Nach dem Hut-Trick im DFB-Pokalfinale äußert sich Harry Kane zu seiner Zukunft – und lässt keine Zweifel an seinem Verbleib in München.",
-      "body": "Harry Kane hat nach dem DFB-Pokalfinale gegen den VfB Stuttgart Spekulationen über einen Abgang aus München klar zurückgewiesen. Laut der Süddeutschen Zeitung entschied der Engländer das Endspiel mit drei Treffern und war damit der überragende Akteur eines langen Abends, an dem sich der FC Bayern zunächst schwer getan hatte.\n\nGegenüber Medienvertretern stellte Kane laut Bavarian Football Works unmissverständlich klar, er sehe keinen Grund, die Bayern zu verlassen. Einen neuen Vertrag soll er dennoch nicht unmittelbar unterzeichnen wollen – der aktuelle Kontrakt läuft vorerst weiter.\n\nDer Stürmer bestätigte damit seinen Status als zentraler Baustein unter Trainer Vincent Kompany. Mit dem Pokalsieg hat der Rekordmeister in dieser Saison das Double geholt. Kanes Aussagen dürften die Planungssicherheit im Transfersommer erhöhen – zumal zuletzt auch über eine mögliche Vertragsverlängerung diskutiert worden war.",
-      "sourceUrl": "https://www.sueddeutsche.de/sport/dfb-pokal-bayern-harry-kane-tore-millionen-vertrag-li.3488219",
-      "sourceName": "Süddeutsche Zeitung"
     }
   ],
   "tiktokVideosAuto": false,
