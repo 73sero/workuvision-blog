@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-11T18:40:56+00:00",
+  "lastUpdated": "2026-06-12T08:16:35+00:00",
   "tiktokStats": {
-    "followers": 1454,
+    "followers": 1453,
     "likes": "30K",
     "videos": 73
   },
   "ticker": [
+    "Kane und Olise in der ESM-Elf der Saison 2025/26",
     "Itō vor Abgang: Bayern sucht Abnehmer für Verteidiger",
     "Olise-Dreierpack: Bayern-Star glänzt bei Frankreichs WM-Generalprobe",
     "Hainer blockt Real Madrid ab: Olise ist nicht zu kaufen",
     "Schwerer Rückschlag: Lennart Karl fällt für die WM aus",
-    "Brown blockt Bayern-Fragen ab: Fokus liegt auf der WM",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-12-kane-und-olise-in-der-esm-elf-der-saison-2025-26",
+      "date": "2026-06-12",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/hero.jpg",
+      "thumbnailAlt": "Kane und Olise in der ESM-Elf der Saison 2025/26",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Kane und Olise in der ESM-Elf der Saison 2025/26",
+      "excerpt": "Harry Kane erhielt die meisten Stimmen, Michael Olise wurde ebenfalls ausgezeichnet: Die Bayern-Offensive dominiert die ESM-Elf der Saison 2025/26.",
+      "body": "Der FC Bayern stellt gleich zwei Spieler in der ESM-Elf der Saison 2025/26. Wie der kicker berichtet, wurden Harry Kane und Michael Olise von den europäischen Sportjournalisten für die Mannschaft des Jahres nominiert — Kane dabei mit den meisten Stimmen aller Spieler in der Wertung.\n\nDie Auszeichnung spiegelt eine Saison wider, in der die Münchner Offensive sowohl national als auch international konstant für Tore und Vorlagen sorgte. Laut kicker zeigte sich die Bayern-Angriffsreihe dabei in beiden Wettbewerben gleichermaßen treffsicher — ein Beleg für die Breite und Qualität, die Trainer Vincent Kompany in der Offensive zur Verfügung standen.\n\nFür Kane ist die Aufnahme in die ESM-Elf eine weitere persönliche Auszeichnung in einem bemerkenswerten Jahr: Erst kürzlich wurde der englische Nationalstürmer mit dem Goldenen Schuh geehrt. Die Wahl in die Mannschaft des Jahres durch die europäischen Sportjournalisten unterstreicht seine Stellung als einer der dominierenden Mittelstürmer des Kontinents. Auch Olise, der im Sommer 2024 von Crystal Palace nach München gewechselt war, bestätigt mit der Auszeichnung seine starke Entwicklung im Bayern-Trikot.\n\nDie ESM-Elf — kurz für European Sports Media Elf — wird jährlich von einem Verbund europäischer Sportredaktionen gewählt und gilt als einer der renommiertesten Kollektivpreise im Vereinsfußball. Dass gleich zwei Münchner Offensivspieler berücksichtigt wurden, zeigt, wie sehr der FCB die Diskussion um die besten Angreifer Europas in dieser Spielzeit geprägt hat.\n\nFür den Rekordmeister ist die Doppelauszeichnung auch ein Argument für die kommende Saison: Mit Kane und Olise als bestätigten Leistungsträgern — und einer Breite im Kader, die durch Zugänge wie Luis Díaz ergänzt wurde — gehen die Münchner mit klaren Ambitionen in das neue Spieljahr unter Kompany.",
+      "sourceUrl": "https://www.kicker.de/die-bundesliga-ist-zurueck-kane-mit-den-meisten-stimmen-die-esm-elf-der-saison-2025-26-1227025/artikel#omrss",
+      "sourceName": "kicker News"
+    },
     {
       "slug": "2026-06-11-it-vor-abgang-bayern-sucht-abnehmer-fuer-verteidig",
       "date": "2026-06-11",
@@ -480,22 +496,6 @@
       "body": "Harry Kane hat nach dem DFB-Pokalfinale gegen den VfB Stuttgart Spekulationen über einen Abgang aus München klar zurückgewiesen. Laut der Süddeutschen Zeitung entschied der Engländer das Endspiel mit drei Treffern und war damit der überragende Akteur eines langen Abends, an dem sich der FC Bayern zunächst schwer getan hatte.\n\nGegenüber Medienvertretern stellte Kane laut Bavarian Football Works unmissverständlich klar, er sehe keinen Grund, die Bayern zu verlassen. Einen neuen Vertrag soll er dennoch nicht unmittelbar unterzeichnen wollen – der aktuelle Kontrakt läuft vorerst weiter.\n\nDer Stürmer bestätigte damit seinen Status als zentraler Baustein unter Trainer Vincent Kompany. Mit dem Pokalsieg hat der Rekordmeister in dieser Saison das Double geholt. Kanes Aussagen dürften die Planungssicherheit im Transfersommer erhöhen – zumal zuletzt auch über eine mögliche Vertragsverlängerung diskutiert worden war.",
       "sourceUrl": "https://www.sueddeutsche.de/sport/dfb-pokal-bayern-harry-kane-tore-millionen-vertrag-li.3488219",
       "sourceName": "Süddeutsche Zeitung"
-    },
-    {
-      "slug": "2026-05-24-goretzkas-bayern-abschied-das-ende-einer-wechselha",
-      "date": "2026-05-24",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-24-goretzkas-bayern-abschied-das-ende-einer-wechselha.jpg",
-      "thumbnailAlt": "Goretzkas Bayern-Abschied: Das Ende einer wechselhaften Ära",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Goretzkas Bayern-Abschied: Das Ende einer wechselhaften Ära",
-      "excerpt": "Leon Goretzka verlässt den FC Bayern. Der Spiegel zieht eine Bilanz über einen Spieler, der einst als Zukunftshoffnung galt – und zuletzt nicht mehr gebraucht wurde.",
-      "body": "Leon Goretzka verlässt den FC Bayern München nach Jahren, die von Höhen und Tiefen geprägt waren. Wie der Spiegel berichtet, endete seine Zeit beim Rekordmeister mit einem Abschied, der sich bereits länger abgezeichnet hatte. Einst als einer der Führungsspieler der Zukunft gehandelt, verlor der Mittelfeldspieler zunehmend an Bedeutung.\n\nAls zentraler Grund nennt der Spiegel das Spielsystem von Trainer Vincent Kompany. Dessen taktische Ausrichtung ließ für Goretzkas Qualitäten schlicht keinen Platz mehr. Der Mittelfeldspieler fand sich in der Hierarchie weit hinten wieder – hinter Spielern wie Joshua Kimmich, Aleksandar Pavlović und Joao Palhinha.\n\nDamit endet eine Karriere beim FCB, die einst mit großen Erwartungen begann. Goretzka galt lange als Symbol für den modernen Bayern-Fußball. Dass sein Abgang nun so still vollzogen wird, steht in deutlichem Kontrast zu seinen stärksten Jahren im Münchner Trikot.",
-      "sourceUrl": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-leon-goretzkas-abschied-und-die-bilanz-seiner-zeit-beim-fcb-a-8da15ea4-2a4e-4e84-b880-3f7161fb06f6#ref=rss",
-      "sourceName": "Spiegel Sport"
     }
   ],
   "tiktokVideosAuto": false,
