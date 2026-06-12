@@ -243,6 +243,8 @@ def build_sitemap(articles: list) -> str:
     static = [
         (f"{SITE}/", today, "1.0", "daily"),
         (f"{SITE}/archiv.html", today, "0.8", "daily"),
+        (f"{SITE}/impressum.html", today, "0.2", "yearly"),
+        (f"{SITE}/datenschutz.html", today, "0.2", "yearly"),
     ]
     article_entries = sorted(
         ((article_url(a["slug"]), a.get("date", today), "0.7", "weekly") for a in articles),

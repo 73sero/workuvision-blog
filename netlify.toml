@@ -1,0 +1,10 @@
+# Netlify-Konfiguration für Workuvision.
+# Die Seite ist statisch (Publish-Verzeichnis = Repo-Root); zusätzlich
+# stellen wir eine Serverless-Funktion für die Newsletter-Anmeldung bereit.
+
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"

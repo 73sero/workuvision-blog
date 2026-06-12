@@ -58,7 +58,7 @@ Läuft automatisch nach dem ersten Push. **Kein Setup nötig.** Das Script liest
 ## Aktueller Status der Webseite (Live-Check 28.04.2026)
 
 ✅ DSGVO-konform (lokale Fonts, vollständige DSE)
-✅ Newsletter mit Pflicht-Checkbox + Netlify Forms
+✅ Newsletter mit Pflicht-Checkbox + echtem Double-Opt-In (Brevo) — siehe „Newsletter-Setup" unten
 ✅ Live-Ticker, Live-Stats, Countdown
 ✅ Decap CMS funktioniert
 ✅ Mobile responsive
@@ -104,7 +104,7 @@ Sag Bescheid wenn das gewünscht ist.
 | Service | Free | Bezahlt |
 |---|---|---|
 | Netlify Hosting | ✅ | — |
-| Netlify Forms | ✅ (100 Submissions/Monat) | — |
+| Brevo Newsletter (DOI) | ✅ (300 Mails/Tag) | — |
 | OpenLigaDB | ✅ | — |
 | YouTube Data API | ✅ (10k Calls/Tag) | — |
 | TikTok-Scraping | ✅ (eigenes Script) | — |
@@ -184,3 +184,43 @@ Die „Nächstes Spiel"-Box ist jetzt smart:
 
 ⚠️ **Wichtig:** OpenLigaDB enthält **keine CL-Spiele**, nur Bundesliga + 2. Liga.
 CL-Halbfinale & Co laufen daher über die News-Aggregation, nicht über den Match-Reporter.
+
+---
+
+# Newsletter-Setup (Brevo · Double-Opt-In)
+
+Das Anmeldeformular schickt die E-Mail an die Netlify-Funktion
+`netlify/functions/subscribe.js`. Diese ruft Brevo auf, das eine
+**Bestätigungsmail (Double-Opt-In)** verschickt. Erst nach Klick auf den Link
+landet die Adresse im Verteiler. Damit ist der Versand rechtssicher (DSGVO /
+§ 7 UWG). Brevo ist ein EU-Anbieter (Paris), Free-Tier: 300 Mails/Tag.
+
+**Einmalige Einrichtung — ohne diese Schritte ist das Formular bewusst inaktiv
+(zeigt „Newsletter ist noch nicht konfiguriert"):**
+
+1. **Brevo-Konto anlegen** auf https://www.brevo.com (kostenlos).
+2. **Kontaktliste erstellen**: Contacts → Lists → New list. Die **List-ID**
+   (Zahl) merken.
+3. **Double-Opt-In-Vorlage erstellen**: Contacts → Forms → bzw. eine
+   DOI-Vorlage anlegen (E-Mail mit Bestätigungslink). Die **Template-ID** merken.
+4. **AV-Vertrag (AVV)** in den Brevo-Konto-Einstellungen aktivieren/herunterladen
+   (für die Datenschutzerklärung, Art. 28 DSGVO).
+5. **API-Key** holen: SMTP & API → API Keys → neuen Key erstellen, kopieren.
+6. **In Netlify** unter *Site settings → Environment variables* setzen:
+   - `BREVO_API_KEY` = dein API-Key
+   - `BREVO_LIST_ID` = die List-ID (Zahl)
+   - `BREVO_DOI_TEMPLATE_ID` = die Template-ID (Zahl)
+   - *(optional)* `DOI_REDIRECT_URL` = `https://workuvision.de/newsletter-bestaetigt.html`
+7. **Neu deployen** (Netlify deployt bei jedem Push automatisch). Danach
+   einmal mit einer echten Adresse testen: Anmelden → Bestätigungsmail klicken →
+   Weiterleitung auf `newsletter-bestaetigt.html` → Adresse erscheint in der
+   Brevo-Liste.
+
+**Versenden:** Newsletter werden in Brevo geschrieben und an die Liste
+verschickt (nicht über diese Website). Brevo hängt den Abmeldelink automatisch
+an jede Mail — Pflicht und bereits in der Datenschutzerklärung beschrieben.
+
+**Hinweis:** Der frühere Netlify-Forms-Versand (`data-netlify`) wurde entfernt,
+weil er keinen Double-Opt-In leisten konnte. Falls in den Netlify-Form-Daten noch
+alte, **unbestätigte** Adressen liegen: diese **nicht** anschreiben (keine
+nachweisbare Einwilligung) — nur über das neue DOI gesammelte Adressen nutzen.

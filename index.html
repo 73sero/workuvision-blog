@@ -295,16 +295,15 @@
   <div class="nls rv" id="newsletter">
     <div><div class="st">Immer informiert</div><h2 class="nlt">Kein Bayern-Take verpassen</h2><p class="nld">Wöchentliche Taktik-Analysen, Transfer-Gerüchte und Spieltags-Reaktionen — jeden Montag direkt in dein Postfach.</p></div>
     <div>
-      <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="nl-wrap" id="nlF" onsubmit="return hS(event)">
-        <input type="hidden" name="form-name" value="newsletter">
-        <p style="display:none"><input name="bot-field"></p>
+      <form class="nl-wrap" id="nlF" onsubmit="return hS(event)" novalidate>
+        <input type="text" id="nlHP" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
         <div class="nlf">
           <input type="email" name="email" class="nli" id="nlI" placeholder="deine@email.de" aria-label="E-Mail" required>
           <button type="submit" class="nlb">Abonnieren</button>
         </div>
-        <label class="nlchk"><input type="checkbox" name="datenschutz" id="nlC" required> <span>Ich akzeptiere die <a href="#" onclick="oM('dsg');return false">Datenschutzerklärung</a> und stimme dem Erhalt des Newsletters zu. Widerruf jederzeit per Link in jeder Mail möglich.</span></label>
+        <label class="nlchk"><input type="checkbox" name="datenschutz" id="nlC" required> <span>Ich akzeptiere die <a href="/datenschutz.html" target="_blank" rel="noopener">Datenschutzerklärung</a> und möchte den Newsletter abonnieren. Meine Anmeldung bestätige ich per Double-Opt-In-Link; Abmeldung jederzeit möglich.</span></label>
       </form>
-      <div class="nlok" id="nlO">✓ Danke! Bitte bestätige deine E-Mail über den Link, den wir dir geschickt haben.</div>
+      <div class="nlok" id="nlO">✓ Fast geschafft! Wir haben dir eine Bestätigungsmail geschickt. Klicke den Link darin, um deine Anmeldung zu aktivieren.</div>
       <p class="nlnt">Kostenlos · Kein Spam · Jederzeit abbestellbar · DSGVO-konform · Double-Opt-In</p>
     </div>
   </div>
@@ -314,61 +313,13 @@
       <div><div class="fbn">Workuvision</div><p class="fbd">Unabhängiger FC Bayern München Content. Fußball-Analysen & Bayern-Takes ⚽📊 — von einem Fan, für Fans.</p></div>
       <div class="fc"><div class="fct">Inhalte</div><a href="#">Taktik-Analysen</a><a href="#">Fan-Reaktionen</a><a href="#">Transfer-News</a><a href="#">Spielvorschauen</a></div>
       <div class="fc"><div class="fct">Folgen</div><a href="https://www.tiktok.com/@workuvision" target="_blank" rel="noopener">TikTok · @workuvision</a><a href="https://www.instagram.com/workuvision" target="_blank" rel="noopener">Instagram · @workuvision</a><a href="https://www.youtube.com/@workuvision" target="_blank" rel="noopener">YouTube · @workuvision</a><a href="https://linktr.ee/workuvision" target="_blank" rel="noopener">Linktree</a></div>
-      <div class="fc"><div class="fct">Rechtliches</div><a href="#" onclick="oM('imp');return false">Impressum</a><a href="#" onclick="oM('dsg');return false">Datenschutz</a><a href="mailto:workuvision%40gmx.de">Kontakt</a></div>
+      <div class="fc"><div class="fct">Rechtliches</div><a href="/impressum.html">Impressum</a><a href="/datenschutz.html">Datenschutz</a><a href="mailto:workuvision%40gmx.de">Kontakt</a></div>
     </div>
     <div class="fbt"><span class="fbc">© 2026 WORKUVISION · NICHT VERBUNDEN MIT FC BAYERN MÜNCHEN AG</span><div class="fbs"><a href="https://www.tiktok.com/@workuvision" target="_blank" rel="noopener" aria-label="TikTok">TK</a><a href="https://www.instagram.com/workuvision" target="_blank" rel="noopener" aria-label="Instagram">IG</a><a href="https://www.youtube.com/@workuvision" target="_blank" rel="noopener" aria-label="YouTube">YT</a><a href="https://linktr.ee/workuvision" target="_blank" rel="noopener" aria-label="Linktree">LT</a></div></div>
     <div style="text-align:center;padding:1rem 0 .2rem;font-family:var(--fm);font-size:.46rem;font-weight:500;letter-spacing:2px;color:var(--gray);text-transform:uppercase">Designed &amp; built by <a href="https://www.linkedin.com/in/serdar-saglam/" target="_blank" rel="author noopener" style="color:var(--white)">Serdar Saglam</a></div>
   </footer>
 
-  <div class="mo" id="m-imp"><div class="mdl"><button class="mx" onclick="cM('imp')" aria-label="Schließen">✕</button><h2>Impressum</h2><h3>Angaben gemäß § 5 TMG</h3><p>Abdel Worku<br>Hansaallee 139a<br>60320 Frankfurt am Main<br>Deutschland</p><h3>Kontakt</h3><p>E-Mail: <a href="mailto:workuvision%40gmx.de" style="color:var(--red)">workuvision&#64;gmx.de</a><br>Instagram: <a href="https://www.instagram.com/workuvision" target="_blank" rel="noopener" style="color:var(--red)">@workuvision</a><br>TikTok: <a href="https://www.tiktok.com/@workuvision" target="_blank" rel="noopener" style="color:var(--red)">@workuvision</a><br>YouTube: <a href="https://www.youtube.com/@workuvision" target="_blank" rel="noopener" style="color:var(--red)">@workuvision</a></p><h3>Redaktionell verantwortlich</h3><p>Abdel Worku · Hansaallee 139a · 60320 Frankfurt am Main</p><h3>Haftungsausschluss</h3><p>Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität kann keine Gewähr übernommen werden. Dieses Projekt ist nicht verbunden mit dem FC Bayern München AG.</p></div></div>
-
-  <div class="mo" id="m-dsg"><div class="mdl"><button class="mx" onclick="cM('dsg')" aria-label="Schließen">✕</button><h2>Datenschutzerklärung</h2>
-
-  <h3>1. Verantwortlicher</h3>
-  <p>Verantwortlich im Sinne der DSGVO ist:<br>Abdel Worku · Hansaallee 139a · 60320 Frankfurt am Main · Deutschland<br>E-Mail: workuvision&#64;gmx.de</p>
-
-  <h3>2. Allgemeines zur Datenverarbeitung</h3>
-  <p>Wir verarbeiten personenbezogene Daten unserer Nutzer grundsätzlich nur, soweit dies zur Bereitstellung einer funktionsfähigen Website sowie unserer Inhalte und Leistungen erforderlich ist. Rechtsgrundlagen sind insbesondere Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), Art. 6 Abs. 1 lit. b DSGVO (Vertrag/vorvertragliche Maßnahmen) und Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse).</p>
-
-  <h3>3. Hosting (Netlify)</h3>
-  <p>Diese Website wird bei Netlify, Inc. (44 Montgomery Street, Suite 300, San Francisco, California 94104, USA) gehostet. Beim Aufruf werden technisch erforderliche Daten verarbeitet: IP-Adresse, Datum und Uhrzeit der Anfrage, übertragene Datenmenge, Referrer, Browsertyp und Betriebssystem. Speicherdauer: maximal 30 Tage. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (sichere und stabile Bereitstellung der Website). Mit Netlify besteht ein Auftragsverarbeitungsvertrag (DPA) inkl. EU-Standardvertragsklauseln.</p>
-
-  <h3>4. Schriftarten</h3>
-  <p>Diese Website nutzt Schriftarten, die lokal vom Webserver geladen werden. Es findet <strong>keine Verbindung zu Google-Servern</strong> statt; Ihre IP-Adresse wird nicht an Google übertragen.</p>
-
-  <h3>5. Newsletter (Netlify Forms)</h3>
-  <p>Beim Abonnement unseres Newsletters verarbeiten wir Ihre E-Mail-Adresse zum Zweck des Newsletter-Versands. Die Übermittlung des Formulars erfolgt über Netlify Forms (Anbieter: Netlify, Inc., USA). Wir nutzen das Double-Opt-In-Verfahren: Nach der Eintragung erhalten Sie eine Bestätigungsmail mit einem Aktivierungslink. Erst nach Klick wird Ihre Adresse für den Versand freigeschaltet. Wir protokollieren Anmeldezeitpunkt und Bestätigungszeitpunkt zum Nachweis der Einwilligung. Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO. Die Einwilligung kann jederzeit über den Abmeldelink in jeder E-Mail oder per E-Mail an workuvision&#64;gmx.de widerrufen werden.</p>
-
-  <h3>6. Live-Daten (OpenLigaDB)</h3>
-  <p>Zur Anzeige der aktuellen Bundesliga-Tabelle und nächster Spieltermine ruft Ihr Browser Daten von der API <code>api.openligadb.de</code> ab (Anbieter: HTTP Joe, Deutschland). Dabei wird Ihre IP-Adresse an den API-Server übermittelt. Es werden keine personenbezogenen Daten gespeichert oder profiliert. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an aktuellen Sport-Daten).</p>
-
-  <h3>7. Server-Log-Dateien</h3>
-  <p>Der Hosting-Anbieter erfasst automatisch Daten in sog. Server-Log-Dateien: Browsertyp, Betriebssystem, Referrer-URL, Hostname des zugreifenden Rechners, Uhrzeit der Serveranfrage, IP-Adresse. Eine Zusammenführung mit anderen Datenquellen erfolgt nicht. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Diese Daten werden für maximal 30 Tage gespeichert.</p>
-
-  <h3>8. Cookies</h3>
-  <p>Diese Website verwendet derzeit <strong>keine Cookies</strong> und keine Analyse- oder Tracking-Tools. Sollte sich daran etwas ändern, wird vorab ein Consent-Banner mit Auswahlmöglichkeit eingeblendet.</p>
-
-  <h3>9. Google Search Console</h3>
-  <p>Zur Indexierungs-Verifikation für Google Search Console ist eine Meta-Verification-Tag im Quellcode hinterlegt. Diese Verifikation alleine setzt keine Cookies und überträgt keine personenbezogenen Daten an Google.</p>
-
-  <h3>10. Externe Inhalte und Links</h3>
-  <p>Wir verlinken auf externe Plattformen (TikTok, Instagram, YouTube, Linktree). Beim Klick auf diese Links werden Sie auf die jeweilige Plattform weitergeleitet, wo deren Datenschutzbestimmungen gelten. Es findet keine automatische Datenübertragung an diese Anbieter beim bloßen Aufruf unserer Seite statt (keine eingebetteten Inhalte, sondern nur Links).</p>
-
-  <h3>11. Content-Management (Decap CMS)</h3>
-  <p>Der Adminbereich dieser Website (<code>/admin/</code>) ist durch Netlify Identity geschützt und nicht öffentlich zugänglich. Er ist nur für autorisierte Redakteure zur Pflege der Inhalte vorgesehen. Suchmaschinen werden über die Datei <code>robots.txt</code> sowie das Meta-Tag <code>noindex</code> ausgeschlossen.</p>
-
-  <h3>12. Ihre Rechte</h3>
-  <p>Sie haben jederzeit folgende Rechte gegenüber uns:</p>
-  <p>• <strong>Auskunft</strong> über Ihre verarbeiteten Daten (Art. 15 DSGVO)<br>• <strong>Berichtigung</strong> unrichtiger Daten (Art. 16 DSGVO)<br>• <strong>Löschung</strong> Ihrer Daten (Art. 17 DSGVO)<br>• <strong>Einschränkung</strong> der Verarbeitung (Art. 18 DSGVO)<br>• <strong>Datenübertragbarkeit</strong> (Art. 20 DSGVO)<br>• <strong>Widerspruch</strong> gegen die Verarbeitung (Art. 21 DSGVO)<br>• <strong>Widerruf</strong> einer erteilten Einwilligung mit Wirkung für die Zukunft (Art. 7 Abs. 3 DSGVO)</p>
-  <p>Zur Ausübung schreiben Sie uns formlos an workuvision&#64;gmx.de.</p>
-
-  <h3>13. Beschwerderecht</h3>
-  <p>Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren. Zuständig für uns:<br>Der Hessische Beauftragte für Datenschutz und Informationsfreiheit (HBDI)<br>Postfach 3163 · 65021 Wiesbaden<br>poststelle@datenschutz.hessen.de</p>
-
-  <h3>14. Aktualität dieser Erklärung</h3>
-  <p>Stand: April 2026. Wir behalten uns vor, die Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht.</p>
-
-  </div></div>
+  <!-- Impressum & Datenschutz als eigenständige Seiten: /impressum.html und /datenschutz.html -->
 
   <button class="btt" id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
@@ -740,13 +691,16 @@
     /* ===== Newsletter ===== */
     function hS(e){
       e.preventDefault();
-      const i=document.getElementById('nlI'),f=document.getElementById('nlF'),o=document.getElementById('nlO'),c=document.getElementById('nlC');
+      const i=document.getElementById('nlI'),f=document.getElementById('nlF'),o=document.getElementById('nlO'),c=document.getElementById('nlC'),hp=document.getElementById('nlHP'),btn=f.querySelector('.nlb');
       if(!c.checked){c.parentElement.style.color='#ff6b7a';setTimeout(()=>c.parentElement.style.color='',2500);return false}
-      if(i.value&&i.value.includes('@')&&i.value.includes('.')){
-        fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()})
-        .then(()=>{f.style.display='none';o.style.display='block';i.value='';c.checked=false;setTimeout(()=>{f.style.display='';o.style.display='none'},6000)})
-        .catch(()=>{f.style.display='none';o.style.display='block';i.value='';c.checked=false;setTimeout(()=>{f.style.display='';o.style.display='none'},6000)});
-      }else{i.style.borderColor='#DC052D';i.placeholder='Bitte gültige E-Mail eingeben';i.focus();setTimeout(()=>{i.style.borderColor='';i.placeholder='deine@email.de'},2500)}
+      if(!(i.value&&i.value.includes('@')&&i.value.includes('.'))){i.style.borderColor='#DC052D';i.placeholder='Bitte gültige E-Mail eingeben';i.focus();setTimeout(()=>{i.style.borderColor='';i.placeholder='deine@email.de'},2500);return false}
+      const SUCCESS='✓ Fast geschafft! Wir haben dir eine Bestätigungsmail geschickt. Klicke den Link darin, um deine Anmeldung zu aktivieren.';
+      if(btn){btn.disabled=true;btn.dataset.t=btn.textContent;btn.textContent='…'}
+      fetch('/.netlify/functions/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:i.value.trim(),company:hp?hp.value:''})})
+        .then(r=>{if(!r.ok)throw new Error('http '+r.status);return r.json()})
+        .then(()=>{o.textContent=SUCCESS;f.style.display='none';o.style.display='block';i.value='';c.checked=false})
+        .catch(()=>{o.textContent='Das hat leider nicht geklappt. Bitte versuch es später erneut oder schreib uns an workuvision@gmx.de.';f.style.display='none';o.style.display='block'})
+        .finally(()=>{if(btn){btn.disabled=false;if(btn.dataset.t)btn.textContent=btn.dataset.t}});
       return false;
     }
 
