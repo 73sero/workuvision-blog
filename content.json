@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-13T21:20:44+00:00",
+  "lastUpdated": "2026-06-13T22:36:10+00:00",
   "tiktokStats": {
     "followers": 1455,
     "likes": "30K",
     "videos": 73
   },
   "ticker": [
+    "Palhinha-Abgang: Bayern einigen sich mit Sporting CP auf 25 Millionen",
     "Neuer vor WM-Rückkehr: 125. Länderspiel nach 700-Tage-Pause",
     "Wechsel von Nathaniel Brown zum FCB rückt näher",
     "Kane und Olise in der ESM-Elf der Saison 2025/26",
     "Itō vor Abgang: Bayern sucht Abnehmer für Verteidiger",
-    "Olise-Dreierpack: Bayern-Star glänzt bei Frankreichs WM-Generalprobe",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-13-palhinha-abgang-bayern-einigen-sich-mit-sporting-c",
+      "date": "2026-06-13",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-06-13-palhinha-abgang-bayern-einigen-sich-mit-sporting-c.webp",
+      "thumbnailAlt": "Palhinha-Abgang: Bayern einigen sich mit Sporting CP auf 25 Millionen",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Palhinha-Abgang: Bayern einigen sich mit Sporting CP auf 25 Millionen",
+      "excerpt": "Der FC Bayern senkt seinen Preis für João Palhinha auf 25 Millionen Euro – ein Transfer zu Sporting CP rückt laut Medienberichten näher.",
+      "body": "Der FC Bayern München trennt sich offenbar von João Palhinha zu deutlich reduzierten Konditionen. Laut einem Bericht des portugiesischen Journalisten Mário Figueiredo vom Correio da Manhã, den Bavarian Football Works aufgegriffen hat, haben die Münchner ihre Preisvorstellung für den Mittelfeldspieler von ursprünglich 30 Millionen Euro auf 25 Millionen Euro gesenkt. Ein Wechsel zu Sporting CP sei demnach auf einem fortgeschrittenen Stand.\n\nPalhinha war in der zurückliegenden Saison an Tottenham Hotspur verliehen worden. Wie bereits zuvor berichtet worden war, strebte der Portugiese keinen Verbleib beim FC Bayern an und signalisierte kein Interesse an einer Rückkehr nach München. Nun deutet sich ein Transfer zurück in seine Heimat an – Sporting CP wäre sein erster großer Verein, den er als Teenager verlassen hatte, bevor er über Umwege zu Bayern kam.\n\nMit einer Ablöse von 25 Millionen Euro würde der FC Bayern einen erheblichen Abschlag gegenüber der Summe hinnehmen, die er einst für Palhinha gezahlt hatte. Der Rekordmeister hatte den defensiven Mittelfeldspieler im Sommer 2023 für rund 51 Millionen Euro von Fulham verpflichtet. Die nun angestrebte Verkaufssumme entspricht damit weniger als der Hälfte der damaligen Investition.\n\nFür Sportvorstand Max Eberl ist der Palhinha-Verkauf Teil einer breiteren Kaderbereinigung vor der Saison 2025/26. Mit Aleksandar Pavlović und Joshua Kimmich verfügen die Münchner im defensiven Mittelfeld über etablierte Optionen, dazu steht Leon Goretzka für tiefere Räume bereit. Der Abgang Palhinhas würde Platz – und finanzielle Mittel – für mögliche Neuverpflichtungen schaffen.\n\nDer Transfer ist nach aktuellem Stand noch nicht offiziell bestätigt. Sollte die Einigung mit Sporting CP jedoch wie beschrieben zustande kommen, würde sich damit ein kurzes und letztlich enttäuschendes Kapitel für alle Beteiligten schließen. Für Palhinha hingegen könnte die Rückkehr in die portugiesische Hauptstadt einen Neustart bedeuten.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/215389/bayern-munich-lowers-price-for-joao-palhinha-deal-with-sporting-cp-close",
+      "sourceName": "Bavarian Football Works / Correio da Manhã"
+    },
     {
       "slug": "2026-06-13-neuer-vor-wm-rueckkehr-125-laenderspiel-nach-700-t",
       "date": "2026-06-13",
@@ -480,22 +496,6 @@
       "body": "Laut Spiegel Sport besuchte Bayern-Trainer Vincent Kompany die Abschiedsfeier für den scheidenden Manchester-City-Trainer Pep Guardiola. Dabei präsentierte Kompany den englischen Meisterpokal von 2018, den er als Spieler unter Guardiola gewonnen hatte.\n\nDer Zeitpunkt ist bemerkenswert: Erst am Samstag hatte Kompany mit dem FC Bayern das DFB-Pokalfinale gegen den VfB Stuttgart mit 3:0 gewonnen und damit das Double für die Münchner perfektgemacht. Wenige Tage später reiste er zurück in die Stadt, in der seine Trainerkarriere begann.\n\nKompany hatte City im Sommer 2023 als Cheftrainer verlassen, um beim FC Burnley anzuheuern, bevor er im Sommer 2024 den Wechsel nach München vollzog. Die Verbindung zu Guardiola, unter dem er als Kapitän prägende Jahre erlebte, ist offenkundig ungebrochen.",
       "sourceUrl": "https://www.spiegel.de/sport/fussball/manchester-city-vincent-kompany-besucht-abschiedsparty-fuer-pep-guardiola-a-00eba49a-3c31-400b-9f51-1abe208071de#ref=rss",
       "sourceName": "Spiegel Sport"
-    },
-    {
-      "slug": "2026-05-25-goretzka-verabschiedet-sich-mit-dfb-pokal-triumph",
-      "date": "2026-05-25",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-25-goretzka-verabschiedet-sich-mit-dfb-pokal-triumph.jpg",
-      "thumbnailAlt": "Goretzka verabschiedet sich mit DFB-Pokal-Triumph",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Goretzka verabschiedet sich mit DFB-Pokal-Triumph",
-      "excerpt": "Leon Goretzka bestritt im Pokalfinale gegen den VfB Stuttgart sein letztes Spiel für den FC Bayern – gefeiert wurde trotzdem gemeinsam.",
-      "body": "Das DFB-Pokalfinale gegen den VfB Stuttgart war für Leon Goretzka ein besonderes Spiel: Es war sein letzter Auftritt im Trikot des FC Bayern. Die Münchner gewannen die Partie mit 3:0 und krönten damit die Saison mit dem Double.\n\nLaut Bavarian Football Works wollte Goretzka nach dem Schlusspfiff jedoch nicht in Wehmut versinken. Der Mittelfeldspieler habe sich ganz auf die gemeinsame Feier mit der Mannschaft konzentriert und Abschiedsgedanken bewusst in den Hintergrund gestellt.\n\nDamit endet eine langjährige Ära beim Rekordmeister. Goretzka gehörte über Jahre zum Stammpersonal der Bayern – sein letzter Auftritt endete zumindest mit einem Titel. Wie es für ihn weitergeht, ist bislang nicht bekannt.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-dfb-pokal/206466/no-time-for-tears-leon-goretzka-all-about-bayern-munichs-dfb-pokal-celebration",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
