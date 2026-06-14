@@ -434,6 +434,39 @@ FORBIDDEN_PHRASES = [
     "in aller Munde",
 ]
 
+# Klare KI-Stil-Tells (Humanizer-Regeln, auf Deutsch). Bewusst konservativ:
+# nur Wendungen, die in knappem Sportjournalismus fast nie legitim gebraucht
+# werden. Legitime Fußball-Vokabeln (z.B. "Zusammenspiel") stehen NICHT drin.
+# Treffer werden dem Modell als Problem zurückgemeldet und lösen einen Rewrite aus.
+KI_STIL_TELLS = [
+    "—",  # Geviertstrich (US-/KI-Tell, kein deutsches Standardzeichen)
+    "unterstreicht die bedeutung",
+    "unterstreicht einmal mehr",
+    "unterstreicht eindrucksvoll",
+    "markiert einen wendepunkt",
+    "ein beleg für die",
+    "spiegelt einen größeren",
+    "spiegelt einmal mehr",
+    "ebnet den weg",
+    "ebnet ihm den weg",
+    "in der heutigen schnelllebigen",
+    "facettenreich",
+    "transferlandschaft",
+    "fußballlandschaft",
+    "fussballlandschaft",
+    "vereinslandschaft",
+    "fungiert als",
+    "verkörpert",
+    "nicht zuletzt",
+    "es bleibt abzuwarten",
+    "man darf gespannt sein",
+    "die zukunft sieht rosig",
+    "eines ist sicher",
+    "es ist wichtig zu betonen",
+    "es gilt zu beachten",
+    "echter hingucker",
+]
+
 # ============================================================================
 # HELFER
 # ============================================================================
@@ -1051,6 +1084,12 @@ def validate_article(post):
         if phrase.lower() in full_lower:
             problems.append(f"Floskel: '{phrase}'")
 
+    # 3b. KI-Stil-Tells (Humanizer) — natürlicher, weniger maschinell klingen
+    for tell in KI_STIL_TELLS:
+        if tell.lower() in full_lower:
+            label = "Geviertstrich '—'" if tell == "—" else f"KI-Stil-Tell: '{tell}'"
+            problems.append(f"{label} (menschlicher umformulieren)")
+
     # 4. Englischer Ausruf am Satzanfang
     if re.search(r"(?:^|[\.\!\?]\s+)(Honestly|Anyway|Look|Listen|Frankly)", full_text):
         problems.append("Englischer Ausruf am Satzanfang")
@@ -1114,6 +1153,22 @@ Deine Aufgabe: aus einer oder mehreren RSS-Quellen einen sauberen, knappen, jour
 - Zielumfang 320–420 Wörter. Vier bis fünf Absätze. Tiefe ist erwünscht — solange jedes Wort durch die Quelle gedeckt ist.
 - Erlaubt zur Tiefenerweiterung (sofern die Quelle es hergibt): Einordnung in die laufende Saison, Bezug zu vorherigen Spielen oder Transfers, kurze taktische Einordnung, konkrete Statistiken aus der Quelle, sachlicher Vergleich mit Konkurrenz.
 - NICHT erlaubt zur Tiefenerweiterung: erfundene Zahlen, Spekulation ohne Beleg, doppelte Wiederholung derselben Aussage, Floskeln, generische Phrasen wie "es bleibt spannend".
+
+—— MENSCHLICH SCHREIBEN (KEIN KI-SOUND) ——
+Der Text soll klingen, als hätte ihn ein Redakteur am Schreibtisch getippt, nicht ein Sprachmodell. Halte dich daran:
+- Variiere den Satzrhythmus. Kurze Sätze neben längeren. Nicht jeder Satz gleich lang und gleich gebaut.
+- Schreib konkret: Namen, Zahlen, Daten, Spielstände aus der Quelle statt allgemeiner Bedeutungs-Sätze.
+- Keine Bedeutungs-Aufblähung. Streich Sätze wie "unterstreicht die Bedeutung", "markiert einen Wendepunkt", "ein Beleg für", "spiegelt einen größeren Trend", "ebnet den Weg".
+- Keine Werbesprache: kein "beeindruckend", "atemberaubend", "echter Hingucker", "Glanzlicht".
+- Keine angehängten Partizip-Floskeln, die Tiefe vortäuschen ("..., und unterstreicht damit ...", "..., was einmal mehr zeigt ...").
+- Keine KI-Vokabel-Häufung: "zudem", "darüber hinaus", "entscheidend", "maßgeblich", "facettenreich", "Transferlandschaft", "nicht zuletzt" — höchstens vereinzelt, nie gestapelt.
+- Einfache Verben: "ist", "hat", "spielt" statt "fungiert als", "stellt ... dar", "verkörpert".
+- Keine Dreier-Aufzählungen aus Gewohnheit ("Technik, Tempo und Übersicht"), nur wenn die Quelle es wirklich hergibt.
+- Keine Gegensatz-Floskel "nicht nur ..., sondern auch ...".
+- Kein aufgesetzter Schluss: kein "es bleibt spannend", "man darf gespannt sein", "eines ist sicher", "die Zukunft sieht rosig aus".
+- Keine vagen Quellen ("Beobachter", "Experten") — nenne die konkrete Quelle.
+- Kein Geviertstrich "—". Nutze Komma, Punkt oder Doppelpunkt. Ein sparsamer deutscher Halbgeviertstrich "–" ist okay.
+- Eine ehrliche, sachliche Einordnung am Ende ist erlaubt, aber als echter Satz, nicht als Werbe-Schluss.
 
 —— FAKTEN ——
 Aktueller Bayern-Kader Saison 2025/26 (NUR diese Spieler dürfen erwähnt werden):
