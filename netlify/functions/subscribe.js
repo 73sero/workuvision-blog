@@ -92,20 +92,68 @@ function makeToken(email, secret) {
 }
 
 function confirmEmailHtml(url) {
-  return `<!DOCTYPE html><html lang="de"><body style="margin:0;padding:0;background:#060A10;">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#060A10;padding:32px 16px;"><tr><td align="center">
-<table role="presentation" width="560" cellpadding="0" cellspacing="0" style="max-width:560px;width:100%;">
-<tr><td style="padding:24px 0;text-align:center;font-family:Arial,Helvetica,sans-serif;"><span style="font-size:22px;font-weight:bold;letter-spacing:4px;color:#F2F2F2;text-transform:uppercase;">WORKU<span style="color:#DC052D;">VISION</span></span></td></tr>
-<tr><td style="background:#0B1622;border:1px solid rgba(255,255,255,0.08);border-radius:6px;padding:36px 32px;font-family:Arial,Helvetica,sans-serif;color:#F2F2F2;">
-<h1 style="margin:0 0 16px;font-size:24px;line-height:1.2;text-transform:uppercase;letter-spacing:1px;">Fast geschafft!</h1>
-<p style="margin:0 0 24px;font-size:15px;line-height:1.7;color:#D6DDE6;">Danke f&uuml;r deine Anmeldung zum Workuvision-Newsletter. Best&auml;tige jetzt deine E-Mail-Adresse, um Bayern-Taktik, Transfer-News und Spieltags-Takes direkt ins Postfach zu bekommen.</p>
-<table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 auto 24px;"><tr><td style="background:#DC052D;border-radius:4px;"><a href="${url}" style="display:inline-block;padding:14px 32px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#FFFFFF;text-decoration:none;">Anmeldung best&auml;tigen</a></td></tr></table>
-<p style="margin:0 0 8px;font-size:12px;line-height:1.6;color:#9BAEC1;">Falls der Button nicht funktioniert, kopiere diesen Link in deinen Browser:</p>
-<p style="margin:0;font-size:11px;line-height:1.5;color:#9BAEC1;word-break:break-all;"><a href="${url}" style="color:#9BAEC1;">${url}</a></p>
-<p style="margin:20px 0 0;font-size:12px;line-height:1.6;color:#9BAEC1;">Du hast dich nicht angemeldet? Dann ignoriere diese E-Mail einfach &mdash; ohne Best&auml;tigung wird deine Adresse nicht in den Verteiler aufgenommen.</p>
+  const F = "-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,Helvetica,sans-serif";
+  return `<!DOCTYPE html>
+<html lang="de" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Newsletter bestätigen</title>
+</head>
+<body style="margin:0;padding:0;background:#060A10;">
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:#060A10;font-size:1px;line-height:1px;">Nur noch ein Klick und du bist dabei — bestätige deine Anmeldung zum Workuvision-Newsletter. Mia san Mia.</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#060A10;">
+<tr><td align="center" style="padding:0 12px;">
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;max-width:600px;margin:0 auto;">
+
+  <tr><td style="height:5px;background:#DC052D;font-size:0;line-height:0;">&nbsp;</td></tr>
+
+  <tr><td align="center" style="padding:34px 24px 6px;font-family:${F};">
+    <span style="font-size:25px;font-weight:800;letter-spacing:5px;color:#F2F2F2;text-transform:uppercase;">WORKU<span style="color:#DC052D;">VISION</span></span>
+    <div style="margin-top:9px;font-size:10px;font-weight:700;letter-spacing:3px;color:#7d8ea1;text-transform:uppercase;">FC Bayern · Taktik · Transfers</div>
+  </td></tr>
+
+  <tr><td style="padding:22px 16px 10px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#0B1622;border:1px solid #1b2a3c;border-radius:10px;">
+      <tr><td style="padding:42px 38px;font-family:${F};">
+        <div style="font-size:11px;font-weight:800;letter-spacing:3px;color:#DC052D;text-transform:uppercase;margin-bottom:16px;">Newsletter · Bestätigung</div>
+        <h1 style="margin:0;font-size:32px;line-height:1.1;color:#F2F2F2;text-transform:uppercase;letter-spacing:1px;font-weight:800;">Nur noch<br>ein Klick</h1>
+        <div style="width:52px;height:3px;background:#DC052D;margin:16px 0 24px;font-size:0;line-height:0;">&nbsp;</div>
+        <p style="margin:0 0 30px;font-size:15px;line-height:1.75;color:#D6DDE6;">Schön, dass du dabei sein willst! Bestätige jetzt deine E-Mail-Adresse — dann bekommst du Bayern-Taktik, Transfer-Gerüchte und Spieltags-Takes direkt ins Postfach. Ehrlich, ohne Clickbait.</p>
+
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 28px;">
+          <tr><td align="center" style="background:#DC052D;border-radius:5px;box-shadow:0 6px 18px rgba(220,5,45,0.35);">
+            <a href="${url}" target="_blank" style="display:inline-block;padding:17px 40px;font-family:${F};font-size:14px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#FFFFFF;text-decoration:none;">Anmeldung bestätigen &rarr;</a>
+          </td></tr>
+        </table>
+
+        <p style="margin:0 0 6px;font-size:12px;line-height:1.6;color:#7d8ea1;">Button geht nicht? Kopiere diesen Link in deinen Browser:</p>
+        <p style="margin:0 0 26px;font-size:12px;line-height:1.5;word-break:break-all;"><a href="${url}" style="color:#9BAEC1;text-decoration:underline;">${url}</a></p>
+
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top:1px solid #1b2a3c;padding-top:20px;">
+          <p style="margin:0;font-size:12px;line-height:1.65;color:#7d8ea1;">Du hast dich nicht angemeldet? Dann ignoriere diese E-Mail einfach — ohne Bestätigung wird deine Adresse <strong style="color:#9BAEC1;">nicht</strong> gespeichert und du bekommst keine weiteren Mails.</p>
+        </td></tr></table>
+      </td></tr>
+    </table>
+  </td></tr>
+
+  <tr><td align="center" style="padding:10px 24px 38px;font-family:${F};">
+    <div style="font-size:13px;font-weight:800;letter-spacing:5px;color:#4f5d6e;text-transform:uppercase;margin-bottom:14px;">Mia san Mia</div>
+    <div style="font-size:11px;line-height:1.8;color:#5d6b7c;">
+      Workuvision · Abdel Worku · Hansaallee 139a · 60320 Frankfurt am Main<br>
+      <a href="${SITE}/impressum.html" style="color:#9BAEC1;text-decoration:none;">Impressum</a> &nbsp;·&nbsp;
+      <a href="${SITE}/datenschutz.html" style="color:#9BAEC1;text-decoration:none;">Datenschutz</a> &nbsp;·&nbsp;
+      <a href="https://www.tiktok.com/@workuvision" style="color:#9BAEC1;text-decoration:none;">TikTok</a> &nbsp;·&nbsp;
+      <a href="https://www.instagram.com/workuvision" style="color:#9BAEC1;text-decoration:none;">Instagram</a>
+    </div>
+  </td></tr>
+
+</table>
 </td></tr>
-<tr><td style="padding:20px 8px;text-align:center;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:1.6;color:#9BAEC1;">Workuvision &middot; Abdel Worku &middot; Hansaallee 139a &middot; 60320 Frankfurt am Main<br><a href="${SITE}/impressum.html" style="color:#9BAEC1;">Impressum</a> &middot; <a href="${SITE}/datenschutz.html" style="color:#9BAEC1;">Datenschutz</a></td></tr>
-</table></td></tr></table></body></html>`;
+</table>
+</body>
+</html>`;
 }
 
 function resp(statusCode, obj) {
