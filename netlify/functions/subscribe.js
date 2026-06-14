@@ -51,6 +51,8 @@ exports.handler = async (event) => {
 
   const senderEmail = process.env.NEWSLETTER_SENDER_EMAIL || "serdar.saglam@outlook.de";
   const senderName = process.env.NEWSLETTER_SENDER_NAME || "Workuvision";
+  // Absenderdomain hat kein Postfach → Antworten an die Kontaktadresse leiten.
+  const replyToEmail = process.env.NEWSLETTER_REPLYTO || "workuvision@gmx.de";
 
   const token = makeToken(email, secret);
   const confirmUrl = `${SITE}/.netlify/functions/confirm?token=${encodeURIComponent(token)}`;
@@ -65,6 +67,7 @@ exports.handler = async (event) => {
       },
       body: JSON.stringify({
         sender: { name: senderName, email: senderEmail },
+        replyTo: { name: senderName, email: replyToEmail },
         to: [{ email }],
         subject: "Bitte bestätige deine Newsletter-Anmeldung ⚽",
         htmlContent: confirmEmailHtml(confirmUrl),
