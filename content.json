@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-17T18:09:39+00:00",
+  "lastUpdated": "2026-06-17T19:18:59+00:00",
   "tiktokStats": {
     "followers": 1459,
     "likes": "30K",
     "videos": 74
   },
   "ticker": [
+    "Olise glänzt beim WM-Auftakt – Deschamps lässt aufhorchen",
     "Kimmichs WM-Rolle im DFB-Team: Nagelsmanns taktischer Kniff",
     "Saibari-Transfer vor Abschluss: Bayern einig mit PSV-Mittelfeldspieler",
     "Palhinha-Abgang: Bayern einigen sich mit Sporting CP auf 25 Millionen",
     "Neuer vor WM-Rückkehr: 125. Länderspiel nach 700-Tage-Pause",
-    "Wechsel von Nathaniel Brown zum FCB rückt näher",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-17-olise-glaenzt-beim-wm-auftakt-deschamps-laesst-auf",
+      "date": "2026-06-17",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-06-17-olise-glaenzt-beim-wm-auftakt-deschamps-laesst-auf.webp",
+      "thumbnailAlt": "Olise glänzt beim WM-Auftakt – Deschamps lässt aufhorchen",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Olise glänzt beim WM-Auftakt – Deschamps lässt aufhorchen",
+      "excerpt": "Michael Olise überzeugt beim 3:1-Sieg Frankreichs gegen Senegal und wird zum besten Spieler gewählt. Nationaltrainer Deschamps äußert sich zur Zukunft des Bayern-Stars.",
+      "body": "Michael Olise hat seinen ersten WM-Einsatz für Frankreich mit einer starken Vorstellung beendet. Beim 3:1-Sieg der Équipe Tricolore gegen Senegal wurde der Außenstürmer des FC Bayern als bester Spieler der Partie ausgezeichnet, wie Bavarian Football Works berichtet. Olise agierte dabei abwechselnd auf dem Flügel und in zentraleren Positionen – ein Zeichen, wie flexibel Nationaltrainer Didier Deschamps den 23-Jährigen einsetzt.\n\nLaut Sport1 ließ Deschamps im Anschluss an die Partie Aussagen fallen, die im Hinblick auf Olises Zukunft aufhorchen lassen. Details nannte Sport1 nicht, der Bericht deutet jedoch an, dass der französische Nationaltrainer dem Bayern-Profi eine tragende Rolle im weiteren Turnierverlauf zutraut. Olise hatte sich in den vergangenen zwei Jahren eine starke Reputation erarbeitet – zunächst in England, dann seit seinem Wechsel nach München.\n\nFür die Bayern ist der WM-Auftritt ihres Angreifers ein zweischneidiges Schwert: Einerseits bestätigt Olises Leistung den Stellenwert, den der FCB ihm für die kommende Saison 2025/26 beimisst. Andererseits wächst mit jeder überzeugenden Vorstellung auch das Interesse anderer Klubs – ein Umstand, den Sportvorstand Max Eberl im Blick behalten muss.\n\nMiasanrot beschreibt den sechsten WM-Tag insgesamt als den Moment, an dem die Superstars das Turnier übernahmen. Neben Olise war es vor allem Frankreich als Kollektiv, das gegen Senegal eine klare Reaktion auf frühere Wackelleistungen zeigte. Der Sieg war nie wirklich gefährdet, Frankreich führte das Spiel über weite Strecken.\n\nFür Olise persönlich ist die Auszeichnung zum besten Spieler im Auftaktspiel ein starkes Signal. Er steht bei Bayern noch am Beginn seiner Entwicklung in München und dürfte die WM als weitere Bewährungsprobe auf internationalem Niveau nutzen. Deschamps setzt erkennbar auf ihn – das spricht für eine zentrale Rolle Frankreichs im weiteren Turnierverlauf.",
+      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3moiuwwx5sk2t",
+      "sourceName": "Sport1 (Bluesky)"
+    },
     {
       "slug": "2026-06-16-kimmichs-wm-rolle-im-dfb-team-nagelsmanns-taktisch",
       "date": "2026-06-16",
@@ -480,22 +496,6 @@
       "body": "Laut Bavarian Football Works hatte Sportvorstand Max Eberl die Vertragsverlängerung mit Trainer Vincent Kompany bereits abgeschlossen, bevor Pep Guardiola seinen Abschied von Manchester City ankündigte. Eberl habe die mögliche Abwerbung durch den englischen Meister früh kommen sehen und die nötigen Schritte eingeleitet, um Kompany langfristig an den FCB zu binden.\n\nManchester City hatte Kompany demnach als bevorzugten Nachfolger für Guardiola auf dem Zettel. Durch die rechtzeitige Verlängerung war dieses Szenario hinfällig, bevor City und der Bayern-Trainer überhaupt konkrete Gespräche aufnehmen konnten.\n\nDer Zeitpunkt des Vertragsabschlusses zeigt die Weitsicht der Bayern-Führung. Kompany hatte in seiner ersten Münchner Saison mit dem Double aus Bundesliga und DFB-Pokal überzeugt, ein Fundament, auf dem der FC Bayern in den kommenden Jahren aufbauen will.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-finances-board/207351/max-eberl-finalized-vincent-kompanys-contract-extension-at-bayern-munich-before-pep-guardiolas-manchester-city-departure",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-26-palhinha-liebaeugelt-mit-verbleib-bei-tottenham",
-      "date": "2026-05-26",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-26-palhinha-liebaeugelt-mit-verbleib-bei-tottenham.jpg",
-      "thumbnailAlt": "Palhinha liebäugelt mit Verbleib bei Tottenham",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Palhinha liebäugelt mit Verbleib bei Tottenham",
-      "excerpt": "Bayerns Leihspieler Joao Palhinha kann sich nach Tottenhams Klassenerhalt einen Verbleib in London vorstellen – sein Trainer äußert sich noch deutlicher.",
-      "body": "Der kicker berichtet, dass Joao Palhinha nach dem gesicherten Premier-League-Verbleib der Spurs offen für eine Fortsetzung seines Aufenthalts in London ist. Die Bayern-Leihgabe soll sich einen dauerhaften Wechsel zu Tottenham Hotspur vorstellen können.\n\nNoch klarer äußert sich laut kicker der Trainer der Londoner. Er sprach sich offenbar deutlich für einen Verbleib des portugiesischen Mittelfeldspielers aus. Damit wächst der Druck auf den FC Bayern, eine Entscheidung über Palhinhas Zukunft zu treffen.\n\nPalhinha war in der vergangenen Saison von München nach London verliehen worden. Ob die Bayern ihn in die Planungen für die Saison 2026/27 einbeziehen oder dauerhaft abgeben, ist noch offen. Die Entwicklung dürfte die Kaderplanung von Trainer Vincent Kompany im defensiven Mittelfeld direkt beeinflussen.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mmqvrbo32y2s",
-      "sourceName": "kicker (Bluesky)"
     }
   ],
   "tiktokVideosAuto": false,
