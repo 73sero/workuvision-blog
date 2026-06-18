@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-18T12:45:32+00:00",
+  "lastUpdated": "2026-06-18T18:21:56+00:00",
   "tiktokStats": {
     "followers": 1457,
     "likes": "30K",
     "videos": 74
   },
   "ticker": [
+    "Díaz überragt beim WM-Auftakt: Szenenanalyse von Miasanrot",
     "Olise glänzt beim WM-Auftakt – Deschamps lässt aufhorchen",
     "Kimmichs WM-Rolle im DFB-Team: Nagelsmanns taktischer Kniff",
     "Saibari-Transfer vor Abschluss: Bayern einig mit PSV-Mittelfeldspieler",
     "Palhinha-Abgang: Bayern einigen sich mit Sporting CP auf 25 Millionen",
-    "Neuer vor WM-Rückkehr: 125. Länderspiel nach 700-Tage-Pause",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-18-d-az-ueberragt-beim-wm-auftakt-szenenanalyse-von-m",
+      "date": "2026-06-18",
+      "category": "tactics",
+      "badge": "Taktik-Analyse",
+      "badgeColor": "bt",
+      "thumbnail": "img/articles/2026-06-18-d-az-ueberragt-beim-wm-auftakt-szenenanalyse-von-m.webp",
+      "thumbnailAlt": "Díaz überragt beim WM-Auftakt: Szenenanalyse von Miasanrot",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Díaz überragt beim WM-Auftakt: Szenenanalyse von Miasanrot",
+      "excerpt": "Luis Díaz hat Kolumbiens WM-Auftakt geprägt. Miasanrot analysiert, wie der Bayern-Flügelspieler als Tiefenläufer die Defensive des Gegners zerlegt.",
+      "body": "Luis Díaz hat beim FC Bayern in der vergangenen Saison die stärkste Spielzeit seiner Karriere absolviert – und beim WM-Auftakt Kolumbiens nahtlos daran angeknüpft. Das schreibt Miasanrot in einer Szenenanalyse zum Spiel und beleuchtet dabei die taktischen Muster, die den Kolumbianer zu einem der gefährlichsten Offensivspieler des Turniers machen.\n\nDer Fanblog hebt vor allem eine Eigenschaft hervor: Díaz agiert als hinterhältiger Tiefenläufer, der Abwehrketten mit präzisem Timing hinter die Linie läuft. Er sucht nicht den Kontakt zum Ball, wenn dieser noch beim Aufbauspieler liegt, sondern wartet auf den Moment, in dem die Defensive noch geordnet steht – und startet dann. Dieses Prinzip, so Miasanrot, machte ihn auch bei Bayern in der Bundesliga-Saison für Gegner so schwer zu greifen.\n\nLaut ZEIT Sport überragte Díaz beim Kolumbien-Spiel als der auffälligste Akteur auf dem Platz. Sein Zusammenspiel mit den Mittelfeld-Verbindern eröffnete Kolumbien immer wieder Räume in der Tiefe. Die WM-Bühne hat Díaz damit genutzt, um sich einem globalen Publikum vorzustellen – als das, was er seit Monaten in München ist: ein Spieler, der konstant für Torchancen sorgt.\n\nFür den FCB ist die WM-Form von Díaz mehr als nur sportliches Interesse. Der Linksaußen ist im Kader von Vincent Kompany für die Saison 2025/26 fest eingeplant. Wer ihn in dieser WM verfolgt, sieht einen Spieler im Vollbesitz seiner Kräfte – körperlich präsent, läuferisch stark, mit klaren Abläufen im Pressing und im Umschaltspiel.\n\nMiasanrot kommt zu dem Schluss, dass Díaz bei der WM exakt das zeigt, was er in München über eine ganze Saison gezeigt hat: einen klaren Spielstil, der auf Tempo, Laufwege und Direktheit beruht. Wie weit Kolumbien kommt, ist offen – Díaz' WM hat jedenfalls gut begonnen.",
+      "sourceUrl": "https://miasanrot.de/wm-2026-luis-diaz-fc-bayern-szenenanalyse/",
+      "sourceName": "Miasanrot (Fanblog)"
+    },
     {
       "slug": "2026-06-17-olise-glaenzt-beim-wm-auftakt-deschamps-laesst-auf",
       "date": "2026-06-17",
@@ -480,22 +496,6 @@
       "body": "Harry Kane hat zum zweiten Mal in seiner Karriere den Goldenen Schuh gewonnen. Der kicker berichtet, dass der Angreifer des FC Bayern München damit erneut die Auszeichnung für den treffsichersten Stürmer des europäischen Vereinsfußballs erhält. Kane folgt auf Kylian Mbappé, der in dieser Wertung auf den dritten Rang zurückfiel.\n\nFür Kane ist es nach dem ersten Gewinn dieser Trophäe ein weiterer Titel in seiner ersten Bayern-Ära. Der Engländer hatte den Rekordmeister in der abgelaufenen Saison auch im DFB-Pokalfinale entscheidend geprägt. Laut ZEIT Sport war es nach einem schwierigen Spielverlauf gegen den VfB Stuttgart Kane, der die Partie für München entschied.\n\nDie Auszeichnung fällt in eine Phase, in der Kanes Zukunft beim FCB noch nicht endgültig geklärt ist. Christian Falk hatte zuletzt jedoch bestätigt, dass zwischen Kane und Bayern kein Streit über die Vertragslaufzeit einer möglichen Verlängerung besteht. Die individuelle Trophäe dürfte beiden Seiten den Wunsch nach einer dauerhaften Einigung weiter erleichtern.",
       "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mmqofqnuq52w",
       "sourceName": "kicker (Bluesky)"
-    },
-    {
-      "slug": "2026-05-26-eberl-sicherte-kompany-vertrag-vor-guardiola-abgan",
-      "date": "2026-05-26",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-05-26-eberl-sicherte-kompany-vertrag-vor-guardiola-abgan.jpg",
-      "thumbnailAlt": "Eberl sicherte Kompany-Vertrag vor Guardiola-Abgang",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Eberl sicherte Kompany-Vertrag vor Guardiola-Abgang",
-      "excerpt": "Max Eberl verlängerte Vincent Kompanys Vertrag beim FC Bayern, bevor Manchester City Interesse signalisieren konnte – ein entscheidender Schachzug in der Vereinsführung.",
-      "body": "Laut Bavarian Football Works hatte Sportvorstand Max Eberl die Vertragsverlängerung mit Trainer Vincent Kompany bereits abgeschlossen, bevor Pep Guardiola seinen Abschied von Manchester City ankündigte. Eberl habe die mögliche Abwerbung durch den englischen Meister früh kommen sehen und die nötigen Schritte eingeleitet, um Kompany langfristig an den FCB zu binden.\n\nManchester City hatte Kompany demnach als bevorzugten Nachfolger für Guardiola auf dem Zettel. Durch die rechtzeitige Verlängerung war dieses Szenario hinfällig, bevor City und der Bayern-Trainer überhaupt konkrete Gespräche aufnehmen konnten.\n\nDer Zeitpunkt des Vertragsabschlusses zeigt die Weitsicht der Bayern-Führung. Kompany hatte in seiner ersten Münchner Saison mit dem Double aus Bundesliga und DFB-Pokal überzeugt, ein Fundament, auf dem der FC Bayern in den kommenden Jahren aufbauen will.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-finances-board/207351/max-eberl-finalized-vincent-kompanys-contract-extension-at-bayern-munich-before-pep-guardiolas-manchester-city-departure",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
