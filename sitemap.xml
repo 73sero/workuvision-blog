@@ -2,27 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://workuvision.de/</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://workuvision.de/archiv.html</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://workuvision.de/impressum.html</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
     <loc>https://workuvision.de/datenschutz.html</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://workuvision.de/artikel/2026-06-19-mueller-empfiehlt-bayern-johan-manzambi-im-wm-scha.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://workuvision.de/artikel/2026-06-18-d-az-ueberragt-beim-wm-auftakt-szenenanalyse-von-m.html</loc>
@@ -194,12 +200,6 @@
   </url>
   <url>
     <loc>https://workuvision.de/artikel/2026-05-26-laimer-verlaengerung-beim-fcb-einigung-rueckt-naeh.html</loc>
-    <lastmod>2026-05-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://workuvision.de/artikel/2026-05-26-kane-gewinnt-zum-zweiten-mal-den-goldenen-schuh.html</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
