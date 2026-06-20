@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-20T20:12:16+00:00",
+  "lastUpdated": "2026-06-20T21:45:26+00:00",
   "tiktokStats": {
-    "followers": 1457,
+    "followers": 1456,
     "likes": "30K",
     "videos": 75
   },
   "ticker": [
+    "Neuer überholt Lloris: Alleiniger WM-Rekordtorhüter",
     "Saibari trifft erneut – Bayerns Wunschspieler in WM-Form",
     "Bayern besetzt Schlüsselposition im Campus: Seonbuchner kommt",
     "Müller empfiehlt Bayern: Johan Manzambi im WM-Schaufenster",
     "Díaz überragt beim WM-Auftakt: Szenenanalyse von Miasanrot",
-    "Olise glänzt beim WM-Auftakt – Deschamps lässt aufhorchen",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-20-neuer-ueberholt-lloris-alleiniger-wm-rekordtorhuet",
+      "date": "2026-06-20",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-06-20-neuer-ueberholt-lloris-alleiniger-wm-rekordtorhuet.webp",
+      "thumbnailAlt": "Neuer überholt Lloris: Alleiniger WM-Rekordtorhüter",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuer überholt Lloris: Alleiniger WM-Rekordtorhüter",
+      "excerpt": "Manuel Neuer bestritt gegen die Elfenbeinküste seinen 21. WM-Einsatz und löste damit Hugo Lloris als Rekordtorhüter aller WM-Geschichte ab.",
+      "body": "Manuel Neuer hat bei der WM 2026 in Nordamerika einen Platz in den Geschichtsbüchern gesichert. Im Gruppenspiel gegen die Elfenbeinküste stand der Bayern-Torhüter zum 21. Mal bei einer Weltmeisterschaft zwischen den Pfosten – und überholte damit den Franzosen Hugo Lloris, der diesen Rekord zuvor gehalten hatte. Das berichten übereinstimmend Süddeutsche Zeitung, ZEIT, FAZ und Tagesschau.\n\nDas Spiel selbst verlief für Deutschland lange zäh. Die Elfenbeinküste ging in Führung, und der Ausgleich ließ bis in die zweite Halbzeit auf sich warten. Laut Tagesschau Sport traf Deniz Undav in der 68. Minute zum 1:1-Endstand – er war kurz zuvor eingewechselt worden. Deutschland sicherte sich damit einen Punkt, der im Rennen um das Achtelfinale noch wichtig werden könnte.\n\nFür Neuer persönlich ist die Marke mehr als eine statistische Randnotiz. Der 40-Jährige hat seit der WM 2010 jedes Turnier für Deutschland mitgespielt und steht nun allein an der Spitze einer Torhüter-Bestenliste, die Lloris über Jahre angeführt hatte. Die Süddeutsche Zeitung verweist zudem darauf, dass Neuer bei einem möglichen Viertelfinale der DFB-Auswahl auch einen deutschen Innenrekord verbessern könnte.\n\nIn Toronto beleuchteten die Stadt und die Niagarafälle nach dem Abpfiff in Schwarz-Rot-Gold – eine Kulisse, die zur WM-Premiere Kanadas als Gastgeberland passt. Der FCB stellt mit Neuer also auch bei diesem Turnier den Stammkeeper der deutschen Nationalmannschaft, auch wenn er auf Klubebene gerade seinen 40. Geburtstag überschritten hat und Fragen zur Zukunft offen bleiben.\n\nDas 1:1 gegen die Elfenbeinküste bedeutet für Deutschland nach dem Auftaktsieg gegen Curaçao den zweiten Spieltag ohne Niederlage. Der Rekord von Neuer gibt dem Turnier für Bayern-Fans einen eigenen Rahmen – unabhängig davon, wie weit das DFB-Team noch kommt.",
+      "sourceUrl": "https://www.sueddeutsche.de/sport/wm-2026-liveblog-news-dfb-deutschland-neuer-rekord-li.3492650",
+      "sourceName": "Süddeutsche Sport"
+    },
     {
       "slug": "2026-06-20-saibari-trifft-erneut-bayerns-wunschspieler-in-wm",
       "date": "2026-06-20",
@@ -479,22 +495,6 @@
       "excerpt": "Der FC Bayern geht bei Anthony Gordon leer aus: Laut Transfer-Experte Fabrizio Romano wechselt der Newcastle-Angreifer zu FC Barcelona.",
       "body": "Die Transferplanungen des FC Bayern haben einen Rückschlag erlitten. Wie Transfer-Experte Fabrizio Romano bestätigt und Bavarian Football Works berichtet, wechselt Anthony Gordon vom FC Newcastle United zum FC Barcelona, und nicht nach München. Romano gab sein bekanntes Signal für einen abgeschlossenen Transfer, womit der Wechsel als gesichert gilt.\n\nDer FC Bayern hatte Gordon offenbar als Verstärkung für den Angriff im Visier. Zuletzt war bereits über eine Einigung zwischen den Münchnern und Newcastle berichtet worden, der FCB schien im Rennen um den englischen Nationalspieler weit fortgeschritten. Nun setzte sich der FC Barcelona durch und sicherte sich den Zuschlag.\n\nFür die Münchner ist das geplatzte Geschäft ein Dämpfer in der Sommervorbereitung. Vincent Kompany hatte im abgelaufenen Doppel-Spieljahr zwar das Double gewonnen, doch der Kader soll weiter verstärkt werden. Mit Gordon wäre ein schneller, variabel einsetzbarer Außenstürmer gekommen, der auf beiden Flügeln hätte spielen können.\n\nDie Bayern müssen nun auf dem Transfermarkt umdisponieren. Im Angriff stehen Kompany mit Michael Olise, Jamal Musiala, Kingsley Coman und Luis Díaz bereits mehrere Optionen zur Verfügung. Ob der Verein einen gleichwertigen Ersatz für Gordon sucht oder die Planungen in eine andere Richtung lenkt, ist laut den vorliegenden Berichten noch offen.\n\nDie Entwicklung zeigt, wie umkämpft der europäische Transfermarkt geworden ist. Dass ausgerechnet der FC Barcelona trotz anhaltender finanzieller Schwierigkeiten dem FC Bayern bei einem Zielspieler zuvorkommt, dürfte in München für Gesprächsstoff sorgen. Die Sommertransferperiode ist noch jung, und der Rekordmeister wird seine Kaderplanung anpassen müssen.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/208219/its-over-fc-barcelona-jumps-over-bayern-munich-to-get-anthony-gordon",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-27-davies-zur-wm-bestaetigt-einigung-zwischen-bayern",
-      "date": "2026-05-27",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-27-davies-zur-wm-bestaetigt-einigung-zwischen-bayern.webp",
-      "thumbnailAlt": "Davies zur WM bestätigt – Einigung zwischen Bayern und Kanada",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Davies zur WM bestätigt – Einigung zwischen Bayern und Kanada",
-      "excerpt": "Kanadas Nationaltrainer Jesse Marsch hat bestätigt, dass Alphonso Davies bei der Weltmeisterschaft eingesetzt werden kann. Bayern München und der kanadische Verband haben sich geeinigt.",
-      "body": "Eine Einigung mit Signalwirkung: Laut Bavarian Football Works hat Kanadas Nationaltrainer Jesse Marsch offiziell bestätigt, dass Alphonso Davies bei der Heim-Weltmeisterschaft zum Einsatz kommen wird. Zuvor hatten der FC Bayern München und der kanadische Fußballverband in Gesprächen geklärt, wie der Linksverteidiger in den Turnierbetrieb eingebunden werden kann.\n\nDer Hintergrund der Verhandlungen ist ein schwerwiegender: Davies hatte sich einen Kreuzbandriss zugezogen und kämpfte seither um seine Rückkehr in den Wettkampfbetrieb. Wie lange der Münchner Profi tatsächlich spielfähig ist und ob er von Beginn an eingesetzt werden kann, ließ Marsch laut dem Bericht offen. Für das erste WM-Spiel Kanadas muss der Trainer wohl noch auf ihn verzichten.\n\nFür Kanada kommt die Nachricht zur richtigen Zeit. Das Land richtet die WM 2026 gemeinsam mit den USA und Mexiko aus, und es ist das erste Mal überhaupt, dass die kanadischen Männer eine Weltmeisterschaft im eigenen Land spielen. Davies gehört zu den prominentesten Spielern des Gastgebers und wäre ein wichtiger Faktor, sportlich wie für die öffentliche Wahrnehmung des Turniers.\n\nFür den FC Bayern ist die Einigung ein Balanceakt dieser WM-Vorbereitung. Der Rekordmeister muss mehrere Nationalspieler für das Turnier freigeben, hat aber nach einer verletzungsreichen Saison ein natürliches Interesse daran, Davies nicht zu überlasten. Dass eine formelle Absprache nötig war, zeigt, wie fragil die Situation rund um den Außenverteidiger noch immer ist.\n\nDie Ausgangslage erinnert an eine bekannte Konstellation. Auch über Manuel Neuers Teilnahme am Turnier wurde zuletzt intensiv diskutiert, nachdem der Keeper Wadenprobleme gemeldet hatte. Dass nun auch bei Davies eine Sonderlösung gefunden wurde, zeigt, wie eng der FC Bayern in dieser Sommerpause mit den Nationalverbänden zusammenarbeitet und wie viel Abstimmung hinter den Kulissen steckt.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-injuries/207672/jesse-marsch-confirms-alphonso-davies-will-play-at-the-world-cup-after-bayern-munich-and-canada-reach-an-agreement",
       "sourceName": "Bavarian Football Works"
     }
   ],
