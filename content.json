@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-21T18:03:20+00:00",
+  "lastUpdated": "2026-06-21T20:10:46+00:00",
   "tiktokStats": {
-    "followers": 1504,
+    "followers": 1521,
     "likes": "31K",
     "videos": 76
   },
   "ticker": [
+    "Alba Berlin entreißt FC Bayern den Basketball-Titel",
     "Harry Kane: 61 Tore in einer Saison – Platz zwei in Bayerns Geschichte",
     "Olise erklärt: Die Zehn ist seine Lieblingsposition",
     "Neuer überholt Lloris: Alleiniger WM-Rekordtorhüter",
     "Saibari trifft erneut – Bayerns Wunschspieler in WM-Form",
-    "Bayern besetzt Schlüsselposition im Campus: Seonbuchner kommt",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-21-alba-berlin-entreisst-fc-bayern-den-basketball-tit",
+      "date": "2026-06-21",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/stadium1.jpg",
+      "thumbnailAlt": "Alba Berlin entreißt FC Bayern den Basketball-Titel",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Alba Berlin entreißt FC Bayern den Basketball-Titel",
+      "excerpt": "FC Bayern Basketball verpasst den dritten Meistertitel in Serie. Alba Berlin gewinnt das entscheidende Spiel 5 trotz eines 20-Punkte-Rückstands zur Halbzeit.",
+      "body": "Es war eine der spektakulärsten Aufholjagden der jüngeren BBL-Geschichte. Der FC Bayern Basketball führte im entscheidenden fünften Finalspiel zur Halbzeit mit 20 Punkten – und verlor die Partie am Ende mit 81:84. Alba Berlin ist damit zum zwölften Mal Deutscher Meister, berichtet der kicker.\n\nDer Rückstand schien zur Pause komfortabel genug, um den dritten Meistertitel in Folge sicherzustellen. Doch die Berliner drehten das Spiel im zweiten Durchgang komplett. Was in der Halbzeitpause in der Münchner Kabine besprochen wurde, änderte am Ergebnis nichts mehr. Alba ließ sich die Chance auf die Sensation nicht nehmen.\n\nFür den FC Bayern endet die Saison damit ohne Titel. Das Aus trifft den Klub umso schwerer, weil es zugleich das letzte Spiel von Trainer Svetislav Pesic war. Der Serbe, der den FCB in den vergangenen Jahren mehrfach zur Meisterschaft geführt hatte, verabschiedet sich ohne einen letzten Triumph. Laut kicker bleiben trotz hoher finanzieller Investitionen am Ende keine Trophäen übrig – ein Ergebnis, das die Münchner Verantwortlichen aufarbeiten müssen.\n\nAuch die Süddeutsche Zeitung ordnet die Niederlage als schmerzhaft ein: Bayern habe eine klare Führung aus der Hand gegeben und damit eine reale Chance auf den Threepeat verspielt. Für Alba hingegen war es die erste Meisterschaft seit 2022.\n\nDer Ausgang der Serie wirft Fragen auf, wie es beim FC Bayern Basketball weitergeht – sowohl auf der Trainerposition nach Pesics Abschied als auch in der Kaderplanung für die kommende Saison. Die Niederlage im Spiel 5, nach einer so deutlichen Führung zur Halbzeit, lässt sich sportlich kaum erklären und dürfte intern noch längere Zeit beschäftigen.",
+      "sourceUrl": "https://www.kicker.de/muenchen-gegen-berlin-2026-bbl-playoffs-5203971/spielbericht#omrss",
+      "sourceName": "kicker News"
+    },
     {
       "slug": "2026-06-21-harry-kane-61-tore-in-einer-saison-platz-zwei-in-b",
       "date": "2026-06-21",
@@ -479,22 +495,6 @@
       "excerpt": "Nach überstandenen Upamecano-Verhandlungen rückt Ibrahima Konaté beim FC Bayern offenbar wieder in den Fokus – der Innenverteidiger ist ablösefrei.",
       "body": "Der FC Bayern hat sein Interesse an Liverpools Innenverteidiger Ibrahima Konaté möglicherweise wieder aufgenommen. Laut Bavarian Football Works war der Franzose schon im vergangenen Herbst ein Kandidat bei den Münchnern, als die Zukunft von Dayot Upamecano beim Rekordmeister noch ungewiss war. Nachdem die Vertragsverlängerung mit Upamecano schließlich gelang, verschwand Konatés Name zunächst von der Bayern-Agenda.\n\nNun hat sich die Lage verändert. Konatés Vertrag bei Liverpool läuft zum Saisonende aus, er wäre also ablösefrei zu haben. Das macht den 25-Jährigen für potenzielle Abnehmer deutlich attraktiver, weil keine Transfergebühr fällig würde. Bavarian Football Works berichtet, dass Bayern die Situation des Verteidigers erneut beobachtet.\n\nIn der Münchner Innenverteidigung stehen mit Upamecano, Min-Jae Kim und Jonathan Tah derzeit drei etablierte Kräfte zur Verfügung. Tah überzeugte in seiner Premierensaison als unumstrittener Stammspieler, wie auch Miasanrot in seiner Saisonbewertung hervorhob. Trotzdem ist die Frage nach weiterer Qualität und Kadertiefe in der Defensive berechtigt, zumal eine intensive Saison mit Bundesliga, DFB-Pokal und Champions League viel Belastung bedeutet.\n\nKonaté ist ein physisch starker, zweikampfbetonter Innenverteidiger, der bei Liverpool in der Premier League regelmäßig auf hohem Niveau spielte. Eine ablösefreie Verpflichtung würde den Bayern finanziellen Spielraum für andere Transfers erhalten, ein Aspekt, der bei der Transferplanung des Klubs traditionell eine Rolle spielt.\n\nOb aus dem erneuerten Interesse konkrete Verhandlungen entstehen, lässt Bavarian Football Works offen. Da Konaté ablösefrei zu haben ist, dürfte der FC Bayern aber nicht der einzige europäische Spitzenklub sein, der den Franzosen auf dem Zettel hat. Die kommenden Wochen werden zeigen, ob München in diesem Poker ernsthaft mitbietet.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/208880/is-bayern-munich-back-in-on-ibrahima-konate",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-30-lennart-karl-startet-fuer-deutschland-gegen-finnla",
-      "date": "2026-05-30",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-30-lennart-karl-startet-fuer-deutschland-gegen-finnla.webp",
-      "thumbnailAlt": "Lennart Karl startet für Deutschland gegen Finnland",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Lennart Karl startet für Deutschland gegen Finnland",
-      "excerpt": "Bayern-Keeper Lennart Karl erhält im WM-Vorbereitungsspiel gegen Finnland sein Startelf-Debüt für die deutsche Nationalmannschaft.",
-      "body": "Für den FC Bayern gibt es gute Nachrichten in Sachen Nachwuchs: Lennart Karl wird im WM-Testspiel der deutschen Nationalmannschaft gegen Finnland von Beginn an zwischen den Pfosten stehen. Das berichtet Bavarian Football Works unter Berufung auf den Bundestrainer, der Karl ausdrücklich lobte. Der 19-Jährige habe im Trainingslager einen sehr guten Eindruck hinterlassen und verdiene sich diesen Einsatz.\n\nFür Karl ist es eine große Chance, sich auf internationalem Parkett zu zeigen. Der junge Torhüter gehört seit dieser Saison fest zum Profikader des FC Bayern und wurde zuletzt auch in das deutsche WM-Aufgebot berufen. Laut Bavarian Football Works gilt das Länderspiel gegen Finnland als Generalprobe für das bevorstehende Turnier in den USA.\n\nDer Bundestrainer muss in dieser Partie auf Manuel Neuer verzichten. Neuer war mit einer Wadenverletzung in das Trainingslager gereist und steht nicht zur Verfügung, wie Sport1 auf Bluesky meldet. Damit rückt Karl für diesen Testkick in die Rolle des Stammkeepers und sammelt wertvolle Spielminuten auf höchstem Niveau, bevor der WM-Ernst beginnt.\n\nKarl ist einer von drei Bayern-Keepern im deutschen WM-Aufgebot. Neben Neuer gehört auch Jonas Urbig zum Kader des Bundestrainers. Urbig hatte zuletzt im DFB-Pokalfinale gegen den VfB Stuttgart vertreten und sich dabei solide präsentiert. Die Konkurrenz zwischen den drei Münchner Torhütern um Einsatzzeiten bei der Nationalmannschaft gibt dem Testspiel gegen Finnland zusätzliche Würze.\n\nFür den FC Bayern ist Karls Nominierung zum Starter ein weiteres Zeichen dafür, dass die Nachwuchsarbeit des Klubs Früchte trägt. Dass ein so junger Spieler in einer WM-Vorbereitung das Vertrauen des Bundestrainers gewinnt, wirkt sowohl mit Blick auf das Turnier als auch auf die interne Hierarchie beim deutschen Rekordmeister.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/germany-international-soccer/209426/bayern-munich-lennart-karl-to-start-for-germany-vs-finland",
       "sourceName": "Bavarian Football Works"
     }
   ],
