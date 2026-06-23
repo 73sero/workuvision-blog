@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-23T17:46:42+00:00",
+  "lastUpdated": "2026-06-23T19:51:37+00:00",
   "tiktokStats": {
-    "followers": 1669,
+    "followers": 1668,
     "likes": "31K",
     "videos": 76
   },
   "ticker": [
+    "Bayern nimmt Kontakt zu Nmecha auf",
     "Bayern plant Olise-Vertrag mit 25 Millionen Euro Jahresgehalt",
     "Alba Berlin entreißt FC Bayern den Basketball-Titel",
     "Harry Kane: 61 Tore in einer Saison – Platz zwei in Bayerns Geschichte",
     "Olise erklärt: Die Zehn ist seine Lieblingsposition",
-    "Neuer überholt Lloris: Alleiniger WM-Rekordtorhüter",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-23-bayern-nimmt-kontakt-zu-nmecha-auf",
+      "date": "2026-06-23",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-06-23-bayern-nimmt-kontakt-zu-nmecha-auf.webp",
+      "thumbnailAlt": "Bayern nimmt Kontakt zu Nmecha auf",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Bayern nimmt Kontakt zu Nmecha auf",
+      "excerpt": "Sportvorstand Max Eberl hat laut Sport Bild Kontakt zu den Beratern von Felix Nmecha aufgenommen. Auch englische Topklubs sind interessiert.",
+      "body": "Sportvorstand Max Eberl hat nach Informationen der Sport Bild Kontakt zu den Beratern von Felix Nmecha aufgenommen, um das Interesse des FC Bayern zu signalisieren. Das berichtet Bavarian Football Works unter Berufung auf den Sport-Bild-Bericht. Der 25-jährige Mittelfeldspieler steht noch bei Borussia Dortmund unter Vertrag und ist aktuell mit der deutschen Nationalmannschaft bei der WM 2026 aktiv.\n\nNmecha ist kein unbeschriebenes Blatt auf dem Transfermarkt. Laut dem Bericht haben Manchester City, Manchester United und Liverpool ebenfalls Interesse angemeldet – der Wettbewerb um den deutschen Nationalspieler ist also erheblich. Bisher hat Eberl offenbar nur erste Gespräche mit dem Beraterumfeld geführt; ein konkretes Angebot liegt noch nicht vor.\n\nFür Bayern wäre Nmecha eine Option im zentralen Mittelfeld. Aleksandar Pavlović steht bei der WM in der Kritik: Sport1 berichtete am Dienstag auf Bluesky, dass der Bayern-Profi in den ersten beiden deutschen Gruppenspielen den Ansprüchen nicht vollkommen gerecht geworden sei. Ob das die Überlegungen im Münchner Kaderplanungsbüro beschleunigt, lässt sich aus den vorliegenden Berichten nicht ableiten.\n\nNmecha kam im Sommer 2023 für rund 30 Millionen Euro vom VfL Wolfsburg zum BVB und hat seitdem in Dortmund regelmäßig gespielt. Ein Wechsel innerhalb der Bundesliga von Dortmund nach München wäre sportlich und medial ein Vorgang mit erheblicher Aufmerksamkeit – auch wenn solche Transfers in der Vergangenheit immer wieder für Diskussionen gesorgt haben. Zuletzt hatte Bayern mit Transfers aus Dortmund keine Berührungsängste gezeigt.\n\nDie Münchner suchen in diesem Sommer offenbar weiterhin gezielt nach Verstärkungen für das Mittelfeld. Neben dem bereits gemeldeten Interesse an Ismael Saibari wäre Nmecha ein weiterer Schritt in diese Richtung. Ob aus dem Kontakt mehr wird, hängt nach aktuellem Stand auch davon ab, wie sich die englischen Interessenten positionieren.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/220103/bayern-munich-makes-contact-with-reps-for-felix-nmecha",
+      "sourceName": "Bavarian Football Works / Sport Bild"
+    },
     {
       "slug": "2026-06-22-bayern-plant-olise-vertrag-mit-25-millionen-euro-j",
       "date": "2026-06-22",
@@ -479,22 +495,6 @@
       "excerpt": "Der FC Bayern hat seine Sommerpläne für die Vorbereitung auf die Saison 2026/27 bekanntgegeben. Vincent Kompany versammelt seinen Kader erstmals am 20. Juli.",
       "body": "Knapp eine Woche nach dem Ende der Saison 2025/26 stehen die Sommerpläne des FC Bayern bereits fest. Laut Bavarian Football Works ruft Vincent Kompany seine Mannschaft am 20. Juli erstmals zur Trainingseinheit zusammen, einen Tag nach dem WM-Finale. Trotz des laufenden Turniers will der Klub also keine Zeit verlieren.\n\nFünf Tage nach dem Trainingsauftakt soll das Team laut derselben Quelle zu einer Sommerreise aufbrechen. Zum genauen Reiseziel oder zu möglichen Testspielen gibt es bislang keine Angaben. Der straffe Zeitplan zeigt aber, mit welcher Ernsthaftigkeit die Münchner in die neue Spielzeit starten wollen.\n\nDer frühe Beginn hat einen praktischen Hintergrund. Mehrere Bayern-Profis werden bei der WM 2026 im Einsatz sein und kehren erst kurz vor oder sogar nach dem geplanten Trainingsstart nach München zurück. Alphonso Davies etwa führt das kanadische Aufgebot als Kapitän an, wie der kicker berichtet. Auch Joshua Kimmich bestreitet für Deutschland seine dritte Weltmeisterschaft. Kompany muss in der Anfangsphase der Vorbereitung also mit einem reduzierten Kader arbeiten.\n\nDie abgelaufene Saison schloss der FC Bayern mit dem Double ab, Meisterschaft und DFB-Pokal gingen an die Münchner. Der Pokalsieg gegen den VfB Stuttgart war der Abschluss einer erfolgreichen Spielzeit unter Kompany. Nun gilt es, diese Basis in die kommende Saison zu tragen und die Kaderplanung rechtzeitig abzuschließen.\n\nDer frühe Trainingsstart deutet darauf hin, dass Kompany und die sportliche Führung um Sportvorstand Max Eberl die Vorbereitungszeit so effektiv wie möglich nutzen wollen. Mit dem WM-Finale am 19. Juli als Fixpunkt bleibt dem Trainerteam ohnehin wenig Spielraum, und die Planung trägt dem Rechnung.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-friendlies/208961/bayern-munichs-summer-plans-revealed-in-detail",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-05-30-mueller-sieht-olise-vor-kane-im-ballon-d-or-rennen",
-      "date": "2026-05-30",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-05-30-mueller-sieht-olise-vor-kane-im-ballon-d-or-rennen.webp",
-      "thumbnailAlt": "Müller sieht Olise vor Kane im Ballon-d'Or-Rennen",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Müller sieht Olise vor Kane im Ballon-d'Or-Rennen",
-      "excerpt": "Ex-Bayern-Profi Thomas Müller hält Michael Olise für den aussichtsreicheren Kandidaten auf den Ballon d'Or – noch vor Harry Kane.",
-      "body": "Nach einem historisch erfolgreichen Jahr für den FC Bayern mit dem Double aus Meisterschaft und DFB-Pokal werden gleich zwei Münchner als ernsthafte Anwärter auf den Ballon d'Or gehandelt. Laut Bavarian Football Works hat sich nun Bayern-Legende Thomas Müller in dieser Debatte positioniert, und seine Einschätzung fällt überraschend klar aus.\n\nIn einem Auftritt im Bayern-Insider-Podcast erklärte Müller, warum er Michael Olise im Ballon-d'Or-Rennen aktuell vor Harry Kane einordnet. Beide Spieler gehörten in dieser Saison zu den besten Fußballern der Welt und seien jeweils auf ihrer Position kaum zu übertreffen, so Müller. Beim Franzosen sehe er derzeit aber leichte Vorteile gegenüber dem englischen Torjäger.\n\nOlise spielte für die Bayern eine außergewöhnliche Saison und überzeugte mit Toren ebenso wie mit seiner Vielseitigkeit im Offensivspiel. Müller betonte laut Bavarian Football Works, dass beide Akteure zu den fünf besten Spielern weltweit zählten. Die Entscheidung zwischen den beiden sei äußerst eng.\n\nFür Kane war die abgelaufene Spielzeit ebenfalls überragend: Der englische Nationalstürmer krönte sie mit einem Hattrick im DFB-Pokalfinale gegen den VfB Stuttgart. Dass Müller nun Olise knapp vorne sieht, dürfte vor allem an der Breite und Konstanz von Olises Leistungen über die gesamte Saison liegen, einem Aspekt, der bei der Vergabe des Ballon d'Or traditionell stark gewichtet wird.\n\nDie Vergabe des Ballon d'Or findet üblicherweise im Herbst statt, sodass auch die WM-Leistungen der beiden Spieler noch in die Bewertung einfließen könnten. Eine Auszeichnung für einen der beiden Angreifer wäre für den FC Bayern ein weiterer Höhepunkt der Saison 2025/26.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-alumni/209013/bayern-munich-legend-thomas-muller-says-michael-olise-is-ahead-of-harry-kane-in-the-ballon-dor-race",
       "sourceName": "Bavarian Football Works"
     }
   ],
