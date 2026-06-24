@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-24T07:32:40+00:00",
+  "lastUpdated": "2026-06-24T12:14:09+00:00",
   "tiktokStats": {
-    "followers": 1668,
+    "followers": 1667,
     "likes": "31K",
     "videos": 76
   },
   "ticker": [
+    "Stanisić bereitet WM-Tor vor – Tah übernimmt neue Rolle",
     "Bayern nimmt Kontakt zu Nmecha auf",
     "Bayern plant Olise-Vertrag mit 25 Millionen Euro Jahresgehalt",
     "Alba Berlin entreißt FC Bayern den Basketball-Titel",
     "Harry Kane: 61 Tore in einer Saison – Platz zwei in Bayerns Geschichte",
-    "Olise erklärt: Die Zehn ist seine Lieblingsposition",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-24-stanisi-bereitet-wm-tor-vor-tah-uebernimmt-neue-ro",
+      "date": "2026-06-24",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-06-24-stanisi-bereitet-wm-tor-vor-tah-uebernimmt-neue-ro.webp",
+      "thumbnailAlt": "Stanisić bereitet WM-Tor vor – Tah übernimmt neue Rolle",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Stanisić bereitet WM-Tor vor – Tah übernimmt neue Rolle",
+      "excerpt": "Josip Stanisić legte beim kroatischen 1:0 gegen Panama den Siegtreffer auf. Jonathan Tah rückt beim DFB-Team nach dem Schlotterbeck-Ausfall zum neuen Abwehrchef auf.",
+      "body": "Zwei Bayern-Spieler standen am 24. Spieltag der WM 2026 im Mittelpunkt – auf unterschiedlichen Seiten: Josip Stanisić mit Kroatien und Jonathan Tah mit dem DFB-Team.\n\nStanišić bereitete laut Sport1 das einzige Tor beim 1:0-Sieg Kroatiens gegen Panama vor. Ante Budimir verwandelte die Vorlage des Bayern-Außenverteidigers und schoss sein Team damit ins Achtelfinale. Panama schied durch die Niederlage aus dem Turnier aus. Für Stanišić war es ein wichtiger Moment: Der 25-Jährige kämpfte in den vergangenen Monaten um seinen Platz bei den Bayern und in der kroatischen Nationalelf.\n\nGanz andere Aufgaben hat derzeit Jonathan Tah. Nachdem Nico Schlotterbeck verletzt ausgeschieden ist, übernimmt der Bayern-Innenverteidiger beim DFB-Team eine größere Verantwortung. Laut Tagesschau Sport rückt Tah in die Rolle des Abwehrchefs und bekommt Antonio Rüdiger als neuen Partner. Spielerisch soll sich seine Rolle ebenfalls verändern – Tah soll nun mehr Spielaufbau übernehmen und als Organisator in der Viererkette fungieren.\n\nFür Tah ist das WM-Turnier damit ein entscheidender Formtest vor der neuen Bundesliga-Saison mit Bayern. Er wechselte erst im Sommer 2025 ablösefrei von Bayer Leverkusen nach München und hat sich in der Viererkette unter Vincent Kompany als Stammkraft etabliert. Wie er die erhöhten Anforderungen auf internationalem Niveau meistert, dürfte auch die Bayern-Verantwortlichen genau verfolgen.\n\nBei Stanišić ist die Ausgangslage ähnlich: Ein gutes Abschneiden mit Kroatien stärkt seine Position für die kommende Saison, in der er sich gegen Konkurrenten wie Sacha Boey und Hiroki Itō durchsetzen muss. Drei WM-Partien in der Gruppenphase – und nun mindestens ein weiteres Spiel im Achtelfinale – bieten ihm dafür die Bühne.",
+      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3moyqy3c32s2y",
+      "sourceName": "Sport1 (Bluesky) und Tagesschau Sport"
+    },
     {
       "slug": "2026-06-23-bayern-nimmt-kontakt-zu-nmecha-auf",
       "date": "2026-06-23",
@@ -480,22 +496,6 @@
       "body": "Der FC Bayern kassiert auf dem Transfermarkt einen Rückschlag. Anthony Gordon, zuletzt intensiv mit einem Wechsel nach München in Verbindung gebracht, wechselt laut Miasanrot zum FC Barcelona. Damit fällt ein Kandidat vom Markt, auf den der Rekordmeister konkret gezielt hatte, wie die bereits berichtete Einigung mit Newcastle United über rund 80 Millionen Euro gezeigt hatte.\n\nLaut Miasanrot muss Bayern die Linksaußen-Position nun anderweitig besetzen. Der Fanblog nennt mehrere Namen, die als mögliche Alternativen gehandelt werden: Rafa Leão vom AC Mailand, Arne Godts von Ajax Amsterdam und Kenan Yıldız von Juventus Turin. Alle drei sind im Profil ähnlich angelegt, dynamische und technisch versierte Außenstürmer, die auf der linken Seite agieren können.\n\nDer Bedarf auf dieser Position ist bei den Münchnern real. Kingsley Coman steht zwar noch bis 2027 unter Vertrag, Christian Falk hatte im Dezember bestätigt, dass der FCB den Franzosen im Winter nicht abgeben wollte, doch als alleinige Lösung für die Breite im Kader gilt er offenbar nicht. Luis Díaz bekleidet die Position ebenfalls, und auch Jamal Musiala kann von links spielen, ist aber primär als hängende Spitze oder zentraler Spielmacher einzuplanen.\n\nDie Aufgabe für Bayern liegt nicht allein in der sportlichen Eignung möglicher Kandidaten, sondern auch in der finanziellen und terminlichen Umsetzbarkeit. Leão etwa gilt als einer der teuersten Spieler seines Fachs, Yıldız steht erst am Anfang seiner Karriere auf Top-Niveau. Miasanrot ordnet ein, dass keiner der genannten Namen bislang konkret mit München in Verbindung gebracht wurde. Es handelt sich um mögliche Alternativen, nicht um bestätigte Ziele.\n\nIm Sommer dürfte sich auf dieser Position einiges bewegen. Mit dem Wegfall Gordons muss die Transferplanung der Bayern auf der linken Außenbahn neu priorisiert werden. Wie schnell und auf welchem Weg der Kader dort verstärkt wird, ist laut aktuellem Stand offen.",
       "sourceUrl": "https://miasanrot.de/fc-bayern-gordon-alternativen-leao-godts-yildiz/",
       "sourceName": "Miasanrot (Fanblog)"
-    },
-    {
-      "slug": "2026-05-31-bayerns-sommervorbereitung-trainingsstart-am-20-ju",
-      "date": "2026-05-31",
-      "category": "tactics",
-      "badge": "Taktik-Analyse",
-      "badgeColor": "bt",
-      "thumbnail": "img/articles/2026-05-31-bayerns-sommervorbereitung-trainingsstart-am-20-ju.webp",
-      "thumbnailAlt": "Bayerns Sommervorbereitung: Trainingsstart am 20. Juli",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Bayerns Sommervorbereitung: Trainingsstart am 20. Juli",
-      "excerpt": "Der FC Bayern hat seine Sommerpläne für die Vorbereitung auf die Saison 2026/27 bekanntgegeben. Vincent Kompany versammelt seinen Kader erstmals am 20. Juli.",
-      "body": "Knapp eine Woche nach dem Ende der Saison 2025/26 stehen die Sommerpläne des FC Bayern bereits fest. Laut Bavarian Football Works ruft Vincent Kompany seine Mannschaft am 20. Juli erstmals zur Trainingseinheit zusammen, einen Tag nach dem WM-Finale. Trotz des laufenden Turniers will der Klub also keine Zeit verlieren.\n\nFünf Tage nach dem Trainingsauftakt soll das Team laut derselben Quelle zu einer Sommerreise aufbrechen. Zum genauen Reiseziel oder zu möglichen Testspielen gibt es bislang keine Angaben. Der straffe Zeitplan zeigt aber, mit welcher Ernsthaftigkeit die Münchner in die neue Spielzeit starten wollen.\n\nDer frühe Beginn hat einen praktischen Hintergrund. Mehrere Bayern-Profis werden bei der WM 2026 im Einsatz sein und kehren erst kurz vor oder sogar nach dem geplanten Trainingsstart nach München zurück. Alphonso Davies etwa führt das kanadische Aufgebot als Kapitän an, wie der kicker berichtet. Auch Joshua Kimmich bestreitet für Deutschland seine dritte Weltmeisterschaft. Kompany muss in der Anfangsphase der Vorbereitung also mit einem reduzierten Kader arbeiten.\n\nDie abgelaufene Saison schloss der FC Bayern mit dem Double ab, Meisterschaft und DFB-Pokal gingen an die Münchner. Der Pokalsieg gegen den VfB Stuttgart war der Abschluss einer erfolgreichen Spielzeit unter Kompany. Nun gilt es, diese Basis in die kommende Saison zu tragen und die Kaderplanung rechtzeitig abzuschließen.\n\nDer frühe Trainingsstart deutet darauf hin, dass Kompany und die sportliche Führung um Sportvorstand Max Eberl die Vorbereitungszeit so effektiv wie möglich nutzen wollen. Mit dem WM-Finale am 19. Juli als Fixpunkt bleibt dem Trainerteam ohnehin wenig Spielraum, und die Planung trägt dem Rechnung.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-friendlies/208961/bayern-munichs-summer-plans-revealed-in-detail",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
