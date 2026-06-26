@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-25T18:03:13+00:00",
+  "lastUpdated": "2026-06-26T07:42:49+00:00",
   "tiktokStats": {
-    "followers": 1665,
+    "followers": 1663,
     "likes": "31K",
     "videos": 78
   },
   "ticker": [
+    "Saibari-Transfer: Fixanteil unter 50 Millionen Euro",
     "Bisseck im Bayern-Visier: Falk bestätigt Interesse an Inter-Verteidiger",
     "Stanisić bereitet WM-Tor vor – Tah übernimmt neue Rolle",
     "Bayern nimmt Kontakt zu Nmecha auf",
     "Bayern plant Olise-Vertrag mit 25 Millionen Euro Jahresgehalt",
-    "Alba Berlin entreißt FC Bayern den Basketball-Titel",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-26-saibari-transfer-fixanteil-unter-50-millionen-euro",
+      "date": "2026-06-26",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-06-26-saibari-transfer-fixanteil-unter-50-millionen-euro.webp",
+      "thumbnailAlt": "Saibari-Transfer: Fixanteil unter 50 Millionen Euro",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Saibari-Transfer: Fixanteil unter 50 Millionen Euro",
+      "excerpt": "Die Ablösemodalitäten für PSV-Angreifer Ismael Saibari werden konkreter. Der Fixbetrag liegt laut Sky-Reporter Florian Plettenberg unter 50 Millionen Euro.",
+      "body": "Die Verhandlungen zwischen dem FC Bayern und PSV Eindhoven um Ismael Saibari nehmen Form an. Laut Sky-Journalist Florian Plettenberg, dessen Informationen Bavarian Football Works veröffentlichte, wird der fixe Transferanteil die Marke von 50 Millionen Euro nicht erreichen. Bonuszahlungen könnten die Gesamtsumme jedoch knapp darüber treiben.\n\nSportdirektor Max Eberl hat den fixen Anteil der Ablöse offenbar erfolgreich gedrückt. Das ist aus Münchner Sicht kein unwichtiges Detail: PSV hatte zunächst auf einer höheren Festsumme bestanden, weshalb die Verhandlungen zuletzt schleppend liefen. Dass Eberl den Fixbetrag unter der 50-Millionen-Grenze halten konnte, gibt dem Klub Planungssicherheit – die variablen Anteile hängen üblicherweise an Einsatzzeiten, Titeln oder Weiterkommen im Europapokal.\n\nSaibari steht derzeit im marokkanischen WM-Kader und hat sich in den letzten Wochen ins internationale Rampenlicht gespielt. Der 23-jährige Offensivspieler gehört bei PSV zu den zentralen Figuren und gilt als flexibel einsetzbar: Er kann auf beiden Außenbahnen und hinter der Spitze agieren. Bayern sucht nach dem Abgang mehrerer Angreifer in der Tiefe des Kaders Verstärkung – Saibari passt in dieses Profil.\n\nNoch ist der Transfer nicht abgeschlossen. Das Vertragsangebot der Bayern liegt Saibari bereits vor, über die Ablösehöhe wurde zuletzt noch verhandelt. Mit der nun bekannten Einigung auf einen Fixbetrag unter 50 Millionen Euro rückt ein Abschluss näher. Bavarian Football Works berichtet, dass ein Medizincheck möglicherweise noch während der WM in den USA stattfinden könnte, falls sich beide Seiten endgültig einigen.\n\nFür Bayern wäre Saibari einer der teuersten Zugänge des Sommers, aber kein außergewöhnlicher Transferaufwand gemessen an den Marktwerten der vergangenen Jahre. Die Struktur des Deals – niedriger Fixbetrag, leistungsabhängige Boni – entspricht dem Verhandlungsstil, den Eberl in dieser Transferperiode konsequent verfolgt.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/220977/bayern-munich-ismael-saibari-transfer-world-cup-morocco-psv-max-eberl",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-06-24-bisseck-im-bayern-visier-falk-bestaetigt-interesse",
       "date": "2026-06-24",
@@ -480,22 +496,6 @@
       "body": "Der FC Bayern treibt seine Transferaktivitäten im Angriff weiter voran. Laut einem exklusiven Bericht von Sky-Deutschland-Journalist Florian Plettenberg, den Bavarian Football Works zitiert, hat der Rekordmeister dem PSV-Eindhoven-Spieler Ismael Saibari ein schriftliches Vertragsangebot unterbreitet. Das Schreiben wurde Saibari und seiner Agentur offiziell zugestellt.\n\nInteressant ist der Ablauf der Verhandlungen. Bereits am Montag, vor der schriftlichen Offerte, fanden demnach direkte Gespräche zwischen Trainer Vincent Kompany, Sportvorstand Max Eberl und Saibari persönlich statt. Dass ein Cheftrainer so früh in Transfergespräche eingebunden wird, zeigt, wie ernst es dem Klub mit dem Spieler ist.\n\nDie entscheidende Frage ist nach aktuellem Stand noch offen. Über die konkrete Ablösesumme herrscht laut Plettenberg bislang keine Einigkeit. PSV Eindhoven gilt bei Transfers als harter Verhandlungspartner. Der niederländische Meister hat in der Vergangenheit regelmäßig hohe Ablösen für seine Leistungsträger durchgesetzt.\n\nSaibari, marokkanischer Nationalspieler, hat sich in der Eredivisie als vielseitiger Offensivspieler etabliert. Er kann im zentralen Mittelfeld wie auch als hängende Spitze spielen. Damit passt er in das Profil, das Bayern für die Kadertiefe hinter Harry Kane und den weiteren Angreifern sucht, zumal der Abgang von Leon Goretzka feststeht und João Palhinha dem Vernehmen nach kurz vor einem Wechsel steht.\n\nFür den FCB kommt die Personalie Saibari in einer Phase, in der der Klub sein Mittelfeld und die offensiven Außenbahnen neu justiert. Ob das Vertragsangebot reicht, um PSV zur Freigabe zu bewegen, dürfte über diesen Transfer entscheiden. Bavarian Football Works zufolge sind die nächsten Wochen ausschlaggebend.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/210632/bayern-munich-submits-contract-offer-to-ismael-saibari-transfer-fee-is-unclear",
       "sourceName": "Bavarian Football Works (nach Sky Deutschland / Florian Plettenberg)"
-    },
-    {
-      "slug": "2026-06-02-dante-kehrt-als-amateure-trainer-zum-fc-bayern-zur",
-      "date": "2026-06-02",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-06-02-dante-kehrt-als-amateure-trainer-zum-fc-bayern-zur.webp",
-      "thumbnailAlt": "Dante kehrt als Amateure-Trainer zum FC Bayern zurück",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Dante kehrt als Amateure-Trainer zum FC Bayern zurück",
-      "excerpt": "Elf Jahre nach seinem Abschied als Spieler übernimmt Dante die Leitung der FC Bayern Amateure – seine erste Trainerstation nach dem Ende seiner aktiven Karriere.",
-      "body": "Der frühere Innenverteidiger Dante kehrt zum FC Bayern München zurück, diesmal als Trainer. Wie der kicker auf Bluesky berichtet und Sport1 bestätigt, übernimmt der Brasilianer die Leitung der FC-Bayern-Amateure. Es ist seine erste Trainerstation nach dem Ende seiner aktiven Karriere.\n\nDante stand von 2011 bis 2015 beim FC Bayern unter Vertrag und gewann mit den Münchnern in der Saison 2012/13 das Triple aus Bundesliga, DFB-Pokal und Champions League. Danach wechselte er zu Borussia Mönchengladbach, später zu OGC Nizza und zum VfL Wolfsburg, bevor er seine Profilaufbahn beendete. Laut kicker fand er zum Abschluss dieser Laufbahn die entscheidende Erleichterung noch einmal vor ungewohnter Kulisse.\n\nBei den Bayern-Amateuren kann Dante das Trainerhandwerk im Umfeld des Klubs lernen, bei dem er einen Großteil seiner erfolgreichsten Jahre verbrachte. Die Nachwuchsabteilung des FC Bayern zählt zu den besten in Deutschland, mehrere Bundesliga-Profis durchliefen zuletzt diesen Unterbau, bevor sie den Sprung in den Erstliga-Kader schafften.\n\nDie Rückkehr eines Triple-Siegers als Übungsleiter passt zu einer Bayern-Tradition: Auch andere ehemalige Spieler des Rekordmeisters haben ihre Trainerkarriere im klubeigenen Nachwuchsbereich begonnen. Dante bringt Erfahrung aus über einem Jahrzehnt auf höchstem europäischen Niveau mit und kennt zugleich die Klubphilosophie und die internen Strukturen.\n\nDie Bayern-Amateure spielen in der Regionalliga Bayern und dienen als direkte Vorstufe zum Profikader von Trainer Vincent Kompany. Ob und wie schnell Dante eigene Akzente in der Spielanlage setzen kann, wird sich in der kommenden Saison zeigen. Mit der Verpflichtung machen die Münchner deutlich, dass sie ehemaligen Leistungsträgern den Einstieg ins Trainergeschäft innerhalb des Klubs ermöglichen wollen.",
-      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mncaasbmtf2s",
-      "sourceName": "Sport1 (Bluesky) und kicker (Bluesky)"
     }
   ],
   "tiktokVideosAuto": false,
