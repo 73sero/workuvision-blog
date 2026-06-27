@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-27T06:46:56+00:00",
+  "lastUpdated": "2026-06-27T11:20:22+00:00",
   "tiktokStats": {
-    "followers": 1663,
+    "followers": 1664,
     "likes": "31K",
     "videos": 78
   },
   "ticker": [
+    "Bayern und Real Madrid: Die stille Vereinbarung hinter den Olise-Gerüchten",
     "Saibari-Transfer: Fixanteil unter 50 Millionen Euro",
     "Bisseck im Bayern-Visier: Falk bestätigt Interesse an Inter-Verteidiger",
     "Stanisić bereitet WM-Tor vor – Tah übernimmt neue Rolle",
     "Bayern nimmt Kontakt zu Nmecha auf",
-    "Bayern plant Olise-Vertrag mit 25 Millionen Euro Jahresgehalt",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-27-bayern-und-real-madrid-die-stille-vereinbarung-hin",
+      "date": "2026-06-27",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-06-27-bayern-und-real-madrid-die-stille-vereinbarung-hin.webp",
+      "thumbnailAlt": "Bayern und Real Madrid: Die stille Vereinbarung hinter den Olise-Gerüchten",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Bayern und Real Madrid: Die stille Vereinbarung hinter den Olise-Gerüchten",
+      "excerpt": "Hinter den Olise-Spekulationen steckt offenbar mehr: Bayern und Real Madrid sollen eine informelle Abmachung getroffen haben.",
+      "body": "Die Gerüchte um Michael Olise und Real Madrid haben in den vergangenen Wochen ein Ausmaß erreicht, das die Königlichen zu einer öffentlichen Stellungnahme zwang. Real dementierte offiziell jedes Interesse an einem Transfer. Doch in dieser Erklärung steckte laut Bavarian Football Works ein Detail, das bislang nicht bekannt war.\n\nDemnach sollen der FC Bayern und Real Madrid eine informelle Vereinbarung getroffen haben. Über deren genauen Inhalt macht Bavarian Football Works keine vollständigen Angaben, da der Artikel hinter einer Paywall liegt – doch der Hinweis auf eine solche Abmachung ist für sich genommen bemerkenswert. Er deutet darauf hin, dass die beiden Klubs hinter den Kulissen in engem Kontakt stehen.\n\nBayerns Klubpräsident Herbert Hainer hatte zuletzt unmissverständlich klargestellt, dass Olise nicht zu kaufen sei. Auch dieser Bericht passt in das Bild: Die Münchner wollen den Franzosen halten, scheinen aber gleichzeitig einen geregelten Rahmen mit Madrid geschaffen zu haben – möglicherweise für eine spätere Entwicklung.\n\nOlise selbst befindet sich derzeit in starker Form. Bei Frankreichs WM-Vorbereitung erzielte er einen Dreierpack und wurde in einer Wahl zum besten Angreifer der Welt gekürt. Sein Marktwert ist entsprechend gestiegen, was das Interesse großer europäischer Klubs erklärt. Für Bayern ist er in der Saison 2025/26 einer der wichtigsten Offensivspieler.\n\nWas genau diese Vereinbarung zwischen München und Madrid beinhaltet, bleibt vorerst offen. Bavarian Football Works spricht von einer Abmachung, die öffentlich bislang nicht bekannt war – und die Real Madrids Dementi in einem anderen Licht erscheinen lässt. Ob es sich um eine Vorkaufsklausel, eine zeitliche Absprache oder etwas anderes handelt, geht aus den verfügbaren Informationen nicht hervor.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/220241/inside-bayern-munichs-secret-agreement-with-real-madrid",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-06-26-saibari-transfer-fixanteil-unter-50-millionen-euro",
       "date": "2026-06-26",
@@ -480,22 +496,6 @@
       "body": "Der FC Bayern München und der FC Arsenal sind offenbar die aussichtsreichsten Interessenten für Nathaniel Brown von Eintracht Frankfurt. Das berichtet Seb Stafford-Bloor vom Athletic, wie Bavarian Football Works festhält. Demnach ist Brown, der die deutsche Nationalmannschaft vertritt, in den Fokus zweier europäischer Topklubs geraten und soll Frankfurt in diesem Sommer verlassen.\n\nBrown zählt zu den vielversprechendsten Linksverteidigern der Bundesliga. Bei Eintracht Frankfurt hat er sich als feste Größe durchgesetzt und zuletzt auch das DFB-Team auf sich aufmerksam gemacht. Sein Abgang aus Frankfurt gilt dem Bericht zufolge als wahrscheinlich, konkrete Ablösesummen werden allerdings nicht genannt.\n\nFür den FCB käme Brown zur passenden Zeit. Raphaël Guerreiro steht als Option auf der linken Abwehrseite zur Verfügung, doch mit Alphonso Davies hat die Mannschaft auf dieser Position einen Stammspieler verloren. Ein verlässlicher und junger Linksverteidiger mit Bundesliga-Erfahrung würde also einen echten Bedarf decken.\n\nDass auch Arsenal um Brown wirbt, sagt einiges über seinen Marktwert. Die Londoner suchen unter Trainer Mikel Arteta seit Jahren nach stabilen Lösungen in der Defensive und haben in der Vergangenheit wiederholt Interesse an deutschen Spielern bekundet. Der Wettbewerb mit einem Premier-League-Klub dürfte die Ablöseverhandlungen mit Frankfurt komplizierter und teurer machen.\n\nEntschieden ist noch nichts, und konkrete Verhandlungsstände sind laut der Quelle nicht bekannt. Browns Situation gehört aber zu den interessanteren Transfers in diesem Sommer, weil er sportliche Anforderungen auf Vereinsebene mit internationalen Perspektiven verbindet. Ob Bayern in einem möglichen Bieterwettstreit mit Arsenal den Zuschlag bekommt, wird sich in den kommenden Wochen zeigen.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/210634/bayern-munich-arsenal-vying-for-eintracht-frankfurts-nathaniel-brown",
       "sourceName": "Bavarian Football Works / The Athletic (Seb Stafford-Bloor)"
-    },
-    {
-      "slug": "2026-06-02-bayern-reicht-saibari-vertragsangebot-ein-abloese",
-      "date": "2026-06-02",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-06-02-bayern-reicht-saibari-vertragsangebot-ein-abloese.webp",
-      "thumbnailAlt": "Bayern reicht Saibari Vertragsangebot ein – Ablöse offen",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Bayern reicht Saibari Vertragsangebot ein – Ablöse offen",
-      "excerpt": "Der FC Bayern hat PSV-Angreifer Ismael Saibari ein schriftliches Vertragsangebot vorgelegt. Die Ablösefrage ist laut Sky-Deutschland-Journalist Florian Plettenberg noch ungeklärt.",
-      "body": "Der FC Bayern treibt seine Transferaktivitäten im Angriff weiter voran. Laut einem exklusiven Bericht von Sky-Deutschland-Journalist Florian Plettenberg, den Bavarian Football Works zitiert, hat der Rekordmeister dem PSV-Eindhoven-Spieler Ismael Saibari ein schriftliches Vertragsangebot unterbreitet. Das Schreiben wurde Saibari und seiner Agentur offiziell zugestellt.\n\nInteressant ist der Ablauf der Verhandlungen. Bereits am Montag, vor der schriftlichen Offerte, fanden demnach direkte Gespräche zwischen Trainer Vincent Kompany, Sportvorstand Max Eberl und Saibari persönlich statt. Dass ein Cheftrainer so früh in Transfergespräche eingebunden wird, zeigt, wie ernst es dem Klub mit dem Spieler ist.\n\nDie entscheidende Frage ist nach aktuellem Stand noch offen. Über die konkrete Ablösesumme herrscht laut Plettenberg bislang keine Einigkeit. PSV Eindhoven gilt bei Transfers als harter Verhandlungspartner. Der niederländische Meister hat in der Vergangenheit regelmäßig hohe Ablösen für seine Leistungsträger durchgesetzt.\n\nSaibari, marokkanischer Nationalspieler, hat sich in der Eredivisie als vielseitiger Offensivspieler etabliert. Er kann im zentralen Mittelfeld wie auch als hängende Spitze spielen. Damit passt er in das Profil, das Bayern für die Kadertiefe hinter Harry Kane und den weiteren Angreifern sucht, zumal der Abgang von Leon Goretzka feststeht und João Palhinha dem Vernehmen nach kurz vor einem Wechsel steht.\n\nFür den FCB kommt die Personalie Saibari in einer Phase, in der der Klub sein Mittelfeld und die offensiven Außenbahnen neu justiert. Ob das Vertragsangebot reicht, um PSV zur Freigabe zu bewegen, dürfte über diesen Transfer entscheiden. Bavarian Football Works zufolge sind die nächsten Wochen ausschlaggebend.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/210632/bayern-munich-submits-contract-offer-to-ismael-saibari-transfer-fee-is-unclear",
-      "sourceName": "Bavarian Football Works (nach Sky Deutschland / Florian Plettenberg)"
     }
   ],
   "tiktokVideosAuto": false,
