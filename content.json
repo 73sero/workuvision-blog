@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-27T11:20:22+00:00",
+  "lastUpdated": "2026-06-27T11:22:28+00:00",
   "tiktokStats": {
     "followers": 1664,
     "likes": "31K",
     "videos": 78
   },
   "ticker": [
+    "Kane vor WM-Rekord: Bayern-Stürmer greift nach Geschichtsbuch",
     "Bayern und Real Madrid: Die stille Vereinbarung hinter den Olise-Gerüchten",
     "Saibari-Transfer: Fixanteil unter 50 Millionen Euro",
     "Bisseck im Bayern-Visier: Falk bestätigt Interesse an Inter-Verteidiger",
     "Stanisić bereitet WM-Tor vor – Tah übernimmt neue Rolle",
-    "Bayern nimmt Kontakt zu Nmecha auf",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-27-kane-vor-wm-rekord-bayern-stuermer-greift-nach-ges",
+      "date": "2026-06-27",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-06-27-kane-vor-wm-rekord-bayern-stuermer-greift-nach-ges.webp",
+      "thumbnailAlt": "Kane vor WM-Rekord: Bayern-Stürmer greift nach Geschichtsbuch",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Kane vor WM-Rekord: Bayern-Stürmer greift nach Geschichtsbuch",
+      "excerpt": "Harry Kane kann im letzten englischen Gruppenspiel zum alleinigen WM-Rekordtorschützen Englands aufsteigen. Die FAZ berichtet über das historische Potenzial.",
+      "body": "Harry Kane steht bei der WM 2026 kurz vor einem nationalen Rekord. Wie die FAZ berichtet, könnte der Bayern-Stürmer im letzten Gruppenspiel Englands zum alleinigen WM-Rekordtorschützen seines Landes werden. Bisher teilt er diesen Titel mit einem Vorgänger – ein Treffer könnte reichen, um ihn zu überholen.\n\nFür Kane wäre es ein weiterer Meilenstein in einer Turnierbilanz, die ihn schon jetzt zu einem der produktivsten englischen Angreifer in der WM-Geschichte macht. Der 31-Jährige ist seit Sommer 2023 beim FC Bayern unter Vertrag und hat in München seinen Ruf als Torjäger auf höchstem Niveau bestätigt: In der Bundesliga-Saison 2024/25 traf er regelmäßig und zählt auch in der aktuellen Spielzeit 2025/26 zu den verlässlichsten Angreifern im Kader von Trainer Vincent Kompany.\n\nAuf internationaler Bühne trägt Kane die englische Kapitänsbinde. Die WM 2026 bietet ihm die wohl letzte große Chance, seinen Platz in der englischen Fußballgeschichte zu zementieren. Bisherige Gruppenspiele hat er genutzt – ob er nun das Rekordtor nachlegt, entscheidet das abschließende Vorrundenspiel.\n\nParallel zum möglichen Rekord von Kane läuft bei der WM die Diskussion über den Stellenwert von Nationalspielern aus der Bundesliga. Mehrere Bayern-Profis sind in Nordamerika im Einsatz: Neben Kane auch Joshua Kimmich, Manuel Neuer und Jonathan Tah für Deutschland, Luis Díaz für Kolumbien sowie Alphonso Davies für Kanada. Das Turnier mit erstmals 48 Mannschaften liefert damit auch für den FCB zahlreiche Beobachtungsfelder vor der neuen Saison.\n\nSollte Kane den Rekord tatsächlich aufstellen, wäre es ein persönlicher Höhepunkt mitten in einem Turnier, das für England bislang solide, aber nicht überzeugend verlaufen ist. Die FAZ ordnet die Partie gegen den nächsten Gegner als möglichen Wendepunkt in der englischen Kampagne ein.",
+      "sourceUrl": "https://www.faz.net/aktuell/sport/fussball-wm/fussball-wm-2026-heute-harry-kane-moechte-englands-neuer-wm-rekordtorschuetze-werden-accg-200973130.html",
+      "sourceName": "FAZ Sport"
+    },
     {
       "slug": "2026-06-27-bayern-und-real-madrid-die-stille-vereinbarung-hin",
       "date": "2026-06-27",
@@ -480,22 +496,6 @@
       "body": "Michael Olise hat die Saison 2025/26 stark abgeschlossen. Laut Bavarian Football Works wurde der 24-jährige Franzose in einer weltweiten Abstimmung zum besten Angreifer der abgelaufenen Spielzeit gewählt und ließ dabei namhafte Konkurrenten wie Harry Kane und Barcelonas Lamine Yamal hinter sich.\n\nDie Zahlen, die Bavarian Football Works nennt, sprechen für die Wahl: 22 Tore und 31 Vorlagen erzielte Olise in 52 Pflichtspieleinsätzen für den FC Bayern. Das ergibt 53 direkte Torbeteiligungen in einer Saison, ein Wert, der auch im internationalen Vergleich heraussticht. Schon in seiner Premierensaison 2024/25 lieferte der Flügelstürmer konstant auf hohem Niveau, in der abgelaufenen Spielzeit steigerte er sich noch einmal deutlich.\n\nOlise war im Sommer 2024 vom FC Chelsea zu den Münchnern gewechselt und galt damals als einer der teuersten Neuzugänge der Klubgeschichte. Die hohen Erwartungen hat er übertroffen. In Vincent Kompanys System spielt er meist als beweglicher Außenstürmer mit der Freiheit, ins Zentrum einzurücken, eine Rolle, in der er seine technischen Fähigkeiten und sein Gespür für den Torabschluss gut einbringt.\n\nDass Kane in der Abstimmung auf den zweiten Platz kam, ist erstaunlich. Der englische Stürmer hatte eine historische Saison gespielt und erst kürzlich den Rekord von Cristiano Ronaldo mit 61 Saisontoren egalisiert. Dass Olise trotzdem an ihm vorbeizog, zeigt, wie viel der Franzose international an Wahrnehmung gewonnen hat.\n\nFür den FC Bayern ist die Auszeichnung mehr als ein symbolischer Erfolg. Mit Olise in dieser Form haben die Münchner einen der gefragtesten Offensivspieler Europas. Seine Vertragssituation dürfte in den kommenden Monaten wichtiger werden, sollten andere Topklubs anklopfen.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-records-and-achievements/210733/bayern-munich-star-michael-olise-voted-the-best-attacking-player-in-the-world-ahead-of-harry-kane-and-lamine-yamal",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-06-02-bayern-steigt-aus-dem-rennen-um-nathaniel-brown-ei",
-      "date": "2026-06-02",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-06-02-bayern-steigt-aus-dem-rennen-um-nathaniel-brown-ei.webp",
-      "thumbnailAlt": "Bayern steigt aus dem Rennen um Nathaniel Brown ein",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Bayern steigt aus dem Rennen um Nathaniel Brown ein",
-      "excerpt": "Laut einem Bericht des Athletic buhlen der FC Bayern und Arsenal um Eintracht Frankfurts Linksverteidiger Nathaniel Brown.",
-      "body": "Der FC Bayern München und der FC Arsenal sind offenbar die aussichtsreichsten Interessenten für Nathaniel Brown von Eintracht Frankfurt. Das berichtet Seb Stafford-Bloor vom Athletic, wie Bavarian Football Works festhält. Demnach ist Brown, der die deutsche Nationalmannschaft vertritt, in den Fokus zweier europäischer Topklubs geraten und soll Frankfurt in diesem Sommer verlassen.\n\nBrown zählt zu den vielversprechendsten Linksverteidigern der Bundesliga. Bei Eintracht Frankfurt hat er sich als feste Größe durchgesetzt und zuletzt auch das DFB-Team auf sich aufmerksam gemacht. Sein Abgang aus Frankfurt gilt dem Bericht zufolge als wahrscheinlich, konkrete Ablösesummen werden allerdings nicht genannt.\n\nFür den FCB käme Brown zur passenden Zeit. Raphaël Guerreiro steht als Option auf der linken Abwehrseite zur Verfügung, doch mit Alphonso Davies hat die Mannschaft auf dieser Position einen Stammspieler verloren. Ein verlässlicher und junger Linksverteidiger mit Bundesliga-Erfahrung würde also einen echten Bedarf decken.\n\nDass auch Arsenal um Brown wirbt, sagt einiges über seinen Marktwert. Die Londoner suchen unter Trainer Mikel Arteta seit Jahren nach stabilen Lösungen in der Defensive und haben in der Vergangenheit wiederholt Interesse an deutschen Spielern bekundet. Der Wettbewerb mit einem Premier-League-Klub dürfte die Ablöseverhandlungen mit Frankfurt komplizierter und teurer machen.\n\nEntschieden ist noch nichts, und konkrete Verhandlungsstände sind laut der Quelle nicht bekannt. Browns Situation gehört aber zu den interessanteren Transfers in diesem Sommer, weil er sportliche Anforderungen auf Vereinsebene mit internationalen Perspektiven verbindet. Ob Bayern in einem möglichen Bieterwettstreit mit Arsenal den Zuschlag bekommt, wird sich in den kommenden Wochen zeigen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/210634/bayern-munich-arsenal-vying-for-eintracht-frankfurts-nathaniel-brown",
-      "sourceName": "Bavarian Football Works / The Athletic (Seb Stafford-Bloor)"
     }
   ],
   "tiktokVideosAuto": false,
