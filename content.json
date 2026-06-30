@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-06-30T12:04:33+00:00",
+  "lastUpdated": "2026-06-30T15:07:00+00:00",
   "tiktokStats": {
     "followers": 1717,
     "likes": "32K",
     "videos": 80
   },
   "ticker": [
+    "Neuers letztes Wort: WM-Aus bedeutet Karriereende im DFB-Trikot",
     "Bayern zufrieden mit Mittelfeld: Nmecha kein Thema",
     "Kane vor WM-Rekord: Bayern-Stürmer greift nach Geschichtsbuch",
     "Bayern und Real Madrid: Die stille Vereinbarung hinter den Olise-Gerüchten",
     "Saibari-Transfer: Fixanteil unter 50 Millionen Euro",
-    "Bisseck im Bayern-Visier: Falk bestätigt Interesse an Inter-Verteidiger",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-06-30-neuers-letztes-wort-wm-aus-bedeutet-karriereende-i",
+      "date": "2026-06-30",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-06-30-neuers-letztes-wort-wm-aus-bedeutet-karriereende-i.webp",
+      "thumbnailAlt": "Neuers letztes Wort: WM-Aus bedeutet Karriereende im DFB-Trikot",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuers letztes Wort: WM-Aus bedeutet Karriereende im DFB-Trikot",
+      "excerpt": "Manuel Neuer hat sein Karriereende in der Nationalmannschaft bestätigt. Das WM-Achtelfinale gegen Paraguay war sein letztes Länderspiel.",
+      "body": "Mit einem einzigen Wort hat Manuel Neuer am Dienstag sein Ende als Nationaltorwart besiegelt. Nach dem Ausscheiden der deutschen Mannschaft gegen Paraguay im WM-Achtelfinale bestätigte der 39-Jährige, dass er nicht mehr für den DFB auflaufen wird – laut kicker auf Bluesky mit denkbar knapper Antwort.\n\nFür Neuer war es ein Abschied unter besonderen Umständen. Der Torhüter hatte nach einer mehr als 700-tägigen Länderspielpause für die WM 2026 in die Nationalmannschaft zurückgekehrt, um dem deutschen Team bei dem Turnier in den USA, Kanada und Mexiko zu helfen. Bavarian Football Works berichtet, dass Neuer trotz des Ausscheidens enttäuscht, aber gefasst auf seine internationale Karriere zurückblickte.\n\nDas Spiel selbst endete nach regulärer Spielzeit und Verlängerung torlos, ehe Deutschland im Elfmeterschießen scheiterte. Laut Sport1 auf Bluesky hat Neuer dabei einen Negativrekord eingestellt – die genaue Natur des Rekords geht aus der Quelle nicht vollständig hervor. Das Scheitern in der Runde der letzten 32 ist für den deutschen Fußball eine historische Blamage.\n\nFür Neuer persönlich endet damit eine Nationalmannschaftskarriere, die zu den prägendsten in der Geschichte des deutschen Torhüterspiels zählt. Er war Teil des WM-Triumphes 2014 in Brasilien und wurde in jenem Turnier zum besten Torhüter gewählt. Sein Comeback für die WM 2026 galt von Anfang an als riskant, da er im Vereinsbetrieb beim FC Bayern zuletzt nicht mehr unumstrittene Nummer eins war.\n\nMit Neuers Abgang verliert die Nationalmannschaft ihren langjährigen Anker im Tor. Beim FC Bayern steht er noch unter Vertrag und bleibt vorerst Teil des Kaders von Trainer Vincent Kompany – wie es mit seiner Klubkarriere weitergeht, ist nach diesem WM-Abschluss die nächste offene Frage.",
+      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mpin47dyx42x",
+      "sourceName": "kicker (Bluesky) / Bavarian Football Works"
+    },
     {
       "slug": "2026-06-28-bayern-zufrieden-mit-mittelfeld-nmecha-kein-thema",
       "date": "2026-06-28",
@@ -480,22 +496,6 @@
       "body": "Der FC Bayern treibt seine Transferplanung für die kommende Saison offenbar mit Nachdruck voran. Laut Miasanrot hat der Rekordmeister großes Interesse an Ismael Saibari von PSV Eindhoven. Der 25-jährige Marokkaner gilt als mögliche Verstärkung im offensiven Mittelfeld.\n\nUngewöhnlich ist vor allem die logistische Seite des möglichen Transfers. Sollten sich Bayern und PSV Eindhoven auf eine Ablösesumme einigen, würde der Medizincheck nicht in München stattfinden, sondern in den Vereinigten Staaten. Saibari ist derzeit mit der marokkanischen Nationalmannschaft in den USA, wo die WM 2026 ausgetragen wird. Das berichtet Miasanrot unter Berufung auf die niederländische Zeitung Eindhovens Dagblad.\n\nDer offensive Mittelfeldspieler hatte für PSV Eindhoven zuletzt eine starke Saison in der Eredivisie und in der Champions League. Miasanrot ordnet ihn in einem gesonderten Scouting-Report als möglichen Backup ein, also als Spieler, der Tiefe im Kader schafft, ohne sofort gesetzt sein zu müssen. Seine Vielseitigkeit auf der Zehn und auf den Flügeln passt grundsätzlich zum System von Trainer Vincent Kompany.\n\nFür Bayern wäre Saibari eine Ergänzung in einem ohnehin breiten Angriffsmittelfeld mit Jamal Musiala, Michael Olise und Kingsley Coman. Gerade in englischen Wochen mit Champions-League-Belastung wäre zusätzliche Qualität auf diesen Positionen jedoch nachvollziehbar. PSV Eindhoven gilt als Verein, der bei passenden Angeboten verkaufsbereit ist. Konkrete Verhandlungsstände oder eine Ablösesumme nennt Miasanrot allerdings nicht.\n\nEin Medizincheck während einer laufenden Weltmeisterschaft zeigt, wie eng Transferfenster und internationaler Spielplan inzwischen verzahnt sind. Ob aus dem Interesse eine Verpflichtung wird, ist nach aktuellem Stand offen. Die Rahmenbedingungen für eine zügige Abwicklung wären laut Miasanrot aber bereits gegeben.",
       "sourceUrl": "https://miasanrot.de/ismael-saibari-fc-bayern-scouting-report/",
       "sourceName": "Miasanrot (Fanblog)"
-    },
-    {
-      "slug": "2026-06-04-eichhorn-transfer-bayern-intern-uneins-nicht-nur-b",
-      "date": "2026-06-04",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-06-04-eichhorn-transfer-bayern-intern-uneins-nicht-nur-b.webp",
-      "thumbnailAlt": "Eichhorn-Transfer: Bayern intern uneins – nicht nur beim Preis",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Eichhorn-Transfer: Bayern intern uneins, nicht nur beim Preis",
-      "excerpt": "Der FC Bayern hat die Verhandlungen um Hertha-Talent Kennet Eichhorn abgebrochen, und das aus mehr als nur einem Grund.",
-      "body": "Der FC Bayern München wird das 16-jährige Talent Kennet Eichhorn nicht verpflichten. Wie der kicker in einem ausführlichen Bericht schreibt, haben sich die Münchner gegen einen Transfer entschieden, trotz des grundsätzlichen Interesses, das intern vorhanden war. Eichhorn, der bei Hertha BSC ausgebildet wird und als eines der verheißungsvollsten deutschen Nachwuchstalente gilt, stand auf der Liste des Rekordmeisters.\n\nDie Ablöseforderung war dabei nur ein Aspekt des gescheiterten Deals. Laut Bavarian Football Works, die sich auf den kicker-Bericht beziehen, war Bayern intern in der Frage des Transfers uneins, unabhängig vom Preis. Heißt: Selbst bei einer Einigung beider Klubs über die Transfersumme wäre intern nicht zwingend eine Zustimmung zustande gekommen. Welche konkreten Bedenken im Verein geäußert wurden, geht aus den Berichten nicht im Detail hervor.\n\nDer kicker hatte den Rückzug der Bayern bereits am 3. Juni auf Bluesky bestätigt: Eichhorn habe einem Wechsel nach München zwar offen gegenübergestanden, doch die Münchner hätten sich aus mehreren Gründen dagegen entschieden. Sport1 und Bild hatten zuvor übereinstimmend berichtet, die Verhandlungen seien an der Transfersumme gescheitert. Der kicker lieferte nun die tiefere Einordnung.\n\nFür Eichhorn ist das Scheitern der Bayern-Gespräche nicht das Ende seiner Wechseloptionen in diesem Sommer. Hertha BSC, derzeit in der 2. Bundesliga, könnte den Youngster ziehen lassen. Welche Klubs nun konkret an ihm interessiert sind, ist aus den vorliegenden Berichten nicht zu entnehmen.\n\nDer Fall zeigt, dass beim FC Bayern in der Transferplanung nicht allein die Ablösesumme zählt. Interne Abstimmungsprozesse spielen offensichtlich eine gewichtige Rolle, gerade bei jungen Talenten, bei denen Entwicklungsperspektive und sportliche Passung sorgfältig abgewogen werden müssen. Ob Bayern im Laufe des Sommers eine Alternative auf der Nachwuchs-Agenda benennt, ist vorerst offen.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mnf3w5k3vr2i",
-      "sourceName": "kicker (Bluesky)"
     }
   ],
   "tiktokVideosAuto": false,
