@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-07-01T17:27:04+00:00",
+  "lastUpdated": "2026-07-01T17:46:47+00:00",
   "tiktokStats": {
     "followers": 1717,
     "likes": "32K",
     "videos": 81
   },
   "ticker": [
+    "Saibari trägt die 34: Bayern-Zugang mit besonderer Geste",
     "Tahs Tor aberkannt: VAR-Entscheidung empört Experten",
     "Neuers letztes Wort: WM-Aus bedeutet Karriereende im DFB-Trikot",
     "Bayern zufrieden mit Mittelfeld: Nmecha kein Thema",
     "Kane vor WM-Rekord: Bayern-Stürmer greift nach Geschichtsbuch",
-    "Bayern und Real Madrid: Die stille Vereinbarung hinter den Olise-Gerüchten",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-07-01-saibari-traegt-die-34-bayern-zugang-mit-besonderer",
+      "date": "2026-07-01",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/transfer.jpg",
+      "thumbnailAlt": "Saibari trägt die 34: Bayern-Zugang mit besonderer Geste",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Saibari trägt die 34: Bayern-Zugang mit besonderer Geste",
+      "excerpt": "Ismael Saibari wechselt offiziell von PSV Eindhoven zum FC Bayern – und wählt dabei eine Rückennummer mit persönlicher Bedeutung.",
+      "body": "Der FC Bayern hat den Transfer von Ismael Saibari am Mittwoch offiziell bestätigt. Der 25-jährige Marokkaner wechselt vom niederländischen Meister PSV Eindhoven nach München und unterschreibt einen Vertrag bis 2031. Laut Süddeutscher Zeitung beläuft sich die Ablösesumme auf rund 50 Millionen Euro.\n\nSaibari verbrachte sechs Jahre bei PSV Eindhoven, ehe der Wechsel zum deutschen Rekordmeister zustande kam. Der kicker ordnet den Transfer so ein: Saibari sei schätzungsweise 25 Millionen Euro günstiger als die ursprünglich favorisierte Erstlösung für die Offensive gewesen – womit Bayern trotz des zweistelligen Millionenbetrags vergleichsweise günstig an einen gefragten Spieler gelangt.\n\nBesonderes Aufsehen erregt die Rückennummer, die Saibari beim FCB tragen wird: die 34. Laut kicker steckt dahinter eine persönliche Geste – der Angreifer wählt die Zahl aus einem bestimmten Grund, der ihm wichtig ist. Details dazu nannte der kicker nicht vollständig, doch die Wahl fiel bewusst und nicht zufällig.\n\nSaibari tritt seinen neuen Job mit Schwung an: Bei der WM 2026 erzielte er für Marokko in drei Partien drei Tore. Zuletzt traf er gegen die Niederlande und schoss das Team von Oranje damit aus dem Turnier. Laut Spiegel ist er eine der auffälligsten Entdeckungen des Turniers. Marokko steht damit weiter in der WM, Saibari spielt also noch mitten im Wettbewerb – der Wechsel zu Bayern wurde dennoch bereits jetzt offiziell gemacht.\n\nSport1 bezeichnete den Transfer als \"ersten dicken Transfer des Sommers\" für den FCB. Für Vincent Kompany bedeutet die Verpflichtung eine neue Option in der Offensive, die mit Harry Kane, Michael Olise, Jamal Musiala, Kingsley Coman und Luis Díaz bereits gut besetzt ist. Wie Saibari dort eingesetzt wird und welche Rolle er in Kompanys System übernehmen soll, wird sich in der Vorbereitung zeigen.",
+      "sourceUrl": "https://www.kicker.de/besondere-geste-deshalb-spielt-saibari-beim-fc-bayern-mit-der-rueckennummer-34-1233005/artikel#omrss",
+      "sourceName": "kicker News"
+    },
     {
       "slug": "2026-06-30-tahs-tor-aberkannt-var-entscheidung-empoert-expert",
       "date": "2026-06-30",
@@ -480,22 +496,6 @@
       "body": "Bitterer Rückschlag für den FC Bayern und das deutsche Nationalteam: Lennart Karl hat sich im Abschlusstraining vor dem letzten WM-Testspiel gegen die USA einen Muskelbündelriss zugezogen. Wie der DFB offiziell bestätigte und der Spiegel sowie NTV Sport übereinstimmend berichten, ist das Turnier für den Bayern-Angreifer damit vorzeitig beendet, noch bevor es begonnen hat. Der Spieler wurde noch am Freitagabend ins Krankenhaus gebracht.\n\nKarl galt in der Vorbereitung als einer der Hoffnungsträger des DFB-Teams. Sein früher Ausfall reißt eine spürbare Lücke ins deutsche Aufgebot. Laut NTV Sport wurde als Nachnominierung nicht Said El Mala berufen. Der DFB entschied sich für eine andere Lösung und nominierte Ebrima Colley Ouédraogo nach.\n\nKarls Verletzung ist nicht die einzige personelle Sorge der deutschen Nationalmannschaft. Auch Manuel Neuer hat laut kicker am Freitag erneut nicht am Abschlusstraining teilgenommen. Damit fehlt der Bayern-Kapitän auch im Testspiel gegen die USA. Sport1 berichtet, dass sich Neuers Rückkehr ins Tor weiter verzögert und gegen die USA aller Voraussicht nach wieder Oliver Baumann zwischen den Pfosten stehen wird.\n\nFür den FC Bayern bringt Karls Verletzung zusätzliche Ungewissheit mit Blick auf die Saisonvorbereitung 2025/26. Trainer Vincent Kompany plant mit einem breiten Kader, doch ein längerer Ausfall des Angreifers würde die Planungen im Sturm beeinflussen. Wie lange Karl ausfällt, ist nach aktuellem Stand noch nicht geklärt.\n\nZwei Bayern-Profis, zwei Verletzungssorgen: Der deutsche Rekordmeister geht mit gedämpfter Stimmung in den WM-Sommer. Neuers Fehlen wiegt vorerst weniger schwer, da er nur im Testspiel-Betrieb fehlt und kein Turnierspiel betroffen ist. Bei Karl sieht es deutlich ernster aus. Ein Muskelbündelriss bedeutet in der Regel eine Ausfallzeit von mehreren Wochen.",
       "sourceUrl": "https://www.spiegel.de/sport/fussball/wm-2026-lennart-karl-verletzt-dfb-hoffnung-droht-turnieraus-a-b0b7005f-19c9-48b1-a5f6-1cc02230dfd5#ref=rss",
       "sourceName": "Spiegel Sport, NTV Sport, kicker (Bluesky)"
-    },
-    {
-      "slug": "2026-06-05-brown-blockt-bayern-fragen-ab-fokus-liegt-auf-der",
-      "date": "2026-06-05",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-06-05-brown-blockt-bayern-fragen-ab-fokus-liegt-auf-der.webp",
-      "thumbnailAlt": "Brown blockt Bayern-Fragen ab: Fokus liegt auf der WM",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Brown blockt Bayern-Fragen ab: Fokus liegt auf der WM",
-      "excerpt": "Nathaniel Brown soll sich mit dem FC Bayern auf einen Wechsel geeinigt haben – der 22-Jährige will sich vor dem WM-Auftakt jedoch nicht äußern.",
-      "body": "Der Linksverteidiger Nathaniel Brown steht offenbar kurz vor einem Wechsel zum FC Bayern München. Wie die Süddeutsche Zeitung berichtet, soll sich der Frankfurter mit dem Rekordmeister bereits auf einen Transfer verständigt haben. Die Münchner würden damit ihre Außenverteidigerposition für die kommende Saison gezielt verstärken.\n\nIn einer Medienrunde des DFB-Teams ließ Brown alle entsprechenden Fragen unbeantwortet. Laut NTV will der 22-Jährige das Thema nicht kommentieren und konzentriert sich voll auf die bevorstehende Weltmeisterschaft. Die Sportschau berichtete, Brown habe die Bayern-Gerüchte in einem WM-Liveblog bewusst abgeblockt. Auch dem Bundestrainer dürfte das recht sein, der seinen Spieler im Turnier ohne Gedankenspiele um einen Vereinswechsel wissen will.\n\nDass der FCB grundsätzlich an Brown interessiert ist, überrascht nicht. Der Frankfurter Nationalspieler zählt zu den vielversprechendsten deutschen Außenverteidigern seiner Generation. In dieser Saison empfahl er sich mit starken Leistungen für die Nationalmannschaft und stand zuletzt in der Abwehr gegen Spaniens Shootingstar Lamine Yamal auf dem Platz, ein Beleg für seine Fähigkeiten im Defensivduell.\n\nAuf der linken Abwehrseite hat der FC Bayern aktuell mit Raphaël Guerreiro und Alphonso Davies zwei etablierte Optionen. Davies' Zukunft in München war zuletzt aber nicht vollständig geklärt, weshalb eine frühzeitige Verstärkung auf dieser Position Sinn ergibt. Brown könnte sofort in den Konkurrenzkampf eingreifen.\n\nBis zur offiziellen Bestätigung bleibt der Transfer unverbindlich. Brown selbst dürfte es recht sein, wenn das Thema bis nach dem WM-Turnier wartet. Die Bühne, auf der er sich in diesen Wochen präsentiert, ist ohnehin die größte seiner bisherigen Karriere.",
-      "sourceUrl": "https://www.sueddeutsche.de/sport/brown-fc-bayern-wechsel-transfer-li.3494031",
-      "sourceName": "Süddeutsche Zeitung"
     }
   ],
   "tiktokVideosAuto": false,
