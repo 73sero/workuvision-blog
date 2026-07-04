@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-07-04T16:55:35+00:00",
+  "lastUpdated": "2026-07-04T17:57:49+00:00",
   "tiktokStats": {
     "followers": 1717,
     "likes": "32K",
     "videos": 82
   },
   "ticker": [
+    "Saibari verletzt sich bei WM-Achtelfinal-Auftritt für Marokko",
     "Nathaniel Brown offiziell beim FC Bayern: Wechsel perfekt",
     "Kimmich übernimmt Verantwortung: WM-Aus liegt bei den Spielern",
     "Saibari trägt die 34: Bayern-Zugang mit besonderer Geste",
     "Tahs Tor aberkannt: VAR-Entscheidung empört Experten",
-    "Neuers letztes Wort: WM-Aus bedeutet Karriereende im DFB-Trikot",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-07-04-saibari-verletzt-sich-bei-wm-achtelfinal-auftritt",
+      "date": "2026-07-04",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-07-04-saibari-verletzt-sich-bei-wm-achtelfinal-auftritt.webp",
+      "thumbnailAlt": "Saibari verletzt sich bei WM-Achtelfinal-Auftritt für Marokko",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Saibari verletzt sich bei WM-Achtelfinal-Auftritt für Marokko",
+      "excerpt": "Bayern-Neuzugang Ismael Saibari musste im Achtelfinale gegen Kanada verletzt vom Feld – kurz nach seiner Unterschrift in München.",
+      "body": "Schlechte Nachrichten für den FC Bayern noch vor dem ersten Training: Ismael Saibari hat sich beim WM-Achtelfinale Marokkos gegen Co-Gastgeber Kanada verletzt und musste vorzeitig ausgewechselt werden. Laut Sport1 (Bluesky) zog sich der Marokkaner die Blessur in einem Zweikampf zu. Die genaue Diagnose war zunächst nicht bekannt.\n\nDas Timing ist ungünstig. Saibari hatte erst wenige Tage vor dem Spiel beim FC Bayern unterschrieben – für rund 50 Millionen Euro Ablöse, wie Sport1 berichtet. Auch Miasanrot vermeldet den Vorfall in seinem Newsticker und bestätigt, dass der Offensivspieler das Spielfeld vorzeitig verlassen musste.\n\nSaibari gilt als vielseitiger Offensivspieler, der zentral wie auf den Flügeln eingesetzt werden kann. Miasanrot hatte den 24-Jährigen zuletzt in einer Videoanalyse unter die Lupe genommen und ihn als flexiblen Zugang für das Münchner Mittelfeld eingeordnet, der sowohl im Pressing als auch in engen Räumen funktioniert. Für Bayern war er als Verstärkung eines Kaders gedacht, der in der Saison 2025/26 die Bundesliga gewann, im Europapokal jedoch frühzeitig ausschied.\n\nWie schwer die Verletzung ist und ob Saibari für den WM-weiteren Verlauf Marokkos zur Verfügung steht, blieb nach dem Spiel zunächst offen. Für den FCB ist die Frage relevant, wann der Neuzugang in die Vorbereitung einsteigen kann. Verpasst er Teile des Trainingslagers, fehlt ihm wertvolle Zeit, um sich in Vincent Kompanys System einzufinden.\n\nDer kicker hatte den Wechsel zuvor als abgeschlossen gemeldet. Bayern hat in diesem Sommer bereits mehrere Positionen verstärkt – neben Saibari wechselt auch Nathaniel Brown an die Isar. Ob der verletzungsbedingte Ausfall länger dauert, dürfte sich in den kommenden Tagen klären.",
+      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mptmfmgqgw27",
+      "sourceName": "Sport1 (Bluesky)"
+    },
     {
       "slug": "2026-07-04-nathaniel-brown-offiziell-beim-fc-bayern-wechsel-p",
       "date": "2026-07-04",
@@ -480,22 +496,6 @@
       "body": "Der FC Bayern trennt sich offenbar von Hiroki Itō. Laut einem Bericht von Sport Bild, den die Journalisten Julian Agardi, Christian Falk und Johannes Wolf gemeinsam verfasst haben und der über Bavarian Football Works aufgegriffen wurde, hat der Rekordmeister die Berater des japanischen Abwehrspielers aufgefordert, einen neuen Klub für ihren Mandanten zu finden.\n\nItō selbst soll dem Bericht zufolge in die spanische LaLiga wechseln wollen. Nach nur einer Saison in München steht damit das Ende des Engagements des 24-jährigen Linksverteidigers an. Bayern will allerdings nicht jeden Preis akzeptieren und erwartet eine Ablösesumme, die den eigenen Vorstellungen entspricht.\n\nItō war im Sommer 2024 vom VfB Stuttgart zum FC Bayern gewechselt und galt als langfristige Lösung auf der linken Abwehrseite. In der abgelaufenen Saison 2025/26 kam er jedoch kaum zum Zug und setzte sich gegen die Konkurrenz auf seiner Position nicht durch. Mit Raphael Guerreiro und Alphonso Davies stehen dort zwei weitere Optionen bereit, was seine Aussichten auf regelmäßige Spielzeit deutlich schmälerte.\n\nEin Verkauf wäre für den FCB auch eine Frage der Kaderzusammenstellung. Die linke Abwehrseite ist mit Guerreiro und Davies doppelt besetzt, ein Abgang Itōs würde die Tiefe an dieser Stelle verringern. Ob Bayern einen Ersatz einplant oder bewusst schlanker plant, geht aus dem Bericht nicht hervor.\n\nAuf dem Transfermarkt hat der Rekordmeister in diesem Sommer mehrere Baustellen, und der Fall Itō betrifft die Abgangsseite. Ob sich ein interessierter Verein aus Spanien findet und zu welchen Konditionen ein Deal zustande kommt, dürfte sich in den kommenden Wochen entscheiden.",
       "sourceUrl": "https://www.bavarianfootballworks.com/transfer-rumors/213575/bayern-munich-ito-arsenal-real-madrid-fc-barcelona-tottenham-manchester-united-city-liverpool-chelsea-arsenal",
       "sourceName": "Sport Bild (via Bavarian Football Works)"
-    },
-    {
-      "slug": "2026-06-09-olise-dreierpack-bayern-star-glaenzt-bei-frankreic",
-      "date": "2026-06-09",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-06-09-olise-dreierpack-bayern-star-glaenzt-bei-frankreic.webp",
-      "thumbnailAlt": "Olise-Dreierpack: Bayern-Star glänzt bei Frankreichs WM-Generalprobe",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Olise-Dreierpack: Bayern-Star glänzt bei Frankreichs WM-Generalprobe",
-      "excerpt": "Michael Olise trifft dreifach beim 3:1 gegen Nordirland und führt Frankreich mit einem starken Auftritt in die WM.",
-      "body": "Michael Olise hat beim letzten WM-Test der französischen Nationalmannschaft groß aufgespielt. Wie der kicker berichtet, schnürte der Bayern-Angreifer beim 3:1-Sieg gegen Nordirland einen Dreierpack und war der entscheidende Mann in Frankreichs WM-Generalprobe. Die Équipe Tricolore reist demnach mit einem guten Gefühl in das Turnier.\n\nFür Olise war es ein besonderer Abend. Der 23-Jährige, der in der abgelaufenen Bundesliga-Saison unter Trainer Vincent Kompany zu einem der gefährlichsten Angreifer Europas gereift ist, nahm seine Vereinsform mit ins Nationalteam. Drei Tore in einem einzigen Spiel zeigen, welches Gewicht der Flügelstürmer in der aktuellen Frankreich-Elf hat.\n\nDer kicker-Bericht hebt hervor, dass Frankreich nach diesem Auftritt als Mitfavorit in die WM startet. Auch die Tagesschau-Sportschau bestätigt: Olises Gala war das herausragende Einzelerlebnis der Begegnung. Für den FC Bayern heißt das, dass einer ihrer Schlüsselspieler bestens in Form ins Turnier geht und entsprechend mit hoher Belastung durch die WM-Wochen geführt wird.\n\nAuffällig ist die Rolle, die Olise inzwischen im Nationalteam einnimmt. Laut Bavarian Football Works verbringt er auch im Vereinsalltag viel Zeit mit seinem Landsmann und Bayern-Teamkollegen Dayot Upamecano, der ebenfalls zum französischen WM-Aufgebot gehört. Die Achse der beiden Münchner könnte auch im Turnier ein wichtiger Faktor werden.\n\nFür den FC Bayern ist Olises Hochform eine gute Nachricht, auch wenn die Münchner ihren Star nun für mehrere Wochen an die Nationalmannschaft abgeben. Stößt Frankreich tief ins Turnier vor, könnte sich die Vorbereitung auf die neue Bundesliga-Saison 2025/26 entsprechend verkürzen. Zunächst aber dürfen die Bayern-Fans ihren Angreifer bei einem der größten Fußballturniere der Welt verfolgen, nach dem Dreierpack gegen Nordirland mit einiger Spannung.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mnsnfpb3f72t",
-      "sourceName": "kicker (Bluesky)"
     }
   ],
   "tiktokVideosAuto": false,
