@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-07-10T12:20:08+00:00",
+  "lastUpdated": "2026-07-10T17:41:02+00:00",
   "tiktokStats": {
-    "followers": 1887,
+    "followers": 1888,
     "likes": "34K",
     "videos": 84
   },
   "ticker": [
+    "Palhinha vor Abgang? Benfica bereitet Angebot vor",
     "Lennart Karl auf dem Weg zurück: Reha macht Fortschritte",
     "Nübel wechselt zu Beşiktaş – Bayern zahlt Gehaltsausgleich",
     "Ibrahimović verlängert: Kompany setzte sich persönlich ein",
     "Saibari-Verletzung überschattet Marokkos WM-Achtelfinal-Einzug",
-    "Saibari verletzt: Bayern-Neuzugang muss WM-Achtelfinale abbrechen",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-07-10-palhinha-vor-abgang-benfica-bereitet-angebot-vor",
+      "date": "2026-07-10",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-07-10-palhinha-vor-abgang-benfica-bereitet-angebot-vor.webp",
+      "thumbnailAlt": "Palhinha vor Abgang? Benfica bereitet Angebot vor",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Palhinha vor Abgang? Benfica bereitet Angebot vor",
+      "excerpt": "Benfica Lissabon zeigt konkretes Interesse an Joao Palhinha und soll ein Angebot in Höhe von rund 20 Millionen Euro planen.",
+      "body": "Joao Palhinha könnte den FC Bayern nach nur einer Saison wieder verlassen. Laut Bavarian Football Works, die sich auf den Transferjournalisten Humberto Ferreira beziehen, ist Benfica Lissabon derzeit der ernsthafteste Interessent an dem portugiesischen Mittelfeldspieler. Der Klub aus der Hauptstadt soll ein Angebot von rund 20 Millionen Euro fest plus Bonuszahlungen vorbereiten.\n\nPalhinha war im Sommer 2024 für kolportierte 51 Millionen Euro vom FC Fulham nach München gewechselt – als Absicherung und Konkurrenz im defensiven Mittelfeld. Der 31-Jährige übernahm in der Bundesliga-Saison 2024/25 eine wichtige Rolle als Anker vor der Abwehr, konnte das Niveau aber nicht über die gesamte Spielzeit konstant halten. Nun steht er offenbar zur Disposition.\n\nEin Verkauf für rund 20 Millionen Euro würde einem erheblichen Wertverlust gegenüber dem Einkaufspreis entsprechen. Für die Bayern spräche ein solcher Transfer dann, wenn der Kader anderweitig gestärkt werden soll und Palhinha keine feste Startelf-Garantie mehr besitzt. Mit Aleksandar Pavlović und Joshua Kimmich haben die Münchner im zentralen Mittelfeld ohnehin konkurrenzfähige Alternativen, die unter Trainer Vincent Kompany regelmäßig gesetzt sind.\n\nBavarian Football Works weist zudem darauf hin, dass Bayern gleichzeitig einen Mittelfeldspieler von Manchester City beobachten soll – nähere Details zu diesem Kandidaten nannte die Quelle jedoch nicht. Sollte Palhinha tatsächlich wechseln, wäre eine Nachverpflichtung auf dieser Position naheliegend.\n\nFür Palhinha selbst könnte eine Rückkehr nach Portugal sportlich reizvoll sein: Benfica ist regelmäßig in der Champions League vertreten und würde ihm Spielzeit garantieren, die bei Bayern zunehmend ungewiss wirkt. Ob aus dem Benfica-Interesse ein konkretes Angebot und letztlich ein Wechsel wird, bleibt offen – die Transferphase läuft noch bis Ende August.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/transfer-rumors/227442/bayern-munich-news-benfica-pushing-for-joao-palhinha-fc-bayern-eyeing-man-city-starlet-media-fight-and-more",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-07-08-lennart-karl-auf-dem-weg-zurueck-reha-macht-fortsc",
       "date": "2026-07-08",
@@ -480,22 +496,6 @@
       "body": "Joshua Kimmich gehört zu den meistdiskutierten Spielern dieser WM. Nicht wegen mangelnder Leistung, sondern wegen seiner Rolle: Wie setzt man einen Spieler seines Profils optimal ein, wenn das Turniersystem andere Anforderungen stellt als der Vereinsalltag beim FC Bayern? Miasanrot hat sich die taktischen Details genau angesehen.\n\nLaut der Analyse von Miasanrot liegt der Kern des Ansatzes in der Ballbesitzstruktur. Mit dem Ball verändert sich Kimmichs Position so, dass er in Räume gelangt, die ihm beim FCB in dieser Form vertraut sind: zentral, tief, als Ausgangspunkt für das Aufbausspiel. Der DFB-Trainer passt demnach die Staffelung der Mannschaft so an, dass Kimmich regelmäßig den Ball unter geringem Druck empfangen kann und von dort das Spiel lenkt.\n\nDas ist kein Selbstläufer. Curaçao stand im Auftaktspiel der WM tief und ließ Deutschland zunächst gewähren, ehe ein Ausgleich für kurze Unruhe sorgte. Dennoch gewann Deutschland das Spiel am Ende klar mit 7:1. Kimmich war als Taktgeber im Mittelfeld ein zentrales Element dieser Struktur – eine Rolle, die er auch bei Bayern München in vielen Partien der Bundesliga-Saison ausgefüllt hat.\n\nMiasanrot betont, dass das System nur dann funktioniert, wenn die Mitspieler die durch Kimmichs tiefe Position entstehenden Zwischenräume konsequent bespielen. Das erfordert klare Laufwege und eine abgestimmte Staffelung. In Phasen, in denen das gelang, wirkte das deutsche Spiel strukturiert und schwer zu verteidigen.\n\nFür Kimmich selbst ist das WM-Turnier eine Chance, nach einer langen Vereinssaison noch einmal auf der größten Bühne zu zeigen, was er kann. Die taktische Einbindung durch den Bundestrainer scheint laut Miasanrot bewusst auf seine Stärken zugeschnitten – eine Kontinuität, die dem Bayern-Spieler sichtlich entgegenkommt.",
       "sourceUrl": "https://miasanrot.de/joshua-kimmich-dfb-team-wm-fc-bayern-szenenanalyse/",
       "sourceName": "Miasanrot (Fanblog)"
-    },
-    {
-      "slug": "2026-06-15-saibari-transfer-vor-abschluss-bayern-einig-mit-ps",
-      "date": "2026-06-15",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/football.jpg",
-      "thumbnailAlt": "Saibari-Transfer vor Abschluss: Bayern einig mit PSV-Mittelfeldspieler",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Saibari-Transfer vor Abschluss: Bayern einig mit PSV-Mittelfeldspieler",
-      "excerpt": "Der FC Bayern steht kurz vor der Verpflichtung von Ismael Saibari. Laut kicker ist man sich mit dem PSV-Eindhoven-Mittelfeldspieler einig.",
-      "body": "Der FC Bayern kommt im Transfersommer 2025/26 weiter voran. Laut kicker ist der Klub mit Ismael Saibari einig geworden. Der Mittelfeldspieler von PSV Eindhoven soll an die Isar wechseln, die Verhandlungen stehen demnach kurz vor dem Abschluss. Noch feilschen die Münchner allerdings um die Ablösesumme mit dem niederländischen Meister.\n\nParallel dazu analysiert der Fanblog Miasanrot die möglichen taktischen Rollen des Marokkaners beim FCB. Die Seite fragt provokant, ob Saibari der neue Stürmer-Backup werden könnte – eine Funktion, die zuletzt eine Schwachstelle im Bayern-Kader war. Saibari ist variabel einsetzbar: Er kann sowohl im zentralen Mittelfeld als auch hinter der Spitze agieren und hat in der Eredivisie in der abgelaufenen Saison mit Toren und Vorlagen auf sich aufmerksam gemacht.\n\nFür Trainer Vincent Kompany wäre Saibari eine Option, die Breite des Kaders im Angriffsmittelfeld zu erhöhen. Mit Jamal Musiala und Michael Olise besitzen die Bayern zwar zwei Weltklassespieler auf den vorderen Positionen, doch dahinter dünnt der Kader aus. Serge Gnabry und Kingsley Coman sind gesetzt, aber für die Rotation über eine komplette Saison – inklusive Champions League, Bundesliga und DFB-Pokal – braucht Kompany mehr Optionen.\n\nDie Einigung mit Saibari selbst ist laut kicker erzielt. Der verbleibende Streitpunkt liegt bei der Ablöse, die PSV Eindhoven für einen Spieler fordert, dessen Vertrag noch Laufzeit hat. Bayern muss also noch Überzeugungsarbeit beim niederländischen Klub leisten, bevor der Transfer offiziell werden kann. Wie hoch die geforderte Summe konkret ist, geht aus dem kicker-Bericht nicht hervor.\n\nSaibari wäre nach Luis Díaz und Nicolas Jackson ein weiterer Neuzugang im Offensivbereich. Ob er im System von Kompany als echter Achter oder eher als hängende Spitze eingeplant ist, dürfte sich erst im Trainingsbetrieb zeigen. Der Transfer selbst scheint allerdings nur noch eine Frage der Zeit zu sein.",
-      "sourceUrl": "https://www.kicker.de/transferticker-953155/artikel#omrss",
-      "sourceName": "kicker News"
     }
   ],
   "tiktokVideosAuto": false,
