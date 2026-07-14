@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-07-13T17:48:41+00:00",
+  "lastUpdated": "2026-07-14T06:03:49+00:00",
   "tiktokStats": {
-    "followers": 2076,
+    "followers": 2082,
     "likes": "35K",
     "videos": 86
   },
   "ticker": [
+    "Palhinha ohne Zukunft beim FCB: Benfica prüft Leihe",
     "Klopp wird Bundestrainer: DFB einigt sich nach vier Stunden",
     "Upamecano und Olise führen Frankreich ins WM-Halbfinale",
     "Real Madrid rückt von Olise-Jagd ab – Bayern atmet auf",
     "Musiala auf Formsuche: Bayern glaubt ans Comeback",
-    "Palhinha vor Abgang? Benfica bereitet Angebot vor",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-07-14-palhinha-ohne-zukunft-beim-fcb-benfica-prueft-leih",
+      "date": "2026-07-14",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-07-14-palhinha-ohne-zukunft-beim-fcb-benfica-prueft-leih.webp",
+      "thumbnailAlt": "Palhinha ohne Zukunft beim FCB: Benfica prüft Leihe",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Palhinha ohne Zukunft beim FCB: Benfica prüft Leihe",
+      "excerpt": "João Palhinha hat keinen Platz mehr im Kader des FC Bayern unter Vincent Kompany. Laut Bavarian Football Works denkt Benfica über eine Leihe nach.",
+      "body": "João Palhinha steht vor einem erneuten Abgang aus München. Wie Bavarian Football Works berichtet, ist dem portugiesischen Mittelfeldspieler intern klargemacht worden, dass er unter Vincent Kompany keine Rolle im Kader des FC Bayern spielt. Sein Weg führt damit aller Wahrscheinlichkeit nach weg von der Säbener Straße.\n\nAls konkreter Interessent wird Benfica Lissabon gehandelt. Die Portugiesen prüfen laut dem Bericht eine Leihe. Palhinha war in der vergangenen Saison bereits zu Tottenham Hotspur verliehen worden – ein Engagement, das wenig zur Entspannung seiner Situation beitrug. Die Spurs vermieden den Abstieg aus der Premier League nur knapp.\n\nBeim FC Bayern war Palhinha nie wirklich angekommen. Der 29-Jährige war im Sommer 2024 für rund 51 Millionen Euro von Fulham verpflichtet worden, fand aber in Kompanys System keinen festen Platz. Aleksandar Pavlović und Joao Palhinha – letzterer selbst – sollten das Mittelfeld absichern, doch in der Praxis lief es anders. Pavlović etablierte sich, Palhinha nicht.\n\nNun könnte eine Rückkehr nach Portugal folgen. Benfica wäre für Palhinha kein unbekanntes Terrain: Der Defensivmittelfeldspieler begann seine Karriere dort und kennt den Klub aus seiner Jugendzeit. Ob eine Leihe oder ein Verkauf die bevorzugte Lösung des FCB ist, geht aus dem Bericht nicht eindeutig hervor. Klar ist: Der Rekordmeister will seinen Kader verschlanken und braucht Einnahmen, bevor weitere Transfers folgen können.\n\nFür die Bayern ist der Fall Palhinha ein teures Lehrstück. Fast 51 Millionen Euro investiert, zwei Jahre kaum genutzt – der Transfer zählt zu den kostspieligsten Fehlgriffen der jüngeren Vereinsgeschichte. Eine Leihe zu Benfica würde das Problem vorerst auslagern, lösen würde sie es nicht.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/230281/transfer-radar-benfica-pondering-loan-move-for-bayern-munichs-joao-palhinha",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-07-12-klopp-wird-bundestrainer-dfb-einigt-sich-nach-vier",
       "date": "2026-07-12",
@@ -480,22 +496,6 @@
       "body": "Zweites Spiel, zweites Tor: Ismael Saibari traf beim 1:0-Sieg Marokkos gegen Schottland und festigt damit seinen Ruf als einer der formstärksten Spieler der WM 2026. Für den FC Bayern, der den PSV-Eindhoven-Profi als Neuzugang verpflichten will, sind das keine unwillkommenen Schlagzeilen.\n\nDie Süddeutsche Zeitung berichtet, dass Saibari offenbar kurz vor einem Wechsel nach München steht. Unabhängig davon schreibt auch Bavarian Football Works unter Berufung auf den Kicker-Journalisten Georg Holzner, dass Sportvorstand Max Eberl die erste Phase seiner Sommertransferplanung nahezu abgeschlossen habe – und Saibari dabei als einer der Zugänge gehandelt wird.\n\nDer 24-jährige Marokkaner spielt bei PSV Eindhoven und gehört dort zu den Schlüsselspielern. In der Eredivisie-Saison 2024/25 war er an zahlreichen Treffern direkt beteiligt. Bei der WM zeigt er nun, dass er auch auf dem größten Fußball-Podium liefert: Gegen Schottland erzielte er den einzigen Treffer der Partie und schoss Marokko damit auf vier Punkte und vorläufig an die Spitze der Gruppe C.\n\nBei Bayern würde Saibari ins zentrale Mittelfeld eingeplant. Mit Joshua Kimmich, Aleksandar Pavlović und João Palhinha ist die Achse zwar besetzt, doch Eberl sucht dem Vernehmen nach mehr Tiefe und Variabilität in diesem Bereich. Saibari gilt als technisch versierter Ballverteiler, der auch zwischen den Linien anspielbar ist – eine Eigenschaft, die Vincent Kompanys Spielweise entgegenkommt.\n\nMit Nathaniel Brown von Eintracht Frankfurt soll laut Kicker ein weiterer Spieler fix sein. Damit wären die ersten beiden Sommerzugänge gesetzt, bevor die zweite Transferphase beginnt. Saibaris WM-Auftritte dürften die Verhandlungen kaum komplizierter machen – den Marktwert des Spielers treiben sie allerdings.",
       "sourceUrl": "https://www.sueddeutsche.de/sport/wm-2026-schottland-marokko-saibari-fc-bayern-li.3501970",
       "sourceName": "Süddeutsche Zeitung"
-    },
-    {
-      "slug": "2026-06-19-bayern-besetzt-schluesselposition-im-campus-seonbu",
-      "date": "2026-06-19",
-      "category": "tactics",
-      "badge": "Taktik-Analyse",
-      "badgeColor": "bt",
-      "thumbnail": "img/articles/2026-06-19-bayern-besetzt-schluesselposition-im-campus-seonbu.webp",
-      "thumbnailAlt": "Bayern besetzt Schlüsselposition im Campus: Seonbuchner kommt",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Bayern besetzt Schlüsselposition im Campus: Seonbuchner kommt",
-      "excerpt": "Der FC Bayern holt Bernhard Seonbuchner als neuen Mann für den Campus. Der Trainer bringt Erfahrung aus dem Red-Bull-System mit.",
-      "body": "Der FC Bayern richtet seinen Nachwuchsbereich neu aus. Wie der kicker auf Bluesky berichtet, hat der Rekordmeister Bernhard Seonbuchner vom FC Liefering verpflichtet. Seonbuchner soll eine Schlüsselposition am Bayern-Campus übernehmen und die strategische Neuausrichtung des Nachwuchsfußballs vorantreiben.\n\nDer deutsche Trainer kommt aus dem Red-Bull-Kosmos: Beim FC Liefering, dem Farmteam von RB Salzburg, sammelte er Erfahrung in unterschiedlichen Rollen innerhalb des Klubs. Liefering gilt als eine der strukturiertesten Ausbildungsstationen im europäischen Nachwuchsfußball und hat in den vergangenen Jahren mehrere Spieler bis in die österreichische Bundesliga und darüber hinaus entwickelt.\n\nAuch Sport1 bestätigte die Personalie auf Bluesky und bezeichnete die Position am Campus als zentral für die künftige Ausrichtung des Vereins. Bayern reagiert damit auf eine der drängendsten Fragen rund um den Klub: Wie werden aus Talenten, die über den Campus kommen, echte Optionen für den Profikader? Mit Tom Bischof und Lennart Karl stehen in der aktuellen Saison 2025/26 bereits zwei Campus-Produkte im Profikader, doch die Durchlässigkeit zwischen den Strukturen bleibt ein Dauerthema.\n\nSeonbuchner ist nicht der erste Transfer aus dem Red-Bull-Netzwerk in den deutschen Spitzenfußball. Mehrere Vereine der Bundesliga haben in den vergangenen Jahren gezielt Personal aus dem Salzburger Umfeld geholt, um deren methodische Ausbildungsarbeit zu adaptieren. Bayern geht damit einen ähnlichen Weg, den zuletzt Klubs wie RB Leipzig oder Bayer Leverkusen in ihren Strukturen beschritten haben.\n\nWelche konkreten Aufgaben Seonbuchner am Campus übernimmt und ab wann er seine Arbeit aufnimmt, geht aus den Berichten des kicker und von Sport1 bislang nicht hervor. Die Personalie fügt sich jedoch in ein Bild ein, das der FC Bayern in dieser Transferperiode immer deutlicher zeichnet: Neben Verstärkungen für den Profikader investiert der Verein spürbar in die Infrastruktur unterhalb des Bundesliga-Teams.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3monc4uqjdi2t",
-      "sourceName": "kicker (Bluesky)"
     }
   ],
   "tiktokVideosAuto": false,
