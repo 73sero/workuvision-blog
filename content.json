@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-07-16T17:03:53+00:00",
+  "lastUpdated": "2026-07-17T06:09:05+00:00",
   "tiktokStats": {
-    "followers": 2089,
+    "followers": 2090,
     "likes": "36K",
     "videos": 86
   },
   "ticker": [
+    "Davies kehrt zurück: Linksverteidiger wieder im Training",
     "Bayern richtet Transferkomitee ein: Eberl muss erst verkaufen",
     "Bayerns WM-Finalserie seit 1982 steht auf dem Spiel",
     "Palhinha ohne Zukunft beim FCB: Benfica prüft Leihe",
     "Klopp wird Bundestrainer: DFB einigt sich nach vier Stunden",
-    "Upamecano und Olise führen Frankreich ins WM-Halbfinale",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-07-17-davies-kehrt-zurueck-linksverteidiger-wieder-im-tr",
+      "date": "2026-07-17",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-07-17-davies-kehrt-zurueck-linksverteidiger-wieder-im-tr.webp",
+      "thumbnailAlt": "Davies kehrt zurück: Linksverteidiger wieder im Training",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Davies kehrt zurück: Linksverteidiger wieder im Training",
+      "excerpt": "Alphonso Davies hat das Mannschaftstraining des FC Bayern nach seiner WM-Verletzung wieder aufgenommen. Laut Bavarian Football Works absolvierte er eine Einzeleinheit.",
+      "body": "Alphonso Davies ist zurück auf dem Trainingsplatz. Wie Bavarian Football Works berichtet, hat der kanadische Linksverteidiger nach seiner Oberschenkelverletzung eine individuelle Trainingseinheit bei Bayern München absolviert. Damit deutet sich an, dass Davies für die Vorbereitung auf die Saison 2025/26 rechtzeitig fit wird.\n\nDie WM in Nordamerika verlief für Davies persönlich bitter. Wegen der Muskelverletzung am Oberschenkel kam er für Kanada nur auf 15 Einsatzminuten im gesamten Turnier – ein mageres Ergebnis, zumal es die Heim-WM seines Landes war. Ausgerechnet auf eigenem Kontinent musste er die meisten Spiele seiner Nationalmannschaft von außen verfolgen.\n\nNoch kurz vor einer möglichen WM-Teilnahme als Einwechselspieler drohte laut Bavarian Football Works eine Last-Minute-Komplikation, die ein frühes Comeback im Turnier verhinderte. Details zur Art des Rückschlags nannte die Quelle nicht. Immerhin: Die Einzeleinheit in München legt nahe, dass die Verletzung ausgeheilt ist und kein größerer Folgeschaden zurückgeblieben ist.\n\nFür Bayern ist die Rückkehr von Davies relevant. Der 24-Jährige ist auf der linken Abwehrseite gesetzt, auch wenn Raphaël Guerreiro dort ebenfalls eine Option darstellt. Trainer Vincent Kompany wird in der Vorbereitung klären müssen, in welcher Form Davies in die neue Spielzeit startet. Wer zu spät aus dem Sommerturnier zurückkommt oder körperlich Rückstand hat, braucht erfahrungsgemäß einige Wochen, um wieder in den Rhythmus zu finden.\n\nDie Bayern-Vorbereitung läuft bereits an. Davies gehört zu den letzten WM-Teilnehmern im Kader, die wieder in München eintreffen. Neben ihm waren auch Harry Kane, Michael Olise und Dayot Upamecano bei der WM aktiv, alle drei schieden im Halbfinale aus. Wie schnell sie die Belastung des Turniers abbauen und wieder in die Mannschaftsarbeit einsteigen können, dürfte Kompany in den kommenden Wochen beschäftigen.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-injuries/231950/alphonso-davies-is-back-in-training-at-bayern-munich",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-07-15-bayern-richtet-transferkomitee-ein-eberl-muss-erst",
       "date": "2026-07-15",
@@ -480,22 +496,6 @@
       "body": "Harry Kane hat die Saison 2025/26 mit Zahlen abgeschlossen, die in der Geschichte des FC Bayern nahezu beispiellos sind. 61 Tore und sieben Vorlagen in 51 Pflichtspielen stehen für den Engländer zu Buche – das ist laut Bavarian Football Works die zweitbeste Torjägersaison, die ein Bayern-Spieler je hingelegt hat.\n\nDabei machte Kane dort weiter, wo er aufgehört hatte: Beim WM-Auftakt Englands gegen Uruguay traf er doppelt und war maßgeblich am 4:2-Sieg beteiligt. Für Bayern-Fans ist das ein vertrautes Bild. In der abgelaufenen Bundesliga-Spielzeit war Kane der prägende Offensivspieler der Münchner, Woche für Woche.\n\nDie Dimension seiner Torquote wird erst im Vergleich greifbar. 61 Treffer in einer einzigen Saison – das entspricht einem Schnitt von gut 1,2 Toren pro Partie. Selbst in einem Kader mit Spielern wie Michael Olise und Jamal Musiala blieb Kane der klare Fixpunkt im Abschluss. Trainer Vincent Kompany baute sein Angriffsspiel in der Rückrunde konsequent um den englischen Stürmer herum auf.\n\nAuf WM-Niveau scheint Kane diese Form nahtlos fortzusetzen. Nach dem Doppelpack im ersten Gruppenspiel steht England mit einem Bein in der nächsten Runde. Für Bayern ist das ein zweischneidiges Bild: Ein fitter, torstarker Kane nach dem Turnier wäre ideal – doch ein langer englischer WM-Weg bedeutet späten Saisonstart und weniger Vorbereitungszeit.\n\nFür den FC Bayern bleibt Kane damit das, was er seit seinem Wechsel nach München ist: der zuverlässigste Torschütze der Liga. Ob die Saison 2026/27 an diese Zahlen heranreicht, wird auch davon abhängen, wie das Umfeld um ihn herum – Olise, Musiala, die neue Linksaußen-Option – sich entwickelt.",
       "sourceUrl": "https://www.bavarianfootballworks.com/fifa-world-cup/217289/bayern-munich-england-star-harry-kane-in-midst-of-2nd-greatest-goal-scoring-season-ever",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-06-21-olise-erklaert-die-zehn-ist-seine-lieblingspositio",
-      "date": "2026-06-21",
-      "category": "tactics",
-      "badge": "Taktik-Analyse",
-      "badgeColor": "bt",
-      "thumbnail": "img/articles/2026-06-21-olise-erklaert-die-zehn-ist-seine-lieblingspositio.webp",
-      "thumbnailAlt": "Olise erklärt: Die Zehn ist seine Lieblingsposition",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Olise erklärt: Die Zehn ist seine Lieblingsposition",
-      "excerpt": "Michael Olise hat beim WM-Auftakt Frankreichs mit zwei Assists geglänzt – und verrät, wo er sich am wohlsten fühlt.",
-      "body": "Michael Olise ist stark in die Weltmeisterschaft gestartet. Beim Auftaktspiel der französischen Nationalmannschaft legte er zwei Tore auf und gehörte zu den auffälligsten Akteuren. Der kicker berichtet nun über ein seltenes Interview, in dem der Bayern-Profi über seine bevorzugte Position auf dem Platz gesprochen hat.\n\nOlise erklärte darin, dass sich die Position hinter der Spitze – die klassische Zehn – für ihn am natürlichsten anfühle. Auf dem Flügel spielt er beim FC Bayern unter Vincent Kompany häufig, doch seine eigene Einschätzung weicht davon ab. Ein Widerspruch, der taktisch durchaus von Bedeutung ist: Gerade in einem offensiven System wie dem der Münchner ist die Frage, wo Olise seinen besten Fußball zeigt, keine rein akademische.\n\nDie Aussage kommt zu einem Zeitpunkt, an dem Olise bei der WM viel Aufmerksamkeit auf sich zieht. Berichte über angebliches Interesse von Real Madrid und Manchester City kursierten zuletzt in den Medien – Real Madrid wies diese Spekulationen laut kicker offiziell zurück und erklärte, sie entsprächen nicht der Realität. Auch Florentino Perez hatte mit öffentlichen Aussagen für Unruhe gesorgt, bevor der Klub dementierte.\n\nBei Bayern läuft Olise in der Regel auf dem rechten Flügel, gelegentlich auch links. Die Zehn ist im aktuellen Kader der Münchner keine fest besetzte Position – Jamal Musiala rückt oft in solche Räume. Ob Kompany perspektivisch über eine veränderte Rolle für Olise nachdenkt, geht aus dem Interview nicht hervor. Olise selbst äußerte sich nur zu seinem persönlichen Wohlgefühl auf der Position, nicht zu konkreten Plänen.\n\nDass er bei Frankreich im zentralen Bereich agieren und dort zwei Torvorlagen liefern kann, dürfte die Diskussion über seinen besten Einsatzort beim FCB weiter befeuern – auch wenn endgültige Schlüsse aus einem WM-Gruppenspiel verfrüht wären.",
-      "sourceUrl": "https://www.kicker.de/olise-auf-der-zehn-die-position-die-sich-fuer-mich-am-natuerlichsten-anfuehlt-1229978/artikel#omrss",
-      "sourceName": "kicker"
     }
   ],
   "tiktokVideosAuto": false,
