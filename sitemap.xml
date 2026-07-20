@@ -25,6 +25,12 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://workuvision.de/artikel/2026-07-20-laimer-verlaengert-bayern-bindet-oesterreicher-bis.html</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://workuvision.de/artikel/2026-07-20-olise-weint-nach-wm-aus-drei-vergebene-chancen-geg.html</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -195,12 +201,6 @@
   <url>
     <loc>https://workuvision.de/artikel/2026-06-24-stanisi-bereitet-wm-tor-vor-tah-uebernimmt-neue-ro.html</loc>
     <lastmod>2026-06-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://workuvision.de/artikel/2026-06-23-bayern-nimmt-kontakt-zu-nmecha-auf.html</loc>
-    <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

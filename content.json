@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-07-20T12:09:14+00:00",
+  "lastUpdated": "2026-07-20T17:22:55+00:00",
   "tiktokStats": {
-    "followers": 2096,
+    "followers": 2100,
     "likes": "36K",
-    "videos": 87
+    "videos": 88
   },
   "ticker": [
+    "Laimer verlängert: Bayern bindet Österreicher bis 2029",
     "Olise weint nach WM-Aus: Drei vergebene Chancen gegen England",
     "Aseko wechselt fest zu Eintracht Frankfurt",
     "Olise will zu Real Madrid: Erste Berichte heizen Gerüchte an",
     "Davies kehrt zurück: Linksverteidiger wieder im Training",
-    "Bayern richtet Transferkomitee ein: Eberl muss erst verkaufen",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-07-20-laimer-verlaengert-bayern-bindet-oesterreicher-bis",
+      "date": "2026-07-20",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/hero.jpg",
+      "thumbnailAlt": "Laimer verlängert: Bayern bindet Österreicher bis 2029",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Laimer verlängert: Bayern bindet Österreicher bis 2029",
+      "excerpt": "Nach mehr als halbjährigen Verhandlungen hat der FC Bayern die Vertragsverlängerung mit Konrad Laimer offiziell bestätigt. Der 29-Jährige bleibt bis Sommer 2029.",
+      "body": "Der FC Bayern hat die Personalie Konrad Laimer geklärt. Wie der kicker berichtet, verlängert der österreichische Mittelfeldspieler seinen ursprünglich im Sommer 2027 auslaufenden Vertrag vorzeitig um zwei weitere Jahre – er bleibt den Münchnern damit bis 2029 erhalten. Bavarian Football Works bestätigt die Meldung und bezeichnet die Einigung als offiziell.\n\nDie Verhandlungen zogen sich nach Angaben des kicker über rund ein halbes Jahr hin. Dass die Gespräche so lange dauerten, deutet auf Differenzen bei den Konditionen hin. Am Ende einigten sich beide Seiten offenbar auf einen Kompromiss, der laut Bavarian Football Works wahrscheinlich auch eine Gehaltserhöhung für Laimer beinhaltet.\n\nLaimer, der im vergangenen Sommer ablösefrei von RB Leipzig nach München gewechselt war, hat sich beim FCB als vielseitig einsetzbarer Spieler etabliert. Trainer Vincent Kompany nutzte ihn in der Saison 2024/25 sowohl auf der rechten Abwehrseite als auch im Mittelfeld. Laut Bavarian Football Works sichert die Verlängerung dem Klub die rechte Außenbahn mittelfristig ab – eine Position, auf der die Bayern zuletzt teils improvisieren mussten.\n\nDer kicker auf Bluesky fasste die Einigung knapp zusammen: Laimer bleibt dem FC Bayern damit mittelfristig erhalten. Mit dem neuen Vertrag läuft sein Arbeitspapier über das Jahr 2027 hinaus, was den Münchnern auch in künftigen Transferfenstern mehr Planungssicherheit gibt. Ein Verkauf vor Vertragsende wäre nun nur noch zu Bayerns Bedingungen möglich.\n\nFür den 29-Jährigen ist die Verlängerung ein Bekenntnis zum Klub nach einer Eingewöhnungsphase, die nicht ohne Kritik verlief. In der abgelaufenen Saison zeigte Laimer jedoch stabile Leistungen und empfahl sich mit starken Auftritten auch im Rahmen der WM 2026 für eine langfristige Rolle im Kader. Bayern schließt damit eine offene Baustelle im Kader, bevor die Vorbereitung auf die neue Spielzeit beginnt.",
+      "sourceUrl": "https://www.kicker.de/lange-verhandlungen-abgeschlossen-laimer-verlaengert-bei-bayern-1228758/artikel#omrss",
+      "sourceName": "kicker"
+    },
     {
       "slug": "2026-07-20-olise-weint-nach-wm-aus-drei-vergebene-chancen-geg",
       "date": "2026-07-20",
@@ -480,22 +496,6 @@
       "body": "Zwei Bayern-Spieler standen am 24. Spieltag der WM 2026 im Mittelpunkt – auf unterschiedlichen Seiten: Josip Stanisić mit Kroatien und Jonathan Tah mit dem DFB-Team.\n\nStanišić bereitete laut Sport1 das einzige Tor beim 1:0-Sieg Kroatiens gegen Panama vor. Ante Budimir verwandelte die Vorlage des Bayern-Außenverteidigers und schoss sein Team damit ins Achtelfinale. Panama schied durch die Niederlage aus dem Turnier aus. Für Stanišić war es ein wichtiger Moment: Der 25-Jährige kämpfte in den vergangenen Monaten um seinen Platz bei den Bayern und in der kroatischen Nationalelf.\n\nGanz andere Aufgaben hat derzeit Jonathan Tah. Nachdem Nico Schlotterbeck verletzt ausgeschieden ist, übernimmt der Bayern-Innenverteidiger beim DFB-Team eine größere Verantwortung. Laut Tagesschau Sport rückt Tah in die Rolle des Abwehrchefs und bekommt Antonio Rüdiger als neuen Partner. Spielerisch soll sich seine Rolle ebenfalls verändern – Tah soll nun mehr Spielaufbau übernehmen und als Organisator in der Viererkette fungieren.\n\nFür Tah ist das WM-Turnier damit ein entscheidender Formtest vor der neuen Bundesliga-Saison mit Bayern. Er wechselte erst im Sommer 2025 ablösefrei von Bayer Leverkusen nach München und hat sich in der Viererkette unter Vincent Kompany als Stammkraft etabliert. Wie er die erhöhten Anforderungen auf internationalem Niveau meistert, dürfte auch die Bayern-Verantwortlichen genau verfolgen.\n\nBei Stanišić ist die Ausgangslage ähnlich: Ein gutes Abschneiden mit Kroatien stärkt seine Position für die kommende Saison, in der er sich gegen Konkurrenten wie Sacha Boey und Hiroki Itō durchsetzen muss. Drei WM-Partien in der Gruppenphase – und nun mindestens ein weiteres Spiel im Achtelfinale – bieten ihm dafür die Bühne.",
       "sourceUrl": "https://bsky.app/profile/sport1.de/post/3moyqy3c32s2y",
       "sourceName": "Sport1 (Bluesky) und Tagesschau Sport"
-    },
-    {
-      "slug": "2026-06-23-bayern-nimmt-kontakt-zu-nmecha-auf",
-      "date": "2026-06-23",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-06-23-bayern-nimmt-kontakt-zu-nmecha-auf.webp",
-      "thumbnailAlt": "Bayern nimmt Kontakt zu Nmecha auf",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Bayern nimmt Kontakt zu Nmecha auf",
-      "excerpt": "Sportvorstand Max Eberl hat laut Sport Bild Kontakt zu den Beratern von Felix Nmecha aufgenommen. Auch englische Topklubs sind interessiert.",
-      "body": "Sportvorstand Max Eberl hat nach Informationen der Sport Bild Kontakt zu den Beratern von Felix Nmecha aufgenommen, um das Interesse des FC Bayern zu signalisieren. Das berichtet Bavarian Football Works unter Berufung auf den Sport-Bild-Bericht. Der 25-jährige Mittelfeldspieler steht noch bei Borussia Dortmund unter Vertrag und ist aktuell mit der deutschen Nationalmannschaft bei der WM 2026 aktiv.\n\nNmecha ist kein unbeschriebenes Blatt auf dem Transfermarkt. Laut dem Bericht haben Manchester City, Manchester United und Liverpool ebenfalls Interesse angemeldet – der Wettbewerb um den deutschen Nationalspieler ist also erheblich. Bisher hat Eberl offenbar nur erste Gespräche mit dem Beraterumfeld geführt; ein konkretes Angebot liegt noch nicht vor.\n\nFür Bayern wäre Nmecha eine Option im zentralen Mittelfeld. Aleksandar Pavlović steht bei der WM in der Kritik: Sport1 berichtete am Dienstag auf Bluesky, dass der Bayern-Profi in den ersten beiden deutschen Gruppenspielen den Ansprüchen nicht vollkommen gerecht geworden sei. Ob das die Überlegungen im Münchner Kaderplanungsbüro beschleunigt, lässt sich aus den vorliegenden Berichten nicht ableiten.\n\nNmecha kam im Sommer 2023 für rund 30 Millionen Euro vom VfL Wolfsburg zum BVB und hat seitdem in Dortmund regelmäßig gespielt. Ein Wechsel innerhalb der Bundesliga von Dortmund nach München wäre sportlich und medial ein Vorgang mit erheblicher Aufmerksamkeit – auch wenn solche Transfers in der Vergangenheit immer wieder für Diskussionen gesorgt haben. Zuletzt hatte Bayern mit Transfers aus Dortmund keine Berührungsängste gezeigt.\n\nDie Münchner suchen in diesem Sommer offenbar weiterhin gezielt nach Verstärkungen für das Mittelfeld. Neben dem bereits gemeldeten Interesse an Ismael Saibari wäre Nmecha ein weiterer Schritt in diese Richtung. Ob aus dem Kontakt mehr wird, hängt nach aktuellem Stand auch davon ab, wie sich die englischen Interessenten positionieren.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/220103/bayern-munich-makes-contact-with-reps-for-felix-nmecha",
-      "sourceName": "Bavarian Football Works / Sport Bild"
     }
   ],
   "tiktokVideosAuto": false,
