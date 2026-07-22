@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-07-22T13:23:50+00:00",
+  "lastUpdated": "2026-07-22T15:19:24+00:00",
   "tiktokStats": {
-    "followers": 2152,
+    "followers": 2157,
     "likes": "36K",
     "videos": 88
   },
   "ticker": [
+    "Gedränge auf der Zehn: Kompany vor schwierigen Entscheidungen",
     "Laimer verlängert: Bayern bindet Österreicher bis 2029",
     "Olise weint nach WM-Aus: Drei vergebene Chancen gegen England",
     "Aseko wechselt fest zu Eintracht Frankfurt",
     "Olise will zu Real Madrid: Erste Berichte heizen Gerüchte an",
-    "Davies kehrt zurück: Linksverteidiger wieder im Training",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-07-22-gedraenge-auf-der-zehn-kompany-vor-schwierigen-ent",
+      "date": "2026-07-22",
+      "category": "tactics",
+      "badge": "Taktik-Analyse",
+      "badgeColor": "bt",
+      "thumbnail": "img/tactics.jpg",
+      "thumbnailAlt": "Gedränge auf der Zehn: Kompany vor schwierigen Entscheidungen",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Gedränge auf der Zehn: Kompany vor schwierigen Entscheidungen",
+      "excerpt": "Mit Ismael Saibari hat der FC Bayern eine weitere Option für die Zehner-Position verpflichtet – und Trainer Kompany muss nun zwischen mehreren Bewerbern wählen.",
+      "body": "Der FC Bayern hat im Sommer mit Ismael Saibari einen weiteren Spieler für die Zehner-Position geholt. Das schafft Qualität im Kader, aber auch ein Problem: Laut kicker stehen dem Trainer Vincent Kompany auf dieser Position nun mehrere Bewerber zur Verfügung, zwischen denen er sich entscheiden muss.\n\nDrei dieser Kandidaten befinden sich derzeit noch im Aufbautraining. Serge Gnabry, Jamal Musiala und Lennart Karl arbeiten laut kicker nach ihren jeweiligen körperlichen Rückschlägen an der Rückkehr in den Mannschaftsbetrieb. Musiala etwa hatte sich einer Operation unterziehen müssen und steht dem Klub noch nicht zur Verfügung, soll aber zeitnah ins Training einsteigen, wie der kicker separat berichtet. Wie lange die drei Spieler noch fehlen, macht die Planungsaufgabe für Kompany nicht einfacher.\n\nDabei ist die Positionsfrage alles andere als trivial. Musiala gilt als gesetzter Stammspieler, wenn er fit ist. Gnabry bringt Erfahrung mit und hat seinen Vertrag beim Rekordmeister. Lennart Karl ist ein junges Talent aus dem eigenen Nachwuchsbereich, das in der vergangenen Saison erste Einsatzzeiten sammelte. Saibari wiederum wurde als Neuzugang konkret für diese Rolle geholt und trägt die Rückennummer 34.\n\nDas Gedränge auf der Zehn ist damit kein rein sportliches Problem, sondern auch eine Frage der Kaderplanung. Vier ernsthafte Kandidaten für eine Position bedeuten, dass mindestens zwei von ihnen regelmäßig wenig Spielzeit bekommen werden. In einer Saison mit Bundesliga, DFB-Pokal und Champions League lässt sich Rotation zwar begründen, aber Kompany wird klarmachen müssen, wer seine erste Wahl ist.\n\nDie Vorbereitung beginnt gerade erst, und der kicker macht deutlich, dass die Entscheidung des Trainers nicht angenehm sein wird. Drei Spieler im Aufbautraining bedeuten außerdem, dass Kompany in den ersten Testpartien möglicherweise noch kein vollständiges Bild bekommt. Wie er die Hierarchie auf der Zehn bis zum Pflichtspielstart ordnet, dürfte eines der zentralen Themen der kommenden Wochen sein.",
+      "sourceUrl": "https://www.kicker.de/gedraengel-auf-der-zehn-kompany-steht-vor-unangenehmen-entscheidungen-1237953/video#omrss",
+      "sourceName": "kicker News"
+    },
     {
       "slug": "2026-07-20-laimer-verlaengert-bayern-bindet-oesterreicher-bis",
       "date": "2026-07-20",
@@ -480,22 +496,6 @@
       "body": "Der FC Bayern hat einen neuen Namen auf der Innenverteidiger-Liste: Yann Bisseck von Inter Mailand. Laut Christian Falk von der Sport Bild ist eine ernsthafte Verfolgung des 23-jährigen Deutschen durchaus möglich. Bavarian Football Works zitiert Falk mit der Einschätzung, dass Bayern grundsätzlich deutschen Spielern den Vorzug gibt – und Bisseck in dieses Profil passt.\n\nBisseck gehört bei Inter zu den Stammkräften und hat sich in der Serie A als robuster, zweikampfstarker Verteidiger etabliert. Seine Stärken liegen im Aufbau und im Luftkampf. Bei Inter spielt er meist als rechter Innenverteidiger in einer Dreierkette – ein System, das sich von Vincen Kompanys bevorzugtem Vierer unterscheidet. Eine Umstellung wäre also nötig, wäre aber bei einem 23-Jährigen grundsätzlich umsetzbar.\n\nDer Bedarf in der Münchner Abwehr ist real. Dayot Upamecano und Min-Jae Kim sind zwar gesetzt, dahinter fehlt es jedoch an einem weiteren Innenverteidiger mit internationalem Format. Jonathan Tah stößt erst zur Saison 2025/26 dazu und muss sich noch beweisen. Ein zusätzlicher Kandidat wie Bisseck würde die Optionen in der Defensive deutlich verbreitern.\n\nNoch handelt es sich laut Falk um kein konkretes Angebot. Bayern beobachtet die Situation, ein formelles Interesse ist aber vorhanden. Inter Mailand dürfte bei einem Verkauf keine niedrigen Summen akzeptieren – der Verein hat Bisseck erst 2023 für rund neun Millionen Euro vom FC Köln geholt, sein Marktwert ist seitdem deutlich gestiegen.\n\nOb und wann Bayern dieses Interesse intensiviert, bleibt offen. Die WM 2026 läuft noch, mehrere Spieler stehen im Turnier und Kaderplanungen sind in dieser Phase häufig im Fluss. Klar ist: Mit Bisseck hätte der FCB einen deutschen Innenverteidiger mit Bundesliga-Vergangenheit und Europa-Erfahrung zur Auswahl.",
       "sourceUrl": "https://www.bavarianfootballworks.com/transfer-rumors/218924/bayern-munich-bisseck-inter-milan-real-madrid-haaland-manchester-city-chelsea-liverpool-arsenal-psg-bvb",
       "sourceName": "Bavarian Football Works / Christian Falk (Sport Bild)"
-    },
-    {
-      "slug": "2026-06-24-stanisi-bereitet-wm-tor-vor-tah-uebernimmt-neue-ro",
-      "date": "2026-06-24",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-06-24-stanisi-bereitet-wm-tor-vor-tah-uebernimmt-neue-ro.webp",
-      "thumbnailAlt": "Stanisić bereitet WM-Tor vor – Tah übernimmt neue Rolle",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Stanisić bereitet WM-Tor vor – Tah übernimmt neue Rolle",
-      "excerpt": "Josip Stanisić legte beim kroatischen 1:0 gegen Panama den Siegtreffer auf. Jonathan Tah rückt beim DFB-Team nach dem Schlotterbeck-Ausfall zum neuen Abwehrchef auf.",
-      "body": "Zwei Bayern-Spieler standen am 24. Spieltag der WM 2026 im Mittelpunkt – auf unterschiedlichen Seiten: Josip Stanisić mit Kroatien und Jonathan Tah mit dem DFB-Team.\n\nStanišić bereitete laut Sport1 das einzige Tor beim 1:0-Sieg Kroatiens gegen Panama vor. Ante Budimir verwandelte die Vorlage des Bayern-Außenverteidigers und schoss sein Team damit ins Achtelfinale. Panama schied durch die Niederlage aus dem Turnier aus. Für Stanišić war es ein wichtiger Moment: Der 25-Jährige kämpfte in den vergangenen Monaten um seinen Platz bei den Bayern und in der kroatischen Nationalelf.\n\nGanz andere Aufgaben hat derzeit Jonathan Tah. Nachdem Nico Schlotterbeck verletzt ausgeschieden ist, übernimmt der Bayern-Innenverteidiger beim DFB-Team eine größere Verantwortung. Laut Tagesschau Sport rückt Tah in die Rolle des Abwehrchefs und bekommt Antonio Rüdiger als neuen Partner. Spielerisch soll sich seine Rolle ebenfalls verändern – Tah soll nun mehr Spielaufbau übernehmen und als Organisator in der Viererkette fungieren.\n\nFür Tah ist das WM-Turnier damit ein entscheidender Formtest vor der neuen Bundesliga-Saison mit Bayern. Er wechselte erst im Sommer 2025 ablösefrei von Bayer Leverkusen nach München und hat sich in der Viererkette unter Vincent Kompany als Stammkraft etabliert. Wie er die erhöhten Anforderungen auf internationalem Niveau meistert, dürfte auch die Bayern-Verantwortlichen genau verfolgen.\n\nBei Stanišić ist die Ausgangslage ähnlich: Ein gutes Abschneiden mit Kroatien stärkt seine Position für die kommende Saison, in der er sich gegen Konkurrenten wie Sacha Boey und Hiroki Itō durchsetzen muss. Drei WM-Partien in der Gruppenphase – und nun mindestens ein weiteres Spiel im Achtelfinale – bieten ihm dafür die Bühne.",
-      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3moyqy3c32s2y",
-      "sourceName": "Sport1 (Bluesky) und Tagesschau Sport"
     }
   ],
   "tiktokVideosAuto": false,
