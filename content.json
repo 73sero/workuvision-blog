@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-08-01T12:32:55+00:00",
+  "lastUpdated": "2026-08-01T14:23:20+00:00",
   "tiktokStats": {
     "followers": 2905,
     "likes": "39K",
     "videos": 91
   },
   "ticker": [
+    "Olise auf der Zehn? Miasanrot analysiert Bayerns Optionen",
     "Itō vor Abgang: Bayern offen für Wechsel bei 20-Millionen-Preisschild",
     "Palhinha auf Newcastle-Liste: Zukunft offen",
     "Hoeneß lacht über Real-Madrid-Gerüchte und stärkt Eberl den Rücken",
     "Osmani unterschreibt: Bayern bindet Campus-Talent langfristig",
-    "Gedränge auf der Zehn: Kompany vor schwierigen Entscheidungen",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-08-01-olise-auf-der-zehn-miasanrot-analysiert-bayerns-op",
+      "date": "2026-08-01",
+      "category": "tactics",
+      "badge": "Taktik-Analyse",
+      "badgeColor": "bt",
+      "thumbnail": "img/articles/2026-08-01-olise-auf-der-zehn-miasanrot-analysiert-bayerns-op.webp",
+      "thumbnailAlt": "Olise auf der Zehn? Miasanrot analysiert Bayerns Optionen",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Olise auf der Zehn? Miasanrot analysiert Bayerns Optionen",
+      "excerpt": "Nach Olises starker WM für Frankreich diskutiert Miasanrot, ob der Flügelspieler beim FCB künftig als Zehner eingesetzt werden könnte.",
+      "body": "Michael Olise hat bei der Weltmeisterschaft für Frankreich nicht auf seiner gewohnten Position gespielt, sondern deutlich zentraler – als klassische Zehn. Diese Rolle ließ ihn aufblühen, und seitdem fragt sich die Bayern-Gemeinde: Könnte Trainer Vincent Kompany diesen Ansatz auf Klubebene übernehmen?\n\nMiasanrot hat die Frage in einer ausführlichen Analyse aufgegriffen und dabei beide Seiten beleuchtet. Auf der Haben-Seite steht Olises Fähigkeit, zwischen den Linien Räume zu finden, Pässe in die Tiefe zu spielen und aus dem Zentrum heraus Abschlüsse zu suchen. Sein Passspiel und seine Übersicht hätten sich im WM-Turnier deutlich gezeigt.\n\nAuf der anderen Seite sprechen gewichtige Argumente dagegen. Als Zehner würde Olise aus seiner gefährlichsten Zone herausgerückt: dem Halbraum auf dem rechten Flügel, von dem aus er Verteidiger mit seinem starken linken Fuß vor echte Probleme stellt. Beim FCB ist die Zehnerposition ohnehin besetzt – Jamal Musiala gilt dort als gesetzt, und seine Stärken auf dieser Position sind unbestritten.\n\nLaut Miasanrot spricht deshalb mehr dafür, Olise auf dem Flügel zu belassen. Ein Doppeleinsatz beider Spieler im Zentrum wäre taktisch schwierig zu lösen, ohne die Struktur der Mannschaft zu beschädigen. Realistischer sei es, Olise weiterhin als rechten Außenstürmer zu nutzen, ihm aber situativ mehr Freiheiten ins Zentrum zu geben – so wie Kompany das in Teilen bereits praktiziert hat.\n\nFür die Saison 2025/26 dürfte die Grundordnung damit feststehen: Musiala auf der Zehn, Olise und Luis Díaz auf den Außenbahnen, Harry Kane als Neuner. Die WM-Diskussion zeigt allerdings, wie flexibel Kompany seinen Kader einsetzen kann, wenn er es für nötig hält.",
+      "sourceUrl": "https://miasanrot.de/fc-bayern-michael-olise-zehner-frankreich/",
+      "sourceName": "Miasanrot (Fanblog)"
+    },
     {
       "slug": "2026-08-01-it-vor-abgang-bayern-offen-fuer-wechsel-bei-20-mil",
       "date": "2026-08-01",
@@ -480,22 +496,6 @@
       "body": "Mit einem einzigen Wort hat Manuel Neuer am Dienstag sein Ende als Nationaltorwart besiegelt. Nach dem Ausscheiden der deutschen Mannschaft gegen Paraguay im WM-Achtelfinale bestätigte der 39-Jährige, dass er nicht mehr für den DFB auflaufen wird – laut kicker auf Bluesky mit denkbar knapper Antwort.\n\nFür Neuer war es ein Abschied unter besonderen Umständen. Der Torhüter hatte nach einer mehr als 700-tägigen Länderspielpause für die WM 2026 in die Nationalmannschaft zurückgekehrt, um dem deutschen Team bei dem Turnier in den USA, Kanada und Mexiko zu helfen. Bavarian Football Works berichtet, dass Neuer trotz des Ausscheidens enttäuscht, aber gefasst auf seine internationale Karriere zurückblickte.\n\nDas Spiel selbst endete nach regulärer Spielzeit und Verlängerung torlos, ehe Deutschland im Elfmeterschießen scheiterte. Laut Sport1 auf Bluesky hat Neuer dabei einen Negativrekord eingestellt – die genaue Natur des Rekords geht aus der Quelle nicht vollständig hervor. Das Scheitern in der Runde der letzten 32 ist für den deutschen Fußball eine historische Blamage.\n\nFür Neuer persönlich endet damit eine Nationalmannschaftskarriere, die zu den prägendsten in der Geschichte des deutschen Torhüterspiels zählt. Er war Teil des WM-Triumphes 2014 in Brasilien und wurde in jenem Turnier zum besten Torhüter gewählt. Sein Comeback für die WM 2026 galt von Anfang an als riskant, da er im Vereinsbetrieb beim FC Bayern zuletzt nicht mehr unumstrittene Nummer eins war.\n\nMit Neuers Abgang verliert die Nationalmannschaft ihren langjährigen Anker im Tor. Beim FC Bayern steht er noch unter Vertrag und bleibt vorerst Teil des Kaders von Trainer Vincent Kompany – wie es mit seiner Klubkarriere weitergeht, ist nach diesem WM-Abschluss die nächste offene Frage.",
       "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mpin47dyx42x",
       "sourceName": "kicker (Bluesky) / Bavarian Football Works"
-    },
-    {
-      "slug": "2026-06-28-bayern-zufrieden-mit-mittelfeld-nmecha-kein-thema",
-      "date": "2026-06-28",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-06-28-bayern-zufrieden-mit-mittelfeld-nmecha-kein-thema.webp",
-      "thumbnailAlt": "Bayern zufrieden mit Mittelfeld: Nmecha kein Thema",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Bayern zufrieden mit Mittelfeld: Nmecha kein Thema",
-      "excerpt": "Gerüchte um Felix Nmecha von Borussia Dortmund sind offenbar haltlos. Bayern sieht das eigene Mittelfeld als gut besetzt an.",
-      "body": "Der FC Bayern wird im Sommer keinen neuen Mittelfeldspieler verpflichten – zumindest nicht Felix Nmecha von Borussia Dortmund. Laut einem Bericht von Bavarian Football Works, der sich auf Sport1-Journalist Stefan Kumberger beruft, sind die Münchner mit der aktuellen Besetzung im zentralen Mittelfeld zufrieden. Nmecha sei schlicht zu teuer und stehe nicht auf der Wunschliste.\n\nDie Bayern verfügen im Mittelfeld über Joshua Kimmich, Aleksandar Pavlović, Leon Goretzka, Joao Palhinha, Tom Bischof und Serge Gnabry. Besonders Pavlović hat in der vergangenen Saison an Reife gewonnen, Bischof gilt als großes Versprechen für die Zukunft. Aus Sicht des Vereins gibt es in diesem Bereich keinen akuten Handlungsbedarf.\n\nDass Bayern bei einem Profi von Borussia Dortmund die Kostenfrage ins Feld führt, ist ungewöhnlich – der Rekordmeister scheut im Sommer selten vor großen Ausgaben zurück. Hier aber signalisiert der Verein klar, dass er die vorhandene Gruppe nicht aufbrechen will. Nmecha, 24 Jahre alt und deutscher Nationalspieler, war in dieser Transferperiode mit mehreren Klubs in Verbindung gebracht worden.\n\nFür Bayern ist die Botschaft eindeutig: Das Mittelfeld ist gesetzt. Trainer Vincent Kompany hat im Verlauf der Saison 2025/26 gezeigt, dass er auf Rotation und Variabilität im Zentrum setzt. Palhinha übernimmt die defensiv-absichernde Rolle, Kimmich dirigiert das Spiel, während Pavlović und Bischof für Dynamik sorgen. Diese Hierarchie scheint intern nicht in Frage gestellt zu werden.\n\nNach dem Sommer-Umbau des Kaders – mit Zugängen wie Luis Díaz und Nicolas Jackson im Angriff sowie Jonathan Tah in der Abwehr – konzentriert sich Bayern nun auf andere Baustellen. Ob im Tor, wo die Zukunft von Alexander Nübel noch ungeklärt ist, oder in der Defensive werden die nächsten Entscheidungen fallen. Im Mittelfeld hingegen plant Bayern, das neue Jahr mit dem vorhandenen Personal anzugehen.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/212074/bayern-munich-central-midfield-felix-nmecha-transfer-rumors-kimmich-pavlovic-bischof-aseko",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
