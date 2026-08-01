@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-08-01T14:23:20+00:00",
+  "lastUpdated": "2026-08-01T15:35:31+00:00",
   "tiktokStats": {
-    "followers": 2905,
+    "followers": 2904,
     "likes": "39K",
     "videos": 91
   },
   "ticker": [
+    "Neuer dementiert Absprache über mehr Spielzeit für Urbig",
     "Olise auf der Zehn? Miasanrot analysiert Bayerns Optionen",
     "Itō vor Abgang: Bayern offen für Wechsel bei 20-Millionen-Preisschild",
     "Palhinha auf Newcastle-Liste: Zukunft offen",
     "Hoeneß lacht über Real-Madrid-Gerüchte und stärkt Eberl den Rücken",
-    "Osmani unterschreibt: Bayern bindet Campus-Talent langfristig",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-08-01-neuer-dementiert-absprache-ueber-mehr-spielzeit-fu",
+      "date": "2026-08-01",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-08-01-neuer-dementiert-absprache-ueber-mehr-spielzeit-fu.webp",
+      "thumbnailAlt": "Neuer dementiert Absprache über mehr Spielzeit für Urbig",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Neuer dementiert Absprache über mehr Spielzeit für Urbig",
+      "excerpt": "Manuel Neuer widerspricht Berichten, wonach er Jonas Urbig für die Saison 2026/27 mehr Einsatzzeit zugesichert haben soll.",
+      "body": "Manuel Neuer bleibt die Nummer eins beim FC Bayern – und er hat offenbar keine Absicht, das stillschweigend zu relativieren. Laut einem Bericht von Bavarian Football Works hat der 40-jährige Torhüter Meldungen dementiert, nach denen es eine Absprache gegeben haben soll, Jonas Urbig in der kommenden Saison mehr Spielzeit zu garantieren.\n\nDer Hintergrund: Viele hatten erwartet, dass die Saison 2026/27 die erste seit 15 Jahren ohne Neuer im Bayern-Tor werden würde. Sein Alter und der Aufstieg von Urbig schienen für eine Staffelübergabe zu sprechen. Stattdessen verlängerte Neuer seinen Vertrag um ein weiteres Jahr – nach einer stabilen Spielzeit 2025/26, in der er seinen Stammplatz klar verteidigt hatte.\n\nTrotz der Vertragsverlängerung hielt sich hartnäckig die Lesart, Neuer habe dem Klub oder seinem Konkurrenten Urbig intern mehr Teilhabe am Spielbetrieb zugesagt. Genau das weist der Keeper nun zurück. Bavarian Football Works zufolge macht Neuer deutlich, dass von einer solchen Vereinbarung keine Rede sein könne.\n\nFür Urbig ist die Situation damit unverändert schwierig. Der junge Torhüter steht hinter Neuer und Sven Ulreich in der Hierarchie, hat in der vergangenen Saison kaum Pflichtspieleinsätze gesammelt und wartet weiter auf seine Chance beim Rekordmeister. Ob und wie er sich innerhalb des Kaders Spielzeit erarbeiten kann, bleibt offen – Neuer hat mit seinem Dementi zumindest klargestellt, dass er sich nicht auf eine Nebenrolle eingestellt hat.\n\nDass ein 40-jähriger Keeper noch immer so klar auf Einsatzzeit besteht, sagt einiges über Neuers Selbstverständnis aus. Für Trainer Vincent Kompany bedeutet das: Die Torhüterfrage ist auf dem Papier geklärt, doch die Debatte dürfte den FCB durch die Vorbereitung begleiten.",
+      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-news-and-transfer-rumors/236798/bayern-munich-manuel-neuer-jonas-urbig",
+      "sourceName": "Bavarian Football Works"
+    },
     {
       "slug": "2026-08-01-olise-auf-der-zehn-miasanrot-analysiert-bayerns-op",
       "date": "2026-08-01",
@@ -480,22 +496,6 @@
       "body": "Das WM-Aus Deutschlands gegen Paraguay hinterlässt nicht nur sportliche Fragen. Eine VAR-Entscheidung in der Verlängerung sorgt für besonders viel Diskussionsstoff: Laut Bavarian Football Works glaubten die deutschen Spieler bereits, durch einen Kopfball von Bayern-Innenverteidiger Jonathan Tah mit 2:1 in Führung gegangen zu sein. Die Spieler hatten sich bereits zum Anstoß aufgestellt, als der VAR eingriff und den Treffer zurücknahm. Der Schiedsrichter folgte der Video-Empfehlung und ließ das Tor nicht gelten.\n\nLaut dem Bericht von Bavarian Football Works riefen die Annullierung und die Art, wie sie zustande kam, scharfe Reaktionen von Fachleuten und Kommentatoren hervor. Kritisiert wurde vor allem, dass der VAR zu einem so späten Zeitpunkt der Überprüfung eingriff – nachdem das Spiel bereits weiterlaufen sollte. Konkrete Angaben zur genauen Abseits- oder Foulszene, auf die der VAR sich stützte, macht die Quelle nicht.\n\nFür Jonathan Tah persönlich war es ein bitterer Moment. Der Bayern-Innenverteidiger, der in der laufenden Saison beim FCB eine tragende Rolle in der Abwehr übernommen hat, sah seinen vermeintlichen Führungstreffer für die DFB-Elf gestrichen. Deutschland schied anschließend im Elfmeterschießen aus dem Turnier aus.\n\nDas Aus im Sechzehntelfinale gegen Paraguay ist für den deutschen Fußball ein weiterer Rückschlag auf großer Bühne. Sport1 ordnete auf Bluesky ein, dass das Ergebnis einen neuen Tiefpunkt in Deutschlands jüngerer WM-Geschichte darstelle. Bayern-Kapitän Joshua Kimmich, dessen Name in diesem Zusammenhang bereits ausführlich in anderen Berichten besprochen wurde, übernahm laut Bavarian Football Works öffentlich Verantwortung für das Scheitern und verwies auf die Spieler als Hauptverantwortliche.\n\nDie VAR-Debatte dürfte den Turnierverlauf über das deutsche Ausscheiden hinaus begleiten. Ob die Entscheidung regelkonform war oder nicht, werden die zuständigen FIFA-Gremien zu bewerten haben. Für Tah und die übrigen Bayern-Profis im DFB-Kader endet die WM 2026 damit früher als erhofft.",
       "sourceUrl": "https://www.bavarianfootballworks.com/fifa-world-cup/223534/pundits-rage-over-var-invention-which-sent-germany-packing-from-world-cup",
       "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-06-30-neuers-letztes-wort-wm-aus-bedeutet-karriereende-i",
-      "date": "2026-06-30",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-06-30-neuers-letztes-wort-wm-aus-bedeutet-karriereende-i.webp",
-      "thumbnailAlt": "Neuers letztes Wort: WM-Aus bedeutet Karriereende im DFB-Trikot",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Neuers letztes Wort: WM-Aus bedeutet Karriereende im DFB-Trikot",
-      "excerpt": "Manuel Neuer hat sein Karriereende in der Nationalmannschaft bestätigt. Das WM-Achtelfinale gegen Paraguay war sein letztes Länderspiel.",
-      "body": "Mit einem einzigen Wort hat Manuel Neuer am Dienstag sein Ende als Nationaltorwart besiegelt. Nach dem Ausscheiden der deutschen Mannschaft gegen Paraguay im WM-Achtelfinale bestätigte der 39-Jährige, dass er nicht mehr für den DFB auflaufen wird – laut kicker auf Bluesky mit denkbar knapper Antwort.\n\nFür Neuer war es ein Abschied unter besonderen Umständen. Der Torhüter hatte nach einer mehr als 700-tägigen Länderspielpause für die WM 2026 in die Nationalmannschaft zurückgekehrt, um dem deutschen Team bei dem Turnier in den USA, Kanada und Mexiko zu helfen. Bavarian Football Works berichtet, dass Neuer trotz des Ausscheidens enttäuscht, aber gefasst auf seine internationale Karriere zurückblickte.\n\nDas Spiel selbst endete nach regulärer Spielzeit und Verlängerung torlos, ehe Deutschland im Elfmeterschießen scheiterte. Laut Sport1 auf Bluesky hat Neuer dabei einen Negativrekord eingestellt – die genaue Natur des Rekords geht aus der Quelle nicht vollständig hervor. Das Scheitern in der Runde der letzten 32 ist für den deutschen Fußball eine historische Blamage.\n\nFür Neuer persönlich endet damit eine Nationalmannschaftskarriere, die zu den prägendsten in der Geschichte des deutschen Torhüterspiels zählt. Er war Teil des WM-Triumphes 2014 in Brasilien und wurde in jenem Turnier zum besten Torhüter gewählt. Sein Comeback für die WM 2026 galt von Anfang an als riskant, da er im Vereinsbetrieb beim FC Bayern zuletzt nicht mehr unumstrittene Nummer eins war.\n\nMit Neuers Abgang verliert die Nationalmannschaft ihren langjährigen Anker im Tor. Beim FC Bayern steht er noch unter Vertrag und bleibt vorerst Teil des Kaders von Trainer Vincent Kompany – wie es mit seiner Klubkarriere weitergeht, ist nach diesem WM-Abschluss die nächste offene Frage.",
-      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3mpin47dyx42x",
-      "sourceName": "kicker (Bluesky) / Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
