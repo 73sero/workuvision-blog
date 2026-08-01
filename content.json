@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-07-31T17:18:54+00:00",
+  "lastUpdated": "2026-08-01T06:20:38+00:00",
   "tiktokStats": {
-    "followers": 2905,
+    "followers": 2903,
     "likes": "39K",
     "videos": 91
   },
   "ticker": [
+    "Hoeneß lacht über Real-Madrid-Gerüchte und stärkt Eberl den Rücken",
     "Osmani unterschreibt: Bayern bindet Campus-Talent langfristig",
     "Gedränge auf der Zehn: Kompany vor schwierigen Entscheidungen",
     "Laimer verlängert: Bayern bindet Österreicher bis 2029",
     "Olise weint nach WM-Aus: Drei vergebene Chancen gegen England",
-    "Aseko wechselt fest zu Eintracht Frankfurt",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-08-01-hoeness-lacht-ueber-real-madrid-geruechte-und-stae",
+      "date": "2026-08-01",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-08-01-hoeness-lacht-ueber-real-madrid-geruechte-und-stae.webp",
+      "thumbnailAlt": "Hoeneß lacht über Real-Madrid-Gerüchte und stärkt Eberl den Rücken",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Hoeneß lacht über Real-Madrid-Gerüchte und stärkt Eberl den Rücken",
+      "excerpt": "Uli Hoeneß hielt seine jährliche Tegernsee-Rede – und nutzte sie für eine Friedensgeste an Sportvorstand Max Eberl sowie für klare Worte zu Michael Olise.",
+      "body": "Jedes Jahr im Trainingslager am Tegernsee ergreift Uli Hoeneß das Wort. Der Ehrenpräsident des FC Bayern kommentiert die Klublage, mahnt oder lobt – selten ohne Wirkung. In diesem Jahr aber war der Ton auffallend versöhnlich, berichtet die Süddeutsche Zeitung.\n\nIm Mittelpunkt stand das Verhältnis zu Sportvorstand Max Eberl. Hoeneß soll eine ausdrückliche Friedensgeste in Richtung Eberl gesendet haben – eine gute Nachricht für den Sportvorstand, der in der Vergangenheit intern unter Druck geraten war. Details zu den genauen Aussagen nannte die Süddeutsche Zeitung nicht, beschreibt den Auftritt aber als klares Signal der Rückendeckung.\n\nFür Heiterkeit sorgte das Thema Michael Olise. Der Franzose hatte in der abgelaufenen WM eine starke Rolle auf der Zehn gespielt und dabei das Interesse von Real Madrid geweckt. Laut Süddeutscher Zeitung ließ Hoeneß die entsprechenden Gerüchte nicht unkommentiert – er soll sie mit Gelassenheit und sichtlicher Belustigung abgetan haben. Olise steht beim FC Bayern unter Vertrag; Verkaufsabsichten signalisierte Hoeneß keine.\n\nDie Olise-Frage hat in München zuletzt an Gewicht gewonnen. Nach einer Bundesliga-Saison mit Bestwerten bei den Torvorlagen und einer WM, in der er Frankreich als Spielgestalter prägte, ist der 23-Jährige in der europäischen Elite angekommen. Dass ausgerechnet Real Madrid seinen Namen ins Spiel brachte, war für Hoeneß offenbar kein Anlass zur Sorge – eher zum Schmunzeln.\n\nAuch FIFA-Präsident Gianni Infantino war Thema der Rede, ohne dass die Süddeutsche Zeitung inhaltliche Einzelheiten veröffentlichte. Die Tegernsee-Auftritte des Ehrenpräsidenten gelten intern als feste Größe im Saisonkalender. Dass Hoeneß diesmal vor allem Einigkeit demonstrierte, dürfte dem Klub kurz vor Saisonbeginn nicht schaden.",
+      "sourceUrl": "https://www.sueddeutsche.de/sport/uli-hoeness-fc-bayern-versoehnung-eberl-tegernsee-li.3524466",
+      "sourceName": "Süddeutsche Zeitung"
+    },
     {
       "slug": "2026-07-23-osmani-unterschreibt-bayern-bindet-campus-talent-l",
       "date": "2026-07-23",
@@ -479,22 +495,6 @@
       "excerpt": "Hinter den Olise-Spekulationen steckt offenbar mehr: Bayern und Real Madrid sollen eine informelle Abmachung getroffen haben.",
       "body": "Die Gerüchte um Michael Olise und Real Madrid haben in den vergangenen Wochen ein Ausmaß erreicht, das die Königlichen zu einer öffentlichen Stellungnahme zwang. Real dementierte offiziell jedes Interesse an einem Transfer. Doch in dieser Erklärung steckte laut Bavarian Football Works ein Detail, das bislang nicht bekannt war.\n\nDemnach sollen der FC Bayern und Real Madrid eine informelle Vereinbarung getroffen haben. Über deren genauen Inhalt macht Bavarian Football Works keine vollständigen Angaben, da der Artikel hinter einer Paywall liegt – doch der Hinweis auf eine solche Abmachung ist für sich genommen bemerkenswert. Er deutet darauf hin, dass die beiden Klubs hinter den Kulissen in engem Kontakt stehen.\n\nBayerns Klubpräsident Herbert Hainer hatte zuletzt unmissverständlich klargestellt, dass Olise nicht zu kaufen sei. Auch dieser Bericht passt in das Bild: Die Münchner wollen den Franzosen halten, scheinen aber gleichzeitig einen geregelten Rahmen mit Madrid geschaffen zu haben – möglicherweise für eine spätere Entwicklung.\n\nOlise selbst befindet sich derzeit in starker Form. Bei Frankreichs WM-Vorbereitung erzielte er einen Dreierpack und wurde in einer Wahl zum besten Angreifer der Welt gekürt. Sein Marktwert ist entsprechend gestiegen, was das Interesse großer europäischer Klubs erklärt. Für Bayern ist er in der Saison 2025/26 einer der wichtigsten Offensivspieler.\n\nWas genau diese Vereinbarung zwischen München und Madrid beinhaltet, bleibt vorerst offen. Bavarian Football Works spricht von einer Abmachung, die öffentlich bislang nicht bekannt war – und die Real Madrids Dementi in einem anderen Licht erscheinen lässt. Ob es sich um eine Vorkaufsklausel, eine zeitliche Absprache oder etwas anderes handelt, geht aus den verfügbaren Informationen nicht hervor.",
       "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-news-rumors/220241/inside-bayern-munichs-secret-agreement-with-real-madrid",
-      "sourceName": "Bavarian Football Works"
-    },
-    {
-      "slug": "2026-06-26-saibari-transfer-fixanteil-unter-50-millionen-euro",
-      "date": "2026-06-26",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-06-26-saibari-transfer-fixanteil-unter-50-millionen-euro.webp",
-      "thumbnailAlt": "Saibari-Transfer: Fixanteil unter 50 Millionen Euro",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Saibari-Transfer: Fixanteil unter 50 Millionen Euro",
-      "excerpt": "Die Ablösemodalitäten für PSV-Angreifer Ismael Saibari werden konkreter. Der Fixbetrag liegt laut Sky-Reporter Florian Plettenberg unter 50 Millionen Euro.",
-      "body": "Die Verhandlungen zwischen dem FC Bayern und PSV Eindhoven um Ismael Saibari nehmen Form an. Laut Sky-Journalist Florian Plettenberg, dessen Informationen Bavarian Football Works veröffentlichte, wird der fixe Transferanteil die Marke von 50 Millionen Euro nicht erreichen. Bonuszahlungen könnten die Gesamtsumme jedoch knapp darüber treiben.\n\nSportdirektor Max Eberl hat den fixen Anteil der Ablöse offenbar erfolgreich gedrückt. Das ist aus Münchner Sicht kein unwichtiges Detail: PSV hatte zunächst auf einer höheren Festsumme bestanden, weshalb die Verhandlungen zuletzt schleppend liefen. Dass Eberl den Fixbetrag unter der 50-Millionen-Grenze halten konnte, gibt dem Klub Planungssicherheit – die variablen Anteile hängen üblicherweise an Einsatzzeiten, Titeln oder Weiterkommen im Europapokal.\n\nSaibari steht derzeit im marokkanischen WM-Kader und hat sich in den letzten Wochen ins internationale Rampenlicht gespielt. Der 23-jährige Offensivspieler gehört bei PSV zu den zentralen Figuren und gilt als flexibel einsetzbar: Er kann auf beiden Außenbahnen und hinter der Spitze agieren. Bayern sucht nach dem Abgang mehrerer Angreifer in der Tiefe des Kaders Verstärkung – Saibari passt in dieses Profil.\n\nNoch ist der Transfer nicht abgeschlossen. Das Vertragsangebot der Bayern liegt Saibari bereits vor, über die Ablösehöhe wurde zuletzt noch verhandelt. Mit der nun bekannten Einigung auf einen Fixbetrag unter 50 Millionen Euro rückt ein Abschluss näher. Bavarian Football Works berichtet, dass ein Medizincheck möglicherweise noch während der WM in den USA stattfinden könnte, falls sich beide Seiten endgültig einigen.\n\nFür Bayern wäre Saibari einer der teuersten Zugänge des Sommers, aber kein außergewöhnlicher Transferaufwand gemessen an den Marktwerten der vergangenen Jahre. Die Struktur des Deals – niedriger Fixbetrag, leistungsabhängige Boni – entspricht dem Verhandlungsstil, den Eberl in dieser Transferperiode konsequent verfolgt.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/bayern-munich-transfer-rumors-news/220977/bayern-munich-ismael-saibari-transfer-world-cup-morocco-psv-max-eberl",
       "sourceName": "Bavarian Football Works"
     }
   ],
