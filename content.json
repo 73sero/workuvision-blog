@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-08-04T11:57:34+00:00",
+  "lastUpdated": "2026-08-04T14:00:42+00:00",
   "tiktokStats": {
     "followers": 3063,
     "likes": "39K",
     "videos": 92
   },
   "ticker": [
+    "16-Jähriger Assomo trifft: Bayern gewinnt Test in Südkorea",
     "Ndiaye ohne Vertrag: Warum er trotzdem für Bayern spielt",
     "Kane plant Vertragsgespräche – und schielt auf WM 2030",
     "Boey-Transfer zu Galatasaray gescheitert – die Gründe",
     "Bischof soll beim FCB größere Rolle übernehmen",
-    "Neuer dementiert Absprache über mehr Spielzeit für Urbig",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-08-04-16-jaehriger-assomo-trifft-bayern-gewinnt-test-in",
+      "date": "2026-08-04",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/fans.jpg",
+      "thumbnailAlt": "16-Jähriger Assomo trifft: Bayern gewinnt Test in Südkorea",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "16-Jähriger Assomo trifft: Bayern gewinnt Test in Südkorea",
+      "excerpt": "Der FC Bayern gewinnt sein erstes Vorbereitungsspiel in Asien mit 2:1 gegen Jeju SK – dank eines Treffers des 16-jährigen Bastian Assomo.",
+      "body": "Erster Test, erster Sieg: Der FC Bayern hat seine Asien-Reise mit einem 2:1-Erfolg gegen den südkoreanischen Klub Jeju SK eröffnet. Torschützen waren laut kicker ein 16-Jähriger und ein 19-Jähriger – der entscheidende Treffer gelang dabei Bastian Assomo. Der Teenager nutzte die Gelegenheit, um auf sich aufmerksam zu machen.\n\nVincent Kompany setzte in der ersten Stunde auf Nachwuchsspieler, bevor er nach 60 Minuten die Stammspieler einwechselte. Die Süddeutsche Zeitung berichtet, dass der Trainer die Partie bewusst so strukturierte: Talente zuerst, Routiniers danach. Diese Aufteilung ermöglichte es mehreren Akademie-Spielern, sich in einem wettkampfnahen Rahmen zu präsentieren.\n\nEin besonderes Kapitel gehörte Min-Jae Kim. Der Südkoreaner lief vor heimischem Publikum auf, wurde nach 30 Minuten aber ausgewechselt. Bavarian Football Works zufolge erklärte Kompany den frühen Wechsel: Es handelte sich um eine planmäßige Belastungssteuerung, kein gesundheitliches Problem. Kim befindet sich noch im Aufbau nach der WM-Belastung. Sein kurzer Auftritt vor den südkoreanischen Fans wurde vom Stadion entsprechend gefeiert.\n\nManuel Neuer stand bei der Partie nach Angaben von NTV Sport nicht im Tor – der Kapitän schaute bei der schweißtreibenden Begegnung zu. Die Temperaturen in Südkorea sorgten für erschwerte Bedingungen, was den Testspielsieg zusätzlich etwas relativiert. Gegen Ende der Partie kam auch Luis Díaz zu ersten Einsatzminuten, nachdem er zuletzt gefehlt hatte.\n\nDas Spiel im Jeju World Cup Stadion war sportlich kein Maßstab, erfüllte aber seinen Zweck: Kompany konnte Talente sichten, Stammspieler behutsam aufbauen und den Kader auf Spielbetrieb einstimmen. Dass ausgerechnet ein 16-Jähriger den Siegtreffer erzielte, ist für die Außendarstellung des Bayern-Nachwuchses ein gutes Zeichen – auch wenn die Vorbereitungsphase noch weit vom Pflichtspiel-Niveau entfernt ist.",
+      "sourceUrl": "https://www.kicker.de/jeju-sk-gegen-bayern-2026-vereine-freundschaftsspiele-5198827/spielbericht#omrss",
+      "sourceName": "kicker"
+    },
     {
       "slug": "2026-08-04-ndiaye-ohne-vertrag-warum-er-trotzdem-fuer-bayern",
       "date": "2026-08-04",
@@ -480,22 +496,6 @@
       "body": "Es hätte ein WM-Schaufenster werden sollen, wurde aber zu einem frühen Abend: Ismael Saibari, frisch verpflichteter Neuzugang des FC Bayern München, musste im WM-Achtelfinale zwischen Kanada und Marokko nach nur 22 Minuten verletzt den Platz verlassen. Das berichtet der kicker. Marokko setzte sich gegen den Co-Gastgeber durch und zog ins Viertelfinale ein.\n\nSaibari hatte den Wechsel zum deutschen Rekordmeister erst kurz vor Turnierbeginn abgeschlossen. Bayern und der PSV Eindhoven einigten sich auf eine Ablöse, wie zuvor bereits berichtet wurde. Nun überschattet die Verletzung den Einstand des Offensivspielers im Bayern-Trikot, bevor er auch nur ein einziges Pflichtspiel für die Münchner absolviert hat.\n\nWie schwer die Verletzung ist, geht aus dem kicker-Bericht nicht hervor. Für den FCB wird die Diagnose dennoch mit Spannung erwartet: Die Saisonvorbereitung beginnt in wenigen Wochen, und Kompany hatte die Neuverpflichtungen aus dem WM-Turnier fest in seine Planungen einkalkuliert. Saibaris Ausfall – auch wenn er nur vorübergehend ist – würde die Vorbereitungszeit des Spielers in München verkürzen.\n\nMit dem frühen deutschen WM-Aus kehren die DFB-Spieler des FCB ohnehin früher als erhofft zurück in die Vereinsarbeit. Für die Bayern-Bosse ergibt sich daraus ein zweischneidiges Bild: Joshua Kimmich und die anderen deutschen Nationalspieler stehen früher zur Verfügung, doch der frisch geholte Saibari könnte angeschlagen ankommen.\n\nMarokko selbst überzeugte im Achtelfinale trotz des frühen Ausfalls von Saibari. Laut n-tv standen die Nordafrikaner defensiv stabil und nutzten ihre Chancen kalt aus. Für Bayern bleibt abzuwarten, wie ernst die Blessur des Neuzugangs tatsächlich ist – offizielle Angaben des Klubs oder des marokkanischen Verbands stehen bislang aus.",
       "sourceUrl": "https://www.kicker.de/bittere-pille-nach-dem-bayern-transfer-saibari-muss-wm-achtelfinale-abbrechen-1233873/artikel#omrss",
       "sourceName": "kicker News"
-    },
-    {
-      "slug": "2026-07-04-saibari-verletzt-sich-bei-wm-achtelfinal-auftritt",
-      "date": "2026-07-04",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-07-04-saibari-verletzt-sich-bei-wm-achtelfinal-auftritt.webp",
-      "thumbnailAlt": "Saibari verletzt sich bei WM-Achtelfinal-Auftritt für Marokko",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Saibari verletzt sich bei WM-Achtelfinal-Auftritt für Marokko",
-      "excerpt": "Bayern-Neuzugang Ismael Saibari musste im Achtelfinale gegen Kanada verletzt vom Feld – kurz nach seiner Unterschrift in München.",
-      "body": "Schlechte Nachrichten für den FC Bayern noch vor dem ersten Training: Ismael Saibari hat sich beim WM-Achtelfinale Marokkos gegen Co-Gastgeber Kanada verletzt und musste vorzeitig ausgewechselt werden. Laut Sport1 (Bluesky) zog sich der Marokkaner die Blessur in einem Zweikampf zu. Die genaue Diagnose war zunächst nicht bekannt.\n\nDas Timing ist ungünstig. Saibari hatte erst wenige Tage vor dem Spiel beim FC Bayern unterschrieben – für rund 50 Millionen Euro Ablöse, wie Sport1 berichtet. Auch Miasanrot vermeldet den Vorfall in seinem Newsticker und bestätigt, dass der Offensivspieler das Spielfeld vorzeitig verlassen musste.\n\nSaibari gilt als vielseitiger Offensivspieler, der zentral wie auf den Flügeln eingesetzt werden kann. Miasanrot hatte den 24-Jährigen zuletzt in einer Videoanalyse unter die Lupe genommen und ihn als flexiblen Zugang für das Münchner Mittelfeld eingeordnet, der sowohl im Pressing als auch in engen Räumen funktioniert. Für Bayern war er als Verstärkung eines Kaders gedacht, der in der Saison 2025/26 die Bundesliga gewann, im Europapokal jedoch frühzeitig ausschied.\n\nWie schwer die Verletzung ist und ob Saibari für den WM-weiteren Verlauf Marokkos zur Verfügung steht, blieb nach dem Spiel zunächst offen. Für den FCB ist die Frage relevant, wann der Neuzugang in die Vorbereitung einsteigen kann. Verpasst er Teile des Trainingslagers, fehlt ihm wertvolle Zeit, um sich in Vincent Kompanys System einzufinden.\n\nDer kicker hatte den Wechsel zuvor als abgeschlossen gemeldet. Bayern hat in diesem Sommer bereits mehrere Positionen verstärkt – neben Saibari wechselt auch Nathaniel Brown an die Isar. Ob der verletzungsbedingte Ausfall länger dauert, dürfte sich in den kommenden Tagen klären.",
-      "sourceUrl": "https://bsky.app/profile/sport1.de/post/3mptmfmgqgw27",
-      "sourceName": "Sport1 (Bluesky)"
     }
   ],
   "tiktokVideosAuto": false,
