@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-08-08T04:46:34+00:00",
+  "lastUpdated": "2026-08-08T10:21:11+00:00",
   "tiktokStats": {
-    "followers": 3081,
+    "followers": 3082,
     "likes": "40K",
     "videos": 93
   },
   "ticker": [
+    "Bayern siegt 2:1 gegen Aston Villa: Díaz trifft zum Abschluss",
     "UEFA übernimmt Kompanys Regelwunsch zur Gelbsperre",
     "Bayern-Talent Assomo trifft: Eberl erklärt neue Kaderphilosophie",
     "16-Jähriger Assomo trifft: Bayern gewinnt Test in Südkorea",
     "Ndiaye ohne Vertrag: Warum er trotzdem für Bayern spielt",
-    "Kane plant Vertragsgespräche – und schielt auf WM 2030",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-08-08-bayern-siegt-2-1-gegen-aston-villa-d-az-trifft-zum",
+      "date": "2026-08-08",
+      "category": "reaction",
+      "badge": "Reaktion",
+      "badgeColor": "brc",
+      "thumbnail": "img/articles/2026-08-08-bayern-siegt-2-1-gegen-aston-villa-d-az-trifft-zum.webp",
+      "thumbnailAlt": "Bayern siegt 2:1 gegen Aston Villa: Díaz trifft zum Abschluss",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Bayern siegt 2:1 gegen Aston Villa: Díaz trifft zum Abschluss",
+      "excerpt": "Der FC Bayern beendet seine Asienreise mit einem 2:1-Testspielsieg gegen den Europa-League-Sieger Aston Villa. Luis Díaz kehrt aus der WM-Pause zurück und trifft.",
+      "body": "Zum Abschluss der Asienreise hat der FC Bayern seinen bislang härtesten Prüfstein bestanden. Gegen den amtierenden Europa-League-Sieger Aston Villa gewannen die Münchner am Freitag verdient mit 2:1, wie der kicker berichtet. Es war das vierte Testspiel der Vorbereitung – und laut Bavarian Football Works das erste, in dem Bayern wirklich einer Wettkampfelf ähnelte: Acht Stammspieler standen in der Startelf.\n\nEin besonderer Moment gehörte Luis Díaz. Der Kolumbianer kehrte nach seiner WM-Teilnahme in den Kader zurück und erzielte prompt einen Treffer. Damit setzte er ein frühes Zeichen, dass er auch nach dem Turnier in Form ist. Die Süddeutsche Zeitung hob seine Rückkehr gesondert hervor.\n\nInnenverteidiger Jonathan Tah übernahm laut Bavarian Football Works die Führung in der Abwehr und stabilisierte die Hintermannschaft. Nach dem Spiel lobte er ausdrücklich den Auftritt von Díaz, sprach aber auch den schwierigen Rasen an, der das Spiel erschwert habe. Für Tah war es nach seiner Ankunft aus Leverkusen einer der ersten aussagekräftigen Tests im Bayern-Trikot.\n\nKapitän Manuel Neuer zeigte sich laut Bavarian Football Works nach dem Abpfiff zufrieden: Der Sieg gegen einen starken Gegner unter schwierigen Bedingungen sei wichtig gewesen, auch im Hinblick auf den Fortschritt, den die Mannschaft in der Vorbereitung mache. Mit dem Ende der Asienreise kehrt der Tross nun nach München zurück. Die noch fehlenden WM-Rückkehrer sollen sich dort in den kommenden Tagen wieder der Gruppe anschließen.\n\nFür Bayern ist der Sieg gegen Villa ein solider Abschluss einer Vorbereitung, in der bislang vor allem Nachwuchsspieler im Mittelpunkt standen. Nun, mit zunehmend vollständigem Kader, rückt der Bundesliga-Auftakt in greifbare Nähe.",
+      "sourceUrl": "https://bsky.app/profile/kicker.de/post/3msiqu35ypb2r",
+      "sourceName": "kicker (Bluesky)"
+    },
     {
       "slug": "2026-08-07-uefa-uebernimmt-kompanys-regelwunsch-zur-gelbsperr",
       "date": "2026-08-07",
@@ -480,22 +496,6 @@
       "body": "Alexander Nübel verlässt den FC Bayern. Der 29-jährige Torwart wechselt zu Beşiktaş, wie die Süddeutsche Zeitung und Bavarian Football Works übereinstimmend berichten. Für Nübel endet damit ein Kapitel, das nie so recht begann: In sechs Jahren absolvierte er gerade vier Pflichtspiele für den Rekordmeister.\n\nDer Wechsel war laut Bavarian Football Works aber zunächst an einem finanziellen Detail hängengeblieben. Nübel hätte beim türkischen Klub deutlich weniger verdient als zuletzt in München, weshalb er von Bayern einen Gehaltsausgleich forderte. Die Münchner erklärten sich dazu bereit – und ebenfalls laut Bavarian Football Works war das die Voraussetzung, damit die Gespräche zwischen den beiden Klubs überhaupt vorangehen konnten.\n\nDie Süddeutsche Zeitung schreibt von einer millionenschweren Abfindung, die Bayern an Nübel auszahlen wird. Konkrete Zahlen nennt das Blatt nicht. Nübel war 2020 ablösefrei von Schalke 04 nach München gekommen – mit dem Versprechen, perspektivisch die Nummer eins zu werden. Weil Manuel Neuer diesen Platz jedoch nie ernsthaft räumte, verbrachte Nübel weite Teile seiner Bayern-Zeit auf Leihbasis bei der AS Monaco und beim VfB Stuttgart.\n\nMit Neuer, Sven Ulreich und dem jungen Jonas Urbig hat der FCB die Torwartposition für die Saison 2025/26 ohnehin neu sortiert. Für Nübel gab es in dieser Konstellation keinen Platz mehr im Kader. Der Wechsel zu Beşiktaş gibt ihm nun die Möglichkeit, in der Süper Lig als klare Nummer eins zu spielen – etwas, das ihm in München verwehrt blieb.\n\nFür Bayern ist der Abgang in erster Linie eine buchhalterische Angelegenheit: Nübels Vertrag lief noch, der Gehaltsausgleich kostet Geld, bringt aber Klarheit im Kader. Ein Spieler, der kaum Pflichtspielminuten sammelte, hinterlässt sportlich keine Lücke.",
       "sourceUrl": "https://www.sueddeutsche.de/sport/nuebel-bayern-besiktas-wechsel-li.3512102",
       "sourceName": "Süddeutsche Zeitung / Bavarian Football Works"
-    },
-    {
-      "slug": "2026-07-07-ibrahimovi-verlaengert-kompany-setzte-sich-persoen",
-      "date": "2026-07-07",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/night.jpg",
-      "thumbnailAlt": "Ibrahimović verlängert: Kompany setzte sich persönlich ein",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Ibrahimović verlängert: Kompany setzte sich persönlich ein",
-      "excerpt": "Arijon Ibrahimović bleibt beim FC Bayern und soll in der Saison 2025/26 alle vier Angriffspositionen als Backup abdecken.",
-      "body": "Arijon Ibrahimović bleibt beim FC Bayern München. Der 20-jährige Angreifer hat seinen ursprünglich im Sommer 2027 auslaufenden Vertrag vorzeitig verlängert, wie der kicker am Dienstag berichtete. Die neue Laufzeit nannte der kicker nicht, doch der Klub hat damit frühzeitig Klarheit geschaffen.\n\nBesonders bemerkenswert ist laut kicker die Rolle, die Trainer Vincent Kompany bei dieser Entscheidung spielte: Der Cheftrainer setzte sich persönlich für den Verbleib des Youngsters ein. Ibrahimović war in der vergangenen Saison an den FC Heidenheim verliehen, wo er Spielpraxis auf Bundesliga-Niveau sammelte. Kompany offenbar sah genug, um ihn in den Münchner Kader zu integrieren.\n\nWie Bavarian Football Works unter Berufung auf Sky-Germany-Reporter Kerry Hau berichtet, ist die Planung für Ibrahimović in der Saison 2025/26 konkret: Er soll als Backup auf allen vier Angriffspositionen eingesetzt werden können. Das bedeutet, er steht hinter Harry Kane im Sturm, aber auch hinter den Flügelspielern Michael Olise, Jamal Musiala, Kingsley Coman und Luis Díaz zur Verfügung. Diese Flexibilität macht ihn im Kader von Kompany zu einer wertvollen Option, gerade in einer Saison mit Bundesliga, DFB-Pokal und Champions League.\n\nFür Ibrahimović ist die Vertragsverlängerung ein klares Signal nach einer schwierigen Phase. Der gebürtige Schweizer mit nordmazedonischen Wurzeln galt zwischenzeitlich als Kandidat für einen dauerhaften Abgang. Stattdessen erhält er nun eine definierte Rolle im Profikader des Rekordmeisters. Ob er diese nutzen kann, wird sich in der Vorbereitung zeigen.\n\nDer FCB baut damit auf Eigengewächse und Rückkehrer aus dem Leihgeschäft, anstatt auf dem Transfermarkt weitere externe Lösungen für die Breite des Kaders zu suchen. Ibrahimović ist dabei kein Einzelfall: Auch die Kaderstrategie der Münchner für 2025/26 deutet insgesamt auf eine bewusstere Einbindung junger Spieler hin. Ob der 20-Jährige am Ende der Saison tatsächlich Bundesliga-Einsatzzeiten vorweisen kann, bleibt die entscheidende Frage.",
-      "sourceUrl": "https://www.kicker.de/kompany-setzte-sich-fuer-rueckkehr-ein-ibrahimovic-verlaengert-bei-bayern-1233904/artikel#omrss",
-      "sourceName": "kicker News"
     }
   ],
   "tiktokVideosAuto": false,
