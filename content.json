@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-08-09T04:55:03+00:00",
+  "lastUpdated": "2026-08-09T10:22:59+00:00",
   "tiktokStats": {
     "followers": 3082,
     "likes": "40K",
     "videos": 93
   },
   "ticker": [
+    "Ndiaye-Transfer: Woran der Wechsel zum FCB noch hakt",
     "Musiala und der Druck: Vom Juwel zur Nummer 10",
     "Sacha Boey trotz Verkaufsdruck: Kompany lobt Haltung des Franzosen",
     "Bayern siegt 2:1 gegen Aston Villa: Díaz trifft zum Abschluss",
     "UEFA übernimmt Kompanys Regelwunsch zur Gelbsperre",
-    "Bayern-Talent Assomo trifft: Eberl erklärt neue Kaderphilosophie",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-08-09-ndiaye-transfer-woran-der-wechsel-zum-fcb-noch-hak",
+      "date": "2026-08-09",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-08-09-ndiaye-transfer-woran-der-wechsel-zum-fcb-noch-hak.webp",
+      "thumbnailAlt": "Ndiaye-Transfer: Woran der Wechsel zum FCB noch hakt",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Ndiaye-Transfer: Woran der Wechsel zum FCB noch hakt",
+      "excerpt": "Der FC Bayern verhandelt weiter um einen neuen Stürmer. Laut Miasanrot stocken die Gespräche um Iliman Ndiaye aus konkreten Gründen.",
+      "body": "Der FC Bayern arbeitet in diesem Sommer an einer weiteren Verstärkung für den Angriff. Wie Miasanrot berichtet, ist der Senegalese Iliman Ndiaye ein Kandidat der Münchner – doch der Transfer zieht sich hin. Der Fanblog, der in der Vergangenheit wiederholt gut informiert über interne Vorgänge beim FCB berichtet hat, listet konkrete Hürden, die den Abschluss bislang verhindern.\n\nEin zentrales Problem ist offenbar die Ablöseforderung seines aktuellen Vereins. Die Bayern und der abgebende Klub sind sich beim Preis noch nicht einig. Parallel dazu laufen nach Miasanrot-Angaben die Verhandlungen über persönliche Konditionen mit dem Spieler selbst noch nicht auf der Zielgeraden. Beide Seiten müssen sich also noch annähern – sowohl auf Vereins- als auch auf Spielerebene.\n\nDer Transfer-Ticker von Miasanrot nennt neben Ndiaye auch den Namen Bara Sapoko als weiteren Beobachteten. Details zu dessen Status bleiben in der Quelle allerdings knapp. Der Fokus liegt klar auf Ndiaye, der in der Vergangenheit in der Ligue 1 auf sich aufmerksam gemacht hat und als technisch starker Flügelstürmer gilt.\n\nFür den FC Bayern ist der Transfersommer ohnehin komplex. Mit dem eingerichteten Transferkomitee und dem Gebot, zunächst Spieler verkaufen zu müssen, bevor neue Zugänge finanziert werden, arbeitet Sportvorstand Max Eberl unter engen Rahmenbedingungen. Palhinha steht nach bisherigen Berichten vor einem möglichen Abgang, was Mittel freimachen könnte. Ob das die Verhandlungen um Ndiaye beschleunigt, lässt Miasanrot offen.\n\nDie Vorbereitung läuft: Bayern hat die Audi Summer Tour in Asien mit zwei Siegen abgeschlossen und kehrt nun nach München zurück. Die Zeit bis zum Bundesliga-Auftakt wird knapper, was den Druck auf eine schnelle Transfer-Lösung im Angriff erhöht.",
+      "sourceUrl": "https://miasanrot.de/fc-bayern-news-geruechte-bara-sapoko-ndiaye-transfer/",
+      "sourceName": "Miasanrot (Fanblog)"
+    },
     {
       "slug": "2026-08-08-musiala-und-der-druck-vom-juwel-zur-nummer-10",
       "date": "2026-08-08",
@@ -480,22 +496,6 @@
       "body": "Ein Jahr ist vergangen, seit Jamal Musiala sich den Wadenbeinbruch zuzog, der die zweite Saisonhälfte des FC Bayern überschattete. Bei der WM 2026 in Nordamerika kehrt der 21-Jährige nun auf die große Bühne zurück – doch die Frage nach seiner früheren Form bleibt offen. Die Süddeutsche Zeitung hat die Situation des Offensivspielers analysiert und zeichnet ein differenziertes Bild.\n\nLaut dem Bericht sucht Musiala nach wie vor nach der Leichtigkeit, die ihn vor der Verletzung ausgezeichnet hatte. Die körperliche Fitness ist wiederhergestellt, die spielerischen Automatismen kehren jedoch nur schrittweise zurück. Bei der WM steht er vor der Aufgabe, sich in einem anspruchsvollen Turnier-Rhythmus zurückzufinden – unter den Augen der Öffentlichkeit, ohne die übliche Anlaufzeit einer Vereinsvorbereitung.\n\nDer FC Bayern beobachtet die Entwicklung nach Angaben der Süddeutschen Zeitung aufmerksam. Der Verein glaubt weiterhin an ein vollständiges Comeback des Nationalspielers. Gleichzeitig hat der Rekordmeister im zurückliegenden Transferfenster vorgesorgt und mit Luis Díaz sowie Nicolas Jackson zwei weitere Offensivoptionen verpflichtet, die das Angriffsspiel breiter aufstellen. Die Abhängigkeit von einem einzelnen Spieler ist damit geringer als noch in der Vorsaison.\n\nMusiala selbst hat in Interviews bei der WM angedeutet, dass er sich noch im Prozess der Rückfindung befindet. Der Druck, sofort wieder auf dem Niveau vor dem Bruch zu agieren, sei spürbar – auch wenn er ihn nach außen hin ruhig trägt. Seine Rolle im deutschen Nationalteam war zuletzt eine andere als die beim FC Bayern: weniger zentral, stärker eingebunden in ein kollektives System.\n\nFür die Saison 2025/26 bleibt Musiala eine der Schlüsselfiguren im Kader von Trainer Vincent Kompany. Die kommenden Wochen der WM werden zeigen, wie weit der Heilungsprozess tatsächlich fortgeschritten ist – nicht nur körperlich, sondern auch im Hinblick auf das Selbstverständnis als Spieler, dem in München eine tragende Rolle zugedacht ist.",
       "sourceUrl": "https://www.sueddeutsche.de/sport/fussball-wm-musiala-fc-bayern-verletzung-li.3512941",
       "sourceName": "Süddeutsche Zeitung"
-    },
-    {
-      "slug": "2026-07-10-palhinha-vor-abgang-benfica-bereitet-angebot-vor",
-      "date": "2026-07-10",
-      "category": "transfer",
-      "badge": "Gerüchteküche",
-      "badgeColor": "bx",
-      "thumbnail": "img/articles/2026-07-10-palhinha-vor-abgang-benfica-bereitet-angebot-vor.webp",
-      "thumbnailAlt": "Palhinha vor Abgang? Benfica bereitet Angebot vor",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Palhinha vor Abgang? Benfica bereitet Angebot vor",
-      "excerpt": "Benfica Lissabon zeigt konkretes Interesse an Joao Palhinha und soll ein Angebot in Höhe von rund 20 Millionen Euro planen.",
-      "body": "Joao Palhinha könnte den FC Bayern nach nur einer Saison wieder verlassen. Laut Bavarian Football Works, die sich auf den Transferjournalisten Humberto Ferreira beziehen, ist Benfica Lissabon derzeit der ernsthafteste Interessent an dem portugiesischen Mittelfeldspieler. Der Klub aus der Hauptstadt soll ein Angebot von rund 20 Millionen Euro fest plus Bonuszahlungen vorbereiten.\n\nPalhinha war im Sommer 2024 für kolportierte 51 Millionen Euro vom FC Fulham nach München gewechselt – als Absicherung und Konkurrenz im defensiven Mittelfeld. Der 31-Jährige übernahm in der Bundesliga-Saison 2024/25 eine wichtige Rolle als Anker vor der Abwehr, konnte das Niveau aber nicht über die gesamte Spielzeit konstant halten. Nun steht er offenbar zur Disposition.\n\nEin Verkauf für rund 20 Millionen Euro würde einem erheblichen Wertverlust gegenüber dem Einkaufspreis entsprechen. Für die Bayern spräche ein solcher Transfer dann, wenn der Kader anderweitig gestärkt werden soll und Palhinha keine feste Startelf-Garantie mehr besitzt. Mit Aleksandar Pavlović und Joshua Kimmich haben die Münchner im zentralen Mittelfeld ohnehin konkurrenzfähige Alternativen, die unter Trainer Vincent Kompany regelmäßig gesetzt sind.\n\nBavarian Football Works weist zudem darauf hin, dass Bayern gleichzeitig einen Mittelfeldspieler von Manchester City beobachten soll – nähere Details zu diesem Kandidaten nannte die Quelle jedoch nicht. Sollte Palhinha tatsächlich wechseln, wäre eine Nachverpflichtung auf dieser Position naheliegend.\n\nFür Palhinha selbst könnte eine Rückkehr nach Portugal sportlich reizvoll sein: Benfica ist regelmäßig in der Champions League vertreten und würde ihm Spielzeit garantieren, die bei Bayern zunehmend ungewiss wirkt. Ob aus dem Benfica-Interesse ein konkretes Angebot und letztlich ein Wechsel wird, bleibt offen – die Transferphase läuft noch bis Ende August.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/transfer-rumors/227442/bayern-munich-news-benfica-pushing-for-joao-palhinha-fc-bayern-eyeing-man-city-starlet-media-fight-and-more",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
