@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-08-10T10:57:46+00:00",
+  "lastUpdated": "2026-08-10T16:42:48+00:00",
   "tiktokStats": {
-    "followers": 3112,
+    "followers": 3119,
     "likes": "40K",
     "videos": 94
   },
   "ticker": [
+    "Kane gewinnt zweiten Goldenen Schuh – und verlängert wohl bald",
     "Finn Jeltsch auf Bayerns Radar – aber erst für die Zukunft",
     "Trikots von Bischof und Pavlović reißen in Asien weg",
     "Ndiaye-Transfer: Woran der Wechsel zum FCB noch hakt",
     "Musiala und der Druck: Vom Juwel zur Nummer 10",
-    "Sacha Boey trotz Verkaufsdruck: Kompany lobt Haltung des Franzosen",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-08-10-kane-gewinnt-zweiten-goldenen-schuh-und-verlaenger",
+      "date": "2026-08-10",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-08-10-kane-gewinnt-zweiten-goldenen-schuh-und-verlaenger.webp",
+      "thumbnailAlt": "Kane gewinnt zweiten Goldenen Schuh – und verlängert wohl bald",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Kane gewinnt zweiten Goldenen Schuh – und verlängert wohl bald",
+      "excerpt": "Harry Kane hat zum zweiten Mal den Goldenen Schuh gewonnen. Laut Medienberichten steht beim FC Bayern zudem eine Vertragsverlängerung unmittelbar bevor.",
+      "body": "Harry Kane hat in dieser Saison den Goldenen Schuh gewonnen – zum zweiten Mal in seiner Karriere. Das berichtet der kicker. Der Bayern-Torjäger setzte sich dabei gegen Kylian Mbappé durch, der diesmal den dritten Platz belegte. Für Kane ist es die Krönung einer weiteren starken Spielzeit in München.\n\nNoch während die Auszeichnung frisch ist, verdichten sich laut Sportschau die Zeichen auf eine Vertragsverlängerung. Der Engländer stehe demnach unmittelbar vor einer neuen Einigung mit dem FCB. Über die genaue Laufzeit berichtet Bavarian Football Works, der neue Vertrag solle Kane bis 2029 an die Säbener Straße binden – also mehrere Jahre über seinen bisherigen Kontrakt hinaus.\n\nKane war 2023 vom Tottenham Hotspur nach München gewechselt und hatte seitdem die Erwartungen des Klubs in jeder Hinsicht erfüllt. Seit seiner Ankunft hat er sich als verlässlicher Torgarant erwiesen. Der Goldene Schuh bestätigt nun, dass er auch in dieser Saison zur Spitze der europäischen Torjäger zählte.\n\nDass Bayern an einer langen Bindung interessiert ist, überrascht kaum. Kane wäre bei Vertragsende 2029 dann 35 Jahre alt – ein Alter, das bei einem reinen Stürmer Fragen aufwirft. Bavarian Football Works diskutiert genau das: Ob ein Vertrag bis 2029 nicht zu lang sei, sei unter Bayern-Fans durchaus umstritten. Auf der anderen Seite gibt es im aktuellen Kader keine interne Alternative, die Kanes Torquoten auch nur annähernd abrufen könnte.\n\nDie Sportschau berichtet, Kane habe in München noch große Ziele. Ein zweiter Goldener Schuh und eine mögliche Vertragsverlängerung sprechen dafür, dass beide Seiten weiterhin fest aneinander gebunden bleiben wollen. Ob die offizielle Unterschrift noch in dieser Woche folgt, ließ der Klub bislang offen.",
+      "sourceUrl": "https://www.sportschau.de/regional/br/br-harry-kane-aus-dem-urlaub-zur-vertragsunterschrift-102.html",
+      "sourceName": "Sportschau"
+    },
     {
       "slug": "2026-08-09-finn-jeltsch-auf-bayerns-radar-aber-erst-fuer-die",
       "date": "2026-08-09",
@@ -480,22 +496,6 @@
       "body": "Es war ein langes Treffen mit einem klaren Ergebnis: Der DFB und Jürgen Klopp haben sich auf eine Zusammenarbeit als Bundestrainer geeinigt. Laut Bild, zitiert von Bavarian Football Works, dauerte das persönliche Gespräch vier Stunden. Sky-Deutschland-Journalist Florian Plettenberg bestätigt: Es gibt eine grundsätzliche Einigung.\n\nAn dem Treffen nahmen DFB-Präsident Bernd Neuendorf, Vizepräsident Hans-Joachim Watzke sowie Klopp und sein Agent Marc teil. Dass die Beteiligten auf ein persönliches Treffen bestanden, begründeten die DFB-Vertreter laut dem Bericht mit der Tragweite der Entscheidung. Ein Videoformat war offenbar keine Option.\n\nFür den FC Bayern ist die Personalie nicht ohne Belang. Mit Harry Kane, Joshua Kimmich, Manuel Neuer, Leon Goretzka und weiteren Stammkräften stellt der Rekordmeister traditionell einen Großteil des DFB-Kaders. Wie Klopp diesen Bayern-Block einplant und welche Rolle er ihm zuweist, wird eine der zentralen Fragen seiner Amtszeit sein. Die Münchner hatten bei der WM 2026 mit dem deutschen Ausscheiden in der Runde der 32 Frustration erlebt – die Leistungen des Bayern-Blocks wurden dabei von Teilen der Fachpresse kritisch bewertet.\n\nKlopp, zuletzt Trainer des FC Liverpool, hatte seine Karriere nach dem Abschied von den Reds im Sommer 2024 zunächst pausiert. Nun kehrt er auf die große Bühne zurück – diesmal mit dem Bundesadler. Die genauen Vertragsbedingungen sowie die Besetzung seines Trainerstabes sind laut den vorliegenden Berichten noch nicht abschließend geklärt.\n\nFür den deutschen Fußball kommt die Einigung zu einem Zeitpunkt, an dem die Nationalmannschaft nach dem WM-Aus nach einem neuen Impuls sucht. Ob Klopp diesen liefern kann, wird sich spätestens in der ersten Qualifikationsphase zeigen.",
       "sourceUrl": "https://www.bavarianfootballworks.com/fifa-world-cup/229176/jurgen-klopp-dfb-talks-for-four-hours-before-agreement",
       "sourceName": "Bavarian Football Works / Bild / Florian Plettenberg (Sky Deutschland)"
-    },
-    {
-      "slug": "2026-07-11-upamecano-und-olise-fuehren-frankreich-ins-wm-halb",
-      "date": "2026-07-11",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-07-11-upamecano-und-olise-fuehren-frankreich-ins-wm-halb.webp",
-      "thumbnailAlt": "Upamecano und Olise führen Frankreich ins WM-Halbfinale",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Upamecano und Olise führen Frankreich ins WM-Halbfinale",
-      "excerpt": "Frankreich steht nach einem 2:0 gegen Marokko im Halbfinale der WM 2026. Zwei Bayern-Profis spielten dabei durch.",
-      "body": "Frankreich hat sich beim WM-Viertelfinale in Nordamerika mit 2:0 gegen Marokko durchgesetzt und steht damit im Halbfinale. Beide Tore erzielten Kylian Mbappé und Ousmane Dembélé – doch auch zwei Spieler des FC Bayern Munich trugen ihren Teil bei: Dayot Upamecano und Michael Olise absolvierten laut Bavarian Football Works die gesamte Spielzeit.\n\nFür Upamecano war es ein weiterer stabiler Auftritt in der Innenverteidigung. Marokko, das in der Gruppenphase und den vorherigen K.o.-Runden bereits bewiesen hatte, dass es Topteams das Leben schwer machen kann, kam gegen die französische Defensive kaum zu gefährlichen Abschlüssen. Upamecano verteidigte über die vollen 90 Minuten, ohne sich eine Gelbe Karte einzuhandeln.\n\nAuch Olise blieb ohne Verwarnung – was laut Bavarian Football Works für das Halbfinale von Bedeutung ist, da er bei einer Gelben Karte gesperrt gewesen wäre. Sport1 berichtet auf Bluesky, dass Frankreichs Trainer Didier Deschamps sich zuletzt zur Anfangszeit Olises geäußert hat und dessen Zusammenspiel mit Mbappé und Dembélé hervorhob. Im WM-Turnier hat sich der Bayern-Offensivspieler als fester Bestandteil der französischen Startelf etabliert.\n\nDas Ergebnis selbst fiel klarer aus, als es die erste Halbzeit womöglich vermuten ließ. Marokko versuchte bis zuletzt, über Standards und Distanzschüsse ins Spiel zu finden – ein Versuch aus fast der Mittellinie in der Nachspielzeit verfehlte das Tor deutlich. Frankreich kontrollierte das Geschehen über weite Strecken.\n\nMit dem Einzug ins Halbfinale hält Frankreich seinen Kurs durch das Turnier. Für den FC Bayern bedeutet das: Upamecano und Olise sind weiter im WM-Einsatz, während andere Münchner Profis bereits ausgeschieden sind. Beide stehen für das Halbfinale zur Verfügung.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/germany-international-soccer/228305/dayot-upamecano-michael-olise-helps-france-world-cup-semifinal-morocco-kane-england-haaland",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
