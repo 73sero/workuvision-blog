@@ -1,22 +1,38 @@
 {
   "_comment": "Diese Datei wird täglich von GitHub Actions aktualisiert. Manuelle Änderungen werden bei nächster Action überschrieben.",
-  "lastUpdated": "2026-08-12T10:51:21+00:00",
+  "lastUpdated": "2026-08-12T10:53:13+00:00",
   "tiktokStats": {
     "followers": 3120,
     "likes": "40K",
     "videos": 94
   },
   "ticker": [
+    "Bara Ndiaye: Bayerns erstes Red&Gold-Netzwerk-Talent ist offiziell",
     "Kane zum zweiten Mal: Goldener Schuh für Bayern-Stürmer",
     "Journalist in Türkei verhaftet: Falsches Musiala-Gerücht hat Folgen",
     "Kane gewinnt zweiten Goldenen Schuh – und verlängert wohl bald",
     "Finn Jeltsch auf Bayerns Radar – aber erst für die Zukunft",
-    "Trikots von Bischof und Pavlović reißen in Asien weg",
     "Mia san Mia · Workuvision — Bayern-Content ohne Filter",
     "Folge @workuvision auf TikTok, Instagram & YouTube"
   ],
   "tiktokVideos": [],
   "articles": [
+    {
+      "slug": "2026-08-12-bara-ndiaye-bayerns-erstes-red-gold-netzwerk-talen",
+      "date": "2026-08-12",
+      "category": "transfer",
+      "badge": "Gerüchteküche",
+      "badgeColor": "bx",
+      "thumbnail": "img/articles/2026-08-12-bara-ndiaye-bayerns-erstes-red-gold-netzwerk-talen.webp",
+      "thumbnailAlt": "Bara Ndiaye: Bayerns erstes Red&Gold-Netzwerk-Talent ist offiziell",
+      "readtime": "4 Min.",
+      "featured": false,
+      "title": "Bara Ndiaye: Bayerns erstes Red&Gold-Netzwerk-Talent ist offiziell",
+      "excerpt": "Der 18-jährige Bara Ndiaye wechselt offiziell zum FC Bayern – als erstes Talent aus dem clubeigenen Red&Gold-Netzwerk.",
+      "body": "Bara Ndiaye ist seit diesem Dienstag offiziell FC-Bayern-Profi. Der 18-Jährige wechselt aus dem clubeigenen Red&Gold-Netzwerk nach München – und ist damit der erste Spieler, der diesen Weg zum Rekordmeister beschreitet. Die Süddeutsche Zeitung berichtet ausführlich über den Hintergrund des Transfers und beschreibt Ndiaye als \"Leuchtturmprojekt\" des neuen Klub-Netzwerkes.\n\nDas Red&Gold-Netzwerk ist Bayerns Versuch, eine strukturierte Kooperation mit Partnerklubs aufzubauen, über die Talente frühzeitig an die Spielidee und die Strukturen des FCB herangeführt werden. Ndiaye ist nun der erste Spieler, der diesen Weg bis in den Profikader schafft. Die Süddeutsche betont jedoch, dass die Abwicklung des Transfers \"nicht ganz so einfach\" gewesen sei – ohne dabei auf konkrete Hindernisse einzugehen.\n\nMiasanrot berichtet ergänzend, dass der Transfer offiziell fixiert ist. Der Fanblog hatte den Wechsel bereits in seinem täglichen News-Ticker angekündigt, kurz bevor die offizielle Bestätigung folgte. Beide Quellen stimmen darin überein, dass Ndiaye als Perspektivspieler geholt wird.\n\nDer Angreifer gilt intern als großes Versprechen, kommt aber mit dem Bewusstsein, dass der Schritt in den Profikader noch vor ihm liegt. Bayern setzt mit diesem Transfer ein klares Signal: Das Netzwerk soll künftig nicht nur als Kooperationsmodell auf dem Papier existieren, sondern als tatsächlicher Talent-Kanal in Richtung Profiabteilung funktionieren.\n\nFür Bayern ist der Transfer auch strukturell relevant. Der Klub hatte in den vergangenen Jahren immer wieder externe Talente verpflichtet, während die eigene Nachwuchsarbeit und das Partnernetzwerk oft weniger sichtbar blieben. Mit Ndiaye bekommt das Modell erstmals ein Gesicht – ob er sich langfristig im Kader behauptet, wird sich in der Saison 2025/26 zeigen.",
+      "sourceUrl": "https://www.sueddeutsche.de/sport/fc-bayern-ndiaye-transfer-zugang-gambinos-netzwerk-li.3529795",
+      "sourceName": "Süddeutsche Sport"
+    },
     {
       "slug": "2026-08-11-kane-zum-zweiten-mal-goldener-schuh-fuer-bayern-st",
       "date": "2026-08-11",
@@ -480,22 +496,6 @@
       "body": "Beim FC Bayern gibt es in diesem Sommer eine neue Struktur im Transferwesen. Laut Miasanrot hat der Rekordmeister ein Transferkomitee einberufen, das Sportvorstand Max Eberl bei künftigen Personalentscheidungen begleitet. Kein Transfer wird dem Aufsichtsrat vorgelegt, bevor das Komitee einen Konsens erzielt hat – so die Darstellung der Abendzeitung, auf die sich Miasanrot beruft.\n\nDie Kernbotschaft dahinter ist klar: Vor weiteren Verpflichtungen soll Eberl zunächst Spieler abgeben. Der Kauf kommt erst nach dem Verkauf. Bavarian Football Works bestätigt diese Lesart unabhängig und schreibt ebenfalls unter Berufung auf die Abendzeitung, dass diese Reihenfolge intern verbindlich gilt.\n\nDie neue Struktur hat einen konkreten Hintergrund. Eberl und Sportdirektor Christoph Freund stehen nach einer durchwachsenen Transferperiode unter Druck, ihre Positionen langfristig zu rechtfertigen. Miasanrot ordnet das Komitee nicht als Degradierung ein, stellt aber die Frage, was eine zusätzliche Kontrollinstanz über Eberls tatsächlichen Handlungsspielraum aussagt. Ein Sportvorstand, dem ein Gremium zur Seite gestellt wird, hat schlicht weniger Entscheidungsfreiheit als zuvor.\n\nFür den laufenden Sommer hat das direkte Auswirkungen. Der kicker berichtete bereits am 13. Juli, dass Bayern mit Jonathan Asp Jensen einen weiteren Spieler fest ins Ausland abgegeben hat – der Däne wechselt nach Spanien, obwohl er in München nur ein einziges Bundesligaspiel absolviert hatte. Solche Verkäufe schaffen die Grundlage, die das neue Komitee offenbar als Voraussetzung für weitere Einkäufe definiert.\n\nWie viele Mitglieder das Komitee hat und wer konkret dazugehört, lässt Miasanrot offen. Fest steht: Die Entscheidungsstruktur an der Säbener Straße hat sich verändert. Ob das die Transferarbeit beschleunigt oder verlangsamt, wird sich spätestens zeigen, wenn die Bundesliga am ersten Spieltag beginnt.",
       "sourceUrl": "https://miasanrot.de/fc-bayern-max-eberl-transferkomitee-uli-hoeness/",
       "sourceName": "Miasanrot (Fanblog)"
-    },
-    {
-      "slug": "2026-07-14-bayerns-wm-finalserie-seit-1982-steht-auf-dem-spie",
-      "date": "2026-07-14",
-      "category": "reaction",
-      "badge": "Reaktion",
-      "badgeColor": "brc",
-      "thumbnail": "img/articles/2026-07-14-bayerns-wm-finalserie-seit-1982-steht-auf-dem-spie.webp",
-      "thumbnailAlt": "Bayerns WM-Finalserie seit 1982 steht auf dem Spiel",
-      "readtime": "4 Min.",
-      "featured": false,
-      "title": "Bayerns WM-Finalserie seit 1982 steht auf dem Spiel",
-      "excerpt": "Seit 1982 hatte der FC Bayern stets mindestens einen Spieler im WM-Finale. Ob diese Serie hält, entscheidet sich am Dienstagabend.",
-      "body": "Seit der WM 1982 in Spanien steht im Endspiel jeder Weltmeisterschaft mindestens ein Spieler des FC Bayern auf dem Platz. Diese Serie hat 44 Jahre überdauert – und könnte nun reißen. Laut Bavarian Football Works hängt alles am Halbfinale zwischen Frankreich und Spanien am Dienstagabend.\n\nFür die Münchner sind derzeit Michael Olise und Dayot Upamecano bei der WM 2026 aktiv, beide als Vertreter der französischen Nationalmannschaft. Gewinnt Frankreich gegen Spanien, ist der Einzug ins Finale gesichert und die Serie lebt weiter. Eine Niederlage der Équipe Tricolore würde das Ende einer der bemerkenswertesten Statistiken im Weltfußball bedeuten – zum ersten Mal seit über vier Jahrzehnten wäre kein Bayern-Spieler im Endspiel dabei.\n\nDass diese Serie überhaupt so lange Bestand hatte, liegt an der jahrzehntelangen Dominanz des Klubs als Talentschmiede und Stammlieferant für die großen Fußballnationen. Von Karl-Heinz Rummenigge 1982 bis zu den jüngsten WM-Endspielen hat Bayern München beinahe ununterbrochen Spieler in der entscheidenden Partie gestellt. Auch Sport1 berichtete am Montag über die drohende Unterbrechung dieser Bilanz.\n\nOlise hat bei diesem Turnier eine starke Vorstellung abgeliefert. Die Süddeutsche Zeitung beschrieb ihn zuletzt als lange verkannten Spieler, den Frankreich erst während dieser WM in einer neuen Rolle entdeckt hat. Upamecano dagegen ist als Innenverteidiger ein fester Bestandteil der französischen Defensive. Beide stehen also stellvertretend für Bayern München, wenn es am Dienstag im Halbfinale gegen Spanien geht.\n\nFür den FCB ist das Ergebnis sportlich nicht direkt relevant – die Vorbereitung auf die Saison 2025/26 beginnt laut Sport1 unmittelbar nach dem WM-Ende. Trainer Vincent Kompany wird dabei zunächst auf mehrere WM-Teilnehmer verzichten müssen. Die Frage, ob die historische Finalserie weiterläuft, beantwortet der Dienstagabend.",
-      "sourceUrl": "https://www.bavarianfootballworks.com/fifa-world-cup/230489/bayern-munich-streak-to-stay-in-tact-for-another-world-cup",
-      "sourceName": "Bavarian Football Works"
     }
   ],
   "tiktokVideosAuto": false,
